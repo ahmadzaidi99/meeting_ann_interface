@@ -1,0 +1,978 @@
+Turn 0, F (Grad): Test .
+Turn 1, G (Postdoc): OK .
+Turn 2, B (Professor): Let 's see , I should be Two .
+Turn 3, D (PhD): Up high {disfmarker}
+Turn 4, E (Grad): As close to your mouth as you can get it .
+Turn 5, B (Professor): La
+Turn 6, D (PhD): high as you can get .
+Turn 7, B (Professor): Is this channel one ?
+Turn 8, G (Postdoc): Yeah , on your upper lip .
+Turn 9, H (PhD): Channel one one one .
+Turn 10, B (Professor): Gee , OK . Yes . OK .
+Turn 11, E (Grad): OK , so for {disfmarker} for {disfmarker} For people wearing the wireless mikes , like {disfmarker} like this one , I find the easiest way to wear it is sorta this {disfmarker} this sorta like that .
+Turn 12, H (PhD): This is {disfmarker} chan channel channel one one two three
+Turn 13, F (Grad): Channel five , channel five .
+Turn 14, B (Professor): Yeah . Mm - hmm . What do you do ,
+Turn 15, E (Grad): It 's actually a lot more comfortable then if you try to put it over your temples ,
+Turn 16, F (Grad): Test , test test .
+Turn 17, B (Professor): you do it higher ?
+Turn 18, E (Grad): so {disfmarker}
+Turn 19, B (Professor): Mm - hmm .
+Turn 20, D (PhD): Adam 's just trying to generate good uh data for the recognizer there .
+Turn 21, G (Postdoc): Yeah , I think we 're supposed to {disfmarker} that 's right .
+Turn 22, E (Grad): And then also , for {disfmarker} for all of them , if your boom is adjustable , the boom should be towards the corner of your mouth ,
+Turn 23, F (Grad): Test test .
+Turn 24, A (PhD): By the way , there was a bug . Yeah , i it wasn't using the proper
+Turn 25, D (PhD): Oh it was .
+Turn 26, E (Grad): and about a uh a thumb to a thumb and a half distance away from your mouth ,
+Turn 27, A (PhD): basically it wasn't adapting anything .
+Turn 28, D (PhD): Oh .
+Turn 29, E (Grad): so about like I 'm wearing it now .
+Turn 30, D (PhD): Oh that 's interesting . So why didn't you get the same results and the unadapted ?
+Turn 31, E (Grad): so so Jane , you could actually do even a little closer to your mouth ,
+Turn 32, H (PhD): It 's not always possible .
+Turn 33, A (PhD): Hmm ?
+Turn 34, D (PhD): Why didn't you get the same results and the unadapted ?
+Turn 35, G (Postdoc): I could {disfmarker} can this be adjuste like this ?
+Turn 36, E (Grad): but {disfmarker}
+Turn 37, A (PhD): Oh , because when it estimates the transformer pro produces like a single matrix or something .
+Turn 38, E (Grad): Yep .
+Turn 39, G (Postdoc): Is that @ @ ? OK , thank you .
+Turn 40, F (Grad): Adam , I 'm not {disfmarker}
+Turn 41, D (PhD): O Oh oh I see .
+Turn 42, F (Grad): uh , looks kinda low on channel five {disfmarker}
+Turn 43, D (PhD): I see , I see .
+Turn 44, B (Professor): OK .
+Turn 45, F (Grad): no ?
+Turn 46, E (Grad): Channel five , s speak again .
+Turn 47, F (Grad): Maybe not .
+Turn 48, G (Postdoc): Hello .
+Turn 49, A (PhD): Basically there were no counts
+Turn 50, E (Grad): Yeah , that 's alright .
+Turn 51, F (Grad): Hello ?
+Turn 52, E (Grad): I mean , we could {disfmarker} we could up the gain slightly if you wanted to .
+Turn 53, F (Grad): It 's OK ?
+Turn 54, H (PhD): Yeah .
+Turn 55, F (Grad): Is this OK ?
+Turn 56, H (PhD): OK .
+Turn 57, D (PhD): I see what you mean .
+Turn 58, C (PhD): Who 's channel B ?
+Turn 59, E (Grad): but {disfmarker} Uh , channel B is probably Liz .
+Turn 60, C (PhD): Uh oh .
+Turn 61, H (PhD): Uh channel B {disfmarker} I am channel B .
+Turn 62, B (Professor): You wanna close this ,
+Turn 63, G (Postdoc): Channel eight , eight .
+Turn 64, B (Professor): or
+Turn 65, C (PhD): No I
+Turn 66, E (Grad): Thank you .
+Turn 67, H (PhD): No , channel B .
+Turn 68, A (PhD): Hello , hello .
+Turn 69, C (PhD): yeah , yeah , you 're channel B .
+Turn 70, H (PhD): Yeah , yeah .
+Turn 71, C (PhD): So can you talk a bit ? I thought it might be too
+Turn 72, H (PhD): OK , yeah , channel B , one two three four five .
+Turn 73, C (PhD): OK .
+Turn 74, E (Grad): Yeah , it 's alright . So , the gain isn't real good .
+Turn 75, B (Professor): We 're recording ,
+Turn 76, C (PhD): OK .
+Turn 77, B (Professor): right ?
+Turn 78, E (Grad): OK , so we are recording .
+Turn 79, H (PhD): Ah .
+Turn 80, B (Professor): Yeah .
+Turn 81, A (PhD): OK .
+Turn 82, E (Grad): Um everyone should have at least two forms possibly three in front of you depending on who you are .
+Turn 83, F (Grad): Oh .
+Turn 84, E (Grad): Um we {disfmarker} we 're doing a new speaker form and you only have to spea fill out the speaker form once but everyone does need to do it . And so that 's the name , sex , email , et cetera .
+Turn 85, H (PhD): Mm - hmm .
+Turn 86, E (Grad): We {disfmarker} we had a lot of discussion about the variety of English and so on so if you don't know what to put just leave it blank . Um I {disfmarker} I designed the form and I don't know what to put for my own region ,
+Turn 87, A (PhD): Mmm .
+Turn 88, E (Grad): so
+Turn 89, D (PhD): California .
+Turn 90, A (PhD): I think {disfmarker}
+Turn 91, E (Grad): California .
+Turn 92, H (PhD): California .
+Turn 93, A (PhD): Um may I make one suggestion ? Instead of age put date of {disfmarker} uh year of birth
+Turn 94, E (Grad): Sure .
+Turn 95, A (PhD): because age will change , but The year of birth changes , you know , stays the same , usually .
+Turn 96, E (Grad): Oh .
+Turn 97, C (PhD): A actually , wait a minute ,
+Turn 98, E (Grad): Birth year ?
+Turn 99, G (Postdoc): Although on {disfmarker}
+Turn 100, A (PhD): Yeah .
+Turn 101, C (PhD): shouldn't it be the other way around ?
+Turn 102, D (PhD): Not for me .
+Turn 103, G (Postdoc): course on the other {disfmarker} on the other hand you could {disfmarker} you view it as the age at the time of the {disfmarker}
+Turn 104, C (PhD): On the other side ,
+Turn 105, A (PhD): Well the thing is , if ten years from now you look at this form knowing that {disfmarker}
+Turn 106, C (PhD): yeah .
+Turn 107, G (Postdoc): Yes , but what we care about is the age at {disfmarker} at the recording date rather than the {disfmarker}
+Turn 108, C (PhD): O yeah .
+Turn 109, D (PhD): But there 's no other date on the form .
+Turn 110, C (PhD): W we don't care how they {disfmarker} old they really are .
+Turn 111, A (PhD): Well {disfmarker} well I don't know .
+Turn 112, G (Postdoc): Yes . {vocalsound} Unless we wanna send them a card .
+Turn 113, E (Grad): Well I guess it depends on how long the corpus is gonna be collected for .
+Turn 114, A (PhD): Anyway .
+Turn 115, G (Postdoc): Yeah , that 's true .
+Turn 116, C (PhD): I still don't see the problem .
+Turn 117, E (Grad): Either way yeah I think {disfmarker} I think age is alright
+Turn 118, A (PhD): OK .
+Turn 119, E (Grad): and then um there will be attached to this a point or two these forms uh so that you 'll be able to extract the date off that
+Turn 120, A (PhD): Mm - hmm .
+Turn 121, E (Grad): so , anyway . And so then you also have a digits form which needs to be filled out every time , the speaker form only once , the digit form every time even if you don't read the digits you have to fill out the digits form so that we know that you were at the meeting . OK ? And then also if you haven't filled one out already you do have to fill out a consent form . And that should just be one person whose name I don't know . OK ?
+Turn 122, F (Grad): Do you want this {pause} Adam ?
+Turn 123, E (Grad): Uh sure . Thank you .
+Turn 124, B (Professor): So uh
+Turn 125, E (Grad): OK so should we do agenda items ?
+Turn 126, B (Professor): Uh oh that 's a good idea . I shouldn't run the meeting .
+Turn 127, E (Grad): Uh well I have {disfmarker} I wanna talk about new microphones and wireless stuff .
+Turn 128, G (Postdoc): Mmm .
+Turn 129, E (Grad): And I 'm sure Liz and Andreas wanna talk about recognition results . Anything else ?
+Turn 130, C (PhD): I guess {disfmarker} what time do we have to leave ? Three thirty ?
+Turn 131, A (PhD): Yeah .
+Turn 132, C (PhD): Yeah ,
+Turn 133, E (Grad): Why don't you go first then .
+Turn 134, C (PhD): so .
+Turn 135, B (Professor): Yeah , good idea .
+Turn 136, A (PhD): OK .
+Turn 137, C (PhD): Um Well , I {disfmarker} I sent out an email s couple hours ago so um with Andreas ' help um Andreas put together a sort of no frills recognizer which is uh gender - dependent but like no adaptation , no cross - word models , no trigrams {disfmarker} a bigram recognizer and that 's trained on Switchboard which is telephone conversations . Um and thanks to Don 's help wh who {disfmarker} Don took the first meeting that Jane had transcribed and um {vocalsound} you know separated {disfmarker} used the individual channels we segmented it in into the segments that Jane had used and uh Don sampled that so {disfmarker} so eight K um and then we ran up to I guess the first twenty minutes , up to synch time of one two zero zero so is that {disfmarker} that 's twenty minutes or so ? Um yeah because I guess there 's some ,
+Turn 138, E (Grad): Or so .
+Turn 139, C (PhD): and Don can talk to Jane about this , there 's some bug in the actual synch time file that ah uh I 'm {disfmarker} we 're not sure where it came from but stuff after that was a little messier . Anyway so it 's twenty minutes and I actually
+Turn 140, E (Grad): Hmm .
+Turn 141, C (PhD): um
+Turn 142, E (Grad): I {disfmarker} was that {disfmarker} did that {disfmarker} did that recording have the glitch in the middle ?
+Turn 143, G (Postdoc): I 'm puzzled by that . I {disfmarker} oh {disfmarker} oh , I see .
+Turn 144, C (PhD): There 's {disfmarker} there 's a {disfmarker}
+Turn 145, G (Postdoc): Oh there was a glitch somewhere .
+Turn 146, C (PhD): yeah , so that actually um
+Turn 147, F (Grad): Was it twenty minutes in ,
+Turn 148, C (PhD): if it was twenty minutes in then I don't know
+Turn 149, G (Postdoc): I forgot about that .
+Turn 150, F (Grad): I thought {disfmarker}
+Turn 151, A (PhD): Well it was interesting ,
+Turn 152, G (Postdoc): Well , I mean , they {disfmarker}
+Turn 153, A (PhD): suddenly {disfmarker} the {disfmarker} the overall error rate when we first ran it was like eighty percent
+Turn 154, E (Grad): I don't remember when it is .
+Turn 155, G (Postdoc): but I was able to can transcribe
+Turn 156, A (PhD): but i looking at {disfmarker} the first sentences looked much better than that and then suddenly it turned very bad and then we noticed that the reference was always one off with the {disfmarker} it was actually recognized
+Turn 157, C (PhD): Wel
+Turn 158, E (Grad): Oh no .
+Turn 159, F (Grad): Yeah , that might be {disfmarker} that might be {disfmarker} that might be my fault .
+Turn 160, G (Postdoc): Wow .
+Turn 161, A (PhD): so
+Turn 162, E (Grad): Oh so that was just a parsing mismatch .
+Turn 163, F (Grad): I 'm not {disfmarker}
+Turn 164, A (PhD): OK .
+Turn 165, C (PhD): No actually it was {disfmarker} yeah i it was a complicated bug because they were sometimes one off and then sometimes totally random so um
+Turn 166, F (Grad): yeah , I was pretty certain that it worked up until that time ,
+Turn 167, G (Postdoc): Oh . That 's not good .
+Turn 168, C (PhD): Yeah
+Turn 169, A (PhD): OK .
+Turn 170, C (PhD): so that 's what we have
+Turn 171, E (Grad): Alright .
+Turn 172, F (Grad): so
+Turn 173, C (PhD): but that {disfmarker} that will be completely gone if this synch time problem
+Turn 174, G (Postdoc): Yeah .
+Turn 175, E (Grad): The {disfmarker} the glitch
+Turn 176, A (PhD): So {disfmarker} so we have everything recognized but we scored only the first uh whatever , up to that time to
+Turn 177, G (Postdoc): And the only glitch {disfmarker}
+Turn 178, E (Grad): yeah .
+Turn 179, G (Postdoc): yeah .
+Turn 180, C (PhD): So you guys know .
+Turn 181, B (Professor): S sorry I haven't seen the email ,
+Turn 182, C (PhD): Yeah .
+Turn 183, E (Grad): Th - the
+Turn 184, G (Postdoc): The {disfmarker} the {disfmarker} well {disfmarker} wait
+Turn 185, B (Professor): what was the score ?
+Turn 186, C (PhD): So here 's the actual copy of the email
+Turn 187, G (Postdoc): we should say something about the glitch . He {disfmarker} he can say something about the glitch .
+Turn 188, C (PhD): um oh OK
+Turn 189, E (Grad): yeah .
+Turn 190, G (Postdoc): Cuz it 's {disfmarker} it 's {disfmarker} it 's {disfmarker} h it 's {disfmarker} it 's very small {disfmarker}
+Turn 191, C (PhD): so does this glitch occur at other {disfmarker}
+Turn 192, E (Grad): There {disfmarker} there {disfmarker} there 's an acoustic glitch that occurs where um the channels get slightly asynchronized
+Turn 193, G (Postdoc): very small . Yep .
+Turn 194, C (PhD): Oh .
+Turn 195, A (PhD): Mmm .
+Turn 196, C (PhD): Right .
+Turn 197, E (Grad): so the {disfmarker} that {disfmarker} that problem has gone away in the original driver believe it or not when the SSH key gen ran the driver paused for a fraction of a second
+Turn 198, B (Professor): Hmm .
+Turn 199, F (Grad): Hmm .
+Turn 200, E (Grad): and so the channels get a little asynchronous and so if you listen to it in the middle there 's a little part where it starts doing {disfmarker} doing click sounds .
+Turn 201, B (Professor): So {disfmarker}
+Turn 202, C (PhD): And is it only once that that happens ?
+Turn 203, E (Grad): But yeah
+Turn 204, C (PhD): OK .
+Turn 205, E (Grad): it {disfmarker} right once in the middle .
+Turn 206, C (PhD): There 's {disfmarker} the previous page has some more information about sort of what was wrong
+Turn 207, B (Professor): so {disfmarker} so un unsurprisingly Adam is the golden voice ,
+Turn 208, C (PhD): but
+Turn 209, E (Grad): Um But that shouldn't affect anything
+Turn 210, C (PhD): OK so that 's actually
+Turn 211, G (Postdoc): S and it {disfmarker}
+Turn 212, B (Professor): you see this here ?
+Turn 213, C (PhD): It {disfmarker} y it 's {disfmarker}
+Turn 214, E (Grad): yeah yeah " bah "
+Turn 215, C (PhD): OK no {disfmarker}
+Turn 216, A (PhD): Oh , and {disfmarker}
+Turn 217, C (PhD): What happens is it actually affects the script that Don {disfmarker}
+Turn 218, D (PhD): Huh .
+Turn 219, C (PhD): I mean if we know about it then I guess it could always be checked for it
+Turn 220, E (Grad): Well the acoustic one shouldn't do anything .
+Turn 221, C (PhD): but they
+Turn 222, F (Grad): Yeah , I don't know exactly what affected it
+Turn 223, G (Postdoc): I agree . I agree .
+Turn 224, A (PhD): I {disfmarker} I have {disfmarker}
+Turn 225, F (Grad): but I 'll {disfmarker} I 'll talk to you about it ,
+Turn 226, A (PhD): Yeah .
+Turn 227, E (Grad): But I {disfmarker} I do remember {disfmarker}
+Turn 228, C (PhD): Yeah .
+Turn 229, F (Grad): I 'll show you the point .
+Turn 230, G (Postdoc): Yeah . It {disfmarker} it had no effect on my transcription ,
+Turn 231, A (PhD): Mmm .
+Turn 232, G (Postdoc): you know , I mean I {disfmarker} I had no trouble hearing it and {disfmarker} and having time bins
+Turn 233, E (Grad): I do remember seeing once the transcriber produce an incorrect XML file where one of the synch numbers was incorrect .
+Turn 234, G (Postdoc): but there was a {disfmarker} Oh .
+Turn 235, C (PhD): Well , the {disfmarker} the synch time {disfmarker} the synch numbers have more significant digits than they should ,
+Turn 236, F (Grad): That 's what happened .
+Turn 237, G (Postdoc): Oh .
+Turn 238, H (PhD): Yeah .
+Turn 239, E (Grad): Where {disfmarker} where they weren't monotonic .
+Turn 240, F (Grad): There was {disfmarker} yeah , I mean {disfmarker}
+Turn 241, C (PhD): right ? There 's things that are l in smaller increments than a frame .
+Turn 242, H (PhD): Yeah .
+Turn 243, G (Postdoc): Oh , interesting .
+Turn 244, C (PhD): And so then , I mean you look at that and it 's got you know more than three significant digits in a synch time then that can't be right
+Turn 245, E (Grad): Oh OK so that 's
+Turn 246, F (Grad): Hmm .
+Turn 247, G (Postdoc): Oh .
+Turn 248, A (PhD): Mmm .
+Turn 249, C (PhD): so anyway it 's {disfmarker} it 's just {disfmarker}
+Turn 250, E (Grad): yeah sounds like a bug .
+Turn 251, G (Postdoc): Yeah .
+Turn 252, C (PhD): that 's why we only have twenty minutes but there 's a significant amount of {disfmarker}
+Turn 253, F (Grad): Non - zero ? Um there are like more {disfmarker} cuz there 's a lot of zeros I tacked on just because of the way the script ran ,
+Turn 254, E (Grad): The other one I saw was that it yeah .
+Turn 255, F (Grad): I mean but there were there was a point .
+Turn 256, C (PhD): Yeah that was fine . That {disfmarker} that was OK .
+Turn 257, E (Grad): The other one I saw was non non - monotonic synch times
+Turn 258, F (Grad): OK .
+Turn 259, E (Grad): and that definitely indicra indicates a bug .
+Turn 260, F (Grad): Uh .
+Turn 261, C (PhD): Well that would really be a problem , yeah . So anyway these are just the ones that are the prebug for one meeting .
+Turn 262, F (Grad): Yeah .
+Turn 263, C (PhD): um and what 's {disfmarker} which {disfmarker}
+Turn 264, E (Grad): So that 's very encouraging .
+Turn 265, C (PhD): this is really encouraging cuz this is free recognition ,
+Turn 266, B (Professor): Hmm .
+Turn 267, H (PhD): Yeah .
+Turn 268, B (Professor): Cool .
+Turn 269, A (PhD): Mmm .
+Turn 270, C (PhD): there 's no I mean the language model for Switchboard is totally different so you can see some like this Trent Lott which
+Turn 271, D (PhD): Trent Lott .
+Turn 272, C (PhD): um I mean these are sort of funny ones ,
+Turn 273, D (PhD): It 'll get those though .
+Turn 274, C (PhD): there 's a lot of perfect ones and good ones and all the references , I mean you can read them and when we get more results you can look through and see
+Turn 275, E (Grad): I and as I said I would like to look at the lattices
+Turn 276, A (PhD): Mm - hmm .
+Turn 277, C (PhD): but um it 's pretty good .
+Turn 278, E (Grad): because it sounded like even the ones it got wrong it sort of got it right ?
+Turn 279, C (PhD): Well so I guess we can generate
+Turn 280, E (Grad): Sounds likes ?
+Turn 281, A (PhD): There are a fair number of errors that are , you know where {disfmarker} got the plural S wrong or the inflection on the verb wrong .
+Turn 282, G (Postdoc): Mm - hmm .
+Turn 283, C (PhD): um
+Turn 284, E (Grad): Yeah , and who cares ? And {disfmarker} and there were lots of {disfmarker} of course the " uh uh " - s , " in on " - s " of uh " - s .
+Turn 285, A (PhD): Mmm , so if {disfmarker}
+Turn 286, C (PhD): there 's {disfmarker} No those are actually
+Turn 287, A (PhD): Yeah .
+Turn 288, C (PhD): a lot of the errors I think are out of vocabulary ,
+Turn 289, A (PhD): Mm - hmm .
+Turn 290, C (PhD): so is it like PZM is three words , it 's PZM ,
+Turn 291, A (PhD): Mm - hmm .
+Turn 292, C (PhD): I mean there 's nothing There 's no language model for PZM or
+Turn 293, E (Grad): Right . Ri - ri right .
+Turn 294, C (PhD): um
+Turn 295, E (Grad): Did you say there 's no language for PZM ?
+Turn 296, C (PhD): No language model , I mean those {disfmarker}
+Turn 297, E (Grad): Do you mean {disfmarker} so every time someone says PZM it 's an error ? Maybe we shouldn't say PZM in these meetings .
+Turn 298, C (PhD): Well {disfmarker} well there 's all kinds of other stuff like Jimlet and I mean um anyway there {disfmarker}
+Turn 299, E (Grad): Yeah , that 's right , Jimlet .
+Turn 300, B (Professor): Well , we don't even know what that means ,
+Turn 301, C (PhD): so {vocalsound} but this is really encouraging because
+Turn 302, B (Professor): so I
+Turn 303, E (Grad): Yeah , that 's right .
+Turn 304, C (PhD): so , I mean the bottom line is even though it 's not a huge amount of data um it should be uh reasonable to actually run recognition and be like within the scope of {disfmarker} of r reasonable s you know Switchboard this is like h about how well we do on Switchboard - two data with the Switchboard - one trained {disfmarker} mostly trained recognizer
+Turn 305, E (Grad): Right .
+Turn 306, C (PhD): and Switchboard - two is {disfmarker} got sort of a different population of speakers and a different topic
+Turn 307, E (Grad): Excellent .
+Turn 308, C (PhD): and they 're talking about things in the news that happened after Switchboard - one so there was @ @ so that 's great .
+Turn 309, B (Professor): Yeah . Yeah so we 're in better shape than we were say when we did {disfmarker} had the ninety - three workshop
+Turn 310, C (PhD): Um
+Turn 311, B (Professor): and we were all getting like seventy percent error on Switchboard .
+Turn 312, A (PhD): Mm - hmm .
+Turn 313, C (PhD): Oh yeah
+Turn 314, B (Professor): you know
+Turn 315, C (PhD): I mean this is really ,
+Turn 316, A (PhD): Mmm .
+Turn 317, C (PhD): and thanks to Andreas who , I mean this is a
+Turn 318, A (PhD): Mmm .
+Turn 319, E (Grad): Well especially for the very first run , I mean you {disfmarker}
+Turn 320, A (PhD): Oh it 's the {disfmarker}
+Turn 321, B (Professor): Yeah .
+Turn 322, C (PhD): eh um
+Turn 323, B (Professor): Yeah .
+Turn 324, C (PhD): yeah
+Turn 325, E (Grad): the first run I ran of Switchboard I got a hundred twenty percent word error but
+Turn 326, C (PhD): So and what al also this means is that
+Turn 327, G (Postdoc): Right .
+Turn 328, C (PhD): um
+Turn 329, E (Grad): Not Switchboard ,
+Turn 330, A (PhD): Well it 's {disfmarker}
+Turn 331, C (PhD): I mean there 's a bunch of things in this note to various people
+Turn 332, E (Grad): uh Broadcast News .
+Turn 333, C (PhD): especially I guess um with Jane that {disfmarker} that would help for {disfmarker} since we have this new data now uh in order to go from the transcripts more easily to um just the words that the recognizer would use for scoring . I had to deal with some of it by hand but I think a lot of it can be automated s by {disfmarker}
+Turn 334, B (Professor): Oh one thing I guess I didn't get so you know the language model was straight from {disfmarker} from bigram from Switchboard the acoustic models were also from Switchboard or {disfmarker} or
+Turn 335, A (PhD): Yeah .
+Turn 336, C (PhD): Yeah .
+Turn 337, B (Professor): So they didn't have anything from this acoustic data in yet ?
+Turn 338, G (Postdoc): That 's amazing .
+Turn 339, E (Grad): Yeah , so that 's great .
+Turn 340, C (PhD): No .
+Turn 341, B (Professor): OK .
+Turn 342, C (PhD): And actually {disfmarker} we actually um used Switchboard telephone bandwidth models
+Turn 343, G (Postdoc): That 's amazing .
+Turn 344, A (PhD): Well that 's {disfmarker} those are the only we ones there are ,
+Turn 345, B (Professor): Yeah .
+Turn 346, C (PhD): which I guess
+Turn 347, D (PhD): I was just gonna say ,
+Turn 348, C (PhD): so that 's the on that 's the only acoustic training data that we have a lot of
+Turn 349, D (PhD): yeah .
+Turn 350, A (PhD): I mean
+Turn 351, E (Grad): Yeah .
+Turn 352, A (PhD): Right .
+Turn 353, C (PhD): and I guess Ramana , so a guy at SRI said that um there 's not a huge amount of difference going from {disfmarker}
+Turn 354, B (Professor): Right .
+Turn 355, C (PhD): it 's {disfmarker} it 's not like we probably lose a huge amount but we won't know because we don't have any full band models for s conversational speech .
+Turn 356, D (PhD): It 's probably not as bad as going f using full band models on telephone band speech
+Turn 357, C (PhD): So .
+Turn 358, A (PhD): Oh yeah .
+Turn 359, C (PhD): Right .
+Turn 360, D (PhD): right ?
+Turn 361, A (PhD): Yeah .
+Turn 362, B (Professor): Yeah ,
+Turn 363, C (PhD): Right , so it 's {disfmarker} so
+Turn 364, B (Professor): but for Broadcast News when we {disfmarker} we played around between the two there wasn't a huge loss .
+Turn 365, E (Grad): Right , it was not a big deal .
+Turn 366, C (PhD): Yeah
+Turn 367, A (PhD): I should {disfmarker} I should say that {disfmarker} the language model is not just Switchboard
+Turn 368, C (PhD): so I wou so that 's good .
+Turn 369, E (Grad): Although combining em worked well .
+Turn 370, A (PhD): it 's also {disfmarker} I mean there 's uh actually more data is from Broadcast News but with a little less weight
+Turn 371, C (PhD): Yeah .
+Turn 372, A (PhD): uh because
+Turn 373, B (Professor): Uh - huh .
+Turn 374, C (PhD): Like Trent Lott must have been from
+Turn 375, A (PhD): mm - hmm , right .
+Turn 376, C (PhD): I guess {vocalsound} Switchboard was before
+Turn 377, A (PhD): Um By the way just {disfmarker} for fun we also ran ,
+Turn 378, C (PhD): uh .
+Turn 379, B (Professor): Good point .
+Turn 380, A (PhD): I mean our complete system starts by doing ge a gender detection
+Turn 381, B (Professor): Mm - hmm .
+Turn 382, A (PhD): so just for the heck of it I ran that
+Turn 383, E (Grad): And it said a hundred percent male ?
+Turn 384, A (PhD): um and it might be reassuring for everybody to know that it got all the genders right .
+Turn 385, C (PhD): The j
+Turn 386, A (PhD): Yeah so
+Turn 387, E (Grad): Oh it did ?
+Turn 388, G (Postdoc): Oh that 's {disfmarker} I 'm glad .
+Turn 389, E (Grad): It got all two genders ?
+Turn 390, C (PhD): Yeah but you know Jane and Adam have you kn about equal performance
+Turn 391, A (PhD): Yeah . Yes .
+Turn 392, C (PhD): and uh and that 's interesting cuz I think the {disfmarker} their language models are quite different so and I {disfmarker} I 'm pretty sure from listening to Eric that , you know given the words he was saying and given his pronunciation that the reason that he 's so much worse is the lapel .
+Turn 393, B (Professor): Yeah .
+Turn 394, E (Grad): Right .
+Turn 395, G (Postdoc): That makes a lot of sense ,
+Turn 396, C (PhD): So it 's nice now if we can just sort of eliminate the lapel one when {disfmarker} when we get new microphones
+Turn 397, G (Postdoc): yeah . Very possible .
+Turn 398, B (Professor): Yeah I {disfmarker} I {disfmarker} I would bet on that too
+Turn 399, C (PhD): that would be worth it
+Turn 400, B (Professor): cuz he certainly in that {disfmarker} when as a {disfmarker} as a burp user he was {disfmarker} he was a pretty uh strong one .
+Turn 401, C (PhD): um Yeah
+Turn 402, E (Grad): Sheep .
+Turn 403, C (PhD): he {disfmarker} he {disfmarker} he sounded to me just from {disfmarker} he sounded like a ,
+Turn 404, B (Professor): Yeah .
+Turn 405, C (PhD): what 's it a sheep or a goat ?
+Turn 406, B (Professor): Sheep .
+Turn 407, E (Grad): A sheep .
+Turn 408, C (PhD): Sheep ,
+Turn 409, E (Grad): Baah .
+Turn 410, B (Professor): Yeah . Sheep is good .
+Turn 411, C (PhD): right . Sounded good .
+Turn 412, B (Professor): Yeah .
+Turn 413, C (PhD): Right so um so I guess the good news is that
+Turn 414, G (Postdoc): Mm - hmm .
+Turn 415, C (PhD): and {disfmarker} and again this is without a lot of the sort of bells and whistles that we c can do with the SRI system and we 'll have more data and we can also start to maybe adapt the language models once we have enough meetings . So this is only twenty minutes of one meeting with no {disfmarker} no tailoring at all .
+Turn 416, A (PhD): I mean clearly there are um with just a small amount of uh actual meeting transcriptions uh thrown into the language model you can probably do quite a bit better because the {disfmarker}
+Turn 417, C (PhD): Yeah . The voca the vocabulary especially
+Turn 418, E (Grad): Or just dictionary .
+Turn 419, C (PhD): yeah .
+Turn 420, A (PhD): Not that much the vocabulary actually
+Turn 421, C (PhD): Yeah , so .
+Turn 422, A (PhD): I think {disfmarker} um well we have to see but {disfmarker} it 's uh {disfmarker}
+Turn 423, C (PhD): Yeah . It 's pretty good um so then
+Turn 424, B (Professor): Have to add PZM and so on
+Turn 425, E (Grad): And I have to try it on the far field mike
+Turn 426, B (Professor): but
+Turn 427, C (PhD): PZM
+Turn 428, E (Grad): yeah .
+Turn 429, C (PhD): and then there 's things like for the transcription I got when someone has a digit in the transcript I don't know if they said , you know one one or eleven and I don't know if they said Tcl or TCL . there 's things like that where , you know the um we 'll probably have to ask the transcribers to indicate some of those kinds of things but in general it was really good and I 'm hoping {disfmarker} and this is {disfmarker} this is good news because that means the force alignments should be good and if the force alignments , I mean it 's good news anyway but if the force alignments are good we can get all kinds of information . For example about , you know prosodic information and speaker overlaps and so forth directly from the aligned times . Um so that 'll be something that actually in order to assess the forced alignment um we need s some linguists or some people to look at it and say are these boundaries in about the right place . Because it 's just gonna give us time marks
+Turn 430, D (PhD): But you know {disfmarker}
+Turn 431, E (Grad): Well we 've done that for one meeting .
+Turn 432, C (PhD): so . For forced alignment .
+Turn 433, E (Grad): Uh oh oh f not for words
+Turn 434, C (PhD): Ye - right .
+Turn 435, E (Grad): I 'm sorry just for overlaps is we did it for not {disfmarker} not for words .
+Turn 436, C (PhD): Right . So this would be like if you take the words um you know and force align them on all the individual close talk uh close talking mikes then how good are these sort of in reality
+Turn 437, E (Grad): Right .
+Turn 438, C (PhD): and then I was thinking it {disfmarker}
+Turn 439, E (Grad): So we might want to take twenty minutes and do a closer word level transcription . Maybe actually mark the word boundaries .
+Turn 440, C (PhD): Oh or {disfmarker} i have someone look at the alignments uh maybe a linguist who can say um you know roughly if these are OK and how far away they are .
+Turn 441, B (Professor): Yeah .
+Turn 442, C (PhD): Um but I think it 's gotta be pretty good because otherwise the word recognition would be really b crummy .
+Turn 443, E (Grad): Right , right .
+Turn 444, C (PhD): It wouldn't necessarily be the other way around , if the wor word recognition was crummy the alignment might be OK but if the word recognition is this good the alignment should be pretty good . So that 's about it .
+Turn 445, B (Professor): I r
+Turn 446, D (PhD): I wonder if this is a good thing or a bad thing though , I mean if we 're pr
+Turn 447, E (Grad): That we 're starting so well ?
+Turn 448, D (PhD): yeah if we 're producing a database that everybody 's gonna do well on
+Turn 449, B (Professor): Oh
+Turn 450, E (Grad): Don't worry about it w d that 's that 's the close talking mikes . Try it on the P Z Ms and {disfmarker} and
+Turn 451, B (Professor): Yeah , which {disfmarker} I would {disfmarker} which {disfmarker} well n n n n
+Turn 452, D (PhD): So the real value of the database is these ?
+Turn 453, H (PhD): Yeah , yeah , yeah , yeah .
+Turn 454, E (Grad): Yeah , abso well no but
+Turn 455, B (Professor): I mean there 's still just the w the percentages and , I mean they 're not {disfmarker} a as we 've talked about before there 's probably overlaps
+Turn 456, C (PhD): This i yeah . This is not that good .
+Turn 457, B (Professor): there 's probably overlaps in {disfmarker} in uh in fair number in Switchboard as well so but {disfmarker} but there 's other phenomena , it 's a meeting , it 's a different thing and there 's lots of stuff to learn with the close talking mikes but uh yeah certainly I 'd like to see as soon as we could , I mean maybe get some of the glitches out of the way but soon as we could how well it does with say with the P Z Ms or maybe even one of the
+Turn 458, C (PhD): Right .
+Turn 459, B (Professor): and uh see if it 's , you know is it a hundred twenty percent or maybe it 's not maybe if with some adaptation you get this down to fifty percent or forty - five percent or something and {disfmarker} and then if for the PZM it 's seventy or something like that that 's actually something we could sort of work with a little bit
+Turn 460, C (PhD): Yeah .
+Turn 461, B (Professor): so
+Turn 462, C (PhD): No I think it 's really , I mean this way we least have a baseline we know that for instance the transcripts are very good so once you can get to the words that the recognizer which is a total subset of the things you need to understand the {disfmarker} the text um yeah they 're pretty good so and {disfmarker} and it 's converting automatically from the XML to the chopping up the wave forms and so forth it 's not the case that the end of one utterance is in the next segment and things like that which we had more problems with in Switchboard so that 's good . And um let 's see there was one more thing I wanted to {disfmarker} to mention {disfmarker} I can't remember um Sorry can't remember . anyway it 's {disfmarker}
+Turn 463, G (Postdoc): Congratulations is really great .
+Turn 464, B (Professor): Yeah .
+Turn 465, C (PhD): well it was , I mean I really didn't do this myself
+Turn 466, E (Grad): Yeah , it 's really good .
+Turn 467, C (PhD): so Andreas set up this recognizer and {disfmarker} by the way the recognizer all the files I 'm moving to SRI and running everything there so I brought back just these result files and people can look at them um so
+Turn 468, A (PhD): We {disfmarker} we talked about setting up the SRI recognizer here . That 's {disfmarker} you know if {disfmarker} if there are more machines um uh here plus people can {disfmarker} could run their own uh you know variants of {disfmarker} of {disfmarker} of the recognition {pause} runs um certainly doable . Um .
+Turn 469, B (Professor): Yeah and {disfmarker} well certainly if the recognition as opposed to training , yeah .
+Turn 470, A (PhD): Yeah .
+Turn 471, B (Professor): Seems reasonable .
+Turn 472, G (Postdoc): I need t Hmm . I need to ask one question .
+Turn 473, A (PhD): Yeah .
+Turn 474, G (Postdoc): Which is um so this issue {vocalsound} of the uh legalistic aspects of the pre - sent you know pre - adapted {disfmarker} Yeah , well , so what I mean is um the {disfmarker} uh the data that you take into SRI , first {disfmarker} first question , you 're maintaining it in {disfmarker} in a place that wouldn't be publicly readable that {disfmarker} that kind of stuff , right ?
+Turn 475, A (PhD): U um
+Turn 476, C (PhD): From the outside world or
+Turn 477, G (Postdoc): By uh people uh who are not associated with this project .
+Turn 478, A (PhD): Oh .
+Turn 479, E (Grad): It 's human subjects issues , I told you about that .
+Turn 480, C (PhD): Um oh .
+Turn 481, G (Postdoc): Exactly .
+Turn 482, C (PhD): Well OK we have n no names . Although I sh um
+Turn 483, E (Grad): That {disfmarker} that 's not the issue ,
+Turn 484, C (PhD): de audio data itself ?
+Turn 485, E (Grad): it 's just the audio data itself , until people have a chance to edit it .
+Turn 486, G (Postdoc): Mm - hmm , exactly .
+Turn 487, C (PhD): Uh so well I can {disfmarker} I can protect my directories through there .
+Turn 488, G (Postdoc): Yeah .
+Turn 489, C (PhD): Right now they 're not {disfmarker} they 're in the speech group directories which {disfmarker} so I will {disfmarker}
+Turn 490, G (Postdoc): Great .
+Turn 491, C (PhD): I didn't know that actually .
+Turn 492, B (Professor): Yeah so we just have to go through this process of having people approve the transcriptions ,
+Turn 493, C (PhD): Yeah OK .
+Turn 494, B (Professor): say it 's OK .
+Turn 495, C (PhD): Right OK .
+Turn 496, G (Postdoc): Yeah , we had to get them to approve em and then i cuz {disfmarker} cuz the other question I was gonna ask is if we 're having um you know it 's but this {disfmarker} this meeting that you have , no problem cuz I {disfmarker} I well I mean I {disfmarker} I speak for myself
+Turn 497, E (Grad): It 's us .
+Turn 498, G (Postdoc): but {disfmarker} but I think that we didn't do anything that but well anyway so {vocalsound} uh I wouldn't be too concerned about it with respect to that although we should clear it with Eric and Dan of course but these results are based on data which haven't had the uh haven't had the chance to be reviewed by the subjects
+Turn 499, C (PhD): That 's true .
+Turn 500, G (Postdoc): and I don't know how that stands , I mean if you {disfmarker} if you get fantastic results and it 's involving {comment} data which {disfmarker} which later end up being lessened by , you know certain elisions , then I don't know but I wanted to raise that issue ,
+Turn 501, B (Professor): Well we ,
+Turn 502, G (Postdoc): that 's all .
+Turn 503, B (Professor): I mean once we get all this streamlined it may be sh it {disfmarker} hopefully it will be fairly quick but we get the transcriptions , people approve them and so on it 's just that we 're
+Turn 504, E (Grad): Alright we need to work at a system for doing that approval so that we can send people the transcripts
+Turn 505, G (Postdoc): Great .
+Turn 506, A (PhD): Mmm .
+Turn 507, G (Postdoc): Yeah .
+Turn 508, E (Grad): and get back any bleeps that they want
+Turn 509, C (PhD): Yeah actually the bleeps are also an issue I thought .
+Turn 510, B (Professor): It 's gonna be a rare thing that there 's a bleep for the most part .
+Turn 511, A (PhD): U uh actually I had a question about the downsampling , um I don't know who , I mean how this was done but is {disfmarker} is there {disfmarker} are there any um {vocalsound} issues with downsampling
+Turn 512, C (PhD): Don did this .
+Turn 513, A (PhD): because I know that the recognizer um that we use h can do it sort of on the fly um so we wouldn't have to have it eh you know do it uh explicitly beforehand . And is there any um i are there other d sev uh is there more than one way to do the downsampling where one might be better than another ?
+Turn 514, F (Grad): There are lots of w {vocalsound} there are lots of ways to do the downsampling um different filters to put on ,
+Turn 515, A (PhD): OK . Right . OK .
+Turn 516, F (Grad): like anti - aliasing stuff .
+Turn 517, A (PhD): So {disfmarker} so the {disfmarker} th
+Turn 518, E (Grad): I don't think we even know which one I assume you 're using syncat to do it ?
+Turn 519, F (Grad): No , I 'm using uh SN SND uh are resample .
+Turn 520, E (Grad): Or sound resample ?
+Turn 521, C (PhD): Re - re ref
+Turn 522, E (Grad): Resample .
+Turn 523, C (PhD): yeah .
+Turn 524, E (Grad): Yeah and Dan 's archaic acronyms .
+Turn 525, F (Grad): RSMP . Yeah , I don't really .
+Turn 526, C (PhD): Missing all the vowels .
+Turn 527, F (Grad): I just {disfmarker} yeah I found it .
+Turn 528, C (PhD): Some of the vowels ,
+Turn 529, E (Grad): Not all of them .
+Turn 530, C (PhD): almost all the vowels , that 's the hard part .
+Turn 531, A (PhD): So {disfmarker} so the other thing we should try is to just take the original wave forms ,
+Turn 532, E (Grad): And a few of the consonants .
+Turn 533, A (PhD): I mean segment them but not downsample them .
+Turn 534, C (PhD): Yeah we could {disfmarker} we could try that and {disfmarker} and compare
+Turn 535, A (PhD): And {disfmarker} and feed them to {disfmarker} feed them to the SRI recognizer and see if {disfmarker} if the SRI front - end does something .
+Turn 536, F (Grad): Yeah , that 's {disfmarker}
+Turn 537, C (PhD): Yeah .
+Turn 538, E (Grad): I suspect that 's sort of premature optimization , but Sure .
+Turn 539, C (PhD): We can try it . I {disfmarker} I only downsampled them first cuz I was
+Turn 540, A (PhD): Well {disfmarker}
+Turn 541, F (Grad): I mean that 's just one line {disfmarker} that 's one line of code to comment at
+Turn 542, C (PhD): yeah
+Turn 543, A (PhD): Right and {disfmarker} and it doesn't {disfmarker} is no more work {vocalsound} for um you know for us .
+Turn 544, F (Grad): so
+Turn 545, E (Grad): Mm - hmm .
+Turn 546, F (Grad): Yeah .
+Turn 547, C (PhD): Well they 're just bigger to transfer , that 's why I s downsampled them before but
+Turn 548, A (PhD): Well but they 're only twice as big so
+Turn 549, C (PhD): Well I mean that was {disfmarker} if it 's the same then we can downsample here
+Turn 550, A (PhD): I mean it 's {disfmarker} it 's just a
+Turn 551, C (PhD): but if it 's {disfmarker}
+Turn 552, F (Grad): Although those eighty meg files take a while to copy into my directories
+Turn 553, C (PhD): Yeah .
+Turn 554, F (Grad): so , but no , I mean it 's not {disfmarker} i it wouldn't be a problem if you 're interested in it {disfmarker}
+Turn 555, C (PhD): We could try that .
+Turn 556, A (PhD): Yeah I mean it would be uh you know it would probably take uh about um you know
+Turn 557, F (Grad): it would {disfmarker}
+Turn 558, A (PhD): minus the transfer time it would {disfmarker} it would take uh you know ten minutes to try and {disfmarker} and {disfmarker} and
+Turn 559, F (Grad): Yeah .
+Turn 560, E (Grad): It 's about a fifty minute drive , right ?
+Turn 561, A (PhD): And {disfmarker} and if for some reason we see that it works better then we might investigate why
+Turn 562, C (PhD): Well it takes more disk space too so I was just {disfmarker}
+Turn 563, A (PhD): and , you know , what {disfmarker} Yeah .
+Turn 564, F (Grad): Mmm . In the front - end we could do that .
+Turn 565, A (PhD): Yeah .
+Turn 566, B (Professor): So you just train {disfmarker} just different filters
+Turn 567, F (Grad): Yeah , I {disfmarker}
+Turn 568, B (Professor): and so you 're just wondering whether the filter is
+Turn 569, F (Grad): Yeah , I can imagine it would be {disfmarker}
+Turn 570, A (PhD): Right . Right .
+Turn 571, C (PhD): So we could try that with this particular twenty minutes of speech and sort of see if there 's any differences .
+Turn 572, F (Grad): I mean I guess there 's some {disfmarker}
+Turn 573, A (PhD): You know a at some point someone might have optimized whatever filtering is done for the actual recognition um performance .
+Turn 574, F (Grad): Hmm .
+Turn 575, A (PhD): So in other words right ,
+Turn 576, B (Professor): Right .
+Turn 577, A (PhD): so
+Turn 578, E (Grad): It just seems to me that , you know small changes to the language model and the vocabulary will so swamp that that it may be premature to worry about that . I mean so one is a half a percent better than the other I don't think that gives you any information .
+Turn 579, C (PhD): Well it 's just as easy to {disfmarker} to give you the sixteen K individual ,
+Turn 580, E (Grad): Yep .
+Turn 581, C (PhD): it was just more disk space you know for storing them
+Turn 582, B (Professor): Are you {disfmarker} are you using uh uh mel cepstrum or PLP over there ?
+Turn 583, C (PhD): so
+Turn 584, A (PhD): Mel cepstrum .
+Turn 585, B (Professor): So probably doesn't matter .
+Turn 586, C (PhD): Well we could try .
+Turn 587, F (Grad): There 's {disfmarker} there 's your answer .
+Turn 588, B (Professor): But {disfmarker} but it wouldn't hurt to try ,
+Turn 589, C (PhD): Could easily try
+Turn 590, A (PhD): That 's what I would assume but you never know ,
+Turn 591, B (Professor): yeah .
+Turn 592, C (PhD): so
+Turn 593, A (PhD): you know .
+Turn 594, B (Professor): Sure . No the reason I say this
+Turn 595, G (Postdoc): Just {disfmarker} Mm - hmm .
+Turn 596, B (Professor): PLP uses uh auto - regressive filtering and uh modeling and so it can be sensitive to the kind of filtering that you 're doing
+Turn 597, A (PhD): Mm - hmm .
+Turn 598, B (Professor): but uh uh mel cepstrum uh might not {disfmarker} b you wouldn't expect to be so much but
+Turn 599, C (PhD): Well we can try it if you generate like the same set of files just up to that point where we stopped anyway and just sti stick them somewhere
+Turn 600, F (Grad): Yeah , it 's {disfmarker} it 's really not a problem .
+Turn 601, A (PhD): Actually , no .
+Turn 602, C (PhD): and I 'll rerun it with
+Turn 603, A (PhD): Don't stop . Don't stop at that part because we 're actually using the entire conversation to estimate the speaker parameters ,
+Turn 604, F (Grad): Keep going . Yeah .
+Turn 605, A (PhD): so shouldn't use {disfmarker} you should s you know , get
+Turn 606, F (Grad): Yeah , I mean I 'll {disfmarker} I have to do is eh e the reference file would stay the same ,
+Turn 607, C (PhD): OK .
+Turn 608, A (PhD):  Right .
+Turn 609, F (Grad): it 's just the individual segments would be approximately twice as long
+Turn 610, A (PhD): Mmm .
+Turn 611, C (PhD): Right . Right .
+Turn 612, F (Grad): and I could just replace them with the bigger ones in the directory ,
+Turn 613, A (PhD): Right .
+Turn 614, C (PhD): I mean I corrected all {disfmarker}
+Turn 615, E (Grad): Yeah .
+Turn 616, F (Grad): that 's not a problem .
+Turn 617, C (PhD): I mean I hand - edited the whole {disfmarker} the whole meeting so that can be run it 's just {disfmarker} Once we get the {disfmarker} the bug out .
+Turn 618, A (PhD): Mmm .
+Turn 619, G (Postdoc): One {disfmarker} one question which is I {disfmarker} I had the impression {comment} from this {disfmarker} from this meeting that w that I transcribed that um that there was already automatic downsampling occurring ,
+Turn 620, A (PhD): Yeah . Mm - hmm .
+Turn 621, G (Postdoc): is that I thought that in order to
+Turn 622, E (Grad): Yep .
+Turn 623, G (Postdoc): so it was {disfmarker} so it 's like there 's already down
+Turn 624, E (Grad): There 's one level that 's already happening right here .
+Turn 625, B (Professor): This is being recorded at forty - eight kilohertz . Which is more that anybody needs
+Turn 626, G (Postdoc): OK .
+Turn 627, E (Grad): Right .
+Turn 628, F (Grad): Oh .
+Turn 629, E (Grad): And it gets downsampled to sixteen .
+Turn 630, G (Postdoc): OK .
+Turn 631, B (Professor): so
+Turn 632, C (PhD): And that 's actually said in your meeting ,
+Turn 633, F (Grad): Hmm .
+Turn 634, G (Postdoc): Oh OK .
+Turn 635, C (PhD): that 's how I know that .
+Turn 636, G (Postdoc): That 's exactly , and that 's how I know it .
+Turn 637, B (Professor): Yeah .
+Turn 638, C (PhD): I {disfmarker} I {vocalsound} It 's like are we downsampling to sixteen ?
+Turn 639, B (Professor): It 's a digital audio orientation for the board
+Turn 640, C (PhD): Right .
+Turn 641, A (PhD): Mmm .
+Turn 642, B (Professor): it 's in the monitor so it 's
+Turn 643, C (PhD): Thank God it 's not {vocalsound} more than that .
+Turn 644, E (Grad): So {disfmarker}
+Turn 645, B (Professor): Yeah .
+Turn 646, E (Grad): And I have no idea what filter it 's using ,
+Turn 647, F (Grad): Is eight kilohertz {disfmarker} is {disfmarker} is eighty kilohertz generally accepted as like standard for voice ?
+Turn 648, E (Grad): so
+Turn 649, B (Professor): For telephone stuff .
+Turn 650, E (Grad): Telephone .
+Turn 651, D (PhD): Telephone .
+Turn 652, F (Grad): Yeah that 's what I was gonna say , I mean like {disfmarker}
+Turn 653, B (Professor): So it 's {disfmarker} it 's {disfmarker} it 's just that they were operating from Switchboard which was a completely telephone database
+Turn 654, F (Grad): so Oh , I see , so .
+Turn 655, B (Professor): and so that was a standard for that sixteen s
+Turn 656, F (Grad): OK .
+Turn 657, E (Grad): So sixteen seems to be pretty typical for with this sort of thing .
+Turn 658, B (Professor): Sixteen is more common for {disfmarker} for uh broadband stuff that isn't {disfmarker}
+Turn 659, F (Grad): Right .
+Turn 660, E (Grad): That isn't music .
+Turn 661, B (Professor): that isn't music and isn't telephone ,
+Turn 662, C (PhD): And I guess if you 're comparing like {disfmarker} uh if you wanna run recognition on the PZM stuff you would want you don't want to downsample the wh that
+Turn 663, B (Professor): yeah .
+Turn 664, E (Grad): Why is that ?
+Turn 665, B (Professor): I don't know .
+Turn 666, C (PhD): right ? Well I don I mean if it 's any better
+Turn 667, B (Professor): No actually I would think that you would {disfmarker} you would get better {disfmarker} you 'd get better high frequencies in the local mike .
+Turn 668, E (Grad): All the way around I 'd think .
+Turn 669, B (Professor): Uh but who knows ? I mean we do {vocalsound} we {disfmarker} we {disfmarker} we {disfmarker} we {disfmarker} we wanna find all this stuff out ,
+Turn 670, C (PhD): Yeah well we could try it .
+Turn 671, E (Grad): Yeah .
+Turn 672, B (Professor): we don't know .
+Turn 673, E (Grad): We 're gonna have plenty of low frequency on the P Z Ms with the fans .
+Turn 674, C (PhD): OK . Yeah .
+Turn 675, B (Professor): Uh yeah . Yeah .
+Turn 676, C (PhD): Oh yeah there was just one more thing I wanted to say which is totally unrelated to the recognition except that um well {disfmarker} well it 's sort of related but um good news also uh I got {disfmarker} well Chuck Fillmore agreed to record meetings but he had too many people in his meetings and that 's too bad cuz they 're very animated and but uh Jerry also agreed so uh we 're starting on {disfmarker} on
+Turn 677, A (PhD): They 're less animated .
+Turn 678, C (PhD): Well but he has fewer {disfmarker} he {disfmarker} he won't have more than eight and it 's a meeting on even deeper understanding , EDU , so that sounds interesting . As a compliment to our front - end meeting
+Turn 679, E (Grad): Dot EDU ?
+Turn 680, C (PhD): and um so that 's gonna start Monday and one of the things that I was realizing is um it would be really great if anyone has any ideas on some kind of time synchronous way that people in the meeting can make a comment to the person whose gonna transcribe it or {disfmarker} or put a {vocalsound} push a button or something when they wanna make a note about " oh boy you should probably erase those last few " or uh " wait I want this not to be recorded now " or uh something like that s
+Turn 681, B (Professor): Weren't we gonna do something with a pad at one point ?
+Turn 682, G (Postdoc): The cross pads ?
+Turn 683, E (Grad): Yeah , we could do it with the cross pads .
+Turn 684, C (PhD): Cuz I was thinking you know if {disfmarker} if the person who sets up the meeting isn't there and it 's a group that we don't know um and this came up talking to {disfmarker} to Jerry also that you know is there any way for them to indicate {disfmarker} to make sure that the qu request that they have that they make explicitly get addressed somehow
+Turn 685, B (Professor): Yeah .
+Turn 686, C (PhD): so I don't know if anyone has ideas or {disfmarker} you could even write down " oh it 's about three twenty five and " {disfmarker}
+Turn 687, B (Professor): Well what I was just suggesting is {disfmarker} is we have these {disfmarker} this cross pad just for this purpose
+Turn 688, E (Grad): Yeah , and use that .
+Turn 689, B (Professor): and just use that
+Turn 690, E (Grad): Not a bad idea .
+Turn 691, B (Professor): and if we sink it in {disfmarker}
+Turn 692, C (PhD): That would be great .
+Turn 693, B (Professor): The other thing is eh
+Turn 694, C (PhD): That be great .
+Turn 695, B (Professor): I don't know if you know this or if it 's a question for the mail to Dan but is this thing of two eight channel boards a maximum for this setup or could we go to a third board ?
+Turn 696, E (Grad): I don't know . I don't know . I 'll send mail to Dan and ask . I {disfmarker} I think that it 's the maximum we can do without a lot of effort because it 's one board with two digital channels .
+Turn 697, B (Professor): Oh it is one board .
+Turn 698, E (Grad): E eight each . So it {disfmarker} it takes two fibers in to the one board . And so w I think if we wanna do that {disfmarker} more than that we 'd have to have two boards , and then you have the synchronization issue .
+Turn 699, B (Professor): But that 's a question because that would {disfmarker} if it was possible cuz it is i you know already we have a {disfmarker} a {disfmarker} a group of people in this room that cannot all be miked
+Turn 700, E (Grad): Right .
+Turn 701, B (Professor): and it 's not just cuz we haven't been to the store , right it 's {disfmarker}
+Turn 702, D (PhD): What is the limit on each of those f fiber channels , is it the
+Turn 703, E (Grad): Eight .
+Turn 704, D (PhD): It just {disfmarker} it 's eight channels come in , does it have do with the sampling rate ?
+Turn 705, E (Grad): It 's eight . I have no idea . But each {disfmarker} each fiber channel has eight {disfmarker} eight channels and there are two ch two fibers that go in to the card .
+Turn 706, B (Professor): It might be a hard limitation ,
+Turn 707, E (Grad): So
+Turn 708, B (Professor): I mean one thing is it {disfmarker} the whole thing as I said is {disfmarker} is all structured in terms of forty - eight kilohertz sampling so that pushes requirements up a bit
+Turn 709, E (Grad): Yeah .
+Turn 710, B (Professor): but
+Turn 711, D (PhD): I was just wondering if {disfmarker} if that could change .
+Turn 712, E (Grad): I mean then we 'd also have to get another ADD and another mixer and all that sort of stuff .
+Turn 713, D (PhD): If we could drop that .
+Turn 714, B (Professor): Yeah .
+Turn 715, E (Grad): So I {disfmarker} I 'll send a mail to Dan and ask him .
+Turn 716, B (Professor): Yeah .
+Turn 717, E (Grad): OK on the uh are we done with that ? So the oth topic is uh getting more mikes and different mikes , so I got a quote um We can fit {disfmarker} we have room for one more wireless and the wireless , this unit here is three fifty {disfmarker} three hundred fifty dollars , it {disfmarker} I didn't realize but we also have to get a tuner {disfmarker} the receiver {disfmarker} the other end , that 's uh four thirty um and then also
+Turn 718, C (PhD): For {disfmarker} for each ?
+Turn 719, D (PhD): Wow .
+Turn 720, C (PhD): I mean the tuner is four thirty for each .
+Turn 721, E (Grad): Yep .
+Turn 722, C (PhD): Wow .
+Turn 723, E (Grad): And we just need one more so {disfmarker} so
+Turn 724, B (Professor): Yeah at least w we got the good ones .
+Turn 725, E (Grad): Yeah . So that 's you know something like seven hundred eighty bucks for one more of these .
+Turn 726, B (Professor): Yeah . OK .
+Turn 727, E (Grad): Um and then also um It turns out that the connector that this thing uses is proprietary of Sony
+Turn 728, D (PhD): Oh .
+Turn 729, E (Grad): believe it or not and Sony only sells this headset .
+Turn 730, G (Postdoc): Mmm .
+Turn 731, E (Grad): So if we wanna use a different set {disfmarker} headset the solution that the guy suggested and they {disfmarker} apparently lots of people have done is Sony will sell you the jack with just wires coming out the end and then you can buy a headset that has pigtail and solder it yourself . And that 's the other solution and so the jacks are forty bucks apiece and the {disfmarker} he recommended um a crown CM three eleven AE headset for two hundred bucks apiece .
+Turn 732, B (Professor): There isn't this some sort of thing that plugs in , you actually have to go and do the soldering yourself ?
+Turn 733, E (Grad): Becau - the reason is the only {disfmarker} only thing you can get that will plug into this is this mike or just the connector .
+Turn 734, B (Professor): No I understand . The reason I ask is these sort of handmade uh wiring jobs fall apart in use so the other thing is to see if we can uh get them to do a custom job and put it together for this .
+Turn 735, E (Grad): Oh I 'm sure they would , they would just charge us ,
+Turn 736, D (PhD): Well , and they 'd probably want quantity too ,
+Turn 737, E (Grad): so .
+Turn 738, B (Professor): Well
+Turn 739, D (PhD): they 'd
+Turn 740, B (Professor): no they 'll just charge us more , so it 's {disfmarker} this
+Turn 741, D (PhD): Mmm .
+Turn 742, E (Grad): So {disfmarker} so my question is should we go ahead and get na nine identical head - mounted crown mikes ?
+Turn 743, B (Professor): Not before having one come here and have some people try it out .
+Turn 744, E (Grad): OK .
+Turn 745, B (Professor): Because there 's no point in doing that if it 's not gonna be any better .
+Turn 746, E (Grad): So why don't we get one of these with the crown with a different headset ?
+Turn 747, B (Professor): Yeah .
+Turn 748, E (Grad): And {disfmarker} and see if that works .
+Turn 749, B (Professor): And see if it 's preferable and if it is then we 'll get more .
+Turn 750, C (PhD): Comfort .
+Turn 751, E (Grad): Yeah .
+Turn 752, B (Professor): Yeah .
+Turn 753, C (PhD): Cuz I mean I think the microphones are OK it 's just the {disfmarker} the
+Turn 754, E (Grad): Right , it 's just they 're not comfortable to wear .
+Turn 755, B (Professor): Right .
+Turn 756, C (PhD): Could make our own handbands and
+Turn 757, E (Grad): Um , and he said they don't have any of these in stock but they have them in LA and so it will take about a week to get here .
+Turn 758, B (Professor): Yeah well it 's {disfmarker}
+Turn 759, E (Grad): Um so OK to just go order ?
+Turn 760, B (Professor): We 're in this for the long term , yeah . Just order it .
+Turn 761, E (Grad): OK
+Turn 762, C (PhD): It 's a lot of money for a handband .
+Turn 763, E (Grad): and who is the contact if I wanna do an invoice
+Turn 764, F (Grad): Yeah .
+Turn 765, E (Grad): cuz I think that 's how we did it before .
+Turn 766, B (Professor): Uh we 'll do this off - line , yeah .
+Turn 767, F (Grad): It 's a long time to get from LA .
+Turn 768, E (Grad): OK . And then nine channels is the maximum we can do , so .
+Turn 769, B (Professor): Uh y right cuz {disfmarker} so one is for the daisy chain so that 's fifteen instead of sixteen
+Turn 770, E (Grad): Without getting more stuff .
+Turn 771, B (Professor): and there 's six on the table so that 's nine .
+Turn 772, E (Grad): Right .
+Turn 773, C (PhD): Can I ask a really dumb question ?
+Turn 774, B (Professor): Yeah .
+Turn 775, C (PhD): Is {disfmarker} {vocalsound} is there any way we can have you know like a {disfmarker} a wireless microphone that you pass around to the people who you know the extra people for the times they wanna talk that {disfmarker}
+Turn 776, E (Grad): Probably .
+Turn 777, B (Professor): That 's a good idea .
+Turn 778, C (PhD): I mean {disfmarker}
+Turn 779, B (Professor): That 's not a dumb question , it 's a good idea ,
+Turn 780, C (PhD): Well I mean {disfmarker}
+Turn 781, A (PhD): Like uh like you know Jerry Springer thing ,
+Turn 782, B (Professor): yeah .
+Turn 783, E (Grad): I 'm just not sure how we would handle that in the
+Turn 784, F (Grad): That 's like the Conch .
+Turn 785, C (PhD): Well but {disfmarker}
+Turn 786, D (PhD): Like at conferences
+Turn 787, A (PhD): you know r
+Turn 788, C (PhD): well but there might be a way to say that there are gonna be these different people
+Turn 789, F (Grad): See , look .
+Turn 790, C (PhD): um and I don't know identifying somehow ?
+Turn 791, D (PhD): so nail the chairs down .
+Turn 792, A (PhD): Yeah .
+Turn 793, E (Grad): Yeah , somehow .
+Turn 794, C (PhD): You know I was just thinking of Jerry Springer .
+Turn 795, E (Grad): It 's not a bad idea .
+Turn 796, B (Professor): No that {disfmarker} no {disfmarker} no
+Turn 797, A (PhD): 
+Turn 798, B (Professor): that 's a very {disfmarker} if we can't get another board and even if we can I have a feeling they 'll be some work .
+Turn 799, D (PhD): The Springer mike .
+Turn 800, C (PhD): I mean for the few times that you might wanna have that .
+Turn 801, B (Professor): Let 's figure that we have eight which are set up and then there 's a ninth which is passed around to {disfmarker}
+Turn 802, E (Grad): A hand - held , yeah .
+Turn 803, B (Professor): that 's a good idea
+Turn 804, D (PhD): Infinite expansion .
+Turn 805, B (Professor): Right . Kind of rules out overlap but {disfmarker} {vocalsound} but uh
+Turn 806, C (PhD): Well or also for you know if people are not
+Turn 807, B (Professor): Yeah .
+Turn 808, E (Grad): Well we could just hand around the lapel .
+Turn 809, B (Professor): Uh no {disfmarker} no that 's {disfmarker}
+Turn 810, E (Grad): Rather than get a {disfmarker}
+Turn 811, C (PhD): No not the lapel .
+Turn 812, E (Grad): do you want a handset ?
+Turn 813, B (Professor): No .
+Turn 814, E (Grad): Well I mean is the {disfmarker} is the hand - held really any better ?
+Turn 815, D (PhD): Liz hates the lapel .
+Turn 816, B (Professor): Yes .
+Turn 817, C (PhD): I don't know
+Turn 818, E (Grad): OK .
+Turn 819, C (PhD): but I d I know the lapel is really suboptimal .
+Turn 820, B (Professor): No it {disfmarker} no it depends on the hand - held
+Turn 821, E (Grad): Is awful ?
+Turn 822, B (Professor): but hand {disfmarker} many hand - helds are built wi with sort of uh anti - shock sort of things so that it {disfmarker} it is less uh susceptible to hand noises . If you hold the lapel mike i you just get all k sorts of junk .
+Turn 823, D (PhD): Mm - hmm .
+Turn 824, C (PhD): Right . I mean the ones they really pass around must be sort of OK .
+Turn 825, E (Grad): OK .
+Turn 826, B (Professor): so
+Turn 827, E (Grad): So I wonder if they have one that will hook up .
+Turn 828, B (Professor): Yeah . They have {disfmarker} What ?
+Turn 829, E (Grad): I wonder if they have one that will hook up to this or whether again we 'll have to wire it ourselves .
+Turn 830, D (PhD): Well , you wouldn't want it to hook there you 'd just want it to hook into the receiver in the other room , right ?
+Turn 831, B (Professor): No that 's uh {disfmarker} you need a transmitter .
+Turn 832, E (Grad): What ?
+Turn 833, D (PhD): Is th isn't that built into the mike ?
+Turn 834, B (Professor): Oh I see . Get a {disfmarker} get a different radio , yeah .
+Turn 835, C (PhD): Yeah just these ones that they pass around with no you know wireless
+Turn 836, B (Professor): Yeah . But you need a ra but it has to correspond to the receiver .
+Turn 837, D (PhD): Have a little antenna coming out the bottom .
+Turn 838, E (Grad): It 's gonna be much easier to get one of these and just plug in a mike , isn't it ?
+Turn 839, D (PhD): But then the mike has to h
+Turn 840, A (PhD): Do you have to hand it around and if you have two pieces of
+Turn 841, B (Professor): No no {disfmarker}
+Turn 842, C (PhD): Right .
+Turn 843, F (Grad): Yeah .
+Turn 844, A (PhD): 
+Turn 845, B (Professor): so right , so this is a good point , so yeah you have these {disfmarker} these mikes with a little antenna on the end right ?
+Turn 846, E (Grad): OK . And do you think you would be able to use the same receiver ?
+Turn 847, B (Professor): I don't know . You 'll have to check with them ,
+Turn 848, E (Grad): OK I 'll {disfmarker} I 'll ask .
+Turn 849, B (Professor): yeah . But that 's {disfmarker} that 's a great idea
+Turn 850, D (PhD): It 's just a frequency .
+Turn 851, E (Grad): Yeah .
+Turn 852, B (Professor): and then just sort of have that as the {disfmarker} and then you can have groups of twenty people or whatever and {disfmarker} and uh
+Turn 853, C (PhD): Yeah because there 's only I mean as Andreas pointed out actually I think in the large {disfmarker} the larger the group the less interaction {disfmarker} the less people are talking um over each other {disfmarker}
+Turn 854, A (PhD): Pretty soon .
+Turn 855, D (PhD): Mmm , yeah .
+Turn 856, C (PhD): it just {disfmarker} there might be a lot of people that speak once or twice and
+Turn 857, B (Professor): Right .
+Turn 858, A (PhD): Um Gotta go .
+Turn 859, B (Professor): Off you go , yeah .
+Turn 860, E (Grad): OK so I guess people who have to leave can leave and do we have anything else to discuss or should we just do digits ?
+Turn 861, G (Postdoc): I {disfmarker} I thought of some extra {disfmarker} a couple of extra things I 'd like to mention .
+Turn 862, E (Grad): OK .
+Turn 863, G (Postdoc): One of them is to give you a status in terms of the transcriptions so far . So um as of last night um I 'd assigned twelve hours and they 'd finished nine
+Turn 864, E (Grad): uh Yep ,
+Turn 865, G (Postdoc): and my goal was to have eleven done by the end of the month , I think that by tomorrow we 'll have ten .
+Turn 866, C (PhD): Uh it 's great {disfmarker}
+Turn 867, B (Professor): Pretty close ,
+Turn 868, G (Postdoc): So they 're still working .
+Turn 869, B (Professor): that 's good .
+Turn 870, C (PhD): I j and this {disfmarker} I got this email from Jane at like two in the morning or something
+Turn 871, D (PhD): Wow .
+Turn 872, E (Grad): that 's good .
+Turn 873, C (PhD): so it 's really great
+Turn 874, G (Postdoc): It 's working out , thanks .
+Turn 875, C (PhD): It 's really great .
+Turn 876, G (Postdoc): Thanks . And then um also an idea for another meeting , which would be to have the transcribers talk about the data It 's sort of a {disfmarker} a little bit {disfmarker} a little bit
+Turn 877, C (PhD): That 's a great idea .
+Turn 878, B (Professor): Super idea .
+Turn 879, E (Grad): Yep , that 'd be very interesting .
+Turn 880, C (PhD): That 's a great idea cuz I 'd like to g have it recorded so that we can remember all the little things ,
+Turn 881, F (Grad): Yeah .
+Turn 882, E (Grad): I 'd love to hear what they have to say .
+Turn 883, G (Postdoc): Yeah .
+Turn 884, C (PhD): that 's a great idea .
+Turn 885, D (PhD): So if we got them to talk about this meeting , it would be a meta {disfmarker} meta meeting .
+Turn 886, G (Postdoc): Yeah . Yeah , exa {vocalsound} exactly I guess {disfmarker} nested several layers ,
+Turn 887, B (Professor): Now you have eight transcribers and there 's ten of us
+Turn 888, G (Postdoc): but
+Turn 889, B (Professor): so how do we do this , is the only thing .
+Turn 890, C (PhD): Or just have them talk amongst themselves .
+Turn 891, D (PhD): Have them have their own meeting .
+Turn 892, C (PhD): And have
+Turn 893, G (Postdoc): Well that 's what I 'm thinking ,
+Turn 894, B (Professor): Oh .
+Turn 895, G (Postdoc): yeah . Have them talk about the data and they {disfmarker} and they 've made observations to me
+Turn 896, C (PhD): that would be great .
+Turn 897, G (Postdoc): like they say uh you know this meeting that we think has so much overlap , in fact it does but there are other groups of similar size that have very little , you know it 's part of it 's {disfmarker} it 's the norm of the group and all that and they have various observations that would be fun , I think .
+Turn 898, C (PhD): That 's a great idea .
+Turn 899, E (Grad): Yeah , I 'd like to hear what they s say .
+Turn 900, G (Postdoc): Yeah .
+Turn 901, C (PhD): Be great .
+Turn 902, B (Professor): So maybe we could {disfmarker} they could have a meeting more or less without us that {disfmarker} to do this and we should record it
+Turn 903, G (Postdoc): OK .
+Turn 904, B (Professor): and then maybe one or two of them could come to one of these meetings and {disfmarker} and could you know could tell us about it .
+Turn 905, G (Postdoc): Yeah .
+Turn 906, E (Grad): Give us a status .
+Turn 907, C (PhD): Yeah .
+Turn 908, G (Postdoc): Oh good . OK .
+Turn 909, B (Professor): Yeah .
+Turn 910, C (PhD): It 's {disfmarker} they will get to transcribe their own meeting but they also get paid for having a break
+Turn 911, E (Grad): That would be weird .
+Turn 912, G (Postdoc): What {disfmarker} what yeah that 's right .
+Turn 913, C (PhD): and I think that 's a good idea ,
+Turn 914, G (Postdoc): Yeah exactly , yeah .
+Turn 915, B (Professor): Yeah .
+Turn 916, C (PhD): get them involved .
+Turn 917, G (Postdoc): Great .
+Turn 918, C (PhD): Um that 's a great idea .
+Turn 919, G (Postdoc): Great .
+Turn 920, B (Professor): Super .
+Turn 921, C (PhD): I 'm really sorry I have to g no I have to go as well .
+Turn 922, B (Professor): OK .
+Turn 923, G (Postdoc): And then I wanted to also um say something about the Fiscus uh uh John {disfmarker} John Fiscus visit tomorrow . And Which is to say that w it 'll be from nine to one that I 'm going to uh uh offer the organization {disfmarker} allow him to uh adjust it if he wishes but to be basically in three parts , the acoustic part coming first which would be basically the room engineering aspects um other things and he 'll be also presenting what NIST is doing and {disfmarker} and uh then uh number two would be sort of a the {disfmarker} the transcription process so this would be a focus on like presegmentation and the modifications to the {disfmarker} the multitrans interface which allows more refined encoding of the beginnings and ends of the overlapping segments which uh Dave Gelbart 's been doing and then um uh and of course the presegmentation Thilo 's been doing and then um the third part would {disfmarker} and again he has some stuff that 's i relevant with respect to NIST and then the third one would be focus on transcription standards so at NIST he 's interested in this establishment of a global encoding standard I guess I would say and I want it , you know k yeah see what they 're doing and also present what {disfmarker} what we 've chosen as ours and {disfmarker} and discuss that kind of thing . And so but he 's only here until until one and actually we 're thinking of noon being uh lunch time so basically hoping that we can get as much of this done as possible before noon . S
+Turn 924, B (Professor): OK .
+Turn 925, G (Postdoc): And everybody who wants to attend is welcome . So
+Turn 926, E (Grad): Oh , where you 're gonna meet ?
+Turn 927, G (Postdoc): yeah . Here mostly but I 've also reserved the BARCO room um eh to figure out how that works in terms of like maybe having a live demonstration .
+Turn 928, B (Professor): OK but the nine o ' cl nine o ' clock will be i be in here . Yeah , OK .
+Turn 929, G (Postdoc): Yeah . Mm - hmm .
+Turn 930, E (Grad): I assume we 're not gonna try to record it ?
+Turn 931, G (Postdoc): Oh I think that would be hard , yeah .
+Turn 932, B (Professor): Yeah , I think just adds {disfmarker}
+Turn 933, E (Grad): Alright .
+Turn 934, G (Postdoc): Yeah .
+Turn 935, B (Professor): Um good .
+Turn 936, G (Postdoc): Thank you though , uh - huh .
+Turn 937, B (Professor): So maybe do digits and recess ?
+Turn 938, E (Grad): Unless there 's anything else ?
+Turn 939, G (Postdoc): Yeah . Yeah .
+Turn 940, D (PhD): Do digital ones ?
+Turn 941, B (Professor): Uh OK .
+Turn 942, G (Postdoc): Yeah .
+Turn 943, E (Grad): Uh should y we make him wear Andreas ' mike or would that just be too confusing ?
+Turn 944, B (Professor): Yeah . No I don't think it 's confusing . Well , it doesn't confuse me .
+Turn 945, G (Postdoc): When we do this in the key {disfmarker} in the key {disfmarker} in the key it has to indicate that channel change ,
+Turn 946, D (PhD): Does it mess up the forms ?
+Turn 947, G (Postdoc): right ?
+Turn 948, E (Grad): Uh yeah I just don't know how we would do that , so . I mean other than free {disfmarker} free form .
+Turn 949, G (Postdoc): Well i have a time mark .
+Turn 950, D (PhD): The on switch is here on the {disfmarker} on the top there .
+Turn 951, G (Postdoc): Yeah .
+Turn 952, B (Professor): OK .
+Turn 953, E (Grad): And just clip it to your collar .
+Turn 954, B (Professor): That 's fine .
+Turn 955, J (Grad): OK , my name is uh Espen Eriksen . I 'm a Norwegian . Um uh this is my second semester at Berkeley . Currently I 'm taking uh my first graduate level courses in DSP and um when I come back to Norway I 'm gonna continue with the {disfmarker} more of a research project work {disfmarker} kind of work . So this semester I 'm starting up with a {disfmarker} with a small project through uh Dave Gelbart which I 'm taking a course with I got in touch with him and he told me about this project . So with the help of uh Dan Ellis I 'm gonna do small project associated to this . What I 'm gonna try to do is uh use {disfmarker} use ech echo cancellation to uh to handle the periods where you have overlapping talk . To try to do something about that . So currently I 'm um I 'm just reading up on echo cancellation , s looking into the theory behind that and then uh hopefully I get some results . So it {disfmarker} it 's a {disfmarker} it 's a project goes over the course of one semester .
+Turn 956, E (Grad): Great .
+Turn 957, J (Grad): So I 'm just here today to introduce myself . Tell about I 'll be {disfmarker} I 'll be working on this .
+Turn 958, E (Grad): And are you staying at Berkeley or is {disfmarker} are you just here a semester ?
+Turn 959, J (Grad): This is my second semester and last .
+Turn 960, E (Grad): Ah second and last ,
+Turn 961, B (Professor): Yeah .
+Turn 962, E (Grad): OK .
+Turn 963, J (Grad): So I leave
+Turn 964, B (Professor): He 's in the {disfmarker} he 's in the cour two two five D course .
+Turn 965, J (Grad): Yeah , I 'm in Morgan 's course ,
+Turn 966, B (Professor): So , yeah .
+Turn 967, J (Grad): yeah .
+Turn 968, E (Grad): Good .
+Turn 969, D (PhD): Welcome .
+Turn 970, G (Postdoc): Then you {disfmarker} then you go back to Norway , that 's OK .
+Turn 971, J (Grad): Yeah .
+Turn 972, F (Grad): We were just talking about something like this yesterday or yeah yesterday with Liz . About doing some of the {vocalsound} echo cancellation stuff or possibly the spectroanalysis over the overlaps , so . Cool .
+Turn 973, J (Grad): Yeah .
+Turn 974, B (Professor): OK ,
+Turn 975, E (Grad): Digits ?
+Turn 976, B (Professor): let 's do digits . OK .
+Turn 977, E (Grad): And stop .

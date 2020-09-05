@@ -1,0 +1,769 @@
+Turn 0, A (Grad): Alright , so I 'm - I should read all of these numbers ?
+Turn 1, B (Professor): OK .
+Turn 2, E (Grad): Piece of paper ? I could borrow ?
+Turn 3, A (Grad): Oh yeah .
+Turn 4, B (Professor): OK , so uh i um I don't know whether Ami 's coming or not um but I think we oughta just get started .
+Turn 5, E (Grad): Nancy is uh currently in Berkeley but not here ?
+Turn 6, C (Grad): Nancy 's still stick ?
+Turn 7, B (Professor): Don't know . Anyway
+Turn 8, E (Grad): OK .
+Turn 9, B (Professor): Oh , so there you go . Anyway , so my idea f for today and we can uh decide that that isn't the right thing to do was to at {disfmarker} spend at least part of the time trying to eh build the influence links , you know which sets of things are uh relevant to which decisions and actually I had uh specific s suggestion to start first with the path ones . The database ones being in some sense less interesting to us although probably have to be done and so to do that so there 's {disfmarker} and the idea was we were gonna do two things
+Turn 10, C (Grad): Is your mike on ?
+Turn 11, B (Professor): Ah . Oh right , well . Yeah . We were gonna do two things one of which is just lay out the influence structure of what we think influences what
+Turn 12, D (Grad): That 's funny .
+Turn 13, B (Professor): and then as a uh separate but related task uh particularly Bhaskara and I were going to try to decide what kinds of belief nodes are needed in order to um do what we {disfmarker} what we need to do . Once so but du we should sort of have all of the uh basic design of what influences what done before we decide exactly how to compute it . So I didn't {disfmarker} did you get a chance to look at all {disfmarker} yet ?
+Turn 14, D (Grad): Yeah , I looked at some of that stuff .
+Turn 15, B (Professor): Great . OK so let 's start with the uh belief - nets , the general influence stuff and then we 'll {disfmarker} then we 'll also at some point break and talk about the techy stuff .
+Turn 16, E (Grad): Well I think one could go there 's I think we can di discuss everything . First of all this I added , I knew from sort of basically this has to be there right ? Um
+Turn 17, B (Professor): Oh are you gonna go there or not ? Yeah , so one i
+Turn 18, E (Grad): Given {disfmarker} given uh uh not transverse the castle , the decision is does the person want to go there or is it just
+Turn 19, B (Professor): Right , true . Does have to be there . And I 'm sure we 'll find more as we go that
+Turn 20, E (Grad): And Hmm ? So Go - there in the first place or not is definitely uh one of the basic ones . We can start with that . Interesting effect . Um Is this basically true or false or maybe we 'll get
+Turn 21, B (Professor): Well {disfmarker}
+Turn 22, D (Grad): Which one ?
+Turn 23, E (Grad): what ?
+Turn 24, A (Grad): " Go there " .
+Turn 25, E (Grad): m right .
+Turn 26, B (Professor): so there is this question about
+Turn 27, E (Grad): Here we we actually get just probabilities ,
+Turn 28, B (Professor): Yeah .
+Turn 29, E (Grad): right for each down here .
+Turn 30, B (Professor): When we 're {disfmarker} yeah when we 're done . So {disfmarker} so
+Turn 31, E (Grad): Hmm .
+Turn 32, B (Professor): the {disfmarker} the reason it might not be true or false is that we did have this idea of when so it 's , you know uh current @ @ and so forth and so on or not at all ,
+Turn 33, E (Grad): Mm - hmm .
+Turn 34, B (Professor): right ? And so that a decision would be do we want that so you could {disfmarker} two different things you could do , you could have all those values for Go - there or you could have Go - there be binary and given that you 're going there when .
+Turn 35, E (Grad): When . How .
+Turn 36, B (Professor): Yeah and so forth .
+Turn 37, E (Grad): Why ,
+Turn 38, B (Professor): So I 'll let
+Turn 39, E (Grad): yeah .
+Turn 40, B (Professor): we 'll see .
+Turn 41, E (Grad): Hmm ?
+Turn 42, A (Grad): I mean it seems that you could um uh it seems that those things would be logically independent like you would wanna have them separate or binary , Go - there and then the {disfmarker} the possibilities of how to go there because {disfmarker}
+Turn 43, B (Professor): OK , that 's {disfmarker} let 's start that way .
+Turn 44, A (Grad): because , you know it might be easy to figure out that this person is going to need more film eventually from their utterance but it 's much more complex to query when would be the most appropriate time .
+Turn 45, E (Grad): Hmm . Hmm . OK . And so I 've tried to come up with some initial things one could observe so who is the user ? Everything that has user comes from the user model everything that has situation comes from the situation model - A . We should be be clear . But when it comes to sort of writing down when you {disfmarker} when you do these things is it here ? You sort of have to a write the values this can take .
+Turn 46, B (Professor): Right .
+Turn 47, E (Grad): And here I was really uh in some s sometimes I was really sort of standing in front of a wall feeling very stupid because um {disfmarker} this case it 's pretty simple , but as we will see the other ones um for example if it 's a running budget so what are the discrete values of a running budget ? So maybe my understanding there is too impoverished .
+Turn 48, A (Grad): Hmm .
+Turn 49, B (Professor): No uh
+Turn 50, E (Grad): How can I write here that this is something , a number that cr keeps on changing ? But OK . Thus is understandable ?
+Turn 51, A (Grad): Think so .
+Turn 52, C (Grad): Yes .
+Turn 53, E (Grad): So here for example .
+Turn 54, B (Professor): You 've s have you seen this before at all Keith , these belief - net things ?
+Turn 55, A (Grad): Uh , no , but I think I 'm following it . So far .
+Turn 56, E (Grad): So here is the {disfmarker} the {disfmarker} we had that the user 's budget may influence the outcome of decisions .
+Turn 57, B (Professor): Yeah .
+Turn 58, D (Grad): Hmm .
+Turn 59, E (Grad): There we wanted to keep sort of a running total of things .
+Turn 60, D (Grad): Is this like a number that represents how much money they have left to spend ? OK , h well I mean how is it different from user finance ?
+Turn 61, E (Grad): Um the finance is sort of here thought of as {disfmarker} as the financial policy a person carries out in his life , he {disfmarker} is he cheap , average , or spendy ?
+Turn 62, D (Grad): Alright .
+Turn 63, E (Grad): And um I didn't come uh maybe a user I don't know , I didn't want to write greediness , but
+Turn 64, A (Grad): Yeah . Hmm .
+Turn 65, B (Professor): Or cheapness .
+Turn 66, E (Grad): Welcome .
+Turn 67, A (Grad): User thrift .
+Turn 68, E (Grad): Welcome .
+Turn 69, B (Professor): Thrift , that 's good .
+Turn 70, D (Grad): Yeah .
+Turn 71, B (Professor): Great .
+Turn 72, E (Grad): There it is .
+Turn 73, B (Professor): Yeah . So Keith w what 's behind this is actually a program that will once you fill all this in actually s solve your belief - nets for you and stuff .
+Turn 74, A (Grad): Mm - hmm .
+Turn 75, B (Professor): So this is not just a display , this is actually a GUI to a simulator that will if we tell it all the right things we 'll wind up with a functioning belief - net at the other end .
+Turn 76, A (Grad): OK . OK .
+Turn 77, E (Grad): And it 's so simple even I can use it .
+Turn 78, A (Grad): Wow , that is simple .
+Turn 79, E (Grad): OK , so here was OK , I can think of uh people being cheap , average , or spendy or we can even have a {disfmarker} a finer scale moderately cheap ,
+Turn 80, B (Professor): Doesn't matter .
+Turn 81, E (Grad): doesn't matter . Agree there but here um I wasn't sure what to write in .
+Turn 82, B (Professor): Let 's {disfmarker} go ahead .
+Turn 83, D (Grad): Well , I mean you 've written in {disfmarker} you 've written in what uh seems to be required like what else is {disfmarker} is do you want ?
+Turn 84, E (Grad): If that 's permissible then I 'm happy .
+Turn 85, B (Professor): Well yeah . So here 's {disfmarker} here 's what 's permissible is that you can arrange so that the um the value of that is gonna have to be updated and n it 's not a belief update , right ? It 's {disfmarker} you took some actions , you spent money and stuff , so the update of that is gonna have to be essentially external to the belief - net . Right ?
+Turn 86, E (Grad): Yeah .
+Turn 87, B (Professor): And then what you 're going to need is uh for the things that it influences . Well let 's {disfmarker} first of all let 's see if it does influence anything . And if it does influence anything then you 're gonna need something that converts from the {disfmarker} the number here to something that 's relevant to the decision there . So it could be ra they create different ranges that are relevant for different decisions or whatever {disfmarker} but for the moment this is just a node that is conditioned externally and might influence various things .
+Turn 88, E (Grad): Hmm . Yeah {disfmarker} this is where um OK anyways let 's forget it .
+Turn 89, B (Professor): Well that 's fine . Well anyway , go ahead .
+Turn 90, E (Grad): OK , and so this , oh that
+Turn 91, D (Grad): The other thing is that um every time that 's updated beliefs will have to be propagated but then the question is do you {disfmarker} do we wanna propagate beliefs every single time it 's updated or only when we need to ?
+Turn 92, B (Professor): Yeah , that 's a good question . And uh does it have a lazy mode ? I don't remember .
+Turn 93, D (Grad): Uh Well , I mean , in Srini 's thing there was this thing {disfmarker} there was this um option like proper inferences which suggests that uh doesn't happen , automatically .
+Turn 94, B (Professor): Oh right . Yeah . S probably does . Yeah someone has to track that down , but I {disfmarker} but uh And {disfmarker} and {disfmarker} and I think {disfmarker} actually uh
+Turn 95, E (Grad): I just accidentally Oops .
+Turn 96, B (Professor): one of the we w items for the uh user home base uh should be uh essentially non - local . I they 're only there for the day and they don't have a place that they 're staying .
+Turn 97, D (Grad): Well
+Turn 98, E (Grad): Oh just uh accidentally erased this , I {disfmarker} I just had values here such as uh um is he s we had in our list we had " Is he staying in our hotel ? " , " Is he staying with friends ? " , and so forth
+Turn 99, B (Professor): Yeah .
+Turn 100, E (Grad): uh so we 're OK .
+Turn 101, B (Professor): So it 's clear where w w w where we are right now . So my suggestion is we just pick uh
+Turn 102, E (Grad): Something down here ?
+Turn 103, B (Professor): one , you know one uh particular one of the uh well let 's do the first {disfmarker} first one let 's do the one that we sort of already think we did so w that was the {disfmarker} of the endpoint ?
+Turn 104, E (Grad): Mm - hmm . And um Oops .
+Turn 105, D (Grad): Is hmm
+Turn 106, E (Grad): Ah ,
+Turn 107, D (Grad): So it 's true or false ?
+Turn 108, B (Professor): No , that 's {disfmarker} that 's a
+Turn 109, E (Grad): OK . No no no , EVA .
+Turn 110, D (Grad): So
+Turn 111, E (Grad): Missed that one .
+Turn 112, C (Grad): What 's the difference between mode and endpoint ?
+Turn 113, D (Grad): I thought mode , yeah .
+Turn 114, B (Professor): although that
+Turn 115, E (Grad): Um mode was um
+Turn 116, B (Professor): Well , that 's
+Turn 117, D (Grad): Mode of transportation ?
+Turn 118, E (Grad): Yeah .
+Turn 119, D (Grad): OK . Also true or false .
+Turn 120, E (Grad): Mm - hmm .
+Turn 121, B (Professor): No , he has he hasn't filled them in yet , is what 's true .
+Turn 122, D (Grad): Yeah , OK .
+Turn 123, E (Grad): Did I or didn't I ?  Ah . Probably nothing done yet , oh I just did it on the upper ones , OK . Makes sense . OK , so this was EVA . Maybe we can think of more things , cross
+Turn 124, D (Grad): Yeah .
+Turn 125, A (Grad): Climb , rob .
+Turn 126, B (Professor): OK .
+Turn 127, E (Grad): climb , emerge
+Turn 128, B (Professor): No no no , these are ju that 's just a point ,
+Turn 129, C (Grad): Uh
+Turn 130, D (Grad): Well some of those are subsumed by approach .
+Turn 131, B (Professor): this is ju
+Turn 132, C (Grad): Would it be an endpoint if you were crossing over it ?
+Turn 133, A (Grad): The Charles Bridge , you know .
+Turn 134, B (Professor): Yeah , would be a f for a given segment . You know , you {disfmarker} y you go {disfmarker} first go the town square
+Turn 135, C (Grad): Well I eh
+Turn 136, A (Grad): No , I mean , if you go to re you know if you go to Prague or whatever one of your {disfmarker} your key points that you have to do is cross the Charles Bridge and doesn't really matter which way you cross which {disfmarker} where you end up at the end but the part {disfmarker} the good part is walking over it , so .
+Turn 137, B (Professor): That 's subtle , but true . Anyway so let 's just leave it three {disfmarker} with three for now
+Turn 138, E (Grad): Mm - hmm , mmm . Yeah .
+Turn 139, B (Professor): and let 's see if we can get it linked up just to get ourselves started .
+Turn 140, E (Grad): OK , we
+Turn 141, B (Professor): You 'll see it {disfmarker} you 'll see something comes up immediately , that the reason I wanna do this .
+Turn 142, E (Grad): w well the uh user was uh definitely more likely to enter if he 's a local
+Turn 143, B (Professor): Right . Right .
+Turn 144, E (Grad): more likely to view if he 's a tourist um and then of course we had the fact that given the fact that he 's thrifty and there will be admission then we get all these cross um
+Turn 145, B (Professor): We did , but the three things w that {disfmarker} that it contributed to this in fact , the other two aren't up there . so one was the ontology
+Turn 146, E (Grad): We 'll d what type of building is it ?
+Turn 147, B (Professor): Yeah .
+Turn 148, E (Grad): Yeah .
+Turn 149, B (Professor): And the {disfmarker} and the third thing we talked about was something from the discourse .
+Turn 150, E (Grad): What he has mentioned before .
+Turn 151, B (Professor): OK , so this is w Right , so what w I {disfmarker} what we seem to need here , this is why it starts getting into the technical stuff
+Turn 152, A (Grad): mm - hmm
+Turn 153, B (Professor): the way we had been designing this , there were three intermediate nodes uh which were the endpoint decision as seen from the uh user model as seen from the ontology and as seen from the discourse . So each of those the way we had it designed , now we can change the design , but the design we had was there was a decision with the same three outcomes uh based on the th those three separate considerations
+Turn 154, A (Grad): mm - hmm
+Turn 155, B (Professor): so if we wanted to do that would have to put in uh three intermediate nodes
+Turn 156, E (Grad): Uh we can load it up it you know very simple .
+Turn 157, A (Grad): So
+Turn 158, B (Professor): and then what you and I have to talk about is , OK if we 're doing that and they get combined somehow uh how do they get combined ? But the {disfmarker} they 're {disfmarker} they 're undoubtedly gonna be more things to worry about .
+Turn 159, E (Grad): So this was adjusted for this one mode thing .
+Turn 160, D (Grad): Oh yes .
+Turn 161, B (Professor): Yeah .
+Turn 162, E (Grad): So that 's w w in our uh in {disfmarker} in Johno 's sort of pictogram everything that could contribute to whether a person wants to enter , view , or approach something .
+Turn 163, B (Professor): Oh , it was called mode , so this {disfmarker} this is m mode here means the same as endpoint .
+Turn 164, E (Grad): Is now this endpoint .
+Turn 165, C (Grad): Right .
+Turn 166, B (Professor): OK , why don't we ch can we change that ?
+Turn 167, E (Grad): We can just rename that , yeah .
+Turn 168, B (Professor): Alright . You know , but that was actually , yeah unfortunately that was a um kind of an intermediate versio that 's I don't think what we would currently do .
+Turn 169, A (Grad): Can I ask about " slurred " and " angry " as inputs to this ?
+Turn 170, B (Professor): That 's a
+Turn 171, A (Grad): What {disfmarker} why ?
+Turn 172, D (Grad): Like they 're either true or false
+Turn 173, E (Grad): The prosody ?
+Turn 174, A (Grad): OK .
+Turn 175, D (Grad): and they uh oh I see .
+Turn 176, C (Grad): If the {disfmarker} if the person talking is angry or slurs their speech they might be tired or , you know
+Turn 177, A (Grad): Mm - hmm . OK . Drunk .
+Turn 178, D (Grad): Therefore
+Turn 179, C (Grad): And , you know , possibly uh
+Turn 180, A (Grad): Less likely to enter .
+Turn 181, C (Grad): some ,
+Turn 182, A (Grad): Hmm .
+Turn 183, C (Grad): yeah .
+Turn 184, D (Grad): uh I was thinking less likely to view
+Turn 185, B (Professor): Yeah . But that 's - that seems to , yeah . So {disfmarker} so my advice to do is {disfmarker} is get this down to what we think is actually likely to {disfmarker} to be a {disfmarker} a strong influence .
+Turn 186, A (Grad): OK .
+Turn 187, B (Professor): But yeah , that was what he had in mind .
+Turn 188, D (Grad): Right .
+Turn 189, B (Professor): So let 's think about this {disfmarker} this question of how do we wanna handle {disfmarker} so there 're two separate things . One is {disfmarker} uh at least two . One is how do we want to handle the notion of the ontology now what we talked about , and this is another technical thing Bhaskara , is uh can we arrange so that I think we can so that the belief - net itself has properties and the properties are filled in uh from on ontology items . So the {disfmarker} let 's take the case of the uh this endpoint thing , the notion was that if you had a few key properties like is this a tourist site , you know some kind of landmark is it a place of business uh is it something you physically could enter
+Turn 190, A (Grad): Mm - hmm .
+Turn 191, B (Professor): OK , et cetera . So that there 'd be certain properties that would fit into the decision node and then again as part of the ou outer controlling conditioning of this thing those would be set , so that some somehow someone would find this word , look it up in the ontology , pull out these properties , put it into the belief - net , and then the decision would flow .
+Turn 192, A (Grad): Mm - hmm .
+Turn 193, B (Professor): Now
+Turn 194, E (Grad): Seems to me that we 've sort of e em embedded a lot , em embedded a lot of these uh things we had in there previously in {disfmarker} in {disfmarker} in some of the other final decisions done here , for example if we would know that this thing is exhibiting something um
+Turn 195, B (Professor): Right . Right .
+Turn 196, E (Grad): if it 's exhibiting itself it is a landmark ,
+Turn 197, B (Professor): Yeah .
+Turn 198, E (Grad): meaning more likely to be viewed
+Turn 199, B (Professor): Yep .
+Turn 200, E (Grad): if it is exhibiting pictures or sculptures and stuff like this , then it 's more likely to be entered .
+Turn 201, B (Professor): I uh that 's {disfmarker} I think that 's completely right and um I think that 's good , right ? So what {disfmarker} what that says is that we might be able to uh take and in particular so {disfmarker} so the ones we talked about were uh exhibiting and selling
+Turn 202, E (Grad): Accessibility .
+Turn 203, B (Professor): no , accessibility meant
+Turn 204, E (Grad): If it 's closed one probably won't enter . Or if it 's not accessible to a tourist ever the likelihood of that person actually wanting to enter it ,
+Turn 205, B (Professor): OK .
+Turn 206, E (Grad): given that he knows it , of course .
+Turn 207, B (Professor): Alright . So let me suggest this . Uh w could you move those up about halfway . Uh The ones that you th And selling I guess .
+Turn 208, E (Grad): Yeah , all {disfmarker} all of these if it 's fixing things selling things , or servicing things
+Turn 209, B (Professor): Right . So here {disfmarker} here 's what it looks like to me . is that you want an intermediate structure which i uh is essentially the or of uh for this purpose of {disfmarker} of uh selling , f fixing , or servicing . So that it uh that is , for certain purposes , it becomes important but for this kind of purpose uh one of these places is quite like the other . Does that seem right ? So we di
+Turn 210, C (Grad): Basic you 're basically just merging those for just the sake of endpoint decision ?
+Turn 211, B (Professor): if we Yes .
+Turn 212, C (Grad): Yeah .
+Turn 213, A (Grad): Mm - hmm .
+Turn 214, B (Professor): So if {disfmarker} well it may be more than endpoint decisions , so the idea would be that you might wanna merge those three
+Turn 215, E (Grad): These three ?
+Turn 216, B (Professor): Yeah . Eh ser s uh selling , fixing , and servicing .
+Turn 217, E (Grad): Yeah .
+Turn 218, D (Grad): What ex um and so either those is true f or false ?
+Turn 219, B (Professor): Uh Uh well it {disfmarker} it {disfmarker} i here 's where it gets a little tricky .
+Turn 220, D (Grad): So
+Turn 221, B (Professor): Uh from the belief - net point of view it is from another point of view of course it 's interest it 's {disfmarker} it 's important to know what it 's selling or servicing and so forth .
+Turn 222, A (Grad): Yeah .
+Turn 223, B (Professor): So for this decision it 's just uh true or false
+Turn 224, D (Grad): OK . Yeah .
+Turn 225, B (Professor): and in th this is a case where the or seems just what you want .
+Turn 226, D (Grad): OK .
+Turn 227, B (Professor): That {disfmarker} that if any of those things is true then it 's the kind of place that you uh
+Turn 228, E (Grad): Um more likely to enter .
+Turn 229, B (Professor): are more likely to enter .
+Turn 230, D (Grad): So you just wanna have them all pointing to a summary thing ?
+Turn 231, B (Professor): You could , yeah . Yeah , so let 's do that . No no , no eh to {disfmarker} to an inter no , an intermediate node .
+Turn 232, D (Grad): T
+Turn 233, E (Grad): Oh , OK .
+Turn 234, B (Professor): That 's the p part of the idea , is
+Turn 235, E (Grad): Um is {disfmarker} is that the object type node ?
+Turn 236, B (Professor): I d
+Turn 237, E (Grad): So are they the {disfmarker} is it the kind of object that sells , fixes , or services things ?
+Turn 238, B (Professor): Well , o open up object type and let 's see what its values are .
+Turn 239, E (Grad): Oh I just created it , it has none so far .
+Turn 240, B (Professor): Oh , well OK first of all it 's not objects , we called them entities , right ?
+Turn 241, E (Grad): Yeah . And then we have sort of the um
+Turn 242, B (Professor): Let 's say I put commercial .
+Turn 243, E (Grad): Yeah , I w I was just gonna commercial action inside where people p
+Turn 244, B (Professor): Well couldn't I do {disfmarker} let 's do commercial uh landmark and
+Turn 245, E (Grad): And where was the accessible , yeah .
+Turn 246, B (Professor): Well accessible I think is different cuz that 's tempor that {disfmarker} that varies temporally ,
+Turn 247, E (Grad): Yeah .
+Turn 248, B (Professor): whereas this is a
+Turn 249, E (Grad): Mm - hmm .
+Turn 250, C (Grad): What would a hotel fall under ?
+Turn 251, B (Professor): I would call that a service , but {disfmarker} but I don't know .
+Turn 252, C (Grad): Well I mean in terms of entity type ?
+Turn 253, B (Professor): Say w w well it 's co I would s a a again for this purpose I think it 's commercial . Someplace you want to go in to do some kind of business .
+Turn 254, C (Grad): OK .
+Turn 255, D (Grad): Um what does the underscore - T at the end of each of those things signify ?
+Turn 256, E (Grad): Um things . So places that service things sell things or fix things and pe places that e exhibit things .
+Turn 257, D (Grad): Uh - huh . OK . OK . That also points to entity type I guess .
+Turn 258, A (Grad): So we 're deriving um this {disfmarker} the {disfmarker} this feature of whether the {disfmarker} the main action at this place happens inside or outside or what we 're deriving that from what kind of activity is done there ? Couldn't you have it as just a primitive feature of the entity ?
+Turn 259, B (Professor): Well you could , that 's a {disfmarker} that 's a choice .
+Turn 260, A (Grad): OK .
+Turn 261, B (Professor): So uh
+Turn 262, A (Grad): I mean it seems like that 's much more reliable cuz you could have outdoor places that sell things and you know indoor places that do something else
+Turn 263, B (Professor): Yeah , the problem with it is that it sort of putting in a feature just for one decision ,
+Turn 264, A (Grad): and Hmm .
+Turn 265, B (Professor): now w we may wind up having to do that this i anyway , this i
+Turn 266, A (Grad): OK .
+Turn 267, B (Professor): at a mental level that 's what we we 're gonna have to sort out .
+Turn 268, A (Grad): OK .
+Turn 269, B (Professor): So , you know what does this look like , what are {disfmarker} what are uh intermediate things that are worth computing , what are the features we need in order to make all these decisions
+Turn 270, A (Grad): Mm - hmm .
+Turn 271, B (Professor): and what 's the best way to organize this so that um it 's clean and {disfmarker} and consistent and all that sort of stuff .
+Turn 272, A (Grad): OK . I 'm just thinking about how people , human beings who know about places and places to go and so on would store this and it would probably {disfmarker} you wouldn't just sort of remember that they sell stuff and then deduce from that that it must be going on inside or something .
+Turn 273, E (Grad): Well I think an entity maybe should be regard as a vector of several possible things , it can either em do s do sell things , fix things , service things , exhibit things , it can be a landmark at the same time as doing these things ,
+Turn 274, A (Grad): Mm - hmm .
+Turn 275, E (Grad): it 's not either or mmm certainly a place can be a hotel and a famous site .
+Turn 276, A (Grad): Mm - hmm .
+Turn 277, E (Grad): Many come to mind . Things can be generally um a landmark and be accessible . IE a {disfmarker} a castle or can be a landmark a or not accessible , some statue
+Turn 278, A (Grad): Mm - hmm .
+Turn 279, E (Grad): you know can go inside .
+Turn 280, B (Professor): OK . Anyway so let me suggest you do something else . Uh which is to get rid {disfmarker} get rid of that l long link between who {disfmarker} the user and the endpoint .
+Turn 281, E (Grad): Could we just move it like this ?
+Turn 282, B (Professor): No no , I don't want the link there at all .
+Turn 283, E (Grad): Oh , OK .
+Turn 284, B (Professor): Because what we 're gonna want is an intermediate thing which is uh the endpoint decisi the endpoint decision based o on the user models , so what we {disfmarker} we {disfmarker} what we talked about is three separate endpoint decisions , so let 's make a new node
+Turn 285, E (Grad): Yeah . Yeah .
+Turn 286, C (Grad): Just as a suggestion maybe you could " save as " to keep your old one nice and clean and so you can mess with this one .
+Turn 287, E (Grad): Mmm . The old one was not that not that important , I think but
+Turn 288, C (Grad): OK , well , not a big deal then .
+Turn 289, E (Grad): Let 's do it then .
+Turn 290, C (Grad): Well the {disfmarker} Isn't there a " save as " inside of java base ?
+Turn 291, E (Grad): But I can just take this
+Turn 292, C (Grad): OK .
+Turn 293, E (Grad): copy it somewhere else . This was user something
+Turn 294, B (Professor): Well this was
+Turn 295, E (Grad): or
+Turn 296, B (Professor): uh let 's p put it this {disfmarker} let 's do endpoint underbar - U .
+Turn 297, E (Grad): end point ?
+Turn 298, B (Professor): i endpoint , e end poi this is sa
+Turn 299, E (Grad): Ah .
+Turn 300, B (Professor): it 's the endpoint
+Turn 301, E (Grad): Gotcha , yeah .
+Turn 302, B (Professor): let 's say underbar - U , so that 's the endpoint decision uh as seen through the
+Turn 303, C (Grad): As related from the user model .
+Turn 304, B (Professor): Right . So let 's {disfmarker} let 's actually yeah so lin you can link that up to the
+Turn 305, E (Grad): Should I rename this {pause} too ?
+Turn 306, B (Professor): uh yeah , so that , I guess that 's endpoint uh
+Turn 307, E (Grad):  It 's underscore - E .
+Turn 308, B (Professor): underscore - E for entity , and we may change all this , but . Right . And
+Turn 309, E (Grad): OK , shouldn't I be able to move them all ? No . Or {disfmarker} ? Can I ? Where ? What ?
+Turn 310, B (Professor): Oh I d eh I don't know . Actually , I guess the easiest thing would move {disfmarker} mo move the endpoint , well , go ahead . Just do whatever .
+Turn 311, E (Grad): Wasn't this possible ?
+Turn 312, B (Professor): Well .
+Turn 313, E (Grad): Yeah .
+Turn 314, C (Grad): I think you have to be in move mode before
+Turn 315, E (Grad): Uh - huh . OK .
+Turn 316, B (Professor): Good . Right .
+Turn 317, E (Grad): So now we 're looking for user related things that um
+Turn 318, B (Professor): Yeah . And uh maybe th maybe it 's just one who is the user , I don't know , maybe {disfmarker} maybe there 's more .
+Turn 319, A (Grad): Huh .
+Turn 320, E (Grad): Well if he 's usi if he 's in a car right now what was that people with Harry drove the car into the cafe
+Turn 321, B (Professor): Never mind . Uh anyway , this is crude . Now but the {disfmarker} now so {disfmarker} so {disfmarker} but then the question is uh so {disfmarker} and {disfmarker} and we assume that some of these properties would come indirectly through an ontology , but then we had this third idea of input from the discourse .
+Turn 322, E (Grad): Well let 's {disfmarker} should we finish this ,
+Turn 323, B (Professor): Sure ,
+Turn 324, E (Grad): I mean but surely the user interests
+Turn 325, B (Professor): OK .
+Turn 326, C (Grad): The user thrift , the user budget .
+Turn 327, E (Grad): yeah , yeah
+Turn 328, B (Professor): Well , maybe , I again , I d well , OK , put em in but what we 're gonna wanna do is actually uh
+Turn 329, C (Grad): Well is {disfmarker}
+Turn 330, E (Grad): Here this was one of my problems we have the user interest is a {disfmarker} is a vector of five hundred values , so um That 's from the user model ,
+Turn 331, D (Grad): Oh you mean level of interest ?
+Turn 332, E (Grad): mm - hmm , no not levels of interest but things you can be interested in .
+Turn 333, A (Grad): Well {disfmarker}
+Turn 334, B (Professor): somebody else has built this user model .
+Turn 335, D (Grad): Oh I see ,
+Turn 336, E (Grad): Gothic churches versus Baroque townhouses versus
+Turn 337, D (Grad): right . So why is it oh it , so it 's like a vector of five hundred one 's or zero 's ?
+Turn 338, E (Grad): Yea - n is that
+Turn 339, D (Grad): Like for each thing are we {disfmarker} are you interested in it or not ?
+Turn 340, E (Grad): yeah uh I {disfmarker} I think
+Turn 341, D (Grad): I see .
+Turn 342, A (Grad): Hmm .
+Turn 343, B (Professor): OK . So uh you cou and so here let me give you two ways to handle that . Alright ? One is um you could ignore it . But the other thing you could do is have an {disfmarker} and this will give you the flavor of the {disfmarker} of what you could have a node that 's {disfmarker} that was a measure of the match between the object 's feature , you know , the match between the object the entity , I 'm sorry and the user .
+Turn 344, E (Grad): Mm - hmm . Uh .
+Turn 345, B (Professor): So you could have a k a " fit " node and again that would have to be computed by someone else
+Turn 346, E (Grad): Mm - hmm .
+Turn 347, B (Professor): but uh so that uh
+Turn 348, E (Grad): Just as a mental note uh
+Turn 349, B (Professor): Yeah , that 's all .
+Turn 350, E (Grad): Mm - hmm . And {disfmarker} and should we say that this interests eh affects the likelihood of {disfmarker} of entering ?
+Turn 351, B (Professor): Yeah . I mean , we could .
+Turn 352, E (Grad): Yeah . And also if it 's an expensive place to enter , this may also
+Turn 353, B (Professor): OK .
+Turn 354, D (Grad): Budget .
+Turn 355, A (Grad): User schedule . " Do I have time to go in and climb all the way to the top of the Koelner Dome {comment} or do I just have to {disfmarker} " " time to take a picture of the outside ? "
+Turn 356, E (Grad): Schedule ?
+Turn 357, B (Professor): Right .
+Turn 358, C (Grad): It seems like everything in a user model a affects {disfmarker}
+Turn 359, B (Professor): Well that 's what we don't wanna do , see that {disfmarker} se cuz then we get into huge combinatorics and stuff like that
+Turn 360, C (Grad): Yeah .
+Turn 361, A (Grad): Mm - hmm .
+Turn 362, B (Professor): an
+Turn 363, C (Grad): Cuz if the , I mean , and if the user is tired , the user state ,
+Turn 364, D (Grad): Well
+Turn 365, C (Grad): right , it would affect stuff , but I can't see why e anything w everything in the model wouldn't be
+Turn 366, B (Professor): Well , but
+Turn 367, D (Grad): Right .
+Turn 368, B (Professor): Well , that {disfmarker} that 's {disfmarker} we can't do that , so we we 're gonna have to
+Turn 369, C (Grad): Yeah .
+Turn 370, B (Professor): but this is a good discussion , we 're gonna have to somehow figure out uh some way to encapsulate that uh so if there 's some general notion of for example the uh relation to the time to do this to the amount of time the guy has or something like that is {disfmarker} is the uh compatibility with his current state , so that 's what you 'd have to do , you 'd have to get it down to something which uh was itself relatively compact , so it could be compatibility with his current state which would include his money and his time and {disfmarker} and his energy
+Turn 371, C (Grad): Yeah , just seems like it 'd push the problem back a level .
+Turn 372, D (Grad): Right .
+Turn 373, B (Professor): It does .
+Turn 374, A (Grad): Mm - hmm .
+Turn 375, C (Grad): Yeah , but
+Turn 376, D (Grad): No but , it 's more than that , like the {disfmarker} the more sort of you break it up like because if you have everything pointing to one node it 's like exponential whereas if you like keep breaking it up more and more it 's not exponential anymore .
+Turn 377, B (Professor): So it yeah , there are two advantages . That 's tha there 's one technical one
+Turn 378, C (Grad): Sh - sh yeah , {disfmarker}
+Turn 379, B (Professor): and the other is it {disfmarker} it gets used
+Turn 380, C (Grad): S so we 'd basically be doing subgrouping ? Subgrouping , basically into mo
+Turn 381, D (Grad): Yeah .
+Turn 382, C (Grad): so basically make it more tree like going backwards ?
+Turn 383, D (Grad): Right .
+Turn 384, A (Grad): Yeah .
+Turn 385, B (Professor): Right . But it {disfmarker} there 's two advantages , one is the technical one that you don't wind up with such big exponential uh CBT 's ,
+Turn 386, E (Grad): Bhaskara ?
+Turn 387, B (Professor): the other is it can be {disfmarker} it presumably can be used for multiple decisions .
+Turn 388, A (Grad): Mm - hmm .
+Turn 389, B (Professor): So that if you have this idea of the compatibility with the requirements of an action to the state of the user one could well imagine that that was u
+Turn 390, D (Grad): Right .
+Turn 391, B (Professor): not only is it sim is it cleaner to compute it separately but it could be that it 's used in multiple places . Anyway th so in general this is the design , this is really design problem .
+Turn 392, E (Grad): Yeah .
+Turn 393, B (Professor): OK , you 've got a signal , a d set of decisions um how do we do this ?
+Turn 394, E (Grad): What do I have under user state anyhow cuz I named that already something . Oh that 's tired , fresh , yeah . Maybe should be renamed into physical state .
+Turn 395, B (Professor): Or fat user fatigue even .
+Turn 396, A (Grad): Hmm .
+Turn 397, E (Grad): That 's with a " G " ?
+Turn 398, A (Grad): Mm - hmm .
+Turn 399, B (Professor):  Whatever .
+Turn 400, E (Grad): Then we can make a user state .
+Turn 401, B (Professor): What 's th what we 're talking about is compatibility . Uh or something , I don't know , but .
+Turn 402, C (Grad): I guess the {disfmarker} the question uh is It 's hard for me to imagine how everything wouldn't just contribute to user state again . Or user compatibility .
+Turn 403, B (Professor): Oh but the thing is that we uh uh we had some things that uh
+Turn 404, E (Grad): That don't .
+Turn 405, B (Professor): that don't
+Turn 406, E (Grad): The user interests and the user who {disfmarker} who {disfmarker} who the user is are completely apart from the fact whether he is tired broke
+Turn 407, C (Grad): Sure , but other {disfmarker} I thought though the node we 're creating right now is user compatibility to the current action , right ?
+Turn 408, B (Professor): the right
+Turn 409, C (Grad): Seems like everything in the user model would contribute to whether or not the user was compatible with something .
+Turn 410, B (Professor): Uh maybe not . I mean the {disfmarker} that 's the {disfmarker} the issue is um would Even if it was true in some abstract general sense it might not be true in terms of the information we actually had and can make use of . And anyway we 're gonna have to find some way to cl uh get this sufficiently simple to make it feasible .
+Turn 411, E (Grad): Maybe um if we look at the {disfmarker} if we split it up again into sort of um if we look at the uh the endpoint again we {disfmarker} we said that for each of these things there are certain preconditions so you can only enter a place if you are not too tired to do so and also eh have the money to do so if it costs something so if you can afford it and perform it is preconditions . Viewing usually is cheap or free .
+Turn 412, A (Grad): Mm - hmm .
+Turn 413, E (Grad): Is that always true ? I don't know .
+Turn 414, C (Grad): Well , with the way we 're defining it I think yeah .
+Turn 415, B (Professor): W w but that eh viewing it without ent yeah view w with our definition of view it 's free cuz you
+Turn 416, E (Grad): And so is approaching .
+Turn 417, B (Professor): Yeah .
+Turn 418, A (Grad): Well what about the Grand Canyon , right ? No , never mind . I mean are there {disfmarker} are there large things that you would have to pay to get up close to like , I mean never mind , not in the current {disfmarker}
+Turn 419, B (Professor): No we have to enter the park .
+Turn 420, A (Grad): OK .
+Turn 421, B (Professor): Eh almost by definition um paying involves entering ,
+Turn 422, A (Grad): Yeah .
+Turn 423, B (Professor): ge going through some
+Turn 424, A (Grad): OK . Right , sure .
+Turn 425, B (Professor): Right . Uh So let me suggest we switch to another one , I mean clearly there 's more work to be done on this
+Turn 426, E (Grad): Mm - hmm .
+Turn 427, B (Professor): but I think it 's gonna be more instructive to {disfmarker} to think about uh other decisions that we need to make in path land . And what they 're gonna look like .
+Turn 428, C (Grad): So you can save this one as and open up the old one , right and {disfmarker} and then everything would be clean . You could do it again .
+Turn 429, B (Professor): Why , I think it 's worth saving this one but I think I 'd {disfmarker} I 'd like to keep this one
+Turn 430, D (Grad): Yeah .
+Turn 431, B (Professor): cuz I wanna see if {disfmarker} if we 're gonna reuse any of this stuff .
+Turn 432, C (Grad): Mm - hmm .
+Turn 433, E (Grad): Um so this might be What next ?
+Turn 434, B (Professor): Well you tell me , so in terms of the uh planner what 's {disfmarker} what 's a good one to do ?
+Turn 435, E (Grad): Well let 's {disfmarker} th this go there or not I think is a good one .
+Turn 436, B (Professor): Uh
+Turn 437, E (Grad): Is a very basic one . So what makes things more likely that {disfmarker}
+Turn 438, B (Professor): Well the fir see the first thing is , getting back to thing we left out of the other is the actual discourse .
+Turn 439, E (Grad): So
+Turn 440, B (Professor): So Keith this is gonna get into your world because uh we 're gonna want to know you know , which constructions indicate various of these properties
+Turn 441, A (Grad): Mm - hmm . Mm - hmm .
+Turn 442, B (Professor): s and so I {disfmarker} I don't yet know how to do this , I guess we 're gonna wind up pulling out uh discourse properties like we have object properties and we don't know what they are yet .
+Turn 443, A (Grad): Mm - hmm .
+Turn 444, B (Professor): So that {disfmarker} that the Go - there decision will have a node from uh discourse , and I guess why don't we just stick a discourse thing up there to be as a placeholder for
+Turn 445, E (Grad): We {disfmarker} we also had discourse features of course for the endpoint .
+Turn 446, B (Professor): Of {disfmarker} of course .
+Turn 447, E (Grad): Identified that
+Turn 448, B (Professor): Yeah .
+Turn 449, E (Grad): and so again re that 's completely correct , we have the user model , the situation model here , we don't have the discourse model here yet . Much the same way as we didn't {disfmarker} we don't have the ontology here .
+Turn 450, B (Professor): Well the ontology we sort of said we would pull these various kinds of properties from the ontology like exhibiting , selling , and so forth .
+Turn 451, E (Grad): Really .
+Turn 452, B (Professor): So in some sense it 's {disfmarker} it 's there .
+Turn 453, E (Grad): Mm - hmm .
+Turn 454, B (Professor): But the discourse we don't have it represented at all yet .
+Turn 455, E (Grad): Yeah . Um This be specific for second year ? Um And {disfmarker} and we probably will have uh something like a discourse for endpoint .
+Turn 456, B (Professor): But if we do it 'll have the three values .
+Turn 457, E (Grad): Hmm ?
+Turn 458, B (Professor): It 'll have the EVA values if {disfmarker} if we have it .
+Turn 459, E (Grad): Yeah . Yeah . OK just for starters and here discourse um
+Turn 460, B (Professor): For Go - there , probably is true and false , let 's say . That 's what we talked about .
+Turn 461, E (Grad): um well , I think um we 're looking at the {disfmarker} the little data that we have , so people say how do I get to the castle and this usually means they wanna go there .
+Turn 462, A (Grad): Mm - hmm .
+Turn 463, E (Grad): So this should sort of push it in one direction
+Turn 464, B (Professor): Right .
+Turn 465, E (Grad): however people also sometimes say how do I get there in order to find out how to get there without wanting to go there .
+Turn 466, B (Professor): Mm - hmm .
+Turn 467, E (Grad): And sometimes um people say where is it
+Turn 468, A (Grad): Mm - hmm .
+Turn 469, E (Grad): because they wanna know where it is but in most cases they probably
+Turn 470, B (Professor): Yeah , but that doesn't change the fact that you 're {disfmarker} you want these two values .
+Turn 471, E (Grad): Oh yeah , true . So this is sort of some external thing that takes all the discourse stuff and then says here it 's either {pause} yep , yay , A , or nay . Yeah . OK ?
+Turn 472, B (Professor): And they 'll be a y uh , a user Go - there and maybe that 's all , I don't know .
+Turn 473, D (Grad): Situation Go - there , I mean , because it 's {disfmarker} whether it 's open or not .
+Turn 474, E (Grad): Mm - hmm .
+Turn 475, B (Professor): OK , good .
+Turn 476, D (Grad): That definitely interes
+Turn 477, B (Professor): Yep .
+Turn 478, D (Grad): But that now that kind of um what 's the word
+Turn 479, A (Grad): Hmm .
+Turn 480, D (Grad): um the {disfmarker} that interacts with the uh EVA thing if they just wanna view it then it 's fine to go there when it 's closed whereas if they want to um
+Turn 481, B (Professor): Right .
+Turn 482, D (Grad): so
+Turn 483, B (Professor): Right , so that 's {disfmarker} that 's where it starts getting to be uh uh essentially more interesting , so what uh Bhaskara says which is completely right is if you know that they 're only going to view it then it doesn't matter whether it 's closed or not
+Turn 484, A (Grad): Mm - hmm .
+Turn 485, B (Professor): in terms of uh uh you know , whether {disfmarker} whether you wanna go there .
+Turn 486, D (Grad): The time of day ,
+Turn 487, A (Grad): Mm - hmm .
+Turn 488, D (Grad): right I {disfmarker} well , right .
+Turn 489, C (Grad): It does matter though if there 's like a strike or riot or something .
+Turn 490, B (Professor): Absolutely there are other situational things that do matter .
+Turn 491, D (Grad): Right . So yeah , that 's what I said just having one situational node may not be enough because this {disfmarker} that node by itself wouldn't distinguish
+Turn 492, B (Professor): Well i i it can have di various values . Yeah , but we eh you {disfmarker} you 're right it might not be enough .
+Turn 493, D (Grad): Yeah , I mean , see I 'm {disfmarker} I 'm thinking that any node that begins with " Go - there " is either gonna be true or false .
+Turn 494, A (Grad): Well , what {disfmarker} Whoops .
+Turn 495, B (Professor): Yeah .
+Turn 496, A (Grad): Right .
+Turn 497, B (Professor): Ah . I see that could be .
+Turn 498, A (Grad): Also , that node , I mean the Go - there s S node would just be fed by separate ones for
+Turn 499, E (Grad): Mm - hmm .
+Turn 500, A (Grad): you know , there 's different things , the strikes and the
+Turn 501, B (Professor): Could be . Yeah . N
+Turn 502, D (Grad): Like situation traffic and so on .
+Turn 503, A (Grad): Yeah , the time of day .
+Turn 504, B (Professor): Yeah . Yeah . So {disfmarker} so now the other thing that Bhaskara eh pointed out is what this says is that uh there sh should be a link , and this is where things are gonna get very messy from the endpoint uh decision
+Turn 505, D (Grad): I guess the final
+Turn 506, B (Professor): maybe the t they 're final re and , I guess the very bottom endpoint decision uh to the Go - there node . And I {disfmarker} don't worry about layout ,
+Turn 507, D (Grad): Yeah .
+Turn 508, B (Professor): I mean then we 'll go {disfmarker} we 'll go nuts but
+Turn 509, D (Grad): Mmm .
+Turn 510, E (Grad): Mm - hmm .
+Turn 511, D (Grad): Maybe we could um have intermediate node that just the Endpoint and the Go - there S node sort of fed into ?
+Turn 512, B (Professor): Could be , yeah .
+Turn 513, D (Grad): Right . Because that 's what we , I mean that 's why this situation comes up .
+Turn 514, B (Professor): Yeah . Well the Go - there , actually the Endpoint node could feed {disfmarker} feed into the Go - there S That 's right ,
+Turn 515, D (Grad): Yeah , right .
+Turn 516, B (Professor): so the Endpoint node ,
+Turn 517, E (Grad): Mm - hmm .
+Turn 518, B (Professor): make that up t t to the Go - there then
+Turn 519, E (Grad): Yeah .
+Turn 520, B (Professor): and again we 'll have to do layout at some point , but something like that . Now it 's gonna be important not to have loops by the way . Uh really important in {disfmarker} in the belief worl net world not to have loops
+Turn 521, E (Grad): I was just gonna
+Turn 522, B (Professor): uh
+Turn 523, D (Grad): Yes .
+Turn 524, E (Grad): How long does it take you to {disfmarker} to compute uh
+Turn 525, B (Professor): No it 's much worse than that . It {disfmarker} if i loo it {disfmarker} it {disfmarker} it {disfmarker} it {disfmarker} it 's not def i it 's not well defined if you 're there are loops ,
+Turn 526, D (Grad): It {disfmarker} things don't converge , yeah .
+Turn 527, E (Grad): uh R recursive action ?
+Turn 528, B (Professor): you just you have to there are all sorts of ways of breaking it up so that there isn't uh OK .
+Turn 529, E (Grad): Uh but this isn't , this is {disfmarker} this line is just coming from over here .
+Turn 530, D (Grad): Yeah .
+Turn 531, B (Professor): Yeah , no it 's not a loop yet , I 'm just saying we {disfmarker} we , in no , in
+Turn 532, D (Grad): Yeah . Well , but the good thing is we {disfmarker} we could have loopy belief propagation which {vocalsound} we all love .
+Turn 533, E (Grad): Mmm .
+Turn 534, B (Professor): Right . OK , so anyway , so that 's another decision . Uh what 's {disfmarker} what 's another decision you like ?
+Turn 535, E (Grad): OK , these have no parents yet , but I guess that sort of doesn't matter . Right ?
+Turn 536, B (Professor): Well , the idea is that you go there , you go comes from something about the user from something about the situation and the uh the discourse is {disfmarker} is a mystery .
+Turn 537, E (Grad): I mean this is sort of This comes from traffic and so forth , yeah . Sh - Should we just make some
+Turn 538, B (Professor): Sure , if you want .
+Turn 539, E (Grad): um if there 's parking maybe Mmm Oh who cares . OK . And if he has seen it already or not and so forth ,
+Turn 540, B (Professor): Right .
+Turn 541, E (Grad): OK . Um and discourse is something that sort of should we make a Keith note here ?
+Turn 542, B (Professor): Sure .
+Turn 543, E (Grad): That sort of comes from Keith .
+Turn 544, B (Professor): Mm - hmm .
+Turn 545, E (Grad): Just sort of so we don't forget . Oops . Have to get used to this . OK , whoops .
+Turn 546, A (Grad): Um actually {disfmarker}
+Turn 547, B (Professor): And then also the discourse endpoint , I {disfmarker} I guess endpoint sub - D is {disfmarker} if you wanna make it consistent .
+Turn 548, C (Grad): Wh - ah .
+Turn 549, E (Grad): Mm - hmm .
+Turn 550, A (Grad): Um actually is this the {disfmarker} the right way to have it where um go there from the user and go there from the situation just sort of don't know about each other but they both feed the go there decision because isn't the , I mean
+Turn 551, B (Professor): I think so . S
+Turn 552, A (Grad): uh , hmm OK . But that still allows for the possibility of the {disfmarker} of the user model affecting our decision about whether a strike is the sort of thing which is going to keep this user away from {disfmarker}
+Turn 553, B (Professor): Maybe not , a Right .
+Turn 554, A (Grad): That {disfmarker} all that {disfmarker} that kind of decision making happens at the Go - there node .
+Turn 555, B (Professor): Uh y you {disfmarker} yeah you {disfmarker} i you {disfmarker} if you needed to do that .
+Turn 556, A (Grad): Uh . If you needed it to do that .
+Turn 557, B (Professor): Yeah .
+Turn 558, A (Grad): But uh OK I was just thinking I guess maybe I 'm conflating that user node with possible {disfmarker} possible asking of the user
+Turn 559, B (Professor): Yeah .
+Turn 560, A (Grad): you know hey there 's a strike on , uh does that affect whether or not you wanna go or something
+Turn 561, B (Professor): Ah . Good point , I don't {disfmarker} I don't know how we 're going to {disfmarker} t uh
+Turn 562, A (Grad): or Yeah , so that might not come out of a user model but , you know , directly out of interaction .
+Turn 563, B (Professor): Right . Uh I gu yes my curr you know , don't yeah yeah yeah that 's enough .
+Turn 564, E (Grad): Yeah .
+Turn 565, B (Professor): Uh My current idea on that would be that each of these decision nodes has questions associated with it .
+Turn 566, A (Grad): Mm - hmm .
+Turn 567, B (Professor): And the question wouldn't itself be one of these conditional things
+Turn 568, A (Grad): OK .
+Turn 569, B (Professor): you know , given that you know there 's a strike do you still wanna go ?
+Turn 570, A (Grad): Yeah .
+Turn 571, B (Professor): But uh if you told him a bunch of stuff , then you would ask him do you wanna go ?
+Turn 572, A (Grad): Mm - hmm . OK .
+Turn 573, B (Professor): But I think trying to formulate the conditional question , that sounds too much .
+Turn 574, A (Grad): Right , right . Yeah . Right , sure , OK .
+Turn 575, B (Professor): To me .
+Turn 576, E (Grad): Mm - hmm .
+Turn 577, B (Professor): Alright , but let me {disfmarker} let {disfmarker} let 's stay with this a minute
+Turn 578, E (Grad): But
+Turn 579, B (Professor): because I want to do a little bit of organization . Before we get more into details . The organization is going to be that uh the flavor of what 's going on is going to be that uh as we s e sort of going to this detail indeed Keith is going to {disfmarker} to worry about the various constructions that people might use
+Turn 580, A (Grad): Mm - hmm .
+Turn 581, B (Professor): and Johno has committed himself to being the parser wizard ,
+Turn 582, A (Grad): Alright .
+Turn 583, B (Professor): so what 's going to happen is that eventually like by the time he graduates , OK uh they 'll be some sort of system which is able to take the discourse in context and have outputs that can feed the rest of belief - net . I j wa I {disfmarker} I assume everybody knows that , I just wanna you know , get closure that that 'll be the game then ,
+Turn 584, A (Grad): Mm - hmm .
+Turn 585, B (Professor): so the semantics that you 'll get out of the discourse will be of values that go into the various discourse - based decision nodes . And now some of those will get fancier like mode of transportation and stuff so it isn't by any means uh necessarily a simple thing that you want out . So uh if there is an and there is mode of transportation
+Turn 586, E (Grad): And it there 's a sort of also a split if you loo if you blow this up and look at it in more detail there 's something that comes from the discourse in terms of what was actually just said what 's the utterance go giving us
+Turn 587, B (Professor): Yeah .
+Turn 588, E (Grad): and then what 's the discourse history give us .
+Turn 589, B (Professor): Yeah , well that , well , we 'll have to decide uh how much of th where that goes .
+Turn 590, A (Grad): Mm - hmm .
+Turn 591, E (Grad): That 's uh two things then .
+Turn 592, A (Grad): Mm - hmm .
+Turn 593, E (Grad): Mmm .
+Turn 594, B (Professor): an and it 's not clear yet . I mean it could be those are two separate things , it could be that the discourse gadget itself integrates em as {disfmarker} which would be my guess that you 'd have to do see in order to do reference and stuff like that um you 've gotta have both the current discourse and the context to say I wanna go back there ,
+Turn 595, A (Grad): Mm - hmm .
+Turn 596, B (Professor): wow , what does that mean and uh
+Turn 597, E (Grad): Mm - hmm
+Turn 598, A (Grad): Now . Mm - hmm .
+Turn 599, B (Professor): Alright . So
+Turn 600, E (Grad): But is th is this picture that 's emerging here just my wish that you have noticed already for symmetry or is it that we get for each {disfmarker} each decision on the very bottom we sort of get the sub - E , sub - D , sub - U and maybe a sub - O {disfmarker} " O " for " ontology " um meta node
+Turn 601, B (Professor): I don't know .
+Turn 602, E (Grad): but it might just
+Turn 603, B (Professor): It could be .
+Turn 604, E (Grad): could be
+Turn 605, B (Professor): This is {disfmarker} this is getting into the thing I wanna talk about next ,
+Turn 606, E (Grad): so this
+Turn 607, B (Professor): which is s if that 's true uh how do we wanna combine those ? O or when it 's true ?
+Turn 608, E (Grad): but this eh w wou wou would be nice though that , you know , we only have at most four at the moment um arrows going f to each of the uh bottom decisions .
+Turn 609, B (Professor): Yeah .
+Turn 610, D (Grad): Yeah .
+Turn 611, E (Grad): And four you {disfmarker} we can handle .
+Turn 612, B (Professor): No .
+Turn 613, D (Grad): Yeah .
+Turn 614, E (Grad): It 's too much ?
+Turn 615, B (Professor): Well i i it see i if it 's fou if it 's four things and each of them has four values it turns out to be a big CPT , it 's not s completely impossi I mean it 's {disfmarker} it 's not beyond what the system could solve but it 's probably beyond what we could actually uh write down . or learn .
+Turn 616, E (Grad): Right , true .
+Turn 617, B (Professor): Uh but , you know it 's four to the fourth . It 's pretty big . Uh .
+Turn 618, C (Grad): Two fifty - six ,
+Turn 619, B (Professor): Yeah .
+Turn 620, C (Grad): is that what that
+Turn 621, B (Professor): Yeah , I mean it 's and I don't think it 's gonna g e I don't think it 'll get worse than that by the way , so le that 's a {disfmarker} that 's a good
+Turn 622, D (Grad): Mmm yeah .
+Turn 623, E (Grad): But {disfmarker} but four {disfmarker} didn't we decide that all of these had true or false ? So is {disfmarker} it 's four
+Turn 624, B (Professor): Uh for go there , but not f but not for {disfmarker} the other one 's three values for endpoint already .
+Turn 625, C (Grad): Yeah .
+Turn 626, D (Grad): Yeah , I mean you need actually three to the five because uh well I mean if {disfmarker} if it has four inputs and then it itself has three values
+Turn 627, C (Grad): Right .
+Turn 628, D (Grad): so I mean it can get big fast .
+Turn 629, E (Grad): Um for endpoint ? No it 's {disfmarker} it 's sh
+Turn 630, B (Professor): EV - it 's the EVA .
+Turn 631, E (Grad): yeah , down here , but this one only has two .
+Turn 632, B (Professor): No .
+Turn 633, D (Grad): No it still has three ,
+Turn 634, B (Professor): Since ta they will still have three .
+Turn 635, D (Grad): EVA .
+Turn 636, B (Professor): Each {disfmarker} so you 're uh uh from each point of view you 're making the same decision .
+Turn 637, A (Grad): Mm - hmm . Mm - hmm .
+Turn 638, B (Professor): So from the point of view of the ob of the entity
+Turn 639, E (Grad): Want to view that , yeah yeah . C sl
+Turn 640, B (Professor): Yeah .
+Turn 641, E (Grad): yeah
+Turn 642, D (Grad): This {disfmarker} and also , I mean , the other places where , like for example consider endpoint view , it has inputs coming from user budget , user thrift
+Turn 643, B (Professor): Right .
+Turn 644, D (Grad): so even
+Turn 645, B (Professor): Those are not necessarily binary . S so we 're {disfmarker} we 're gonna have to use some t care in the knowledge engineering to not have this explode . And in fact I think it doesn't in the sense that um Read it , you know actually with the underlying semantics and stuff I think it isn't like you have two hundred and fifty - six different uh ways of {disfmarker} of thinking about whether this user wants to go to some place . Alright . So we {disfmarker} we just have to figure out what the regularities are and and code them . But um What I was gonna suggest next is maybe we wanna work on this a little longer but I do want to also talk about the thing that we started into now of uh well it 's all fine to say all these arrows come into the si same place what rule of combination is used there .
+Turn 646, A (Grad): Mm - hmm .
+Turn 647, B (Professor): So th yes they {disfmarker} so these things all affect it ,
+Turn 648, A (Grad): Right .
+Turn 649, B (Professor): how do they affect it ? And belief - nets have their own beliefs about uh what are good ways to do that . So is it {disfmarker} it 's {disfmarker} it 's clearer n clear enough what the issue is ,
+Turn 650, D (Grad): Right .
+Turn 651, B (Professor): right ? So do we wanna switch that now or we wanna do some more of this ?
+Turn 652, E (Grad): R basically w we just need to sort of in order to get some closure on this figure out how we 're gonna get this picture sort of uh completely messy .
+Turn 653, B (Professor): Well , here {disfmarker} he here 's one of the things that {disfmarker} that I th you sh you {disfmarker} no , I don't know how easy it is to do this in the interface but you {disfmarker} it would be great if you could actually just display at a given time uh all the things that you pick up , you click on " endpoint " , OK and everything else fades
+Turn 654, E (Grad): Mm - hmm .
+Turn 655, B (Professor): and you just see the links that are relevant to that . And I does anybody remember the GUI on this ?
+Turn 656, C (Grad): Uh d I would almost say the other way to do that would be to open u or make you know N - many belief - nets and then open them every time you wanted to look at a different one
+Turn 657, E (Grad): Mm - hmm .
+Turn 658, C (Grad): vers cuz uh
+Turn 659, E (Grad): It 's probably pretty easy do it {disfmarker} to do it in HTML , just {disfmarker}
+Turn 660, C (Grad): Yeah , but
+Turn 661, E (Grad): Uh
+Turn 662, D (Grad): HTML ?
+Turn 663, E (Grad): Yeah I have each of these thing each of the end belief - nets be {disfmarker} be a page and then you click on the thing and then li consider that it 's respective ,
+Turn 664, B (Professor): Yeah the {disfmarker} well the b
+Turn 665, D (Grad): OK .
+Turn 666, E (Grad): but
+Turn 667, B (Professor): anyway so uh it clear that even with this if we put in all the arrows nobody is gonna be able to read the diagram .
+Turn 668, C (Grad): Yeah .
+Turn 669, B (Professor): Alright , so e we have to figure out some eh eh uh basically display hack or something to do this because anyway I {disfmarker} I {disfmarker} let me consi suggest that 's a s not a first - order consideration , we have two first - order considerations which is what are the uh influences A , A , and B how do they get combined mathematically , how do we display them is an issue , but um
+Turn 670, C (Grad): I don't , yeah I just don't think this has been designed to support something like that .
+Turn 671, D (Grad): Yeah . Yeah , I {disfmarker} I mean , it might soon , if this is gonna be used in a serious way like java base then it might soon be necessary to uh start modifying it for our purposes .
+Turn 672, B (Professor): Right . Yeah , and Um I {disfmarker} that seems like a perfectly feasible thing to get into , but um we have to know what we want first . OK , so why don't you tell us a little bit about decision nodes and what {disfmarker} what the choices might be for these ?
+Turn 673, D (Grad): So Ah , sorry . I guess that 's
+Turn 674, C (Grad): You can technically wear that as you 're talking .
+Turn 675, D (Grad): Yeah , it 's right , I guess I can do that .
+Turn 676, A (Grad): Darn .
+Turn 677, B (Professor): Put it in your , yeah .
+Turn 678, D (Grad): I guess this board works fine . So um recall the basic problem which is that um you have a belief - net and you have like a lot of different nodes all contributing to one node . Right ? So as we discussed specifying this kind of thing is a big pain and it 's so will take a long time to write down because for example if these S have three possibilities each and this has three possibilities then you know you have two hundred and forty - three possibilities which is already a lot of numbers to write down . So what um helps us in our situation is that these all have values in the same set , right ? These are all like saying EV or A , right ? So it 's not just a generalized situation like I mean basically we wanna just take a combination of {disfmarker} we wanna view each of these as experts ea who are each of them is making a decision based on some factors and we wanna sort of combine their decisions and create you know , um sorta weighted combination .
+Turn 679, E (Grad): Hmm . ROVER , the ROVER decision .
+Turn 680, D (Grad): The what decision ?
+Turn 681, E (Grad): ROVER . All of their outputs combined to make a decision .
+Turn 682, A (Grad): Hmm .
+Turn 683, D (Grad): Yeah . Yeah . So the problem is to specify the uh so the conditional property of this given all those , right ? That 's the way belief - nets are defined , like each node given its parents , right ? So um that 's what we want , we want for example P of um let 's call this guy Y and let 's call these X - one , X - two XN , right . So we want probability that Y equals , you know , for example um E given that these guys are I 'll just refer to this as like X um hat or something , uh the co like all of them ? Given that for example the data says you know , A , V , A , E , or something right ?
+Turn 684, B (Professor): Yep .
+Turn 685, D (Grad): So we would like to do this kind of combination .
+Turn 686, B (Professor): Alright , so um Is that uh I {disfmarker} yeah , I just wanna make sure everybody is with us before he goes on .
+Turn 687, A (Grad): I think so , yeah .
+Turn 688, B (Professor): It 's {disfmarker} it 's cl e is {disfmarker} is it clear what he wants to compute ?
+Turn 689, A (Grad): Mm - hmm .
+Turn 690, D (Grad): Right . So , right . So Basically um {vocalsound} what we don't wanna do is to for every single combination of E and V and A and every single letter E , s give a number
+Turn 691, A (Grad): Mm - hmm .
+Turn 692, D (Grad): because that 's obviously not desirable . What we wanna do is find some principled way of um saying what each of these is and we want it to be a valid probability distribution , so we want it to um add up to one , right ?
+Turn 693, A (Grad): Hmm .
+Turn 694, D (Grad): So those are the two things that we uh need . So what uh I guess , what Jerry suggested earlier was basically that we , you know view these guys as voting and we just take the uh we essentially take um averages , right ? So for example here two people have voted for A , one has voted for V , and one has voted for E , so we could say that the probabilities are , you know , probability of being E is one over four , because one person voted for E out of four and similarly , probability of so this is probability of E s and then probability of A given all that is um two out of four and probability of V is one out of four . Right ? So that 's step {disfmarker} that 's the uh yeah that 's the {disfmarker} that 's the basic uh thing . Now
+Turn 695, E (Grad): Um Yeah .
+Turn 696, D (Grad): Is that all OK ?
+Turn 697, E (Grad): And that one outcome , that 's
+Turn 698, B (Professor): What ?
+Turn 699, E (Grad): it 's X {disfmarker} X - one voted for A X - two voted for V
+Turn 700, A (Grad): Mm - hmm .
+Turn 701, E (Grad): and so forth ?
+Turn 702, B (Professor): Y right . Yep .
+Turn 703, D (Grad): Yeah .
+Turn 704, E (Grad): Yeah .
+Turn 705, B (Professor): S so this assumes symmetry and equal weights and all this sort of things , which may or may not be a good assumption ,
+Turn 706, E (Grad): That 's the outcome .
+Turn 707, A (Grad): Mm - hmm . Right .
+Turn 708, B (Professor): so that
+Turn 709, D (Grad): Yeah . Yeah . So step two is um right . So we 've assumed equal weights whereas it might turn out that you know , some w be that for example , what the um the actual the uh verbal content of what the person said , like what uh what might be uh somehow more uh important than the uh
+Turn 710, C (Grad): X - one matters more i than X - two or
+Turn 711, D (Grad): Right . Sure , so we don't wanna like give them all equal weight so currently we 've been giving them all weight one fourth so we could replace this by uh W - one , W - two , W - three , and W - four
+Turn 712, A (Grad): Hmm .
+Turn 713, D (Grad): right ? And in order for this to be a valid probability distribution for each um X - hat , we just need that the W 's sum to one . So they can be for example , you know you {disfmarker} you could have point one , point three , point two , and point four , say .
+Turn 714, E (Grad): That 's one .
+Turn 715, D (Grad): And that 'd be one . So that um also seems to work fine . And uh
+Turn 716, C (Grad): So I jus just to make sure I understand this , so in this case um we would still compute the average ?
+Turn 717, D (Grad): You 'd compute the weighted average , so the probability of E would be uh
+Turn 718, C (Grad): OK , so {disfmarker} so it 'd be so in this case the probability that Y equals A would be uh {comment} W one times {disfmarker}
+Turn 719, A (Grad): Point three .
+Turn 720, C (Grad): or A or {disfmarker} let 's see , one full quarter times point one
+Turn 721, D (Grad): Not one quarter ,
+Turn 722, A (Grad): No .
+Turn 723, D (Grad): so these numbers have been replaced with point one , point three , point two , and point four . So you can view these as gone .
+Turn 724, C (Grad): OK .
+Turn 725, D (Grad): Probability of
+Turn 726, C (Grad): OK .
+Turn 727, D (Grad): Yeah . Yeah . OK . So , alright . So this is uh step two . So the next possibility is that um we 've given just a single weight to each expert , right , whereas it might be the case that um in certain situations one of the experts is more uh reliable and in certain situations the other expert is more reliable . So the way this is handled is by what 's called a mixture of experts , so what you can have is you augment these diagrams like this so you have a new thing called " H " , OK ? This is a hidden variable . And what this is is it gets its input from X - one , X - two , X - three , and X - four , and what it does is it decides which of the experts is to be trusted in this particular situation . Right ? And then these guys all come here . OK . So this is sightly uh more complicated . So what 's going on is that um this H node looks at these four values of those guys and it decides in given these values which of these isn't likely to be more reliable or most reliable . So H produces some you know , it produces a number , either one , two , three , or four , in our situation , right ? Now this guy he looks at the value of H say it 's two , and then he just selects the uh thing . That 's all there is to say , I guess about it . Right , so you can have a mixture that
+Turn 728, E (Grad): Mm - hmm .
+Turn 729, D (Grad): Right .
+Turn 730, A (Grad): So {disfmarker} so the function of the thing that comes out of H is very different from the function of the other inputs . It 's driving how the other four are interpreted . OK .
+Turn 731, D (Grad): Yeah . Yeah .
+Turn 732, C (Grad): So H passes a vector on to the next node ?
+Turn 733, D (Grad): It could .
+Turn 734, C (Grad): It could ? A vector of the weights as the se
+Turn 735, D (Grad): Yeah , it could
+Turn 736, C (Grad): oh .
+Turn 737, D (Grad): Sorry ?
+Turn 738, A (Grad): Well a vector with three zero 's and one one , right ?
+Turn 739, C (Grad): Oh it 's basically to tell the bottom node which one of the situations that it 's in or which one of the weighting systems
+Turn 740, D (Grad): Right , so I mean the way you desc
+Turn 741, C (Grad): W I was just , if you wanted to pay attention to more than one you could pass a w a weighting s system though too , couldn't you ? OK .
+Turn 742, A (Grad): Um Does H have to have another input to tell it alpha , beta , whatever , or is the {disfmarker} that 's determined by what the experts are saying , like the type of situ OK . Hmm . OK . OK . I mean It {disfmarker} it just seems that like without that {disfmarker} that outside input that you 've got a situation where , you know , like if {disfmarker} if uh X - one says no , you know , a low value coming out of X - on or i if X - one says no then ignore X - one , you know , I mean that seems like that 'd be weird ,
+Turn 743, D (Grad): Yeah , well could be things like if X - two and X - three say yes then i ignore X - one also .
+Turn 744, A (Grad): right ? Oh , OK . OK . Alright , right .
+Turn 745, C (Grad): Oh The situations that H has , are they built into the net or OK , so they {disfmarker} they could either be hand coded or learned or OK .
+Turn 746, D (Grad): Yeah .
+Turn 747, C (Grad): Based on training data , OK .
+Turn 748, D (Grad): Yeah . Yes .
+Turn 749, C (Grad): So you specify one of these things for every one of those possi possible situations . Oh yeah .
+Turn 750, D (Grad): Yeah . Um Well , I mean to learn them we need data , where are we gonna get data ? Well I mean we need data with people intentions , right ?
+Turn 751, A (Grad): Right , right .
+Turn 752, D (Grad): Which is slightly tricky . Right .
+Turn 753, A (Grad): Uh - huh .
+Turn 754, D (Grad): Mm - hmm . But what 's the data about like , are we able to get these nodes from the data ?
+Turn 755, A (Grad): Like how thrifty the user is , or do we have access to that ? Mm - hmm . Oh right . Oh good . OK .
+Turn 756, D (Grad): Yeah .
+Turn 757, A (Grad): Mm - hmm . Mm - hmm . OK .
+Turn 758, D (Grad): Yeah , but that 's my question , like how do we {disfmarker} I mean , how do we have data about something like um um endpoint sub - E , or endpoint sub uh {pause} you know s S ?
+Turn 759, C (Grad): Well , basically you would say , based on {disfmarker} in this dialogue that we have which one of the things that they said eh whether it was the entity relations or whatever was the thing that determined what mode it was ,
+Turn 760, D (Grad): Mmm . Mmm .
+Turn 761, C (Grad): right ?
+Turn 762, D (Grad): So this is what we wanna learn . Yep . Right . Hmm . Yeah . I don't think , well you have a {disfmarker} can you bring up the function thing ? Um w where is the thing that allows you to sort of
+Turn 763, C (Grad): That 's on the added variable , isn't it ?
+Turn 764, D (Grad): Oh function properties , is that it ? Hmm , I guess not . Yeah , that 's
+Turn 765, A (Grad): No .
+Turn 766, D (Grad): Right . OK . And um it so e either it 'll allow us to do everything which I think is unlikely , I think more likely it 'll allow us to do very few of these things and in that case we 'll have to um just write up little things that allow you to um create such CPU 's on your own in the java base format . Yeah . Yeah . Yeah , I was assuming that 's what we 'd always do because yeah I was assuming that 's what we 'd always do , it 's Right . Yeah .
+Turn 767, C (Grad): Ah . Well in terms of java base I think it 's basically what you see is what you get in I don't yeah , I would be surprised if it supports anything more than what we have right here .
+Turn 768, A (Grad): So Yeah . Yeah . By the way um uh just talking about uh about that general end of things uh is there gonna be data soon from what people say when they 're interacting with the system and so on ? Like , I mean , what kind of questions are being given {disfmarker} being asked ? Cuz {disfmarker} OK . Yeah yeah . OK . OK . Fey , you mean . OK . OK . O OK . OK . I 'm just wondering , because in terms of , you know , I mean uh w the figure {disfmarker} I was thinking about this figure that we talked about , fifty constructions or whatever that 's uh that 's a whole lot of constructions and um you know , I mean one might be f fairly pleased with getting a really good analysis of five maybe ten in a summer so , I mean I know we 're going for sort of a rough and ready . Mm - hmm . Mm - hmm . OK . OK . I mean , I {disfmarker} I {disfmarker} I {disfmarker} I was {disfmarker} uh I was talking about the , you know , if you wanted to do it really in detail and we don't really need all the detail for what we 're doing right now but anyway in terms of just narrowing that task you know which fifty do I do , I wanna see what people are using , so Well , it will inspire me . Right , sure sure . Right . Yeah , sure . Sure . Yeah . OK . Touche . Good enough .

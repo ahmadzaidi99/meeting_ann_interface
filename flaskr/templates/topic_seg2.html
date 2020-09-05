@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block turns %}
+{% for i in range(k, m) %}
+    <p>{{ '(' + (i + 1)|string + ')' + ' ' + meeting['turns'][i].get('name') + ': ' + meeting['turns'][i].get('contribution') }}</p>
+{% endfor %}
+{% endblock %}
+{% block enter_topic %}
+<div class="sidenav">
+    <ol>
+        {% for topic in topics %}
+        <li>
+            {{ topic["topic"]}}<br>{{ topic["range"] }}
+        </li>
+        {% endfor %}
+    </ol>
+    <form id = "{{ meeting_topics_id }} some" method="post">
+        <label for="topic">Add Topic</label><br>
+        <textarea name="topic" rows="1" cols="30" placeholder="Topic name"></textarea><br>
+        <input type="text" id="{{ topic_range_id }}" name="range" size="30" placeholder="Topic range (e.g. 1-43, 231-350)"><br>
+        <input type="submit" value="Add" formmethod="post"><br><br>
+    </form>
+</div>
+{% endblock %}

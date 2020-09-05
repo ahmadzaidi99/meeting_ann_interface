@@ -1,0 +1,834 @@
+Turn 0, E (Grad): As usual .
+Turn 1, B (Grad): Yes . Whew ! I almost forgot {pause} about the meeting . I woke up twenty minutes ago , thinking , what did I forget ?
+Turn 2, D (Grad): It 's great how the br brain sort of does that .
+Turn 3, E (Grad): Something 's not right here .
+Turn 4, B (Grad): Internal alarms .
+Turn 5, D (Grad): OK . So the news for me is A , my forthcoming travel plans
+Turn 6, B (Grad): Yes .
+Turn 7, D (Grad): in two weeks from today ? Yeah ? More or less ? I 'll be off to Sicily and Germany for a couple , three days .
+Turn 8, B (Grad): Now what are y what are you doing there ? I forgot ?
+Turn 9, D (Grad): OK , I 'm flying to Sicily basically to drop off Simon there with his grandparents . And then I 'm flying to Germany t to go to a MOKU - Treffen which is the meeting of all the module - responsible people in SmartKom ,
+Turn 10, B (Grad): Mmm .
+Turn 11, D (Grad): and , represent ICI and myself I guess there . And um . That 's the mmm actual reason . And then I 'm also going up to EML for a day , and then I 'm going to {vocalsound} meet the very big boss , Wolfgang Walster , in Saarbruecken and the System system integration people in Kaiserslautern and then I 'm flying back via Sicily pick up my son come back here on the fourth of July . And uh .
+Turn 12, E (Grad): What a great time to be coming back to the
+Turn 13, B (Grad): God bless America .
+Turn 14, E (Grad): You 'll see maybe {disfmarker} see the fireworks from your plane coming in .
+Turn 15, D (Grad): And I 'm sure all the {disfmarker} the people at the airport will be happy to work on that day .
+Turn 16, E (Grad): Yeah . You 'll get even better service than usual .
+Turn 17, B (Grad): Wait , aren't you flying on Lufthansa though ?
+Turn 18, D (Grad): Mm - hmm . Alitalia .
+Turn 19, B (Grad): Oh . Well then the {disfmarker} you know , it 's not a big deal . Once you get to the United States it 'll be a problem , but
+Turn 20, D (Grad): Yeah . And um , that 's that bit of news , and the other bit of news is we had {disfmarker} you know , uh , I was visited by my German project manager who A , did like what we did {disfmarker} what we 're doing here , and B , is planning to come here either three weeks in July or three weeks in August , to actually work .
+Turn 21, B (Grad): On {disfmarker} ?
+Turn 22, D (Grad): With us .
+Turn 23, B (Grad): Oh .
+Turn 24, D (Grad): And we sat around and we talked and he came up {disfmarker} we came up {disfmarker} with a pretty strange idea . And that 's what I 'm gonna lay on you now . And um , maybe it might be ultimately the most interesting thing for Eva because she has been known to complain about the fact that the stuff we do here is not weird enough .
+Turn 25, C (Grad): OK .
+Turn 26, D (Grad): So this is so weird it should even make you happy .
+Turn 27, C (Grad): Uh . {comment} OK .
+Turn 28, E (Grad): Oh great .
+Turn 29, D (Grad): Imagine if you will , {vocalsound} that we have a system that does all that understanding that we want it to do based on utterances .
+Turn 30, B (Grad): Mm - hmm .
+Turn 31, D (Grad): It should be possible to make that system produce questions . So if you have the knowledge of how to interpret " where is X ? " under given conditions , situational , user , discourse and ontological {vocalsound} conditions , you should also be able to make that same system ask " where is X ? "
+Turn 32, E (Grad): Mm - hmm .
+Turn 33, D (Grad): in a sper certain way , based on certain intentions . So in instead of just being able to observe phenomenon , um , and , guess the intention we might be able just to sort of give it an intention , and make it produce an utterance .
+Turn 34, E (Grad): Hmm .
+Turn 35, B (Grad): Well , like in AI they generally do the take in , and then they also do the generation phase , like Nancy 's thing . Or uh , you remember , in the {disfmarker} the hand thing in one - eighty - two , like not only was it able to recognize but it was also to generate based upon situations . You mean that sort of thing ?
+Turn 36, D (Grad): Absolutely .
+Turn 37, B (Grad): OK .
+Turn 38, D (Grad): And once you 've done that what we can do is have the system ask itself . And answer , understand the answer , ask something else , and enter a dialogue with itself . So the {disfmarker} the ba basic {disfmarker} the same idea as having two chess computers play against each other .
+Turn 39, E (Grad): Except this smacks a little bit more of a schizophrenic computer than AI .
+Turn 40, D (Grad): Yeah you c if you want , you can have two parallel {vocalsound} machines um , asking each other . What would that give us ? Would A be something completely weird and strange , and B , i if you look at all the factors , we will never observe people let 's say , in wheelchairs under {disfmarker} you know , in {disfmarker} under all conditions ,
+Turn 41, E (Grad): That 's good .
+Turn 42, D (Grad): you know , when they say " X " , and there is a ride at the goal , and the parking is good , we can never collect enough data . It 's {disfmarker} it 's {disfmarker} it 's not possible .
+Turn 43, E (Grad): Mm - hmm . Right , right .
+Turn 44, D (Grad): But maybe one could do some learning . If you get the system to speak to itself , you may find n break downs and errors and you may be able to learn . And make it more robust , maybe learn new things . And um , so there 's no {disfmarker} no end of potential things one could get out of it , if that works . And he would like to actually work on that with us .
+Turn 45, B (Grad): Well then , he probably should be coming back a year {pause} from now .
+Turn 46, D (Grad): So Yeah , I w See the {disfmarker} the generation bit , making the system generate {disfmarker} generate something , {comment} is {disfmarker} shouldn't be too hard .
+Turn 47, B (Grad): Well , once the system understands things .
+Turn 48, E (Grad): Yeah . No problem .
+Turn 49, B (Grad): I just don't think {disfmarker} I think we 're probably a year away from getting the system to understand things .
+Turn 50, D (Grad): Yeah . Well , if we can get it to understand one thing , like our " where is " run through we can also , maybe , e make it say , or ask " where is X ? " Or not .
+Turn 51, E (Grad): Mmm , I don't know . e I 'm sort of {disfmarker} have the impression that getting it to say the right thing in the right circumstances is much more difficult than getting it to understand something given the circumstances and so on , you know , I mean just cuz it 's sort of harder to learn to speak correctly in a foreign language , rather than learning to understand it . Right ? I mean
+Turn 52, D (Grad): 
+Turn 53, E (Grad): just the fact that we 'll get {disfmarker} The point is that getting it to understand one construction doesn't mean that it will n always know exactly when it 's correct to use that construction . Right ?
+Turn 54, D (Grad): It 's {disfmarker} it 's uh {disfmarker} Well , I 've {disfmarker} I 've done generation and language production research for fo four {disfmarker} four and a half years . And so it 's {disfmarker} it 's {disfmarker} you 're right , it 's not the same as the understanding . It 's in some ways easier and some ways harder . nuh ?
+Turn 55, E (Grad): Yeah .
+Turn 56, D (Grad): But , um , I think it 'd be fun to look at it , or into that question .
+Turn 57, E (Grad): Nnn , yeah .
+Turn 58, D (Grad): It 's a pretty strange idea . And so that 's {disfmarker} that 's {disfmarker} But {disfmarker}
+Turn 59, B (Grad): The basic idea I guess would be to give {disfmarker} allow the system to have intentions , basically ? Cuz that 's basically what needs to be added to the system for it .
+Turn 60, D (Grad): Well , look at th eee , I think even {disfmarker} think even {disfmarker} What it {disfmarker} would be the {disfmarker} the prior intention . So let 's uh {disfmarker} uh , let 's say we have this {disfmarker}
+Turn 61, B (Grad): Well we 'd have to seed that , I mean .
+Turn 62, D (Grad): No . Let 's {disfmarker} we have to {disfmarker} we have some {disfmarker} some top - down processing , given certain setting . OK , now we change nothing , and just say ask something . Right ?
+Turn 63, B (Grad): 
+Turn 64, D (Grad): What would it ask ?
+Turn 65, B (Grad): It wouldn't know what to ask . I mean .
+Turn 66, D (Grad): It shur
+Turn 67, B (Grad): Unless it was in a situation . We 'd have to set up a situation where , it didn't know where something was and it wanted to go there .
+Turn 68, D (Grad): Yeah !
+Turn 69, C (Grad): Mm - hmm .
+Turn 70, D (Grad): Yeah .
+Turn 71, B (Grad): Which means that we 'd need to set up an intention inside of the system . Right ? Which is basically , " I don't know where something is and I need to go there " .
+Turn 72, D (Grad): Eh , n
+Turn 73, E (Grad): Yeah .
+Turn 74, D (Grad): Ooh , do we really need to do that ? Because ,
+Turn 75, B (Grad): Well , no I guess not . Excel
+Turn 76, D (Grad): s It 's {disfmarker} i I know it 's {disfmarker} it 's strange , but look at it {disfmarker} look at our Bayes - net . If we don't have {disfmarker} Let 's assume we don't have any input from the language . Right ? So there 's also nothing we could query the ontology , but we have a certain user setting . If you just ask , what is the likelihood of that person wanting to enter some {disfmarker} something , it 'll give you an answer .
+Turn 77, B (Grad): Sure .
+Turn 78, D (Grad): Right ? That 's just how they are . And so , @ @ whatever that is , it 's the generic default intention . That it would find out . Which is , wanting to know where something is , maybe nnn {disfmarker} and wanting {disfmarker} I don't know what it 's gonna be , but there 's gonna be something that
+Turn 79, E (Grad): Well you 're not gonna {disfmarker} are you gonna get a variety of intentions out of that then ? I mean , you 're just talking about like given this user , what 's the th what is it {disfmarker} what is that user most likely to want to do ?
+Turn 80, D (Grad): Well you can observe some user and context stuff and ask , what 's the posterior probabilities of all of our decision nodes .
+Turn 81, E (Grad): And , have it talk about {disfmarker} OK .
+Turn 82, D (Grad): You could even say , " let 's take all the priors , let 's observe nothing " , and query all the posterior probabilities . It - it 's gonna tell us something . Right ?
+Turn 83, B (Grad): Well , it will d r assign values to all the nodes . Yes .
+Turn 84, D (Grad): And {disfmarker} Yes . And come up with posterior probabilities for all the values of the decision nodes . Which , if we have an algorithm that filters out whatever the {disfmarker} the best or the most consistent answer out of that , will give us the intention ex nihilo . And that is exactly what would happen if we ask it to produce an utterance , it would be b based on that extension , ex nihilo , which we don't know what it is , but it 's there . So we wouldn't even have to {disfmarker} t to kick start it by giving it a certain intention or observing anything on the decision node . And whatever that {disfmarker} maybe that would lead to " what is the castle ? " ,
+Turn 85, B (Grad): I 'm just {disfmarker}
+Turn 86, D (Grad): or " what is that whatever " .
+Turn 87, B (Grad): I guess what I 'm afraid of is if we don't , you know , set up a {pause} situation , {comment} we 'll just get a bunch of garbage out , like you know , everything 's exactly thirty percent .
+Turn 88, D (Grad): No {disfmarker}
+Turn 89, C (Grad): Mmm .
+Turn 90, D (Grad): Yeah . So what we actually then need to do is {disfmarker} is write a little script that changes all the settings , you know , go goes through all the permutations , which is {disfmarker} we did a {disfmarker} didn't we calculate that once ?
+Turn 91, B (Grad): Well that was {disfmarker} that was absurdly low , in the last meeting ,
+Turn 92, D (Grad): It 's a {disfmarker}
+Turn 93, C (Grad): Uh ,
+Turn 94, B (Grad): cuz I went and looked at it cuz I was thinking , that could not be right , and it would {disfmarker} it was on the order of twenty output nodes and something like twenty {disfmarker}
+Turn 95, C (Grad): And like thirty input nodes
+Turn 96, B (Grad): thirty input nodes .
+Turn 97, C (Grad): or some {disfmarker}
+Turn 98, B (Grad): So to test every output node , uh , would at least {disfmarker} Let 's see , so it would be two to the thirty for every output node ? Which is very th very large .
+Turn 99, D (Grad): Oh ! That 's n
+Turn 100, E (Grad): Oh .
+Turn 101, D (Grad): that 's {disfmarker} that 's nothing for those neural guys . I mean , they train for millions and millions of epochs .
+Turn 102, B (Grad): Well , I 'm talking about
+Turn 103, D (Grad): So .
+Turn 104, B (Grad): Oh , I was gonna take a drink of my water . I 'm talking about billions and billions and billions and a number {disfmarker} two to the thirty is like a Bhaskara said , we had calculated out and Bhaskara believes that it 's larger than the number of particles in the universe . And if i
+Turn 105, E (Grad): I don't know if that 's right or not . Th - that 's big . That 's just {disfmarker} That 's uh {disfmarker} It 's a billion , right ?
+Turn 106, B (Grad): Two to the thirty ? Well , two to the thirty is a billion , but if we have to do it two to the twenty times , then that 's a very very large number .
+Turn 107, E (Grad): Right . Argh . Oh , OK . Yeah . Yeah , that 's big .
+Turn 108, B (Grad): Cuz you have to query the node , for every a uh , or query the net two to the twenty times .
+Turn 109, E (Grad): Sure . Alright .
+Turn 110, B (Grad): Or not two to th excuse me , twenty times .
+Turn 111, E (Grad): OK . So , is it t comes to twenty billion or something ?
+Turn 112, B (Grad): Yes . As far as {disfmarker}
+Turn 113, E (Grad): That 's pretty big , though .
+Turn 114, B (Grad): That 's @ @ {disfmarker} That 's big . Actually {disfmarker} Oh ! We calculated a different number before . How did we do that ?
+Turn 115, C (Grad): Hmm .
+Turn 116, E (Grad): I remember there being some other one floating around . But anyway , uh .
+Turn 117, C (Grad): I don't really know .
+Turn 118, E (Grad): Yeah , it 's g Anyway , the point is that given all of these different factors , it 's uh e it 's {disfmarker} it 's still going to be impossible to run through all of the possible situations or whatever .
+Turn 119, C (Grad): Ooo , it 's just big .
+Turn 120, E (Grad): But I mean , this 'll get us a bit closer at least , right ? I mean .
+Turn 121, B (Grad): If it takes us a second to do , for each one , and let 's say it 's twenty billion , {comment} then that 's twenty billion seconds , which is {disfmarker}
+Turn 122, E (Grad): Yeah .
+Turn 123, B (Grad): Eva , do the math .
+Turn 124, C (Grad): Can't .
+Turn 125, E (Grad): Long !
+Turn 126, C (Grad): 
+Turn 127, B (Grad): Hours and hours and hours and hours . But we can do randomized testing .
+Turn 128, E (Grad): Tah - dah !
+Turn 129, B (Grad): Which probabilistically will be good enough .
+Turn 130, D (Grad): Mm - hmm . Yeah . So , it be it it 's an idea that one could n for {disfmarker} for example run {disfmarker} run past , um , what 's that guy 's name ? You know ? He - he 's usually here . Tsk . J J Jer - Jerj
+Turn 131, E (Grad): Here in the group ? Jerry Feldman .
+Turn 132, D (Grad): Oh , yeah . That 's the guy . We {disfmarker} we {disfmarker} we {disfmarker} we g
+Turn 133, B (Grad): Wait , who ?
+Turn 134, E (Grad): Yeah , i that would the g the bald guy .
+Turn 135, B (Grad): Oh ! My advisor !
+Turn 136, D (Grad): And um . so this is just an idea that 's floating around and we 'll see what happens . And um , hmm , what other news do I have ? Well we fixed some more things from the SmartKom system , but that 's not really of general interest , Um , Oh ! Questions , yeah . I 'll ask Eva about the E Bayes and she 's working on that . How is the generation XML thing ?
+Turn 137, B (Grad): I 'm gonna work on that today and tomorrow .
+Turn 138, D (Grad): OK . No need to do it today or tomorrow even . Do it next week or {disfmarker}
+Turn 139, B (Grad): I 'm gonna finish it today , uh hopefully .
+Turn 140, D (Grad): OK .
+Turn 141, B (Grad): I wanna do one of those things where I stay here . Cuz uh , if I go home , I can't finish it . I 've tried about five times so far , where I work for a while and then I 'm like , I 'm hungry . So I go home , and then I think {disfmarker}
+Turn 142, E (Grad): I 'm not going back .
+Turn 143, B (Grad): Yeah . Either that or I think to myself , I can work at home . And then I try to work at home , but I fail miserably .
+Turn 144, E (Grad): Yeah .
+Turn 145, B (Grad): Like I ended up at Blakes last night .
+Turn 146, E (Grad): Non - conducive .
+Turn 147, B (Grad): No . I almost got into a brawl . But I did not finish the uh , But I 've been looking into it . I th @ @ It 's not like it 's a blank slate . I found everything that I need and stu and uh ,
+Turn 148, D (Grad): But st
+Turn 149, B (Grad): At the b uh furthermore , I told Jerry that I was gonna finish it before he got back . So .
+Turn 150, D (Grad): OK .
+Turn 151, E (Grad): That 's approaching . He 's coming back when ? Uh next {disfmarker}
+Turn 152, B (Grad): Well , I think {disfmarker} we think we 'll see him definitely on Tuesday for the next {disfmarker} Or , no , wait . The meetings are on Thursday .
+Turn 153, D (Grad): Maybe .
+Turn 154, B (Grad): Maybe .
+Turn 155, D (Grad): Who knows .
+Turn 156, E (Grad): OK .
+Turn 157, B (Grad): Well , we 'll see him next week .
+Turn 158, E (Grad): Alright .
+Turn 159, D (Grad): That 's good . Yeah . The paper .
+Turn 160, E (Grad): Hmm .
+Turn 161, B (Grad): I was thinking about that .
+Turn 162, D (Grad): Hmm .
+Turn 163, B (Grad): I think I will try to work on the SmartKom stuff and I 'll {disfmarker} if I can finish it today , I 'll help you with that tomorrow , if you work on it ? I don't have a problem with us working on it though ? So .
+Turn 164, D (Grad): OK .
+Turn 165, B (Grad): And it {disfmarker}
+Turn 166, D (Grad): So you would say it 's funky cool .
+Turn 167, B (Grad): I mean we just {disfmarker} I mean it wouldn't hurt to write up a paper , cuz then , I mean , yeah {disfmarker} I was talking with Nancy and Nancy said , you don't know whether you have a paper to {pause} write up until you write it up . So .
+Turn 168, E (Grad): Yeah .
+Turn 169, D (Grad): Well
+Turn 170, B (Grad): And since Jerry 's coming back , we can run it by him too . So .
+Turn 171, D (Grad): Yep . Um , what 's your input ?
+Turn 172, E (Grad): Well , um , I don't have much experience with uh , conference papers for compu in the computer science realm , and so when I looked at what you had , which was apparently a complete submission , I just sort of said what {disfmarker} just {disfmarker} I {disfmarker} I didn't really know what to do with it , like , this is the sort of the basic outline of the system or whatever , or {disfmarker} or " here 's an idea " , right ? That 's what that paper was , " here 's {disfmarker} here 's one possible thing you could do " ,
+Turn 173, D (Grad): Mm - hmm .
+Turn 174, E (Grad): short , eight pages , and I just don't know what you have in mind for expanding . Like I 'd {disfmarker} I {disfmarker} what I didn't do is go to the web site of the conference and look at what they 're looking for or whatever .
+Turn 175, D (Grad): Mm - hmm . Well , it seems to me that um {disfmarker}
+Turn 176, B (Grad): Wait , is this a computer science conference or is it a {disfmarker}
+Turn 177, D (Grad): Um , well it 's more {disfmarker} It 's both , right ? It 's {disfmarker} it 's sort of t cognitive , neural , psycho , linguistic , but all for the sake of doing computer science . So it 's sort of cognitive , psycho , neural , plausibly motivated , architectures of natural language processing . So it seems pretty interdisciplinary , and I mean , w w the keynote speaker is Tomasello and blah - blah - blah ,
+Turn 178, E (Grad): Right . Oh , yeah .
+Turn 179, D (Grad): so , W the {disfmarker} the question is what could we actually do and {disfmarker} and {disfmarker} and keep a straight face while doing it .
+Turn 180, B (Grad): Well , I really can't keep a straight face doing anything .
+Turn 181, D (Grad): And i My idea is ,
+Turn 182, E (Grad): Setting that aside .
+Turn 183, D (Grad): well , you can say we have done a little bit and that 's this , and uh sort of the rest is position paper , " we wanna also do that " . Which is not too good . Might be more interesting to do something like let 's assume um , we 're right , we have as Jerry calls it , a delusion of adequacy , and take a " where is X " sentence ,
+Turn 184, E (Grad): Mm - hmm .
+Turn 185, D (Grad): and say , " we will just talk about this , and how we cognitively , neurally , psycho - linguistically , construction grammar - ally , motivated , envision uh , understanding that " .
+Turn 186, E (Grad): Mmm .
+Turn 187, D (Grad): So we can actually show how we parse it . That should be able to {disfmarker} we should be able to come up with , you know , a sort of a {disfmarker} a parse .
+Turn 188, E (Grad): Right .
+Turn 189, D (Grad): It 's on , just {disfmarker} just put it on .
+Turn 190, A (Grad): I 'm OK .
+Turn 191, B (Grad): Did Ben harass you ?
+Turn 192, A (Grad): Yes .
+Turn 193, B (Grad): Good .
+Turn 194, A (Grad): Was he supposed to harass me ?
+Turn 195, B (Grad): Yes .
+Turn 196, A (Grad): Well , he just told me that you came looking for me .
+Turn 197, D (Grad): You don
+Turn 198, B (Grad): Oh .
+Turn 199, D (Grad): 
+Turn 200, A (Grad): figure this out .
+Turn 201, D (Grad): You will suffer in hell , you know that .
+Turn 202, E (Grad): Backwards . There 's a s diagram somewhere which tells you how to put that {disfmarker}
+Turn 203, A (Grad): I know , I didn't understand that either !
+Turn 204, B (Grad): No wait . You have to put it on exactly like that ,
+Turn 205, D (Grad): This is it . Yeah .
+Turn 206, B (Grad): so put that {disfmarker} those things over your ears like that .
+Turn 207, A (Grad): OK .
+Turn 208, B (Grad): See the p how the plastic things ar arch out like that ? There we go .
+Turn 209, A (Grad): OK . It hurts .
+Turn 210, B (Grad): It hurts . It hurts real bad .
+Turn 211, A (Grad): It does ! I 'm sorry I didn't mean to {disfmarker}
+Turn 212, E (Grad): But that 's what you get for coming late to the meeting .
+Turn 213, A (Grad): I 'm sorry . I 'm sorry , oh these are all the same . OK ! th this is not very {pause} on target .
+Turn 214, B (Grad): Is your mike on ?
+Turn 215, C (Grad): An
+Turn 216, A (Grad): Shoot .
+Turn 217, D (Grad): Yeah , it is .
+Turn 218, B (Grad): OK .
+Turn 219, A (Grad): Alright , you guys can continue talking about whatever you were talking about before .
+Turn 220, E (Grad): Um ,
+Turn 221, D (Grad): We 're talking about this um , alleged paper that we may , just , sort of w
+Turn 222, A (Grad): Oh ! Which Johno mentioned to me . Uh - huh .
+Turn 223, D (Grad): Yeah . And I just sort of brought forth the idea that we take a sentence , " Where is the Powder - Tower " ,
+Turn 224, A (Grad): Mm - hmm .
+Turn 225, D (Grad): and we {disfmarker} we p pretend to parse it , we pretend to understand it , and we write about it .
+Turn 226, E (Grad): Hmm . About how {vocalsound} all of these things {disfmarker}
+Turn 227, A (Grad): What 's the part that 's not pretend ? The writing ?
+Turn 228, D (Grad): OK , then we pretend to write about .
+Turn 229, E (Grad): The submitting to a major international conference . {comment} {comment} Yeah .
+Turn 230, A (Grad): Tha - {vocalsound} Which conference is it for ?
+Turn 231, D (Grad): It 's the whatever , architectures , eh you know , where {disfmarker} There is this conference , it 's the seventh already international conference , on neu neurally , cognitively , motivated , architectures of natural language processing .
+Turn 232, A (Grad): Oh . Wow . Interesting .
+Turn 233, D (Grad): And the keynote speakers are Tomasello , MacWhinney ?
+Turn 234, A (Grad): Whinney . {comment} MacWhinney. Uh - huh .
+Turn 235, D (Grad): We - MacWhinney , I think .
+Turn 236, E (Grad): 
+Turn 237, A (Grad): So , interesting , both , like , child language people .
+Turn 238, D (Grad): Yeah . Yep .
+Turn 239, A (Grad): OK .
+Turn 240, D (Grad): So maybe you wanna write something too .
+Turn 241, A (Grad): Yeah , maybe I wanna go . Um , why are they speaking at it if it {disfmarker}
+Turn 242, E (Grad): Mmm . {vocalsound} Mmm .
+Turn 243, A (Grad): is {disfmarker} is it normally like {disfmarker} like , dialogue systems , or , you know , other NLP - ish things ?
+Turn 244, D (Grad): No no no no no no no no . It 's {disfmarker} it 's like a {disfmarker}
+Turn 245, A (Grad): Oh , it 's cognitive . OK .
+Turn 246, D (Grad): Yeah . Yeah . Even neuro .
+Turn 247, A (Grad): And uh , both learning and like , comprehension , production , that kinda stuff .
+Turn 248, D (Grad): Psycho .  You could look at the web site .
+Turn 249, A (Grad): OK .
+Turn 250, D (Grad): I 'll {disfmarker}
+Turn 251, A (Grad): OK . I don't know about it .
+Turn 252, D (Grad): And the ad and {disfmarker} and the deadline is the fifteenth of June .
+Turn 253, A (Grad): Yeah that 's pretty soon .
+Turn 254, E (Grad): Mmm .
+Turn 255, D (Grad): Hey . Plenty of time .
+Turn 256, E (Grad): Why , we 've got over a week !
+Turn 257, D (Grad): It would be nice to go write two papers actually . Yeah . And one {disfmarker} one from your perspective , and one from our peve per per
+Turn 258, A (Grad): Mm - hmm . I mean , th that 's the kinda thing that maybe like , um , the general uh con sort of like NTL - ish like , whatever , the previous simulation based pers {comment} maybe you 're talking about the same kind of thing . A general paper about the approach here would probably be appropriate . And good to do at some point anyway .
+Turn 259, D (Grad): Yeah . Yeah .
+Turn 260, A (Grad): Um .
+Turn 261, D (Grad): Well , I {disfmarker} I also think that if we sort of write about what we have done in the past six months , we {disfmarker} we {disfmarker} we could sort of craft a nice little paper that {pause} if it gets rejected , which could happen , doesn't hurt
+Turn 262, A (Grad): Mm - hmm .
+Turn 263, D (Grad): because it 's something we eh {disfmarker}
+Turn 264, A (Grad): Having it is still a good thing .
+Turn 265, D (Grad): having it is a good {disfmarker} good thing .
+Turn 266, A (Grad): Yeah .
+Turn 267, D (Grad): It 's a nice exercise , it 's {disfmarker} I usually enjoy writing papers . It 's not {disfmarker} I don't re regard it as a painful thing .
+Turn 268, A (Grad): Mm - hmm . It 's fun .
+Turn 269, D (Grad): And um , we should all do more for our publication lists . And . It just never hurts . And Keith and - or Johno will go , probably .
+Turn 270, B (Grad): Will I ?
+Turn 271, A (Grad): When is it and where ?
+Turn 272, D (Grad): In case of {disfmarker}
+Turn 273, E (Grad): Hmm !
+Turn 274, D (Grad): It 's on the twenty second of September , in Saarbruecken Germany .
+Turn 275, A (Grad): Ah , it 's in Germany . Ah , OK . I s I see . Tomasello 's already in Germany anyway , so makes sense . OK .
+Turn 276, E (Grad): Just {disfmarker}
+Turn 277, A (Grad): Um . OK . So , is the {disfmarker} What {disfmarker} Are you just talking about you know , the details of how to do it , or whether to do it , or what it would be ?
+Turn 278, E (Grad): What would one possibly put in such a paper ?
+Turn 279, D (Grad): What to write about .
+Turn 280, A (Grad): Or what to write about ?
+Turn 281, D (Grad): What is our {disfmarker} what 's our take home message . What {disfmarker} what do we actually {disfmarker} Because I mean , it {disfmarker} I don't like papers where you just talk about what you plan to do . I mean , it 's obvious that we can't do any kind of evaluation , and have no {disfmarker} you know , we can't write an ACL type paper where we say , " OK , we 've done this
+Turn 282, A (Grad): Mm - hmm .
+Turn 283, D (Grad): and now we 're whatever percentage better than everybody else " . You know .
+Turn 284, A (Grad): Mm - hmm .
+Turn 285, D (Grad): It 's far too early for that . But uh , we {disfmarker} we can tell them what we think . I mean that 's {disfmarker} never hurts to try . And um , maybe even {disfmarker} That 's maybe the time to introduce the {disfmarker} the new formalism that you guys have cooked up .
+Turn 286, A (Grad): Mm - hmm .
+Turn 287, B (Grad): But that {disfmarker}
+Turn 288, E (Grad): Are in the process of {disfmarker}
+Turn 289, A (Grad): How many pages ?
+Turn 290, B (Grad): don't they need to finish the formalism ?
+Turn 291, D (Grad): It 's just like four pages .
+Turn 292, A (Grad): Four pages ?
+Turn 293, D (Grad): I mean it 's {disfmarker} it 's not even a h
+Turn 294, E (Grad): Yeah .
+Turn 295, A (Grad): OK , so it 's a little thing .
+Turn 296, D (Grad): Mm - hmm .
+Turn 297, A (Grad): Oh .
+Turn 298, B (Grad): Well , you said it was four thousand lines ?
+Turn 299, E (Grad): Oh .
+Turn 300, B (Grad): Is that what you s
+Turn 301, A (Grad): OK . Four pages is , like , really not very much space .
+Turn 302, D (Grad): I don't know w Did you look at it ? Yeah , it depends on the format .
+Turn 303, E (Grad): Oh my gosh . Oh , I thought you were {disfmarker} I thought we were talking about something which was much more like ten or something .
+Turn 304, D (Grad): No that 's {disfmarker} I mean that 's actually a problem . It 's difficu it 's more difficult to write on four pages than on eight .
+Turn 305, A (Grad): It 's {disfmarker} Yeah .
+Turn 306, E (Grad): Yeah .
+Turn 307, A (Grad): And it 's also difficult to {disfmarker} even if you had a lot of substance , it 's hard to demonstrate that in four pages , basically .
+Turn 308, E (Grad): Yeah .
+Turn 309, A (Grad): Um .
+Turn 310, E (Grad): That would be hard .
+Turn 311, A (Grad): I mean it 's still {disfmarker} it 's still {disfmarker}
+Turn 312, D (Grad): Well I uh maybe it 's just four thousand lines . I do I don't {disfmarker} They don't want any {disfmarker} They don't have a TeX f style @ @ guide .
+Turn 313, A (Grad): Uh - huh , uh - huh .
+Turn 314, D (Grad): They just want ASCII . Pure ASCII lines ,
+Turn 315, A (Grad): OK .
+Turn 316, D (Grad): whatever . Why , for whatever reason ,
+Turn 317, A (Grad): Not including figures and such ?
+Turn 318, D (Grad): I don't know . I don't know . Very unspecific unfortunately .
+Turn 319, A (Grad): OK . Well ,
+Turn 320, D (Grad): We 'll just uh {disfmarker}
+Turn 321, B (Grad): I would say that 's closer to six pages actually . Four thousand lines of ASCII ?
+Turn 322, D (Grad): OK then . It 's {disfmarker}
+Turn 323, E (Grad): Four thousand lines . I mean . Isn't a isn't it about fifty s fifty five , sixty lines to a page ?
+Turn 324, D (Grad): I d don't quote me on this . This is numbers I {disfmarker} I have from looking o
+Turn 325, B (Grad): How many characters are on a line ?
+Turn 326, D (Grad): OK .
+Turn 327, A (Grad): ASCII ?
+Turn 328, D (Grad): Let 's {disfmarker} let 's {disfmarker} wh wh what should we {disfmarker} should {disfmarker} should we uh , um , discuss this over tea and all of us look at the web ? Oh , I can't . I 'm wizarding today .
+Turn 329, A (Grad): OK , look at the web page ?
+Turn 330, D (Grad): Um .
+Turn 331, A (Grad): Wha - w
+Turn 332, D (Grad): Look at the web page and let 's talk about it maybe tomorrow afternoon ?
+Turn 333, A (Grad): More cues for us to find it are like , neural cons
+Turn 334, D (Grad): Johno will send you a link .
+Turn 335, A (Grad): Oh , you have a link . OK . OK .
+Turn 336, B (Grad): I got an email .
+Turn 337, A (Grad): OK .
+Turn 338, B (Grad): By the way , Keith is comfortable with us calling him " cool Keith " .
+Turn 339, A (Grad): Oh . Cool . Keith .
+Turn 340, E (Grad): He {disfmarker} he decided {vocalsound} I 'm chilling in the five - one - O .
+Turn 341, A (Grad): Cool , " cool Keith " .
+Turn 342, E (Grad): Yeah .
+Turn 343, A (Grad): Excellent .
+Turn 344, D (Grad): OK .
+Turn 345, A (Grad): That 's a very cool T - shirt .
+Turn 346, E (Grad): Thank you .
+Turn 347, D (Grad): And I 'm also flying {disfmarker}
+Turn 348, E (Grad): I got this from the two one two .
+Turn 349, A (Grad): New York ? Excellent .
+Turn 350, E (Grad): Yeah .
+Turn 351, A (Grad): Sorry . Yes ?
+Turn 352, D (Grad): I 'm flying to Sicily next {disfmarker} in a w two weeks from now ,
+Turn 353, A (Grad): Oh , lucky you .
+Turn 354, D (Grad): w and a week of business in Germany . I should mention that for you . And otherwise you haven't missed much , except for a really weird idea , but you 'll hear about that soon enough .
+Turn 355, A (Grad): The idea that you and I already know about ? That you already told me ? Not that {disfmarker} OK .
+Turn 356, D (Grad): No , no , no . Yeah , that is something for the rest of the gang to {disfmarker} to g
+Turn 357, E (Grad): The thing with the goats and the helicopters ?
+Turn 358, D (Grad): Change the watchband . It 's time to walk the sheep .
+Turn 359, C (Grad): like
+Turn 360, A (Grad): OK .
+Turn 361, D (Grad): Um . Did you catch that allusion ? It 's time to walk the sheep ?
+Turn 362, E (Grad): No .
+Turn 363, D (Grad): It 's a a uh presumably one of the Watergate codes they uh {disfmarker}
+Turn 364, E (Grad): Oh .
+Turn 365, D (Grad): Anyways , th um , um , don't make any plans for spring break next year . That 's {disfmarker}
+Turn 366, E (Grad): Oh , shoot .
+Turn 367, D (Grad): That 's the other thing . We 're gonna do an int EDU internal workshop in Sicily .
+Turn 368, A (Grad): That 's what {disfmarker} That 's what he says .
+Turn 369, D (Grad): I 've already got the funding .
+Turn 370, A (Grad): I kn That 's great !
+Turn 371, D (Grad): So , I mean .
+Turn 372, A (Grad): Does that mean {disfmarker} Does that mean you 'll get {disfmarker} you 'll fly us there ?
+Turn 373, E (Grad): We 'll see .
+Turn 374, D (Grad): No , that 's {disfmarker} Yeah , that 's what it means .
+Turn 375, A (Grad): Hhh ! OK , cool . Uh - a a
+Turn 376, B (Grad): And he 'll put us up , too .
+Turn 377, E (Grad): Huh .
+Turn 378, A (Grad): I know {disfmarker} I know about that part . I know about the {disfmarker} the almond trees and stuff . Not joking .
+Turn 379, D (Grad): OK .
+Turn 380, A (Grad): Name a vegetable , OK . {vocalsound} Oh , um , kiwi ?
+Turn 381, E (Grad): Yeah .
+Turn 382, D (Grad): Mmm , too easy .
+Turn 383, A (Grad): Coconut .
+Turn 384, D (Grad): Ki
+Turn 385, A (Grad): Pineapple . See ? Mango ? OK . OK . Too easy ?
+Turn 386, D (Grad): Too easy . Yeah , mangos go everywhere .
+Turn 387, A (Grad): Really ?
+Turn 388, D (Grad): So do kiwi .
+Turn 389, A (Grad): Oh . OK , but I was trying to find something that he didn't grow on his farm .
+Turn 390, D (Grad): But coconut anana pineapple , that 's {disfmarker} that 's tricky , yeah .
+Turn 391, A (Grad): Sorry . Anyway . Cantaloupe .
+Turn 392, E (Grad): So , but we have to decide what , like , sort of the general idea of {disfmarker}
+Turn 393, B (Grad): Potatoes . So . Sorry !
+Turn 394, E (Grad):  Um , I mean , we 're gonna have an example case um , right ? I m the {disfmarker} the point is to {disfmarker} like this " where is " case , or something .
+Turn 395, D (Grad): Yeah , maybe you have {disfmarker} It would be kind of {disfmarker} The paper ha would have , in my vision , a nice flow if we could say , well here is th the {disfmarker} th here is parsing if you wanna do it c right , here is understanding if you wanna do it right , and you know {disfmarker} without going into technical {disfmarker}
+Turn 396, E (Grad): Mm - hmm .
+Turn 397, A (Grad): But then in the end we 're not doing like those things right yet , right ? Would that be clear in the paper or not ?
+Turn 398, D (Grad): That would be clear , we would {disfmarker}
+Turn 399, A (Grad): OK .
+Turn 400, D (Grad): I {disfmarker} I mailed around a little paper that I have {disfmarker}
+Turn 401, A (Grad): It would be like , this is the idea . Oh , I didn't get that ,
+Turn 402, D (Grad): w we could sort of say , this is {disfmarker}
+Turn 403, A (Grad): did I ? Oops . Did I ?
+Turn 404, D (Grad): No ,
+Turn 405, A (Grad): Oops . {comment} Sorry .
+Turn 406, B (Grad): No , y I don't think you got it .
+Turn 407, D (Grad): See this , if you if you 're not around , and don't partake in the discussions , and you don't get any email ,
+Turn 408, A (Grad): I 'm sorry . I 'm sorry , I 'm sorry . Sorry .
+Turn 409, D (Grad): and
+Turn 410, A (Grad): OK , go on . So parsing done right {vocalsound} is like chicken done right .
+Turn 411, D (Grad): Su So we could {disfmarker} we could say this is what {disfmarker} what 's sort of state of the art today . Nuh ?
+Turn 412, A (Grad): OK .
+Turn 413, D (Grad): And say , this is bad . Nuh ?
+Turn 414, A (Grad): Yeah .
+Turn 415, D (Grad): And then we can say , uh well what we do is this .
+Turn 416, A (Grad): OK .
+Turn 417, D (Grad): Yeah .
+Turn 418, A (Grad): Parsing done right , interpretation done right , example .
+Turn 419, D (Grad): Mm - hmm . Yeah . And
+Turn 420, A (Grad): And how much to get into the cognitive neural part ?
+Turn 421, B (Grad): That 's the only {disfmarker} That 's the question mark .
+Turn 422, D (Grad): We
+Turn 423, B (Grad): Don't you need to reduce it if it 's a {disfmarker} or reduce it , if it 's a cognitive neuro {disfmarker}
+Turn 424, A (Grad): Well , you don't have t I mean the conference may be cognitive neural , doesn't mean that every paper has to be both . Like , NLP cognitive neural .
+Turn 425, D (Grad): Yeah , and you can {disfmarker} you can just point to the {disfmarker} to the literature ,
+Turn 426, E (Grad): Mmm .
+Turn 427, D (Grad): you can say that construction - based You know {disfmarker}
+Turn 428, A (Grad): So i so this paper wouldn't particularly deal with that side although it could reference the NTL - ish sort of , like , um , approach .
+Turn 429, D (Grad): Mm - hmm .
+Turn 430, A (Grad): Yeah .
+Turn 431, D (Grad): Yeah .
+Turn 432, A (Grad): The fact that the methods here are all compatible with or designed to be compatible with whatever , neurological {disfmarker} neuro neuro - biol su stuff .
+Turn 433, D (Grad): Mm - hmm .
+Turn 434, A (Grad): Yeah , I guess four pages you could {disfmarker} I mean you could definitely {disfmarker} it 's definitely possible to do it . It 's just {disfmarker} It 'd just be small . Like introducing the formalism might be not really possible in detail , but you can use an example of it .
+Turn 435, E (Grad): Well , l looking at {disfmarker} yeah , looking at that paper that {disfmarker} that you had , I mean you know , like , you didn't really explain in detail what was going on in the XML cases or whatever you just sorta said well , you know , here 's the general idea , some stuff gets put in there . You know , hopefully you can {disfmarker} you can say something like constituents tells you what the construction is made out of , you know , without going into this intense detail .
+Turn 436, A (Grad): Yeah , yeah . So it be like using the formalism rather than you know , introducing it per se .
+Turn 437, E (Grad): Yeah .
+Turn 438, A (Grad): So .
+Turn 439, E (Grad): Give them the one paragraph whirlwind tour of w w what this is for ,
+Turn 440, A (Grad): Yeah .
+Turn 441, E (Grad): and {disfmarker} Yeah .
+Turn 442, D (Grad): Mm - hmm .
+Turn 443, A (Grad): And people will sort of figure out or ask about the bits that are implicit .
+Turn 444, D (Grad): Yeah . So this will be sort of documenting what we think , and documenting what we have in terms of the Bayes - net stuff .
+Turn 445, A (Grad): Mm - hmm .
+Turn 446, D (Grad): And since there 's never a bad idea to document things , no ?
+Turn 447, A (Grad): That 's th that 's definitely a good idea .
+Turn 448, D (Grad): That would be my , uh {disfmarker} We {disfmarker} we should sketch out the details maybe tomorrow afternoon - ish , if everyone is around . I don't know . You probably wouldn't be part of it .
+Turn 449, E (Grad): I think so .
+Turn 450, D (Grad): Maybe you want ? Think about it . Um , You may {disfmarker} may ruin your career forever , if you appear .
+Turn 451, B (Grad): Yeah , you might get blacklisted .
+Turn 452, D (Grad): And um , the uh , other thing , yeah we actually {disfmarker} Have we made any progress on what we decided , uh , last week ? I 'm sure you read the transcript of last week 's meeting in red so sh so you 're up to dated {disfmarker} caught up .
+Turn 453, A (Grad): No . Sorry .
+Turn 454, D (Grad): We decided t that we 're gonna take a " where is something " question , and pretend we have parsed it , and see what we could possibly hope to observe on the discourse side .
+Turn 455, B (Grad): Remember I came in and I started asking you about how we were sor going to sort out the uh , decision nodes ?
+Turn 456, A (Grad): Yes ! What 'd you say ?
+Turn 457, B (Grad): I remember you talking to me , just not what you said .
+Turn 458, A (Grad): I do remember you talking to me . Um , a few more bits .
+Turn 459, B (Grad): Well , there was like we needed to {disfmarker} or uh , in my opinion we need to design a Bayes {disfmarker} another sub - Bayes - net {disfmarker} You know , it was whether {disfmarker} it was whether we would have a Bayes - net on the output and on the input ,
+Turn 460, A (Grad): Oh .
+Turn 461, B (Grad): or whether the construction was gonna be in the Bayes - net ,
+Turn 462, A (Grad): Oh , yeah . OK .
+Turn 463, B (Grad): a and outside of it ,
+Turn 464, A (Grad): OK .
+Turn 465, B (Grad): and {disfmarker}
+Turn 466, A (Grad): So that was {disfmarker} was that the question ? Was that what {disfmarker}
+Turn 467, B (Grad): Well that was related to what we were talking about .
+Turn 468, D (Grad): Should I introduce it as SUDO - square ?
+Turn 469, B (Grad): Yeah sure .
+Turn 470, D (Grad): We have to put this in the paper . If we write it . This is {disfmarker} this is my only constraint . The {disfmarker} th So . The SUDO - square {nonvocalsound} is , {vocalsound} " Situation " , " User " , " Discourse " , right ? " Ontology " .
+Turn 471, E (Grad): Oh I saw the diagram in the office ,
+Turn 472, A (Grad): Oh my god , that 's amazing !
+Turn 473, D (Grad): Mmm . Yeah . Whatever .
+Turn 474, A (Grad): No way .
+Turn 475, E (Grad): Way !
+Turn 476, D (Grad): Is it ?
+Turn 477, A (Grad): Someone 's gonna start making Phil Collins jokes .
+Turn 478, D (Grad): Yeah . Hmm ?
+Turn 479, A (Grad): Sorry .
+Turn 480, B (Grad): What ?
+Turn 481, E (Grad): Oh , god , I hope not .
+Turn 482, A (Grad): You guys are too young .
+Turn 483, E (Grad): You know like " Sussudio " ,
+Turn 484, A (Grad): Yeah , come on .
+Turn 485, E (Grad): that horrible , horrible song that should never have been created .
+Turn 486, B (Grad): Oh , oh , oh , oh .
+Turn 487, A (Grad): I know , that was horrible . Sussudio .
+Turn 488, B (Grad): I 've blocked every aspect of Phil Collins out of my mind .
+Turn 489, C (Grad): What ?
+Turn 490, A (Grad): I 'm sorry , I haven't . Not on purpose .
+Turn 491, E (Grad): in here
+Turn 492, D (Grad): Oh {disfmarker} {vocalsound} Well , also he 's talking about suicide , and that 's {disfmarker} that 's not a notion I wanna have evoked .
+Turn 493, A (Grad): No , he 's not . Really ?
+Turn 494, D (Grad): He is .
+Turn 495, A (Grad): Oops . {comment} I didn't really listen to it ,
+Turn 496, D (Grad): The {disfmarker}
+Turn 497, A (Grad): I was too young .
+Turn 498, E (Grad): Hmm .
+Turn 499, A (Grad): Anyway .
+Turn 500, E (Grad): It sounds too rocking for that .
+Turn 501, A (Grad): Yeah .
+Turn 502, E (Grad): Anyway . So , what 's going on here ? So what are {disfmarker} what {disfmarker}
+Turn 503, D (Grad): So ,
+Turn 504, E (Grad): Was wollte der Kuenstler uns damit sagen ?
+Turn 505, A (Grad): Stop excluding me .
+Turn 506, D (Grad): OK , so we have tons of little things here ,
+Turn 507, A (Grad): I can't believe that that 's never been thought of before .
+Turn 508, D (Grad): and we 've
+Turn 509, B (Grad): Wait , what are the dots ? I don't remember what the dots were .
+Turn 510, E (Grad): Those are little bugs .
+Turn 511, A (Grad): Cool Keith .
+Turn 512, D (Grad): OK .
+Turn 513, A (Grad): 
+Turn 514, D (Grad): You know , these are our , whatever , belief - net decision nodes , and they all contribute to these {pause} {nonvocalsound} things down here .
+Turn 515, B (Grad): Oh , oh .
+Turn 516, A (Grad): Wait , wait , what 's the middle thing ?
+Turn 517, D (Grad): That 's EDU .
+Turn 518, E (Grad): That 's a c
+Turn 519, D (Grad): e e Our e e e
+Turn 520, A (Grad): But wh I mean {disfmarker}
+Turn 521, E (Grad): That 's {disfmarker}
+Turn 522, D (Grad): You . We . Us .
+Turn 523, A (Grad): But what is it ?
+Turn 524, D (Grad): Well , in the moment it 's a Bayes - net . And it has sort of fifty not - yet - specified interfaces . OK . Eh {pause} I have taken care that we actually can build little interfaces , {nonvocalsound} to other modules that will tell us whether the user likes these things and , n the {disfmarker} or these things , and he {disfmarker} whether he 's in a wheelchair or not ,
+Turn 525, A (Grad): OK . Is that supposed to be the international sign for interface ?
+Turn 526, D (Grad): I think so , yeah .
+Turn 527, A (Grad): Mmm . OK .
+Turn 528, B (Grad): I 'd {disfmarker} I 'd never seen it before either .
+Turn 529, A (Grad): OK . Just t Cool .
+Turn 530, D (Grad): Mmm . So .
+Turn 531, A (Grad): Yeah .
+Turn 532, E (Grad): Cuz things fit onto that , see ?
+Turn 533, A (Grad): Cool .
+Turn 534, E (Grad): In a vaguely obscene fashion .
+Turn 535, D (Grad): No , this is a RME core by agent design , I don't know .
+Turn 536, A (Grad): That 's so great .
+Turn 537, D (Grad): There 's maybe a different
+Turn 538, E (Grad): So wait , what a what are these letters again , Situr - {comment} Situation , User , Discourse and
+Turn 539, D (Grad): Situation , user , d ontology .
+Turn 540, A (Grad): User ?
+Turn 541, E (Grad): Ontology .
+Turn 542, A (Grad): What about the utterance ?
+Turn 543, C (Grad): Discourse .
+Turn 544, D (Grad): That 's here .
+Turn 545, E (Grad): It 's {disfmarker}
+Turn 546, A (Grad): Oh , discourse . So that 's not like context , OK .
+Turn 547, D (Grad): Yeah .
+Turn 548, E (Grad): Discourse is all things linguistic , yeah .
+Turn 549, D (Grad): So this {disfmarker} this includes the {disfmarker} the current utterance plus all the previous utterances .
+Turn 550, A (Grad): Interesting , uh - huh . User .
+Turn 551, D (Grad): And for example w i s I Irena Gurevich is going to be here eh , end of July .
+Turn 552, A (Grad): User .
+Turn 553, D (Grad): She 's a new linguist working for EML . And what she would like to do for example is great for us . She would like to take the ent ontolog
+Turn 554, C (Grad): Ouch .
+Turn 555, D (Grad): So , we have discussed in terms of the EVA {disfmarker}
+Turn 556, A (Grad): Grateful for us ?
+Turn 557, D (Grad): uh {disfmarker}
+Turn 558, A (Grad): Did you just say grateful for us ? OK , sorry . Anyway .
+Turn 559, D (Grad): Think of {disfmarker} back at the EVA vector , and Johno coming up with the idea that if the person discussed the {disfmarker} discussed the admission fee , in {disfmarker} eh previously , that might be a good indication that , " how do I get to the castle ? " , actually he wants to enter .
+Turn 560, A (Grad): Mm - hmm .
+Turn 561, D (Grad): Or , you know , " how do I get to X ? " discussing the admission fee in the previous utterance , is a good indication .
+Turn 562, E (Grad): Mm - hmm .
+Turn 563, A (Grad): 
+Turn 564, D (Grad): So we don't want a hard code , a set of lexemes , or things , that person 's you know , sort of filter , or uh search the discourse history .
+Turn 565, A (Grad): Mm - hmm .
+Turn 566, D (Grad): So what would be kind of cool is that if we encounter concepts that are castle , tower , bank , hotel , we run it through the ontology , and the ontology tells us it has um , admission , opening times , it has admission fees , it has this , it has that , and then we {disfmarker} we {disfmarker} we make a thesaurus lexicon , look up , and then search dynamically through the uh , discourse history for {pause} occurrences of these things in a given window of utterances .
+Turn 567, A (Grad): Mm - hmm .
+Turn 568, D (Grad): And that might , you know , give us additional input to belief A versus B . Or E versus A .
+Turn 569, A (Grad): So it 's not just a particular word 's {disfmarker} OK , so the {disfmarker} you 're looking for a few keys that you know are cues to {disfmarker} sorry , a few specific cues to some intention .
+Turn 570, B (Grad): You can dynamically look up keys , yeah .
+Turn 571, D (Grad): Yeah .
+Turn 572, A (Grad): OK .
+Turn 573, E (Grad): Uh , so , wait {disfmarker} so um , since this {disfmarker} since this sort of technical stuff is going over my head ,
+Turn 574, B (Grad): And then grep , basically .
+Turn 575, E (Grad): the {disfmarker} the point is that you uh {disfmarker} that when someone 's talking about a castle , you know that it 's the sort of thing that people are likely to wanna go into ? Or , is it the fact that if there 's an admission fee , then one of the things we know about admission fees is that you pay them in order to go in ? And then the idea of entering is active in the discourse or something ? And then
+Turn 576, D (Grad): Well
+Turn 577, E (Grad): blah - blah - blah ?
+Turn 578, D (Grad): the {disfmarker} the idea is even more general .
+Turn 579, E (Grad): I mean .
+Turn 580, D (Grad): The idea is to say , we encounter a certain entity in a {disfmarker} in a in a utterance . So le let 's look up everything we {disfmarker} the ontology gives us about that entity , what stuff it does , what roles it has , what parts , whatever it has . Functions . And , then we look in the discourse , whether any of that , or any surface structure corresponding to these roles , functions aaa {comment} has ever occurred .
+Turn 581, E (Grad): Oh , OK .
+Turn 582, D (Grad): And then , the discourse history can t tell us , " yeah " , or " no " .
+Turn 583, E (Grad): OK .
+Turn 584, D (Grad): And then it 's up for us to decide what to do with it . t So i
+Turn 585, E (Grad): OK . So {disfmarker} No , go ahead .
+Turn 586, D (Grad): So , we may think that if you say um , {vocalsound} {vocalsound} " where is the theater " , um , whether or not he has talked about tickets before , then we {disfmarker} he 's probably wanna go there to see something .
+Turn 587, E (Grad): Mm - hmm .
+Turn 588, D (Grad): Or " where is the opera in Par - Paris ? ,
+Turn 589, E (Grad): OK .
+Turn 590, D (Grad): yeah ? Lots of people go to the opera to take pictures of it and to look at it ,
+Turn 591, E (Grad): Mm - hmm . OK .
+Turn 592, D (Grad): and lots of people go to attend a performance .
+Turn 593, E (Grad): Mm - hmm .
+Turn 594, D (Grad): And , the discourse can maybe tell us w what 's more likely if we know what to look for in previous statements . And so we can hard code " for opera , look for tickets , look for this , look for that ,
+Turn 595, E (Grad): OK . OK .
+Turn 596, D (Grad): or look for Mozart , look for thi " but the smarter way is to go via the ontology and dynamically , then look up u stuff .
+Turn 597, E (Grad): OK . But you 're still doing look up so that when the person {disfmarker} So the point is that when the person says , " where is it ? " then you sort of say , let 's go back and look at other things and then decide , rather than the other possibility which is that {pause} all through discourse as they talk about different things {disfmarker} You know like w prior to the " where is it " question they say , you know , " how much does it cost to get in , you know , to {disfmarker} to see a movie around here " , um , {vocalsound} " where is the closest theater " {disfmarker} The {disfmarker} the {disfmarker} the point is that by mentioning admission fees , that just sort of stays active now .
+Turn 598, D (Grad): Yeah .
+Turn 599, E (Grad): You know . That becomes part of like , their sort of current ongoing active conceptual structure .
+Turn 600, D (Grad): Mm - hmm .
+Turn 601, E (Grad): And then , um , over in your Bayes - net or whatever , when {disfmarker} when the person says " where is it " , you 've already got , you know since they were talking about admission , and that evokes the idea of entering , um , then when they go and ask " where is it " , then you 're Enter node is already active
+Turn 602, D (Grad): Mm - hmm .
+Turn 603, E (Grad): because that 's what the person is thinking about .
+Turn 604, D (Grad): Yeah .
+Turn 605, E (Grad): I mean that 's the sort of cognitive linguistic - y way ,
+Turn 606, D (Grad): Yeah , e ultimately that 's also what we wanna get at .
+Turn 607, E (Grad): and probably not practical .
+Turn 608, D (Grad): I think that 's {disfmarker} that 's the correct way . So , of course we have to keep memory of what was the last intention , and how does it fit to this , and what does it tell us , in terms of {disfmarker} of the {disfmarker} the {disfmarker} what we 're examining .
+Turn 609, E (Grad): Mm - hmm . Mmm , yeah .
+Turn 610, D (Grad): And furthermore , I mean we can idealize that , you know , people don't change topics ,
+Turn 611, E (Grad): Mm - hmm .
+Turn 612, D (Grad): but they do . But , even th for that , there is a student of ours who 's doing a dialogue act um , recognition module .
+Turn 613, E (Grad): Right . Mm - hmm .
+Turn 614, D (Grad): So , maybe , we 're even in a position where we can take your approach , which is of course much better , as to say how {disfmarker} how do these pieces {disfmarker}
+Turn 615, E (Grad): Mmm . And much harder to r program .
+Turn 616, D (Grad): Hmm ?
+Turn 617, E (Grad): And much harder to p to program .
+Turn 618, D (Grad): Yeah . How {disfmarker} how do these pieces fit together ? Uh - huh . And um . But , OK , nevertheless . So these are issues but we {disfmarker} what we actually decided last week , is to , and this is , again , for your benefit {disfmarker} is to um , pretend we have observed and parsed an utterance such as " where is the Powder - Tower " , or " where is the zoo " , and specify um , what {disfmarker} what we think the {disfmarker} the output uh , observe , out {disfmarker} i input nodes for our Bayes - nets for the sub sub - D , for the discourse bit , should be . So that {disfmarker} And I will {disfmarker} I will then {comment} {vocalsound} come up with the ontology side uh , bits and pieces , so that we can say , OK we {disfmarker} we always just look at this utterance . That 's the only utterance we can do , it 's hard coded , like Srini , sort of hand parsed , hand crafted , but this is what we hope to be able to observe in general from utterances , and from ontologies , and then we can sort of fiddle with these things to see what it actually produces , in terms of output .
+Turn 619, E (Grad): Uh
+Turn 620, D (Grad): So we need to find out what the " where is X " construction will give us in terms of semantics and {vocalsound} Simspec type things .
+Turn 621, A (Grad): Just {disfmarker} OK . Just " where is X " ?
+Turn 622, D (Grad): Mm - hmm .
+Turn 623, A (Grad): Or any variants of that .
+Turn 624, D (Grad): Yeah . No ! Um , look at it this way , i Yeah . What did we decide . We decided sort of the {disfmarker} the prototypical " where is X " , where you know , we don't really know , does he wanna go there , or just wanna know where it is .
+Turn 625, E (Grad): Well we were
+Turn 626, D (Grad): So the difference of " where is the railway station " , versus where {disfmarker} where {disfmarker} " where is Greenland " . Nuh ?
+Turn 627, E (Grad): Mm - hmm .
+Turn 628, B (Grad): Uh s I was just dancing , sorry .
+Turn 629, D (Grad): We 're not videotaping any of this . So .
+Turn 630, B (Grad): Uh {disfmarker} ah {disfmarker}
+Turn 631, E (Grad): So , um , we 're supposed to {disfmarker} I mean we 're talking about sort of anything that has the semantics of request for location , right ? actually ? Or , I mean , anyway , the node in the uh {disfmarker} the ultimate , uh , in {disfmarker} in the Bayes - net thing when you 're done , the {disfmarker} the node that we 're talking about um , is one that says " request for location , true " , or something like that , right ? Um , and {disfmarker} and exactly how that gets activated , you know , like whether we want the sentence " how do I get there ? " to activate that node or not , you know , that 's {disfmarker} that 's sort of the issue that sort of the linguistic - y side has to deal with , right ?
+Turn 632, D (Grad): Yeah , but it {disfmarker} Yea - Nnn Well actually more {disfmarker} m more the other way around . We wanted something that represents uncertainty uh we in terms of going there or just wanting to know where it is , for example . Some generic information .
+Turn 633, E (Grad): OK .
+Turn 634, D (Grad): And so this is prototypically @ @ found in the " where is something " question , surface structure ,
+Turn 635, E (Grad): OK .
+Turn 636, B (Grad): We
+Turn 637, D (Grad): which can be p you know , should be maps to something that activates both . I mean the idea is to {disfmarker}
+Turn 638, B (Grad): I don't {disfmarker}
+Turn 639, E (Grad): Alright , OK .
+Turn 640, B (Grad): Hhh . I guess . I don't {disfmarker}
+Turn 641, D (Grad): let 's have it fit nicely with the paper .
+Turn 642, B (Grad): I don't see unde how we would be able to distinguish between the two intentions just from the g utterance , though .
+Turn 643, D (Grad): The {disfmarker}
+Turn 644, B (Grad): I mean , uh bef or , before we don't {disfmarker} before we cranked it through the Bayes - net . I mean .
+Turn 645, D (Grad): Yeah , we {disfmarker} we wouldn't . That 's exactly what we want .
+Turn 646, B (Grad): We would ?
+Turn 647, D (Grad): We want to get {disfmarker} No . We wouldn't .
+Turn 648, B (Grad): OK , but then so basically it 's just a {disfmarker} for every construction we have a node in the net , right ? And we turn on that node .
+Turn 649, D (Grad): Yeah . What {disfmarker} what is this gonna {disfmarker}
+Turn 650, E (Grad): Oy .
+Turn 651, D (Grad): Exactly . What is the uh {disfmarker} Well {disfmarker}
+Turn 652, B (Grad): And then given that we know that {pause} the construction {pause} has these two things , we can set up probabilities {disfmarker} we can s basically define all the tables for ev for those {disfmarker}
+Turn 653, D (Grad): Yeah , it should be {disfmarker} So we have um , i let 's assume we {disfmarker} we call something like a loc - X node and a path - X node . And what we actually get if we just look at the discourse , " where is X " should activate or should {disfmarker}
+Turn 654, E (Grad): Mmm .
+Turn 655, D (Grad): Hmm . Should be both , whereas maybe " where is X located " , we find from the data , is always just asked when the person wants to know where it is , and " how do I get to " is always asked when the person just wants to know how to get there . Right ? So we want to sort of come up with what gets uh , input , and how inter in case of a " where is " question . So what {disfmarker} what would the outcome of {disfmarker} of your parser look like ? And , what other discourse information from the discourse history could we hope to get , squeeze out of that utterance ? So define the {disfmarker} the input into the Bayes - net {vocalsound} based on what the utterance , " where is X " , gives us . So definitely have an Entity node here which is activated via the ontology ,
+Turn 656, A (Grad): s
+Turn 657, D (Grad): so " where is X " produces something that is s stands for X , whether it 's castle , bank , restroom , toilet , whatever . And then the ontology will tell us {disfmarker}
+Turn 658, A (Grad): That it has a location or something like that ? {disfmarker} or th the ontology will tell us where actually it is located ?
+Turn 659, D (Grad): No . Not at all .
+Turn 660, A (Grad): OK .
+Turn 661, D (Grad): Where it is located , we have , a user proximity node here somewhere ,
+Turn 662, A (Grad): OK . OK .
+Turn 663, D (Grad): e which tells us how far the user {disfmarker} how far away the user is in respect to that uh entity .
+Turn 664, A (Grad): OK . So you 're talking about , for instance , the construction obviously involves this entity or refers {disfmarker} refers to this entity ,
+Turn 665, D (Grad): Mm - hmm .
+Turn 666, A (Grad): and from the construction also you know that it is a location {disfmarker} is {disfmarker} or a thing {disfmarker} thing that can be located . Right ? Ontology says this thing has a location slot . Sh - and that 's the thing that is being {disfmarker} that is the content of the question that 's being queried by one interpretation of " where is X " . And another one is , um , path from current {disfmarker} user current location to {comment} that location .
+Turn 667, D (Grad): Mm - hmm .
+Turn 668, A (Grad): So . So is the question {disfmarker} I mean it 's just that I 'm not sure what the {disfmarker} Is the question , for this particular construction how we specify that that 's the information it provides ? Or {disfmarker} or asked for ? b Both sides , right ?
+Turn 669, D (Grad): Yeah , you don't need to even do that . It 's just sort of what {vocalsound} what would be @ @ {comment} observed in uh {disfmarker} in that case .
+Turn 670, A (Grad): Observed when you heard the speaker say " where is X " , or when {disfmarker} when that 's been parsed ?
+Turn 671, D (Grad): Mm - hmm .
+Turn 672, A (Grad): So these little circles you have by the D ? Is that {disfmarker} ? OK . OK .
+Turn 673, D (Grad): That 's exactly what we 're looking for .
+Turn 674, B (Grad): I d I just {disfmarker} I don't like having {disfmarker} characterizing the constructions with location and path , or li characterizing them like that . Cuz you don't {disfmarker} It seems like in the general case you wouldn't know how {disfmarker} how to characterize them .
+Turn 675, D (Grad): You wouldn't .
+Turn 676, B (Grad): I mean {disfmarker} or , for when . There could be an interpretation that we don't have a node for in the {disfmarker} I mean it just seems like @ @ has to have uh {disfmarker} a node for the construction and then let the chips fall where they may . Versus uh , saying , this construction either can mean location or path . And , in this cas and since {disfmarker} since it can mean either of those things , it would light both of those up .
+Turn 677, D (Grad): It 's the same .
+Turn 678, B (Grad): Thoughts ? Questions ?
+Turn 679, E (Grad): I 'm thinking about it .
+Turn 680, D (Grad): It will be the same .
+Turn 681, E (Grad): Um {disfmarker}
+Turn 682, D (Grad): So I think r in here we have " I 'll go there " , right ?
+Turn 683, B (Grad): Answers ?
+Turn 684, D (Grad): And we have our Info - on . So in my c my case , this would sort of make this {pause} happy , and this would make the Go - there happy . What you 're saying is we have a Where - X question , Where - X node , that makes both happy . Right ? That 's what you 're proposing , which is , in my mind just as fine . So w if we have a construction {pause} node , " where is X " , it 's gonna both get the po posterior probability that {disfmarker} it 's Info - on up ,
+Turn 685, B (Grad): Mmm , yeah .
+Turn 686, D (Grad): Info - on is True - up , and that Go - there is True - up , as well . Which would be exactly analogous to what I 'm proposing is , this makes {disfmarker} uh makes something here true , and this makes something {disfmarker} also something here true , and this makes this True - up , and this makes this True - up as well .
+Turn 687, E (Grad): I kinda like it better without that extra level of indirection too . You know with {disfmarker} with this points to this points to that , and so on because {vocalsound} I don't know , it {disfmarker}
+Turn 688, A (Grad): Is - uh ,
+Turn 689, D (Grad): Yeah , because we get {disfmarker} we get tons of constructions I think . Because , you know , mmm people have many ways of asking for the same thing ,
+Turn 690, E (Grad): Yeah .
+Turn 691, B (Grad): Yeah , sure .
+Turn 692, A (Grad): Yeah .
+Turn 693, D (Grad): and {disfmarker}
+Turn 694, A (Grad): So un
+Turn 695, B (Grad): I change I changed my mind actually .
+Turn 696, A (Grad): So I agree with that .
+Turn 697, E (Grad): OK .
+Turn 698, A (Grad): I have a different kinda question , might be related , which is , OK so implicitly everything in EDU , we 're always inferring the speaker intent , right ? Like , what they want either , the information that they want , or {disfmarker} It 's always information that they want probably , of some kind . Right ? Or I {disfmarker} I don't know , or what 's something that they {disfmarker}
+Turn 699, D (Grad): The system doesn't massage you , no . No .
+Turn 700, A (Grad): I {disfmarker} I {disfmarker} I don't {disfmarker} OK . So , um , let 's see . So I don't know if the {disfmarker} I mean i if th just there 's more s here that 's not shown that you {disfmarker} it 's already like part of the system whatever , but , " where is X " , like , the fact that it is , you know , a speech - act , whatever , it is a question . It 's a question that , um , queries on some particular thing X , and X is that location . There 's , like , a lot of structure in representing that .
+Turn 701, D (Grad): Yep . Yeah .
+Turn 702, A (Grad): So that seems different from just having the node " location - X " and that goes into EDU , right ?
+Turn 703, D (Grad): Yeah . {vocalsound} Precisely . That 's {disfmarker} that 's {disfmarker}
+Turn 704, A (Grad): So tha is that what you 're t talking about ?
+Turn 705, D (Grad): So , w Exactly . We have su we have specified two .
+Turn 706, A (Grad): wh what kinds of structure we want .
+Turn 707, D (Grad): OK , the next one would be here , just for mood .
+Turn 708, E (Grad): Mm - hmm .
+Turn 709, A (Grad): Mm - hmm .
+Turn 710, D (Grad): The next one would be what we can squeeze out of the uh I don't know , maybe we wanna observe the uh , um , {vocalsound} {vocalsound} uh the length of {disfmarker} of the words used , and , or the prosody
+Turn 711, A (Grad): Mmm .
+Turn 712, D (Grad): and g a and t make conclusions about the user 's intelligence .
+Turn 713, A (Grad): OK . So in some ways {disfmarker}
+Turn 714, D (Grad): I don't know ,
+Turn 715, A (Grad): um , so in some ways in the other sort of parallel set of mo more linguistic meetings we 've been talking about possible semantics of some construction .
+Turn 716, D (Grad): yeah .
+Turn 717, E (Grad): Mm - hmm .
+Turn 718, A (Grad): Right ? Where it was the simulation that 's , according to it {disfmarker} you know , that {disfmarker} that corresponds to it , and as well the {disfmarker} as discourse , whatever , conte infor in discourse information ,
+Turn 719, D (Grad): Mm - hmm .
+Turn 720, A (Grad): such as the mood , and , you know , other stuff . So , are we looking for a sort of abbreviation of that , that 's tailored to this problem ? Cuz that {disfmarker} that has , you know , basically , you know , s it 's in progress still it 's in development still , but it definitely has various feature slots , attributes , um , bindings between things {disfmarker}
+Turn 721, D (Grad): Mm - hmm . Yeah . U that 's exactly r um , why I 'm proposing {disfmarker} It 's too early to have {disfmarker} to think of them {disfmarker} of all of these discourse things that one could possibly observe ,
+Turn 722, A (Grad): Uh - huh . Mm - hmm .
+Turn 723, D (Grad): so let 's just assume
+Turn 724, A (Grad): For the subset of {disfmarker}
+Turn 725, D (Grad): human beings are not allowed to ask anything but " where is X " .
+Turn 726, A (Grad): OK .
+Turn 727, D (Grad): This is the only utterance in the world . What could we observe from that ?
+Turn 728, A (Grad): OK . That exactly " where is X " ,
+Turn 729, D (Grad): In ter
+Turn 730, A (Grad): not the {disfmarker} the choices of " where is X " or " how do I get to X " . Just " where is X " .
+Turn 731, D (Grad): Just {disfmarker} just " where is X " .
+Turn 732, E (Grad): Yeah .
+Turn 733, A (Grad): OK .
+Turn 734, D (Grad): And , but you know , do it {disfmarker} do it in such a way that we know that people can also say , " is the town hall in front of the bank " , so that we need something like a w WH focus . Nuh ? Should be {disfmarker} should be there , that , you know , this {disfmarker} the {disfmarker} whatever we get from the {disfmarker}
+Turn 735, A (Grad): Wait , so do , or do not take other kinds of constructions into account ?
+Turn 736, D (Grad): Well , if you {disfmarker} if you can , oh definitely do ,
+Turn 737, A (Grad): OK . Where possible . OK .
+Turn 738, D (Grad): where possible . Right ? If i if {disfmarker} if it 's not at all triggered by our thing , then it 's irrelevant ,
+Turn 739, A (Grad): Mm - hmm .
+Turn 740, D (Grad): and it doesn't hurt to leave it out for the moment . Um , but {disfmarker}
+Turn 741, A (Grad): OK . Um , it seems like for instance , " where is X " , the fact that it might mean um , " tell me how to get to X " , like {disfmarker} Do y So , would you wanna say that those two are both , like {disfmarker} Those are the two interpretations , right ? the {disfmarker} the ones that are location or path . So , you could say that the s construction is a question asking about this location , and then you can additionally infer , if they 're asking about the location , it 's because they wanna go to that place , in which case , the {disfmarker} you 're jumping a step {disfmarker} step and saying , " oh , I know where it is
+Turn 742, D (Grad): Mm - hmm .
+Turn 743, E (Grad): Yeah .
+Turn 744, A (Grad): but I also know how to get {disfmarker} they wanna seem {disfmarker} they seem to wanna get there so I 'm gonna tell them " . So there 's like structure
+Turn 745, E (Grad): Right , th this {disfmarker} it 's not {disfmarker} it 's not that this is sort of like semantically ambiguous between these two .
+Turn 746, A (Grad): i do you kn sort of uh , that {disfmarker}
+Turn 747, D (Grad): Mm - hmm .
+Turn 748, E (Grad): It 's really about this but why would you care about this ? Well , it 's because you also want to know this , or something like that right ?
+Turn 749, A (Grad): So it 's like you infer the speaker intent ,
+Turn 750, D (Grad): Mm - hmm .
+Turn 751, A (Grad): and then infer a plan , a larger plan from that , for which you have the additional information ,
+Turn 752, E (Grad): Yeah .
+Turn 753, D (Grad): Mm - hmm .
+Turn 754, A (Grad): you 're just being extra helpful .
+Turn 755, D (Grad): Yep .
+Turn 756, A (Grad): Um .
+Turn 757, D (Grad): Think {disfmarker} Uh , well this is just a mental exercise .
+Turn 758, A (Grad): Yeah .
+Turn 759, D (Grad): If you think about , focus on this question , how would you design {pause} that ?
+Turn 760, E (Grad): Mm - hmm .
+Turn 761, D (Grad): Is it {disfmarker} do you feel confident about saying this is part of the language already to {disfmarker} to detect those plans , and why would anyone care about location , if not , you know and so forth .
+Turn 762, E (Grad): Mmm .
+Turn 763, D (Grad): Or do you actually , I mean this is perfectly legitimate , and I {disfmarker} I would not have any problems with erasing this and say , that 's all we can activate , based on the utterance out of context .
+Turn 764, A (Grad): Mm - hmm . And just by an additional link {disfmarker} Oh .
+Turn 765, D (Grad): What ?
+Turn 766, A (Grad): Right ,
+Turn 767, E (Grad): Right .
+Turn 768, A (Grad): like ,
+Turn 769, D (Grad): And then the {disfmarker} the {disfmarker} the miracle that we get out the intention , Go - there , happens , based on what we know about that entity , about the user , about his various beliefs , goals , desires , blah - blah - blah .
+Turn 770, A (Grad): with context and enough user information , yeah .
+Turn 771, E (Grad): Yeah .
+Turn 772, D (Grad): Absolutely fine . But this is the sort of thing , I {disfmarker} I propose that we think about ,
+Turn 773, A (Grad): OK .
+Turn 774, D (Grad): so that we actually end up with um , um , nodes for the discourse and ontology so that we can put them into our Bayes - net , never change them , so we {disfmarker} all there is is " where is X " , and , Eva can play around with the observed things , and we can run our better JavaBayes , and have it produce some output . And for the first time in th in {disfmarker} in the world , we look at our output , and um {disfmarker} and see uh whether it {disfmarker} it 's any good .
+Turn 775, A (Grad): OK .
+Turn 776, D (Grad): You know ? I mean ,
+Turn 777, E (Grad): Here 's hoping .
+Turn 778, D (Grad): Hmm ?
+Turn 779, E (Grad): Here 's hoping . Right ? Now cross your fingers .
+Turn 780, D (Grad): Yeah , I {disfmarker} I mean , for me this is just a ba matter of curiosity , I wanna {disfmarker} would like to look at uh , what this ad - hoc process of designing a belief - net would actually produce .
+Turn 781, E (Grad): Yeah . {comment} Yeah .
+Turn 782, A (Grad): Mmm .
+Turn 783, D (Grad): If {disfmarker} if we ask it where is something . And , maybe it also h enables you to think about certain things more specifically , um , come up with interesting questions , to which you can find interesting answers . And , additionally it might fit in really nicely with the paper . Because if {disfmarker} if {disfmarker} if we want an example for the paper , I suggest there it is .
+Turn 784, E (Grad): Um - hmm . Yeah .
+Turn 785, D (Grad): So th this might be a nice opening paragraph for the paper as saying , " you know people look at kinds of {disfmarker} {vocalsound} at ambiguities " , and um , in the literature there 's " bank " and whatever kinds of garden path phenomenon .
+Turn 786, E (Grad): Mm - hmm .
+Turn 787, D (Grad): And we can say , well , that 's all nonsense . A , A , uh these things are never really ambiguous in discourse , B , B , don't ever occur really in discourse , but normal statements that seem completely unambiguous , such as " where is the blah - blah " , actually are terribly complex , and completely ambiguous .
+Turn 788, E (Grad): Mm - hmm . Mm - hmm .
+Turn 789, D (Grad): And so , what every everybody else has been doing so far in {disfmarker} in {disfmarker} in {disfmarker} you know , has been completely nonsensical , and can all go into the wastepaper bin , and the only {disfmarker}
+Turn 790, E (Grad): That 's always a good way to begin . Yeah . Yeah .
+Turn 791, D (Grad): Yeah . And the {disfmarker} the {disfmarker} the only {disfmarker}
+Turn 792, B (Grad): I am great .
+Turn 793, D (Grad): Yeah .
+Turn 794, E (Grad): All others are useless .
+Turn 795, D (Grad): Yeah .
+Turn 796, E (Grad): That 's good .
+Turn 797, D (Grad): Nice overture , but , you know , just not really {disfmarker} OK , I 'm eja exaggerating , but that might be , you know , saying " hey " , you know , some stuff is {disfmarker} is actually complex , if you look at it in {disfmarker} in {disfmarker} in the vacuum
+Turn 798, E (Grad): Mm - hmm .
+Turn 799, D (Grad): and {disfmarker} and ceases to be complex in reality . And some stuff that 's as {disfmarker} that 's absolutely straightforward in the vacuum , is actually terribly complex in reality . Would be nice sort of , uh , also , nice , um bottom - up linguistics , um , type message .
+Turn 800, E (Grad): Mm - hmm . True .
+Turn 801, D (Grad): Versus the old top - down school . I 'm running out of time . OK .
+Turn 802, B (Grad): When do you need to start wizarding ?
+Turn 803, D (Grad): At four ten . OK , this is the other bit of news . The subjects today know Fey , so she can't be here , and do the wizarding . So I 'm gonna do the wizarding
+Turn 804, E (Grad): Huh .
+Turn 805, D (Grad): and Thilo 's gonna do the instructing .
+Turn 806, B (Grad): Mmm .
+Turn 807, D (Grad): Also we 're getting a {disfmarker} a person who just got fired uh , from her job . Uh a person from Oakland who is interested in maybe continuing the wizard bit once Fey leaves in August . And um , she 's gonna look at it today . Which is good news in the sense that if we want to continue , after the thir thir after July , we can . We could . And , um {disfmarker} and that 's also maybe interesting for Keith and whoever , if you wanna get some more stuff into the data collection . Remember this , we can completely change the set - up any time we want .
+Turn 808, E (Grad): Mm - hmm . OK .
+Turn 809, D (Grad): Look at the results we 've gotten so far for the first , whatever , fifty some subjects ?
+Turn 810, A (Grad): Fifty ? You 've had fifty so far , or {disfmarker} ?
+Turn 811, D (Grad): No , we 're approaching twenty now .
+Turn 812, A (Grad): OK .
+Turn 813, D (Grad): But , until Fey is leaving , we surely will hit the {disfmarker} some of the higher numbers .
+Turn 814, A (Grad): Yeah . Hmm .
+Turn 815, D (Grad): And um , so that 's cool . Can a do more funky stuff .
+Turn 816, E (Grad): Sure . Yeah , I 'll have to look more into that data . Is that around ? Like , cuz that 's pretty much getting posted or something right away when you get it ?
+Turn 817, D (Grad): Um .
+Turn 818, E (Grad): Or {disfmarker} ? I guess it has to be transcribed , huh ?
+Turn 819, D (Grad): We have uh , eh found someone here who 's hand st hand transcribing the first twelve .
+Turn 820, E (Grad): OK .
+Turn 821, D (Grad): First dozen subjects
+Turn 822, E (Grad): Uh - huh .
+Turn 823, D (Grad): just so we can build a {disfmarker} a language model for the recognizer .
+Turn 824, E (Grad): OK .
+Turn 825, D (Grad): But , um {disfmarker} So those should be available soon .
+Turn 826, E (Grad): OK .
+Turn 827, D (Grad): The first twelve . And I can ch ch st e
+Turn 828, E (Grad): You know {disfmarker} I mean you know that I {disfmarker} that I looked at the first {disfmarker} the first one and got enough data to keep me going for , you know , probably most of July . So . {vocalsound} But , um . Yeah , a probably not the right way to do it actually .
+Turn 829, D (Grad): But you can listen to {disfmarker} a y y y You can listen to all of them from your Solaris box .
+Turn 830, E (Grad): OK .
+Turn 831, D (Grad): If you want .
+Turn 832, E (Grad): Right .
+Turn 833, D (Grad): It 's always fun .

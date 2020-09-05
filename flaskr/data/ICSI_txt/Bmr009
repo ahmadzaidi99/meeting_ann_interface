@@ -1,0 +1,1161 @@
+Turn 0, C (Professor): Starts {disfmarker} No . No .
+Turn 1, D (PhD): No . That 's a different thing .
+Turn 2, C (Professor): There 's another {disfmarker} I don't know . It starts with a P or something . I forget the word for it , but it 's {disfmarker} it 's um
+Turn 3, D (PhD): Oh .
+Turn 4, C (Professor): Typically when you {disfmarker} you 're ab r starting around forty for most people , it starts to harden and then it 's just harder for the lens to shift things
+Turn 5, D (PhD): Oh .
+Turn 6, C (Professor): and th the {disfmarker} the symptom is typically that you {disfmarker} {vocalsound} you have to hold stuff uh uh further away to {disfmarker} to see it .
+Turn 7, E (PhD): Uh - huh . Yeah .
+Turn 8, C (Professor): In fact , uh m my brother 's a {pause} gerontological psychologist and he {disfmarker} he uh {vocalsound} came up with an {disfmarker} an uh {disfmarker} a uh body age test which uh gets down to sort of only three measurements that are good enough st statistical predictors of all the rest of it . And one of them is {disfmarker} is the distance {vocalsound} that you have to hold it at .
+Turn 9, D (PhD): Give someone a piece of paper and then they {disfmarker} Oh .
+Turn 10, E (PhD): Yeah .
+Turn 11, C (Professor): Yeah .
+Turn 12, A (Grad): We 're {disfmarker} we 're live by the way , so we 've got a good intro here
+Turn 13, C (Professor): Oh . Yeah . About how old I am .
+Turn 14, A (Grad): Yep .
+Turn 15, C (Professor): OK .
+Turn 16, A (Grad): We can edit that out if you want .
+Turn 17, D (PhD): Oh , that 's optional .
+Turn 18, C (Professor): No , that 's OK .
+Turn 19, A (Grad): OK . So . This time the form discussion should be very short ,
+Turn 20, D (PhD): You know .
+Turn 21, E (PhD): Mm - hmm .
+Turn 22, A (Grad): right ?
+Turn 23, C (Professor): It also should be {pause} later .
+Turn 24, A (Grad): OK .
+Turn 25, C (Professor): Because Jane uh is not here yet .
+Turn 26, A (Grad): Good point .
+Turn 27, C (Professor): And uh she 'll be most interested in that . Uh , she 's probably least involved in the signal - processing stuff so maybe we can just {disfmarker} just uh , I don't think we should go though an elaborate thing , but um uh Jose and I were just talking about {vocalsound} the uh {nonvocalsound} uh , speech e energy thing ,
+Turn 28, E (PhD): The @ @ {disfmarker}
+Turn 29, C (Professor): and I uh {disfmarker}
+Turn 30, E (PhD): Yeah .
+Turn 31, C (Professor): We didn't talk about the derivatives . But I think , you know , the {disfmarker} the {disfmarker} i if I can {disfmarker} if you don't mind my {disfmarker} my speaking for you for a bit , um {vocalsound} Uh . Right now , that he 's not really showing any kind of uh distinction , but uh {disfmarker} but we discussed a couple of the possible things that uh he can look at . Um . And uh one is that uh this is all in log energy and log energy is basically compressing the distances {vocalsound} uh {pause} between things . Um {pause} Another is that he needs to play with the {disfmarker} the different uh {pause} uh temporal sizes . He was {disfmarker} he {disfmarker} he was taking everything over two hundred milliseconds uh , and uh he 's going to vary that number and also look at moving windows , as we discussed before . Um And uh {disfmarker} and the other thing is that the {disfmarker} yeah doing the {disfmarker} {vocalsound} subtracting off the mean and the variance in the {disfmarker} {pause} uh and dividing it by the {pause} standard deviation in the log domain , {vocalsound} may not be {pause} the right thing to do .
+Turn 32, A (Grad): Hi Jane !
+Turn 33, E (PhD): Hi .
+Turn 34, A (Grad): We just started .
+Turn 35, E (PhD): Yeah .
+Turn 36, A (Grad): Could you take that mike there ?
+Turn 37, D (PhD): Are these the long term means ? Like , over the whole {disfmarker} I mean , the means of {pause} what ?
+Turn 38, A (Grad): Thanks .
+Turn 39, C (Professor): Uh B Between {disfmarker} between {disfmarker}
+Turn 40, D (PhD): All the frames in the conversation ?
+Turn 41, C (Professor): No .
+Turn 42, D (PhD): Or of things that {disfmarker}
+Turn 43, C (Professor): Between {disfmarker} Neither . It 's uh between the pauses {pause} uh for some segment .
+Turn 44, E (PhD): No .
+Turn 45, D (PhD): Oh .
+Turn 46, C (Professor): And so i i his {disfmarker} his {disfmarker} He 's making the constraint it has to be at least two hundred milliseconds .
+Turn 47, D (PhD): Oh .
+Turn 48, C (Professor): And so you take that . And then he 's {disfmarker} he 's uh measuring at the frame level {disfmarker} still at the frame level , of what {disfmarker}
+Turn 49, D (PhD): Right .
+Turn 50, C (Professor): and then {disfmarker} and then just uh normalizing with that larger amount . um and {disfmarker} But one thing he was pointing out is when he {disfmarker} he looked at a bunch of examples in log domain , it is actually pretty hard to see {vocalsound} the change . And you can sort of {pause} see that , because of j of just putting it on the board that {vocalsound} if you sort of have log - X plus log - X , that 's the log of X plus the log of two
+Turn 51, E (PhD): Yep .
+Turn 52, D (PhD): Yeah , maybe it 's not log distributed .
+Turn 53, E (PhD): Mmm . Yeah .
+Turn 54, C (Professor): and it 's just , {pause} you know , it {disfmarker} it diminishes the {pause} effect of having two of them .
+Turn 55, E (PhD): 
+Turn 56, C (Professor): Um .
+Turn 57, D (PhD): But you could do like a C D F there instead ? I mean , we don't know that the distribution here is normally .
+Turn 58, C (Professor): Yes , right . So {disfmarker} So what I was suggesting to him is that {disfmarker}
+Turn 59, D (PhD): So just some kind of a simple {disfmarker}
+Turn 60, C (Professor): Actually , a PDF . But , you know , uh But , either way .
+Turn 61, D (PhD): PDF
+Turn 62, C (Professor): Yeah . Yeah , eith eith uh {vocalsound} B
+Turn 63, D (PhD): Yeah .
+Turn 64, E (PhD): Yeah .
+Turn 65, D (PhD): Something like that where it 's sort of data driven .
+Turn 66, C (Professor): Yeah , but I think {pause} also u I think a good first indicator is when the {disfmarker} the {disfmarker} the researcher looks at {vocalsound} examples of the data and can not see a change {pause} in how big the {disfmarker} the signal is , {vocalsound} when the two speaker {disfmarker}
+Turn 67, E (PhD): Yeah . Yeah .
+Turn 68, C (Professor): Then , that 's a problem right there . So . I think you should at least be able ,
+Turn 69, D (PhD): Oh yeah .
+Turn 70, C (Professor): doing casual looking and can get the sense , " Hey , there 's something there . " and then you can play around with the measures . And when he 's looking in the log domain he 's not really seeing it .
+Turn 71, D (PhD): Oh yeah .
+Turn 72, E (PhD): Yeah .
+Turn 73, C (Professor): So . And when he 's looking in straight energy he is , so that 's a good place to start .
+Turn 74, E (PhD): Yeah .
+Turn 75, C (Professor): Um . So that was {disfmarker} that was the discussion we just had . Um . {vocalsound} The other thing Actually we ca had a question for Adam in this . Uh , when you did the {vocalsound} sampling ? uh {pause} over the {pause} speech segments or s or sampling over the {disfmarker} the individual channels in order to do the e uh the {pause} amplitude equalization , {vocalsound} did you do it over just the entire {disfmarker} everything in the mike channels ?
+Turn 76, E (PhD): How {disfmarker}
+Turn 77, C (Professor): You didn't try to find speech ?
+Turn 78, A (Grad): No , I just took over the entire s uh entire channel um {pause} sampled ten minutes randomly .
+Turn 79, C (Professor): Right , OK . So then that means that someone who didn't speak {pause} very much {vocalsound} would be largely represented by silence .
+Turn 80, A (Grad): Yep .
+Turn 81, C (Professor): And someone who would {disfmarker} who would be {disfmarker} So the normalization factor probably is {pause} i i i {pause} is {disfmarker} is {disfmarker}
+Turn 82, A (Grad): Yeah , this was quite quick and dirty , and it was just for {pause} listening .
+Turn 83, E (PhD): Yeah .
+Turn 84, C (Professor): Yeah .
+Turn 85, A (Grad): And for listening it seems to work really well .
+Turn 86, C (Professor): OK .
+Turn 87, E (PhD): Yeah .
+Turn 88, C (Professor): Yeah .
+Turn 89, E (PhD): Yeah .
+Turn 90, A (Grad): So .
+Turn 91, C (Professor): Yeah . But that 's {disfmarker}
+Turn 92, A (Grad): But , it 's not {disfmarker} Not a good measure .
+Turn 93, C (Professor): Right . So th
+Turn 94, E (PhD): Yeah .
+Turn 95, C (Professor): OK . So yeah there {disfmarker} there {disfmarker} there {disfmarker} There 's a good chance then given that different people do talk different amounts {pause} that there is {disfmarker} there {disfmarker} there is still a lot more to be gained from gain norm normalization with some sort
+Turn 96, E (PhD): Yeah . Yeah . Mmm .
+Turn 97, A (Grad): Yes , absolutely .
+Turn 98, C (Professor): if {disfmarker} if we can figure out a way to do it .
+Turn 99, E (PhD): Yeah .
+Turn 100, C (Professor): Uh . But we were agreed that in addition to that {comment} uh there should be {pause} s stuff related to pitch and harmonics and so forth .
+Turn 101, E (PhD): Yeah .
+Turn 102, C (Professor): So we didn't talk at all about uh the other derivatives , but uh again just {disfmarker} just looking at {disfmarker} Uh , I think uh Liz has a very good point , that in fact it would be much more graphic just to show {disfmarker} Well , actually , you do have some distributions here , uh for these cases .
+Turn 103, E (PhD): Yeah . Yeah .
+Turn 104, C (Professor): You have some histograms , um {pause} and {pause} uh , they don't look very separate .
+Turn 105, E (PhD): Yeah .
+Turn 106, C (Professor): uh {vocalsound} {pause} separated .
+Turn 107, E (PhD): This is the {disfmarker} the first derivate of log of frame energy uh without any kind of normalization .
+Turn 108, D (PhD): What {disfmarker}
+Turn 109, C (Professor): Yeah . Yeah . Yeah .
+Turn 110, D (PhD): Log energy . Sorry .
+Turn 111, E (PhD): These the These are the {disfmarker} the first experiments uh with comment uh
+Turn 112, D (PhD): Frame energy .
+Turn 113, A (Grad): Except that {pause} it 's hard to judge this because the {disfmarker} they 're not normalized . It 's just number of frames .
+Turn 114, D (PhD): Yeah .
+Turn 115, C (Professor): Yeah .
+Turn 116, D (PhD): Yeah .
+Turn 117, E (PhD): Yeah .
+Turn 118, A (Grad): But yeah , even so .
+Turn 119, D (PhD): W {vocalsound} I mean , what I meant is , even if you use linear , {pause} you know , raw {pause} measures , like {pause} raw energy or whatever ,
+Turn 120, C (Professor): " Number " {disfmarker}
+Turn 121, D (PhD): maybe we shouldn't make any assumptions about the distribution 's shape , and just use {disfmarker} you know , use the distribution to model the {disfmarker} {vocalsound} {pause} the mean , or what y you know , rather than the mean take some {disfmarker}
+Turn 122, C (Professor): Yeah . But {disfmarker} And so in {disfmarker} in these he 's got that .
+Turn 123, D (PhD): Yeah .
+Turn 124, C (Professor): He 's got some pictures . But he doesn't {disfmarker} he doesn't in the {disfmarker} he i
+Turn 125, E (PhD): Yeah .
+Turn 126, C (Professor): just in derivatives , but not in the {disfmarker}
+Turn 127, D (PhD): Yeah . Oh .
+Turn 128, C (Professor): but he d but he doesn't {disfmarker} doesn't {disfmarker}
+Turn 129, D (PhD): Right . So , we don't {pause} know what they look like {pause} on the , {pause} tsk {disfmarker} {comment} For the raw .
+Turn 130, C (Professor): But he didn't h have it for the energy . He had it for the derivatives . Yeah .
+Turn 131, D (PhD): Yeah . So . I mean , there might be something there . I don't know .
+Turn 132, C (Professor): Yeah .
+Turn 133, D (PhD): Huh .
+Turn 134, A (Grad): Interesting
+Turn 135, E (PhD): Here I {disfmarker} I
+Turn 136, C (Professor): Oh that {disfmarker} yeah that 's a good q
+Turn 137, E (PhD): in {disfmarker} No I {disfmarker} I {disfmarker} I haven't the result
+Turn 138, C (Professor): did {disfmarker} did you have this sort of thing , for just the {disfmarker} just the l r uh the {disfmarker} the unnormalized log energy ? OK . Yeah . So she {disfmarker} she 's right .
+Turn 139, E (PhD): but it 's the {disfmarker} it 's the {disfmarker} the {disfmarker} the following .
+Turn 140, C (Professor): That 's a {disfmarker}
+Turn 141, D (PhD): Well it might be just good to know what it looks like .
+Turn 142, C (Professor): Yeah . That 's {disfmarker} That 's uh {pause} cuz I 'd mentioned scatter plots before but she 's right ,
+Turn 143, D (PhD): Cuz {disfmarker}
+Turn 144, E (PhD): Huh ?
+Turn 145, C (Professor): I mean , even before you get the scatter plots , just looking at a single feature {vocalsound} uh , looking at the distribution , is a good thing to do .
+Turn 146, E (PhD): Yeah . Catal - uh {disfmarker} Combining the different possibilities of uh the parameters . I {disfmarker} I {disfmarker} I {disfmarker} I mean the {disfmarker} the {disfmarker} the scatter plot {pause} combining eh different {pause} n two combination .
+Turn 147, C (Professor): Yeah , but {disfmarker} but what she 's saying {pause} is , which is right , is {pause} le
+Turn 148, E (PhD): combination of two , {pause} of energy and derivate {disfmarker}
+Turn 149, C (Professor): I mean , let 's start with the {disfmarker} Before we get complicated , let 's start with the most basic wh thing , which is {pause} we 're arguing that if you take energy {disfmarker} uh if you look at the energy , that , when two people are speaking at the same time , usually {vocalsound} {pause} there 'll be more energy than when one is right ?
+Turn 150, E (PhD): Yeah .
+Turn 151, C (Professor): That 's {disfmarker} that sort of hypothesis .
+Turn 152, E (PhD): That 's right .
+Turn 153, C (Professor): And the first way you 'd look at that , uh s she 's , you know , absolutely right , is that you would just take a look at the distribution of those two things , much as you 've plotted them here ,
+Turn 154, E (PhD): Yeah .
+Turn 155, C (Professor): You know , but just {disfmarker} but just {disfmarker} {pause} just uh do it {disfmarker}
+Turn 156, E (PhD): Yeah .
+Turn 157, C (Professor): Well in this case you have three . You have the silence , and that {disfmarker} that 's fine .
+Turn 158, E (PhD): Yeah .
+Turn 159, C (Professor): So , uh with three colors or three shades or whatever , just {disfmarker} just look at those distributions .
+Turn 160, E (PhD): Yeah .
+Turn 161, C (Professor): And then , given that as a base , you can see if that gets improved , you know , or {disfmarker} or {disfmarker} {pause} or worsened {pause} by the {disfmarker} looking at regular energy , looking at log energy , we were just proposing that maybe it 's {disfmarker} you know , it 's harder to {pause} see with the log energy , um and uh also these different normalizations , does a particular choice of normalization make it better ?
+Turn 162, E (PhD): Yeah .
+Turn 163, C (Professor): But I had maybe made it too complicated by suggesting early on , that you look at scatter plots because that 's looking at a distribution in two dimensions . Let 's start off just in one , uh , with this feature .
+Turn 164, E (PhD): Yeah . Yeah .
+Turn 165, C (Professor): I think that 's probably the most basic thing , before anything very complicated .
+Turn 166, E (PhD): Yeah .
+Turn 167, C (Professor): Um And then we w I think we 're agreed that pitch - related things are {disfmarker} are {disfmarker} are going to be a {disfmarker} a really likely candidate to help .
+Turn 168, D (PhD): Yeah .
+Turn 169, E (PhD): Yeah . I agree , yeah . Uh - huh .
+Turn 170, C (Professor): Um {pause} But {pause} since {disfmarker} {vocalsound} uh your intuition from looking at some of the data , is that when you looked at the regular energy , that it did in fact usually go up , {vocalsound} when two people were talking , {vocalsound} that 's {disfmarker} eh you know , you should be able to come up with a measure which will {pause} match your intuition .
+Turn 171, E (PhD): OK . Yeah . Yeah . Yeah , yeah , yeah .
+Turn 172, C (Professor): And she 's right , that a {disfmarker} that having a {disfmarker} having {disfmarker} {comment} having this table , with a whole bunch of things , {pause} with the standard deviation , the variance and so forth , it 's {disfmarker} it 's {disfmarker} it 's harder to interpret than just looking at the {disfmarker} the same kind of picture you have here .
+Turn 173, E (PhD): But {disfmarker} Uh - huh . Yeah . But {disfmarker} It {disfmarker} it 's curious but uh I f I found it in the {disfmarker} in the mixed file , in one channel {vocalsound} that eh in several {disfmarker} oh e eh several times eh you have an speaker talking alone with a high level of energy
+Turn 174, C (Professor): Mm - hmm . Mm - hmm .
+Turn 175, E (PhD): eh in the middle eh a zone of overlapping with mmm less energy
+Turn 176, C (Professor): Mm - hmm .
+Turn 177, E (PhD): and eh come with another speaker with high energy
+Turn 178, C (Professor): Mm - hmm .
+Turn 179, E (PhD): and the overlapping zone has eh less energy .
+Turn 180, C (Professor): Yeah . So there 'll be some cases for which {disfmarker}
+Turn 181, E (PhD): Because there reach very many
+Turn 182, C (Professor): But , the qu So {disfmarker} So they 'll be {disfmarker}
+Turn 183, D (PhD): Right .
+Turn 184, C (Professor): This is {disfmarker} {vocalsound} I w want to point {pause} to visual things , But I mean they {disfmarker} there 'll be time {disfmarker} There 'll be overlap between the distributions , but the question is , " If it 's a reasonable feature at all , there 's some separation . "
+Turn 185, E (PhD): Yeah . Yeah .
+Turn 186, D (PhD): Especially locally .
+Turn 187, C (Professor): Mm - hmm .
+Turn 188, D (PhD): So . Locally .
+Turn 189, E (PhD): just locally , yeah .
+Turn 190, A (Grad): And {disfmarker} I was just going to say that {disfmarker} that {pause} right now we 're just exploring .
+Turn 191, D (PhD): And the other thing is I Sorry . I {disfmarker}
+Turn 192, A (Grad): What you would imagine eventually , is that you 'll feed all of these features into some {pause} discriminative system .
+Turn 193, E (PhD): Yeah .
+Turn 194, C (Professor): Yeah .
+Turn 195, A (Grad): And so even if {disfmarker} if one of the features does a good job at one type of overlap , another feature might do a good job at another type of overlap .
+Turn 196, E (PhD): Yeah . Yeah . Yeah .
+Turn 197, C (Professor): Right . I mean the {disfmarker} the reason I had suggested the scatter f p features is I used to do this a lot , when we had thirteen or fifteen or twenty features {pause} to look at .
+Turn 198, E (PhD): Yeah , this is the {disfmarker}
+Turn 199, C (Professor): um Because something is a good feature uh by itself , you don't really know how it 'll behave in combination and so it 's nice to have as many {disfmarker} as many together at the same time as possible in uh in some reasonable visual form . There 's cool graphic things people have had sometimes to put together three or four in some funny {disfmarker} funny way . But it 's true that you shouldn't do any of that unless you know that the individual ones , at least , have {disfmarker} have some uh {disfmarker} some hope
+Turn 200, E (PhD): Yeah .
+Turn 201, D (PhD): Well , especially for normalizing .
+Turn 202, C (Professor): Mm - hmm .
+Turn 203, D (PhD): I mean , it 's really important to {pause} pick a normalization that matches the distribution for that feature .
+Turn 204, C (Professor): Mm - hmm .
+Turn 205, D (PhD): And it may not be the same for all the types of overlaps or the windows may not be the same . e Actually , I was wondering , {vocalsound} right now you 're taking a {disfmarker} all of the {pause} speech , from the whole meeting , and you 're trying to find points of overlap , but we don't really know which speaker is overlapping with which speaker ,
+Turn 206, C (Professor): Right .
+Turn 207, D (PhD): right ? So I mean another way would just be to take the speech from just , say , Morgan , And just Jane and then just their overlaps ,
+Turn 208, E (PhD): Yeah .
+Turn 209, D (PhD): like {disfmarker} but by hand , by cheating , and looking at you know , if you can detect something that way , because if we can't do it that way , there 's no good way that we 're going to be able to do it .
+Turn 210, A (Grad): No prayer .
+Turn 211, D (PhD): That {disfmarker} You know , there might be something helpful and cleaner about looking at just {pause} individuals and then that combination alone .
+Turn 212, E (PhD): Yeah .
+Turn 213, D (PhD): Plus , I think it has more elegant {disfmarker} e
+Turn 214, C (Professor): Mm - hmm .
+Turn 215, D (PhD): The m the right model will be {pause} easier to see that way . So if {disfmarker} I don't know , if you go through and you find Adam , cuz he has a lot of overlaps and some other speaker who also has e enough speech
+Turn 216, E (PhD): Yeah .
+Turn 217, D (PhD): and just sort of look at those three cases of Adam and the other person and the overlaps ,
+Turn 218, E (PhD): Yeah .
+Turn 219, D (PhD): maybe {disfmarker} and just look at the distributions , maybe there is a clear pattern
+Turn 220, E (PhD): Yeah .
+Turn 221, D (PhD): but we just can't see it because there 's too many combinations of {disfmarker} of people that can overlap .
+Turn 222, E (PhD): Uh - huh . Yeah .
+Turn 223, B (Postdoc): I had the same intuition last {disfmarker} last {disfmarker} last week .
+Turn 224, D (PhD): So . Just seems sort of complex .
+Turn 225, E (PhD): Yeah .
+Turn 226, B (Postdoc): I think it 's {disfmarker} to start with it 's s your {disfmarker} your idea of simplifying , starting with something that {pause} you can see {pause} eh you know without the {pause} extra {pause} layers of {disfmarker}
+Turn 227, D (PhD): Right . Cuz if energy doesn't matter there , like {disfmarker} I don't think this is true , but what if
+Turn 228, E (PhD): To study individual ?
+Turn 229, B (Postdoc): Sorry , what ?
+Turn 230, D (PhD): Hmm ?
+Turn 231, E (PhD): To study individual ?
+Turn 232, B (Postdoc): Well , you {disfmarker} you {disfmarker} you don't have to study everybody individually
+Turn 233, D (PhD): Well , to study the simplest case to get rid of extra {disfmarker}
+Turn 234, E (PhD): The {disfmarker} the {disfmarker} the {disfmarker} But {disfmarker} Consider {disfmarker}
+Turn 235, B (Postdoc): but {pause} just simple case and the one that has the lot of data associated with it .
+Turn 236, D (PhD): Right . Cuz what if it 's the case and I don't think this is true {disfmarker}
+Turn 237, A (Grad): That was a great overlap by the way .
+Turn 238, D (PhD): What if it 's the case that when two people overlap they equate their {disfmarker} you know , there 's a {pause} conservation of energy and everybody {disfmarker} both people talk more softly ? I don't think this happens at all .
+Turn 239, B (Postdoc): Or {disfmarker} or what if what if the equipment {disfmarker} what if the equipment adjusts somehow ,
+Turn 240, D (PhD): Or they get louder .
+Turn 241, B (Postdoc): there 's some equalizing in there ?
+Turn 242, D (PhD): Yeah or {disfmarker}
+Turn 243, C (Professor): Uh , no we don't have that .
+Turn 244, D (PhD): I mean .
+Turn 245, A (Grad): Well , but {disfmarker} But I think that 's what I was saying about different types of overlap .
+Turn 246, B (Postdoc): OK .
+Turn 247, C (Professor): But .
+Turn 248, B (Postdoc): Saturation .
+Turn 249, D (PhD): There are {disfmarker} there are different types , and within those types , like as Jose was saying , that {pause} sounded like a backchannel overlap , meaning the kind that 's {pause} a friendly encouragement , like " Mm - hmm . " , " Great ! " , " Yeah ! "
+Turn 250, E (PhD): Yeah .
+Turn 251, D (PhD): And it doesn't take {disfmarker} you don't take the floor . Um , but , some of those , as you showed , I think can be discriminated by the duration of the overlap .
+Turn 252, E (PhD): Yeah .
+Turn 253, D (PhD): So . It {disfmarker} Actually the s new student , Don , who um Adam has met , and he was at one of our meetings {disfmarker} He 's {pause} getting his feet wet and then he 'll be starting again {pause} in mid - January . He 's interested in trying to distinguish the types of overlap . I don't know if he 's talked with you yet . But in sort of honing in on these different types
+Turn 254, E (PhD): Yeah . I don't consi Now I don't consider that possibility .
+Turn 255, D (PhD): and {disfmarker} So maybe {disfmarker}
+Turn 256, E (PhD): This is a s a general studio of the overlapping we 're studying the {disfmarker} i
+Turn 257, C (Professor): Yeah . Well {pause} I {disfmarker} I {disfmarker} I {disfmarker} I would s actually still recommend that he do the overall thing
+Turn 258, D (PhD): So it might be something that we can {pause} help by categorizing some of them and then , you know , look at that .
+Turn 259, C (Professor): because {pause} it would be the quickest thing for him to do . He could {disfmarker} You see , he already has all his stuff in place ,
+Turn 260, D (PhD): Yeah .
+Turn 261, C (Professor): he has the histogram mechanism , he has the stuff that subtracts out {disfmarker} and all he has to do is change it uh uh from {disfmarker} from log to plain energy and plot the histogram and look at it . And then he should go on and do the other stuff bec but {disfmarker} But this will {disfmarker}
+Turn 262, D (PhD): Yeah . Yeah , no . I didn't mean that {disfmarker} that {disfmarker} for you to do that , but I was thinking if {disfmarker} if Don and I are trying to get {pause} categories
+Turn 263, C (Professor): Mm - hmm . Mm - hmm .
+Turn 264, D (PhD): and we label some data for you , and we say this is what we think is going {disfmarker} So you don't have to worry about it . And here 's the three types of overlaps .
+Turn 265, E (PhD): Yeah .
+Turn 266, D (PhD): And we 'll {disfmarker} we 'll do the labelling for you .
+Turn 267, E (PhD): Yeah .
+Turn 268, C (Professor): Hm - hmm .
+Turn 269, D (PhD): Um .
+Turn 270, E (PhD): Consider different class of overlap ?
+Turn 271, D (PhD): Yeah , that we would be working on anyway .
+Turn 272, E (PhD): If there 's time .
+Turn 273, D (PhD): Then maybe {pause} you can try some different things for those three cases , and see if that helps , or {disfmarker}
+Turn 274, E (PhD): Yeah . Yeah . This is the thing I {disfmarker} I comment with you before , that uh we have a great variation of th situation of overlapping .
+Turn 275, C (Professor): Mm - hmm .
+Turn 276, E (PhD): And the behavior for energy is , uh log energy , {vocalsound} is not uh the same all the time .
+Turn 277, D (PhD): Mm - hmm .
+Turn 278, E (PhD): And {disfmarker}
+Turn 279, C (Professor): But I guess I was just saying that {disfmarker} that right now uh from the means that you gave , I don't have any sense of whether even , you know , there are any significant number of cases for which there is distinct {disfmarker} and I would imagine there should be some {disfmarker} you know , there should be {disfmarker} The distributions should be somewhat separated .
+Turn 280, E (PhD): Yeah . Yeah .
+Turn 281, C (Professor): Uh and I {disfmarker} I would still guess that if they are not separated at all , that there 's some {disfmarker} there 's {disfmarker} there 's most likely something wrong in the way that we 're measuring it .
+Turn 282, E (PhD): Yeah . Yeah .
+Turn 283, C (Professor): Um , but {pause} um For instance , I mean I wouldn't expect that it was very common overall , that when two people were talking at the same time , that it would {disfmarker} that it really was lower ,
+Turn 284, E (PhD): Yeah .
+Turn 285, C (Professor): although sometimes , as you say , it would .
+Turn 286, E (PhD): Yeah .
+Turn 287, C (Professor): So . So .
+Turn 288, D (PhD): Yeah , no , that was {disfmarker} That was a jok
+Turn 289, E (PhD): Yeah .
+Turn 290, C (Professor): Yeah .
+Turn 291, D (PhD): or a sort of , a case where {disfmarker} where you would never know that unless you actually go and look at two individuals .
+Turn 292, C (Professor): I mean . No . It could {disfmarker} it probably does happen sometimes .
+Turn 293, E (PhD): Yeah .
+Turn 294, A (Grad): Right .
+Turn 295, C (Professor): Yeah . Yeah .
+Turn 296, A (Grad): Mind if I turned that light off ?
+Turn 297, E (PhD): Yeah .
+Turn 298, D (PhD): So .
+Turn 299, A (Grad): The flickering is annoying me .
+Turn 300, C (Professor): OK .
+Turn 301, D (PhD): It might the case , though , that the significant energy , just as Jose was saying , comes in the non - backchannel cases . Because in back Most people when they 're talking don't change their own {pause} energy when they get a backchannel , cuz they 're not really predicting the backchannel .
+Turn 302, C (Professor): Mm - hmm .
+Turn 303, D (PhD): And sometimes it 's a nod and sometimes it 's an " mm - hmm " .
+Turn 304, E (PhD): Yeah .
+Turn 305, D (PhD): And the " mm - hmm " is really usually very low energy .
+Turn 306, E (PhD): Yeah .
+Turn 307, D (PhD): So maybe those don't actually have much difference in energy . But {pause} all the other cases might .
+Turn 308, C (Professor): e {vocalsound} e and {disfmarker} and again what they {disfmarker} what difference there was would kind of be lost in taking the log ,
+Turn 309, D (PhD): and the backchannels are sort of easy to spot s in terms of their words or {disfmarker} I mean , just listen to it .
+Turn 310, E (PhD): Yeah .
+Turn 311, D (PhD): So .
+Turn 312, C (Professor): so , as well .
+Turn 313, D (PhD): Well , it would be lost {pause} no matter what you do .
+Turn 314, E (PhD): But {disfmarker} Yeah .
+Turn 315, D (PhD): It just {disfmarker}
+Turn 316, C (Professor): Mmm , no , if it 's {disfmarker} if i if it 's {disfmarker}
+Turn 317, A (Grad): Tone
+Turn 318, C (Professor): Well , it won't be as big .
+Turn 319, D (PhD): I mean , even if you take the log , you can {disfmarker} your model just has a more sensitive {pause} measures .
+Turn 320, E (PhD): Yeah .
+Turn 321, A (Grad): Sure , but tone might be very
+Turn 322, D (PhD): So .
+Turn 323, A (Grad): Yeah , you 're " mm - hmm " tone is going to be very different .
+Turn 324, D (PhD): Yeah . Right . Right .
+Turn 325, A (Grad): You could imagine doing specialized ones for different types of backchannels , if you could {disfmarker} if you had a good model for it . Your " mm - hmm " detector .
+Turn 326, C (Professor): If {disfmarker} if you 're {disfmarker} a I guess my point is , if you 're doing essentially a linear separation , taking the log first does in fact make it harder to separate .
+Turn 327, A (Grad): Right .
+Turn 328, C (Professor): So it 's {disfmarker} So , uh if you i i So i if there {disfmarker} if there close to things it does
+Turn 329, E (PhD): Yeah .
+Turn 330, D (PhD): Yeah .
+Turn 331, C (Professor): it 's a nonlinear operation that does in fact change the distinction . If you 're doing a non if you 're doing some fancy thing then {disfmarker} then yeah . And right now we 're essentially doing this linear thing by looking across here and {disfmarker} and saying we 're going to cut it here . Um and that {disfmarker} that 's the indicator that we 're getting . But anyway , yeah , we 're not {pause} disagreeing on any of this , we should look at it more uh {disfmarker} more finely , but uh uh I think that {disfmarker} This often happens , you do fairly complicated things , and then you stand back from them and you realize that you haven't done something simple . So uh , if you generated something like that just for the energy and see , and then , a a a as {disfmarker} as Liz says , when they g have uh uh smaller um , more coherent groups to look at , that would be another interesting thing later .
+Turn 332, E (PhD): Uh - huh .
+Turn 333, C (Professor): And then that should give us some indication {disfmarker} between those , should give us some indication of whether there 's anything to be achieved f from energy at all .
+Turn 334, E (PhD): Uh - huh .
+Turn 335, C (Professor): And then you can move on to the uh {pause} uh more {nonvocalsound} pitch related stuff .
+Turn 336, E (PhD): Mm - hmm . I {disfmarker} I {disfmarker} I think this is a good idea .
+Turn 337, C (Professor): OK .
+Turn 338, B (Postdoc): Mm - hmm .
+Turn 339, E (PhD): Not consider the log energy .
+Turn 340, C (Professor): Yeah . But then the {disfmarker} Have you started looking at the pitch related {pause} stuff at all , or {disfmarker} ? Pitch {pause} related ?
+Turn 341, E (PhD): The {disfmarker} ?
+Turn 342, C (Professor): Harmonicity and so on ?
+Turn 343, E (PhD): I {disfmarker} I 'm preparing the {disfmarker} the program but I don't {disfmarker} I don't begin because eh {vocalsound} I saw your email
+Turn 344, C (Professor): Preparing to {disfmarker} Yeah .
+Turn 345, E (PhD): and {pause} I agree with you it 's better to {disfmarker} I suppose it 's better to {disfmarker} to consider the {disfmarker} the energy this kind of parameter {vocalsound} bef
+Turn 346, C (Professor): Yeah . Oh , that 's not what I meant . No , no . I {disfmarker} I {disfmarker} I {disfmarker} I {disfmarker} Well , we certainly should see this but I {disfmarker} I {disfmarker} I {disfmarker} I think that the harm I certainly wasn't saying this was better than the harmonicity and pitch related things I was just saying
+Turn 347, E (PhD): I {disfmarker} I go on with the {disfmarker} with the pitch ,
+Turn 348, C (Professor): Yeah .
+Turn 349, E (PhD): aha ! {pause} OK .
+Turn 350, C (Professor): Yeah , I was just saying {disfmarker}
+Turn 351, E (PhD): I {disfmarker} I {disfmarker} I {disfmarker} I understood uh that eh {pause} I {disfmarker} I had to finish {pause} by the moment with the {vocalsound} and {disfmarker} and concentrate my {disfmarker} my energy in that problem .
+Turn 352, C (Professor): OK . OK . {vocalsound} OK . But I think , like , all these derivatives and second derivatives and all these other very fancy things , I think I would just sort of look at the energy {pause} and then get into the harmonicity as {disfmarker} as a suggestion .
+Turn 353, E (PhD): OK . I go on with the pitch .
+Turn 354, C (Professor): Uh OK . So maybe uh since w we 're trying to uh compress the meeting , um , I know Adam had some form stuff he wanted to talk about and did you have some ?
+Turn 355, B (Postdoc): I wanted to ask just s something on the end of this top topic . So , when I presented my results about the uh distribution of overlaps and the speakers and the profiles of the speakers , at the bottom of that I did have a proposal ,
+Turn 356, E (PhD): Uh - huh .
+Turn 357, B (Postdoc): and I had plan to go through with it , of {disfmarker} of co coding the types of overlaps that people were involved in s just with reference to speaker style so , you know , with reference {disfmarker}
+Turn 358, D (PhD): Oh .
+Turn 359, B (Postdoc): and you know I said that on my {disfmarker} in my summary ,
+Turn 360, D (PhD): That 'd be great .
+Turn 361, B (Postdoc): that {pause} you know so it 's like people may have different amounts of being overlapped with or overlapping
+Turn 362, D (PhD): Yeah , I remem Right .
+Turn 363, B (Postdoc): but that in itself is not informative without knowing what types of overlaps they 're involved in so I was planning to do a taxonomy of types overlaps with reference to that .
+Turn 364, D (PhD): That would be great .
+Turn 365, B (Postdoc): So , but it you know it 's like it sounds like you also have uh something in that direction .
+Turn 366, D (PhD): That would be really great .
+Turn 367, E (PhD): Yeah .
+Turn 368, A (Grad): Hmm .
+Turn 369, B (Postdoc): Is {disfmarker} is it {disfmarker}
+Turn 370, D (PhD): We have nothing {disfmarker} You know , basically , we got {pause} his environment set up . He 's {disfmarker} he 's a double - E {comment} you know . So . It 's mostly that , {pause} if we had to {pause} label it ourselves , we {disfmarker} we would or we 'd have to , to get started , but if {disfmarker} {pause} It {disfmarker} it would be much better if you can do it . You 'd be much better {comment} at doing it also because {vocalsound} you know , I {disfmarker} I 'm not {disfmarker} I don't have a good feel for how they should be sorted out ,
+Turn 371, B (Postdoc): Interesting .
+Turn 372, D (PhD): and I really didn't wanna go into that if I didn't have to . So if {disfmarker} If you 're w willing to do that or {disfmarker} or {disfmarker}
+Turn 373, A (Grad): It would be interesting , though , to talk , maybe not at the meeting , but at some other time about what are the classes .
+Turn 374, B (Postdoc): Well maybe we can OK .
+Turn 375, E (PhD): Yeah .
+Turn 376, B (Postdoc): Mm - hmm .
+Turn 377, D (PhD): Yeah .
+Turn 378, B (Postdoc): Mm - hmm .
+Turn 379, D (PhD): I think that 's a research {pause} effort in and of itself ,
+Turn 380, E (PhD): Yeah .
+Turn 381, A (Grad): Yeah , it would be interesting .
+Turn 382, D (PhD): because you can read the literature , but I don't know how it 'll {pause} turn out
+Turn 383, E (PhD): Yeah .
+Turn 384, D (PhD): and , You know , it 's always an interesting question .
+Turn 385, B (Postdoc): It seems like we also s with reference to a purpose , too , that we we 'd want to have them coded .
+Turn 386, E (PhD): I would think it 's interesting , yeah . Yeah .
+Turn 387, D (PhD): That 'd be great .
+Turn 388, A (Grad): Yep .
+Turn 389, E (PhD): Yeah .
+Turn 390, B (Postdoc): OK .
+Turn 391, D (PhD): That 'd be really great .
+Turn 392, B (Postdoc): I can do that .
+Turn 393, D (PhD): And we 'd still have some {pause} funding for this project ,
+Turn 394, E (PhD): uh uh
+Turn 395, D (PhD): like probably , if we had to hire some {disfmarker} like an undergrad , because uh Don is being covered half time on something else {disfmarker}
+Turn 396, B (Postdoc): Mm - hmm .
+Turn 397, D (PhD): I mean , he {disfmarker} we 're not paying him {pause} the full RA - ship for {disfmarker} all the time . So . {vocalsound} um If we got it to where we wanted {disfmarker} we needed someone to do that {disfmarker} I don't think there 's really enough data where {disfmarker} where {disfmarker}
+Turn 398, B (Postdoc): Mm - hmm . Yeah , I see this as a prototype , to use the only the {disfmarker} the already transcribed meeting as just a prototype .
+Turn 399, E (PhD): Yeah .
+Turn 400, D (PhD): Yeah .
+Turn 401, E (PhD): I {disfmarker} I think a a another parameter we c we {disfmarker} we can consider is eh the {pause} duration .
+Turn 402, D (PhD): But {disfmarker}
+Turn 403, A (Grad): Mm - hmm .
+Turn 404, E (PhD): Another e e m besides eh the {disfmarker} the class of overlap , the duration . Because is possible {vocalsound} eh some s s um eh some classes eh has eh {pause} a type of a duration , eh , {pause} a duration very short uh when we have {disfmarker} {vocalsound} we have overlapping with speech .
+Turn 405, B (Postdoc): Mm - hmm .
+Turn 406, D (PhD): Yeah , definitely .
+Turn 407, B (Postdoc): Yeah , maybe {disfmarker} It may be correlated . Mm - hmm .
+Turn 408, E (PhD): Is possible to have . And it 's interesting , {pause} I think , {pause} to consider the {disfmarker} the window of normalization , normalization window . Eh {pause} because eh if we have a type of , {pause} a kind of eh overlap , eh backchannel overlap , with a short duration , is possible {pause} eh to normali i i that if we normalize eh with eh {pause} eh consider only the {disfmarker} the eh window eh by the left eh ri eh {pause} side on the right side overlapping with a {disfmarker} a very {pause} eh oh a small window eh the {disfmarker} if the fit of normalization is eh mmm bigger eh in that overlapping zone eh very short
+Turn 409, B (Postdoc): Mm - hmm .
+Turn 410, D (PhD): Yeah , that 's true . The window shouldn't be larger than the backchannel .
+Turn 411, E (PhD): I {disfmarker} I me I {disfmarker} I understand . I mean that you have eh you have a backchannel , eh , eh {disfmarker} you have a overlapping zone very short
+Turn 412, D (PhD): Yeah .
+Turn 413, E (PhD): and you consider eh n eh all the channel to normalize this very short eh {disfmarker}
+Turn 414, C (Professor): Mm - hmm . Mm - hmm .
+Turn 415, E (PhD): for example " mmm mm - hmm hmm " eh And the energy is not eh height eh I think if you consider all the channel to normalize and the channel is {pause} mmm bigger {pause} eh eh eh compared with the {disfmarker} with the overlapping eh duration ,
+Turn 416, C (Professor): Mm - hmm .
+Turn 417, E (PhD): eh the effect is mmm stronger eh {pause} that I {disfmarker} I mean the {disfmarker} the e effect of the normalization eh with the mean and the {disfmarker} and the variance eh is different that if you consider {pause} only a {pause} window compared eh with the n the duration of overlapping .
+Turn 418, C (Professor): Mm - hmm . You {disfmarker} you want it around the overlapping part .
+Turn 419, E (PhD): Not {disfmarker} Yeah .
+Turn 420, C (Professor): You want it to include something that 's not in overlapping
+Turn 421, E (PhD): Yeah .
+Turn 422, B (Postdoc): Mm - hmm .
+Turn 423, C (Professor): but {disfmarker} but uh
+Turn 424, E (PhD): Yeah . I {disfmarker} I don't know .
+Turn 425, C (Professor): Yeah .
+Turn 426, E (PhD): Is {disfmarker} s If {disfmarker}
+Turn 427, D (PhD): Well it 's a sliding window , right ? So if you take the {disfmarker} the measure in the center of the overlapped {pause} piece , you know , there 'd better be some something .
+Turn 428, C (Professor): Mm - hmm .
+Turn 429, E (PhD): Yeah . Yeah .
+Turn 430, D (PhD): But if your window is really huge then yeah you 're right you won't even {disfmarker}
+Turn 431, E (PhD): Yeah , This is the {disfmarker} This is the {disfmarker} the idea , {vocalsound} to consider only the {disfmarker} the small window near {disfmarker} near {disfmarker} near the {disfmarker} the overlapping zone .
+Turn 432, D (PhD): The portion of the {disfmarker} {comment} of the backchannel won't {disfmarker} won't effect anything . But you {disfmarker} Yeah . So . You know , you shouldn't be more than like {disfmarker} {pause} You should definitely not be three times as big as your {disfmarker} as your {pause} backchannel .
+Turn 433, E (PhD): Yeah .
+Turn 434, B (Postdoc): Mm - hmm .
+Turn 435, D (PhD): Then you 're gonna w have a wash . And hopefully it 's more like on the order of {disfmarker}
+Turn 436, C (Professor): I 'm not sure that 's {pause} necessarily true .
+Turn 437, E (PhD): Yeah ?
+Turn 438, B (Postdoc): It is an empirical question , it seems like .
+Turn 439, C (Professor): Because {disfmarker} because it {disfmarker} because um again if you 're just compensating for the gain ,
+Turn 440, D (PhD): Yea
+Turn 441, E (PhD): Yeah .
+Turn 442, B (Postdoc): Yeah .
+Turn 443, C (Professor): you know , the fact that this {disfmarker} this gain thing was crude , and the gain wh if someone is speaking relatively at consistent level , just to {disfmarker} to give a {disfmarker} an extreme example , all you 're doing is compensating for that . And then you still s And then if you look at the frame with respect to that , it still should {disfmarker} should uh change
+Turn 444, D (PhD): Yeah , it depends how different your normalization is , as you slide your window across .
+Turn 445, C (Professor): Mm - hmm .
+Turn 446, D (PhD): I mean . That 's something we don't know .
+Turn 447, B (Postdoc): It 's possible to try it both ways ,
+Turn 448, A (Grad): Well , I mean we 're also talking about a couple of different things .
+Turn 449, B (Postdoc): isn't it ? in this small
+Turn 450, A (Grad): I mean , one is your analysis window and then the other is any sort of normalization that you 're doing .
+Turn 451, D (PhD): Yeah I was talking about the n normalization window .
+Turn 452, A (Grad): And the {disfmarker} And they could be quite different .
+Turn 453, C (Professor): Right .
+Turn 454, D (PhD): Yeah .
+Turn 455, E (PhD): Yeah .
+Turn 456, C (Professor): This was sort of where {disfmarker} where we were last week .
+Turn 457, A (Grad): Yep .
+Turn 458, D (PhD): Yeah . That 's true . Yeah .
+Turn 459, C (Professor): But , anyway We {disfmarker} we 'll have to look at some core things .
+Turn 460, B (Postdoc): OK .
+Turn 461, D (PhD): Um . But that 'd be great if {disfmarker} if you 're marking those
+Turn 462, E (PhD): OK .
+Turn 463, B (Postdoc): Great .
+Turn 464, D (PhD): and {disfmarker} um .
+Turn 465, B (Postdoc): OK .
+Turn 466, D (PhD): But it is definitely true that we need to have the time marks ,
+Turn 467, E (PhD): Yeah .
+Turn 468, B (Postdoc): Mm - hmm .
+Turn 469, D (PhD): and I was assuming that will be inherited because , if you have the words and they 're roughly aligned in time via forced alignment or whatever we end up using , then you know , this {pause} student and I would be looking at the time marks
+Turn 470, B (Postdoc): Yep , I agree . Mm - hmm . Coming off of the other {disfmarker}
+Turn 471, D (PhD): and classifying all the frames inside those as whatever labels Jane gave
+Turn 472, E (PhD): Yeah .
+Turn 473, B (Postdoc): Good . So , it wouldn't be {pause} I wasn't planning to label the time marks .
+Turn 474, D (PhD): 
+Turn 475, E (PhD): I can give you my transcription file ,
+Turn 476, B (Postdoc): I was thinking that that would come from the engineering side ,
+Turn 477, D (PhD): I don't think you need to .
+Turn 478, E (PhD): no ?
+Turn 479, B (Postdoc): yeah .
+Turn 480, D (PhD): Yeah . That should be linked to the words which are linked to time somehow ,
+Turn 481, B (Postdoc): There you go .
+Turn 482, A (Grad): Well we 're not any time soon going to get a forced alignment .
+Turn 483, D (PhD): right ? Not now .
+Turn 484, A (Grad): So .
+Turn 485, E (PhD): Yeah .
+Turn 486, A (Grad): Um If it 's not hand - marked then we 're not going to get the times .
+Turn 487, D (PhD): Well , it 's something that w Well , we {disfmarker} we wouldn't be able to do any work without a forced alignment anyway ,
+Turn 488, E (PhD): Yes
+Turn 489, D (PhD): so somehow if {disfmarker} once he gets going we 're gonna hafta come up with one
+Turn 490, C (Professor): Yes .
+Turn 491, D (PhD): and Yeah .
+Turn 492, A (Grad): I mean w I guess we could do a very bad one with Broadcast News .
+Turn 493, B (Postdoc): Good . Good .
+Turn 494, D (PhD): So whatever you would label would be attached to the words , I think .
+Turn 495, B (Postdoc): Great ! Good , good . Mm - hmm .
+Turn 496, E (PhD): Yeah .
+Turn 497, C (Professor): Well again for the close {pause} mike stuff , we could come up {disfmarker} take a s take the Switchboard system or something ,
+Turn 498, A (Grad): That might be good enough . Yeah .
+Turn 499, C (Professor): and {disfmarker} Um
+Turn 500, A (Grad): It 'd be worth a try . It would be interesting to see what we get .
+Turn 501, C (Professor): Just , you know , low - pass filter the speech and {disfmarker}
+Turn 502, D (PhD): Cuz there 's {disfmarker} there 's a lot of work you can't do without that , I mean , how {disfmarker} how would you {disfmarker}
+Turn 503, C (Professor): Yeah .
+Turn 504, D (PhD): You 'd have to go in and measure every start and stop point next to a word
+Turn 505, A (Grad): Yep .
+Turn 506, B (Postdoc): It would be very inefficient .
+Turn 507, D (PhD): is y if you 're interested in anything to do with words .
+Turn 508, E (PhD): Yeah .
+Turn 509, B (Postdoc): Mm - hmm .
+Turn 510, D (PhD): So . Anyway {pause} So that 'd be great .
+Turn 511, B (Postdoc): Good . OK .
+Turn 512, E (PhD): Yeah .
+Turn 513, C (Professor): There 's something we should talk about later but maybe not just now . But , uh , should talk about our options as far as the uh uh {pause} transcription
+Turn 514, A (Grad): Yep , if IBM doesn't {disfmarker}
+Turn 515, C (Professor): But . Well , w But we 'll do that later .
+Turn 516, B (Postdoc): OK . Good .
+Turn 517, D (PhD): Do we hafta {pause} turn {disfmarker}
+Turn 518, B (Postdoc): Yeah . Let 's do that later .
+Turn 519, D (PhD): Are we supposed to keep recording here ?
+Turn 520, A (Grad): Yeah {vocalsound} Right .
+Turn 521, B (Postdoc): Yeah .
+Turn 522, C (Professor): We 'll talk about it later .
+Turn 523, B (Postdoc): Yeah .
+Turn 524, C (Professor): So {vocalsound} uh Uh " forms " .
+Turn 525, A (Grad): Forms Next iteration of forms .
+Turn 526, C (Professor): You had something on forms .
+Turn 527, A (Grad): Oops .
+Turn 528, B (Postdoc): Oh ! Oh good , OK .
+Turn 529, C (Professor): Um . Oh .
+Turn 530, B (Postdoc): How {disfmarker} So it 's two pages per person ?
+Turn 531, A (Grad): Nope . One 's a digit form , one 's a speaker form .
+Turn 532, B (Postdoc): Oh !
+Turn 533, A (Grad): So one is a one time only {pause} speaker form and the other is the digits .
+Turn 534, B (Postdoc): Oh , I see .
+Turn 535, E (PhD): Oh it 's the same . Oh no no . Is {disfmarker} is new Is OK .
+Turn 536, A (Grad): So don't fill these out .
+Turn 537, B (Postdoc): Alright .
+Turn 538, A (Grad): This is just the suggestion for uh what the new forms would look like . So , they incorporate the changes {pause} that we talked about .
+Turn 539, B (Postdoc): Date and time . Uh why did you switch the order of the Date and Time fields ? This is rather a low - level , but
+Turn 540, A (Grad): On which one ?
+Turn 541, B (Postdoc): On {disfmarker} on the new one , Time comes first and then Date , but I thought {disfmarker}
+Turn 542, A (Grad): Oh you mean on the digit form ?
+Turn 543, B (Postdoc): This is {disfmarker} this is rather a low level question , but {disfmarker} but it used {disfmarker} used to be Date came first .
+Turn 544, A (Grad): Uh , because the user fills out the first three fields and I fill out the rest .
+Turn 545, B (Postdoc): Oh I see .
+Turn 546, A (Grad): So it was intentional .
+Turn 547, B (Postdoc): Well , how would the {disfmarker} How would the user know the time if they didn't know the date ?
+Turn 548, A (Grad): It 's an interesting observation , but it was intentional . Because the date is when you actually read the digits and the time and , excuse me , the time is when you actually read the digits , but I 'm filling out the date beforehand . If you look at the form in front of you ? that you 're going to fill out when you read the digits ? you 'll see I 've already filled in the date but not the time .
+Turn 549, B (Postdoc): Yeah . I always assumed {disfmarker} So the time is supposed to be pretty exact , because I 've just been taking beginning time {disfmarker} time of the meeting .
+Turn 550, D (PhD): Yeah , me too .
+Turn 551, A (Grad): Yeah , I 've noticed that in the forms .
+Turn 552, E (PhD): Yeah , I {disfmarker} yeah .
+Turn 553, A (Grad): The {disfmarker} the reason I put the time in , is so that the person who 's extracting the digits , meaning me , will know where to look in the meeting , to try to find the digits .
+Turn 554, D (PhD): 
+Turn 555, E (PhD): Me too . Oh !
+Turn 556, B (Postdoc): Oh dear . We 've been {disfmarker} we 've been messing up your forms .
+Turn 557, E (PhD): But {disfmarker} I am put {disfmarker} I am putting the beginning of the meeting .
+Turn 558, A (Grad): I know .
+Turn 559, D (PhD): So you should call it , like , " digits start time " . Or .
+Turn 560, A (Grad): And I haven't said anything . Yep .
+Turn 561, E (PhD): in {disfmarker} on there .
+Turn 562, C (Professor): Why {disfmarker} What {disfmarker} what were you putting in ?
+Turn 563, B (Postdoc): Oh , well , I was saying if we started the meeting at two thirty ,
+Turn 564, E (PhD): Yeah .
+Turn 565, B (Postdoc): I 'd put two thirty , and I guess d e everyone was putting two thirty ,
+Turn 566, C (Professor): Oh .
+Turn 567, E (PhD): Yeah .
+Turn 568, A (Grad): No , it 's about fifty fifty .
+Turn 569, B (Postdoc): and I didn't realize there was " uh oh I 'm about to read this and I should " {disfmarker}
+Turn 570, A (Grad): Actually it 's about one third each . About one third of them are blank , about one third of them are when the digits are read , and about one third of them are when the {pause} meeting starts . So .
+Turn 571, E (PhD): Oh .
+Turn 572, B (Postdoc): This would be a radical suggestion but {disfmarker}
+Turn 573, A (Grad): I could put instructions ? Nah .
+Turn 574, B (Postdoc): Ei - either that or maybe you could maybe write down when people {vocalsound} start reading digits on that particular session .
+Turn 575, E (PhD): Yeah .
+Turn 576, A (Grad): But if I 'm not at the meeting , I can't do that .
+Turn 577, B (Postdoc): I know , OK . That 's a good point .
+Turn 578, C (Professor): Yeah , he 's been setting stuff up and going away . So .
+Turn 579, B (Postdoc): I see . Good point good point .
+Turn 580, C (Professor): For some reason he doesn't want to sit through every meeting that 's {disfmarker}
+Turn 581, A (Grad): Yep , but that is the reason Name , Email and Time are where they are .
+Turn 582, B (Postdoc): Oh , OK . Alright .
+Turn 583, C (Professor): Yeah .
+Turn 584, B (Postdoc): I rest my {disfmarker}
+Turn 585, A (Grad): And then the others are later on .
+Turn 586, C (Professor): Uh - huh .
+Turn 587, B (Postdoc): OK . w
+Turn 588, E (PhD): And the Seat is this number ?
+Turn 589, A (Grad): Mm - hmm .
+Turn 590, B (Postdoc): Seat and Session .
+Turn 591, D (PhD): " For official use only " That 's {disfmarker} {vocalsound} Well , he 's very professional .
+Turn 592, E (PhD): " use only "
+Turn 593, B (Postdoc): Actually you could {disfmarker} Well that does raise another question , which is why is the " Professional use only " line not higher ? Why doesn't it come in at the point of Date and Seat ? Oh . Because we 're filling in other things .
+Turn 594, A (Grad): What ?
+Turn 595, C (Professor): What ?
+Turn 596, B (Postdoc): Well , because {disfmarker} If y your {disfmarker} your professional use , you 're gonna already have the date , and the s
+Turn 597, A (Grad): What {disfmarker} which form are you talking about ?
+Turn 598, B (Postdoc): Well I 'm comparing the new one with the old one . This is the digit form .
+Turn 599, E (PhD): Oh .
+Turn 600, A (Grad): Oh you 're talking about the digit form .
+Turn 601, C (Professor): Digit . Digit form .
+Turn 602, E (PhD): Yeah .
+Turn 603, A (Grad): The digit form doesn't {disfmarker} The digit {disfmarker}
+Turn 604, B (Postdoc): Oh ! I wasn't supposed to {disfmarker}
+Turn 605, E (PhD): Yeah .
+Turn 606, A (Grad): No , that 's alright .
+Turn 607, B (Postdoc): Sorry . Sorry .
+Turn 608, A (Grad): The digit form doesn't have a " for official use only " line . It just has a line , {pause} which is what you 're supposed to read .
+Turn 609, B (Postdoc): That {disfmarker} uh OK .
+Turn 610, A (Grad): So on the digits form , everything above the line is a fill - in form
+Turn 611, B (Postdoc): Sorry about that . Yeah .
+Turn 612, A (Grad): and everything below the line is digits that the user reads .
+Turn 613, B (Postdoc): Yeah . OK . Alright s but I didn't mean to derail our discussion here , so you really wanted to start with this other form .
+Turn 614, A (Grad): No , either way is fine I just {disfmarker} You just started talking about something , and I didn't know which form you were referring to .
+Turn 615, B (Postdoc): Alright yeah , I was comparing {disfmarker} so th this is {disfmarker} So I was looking at the change first . So it 's like we started with this and now we 've got a new version of it wi {pause} with reference to this . So the digit form , we had one already . Now the f the fields are slightly different .
+Turn 616, C (Professor): So the main thing that the person fills out um {pause} is the name and email and time ?
+Turn 617, E (PhD): Yeah .
+Turn 618, A (Grad): Right .
+Turn 619, C (Professor): You do the rest ?
+Turn 620, E (PhD): Ah !
+Turn 621, A (Grad): Yep . Just as uh {disfmarker} as I have for all the others .
+Turn 622, B (Postdoc): What {disfmarker} And there 's an addition of the native language , which is a bit redundant .
+Turn 623, C (Professor): Right .
+Turn 624, B (Postdoc): This one has Native Language and this one does too .
+Turn 625, A (Grad): That 's because the one , the digit form that has native language is the old form not the new form .
+Turn 626, B (Postdoc): Oh ! Thank you . {pause} Thank you , thank you . There we go .
+Turn 627, E (PhD): Yeah .
+Turn 628, B (Postdoc): Oh , yeah . I 'll catch up here . OK , I see .
+Turn 629, C (Professor): " South Midland , North Midland "
+Turn 630, B (Postdoc): That 's the old and that 's the new .
+Turn 631, A (Grad): Yeah this was the problem with these categories , I {disfmarker} I picked those categories from TIMIT . I don't know what those are .
+Turn 632, D (PhD): Actually , the only way I know is from working with the database and having to figure it out .
+Turn 633, E (PhD): What {disfmarker}
+Turn 634, A (Grad): With TIMIT , yeah ?
+Turn 635, E (PhD): uh - huh .
+Turn 636, A (Grad): So , I was gonna ask
+Turn 637, E (PhD): What i
+Turn 638, C (Professor): So is South Midland like Kansas ?
+Turn 639, A (Grad): wh w I mean .
+Turn 640, C (Professor): and North Midland like {disfmarker} like uh Illinois , or {disfmarker} ?
+Turn 641, D (PhD): Well yeah . Nor - um {disfmarker}
+Turn 642, E (PhD): Yeah .
+Turn 643, A (Grad): So {disfmarker} so what accent are we speaking ? Western ?
+Turn 644, C (Professor): By definition ?
+Turn 645, E (PhD): And for simple for {disfmarker} for me ?
+Turn 646, C (Professor): Well ,
+Turn 647, D (PhD): Probably Western , yeah .
+Turn 648, E (PhD): Is mean my native language Spanish {disfmarker} Spanish ? eh The original is the center of Spain and the {vocalsound} beca
+Turn 649, A (Grad): Yeah , I mean you could call it whatever you want . For the foreign language we couldn't classify every single one . So I just left it blank and you can put whatever you want .
+Turn 650, E (PhD): Because is different , the Span - uh {pause} the Spanish language from the {disfmarker} the north of Spain , of the south , of the west and the {disfmarker}
+Turn 651, A (Grad): Sure .
+Turn 652, E (PhD): But .
+Turn 653, A (Grad): So I 'm not sure what to do about the Region field for English variety . You know , when I wrote {disfmarker} I was writing those down , I was thinking , " You know , these are great {pause} if you 're a linguist " .
+Turn 654, E (PhD): Yeah .
+Turn 655, A (Grad): But I don't know how to {disfmarker} I don't know how to {disfmarker} I don't know how to categorize them .
+Turn 656, B (Postdoc): Yeah .
+Turn 657, D (PhD): Actually even if you {vocalsound} {pause} t
+Turn 658, B (Postdoc): Yeah .
+Turn 659, C (Professor): If you 're {disfmarker} if e {vocalsound} if y
+Turn 660, D (PhD): This wasn't developed by {disfmarker} th these regions weren't {disfmarker}
+Turn 661, C (Professor): if you 're a TI or MIT {vocalsound} from {vocalsound} nineteen eighty - five .
+Turn 662, A (Grad): Yeah So I guess my only question was if {disfmarker} if you were a South Midland speaking region , person ? Would you know it ?
+Turn 663, C (Professor): Yeah .
+Turn 664, D (PhD): Mm - hmm .
+Turn 665, A (Grad): Is that what you would call yourself ?
+Turn 666, D (PhD): I don't know .
+Turn 667, A (Grad): Yeah .
+Turn 668, C (Professor): You know , I think if you 're talking {disfmarker} if you 're thinking in terms of places , {pause} as opposed to {pause} names different peop names people have given to {pause} different ways of talking , {pause} I would think North Midwest , and South Midwest would be more common than saying Midland , right , I mean , I {disfmarker} I went to s
+Turn 669, D (PhD): Yeah . Now {pause} the usage {disfmarker} Maybe we can give them a li {pause} like a little map ? with the regions and they just {disfmarker} No , I 'm serious .
+Turn 670, B (Postdoc): No , that 's not bad . Yeah .
+Turn 671, D (PhD): Because it takes less time , and it 's sort of cute
+Turn 672, E (PhD): i at this {disfmarker} {vocalsound} in that side {disfmarker} in that side of the {disfmarker} the paper .
+Turn 673, D (PhD): there 's no figure .
+Turn 674, C (Professor): Well .
+Turn 675, D (PhD): Well just a little {disfmarker} You know , it doesn't have all the detail , but you sort of {disfmarker}
+Turn 676, C (Professor): But what if you moved five times and {disfmarker} and uh
+Turn 677, B (Postdoc): Well , I was thinking you could have ma multiple ones and then the amount of time {disfmarker}
+Turn 678, D (PhD): No , but you 're categorized . That 's the same {disfmarker}
+Turn 679, B (Postdoc): so , roughly . So . You could say , {pause} you know " ten years {pause} on the east coast , five years on the west coast " or something or other .
+Turn 680, A (Grad): Well , We {disfmarker} I think we don't want to get that level of detail at this form . I think that 's alright if we want to follow up . But .
+Turn 681, C (Professor): I guess we don't really know .
+Turn 682, D (PhD): I mean I {disfmarker} As I said , I don't think there 's a huge {pause} benefit to this region thing . It {disfmarker} it gets {disfmarker} The problem is that for some things it 's really clear and usually listening to {comment} it you can tell right away if it 's a New York or Boston accent , but New York and Boston are two {disfmarker} well , I guess they have the NYC , but New England has a bunch of very different dialects and {disfmarker}
+Turn 683, B (Postdoc): Mm - hmm .
+Turn 684, D (PhD): and {pause} so does um S So do other places .
+Turn 685, A (Grad): Yeah , so I picked these regions cuz we had talked about TIMIT , and those are right from TIMIT .
+Turn 686, D (PhD): Right . And so these would be {pause} satisfying like a speech {pause} research {pause} community if we released the database ,
+Turn 687, A (Grad): So .
+Turn 688, D (PhD): but as to whether subjects know where they 're from , I 'm not sure because um I know that they had to fill this out for Switchboard . This is i almost exactly the same as Switchboard regions
+Turn 689, B (Postdoc): Oh . OK .
+Turn 690, D (PhD): or very close . Yeah . Um And I don't know how they filled that out . But th if Midland {disfmarker} Yeah , Midland is the one that 's difficult I guess .
+Turn 691, B (Postdoc): I think a lot of people {disfmarker} Yeah .
+Turn 692, D (PhD): Also Northwest you 've got Oreg - Washington and Oregon now which uh y people don't know if it 's western or northern .
+Turn 693, A (Grad): Yeah , I certainly don't . I mean , I was saying I don't even know what I speak .
+Turn 694, D (PhD): It 's like Northwest
+Turn 695, A (Grad): Am I speaking {disfmarker} Am I speaking Western ?
+Turn 696, C (Professor): Oh , what is Northern ? Well and what {disfmarker} and what 's Northern ?
+Turn 697, D (PhD): I think originally it was North {disfmarker} Northwest
+Turn 698, A (Grad): Northwest ?
+Turn 699, D (PhD): But {disfmarker}
+Turn 700, E (PhD): Yeah .
+Turn 701, A (Grad): Yeah , so this is a real problem . I don't know what to do about it .
+Turn 702, D (PhD): Yeah .
+Turn 703, B (Postdoc): I wouldn't know how to characterize mine either . And {disfmarker} and so I would think {disfmarker} I would say , I 've {disfmarker} I 've got a mix of California and Ohio .
+Turn 704, A (Grad): I c I think at the first level , for example , we speak the same .
+Turn 705, D (PhD): I don't know .
+Turn 706, A (Grad): our {disfmarker} our dialects Or {pause} whatever you {disfmarker} region are the same .
+Turn 707, B (Postdoc): Uh - huh .
+Turn 708, A (Grad): But I don't know what it is . So .
+Turn 709, D (PhD): Well , you have a like techno - speak accent I think .
+Turn 710, A (Grad): a techno - speak accent ?
+Turn 711, D (PhD): Yeah , you know ?
+Turn 712, E (PhD): A techno
+Turn 713, A (Grad): A {disfmarker} a geek region ?
+Turn 714, D (PhD): Well it 's {disfmarker} I mean I {disfmarker} you can sort of identify
+Turn 715, B (Postdoc): Geek region .
+Turn 716, D (PhD): it f It 's {disfmarker} it 's {disfmarker} not {disfmarker} not that that 's {disfmarker}
+Turn 717, E (PhD): Is different . Is different .
+Turn 718, D (PhD): but {disfmarker} but maybe that {disfmarker} maybe we could leave this and see what people {disfmarker} See what people choose and then um let them just fill in if they don't {disfmarker} I mean I don't know what else we can do , cuz {disfmarker} {vocalsound} That 's North Midland .
+Turn 719, B (Postdoc): I 'm wondering about a question like , " Where are you from mostly ? "
+Turn 720, E (PhD): Yeah .
+Turn 721, C (Professor): But I {disfmarker} I 'm s I 'm {disfmarker} now that you mentioned it though , I am {disfmarker} really am confused by " Northern " .
+Turn 722, E (PhD): Yeah .
+Turn 723, B (Postdoc): I agree . I agree .
+Turn 724, C (Professor): I really am .
+Turn 725, B (Postdoc): I agree .
+Turn 726, C (Professor): I mean , if {disfmarker} if you 're {pause} in New England , that 's North .
+Turn 727, E (PhD): Yeah .
+Turn 728, C (Professor): If you 're {disfmarker} i if you 're
+Turn 729, B (Postdoc): Scandinavian , the Minnesota area 's north .
+Turn 730, C (Professor): Uh yeah . That 's {disfmarker} But that 's also North Midland ,
+Turn 731, E (PhD): Yeah .
+Turn 732, B (Postdoc): Oh , @ @ . {disfmarker} OK .
+Turn 733, C (Professor): right ?
+Turn 734, B (Postdoc): 
+Turn 735, C (Professor): And {disfmarker} and {disfmarker} and Oregon and {disfmarker} and Oregon and Washington are {disfmarker} are Western , but they 're also Northern .
+Turn 736, D (PhD): Yeah . Of course , that 's very different from , like , Michigan , or {disfmarker}
+Turn 737, E (PhD): Mmm .
+Turn 738, B (Postdoc): Mm - hmm .
+Turn 739, C (Professor): uh , Idaho ?
+Turn 740, D (PhD): Well there are hardly any subjects from Idaho .
+Turn 741, C (Professor): Montana ?
+Turn 742, A (Grad): No problem .
+Turn 743, B (Postdoc): Just rule them out .
+Turn 744, D (PhD): There 's only a few people in Idaho .
+Turn 745, A (Grad): There are hardly any subjects from " beep "
+Turn 746, E (PhD): Yeah .
+Turn 747, D (PhD): Sorry .
+Turn 748, C (Professor): Maybe {disfmarker} Maybe we {disfmarker} Maybe we should put a little map and say " put an X on where you 're from " ,
+Turn 749, D (PhD): No , that 's {disfmarker}
+Turn 750, E (PhD): And {disfmarker} is {disfmarker} in those {disfmarker}
+Turn 751, A (Grad): Yeah really .
+Turn 752, D (PhD): We could ask where they 're from .
+Turn 753, E (PhD): And if you put {disfmarker}
+Turn 754, B (Postdoc): It 'd be pretty simple , yeah .
+Turn 755, D (PhD): Yeah . But - We went back to that .
+Turn 756, E (PhD): Yeah . If you put eh the state ?
+Turn 757, A (Grad): Well well we sort of {disfmarker}
+Turn 758, B (Postdoc): Where are you from mostly ?
+Turn 759, D (PhD): We {disfmarker} we went {disfmarker} we went around this and then {pause} a lot of people ended up saying that it {disfmarker}
+Turn 760, E (PhD): Uh - huh . Mm - hmm .
+Turn 761, D (PhD): You know .
+Turn 762, A (Grad): Well , I like the idea of asking " what variety of English do you speak " as opposed to where you 're from Because th if we start asking where we 're from , again you have to start saying , " well , is that the language you speak or is that just where you 're from ? "
+Turn 763, E (PhD): Yeah .
+Turn 764, B (Postdoc): Hmm ?
+Turn 765, D (PhD): Right . Right .
+Turn 766, E (PhD): Yeah .
+Turn 767, C (Professor): Let 's {disfmarker} Mm - hmm .
+Turn 768, D (PhD): I mean it gives us good information on where they 're from , but that doesn't {comment} tell us anything {disfmarker}
+Turn 769, A (Grad): And {disfmarker}
+Turn 770, C (Professor): We could always ask them if they 're from {disfmarker}
+Turn 771, D (PhD): well , enough about their {disfmarker}
+Turn 772, A (Grad): I mean . So {disfmarker} so I would say Germany
+Turn 773, D (PhD): like {disfmarker}
+Turn 774, A (Grad): You know am I speaking with German accent
+Turn 775, B (Postdoc): Oh .
+Turn 776, A (Grad): I don't think so .
+Turn 777, B (Postdoc): Well , see , I 'm thinking " Where are you from mostly "
+Turn 778, D (PhD): Right .
+Turn 779, A (Grad): Oh , OK yeah .
+Turn 780, B (Postdoc): because , you know , then you have some {disfmarker} some kind of subjective amount of time factored into it .
+Turn 781, E (PhD): Yeah . Yeah .
+Turn 782, A (Grad): Yep . Yeah , I guess I could try to put {disfmarker} squeeze in a little map .
+Turn 783, E (PhD): Yeah .
+Turn 784, A (Grad): I mean there 's not a lot of r of room
+Turn 785, C (Professor): I 'd say , uh , " Boston , New York City , the South and Regular " .
+Turn 786, B (Postdoc): Well {disfmarker}
+Turn 787, D (PhD): Oh , I don't know .
+Turn 788, A (Grad): I think of those , Northern is the only one that I don't even know what they 're meaning .
+Turn 789, B (Postdoc): Yeah . Yeah .
+Turn 790, E (PhD): And {disfmarker} And {disfmarker} {vocalsound} Um {pause} And usually here {disfmarker} people here know what is their kind of mmm lang English language ?
+Turn 791, C (Professor): That 's a joke . That 's {disfmarker}
+Turn 792, D (PhD): So let 's make it up . S I mean , who cares . Right ? We can make up our own {disfmarker} So we can say " Northwest " , " Rest of West " or something . You know . " West " and I mean .
+Turn 793, A (Grad): Ye I don't think the Northwest people speak any differently than I do .
+Turn 794, D (PhD): It doesn't even {disfmarker} Yeah , exactly . That 's not really a region .
+Turn 795, B (Postdoc): I {disfmarker}
+Turn 796, C (Professor): " Do you come from the Louisiana Purchase ? "
+Turn 797, D (PhD): So we could take out " North " {disfmarker} " Northern " .
+Turn 798, A (Grad): That {disfmarker} that 's exactly what we 're arguing about .
+Turn 799, E (PhD): eh here Is easy for people to know ?
+Turn 800, D (PhD): That 's {disfmarker} Yeah , w It 's {disfmarker} In {disfmarker} It 's {disfmarker} it 's harder in America anywhere else , basically .
+Turn 801, A (Grad): We don't know .
+Turn 802, E (PhD): because you have {disfmarker}
+Turn 803, A (Grad): I mean some of them are very obvious . If you {disfmarker} if you talk to someone speaking with Southern drawl , you know .
+Turn 804, E (PhD): N m Yeah .
+Turn 805, B (Postdoc): Yeah , or Boston .
+Turn 806, A (Grad): Or Boston , yeah .
+Turn 807, B (Postdoc): I can't do it , but {disfmarker}
+Turn 808, E (PhD): Or Boston ?
+Turn 809, C (Professor): Yeah .
+Turn 810, D (PhD): And those people , if you ask them to self - identify their accent they know .
+Turn 811, E (PhD): Yeah .
+Turn 812, B (Postdoc): Yeah , they do .
+Turn 813, D (PhD): They know very well .
+Turn 814, B (Postdoc): Yeah I agree I agree . I agree .
+Turn 815, D (PhD): They know they don't speak the same as the
+Turn 816, A (Grad): But is Boston New England ?
+Turn 817, B (Postdoc): And they 're proud of it .
+Turn 818, D (PhD): day o
+Turn 819, B (Postdoc): Yeah .
+Turn 820, D (PhD): Yeah , exactly .
+Turn 821, B (Postdoc): It 's identity thing .
+Turn 822, D (PhD): And they 're glad to tell you .
+Turn 823, E (PhD): style .
+Turn 824, D (PhD): Well . Depends who you ask , I suppose .
+Turn 825, A (Grad): W {vocalsound} I guess that 's the problem with these categories .
+Turn 826, E (PhD): 
+Turn 827, D (PhD): But that 's why they have New York City but {disfmarker}
+Turn 828, B (Postdoc): Well , we ca Well , why can't we just say characterize {disfmarker} something like char characterize your accent
+Turn 829, C (Professor): Well , Boston 's @ @ , too .
+Turn 830, D (PhD): Or {disfmarker} " Characterize your accent {pause} if you can . "
+Turn 831, B (Postdoc): and {disfmarker} and so I would say , " I don't know " .
+Turn 832, D (PhD): Yeah . Right , which probably means you have a very {disfmarker}
+Turn 833, B (Postdoc): But someone from Boston with a really strong coloration would know . And so would an R - less Maine {disfmarker} or something ,
+Turn 834, D (PhD): And that 's actually good .
+Turn 835, E (PhD): Yeah .
+Turn 836, B (Postdoc): yeah .
+Turn 837, D (PhD): I was {disfmarker} I was thinking of something along that line
+Turn 838, C (Professor): How
+Turn 839, B (Postdoc): Good .
+Turn 840, D (PhD): because {pause} if you don't know , then , you know , ruling out the fact that you 're totally {pause} inept or something ,
+Turn 841, B (Postdoc): Hmm .
+Turn 842, D (PhD): if somebody doesn't know , it probably means their accent isn't very strong compared to the sort of midwest standard .
+Turn 843, C (Professor): Well , {vocalsound} I mean , it wasn't that long ago that we had somebody here who was from Texas who was absolutely sure that he didn't have any accent left .
+Turn 844, B (Postdoc): Hmm ?
+Turn 845, C (Professor): And {disfmarker} and had {disfmarker} he had a pretty {vocalsound} noticeable drawl .
+Turn 846, A (Grad): OK , so . I propose , {pause} take out Northern add , don't know .
+Turn 847, B (Postdoc): Oh . {pause} Yeah . I {disfmarker} I would say more {disfmarker} more sweepingly , " how would you characterize your accent ? "
+Turn 848, E (PhD): Yeah .
+Turn 849, A (Grad): So you want to change the instructions also not just say region ?
+Turn 850, D (PhD): W
+Turn 851, B (Postdoc): Well , I think this discussion has made me think that 's s something to consider .
+Turn 852, A (Grad): I don't know if I {disfmarker} if I read this form , I think they 're going to ask {comment} it {disfmarker} they 're going to answer the same way if you say , " What 's variety of English do you speak ? Region . " as if you say " what variety of region {disfmarker} region {comment} do you speak ? Please characterize your accent ? " They 're going to answer the same way .
+Turn 853, B (Postdoc): I guess {disfmarker} Well , I was not sure that {disfmarker} I {disfmarker}
+Turn 854, E (PhD): Mmm .
+Turn 855, B (Postdoc): So . I was suggesting not having the options , just having them {disfmarker}
+Turn 856, A (Grad): Oh , I see .
+Turn 857, E (PhD): Huh .
+Turn 858, A (Grad): Well what we talked about with that is {pause} is so that they would understand the granularity .
+Turn 859, B (Postdoc): Yes , but if , as Liz is suggesting , people who have strong accents know that they do {disfmarker}
+Turn 860, A (Grad): I mean that 's what I had before , and you told me to list the regions to list them .
+Turn 861, B (Postdoc): and are {disfmarker} Well , I know .
+Turn 862, C (Professor): Right .
+Turn 863, D (PhD): Each {disfmarker} each one has pros and cons
+Turn 864, A (Grad): So .
+Turn 865, C (Professor): Right .
+Turn 866, B (Postdoc): That 's true .
+Turn 867, C (Professor): Right .
+Turn 868, D (PhD): I mean we {disfmarker} we {disfmarker}
+Turn 869, C (Professor): Yeah last week {disfmarker} last week I was sort of r arguing for having it wide open , but then everybody said " Oh , no , but then it will be hard to interpret because some people will say Cincinnati and some will say Ohio " .
+Turn 870, A (Grad): I mean I had it wide open last week and {disfmarker} and you said TIMIT .
+Turn 871, C (Professor): And .
+Turn 872, B (Postdoc): Yeah .
+Turn 873, C (Professor): Yeah .
+Turn 874, D (PhD): What if we put in both ?
+Turn 875, A (Grad): That 's what the " Other " is for .
+Turn 876, D (PhD): And {disfmarker} Would people {disfmarker} No , I mean what if we put in both ways of asking them ? So . One is {pause} Region and the another one is " if you had to characterize yourself {disfmarker} your accent , what would you say ? "
+Turn 877, A (Grad): Won't they answer the same thing ?
+Turn 878, D (PhD): Well they might only answer only one of the questions but if
+Turn 879, B (Postdoc): Yeah that 's fine .
+Turn 880, D (PhD): You know .
+Turn 881, B (Postdoc): They might say " Other " for Region because they don't know what category to use
+Turn 882, D (PhD): Actually {disfmarker}
+Turn 883, B (Postdoc): but they might have something {disfmarker}
+Turn 884, D (PhD): Right .
+Turn 885, B (Postdoc): because it is easier to have it open ended .
+Turn 886, D (PhD): It just {disfmarker} And we {disfmarker} we might learn from what they say , as to which one 's a better {comment} way to ask it .
+Turn 887, C (Professor): W This is just a small thing
+Turn 888, D (PhD): But {disfmarker} I {disfmarker} Cuz I really don't know . 
+Turn 889, C (Professor): but um It says " Variety " and then it gives things that e have American as one of the choices . But then it says " Region " , but Region actually just applies to uh , US ,
+Turn 890, A (Grad): Right .
+Turn 891, C (Professor): right ?
+Turn 892, A (Grad): I mean that 's why I put the " Other " in .
+Turn 893, B (Postdoc): Well , we thought about it .
+Turn 894, C (Professor): Ah , OK .
+Turn 895, B (Postdoc): Yeah , OK . We just {disfmarker} We sort of thought , " yes , {disfmarker} " y y I mean {disfmarker}
+Turn 896, C (Professor): S
+Turn 897, B (Postdoc): At the last meeting , my recollection was that {pause} we felt people would have uh less {disfmarker} that {disfmarker} that there are so many types and varieties of {pause} these other languages and we are not going to have that many subjects from these different language groups
+Turn 898, A (Grad): Yep .
+Turn 899, B (Postdoc): and that it 's a huge waste of {disfmarker} of space .
+Turn 900, C (Professor): OK .
+Turn 901, A (Grad): So I mean , I {disfmarker} I mean the way I had it last time {pause} was Region was blank ,
+Turn 902, B (Postdoc): That 's what I thought .
+Turn 903, A (Grad): it just said Region colon .
+Turn 904, B (Postdoc): Yeah .
+Turn 905, A (Grad): And {disfmarker} and I think that that 's the best way to do it ,
+Turn 906, B (Postdoc): Yeah .
+Turn 907, A (Grad): because {disfmarker} because of the problems we 're talking about but what we said last week , was no , put in a list , so I put in a list . So should we go back to {disfmarker}
+Turn 908, D (PhD): Maybe we can make the list a little smaller .
+Turn 909, A (Grad): Well , certainly dropping " Northern " I think is right , because none of us know what that is .
+Turn 910, D (PhD): Cuz , I mean {disfmarker} And keeping " Other " , and then {pause} maybe this North Midland , we call it " North Midwest " . South {pause} Midwest , or just {disfmarker}
+Turn 911, C (Professor): Yes I {disfmarker} I {disfmarker} I think so . Yeah .
+Turn 912, D (PhD): South Midwest . Does that make sense ?
+Turn 913, E (PhD): South Midwest ?
+Turn 914, D (PhD): That would help me {disfmarker}
+Turn 915, C (Professor): U unless you 're from Midland , Kansas .
+Turn 916, D (PhD): Yeah . Cuz {disfmarker} Midland {disfmarker}
+Turn 917, C (Professor): But . Yeah .
+Turn 918, D (PhD): I don't know where Midland is
+Turn 919, C (Professor): There 's a {disfmarker} Or Midland {disfmarker} Midland {disfmarker}
+Turn 920, A (Grad): Is " Midwest " one word ?
+Turn 921, C (Professor): Is it Midland {disfmarker} Midland {disfmarker} Midland , Texas or Midland , Kansas ? I forget .
+Turn 922, D (PhD): Y yeah , one w
+Turn 923, C (Professor): But there 's a town . in {disfmarker} in there .
+Turn 924, D (PhD): Oh .
+Turn 925, C (Professor): I forget what it is @ @ .
+Turn 926, B (Postdoc): I don't think that 's what they mean .
+Turn 927, D (PhD): But ,
+Turn 928, C (Professor): Yeah .
+Turn 929, D (PhD): yeah . So . Kansas would be {pause} South Midland . Right ?
+Turn 930, C (Professor): Y yeah .
+Turn 931, D (PhD): And {disfmarker} and wouldn't {disfmarker} Yeah .
+Turn 932, C (Professor): And Colorado , right across the border , would be {vocalsound} North Midland .
+Turn 933, D (PhD): So , th I 'm from Kansas , actually .
+Turn 934, E (PhD): Southern Midland . 
+Turn 935, D (PhD): Yeah .
+Turn 936, A (Grad): And uh {disfmarker}
+Turn 937, D (PhD): Colora Oh , right . And then , the {disfmarker} the {disfmarker} dropping North , so it would be Western . It 's just one big shebang , where , of course , you have huge variation in dialects ,
+Turn 938, A (Grad): But that 's true of New England too .
+Turn 939, C (Professor): But you do in the others , too . So .
+Turn 940, D (PhD): but {disfmarker} {comment} but so do you {disfmarker}
+Turn 941, A (Grad): So . I mean only one {disfmarker}
+Turn 942, D (PhD): Yeah .
+Turn 943, C (Professor): Yeah .
+Turn 944, D (PhD): Yeah . Yeah .
+Turn 945, A (Grad): Well , I shouldn't say that . I have no clue . I was going to say the only one that doesn't have a huge variety is New York City . But I have no idea whether it does or not .
+Turn 946, B (Postdoc): It does seem {disfmarker} I mean . I {disfmarker} I would think that these categories would be more {disfmarker} w would be easier for an an analyst to put in rather than the subject himself .
+Turn 947, C (Professor): U
+Turn 948, A (Grad): I think that {disfmarker} that was what happened with TIMIT , was that it was an analyst .
+Turn 949, B (Postdoc): OK .
+Turn 950, C (Professor): Wait a minute . Where does {disfmarker} Where does {disfmarker} {pause} d w Where {disfmarker} Where 's {disfmarker} where does uh {vocalsound} New {disfmarker} New York west of {disfmarker} west of uh New York City and {pause} Pennsylvania {pause} uh and uh
+Turn 951, D (PhD): Yeah , I don't know how it came from .
+Turn 952, B (Postdoc): OK .
+Turn 953, A (Grad): New England
+Turn 954, D (PhD): So . That 's New England I think .
+Turn 955, C (Professor): N No , it 's not .
+Turn 956, D (PhD): Yeah .
+Turn 957, A (Grad): Oh , no .
+Turn 958, B (Postdoc): I sort of thought they were part of the {disfmarker} one of the Midlands .
+Turn 959, C (Professor): Oh no . No , no . {pause} No . Pennsylvania is not {disfmarker}
+Turn 960, A (Grad): " Other " , it goes under " Other " , definitely under " Other " .
+Turn 961, D (PhD): Well , you know , Pennsylvania has a pretty strong dialect and it 's totally different than {disfmarker}
+Turn 962, C (Professor): Pennsylvania {disfmarker} Yeah . Pennsylvania is not New England . and uh New Jersey is not New England and Maryland is not New England and none of those are the South .
+Turn 963, A (Grad): OK . So . Another suggestion . Rather than have circle fill in forms , say " Region , open paren , E G Southern comma Western comma close paren colon . "
+Turn 964, B (Postdoc): Yeah . OK .
+Turn 965, D (PhD): OK !
+Turn 966, B (Postdoc): Fine by me , fine by me .
+Turn 967, C (Professor): That 's good . I like that .
+Turn 968, D (PhD): Sure !
+Turn 969, E (PhD): Yeah .
+Turn 970, B (Postdoc): Yeah .
+Turn 971, C (Professor): We 're all {pause} sufficiently {pause} tired of this that we 're agreeing with you .
+Turn 972, D (PhD): Let 's just {disfmarker} And we 'll see what we get .
+Turn 973, E (PhD): Yeah .
+Turn 974, B (Postdoc): Be easier on the subjects . I think that 's fine . No . I think {disfmarker}
+Turn 975, C (Professor): So .
+Turn 976, B (Postdoc): I like that . I like that .
+Turn 977, C (Professor): You like it ?
+Turn 978, B (Postdoc): Yeah , I do .
+Turn 979, C (Professor): OK .
+Turn 980, A (Grad): Actually , maybe we do one non - English one as well .
+Turn 981, C (Professor): Good .
+Turn 982, A (Grad): Southern , Cockney ?
+Turn 983, D (PhD): Yeah , and {disfmarker}
+Turn 984, E (PhD): Yeah .
+Turn 985, A (Grad): Is that a {pause} real accent ?
+Turn 986, B (Postdoc): Sure , yeah !
+Turn 987, A (Grad): How do you spell it ?
+Turn 988, E (PhD): Yeah .
+Turn 989, B (Postdoc): I think that 's fine .
+Turn 990, C (Professor): Cockney ?
+Turn 991, A (Grad): N E
+Turn 992, C (Professor): CO {disfmarker} Yeah .
+Turn 993, D (PhD): You could say Liverpool .
+Turn 994, C (Professor): Liverpuddlian .
+Turn 995, B (Postdoc): Yeah . Alright .
+Turn 996, D (PhD): Actually , Liverpool doesn't l Yeah . It 's {disfmarker} {vocalsound} I 'm s I ha
+Turn 997, B (Postdoc): Well . Well . I mean , pure {disfmarker}
+Turn 998, A (Grad): OK , we 'll do it that way . Actually , I like that a lot . Because that get 's at both of the things we were trying to do ,
+Turn 999, C (Professor): OK .
+Turn 1000, A (Grad): the granularity , and the person can just self - assess and we don't have to argue about what these regions are .
+Turn 1001, B (Postdoc): That 's right . And it 's easy on the subjects .
+Turn 1002, C (Professor): OK .
+Turn 1003, E (PhD): Yeah .
+Turn 1004, A (Grad): Yep .
+Turn 1005, B (Postdoc): Now I have one suggestion on the next section .
+Turn 1006, E (PhD): Mm - hmm .
+Turn 1007, A (Grad): Mm - hmm .
+Turn 1008, B (Postdoc): So you have native language , you have region , and then you have time spent in English speaking country . Now , I wonder if it might be useful to have another open field saying " which one parenthesis S {comment} paren closed parenthesis " . Cuz if they spent {pause} time in {disfmarker} in Britain and America {disfmarker}
+Turn 1009, C (Professor): Yes .
+Turn 1010, B (Postdoc): It doesn't have to be ex all {disfmarker} at all exact , just in the same open field format that you have .
+Turn 1011, A (Grad): Yep , just which one . I think that 's fine .
+Turn 1012, B (Postdoc): Mm - hmm . with a {disfmarker} with an S
+Turn 1013, E (PhD): Mm - hmm .
+Turn 1014, B (Postdoc): " which one sss , {comment} optional S .
+Turn 1015, C (Professor): OK .
+Turn 1016, E (PhD): 
+Turn 1017, B (Postdoc): Yeah .
+Turn 1018, C (Professor): We uh {disfmarker} We done ?
+Turn 1019, A (Grad): Yep .
+Turn 1020, B (Postdoc): Yeah , that 's good .
+Turn 1021, C (Professor): OK . um s e Any {disfmarker} any other uh open mike topics or should we go {pause} right to the digits ?
+Turn 1022, A (Grad): Um , did you guys get my email on the multitrans ? That {disfmarker} OK .
+Turn 1023, B (Postdoc): Isn't that wonderful ! Yeah .
+Turn 1024, A (Grad): Yeah . So . So . I {disfmarker} I have a version also which actually displays all the channels .
+Turn 1025, B (Postdoc): Excellent ! Thank you !
+Turn 1026, D (PhD): It 's really great .
+Turn 1027, A (Grad): But it 's hideously slow .
+Turn 1028, B (Postdoc): So you {disfmarker} this is n Dan 's patches , Dan Ellis 's patches .
+Turn 1029, A (Grad): The {disfmarker} what {disfmarker} the ones I applied , that you can actually do are Dan 's , because it doesn't slow it down .
+Turn 1030, D (PhD): M
+Turn 1031, B (Postdoc): Fantastic !
+Turn 1032, A (Grad): Just uses a lot of memory .
+Turn 1033, D (PhD): So when you say " slow " , does that mean to {disfmarker}
+Turn 1034, A (Grad): No , the {disfmarker} the one that 's installed is fine . It 's not slow at all . I wrote another version . Which , instead of having the one pane with the one view , It has multiple panes {pause} with the views .
+Turn 1035, E (PhD): Yeah .
+Turn 1036, D (PhD): Mm - hmm .
+Turn 1037, A (Grad): But the problem with it is the drawing of those waveforms is so slow that every time you do anything it just crawls .
+Turn 1038, B (Postdoc): Mm - hmm .
+Turn 1039, A (Grad): It 's really bad .
+Turn 1040, D (PhD): It 's {disfmarker} So , it {disfmarker} it 's the redrawing of the w
+Turn 1041, B (Postdoc): That 's a consideration .
+Turn 1042, A (Grad): Mm - hmm .
+Turn 1043, D (PhD): oh uh - huh , w as you move .
+Turn 1044, A (Grad): As you play , as you move , as you scroll . Just about anything , and it {disfmarker} it was so slow it was not usable . So that 's why I didn't install it and didn't pursue it .
+Turn 1045, B (Postdoc): And this 'll be a {disfmarker} hav having the multiwave will be a big help cuz {disfmarker} in terms of like disentangling overlaps and things , that 'll be a big help .
+Turn 1046, D (PhD): Oh yeah .
+Turn 1047, A (Grad): So . I think that the one Dan has is usable enough .
+Turn 1048, D (PhD): Yeah .
+Turn 1049, A (Grad): It doesn't display the others . It displays just the mixed signal .
+Turn 1050, B (Postdoc): Mm - hmm .
+Turn 1051, A (Grad): But you can listen to any of them .
+Turn 1052, B (Postdoc): That 's excellent . He also has version control which is another nice
+Turn 1053, E (PhD): Yeah .
+Turn 1054, B (Postdoc): e so you {disfmarker} e the patches that you {disfmarker}
+Turn 1055, A (Grad): No , he suggested that , but he didn't {disfmarker} {pause} It 's not installed .
+Turn 1056, B (Postdoc): Oh , I thought it was in one of those patches .
+Turn 1057, A (Grad): No . No .
+Turn 1058, B (Postdoc): Oh OK . Well . Alright .
+Turn 1059, D (PhD): So is there any hope for actually displaying the wave form ?
+Turn 1060, A (Grad): Um , not if we 're going to use Tcl - TK At least not if we 're going to use Snack .
+Turn 1061, D (PhD): OK .
+Turn 1062, A (Grad): I mean you would have to do something ourselves .
+Turn 1063, B (Postdoc): Well , or use the one that crawls .
+Turn 1064, D (PhD): OK . Well , I 'm {disfmarker} I probably would be trying to use the {disfmarker} {comment} whatever 's there . And it 's useful to have the {disfmarker}
+Turn 1065, A (Grad): Why don't we {disfmarker} we see how Dan 's works and if it {disfmarker} If we really need the display {disfmarker}
+Turn 1066, D (PhD): Yeah . I mean . I wonder {disfmarker} I 'm just wondering if we can display things other than the wave form . So . Suppose we have a feature {disfmarker} a feature stream . And it 's just , you know , a {disfmarker} a uni - dimensional feature , varying in time .
+Turn 1067, E (PhD): Yeah .
+Turn 1068, D (PhD): And we want to plot that , instead of the whole wave form .
+Turn 1069, A (Grad): I mean .
+Turn 1070, D (PhD): That might be faster .
+Turn 1071, E (PhD): Yeah .
+Turn 1072, D (PhD): Right ?
+Turn 1073, A (Grad): We {disfmarker} we could do that but that would mean changing the code .
+Turn 1074, D (PhD): So .
+Turn 1075, E (PhD): Yeah .
+Turn 1076, A (Grad): I mean this isn't a program we wrote .
+Turn 1077, C (Professor): Yeah .
+Turn 1078, A (Grad): This is a program that we got from someone else , and we 've done patches on .
+Turn 1079, D (PhD): OK .
+Turn 1080, B (Postdoc): Mm - hmm .
+Turn 1081, D (PhD): OK . Well , I 'll talk to you about it and we can see
+Turn 1082, A (Grad): So .
+Turn 1083, C (Professor): Cou - i e I mean , y
+Turn 1084, E (PhD): Yeah .
+Turn 1085, A (Grad): Yeah .
+Turn 1086, D (PhD): but it 's definitely {pause} great to have the other one .
+Turn 1087, C (Professor): If there was some {disfmarker} Is there some way to {pause} have someone write patches in something faster and {disfmarker} and {disfmarker} link it in , or something ?
+Turn 1088, D (PhD): That 's {disfmarker}
+Turn 1089, A (Grad): Not easily .
+Turn 1090, C (Professor): Or is that {disfmarker}
+Turn 1091, A (Grad): I mean y yes we could do that . You could {disfmarker} you can write widgets in C . And try to do it that way but I just don't think {disfmarker} it {disfmarker}
+Turn 1092, C (Professor): Yeah .
+Turn 1093, A (Grad): Let 's try it with Dan 's and if that isn't enough , we can do it otherwise .
+Turn 1094, D (PhD): Right .
+Turn 1095, A (Grad): I think it is , cuz when I was playing with it , the mixed signal has it all in there . And so it 's really {disfmarker} It 's not too bad to find places in the {disfmarker} in the stream where things are happening .
+Turn 1096, D (PhD): OK .
+Turn 1097, A (Grad): So I {disfmarker} I don't think it 'll be bad .
+Turn 1098, B (Postdoc): And it 's also {disfmarker} also the case that {disfmarker} that uh this multi - wave thing {pause} is proposed to the {disfmarker}
+Turn 1099, E (PhD): Hmm ?
+Turn 1100, B (Postdoc): So . Dan proposed it to the Transcriber central people , and it 's likely that uh {disfmarker} So . And {disfmarker} and they responded favorably looks as though it will be incorporated in the future version .
+Turn 1101, D (PhD): Oh .
+Turn 1102, B (Postdoc): They said that the only reason they hadn't had the multi the parallel uh stream one before was simply that {pause} they hadn't had time to do it . And uh {pause} so it 's likely that this {disfmarker} this may be entered into the ch this central @ @ .
+Turn 1103, E (PhD): Yeah .
+Turn 1104, A (Grad): And if {disfmarker} if {disfmarker}
+Turn 1105, C (Professor): They may well have not had much demand for it .
+Turn 1106, B (Postdoc): Well that 's {disfmarker} that 's {disfmarker} that 's true , too .
+Turn 1107, C (Professor): Yeah .
+Turn 1108, B (Postdoc): This is a {disfmarker} {pause} a useful thing for us .
+Turn 1109, D (PhD): So . You mean they could {disfmarker} they could do it and it would be {pause} fast enough if they do it ?
+Turn 1110, E (PhD): Yeah .
+Turn 1111, A (Grad): Depends on how much work they did .
+Turn 1112, B (Postdoc): Oh . No . I just mean {disfmarker} I just mean that it 's {disfmarker} that {disfmarker} that his {disfmarker}
+Turn 1113, D (PhD): Or {disfmarker} ?
+Turn 1114, E (PhD): Oh .
+Turn 1115, B (Postdoc): So . {pause} This one that we now have does have the status of {pause} potentially being incorporated l likely being incorporated into the central code .
+Turn 1116, D (PhD): Mm - hmm . OK .
+Turn 1117, B (Postdoc): Now , tha Now , if we develop further then , y uh , I don't {disfmarker}
+Turn 1118, A (Grad): I think if {disfmarker} if {disfmarker} if one of us sat down and coded it , so that it could be displayed fast enough I 'm sure they would be quite willing to incorporate it .
+Turn 1119, B (Postdoc): I mean it 's {disfmarker} I think it 's a nice feature to have it {disfmarker} set that way . Mm - hmm .
+Turn 1120, A (Grad): But it 's not a trivial task .
+Turn 1121, B (Postdoc): Mm - hmm . Yeah .
+Turn 1122, D (PhD): OK .
+Turn 1123, B (Postdoc): I just like the idea of it being something that 's , you know , tied back into the original , so that other people can benefit from it .
+Turn 1124, A (Grad): Yeah .
+Turn 1125, B (Postdoc): Yeah . However . I also understand that you can have {pause} widgets that are very useful for their purpose and that you don't need to always go that w route . Yeah .
+Turn 1126, E (PhD): OK .
+Turn 1127, A (Grad): anyway , shall we do digits ?
+Turn 1128, B (Postdoc): Yeah .
+Turn 1129, C (Professor): Yeah . Let 's do digits , uh , and then we 'll turn off the mikes , and then I have one other thing to discuss .
+Turn 1130, B (Postdoc): OK .
+Turn 1131, A (Grad): OK .
+Turn 1132, D (PhD): I actually have to leave . So . Um . I mean {pause} I had to leave at three thirty ,
+Turn 1133, B (Postdoc): Uh - oh .
+Turn 1134, A (Grad): OK .
+Turn 1135, C (Professor): Oh .
+Turn 1136, D (PhD): so I can {disfmarker} {vocalsound} Well , I can wait {pause} for the digits but I can't stay for the discussion
+Turn 1137, A (Grad): Well , you want to go first ? Or .
+Turn 1138, D (PhD): I c {pause} I have to make a call .
+Turn 1139, C (Professor): OK .
+Turn 1140, D (PhD): So .
+Turn 1141, B (Postdoc): Well , should we {disfmarker} e should we switch off the g
+Turn 1142, C (Professor): Well , we 'll talk to you about it {disfmarker} {vocalsound} Uh
+Turn 1143, A (Grad): Do you wanna go do digits or do you wanna just skip digits ?
+Turn 1144, D (PhD): Um . No , I can do digits if {disfmarker} if {disfmarker} But I don't wanna butt in , or something .
+Turn 1145, A (Grad): Then {disfmarker} Alright . You go ahead .
+Turn 1146, D (PhD): But if there 's something on the rest of the {disfmarker} I 'm {disfmarker} I 'll be around just have to make call before quarter of . So .
+Turn 1147, E (PhD): Mm - hmm .
+Turn 1148, D (PhD): So I {disfmarker} Or we can talk about it .
+Turn 1149, B (Postdoc): Ke
+Turn 1150, A (Grad): Why don't you read the digits ?
+Turn 1151, C (Professor): Yeah , why don't you read the digits and then you can {pause} go .
+Turn 1152, D (PhD): OK . {vocalsound} Alright . Oh , this is the new one .
+Turn 1153, A (Grad): Yeah , don't {disfmarker} Don't read the old one .
+Turn 1154, C (Professor): Yeah .
+Turn 1155, D (PhD): Alright . The {disfmarker} And the time is . OK .
+Turn 1156, A (Grad): OK
+Turn 1157, B (Postdoc): Turn it off .
+Turn 1158, C (Professor): OK .
+Turn 1159, B (Postdoc): But wait till he {disfmarker} OK .
+Turn 1160, A (Grad): And

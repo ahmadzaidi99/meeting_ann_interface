@@ -1,0 +1,1473 @@
+Turn 0, D (Grad): And we already got the crash out of the way . It did crash , so I feel much better , earlier .
+Turn 1, F (Professor):  Yeah .
+Turn 2, E (Postdoc): Interesting . Hmm .
+Turn 3, F (Professor): Will you get the door , and {disfmarker} ? 
+Turn 4, D (Grad): OK , so um .
+Turn 5, F (Professor): OK . You collected an agenda , huh ?
+Turn 6, D (Grad): I did collect an agenda . So I 'm gonna go first . Mwa - ha - ha ! It shouldn't take too long .
+Turn 7, E (Postdoc): Yeah .
+Turn 8, D (Grad): Um , so we 're pretty much out of digits . We 've gone once through the set . Um , so the only thing I have to do
+Turn 9, F (Professor): No there 's only ten .
+Turn 10, D (Grad): Yeah , that 's right . so I {disfmarker} I just have to go through them
+Turn 11, F (Professor): Well , OK .
+Turn 12, D (Grad): and uh pick out the ones that have problems , and either correct them or have them re - read . So we probably have like four or five more forms to be read , to be once through the set . I 've also extracted out about an hour 's worth . We have about two hours worth . I extracted out about an hour 's worth which are the f digits with {disfmarker} for which whose speaker have speaker forms , have filled out speaker forms . Not everyone 's filled out a speaker form . So I extracted one for speakers who have speaker forms and for meetings in which the " key " file and the transcript files are parsable . Some of the early key files , it looks like , were done by hand , and so they 're not automatically parsable and I have to go back and fix those . So what that means is we have about an hour of transcribed digits that we can play with . Um , Liz {disfmarker}
+Turn 13, F (Professor): So you think two {disfmarker} you think two hours is the {disfmarker} is the total that we have ?
+Turn 14, D (Grad): Yep , yeah .
+Turn 15, F (Professor): And you think we th uh , I {disfmarker} I didn't quite catch all these different things that are not quite right , but you think we 'll be able to retrieve the other hour , reasonably ?
+Turn 16, D (Grad): Yes , absolutely .
+Turn 17, F (Professor): OK .
+Turn 18, D (Grad): So it 's just a question of a little hand - editing of some files and then waiting for more people to turn in their speaker forms . I have this web - based speaker form , and I sent mail to everyone who hadn't filled out a speaker form , and they 're slowly s trickling in .
+Turn 19, F (Professor): So the relevance of the speaker form here , s
+Turn 20, D (Grad): It 's for labeling the extracted audio files .
+Turn 21, F (Professor): Oh , OK .
+Turn 22, D (Grad): By speaker ID and microphone type .
+Turn 23, F (Professor): Wasn't like whether they were giving us permission to use their digits or something .
+Turn 24, D (Grad): No , I spoke with Jane about that and we sort of decided that it 's probably not an issue that {disfmarker} We edit out any of the errors anyway . Right ? So the there are no errors in the digits ,
+Turn 25, F (Professor): Yeah .
+Turn 26, D (Grad): you 'll always read the string correctly . So I can't imagine why anyone would care . So the other topic with digits is uh , Liz would like to elicit different prosodics , and so we tried last week with them written out in English . And it just didn't work at all because no one grouped them together . So it just sounded like many many more lines instead of anything else . So in conversations with Liz and uh Jane we decided that if you wrote them out as numbers instead of words it would elicit more phone number , social security number - like readings . The problem with that is it becomes numbers instead of digits . When I look at this , that first line is " sixty one , sixty two , eighteen , eighty six , ten . " Um , and so the question is does anyone care ? Um , I 've already spoken with Liz and she feels that , correct me if I 'm wrong , that for her , connected numbers is fine ,
+Turn 27, E (Postdoc): Mm - hmm .
+Turn 28, D (Grad): as opposed to connected digits . Um , I think two hours is probably fine for a test set , but it may be a little short if we actually wanna do training and adaptation and all that other stuff .
+Turn 29, F (Professor): Yeah Um , do um you want different prosodics , so if you always had the same groupings you wouldn't like that ? Is that correct ?
+Turn 30, G (PhD): Well , we actually figured out a way to {disfmarker}
+Turn 31, D (Grad): Yeah , the {disfmarker} the {disfmarker}
+Turn 32, G (PhD): the {disfmarker} the groupings are randomly generated .
+Turn 33, F (Professor): No but , I was asking if that was something you really cared about because if it wasn't , it seems to me if you made it really specifically telephone groupings that maybe people wouldn't , uh , go and do numbers so much . You know if it if it 's {disfmarker}
+Turn 34, A (PhD): Uh {disfmarker}
+Turn 35, G (PhD): I think they may still do it , um ,
+Turn 36, F (Professor): Maybe some , but I probably not so much .
+Turn 37, B (PhD): What about putting a hyphen between the numbers in the group ?
+Turn 38, G (PhD): And {disfmarker}
+Turn 39, F (Professor): Right ? So if you {disfmarker} if {disfmarker} if you have uh
+Turn 40, D (Grad): Six dash one , you mean ?
+Turn 41, F (Professor): if you go six six six uh dash uh two nine three one .
+Turn 42, G (PhD): I {disfmarker} well OK {disfmarker} I {disfmarker} it might help , I would like to g get away from having only one specific grouping .
+Turn 43, F (Professor): That 's what I was asking , yeah .
+Turn 44, G (PhD): Um , so if that 's your question ,
+Turn 45, F (Professor): Yeah .
+Turn 46, G (PhD): but I mean it seems to me that , at least for us , we can learn to read them as digits
+Turn 47, E (Postdoc): Yeah .
+Turn 48, G (PhD): if that 's what people want . I {disfmarker} I 'm
+Turn 49, E (Postdoc): Yeah .
+Turn 50, G (PhD): don't think that 'd be that hard to read them as single digits .
+Turn 51, E (Postdoc): I agree .
+Turn 52, G (PhD): Um , and it seems like that might be better for you guys since then you 'll have just more digit data ,
+Turn 53, D (Grad): Right .
+Turn 54, G (PhD): and that 's always a good thing .
+Turn 55, D (Grad): Yep .
+Turn 56, G (PhD): It 's a little bit better for me too because the digits are easier to recognize . They 're better trained than the numbers .
+Turn 57, D (Grad): So we could just , uh , put in the instructions " read them as digits " .
+Turn 58, F (Professor): Right .
+Turn 59, G (PhD): Right . Right , read them as single digits , so sixty - one w is read as six one ,
+Turn 60, E (Postdoc): Mm - hmm .
+Turn 61, G (PhD): and if people make a mistake we {disfmarker}
+Turn 62, D (Grad): How about " O " versus " zero " ?
+Turn 63, F (Professor): I mean , the other thing is we could just bag it because it 's {disfmarker} it 's {disfmarker} it 's - I 'm not worrying about it I mean , because we do have digits training data that we have from uh from OGI . I 'm sorry , digits {disfmarker} numbers training that we have from OGI , we 've done lots and lots of studies with that . And um .
+Turn 64, G (PhD): But it 's nice to get it in this room with the acous
+Turn 65, F (Professor): Yeah .
+Turn 66, G (PhD): I mean {disfmarker} for {disfmarker} it 's {disfmarker}
+Turn 67, F (Professor): No , no , I guess what I 'm saying is that
+Turn 68, D (Grad): Just let them read it how they read it .
+Turn 69, F (Professor): to some extent maybe we could just read them {disfmarker} have them read how {disfmarker} how they read it and it just means that we have to expand our {disfmarker} our vocabulary out to stuff that we already have .
+Turn 70, G (PhD): Right . Well that 's fine with me as long as {disfmarker} It 's just that I didn't want to cause the people who would have been collecting digits the other way to not have the digits .
+Turn 71, F (Professor): Yeah . We can go back to the other thing later .
+Turn 72, G (PhD): So {disfmarker}
+Turn 73, F (Professor): I mean we s we {disfmarker} we 've {disfmarker} We can do this for awhile
+Turn 74, G (PhD): OK .
+Turn 75, F (Professor): and then go back to digits for awhile , or um . Do yo I mean , do you want {disfmarker} do you want this {disfmarker} Do you need training data or adaptation data out of this ?
+Turn 76, G (PhD): OK .
+Turn 77, F (Professor): How much of this do you need ? with uh the {disfmarker}
+Turn 78, G (PhD): It 's actually unclear right now . I just thought well we 're {disfmarker} if we 're collec collecting digits , and Adam had said we were running out of the TI forms , I thought it 'd be nice to have them in groups , and probably , all else being equal , it 'd be better for me to just have single digits
+Turn 79, F (Professor): OK .
+Turn 80, G (PhD): since it 's , you know , a recognizer 's gonna do better on those anyway , um , and it 's more predictable . So we can know from the transcript what the person said and the transcriber , in general .
+Turn 81, F (Professor): OK , well if you pre
+Turn 82, G (PhD): But if they make mistakes , it 's no big deal if the people say a hundred instead of " one OO " . and also w maybe we can just let them choose " zero " versus " O " as they {disfmarker} as they like because even the same person c sometimes says " O " and sometimes says " zero " in different context ,
+Turn 83, F (Professor): Yeah .
+Turn 84, G (PhD): and that 's sort of interesting . So I don't have a Specific need cuz if I did I 'd probably try to collect it , you know , without bothering this group , but If we can try it {disfmarker}
+Turn 85, D (Grad): OK so {disfmarker} so I can just add to the instructions to read it as digits not as connected numbers .
+Turn 86, E (Postdoc): Mm - hmm .
+Turn 87, G (PhD): Right , and you can give an example like , you know , " six {disfmarker} sixty - one would be read as six one " .
+Turn 88, D (Grad): Right .
+Turn 89, E (Postdoc): Mm - hmm . And i actually it 's no more artificial than what we 've been doing with words .
+Turn 90, G (PhD): And I think people will get it .
+Turn 91, E (Postdoc): I 'm sure people can adapt to this , read it single .
+Turn 92, G (PhD): Right , right .
+Turn 93, E (Postdoc): The spaces already bias it toward being separated .
+Turn 94, G (PhD): It 's just easier to read .
+Turn 95, E (Postdoc): And I know I 'm gonna find this easier than words .
+Turn 96, G (PhD): Right .
+Turn 97, D (Grad): Oh yeah , absolutely , cognitively it 's much easier .
+Turn 98, G (PhD): OK I also had a hard {disfmarker} hard time with the words ,
+Turn 99, F (Professor): Yeah .
+Turn 100, G (PhD): but then we went back and forth on that . OK , so let 's give that a try
+Turn 101, D (Grad): OK . And is the spacing alright or do you think there should be more space between digits and groups ?
+Turn 102, F (Professor): OK .
+Turn 103, G (PhD): and {disfmarker}
+Turn 104, D (Grad): Or is that alright ?
+Turn 105, G (PhD): I mean what do other people think cuz you guys are reading {comment} them .
+Turn 106, E (Postdoc): I think that i it 's fine .
+Turn 107, D (Grad): OK .
+Turn 108, E (Postdoc): I it {disfmarker} it {disfmarker} to me it looks like you 've got the func the idea of grouping and you have the grou the idea of separation
+Turn 109, G (PhD): OK .
+Turn 110, E (Postdoc): and , you know , it 's just a matter of u i the instructions , that 's all .
+Turn 111, G (PhD): Great . OK .
+Turn 112, D (Grad): And I think there are about ten different gouping patterns
+Turn 113, F (Professor): Let 's try it .
+Turn 114, G (PhD): Well let 's give it a try .
+Turn 115, D (Grad): isn't that right , Liz ? That we did .
+Turn 116, G (PhD): Righ - right , and you just {disfmarker} they 're randomly {nonvocalsound} generated and randomly assigned to digits .
+Turn 117, E (Postdoc): I did {disfmarker} Mm - hmm .
+Turn 118, F (Professor): So we have {disfmarker}
+Turn 119, E (Postdoc): Go ahead .
+Turn 120, F (Professor): Sorry , I {disfmarker} I was just gonna say , so we have in the vicinity of forty hours of {disfmarker} of recordings now . And you 're saying two hours , uh , is digits , so that 's roughly the ratio then ,
+Turn 121, D (Grad): Yep .
+Turn 122, F (Professor): something like twenty {disfmarker} twenty to one . Which I guess makes {disfmarker} makes sense . So if we did another forty hours of recordings then we could get another couple hours of this .
+Turn 123, D (Grad): Right .
+Turn 124, F (Professor): Um , yeah like you say , I think a couple hours for a {disfmarker} for a {disfmarker} for a test {disfmarker} test set 's OK . It 'd be nice to get , you know , more later because we 'll {disfmarker} we might use {disfmarker} use this up , uh , in some sense ,
+Turn 125, E (Postdoc): Mm - hmm .
+Turn 126, D (Grad): Right .
+Turn 127, F (Professor): but {disfmarker} but uh {disfmarker}
+Turn 128, E (Postdoc): Yeah , I also would like to argue for that cuz it {disfmarker} it seems to me that , um , there 's a real strength in having the same test replicated in {disfmarker} a whole bunch of times and adding to that basic test bank .
+Turn 129, D (Grad): Right .
+Turn 130, E (Postdoc): Hmm ? Cuz then you have , you know , more and more , u chances to get away from random errors . And I think , um , the other thing too is that right now we have sort of a stratified sample with reference to dialect groups , and it might be {disfmarker} there might be an argument to be made for having uh f for replicating all of the digits that we 've done , which were done by non - native speakers so that we have a core that totally replicates the original data set , which is totally American speakers , and then we have these stratified additional language groups overlapping certain aspects of the database .
+Turn 131, D (Grad): Right . I think that uh trying to duplicate , spending too much effort trying to duplicate the existing TI - digits probably isn't too worthwhile because the recording situation is so different .
+Turn 132, F (Professor): Yeah .
+Turn 133, D (Grad): It 's gonna be very hard to be comparable .
+Turn 134, E (Postdoc): Except that if you have the stimuli {pause} comparable , then it says something about the {disfmarker} the contribution of setting
+Turn 135, F (Professor): No it 's {disfmarker} it 's not the same .
+Turn 136, E (Postdoc): and {disfmarker}
+Turn 137, F (Professor): A little bit , but the other differences are so major .
+Turn 138, D (Grad): Yeah I mean read versus not .
+Turn 139, E (Postdoc): OK .
+Turn 140, F (Professor): They 're such major sources of variance that it 's {disfmarker} it 's {disfmarker} it 's uh {disfmarker}
+Turn 141, E (Postdoc): What 's an example of a {disfmarker} of m some of the other differences ? Any other a difference ?
+Turn 142, F (Professor): Well i i individual human glottis {vocalsound} is going to be different for each one ,
+Turn 143, E (Postdoc): OK .
+Turn 144, F (Professor): you know , it 's just {disfmarker} There 's so many things .
+Turn 145, D (Grad): Well , and not just that ,
+Turn 146, E (Postdoc): OK .
+Turn 147, F (Professor): it 's {disfmarker} it {disfmarker} and {disfmarker} and enunciation .
+Turn 148, D (Grad): I mean the uh the corpus itself . I mean , we 're collecting it in a read digit in a particular list , and I 'm sure that they 're doing more specific stuff . I mean if I remember correctly it was like postman reading zipcodes and things like that .
+Turn 149, F (Professor): TI - digits was ?
+Turn 150, D (Grad): I thought so .
+Turn 151, F (Professor): I thought {disfmarker} I thought it was read .
+Turn 152, D (Grad): Was it read ?
+Turn 153, F (Professor): Yeah , I think the reading zipcode stuff you 're thinking of would be OGI .
+Turn 154, D (Grad): Oh , I may well be .
+Turn 155, F (Professor): Yeah , no TI - digits was read in th in read in the studio I believe .
+Turn 156, D (Grad): I haven't ever listened to TI - digits . So I don't really know how it compares .
+Turn 157, F (Professor): Yeah . Yeah .
+Turn 158, D (Grad): But {disfmarker} but regardless it 's gonna {disfmarker} it 's hard to compare cross - corpus .
+Turn 159, F (Professor): But it {disfmarker} but {disfmarker} It - it 's different people {pause} is the {disfmarker} is the core thing .
+Turn 160, D (Grad): So .
+Turn 161, E (Postdoc): OK , fine .
+Turn 162, F (Professor): And they 're different circumstances with different recording environment and so forth , so it 's {disfmarker} it 's {disfmarker} it 's really pretty different . But I think the idea of using a set thing was just to give you some sort of framework , so that even though you couldn't do exact comparisons , it wouldn't be s valid scientifically at least it 'd give you some kind of uh frame of reference . Uh , you know it 's not {disfmarker}
+Turn 163, B (PhD): Hey Liz , What {disfmarker} what do the groupings represent ?
+Turn 164, E (Postdoc): OK .
+Turn 165, B (PhD): You said there 's like ten different groupings ?
+Turn 166, G (PhD): Right , just groupings in terms of number of groups in a line , and number of digits in a group , and the pattern of groupings .
+Turn 167, B (PhD): Mm - hmm . Are the patterns {disfmarker} like are they based on anything or
+Turn 168, G (PhD): Um , I {disfmarker} I just roughly looked at what kinds of digit strings are out there , and they 're usually grouped into either two , three , or four , four digits at a time .
+Turn 169, B (PhD): Oh .
+Turn 170, G (PhD): And they can have , I mean , actually , things are getting longer and longer . In the old days you probably only had three sequences , and telephone numbers were less , and so forth . So , there 's between , um {disfmarker} Well if you look at it , there are between like three and five groups , and each one has between two and four groupings and {disfmarker} I purposely didn't want them to look like they were in any kind of pattern .
+Turn 171, B (PhD): Mmm .
+Turn 172, G (PhD): So
+Turn 173, D (Grad): And which group appears is picked randomly , and what the numbers are are picked randomly .
+Turn 174, B (PhD): Mm - hmm .
+Turn 175, D (Grad): So unlike the previous one , which I d simply replicated TI - digits , this is generated randomly .
+Turn 176, G (PhD): Right .
+Turn 177, A (PhD): Oh OK .
+Turn 178, B (PhD): Mmm , oh , OK .
+Turn 179, G (PhD): But I think it 'd be great i to be able to compare digits , whether it 's these digits or TI - digits , to speakers , um , and compare that to their spontaneous speech , and then we do need you know a fair amount of {disfmarker} of digit data because you might be wearing a different microphone
+Turn 180, D (Grad): Mm - hmm .
+Turn 181, G (PhD): and , I mean {disfmarker} so it 's {disfmarker} it 's nice to have the digits you know , replicated many times . Especially for speakers that don't talk a lot .
+Turn 182, D (Grad): Yeah .
+Turn 183, G (PhD): So {vocalsound} um , for adaptation . No , I 'm serious ,
+Turn 184, A (PhD): Yeah .
+Turn 185, D (Grad): Yeah all we have for some people is digits .
+Turn 186, F (Professor): Yeah .
+Turn 187, G (PhD): so we have a problem with acoustic adaptation , and we 're not using the digit data now , but you know {disfmarker}
+Turn 188, D (Grad): Oh , you 're not .
+Turn 189, G (PhD): Not for adaptation , nope . v W we 're not {disfmarker} we were running adaptation only on the data that we ran recognition on and I 'd {disfmarker} As soon as someone started to read transcript number , that 's read speech and I thought " well , we 're gonna do better on that ,
+Turn 190, D (Grad): Oh I see .
+Turn 191, G (PhD): that 's not fair to use " .
+Turn 192, D (Grad): Oh yeah that 's true , absolutely .
+Turn 193, A (PhD): OK .
+Turn 194, G (PhD): But , it might be fair to use the data for adaptation , so . So those speakers who are very quiet , {comment} shy {disfmarker}
+Turn 195, D (Grad): That would be interesting to see whether that helps .
+Turn 196, G (PhD): r Right {disfmarker}
+Turn 197, B (PhD): Like Adam ?
+Turn 198, D (Grad): Do you think that would help adapting on {disfmarker} Yeah . Yeah , I have a real problem with that .
+Turn 199, F (Professor): Yeah .
+Turn 200, G (PhD): Well , it sh I mean it 's the same micropho see the nice thing is we have that in the {disfmarker} in the same meeting ,
+Turn 201, D (Grad): Right . Same {disfmarker} same acoustics ,
+Turn 202, F (Professor): Yeah .
+Turn 203, G (PhD): and so you don't get {disfmarker}
+Turn 204, D (Grad): same microphone ,
+Turn 205, A (PhD): Yeah .
+Turn 206, D (Grad): same channel .
+Turn 207, G (PhD): Right , and so I still like the idea of having some kind of {pause} digit data .
+Turn 208, D (Grad): OK . Good .
+Turn 209, F (Professor): Yeah I mean , for the {disfmarker} for the um acoustic research , for the signal - processing , farfield stuff , I see it as {disfmarker} as {disfmarker} as the place that we start . But , th I mean , it 'd be nice to have twenty hours of digits data , but {disfmarker} but uh the truth is I 'm hoping that we {disfmarker} we through the {disfmarker} the stuff that {disfmarker} that you guys have been doing as you continue that , we get , uh , the best we can do on the spontaneous stuff uh , uh nearfield , and then um , we do a lot of the testing of the algorithms on the digits for the farfield , and at some point when we feel it 's mature and we understand what 's going on with it then we {disfmarker} we have to move on to the spontaneous data with the farfield . So .
+Turn 210, E (Postdoc): Great .
+Turn 211, G (PhD): The only thing that we don't have , I know this sounds weird , and maybe it 's completely stupid , but we don't have any overlapping digits .
+Turn 212, D (Grad): Yeah , we talked about that a couple times .
+Turn 213, G (PhD): An - yea I know it 's weird , but um {disfmarker}
+Turn 214, A (PhD): Overlapping digits !
+Turn 215, D (Grad): The {disfmarker} the problem I see with trying to do overlapping digits is the cognitive load .
+Turn 216, G (PhD): Alright everybody 's laughing . OK .
+Turn 217, C (Grad): Dueling digits .
+Turn 218, D (Grad): No it 's {disfmarker} it 's not stupid , it 's just {disfmarker} I mean , try to do it .
+Turn 219, G (PhD): I 'm just talkin for the stuff that like Dan Ellis is gonna try ,
+Turn 220, D (Grad): I mean , here , let 's try it .
+Turn 221, G (PhD): you know , cross - talk cancellation .
+Turn 222, D (Grad): You read the last line , I 'll read the first line .
+Turn 223, F (Professor): Let 's try it .
+Turn 224, G (PhD): OK .
+Turn 225, A (PhD): Oh !
+Turn 226, G (PhD): Wait {disfmarker} oh it {disfmarker} these are all the same forms .
+Turn 227, F (Professor): Sixty - one .
+Turn 228, G (PhD): OK {comment} So but {disfmarker}
+Turn 229, D (Grad): So {disfmarker} so you read the last line , I 'll read the first line .
+Turn 230, F (Professor): No , I 'll p
+Turn 231, G (PhD): So you plu you plug your ears .
+Turn 232, D (Grad): Oh I guess if you plug you 're ears you could do it , but then you don't get the {disfmarker} the same effects .
+Turn 233, A (PhD): Yeah .
+Turn 234, G (PhD): Well , what I mean is actually no not the overlaps that are well - governed linguistically , but the actual fact that there is speech coming from two people
+Turn 235, D (Grad): Yeah .
+Turn 236, G (PhD): and the beam - forming stuf all the acoustic stuff that like Dan Ellis and {disfmarker} and company want to do .
+Turn 237, D (Grad): Oh I see .
+Turn 238, G (PhD): Digits are nice and well behaved , I mean
+Turn 239, D (Grad): I guess we could try .
+Turn 240, G (PhD): Anyway , it 's just a thought .
+Turn 241, D (Grad): We could try doing some .
+Turn 242, G (PhD): It {disfmarker} it would go faster .
+Turn 243, B (PhD): Parallel .
+Turn 244, G (PhD): It would take one around {comment} amount of ti
+Turn 245, B (PhD): It 's the P - make of digit reading .
+Turn 246, D (Grad): Well {disfmarker} Well OK . Well let 's try it .
+Turn 247, G (PhD): That 's right . I {disfmarker} I mea I 'm {disfmarker} I was sort of serious , but I really , I mean , I 'm {disfmarker} I don't feel strongly enough that it 's a good idea ,
+Turn 248, F (Professor): See , y
+Turn 249, D (Grad): You do the last line , I 'll do the first line .
+Turn 250, G (PhD): so .
+Turn 251, F (Professor): OK .
+Turn 252, D (Grad): O . {comment} That 's not bad .
+Turn 253, F (Professor): No , I can do it .
+Turn 254, B (PhD): I couldn't understand a single thing you guys were saying .
+Turn 255, G (PhD): A and that prosody was great , by the way .
+Turn 256, E (Postdoc): I think it was numbers , but I 'm not sure .
+Turn 257, G (PhD): It {disfmarker} it sort of sounded like a duet , or something .
+Turn 258, A (PhD): Yeah .
+Turn 259, B (PhD): Performance art .
+Turn 260, F (Professor): Alright , let 's try three at once you {disfmarker} you pick one in the middle .
+Turn 261, A (PhD): The Aurora theater .
+Turn 262, G (PhD): OK .
+Turn 263, F (Professor): Go .
+Turn 264, G (PhD): I 'm sorry . I 'm mean I think it 's doable ,
+Turn 265, D (Grad): The poor transcribers
+Turn 266, G (PhD): I 'm just {disfmarker}
+Turn 267, D (Grad): they 're gonna hate us .
+Turn 268, G (PhD): So , we {disfmarker} we could have a round like where you do two at a time , and then the next person picks up when the first guy 's done , or something .
+Turn 269, A (PhD): So pairwise .
+Turn 270, F (Professor): Oh like a round , yeah , like in a {disfmarker} a {disfmarker}
+Turn 271, G (PhD): Like a ,
+Turn 272, A (PhD): Yeah , just pairwise ,
+Turn 273, F (Professor): yeah .
+Turn 274, G (PhD): what do you call it ?
+Turn 275, A (PhD): or yeah .
+Turn 276, C (Grad): Round .
+Turn 277, D (Grad): A round .
+Turn 278, F (Professor): Row , row , row your boat .
+Turn 279, G (PhD): Li - a r like {disfmarker}
+Turn 280, D (Grad): Mm - hmm .
+Turn 281, F (Professor): Yeah .
+Turn 282, G (PhD): yeah , like that .
+Turn 283, F (Professor): OK .
+Turn 284, B (PhD): It 's gonna require some coordination .
+Turn 285, G (PhD): Then it would go like h twice as fast , or {pause} a third as fast .
+Turn 286, E (Postdoc): You have to have a similar pace .
+Turn 287, G (PhD): Anyway , it 's just a thought .
+Turn 288, F (Professor): Yeah .
+Turn 289, G (PhD): I 'm actually sort of serious if it would help people do that kind o but the people who wanna work on it we should talk to them .
+Turn 290, F (Professor): I don't think we 're gonna collect vast amounts of data that way ,
+Turn 291, G (PhD): So .
+Turn 292, D (Grad): Mmm .
+Turn 293, F (Professor): but I think having a little bit might at least be fun for somebody like Dan to play around with ,
+Turn 294, G (PhD): OK .
+Turn 295, D (Grad): I think maybe if we wanted to do that we would do it as a separate session ,
+Turn 296, F (Professor): yeah .
+Turn 297, G (PhD): Yeah .
+Turn 298, D (Grad): something like that rather than doing it during a real meeting and you know , do two people at a time then three people at a time and things like that . So .
+Turn 299, G (PhD): Can try it out .
+Turn 300, D (Grad): See {disfmarker} see what Dan thinks .
+Turn 301, G (PhD): If we have nothing {disfmarker} if we have no agenda we could do it some week .
+Turn 302, D (Grad): Yeah , right .
+Turn 303, F (Professor): Yeah , yeah . Spend the whole time reading digits with different qu quantities .
+Turn 304, G (PhD): OK .
+Turn 305, D (Grad): I thought this was gonna be fast .
+Turn 306, E (Postdoc): c c Can I can I have an another {disfmarker} another question w about this ?
+Turn 307, D (Grad): Oh well .
+Turn 308, E (Postdoc): So , um , there are these digits , which are detached digits , but there are other words that contain the same general phon phoneme sequences . Like " wonderful " has " one " in it and {disfmarker} and Victor Borge had a {disfmarker} had a piece on this where he inflated the digits . Well , I wonder if there 's , um , an if there would be a value in having digits that are in essence embedded in real words to compare in terms of like the articulation of " one " in " wonderful " versus " one " as a digit being read .
+Turn 309, F (Professor): That 's " two " bad . Yeah .
+Turn 310, G (PhD): I 'm all " four " it .
+Turn 311, E (Postdoc): There you go .
+Turn 312, D (Grad): Not after I " eight " though .
+Turn 313, F (Professor): Uh , they don't all work as well , do they ? Hmm . What does nine work in ?
+Turn 314, C (Grad): Nein !
+Turn 315, D (Grad): Uh .
+Turn 316, F (Professor): Uh ,
+Turn 317, C (Grad): You scream it .
+Turn 318, D (Grad): Nein ! You have to be German ,
+Turn 319, F (Professor): Oh . In German ,
+Turn 320, A (PhD): That 's German , yeah .
+Turn 321, B (PhD): It 's great for the Germans .
+Turn 322, F (Professor): yeah .
+Turn 323, D (Grad): yeah .
+Turn 324, G (PhD): Oh , oh !
+Turn 325, E (Postdoc): Nein .
+Turn 326, F (Professor): That 's right !
+Turn 327, A (PhD): Yeah .
+Turn 328, D (Grad): Oh !
+Turn 329, C (Grad): It only sounds w good when you scream it , though . So .
+Turn 330, F (Professor): I think everybody 's a little punchy here {vocalsound} today .
+Turn 331, E (Postdoc): Well , I mean , I just wanted to offer that as a possible task
+Turn 332, F (Professor): Yes .
+Turn 333, E (Postdoc): because , you know , if we were to each read his embedded numbers words in sent in sentences cuz it 's like an entire sketch he does and I wouldn't take the inflated version . So he talks about the woman being " two - derful " , and {disfmarker} and {disfmarker} a But , you know , if it were to be deflated , just the normal word , it would be like a little story that we could read .
+Turn 334, F (Professor): Mm - hmm .
+Turn 335, E (Postdoc): I don't know if it would be useful for comparison , but it 's embedded numbers .
+Turn 336, D (Grad): I think for something like that we 'd be better off doing like uh TIMIT .
+Turn 337, F (Professor): Well I don't know . Well I think the question is what the research is , so I mean , I presume that the reason that you wanted to have these digits this way is because you wanted to actually do some research looking at the prosodic form here .
+Turn 338, D (Grad): Hmm .
+Turn 339, F (Professor): Yeah OK .
+Turn 340, G (PhD): Right , yeah .
+Turn 341, F (Professor): So if somebody wanted to do that , if they wanted to look at the {disfmarker} the {disfmarker} the difference of the uh phones in the digits in the context of a word versus uh the digits {disfmarker} a {disfmarker} a non - digit word versus in digit word , uh that would be a good thing to do , but I think someone would have to express interest in that .
+Turn 342, E (Postdoc): I see . OK .
+Turn 343, F (Professor): I think , to {disfmarker} I mean if you were interested in it then we could do it , for instance .
+Turn 344, E (Postdoc): OK , thank you .
+Turn 345, D (Grad): OK , are we done with digits ?
+Turn 346, E (Postdoc): Huh .
+Turn 347, D (Grad): Um , We have ASR results from Liz , transcript status from Jane , and disk space and storage formats from Don . Does {disfmarker} do we have any prefer preference on which way we wanna {disfmarker} we wanna go ?
+Turn 348, G (PhD): Well I was actually gonna skip the ASR results part , in favor of getting the transcription stuff talked about
+Turn 349, D (Grad): Mm - hmm .
+Turn 350, G (PhD): since I think that 's more important to moving forward , but I mean Morgan has this paper copy and if people have questions , um , it 's pretty preliminary in terms of ASR results because we didn't do anything fancy , but I think e just having the results there , and pointing out some main conclusions like it 's not the speaking style that differs , it 's the fact that there 's overlap that causes recognition errors . And then , the fact that it 's almost all insertion errors , which you would expect but you might also think that in the overlapped regions you would get substitutions and so forth , um , leads us to believe that doing a better segmentation , like your channel - based segmentation , or some kind of uh , echo cancellation to get basically back down to the individual speaker utterances would be probably all that we would need to be able to do good recognition on the {disfmarker} on the close - talking mikes .
+Turn 351, A (PhD): So these {disfmarker}
+Turn 352, D (Grad): Um , why don't you , if you have a hard copy , why don't you email it to the list .
+Turn 353, G (PhD): So , that 's about the summary {disfmarker} But this is {disfmarker} Morgan has this paper .
+Turn 354, A (PhD): Yeah , yeah .
+Turn 355, D (Grad): Oh it 's in the paper .
+Turn 356, F (Professor): Yeah , so it 's the same thing ?
+Turn 357, G (PhD): I mean he {disfmarker} he {disfmarker}
+Turn 358, F (Professor): It 's the same thing I mailed to every everybody that w where it was ,
+Turn 359, G (PhD): it {disfmarker} it 's that paper .
+Turn 360, D (Grad): OK .
+Turn 361, G (PhD): Yeah , yeah .
+Turn 362, D (Grad): OK then , it 's already been mailed .
+Turn 363, G (PhD): So , we basically , um , did a lot of work on that
+Turn 364, F (Professor): yeah .
+Turn 365, G (PhD): and it 's {disfmarker} Let 's see , th I guess the other neat thing is it shows for sure w that the lapel , you know within speaker is bad .
+Turn 366, D (Grad): Horrible ?
+Turn 367, G (PhD): And it 's bad because it picks up the overlapping speech .
+Turn 368, A (PhD): So , your {disfmarker} your ASR results were run on the channels synchronized ,
+Turn 369, G (PhD): Yes , cuz that 's all that w had been transcribed at the time ,
+Turn 370, A (PhD): OK . OK . OK .
+Turn 371, G (PhD): um but as we {disfmarker} I mean I wanted to here more about the transcription . If we can get the channel asynchronous or the {disfmarker}
+Turn 372, A (PhD): Yeah .
+Turn 373, G (PhD): the closer t that would be very interesting for us
+Turn 374, B (PhD): So if {disfmarker}
+Turn 375, G (PhD): because we {disfmarker}
+Turn 376, F (Professor): Yeah , that 's {disfmarker} that 's why I only used the part from use
+Turn 377, A (PhD): Yeah .
+Turn 378, F (Professor): which we had uh about uh about the alt over all the channels
+Turn 379, A (PhD): Yeah .
+Turn 380, G (PhD): Right . That 's {disfmarker}
+Turn 381, A (PhD): Yeah sure . Yeah .
+Turn 382, F (Professor): or mixed channel
+Turn 383, A (PhD): Yeah .
+Turn 384, F (Professor): rather mixed signal .
+Turn 385, B (PhD): So if there was a segment of speech this long
+Turn 386, G (PhD): cuz {disfmarker}
+Turn 387, A (PhD): Yeah .
+Turn 388, B (PhD): and oh and someone said " oh , " the whole thing was passed to the recognizer ?
+Turn 389, D (Grad): And someone said " oh " in the front {disfmarker} in the middle .
+Turn 390, A (PhD): There were several speakers in it , yeah .
+Turn 391, G (PhD): That 's right . In fact I {disfmarker} I pulled out a couple classic examples in case you wanna u use them in your talk of
+Turn 392, B (PhD): That 's why there 's so many insertion errors ?
+Turn 393, C (Grad): Mm - hmm .
+Turn 394, G (PhD): Chuck on the lapel , so Chuck wore the lapel three out of four times .
+Turn 395, C (Grad): Mmm .
+Turn 396, D (Grad): I noticed that Chuck was wearing the lapel a lot .
+Turn 397, B (PhD): Early on , yeah .
+Turn 398, G (PhD): Um , yeah , and I wore the lapel once , and for me the lapel was OK . I mean I still {disfmarker} and I don't know why . I 'm {disfmarker} But um ,
+Turn 399, D (Grad): Probably how you wear it {disfmarker} wore it I would guess .
+Turn 400, G (PhD): for you it was {disfmarker} Or who was next to me or something like that .
+Turn 401, C (Grad): Yeah , where you were sitting probably affected it .
+Turn 402, A (PhD): Yeah .
+Turn 403, G (PhD): Right , but when Chuck wore the lapel and Morgan was talking there 're a couple really long utterances where Chuck is saying a few things inside , and it 's picking up all of Morgan 's words pretty well and so the rec you know , there 're error rates because of insertion {disfmarker} Insertions aren't bounded , so with a one - word utterance and ten insertions you know you got huge error rate .
+Turn 404, D (Grad): Uh - huh .
+Turn 405, A (PhD): Yeah .
+Turn 406, G (PhD): And that 's {disfmarker} that 's where the problems come in . So I this is sort of what we expected , but it 's nice to be able to {disfmarker} to show it .
+Turn 407, D (Grad): Right .
+Turn 408, G (PhD): And also I just wanted to mention briefly that , um , uh Andreas and I called up Dan Ellis who 's still stuck in Switzerland , and we were gonna ask him if {disfmarker} if there 're {disfmarker} you know , what 's out there in terms of echo cancellation and things like that . Not that we were gonna do it , but we wanted to know what would need to be done .
+Turn 409, D (Grad): And he said , " Lots lots lots lots . "
+Turn 410, G (PhD): And he {disfmarker} We 've given him the data we have so far , so these sychronous cases where there are overlap .
+Turn 411, A (PhD): Yep .
+Turn 412, G (PhD): And he 's gonna look into trying to run some things that are out there and see how well it can do
+Turn 413, B (PhD): So {disfmarker}
+Turn 414, G (PhD): because right now we 're not able to actually report on recognition in a real paper , like a Eurospeech paper , because it would look sort of premature .
+Turn 415, B (PhD): So {disfmarker} So the idea is that you would take this big hunk where somebody 's only speaking a small amount in it , and then try to figure out where they 're speaking {comment} based on the other peopl
+Turn 416, G (PhD): Right . Or who 's {disfmarker} At any point in time who 's the foreground speaker , who 's the background speaker .
+Turn 417, A (PhD): So yeah {disfmarker}
+Turn 418, B (PhD): I thought we were just gonna move the boundaries in .
+Turn 419, A (PhD): Yeah , should it {disfmarker}
+Turn 420, G (PhD): So .
+Turn 421, D (Grad): Well that 's with the hand stuff .
+Turn 422, G (PhD): So there 's like {disfmarker}
+Turn 423, D (Grad): But how would you do that automatically ?
+Turn 424, G (PhD): Well ther there 's {disfmarker}
+Turn 425, A (PhD): Uh , I 've actually done some experiments with cross - correlation
+Turn 426, B (PhD): Right .
+Turn 427, A (PhD): and it seems to work pretty well to {disfmarker} to get rid of those {disfmarker} those overlaps ,
+Turn 428, D (Grad): I mean that that 's the sort of thing that you would do .
+Turn 429, F (Professor): Mm - hmm .
+Turn 430, G (PhD): Yeah .
+Turn 431, A (PhD): yeah .
+Turn 432, D (Grad): So .
+Turn 433, G (PhD): Yeah . Exactly , so it 's {disfmarker} it 's a {disfmarker}
+Turn 434, B (PhD): So why do you want to do echo cancellation ?
+Turn 435, G (PhD): Um , it would be techniques used from adaptive {disfmarker} adaptive echo cancellation which I don't know enough about to talk about .
+Turn 436, B (PhD): Uh - huh .
+Turn 437, F (Professor): It {disfmarker} just {disfmarker} it just to r to remove cross - talk .
+Turn 438, G (PhD): Um .
+Turn 439, C (Grad): Yeah .
+Turn 440, F (Professor): Yeah .
+Turn 441, G (PhD): But , right , um , and that would be similar to what you 're also trying to do , but using um , you know , more than energy {disfmarker}
+Turn 442, A (PhD): Yeah .
+Turn 443, G (PhD): I {disfmarker} I don't know what exactly would go into it .
+Turn 444, A (PhD): Yeah , sure .
+Turn 445, B (PhD): So it would be {disfmarker}
+Turn 446, G (PhD): So the idea is to basically run this on the whole meeting . and get the locations , which gives you also the time boundaries of the individual speak
+Turn 447, B (PhD): OK . So do sort of what he 's already {disfmarker} what he 's trying to do .
+Turn 448, G (PhD): Right . Except that there are many techniques for the kinds of cues , um , that you can use to do that .
+Turn 449, A (PhD): Yeah , in another way ,
+Turn 450, B (PhD): OK , I s I see .
+Turn 451, A (PhD): yeah . Yeah .
+Turn 452, B (PhD): Yeah . I see .
+Turn 453, F (Professor): Yeah , Dave {disfmarker} Dave uh is , um , also gonna be doin usin playing around with echo cancellation for the nearfield farfield stuff ,
+Turn 454, G (PhD): So .
+Turn 455, F (Professor): so we 'll be {disfmarker}
+Turn 456, G (PhD): And I guess Espen ? This {disfmarker} is {disfmarker} uh {disfmarker} is he here too ?
+Turn 457, F (Professor): Yeah .
+Turn 458, G (PhD): May also be working {disfmarker} So it would just be ver that 's really the next step because we can't do too much , you know , on term in terms of recognition results knowing that this is a big problem
+Turn 459, B (PhD): Mm - hmm .
+Turn 460, G (PhD): um , until we can do that kind of processing . And so , once we have some {disfmarker} some of yours ,
+Turn 461, A (PhD): OK . Yeah I 'm working on it .
+Turn 462, G (PhD): and @ @ we 'll move on .
+Turn 463, B (PhD): I think this also ties into one of the things that Jane is gonna talk about too .
+Turn 464, D (Grad): Um ,
+Turn 465, G (PhD): OK .
+Turn 466, D (Grad): I also wanted to say I have done all this chopping up of digits ,
+Turn 467, E (Postdoc): Mm - hmm . Mm - hmm .
+Turn 468, D (Grad): so I have some naming conventions that we should try to agree on . So let 's do that off - line ,
+Turn 469, G (PhD): Oh right .
+Turn 470, D (Grad): we don't need to do it during the meeting .
+Turn 471, G (PhD): Yeah .
+Turn 472, C (Grad): OK .
+Turn 473, G (PhD): Right . Definitely {disfmarker}
+Turn 474, D (Grad): And {disfmarker} and I have scripts that will extract it out from " key " files
+Turn 475, G (PhD): Uh , and Don should {disfmarker}
+Turn 476, D (Grad): and {disfmarker} and do all the naming automatically ,
+Turn 477, G (PhD): OK .
+Turn 478, C (Grad): Alright .
+Turn 479, D (Grad): so you don't have to do it by hand .
+Turn 480, G (PhD): Great .
+Turn 481, C (Grad): You 've compiled the list of , uh , speaker names ?
+Turn 482, G (PhD): So that that 's it for the {disfmarker}
+Turn 483, D (Grad): Mm - hmm .
+Turn 484, G (PhD): Speakers and {disfmarker} OK .
+Turn 485, C (Grad): Not names , but I Ds .
+Turn 486, D (Grad): Yep . Yeah , names {disfmarker} names in the {disfmarker} names to I Ds ,
+Turn 487, C (Grad): OK .
+Turn 488, D (Grad): so you
+Turn 489, G (PhD): Great .
+Turn 490, D (Grad): and it does all sorts of matches because the way people filled out names is different on every single file so it does a very fuzzy sort of match .
+Turn 491, G (PhD): Right .
+Turn 492, C (Grad): Cool .
+Turn 493, G (PhD): So at this point we can sort of finalize the naming , and so forth ,
+Turn 494, C (Grad): Mm - hmm .
+Turn 495, D (Grad): Yep .
+Turn 496, G (PhD): and we 're gonna basically re rewrite out these waveforms that we did because as you notice in the paper your " M O in one meeting and " M O - two " in another meeting and it 's {disfmarker} we just need to standardize the
+Turn 497, C (Grad): Yeah . That was my fault .
+Turn 498, G (PhD): um , no it 's {disfmarker} it 's {disfmarker}
+Turn 499, F (Professor): No , I didn't notice that actually . 
+Turn 500, G (PhD): um , that 's why those comments are s {vocalsound} are in there .
+Turn 501, C (Grad): Yeah . Then disregard it then .
+Turn 502, D (Grad): Yep . So th I now have a script that you can just say basically look up Morgan ,
+Turn 503, G (PhD): So {disfmarker}
+Turn 504, F (Professor): Yeah .
+Turn 505, G (PhD): Right . OK .
+Turn 506, D (Grad): and it will give you his ID .
+Turn 507, G (PhD): Great , great .
+Turn 508, C (Grad): OK .
+Turn 509, D (Grad): So . Um ,
+Turn 510, G (PhD): Terrific .
+Turn 511, D (Grad): alright . Do we {disfmarker} Don , you had disk space and storage formats . Is that something we need to talk about at the meeting , or should you just talk with Chuck at some other time ?
+Turn 512, C (Grad): Um , I had some general questions just about the compression algorithms of shortening waveforms and I don't know exactly who to ask . I thought that maybe you would be the {disfmarker} the person to talk to . So , is it a lossless compression {comment} when you compress ,
+Turn 513, D (Grad): Mm - hmm .
+Turn 514, C (Grad): so {disfmarker}
+Turn 515, D (Grad): Entropy coding .
+Turn 516, C (Grad): It just uses entropy coding ?
+Turn 517, D (Grad): So .
+Turn 518, C (Grad): OK . So , I mean , I guess my question would be is I just got this new eighteen gig drive installed . Um , yeah , which is {disfmarker}
+Turn 519, D (Grad): And I assume half of it is scratch and half of it is {disfmarker} ?
+Turn 520, C (Grad): I 'm not exactly sure how they partitioned it .
+Turn 521, D (Grad): Probably , yeah .
+Turn 522, C (Grad): But um ,
+Turn 523, F (Professor): That 's typical , huh .
+Turn 524, C (Grad): yeah , I don't know what 's typical here , but um , it 's local though , so {disfmarker}
+Turn 525, D (Grad): That doesn't matter .
+Turn 526, C (Grad): But {disfmarker}
+Turn 527, D (Grad): You can access it from anywhere in ICSI . N {disfmarker}
+Turn 528, C (Grad): OK . Alright . How do you do that ?
+Turn 529, F (Professor): In fact , this is an eighteen gig drive , {comment} or is it a thirty six gig drive with eighteen {disfmarker}
+Turn 530, D (Grad): N {disfmarker}
+Turn 531, C (Grad): Eighteen .
+Turn 532, G (PhD): Eigh - eighteen . It was a spare that Dave had around {disfmarker}
+Turn 533, D (Grad): Slash N slash machine name , slash X A in all likelihood .
+Turn 534, F (Professor): Oh OK .
+Turn 535, C (Grad): Oh I see . OK . Alright , I did know that .
+Turn 536, D (Grad): Um , so the {disfmarker} the only question is how much of it {disfmarker} The distinction between scratch and non - scratch is whether it 's backed up or not .
+Turn 537, C (Grad): Mm - hmm . Right .
+Turn 538, D (Grad): So what you wanna do is use the scratch for stuff that you can regenerate .
+Turn 539, C (Grad): OK .
+Turn 540, D (Grad): So , the stuff that isn't backed up is not a big deal because disks don't crash very frequently ,
+Turn 541, C (Grad): Right .
+Turn 542, D (Grad): as long as you can regenerate it .
+Turn 543, C (Grad): Right . I mean all of this stuff can be regenerated ,
+Turn 544, G (PhD): Yeah it 's {disfmarker}
+Turn 545, C (Grad): it 's just a question {disfmarker}
+Turn 546, D (Grad): Then put it all on scratch
+Turn 547, G (PhD): Well the {disfmarker}
+Turn 548, D (Grad): because we 're {disfmarker} ICSI is {disfmarker} is bottlenecked by backup .
+Turn 549, E (Postdoc): Mm - hmm , very good point .
+Turn 550, G (PhD): Yeah .
+Turn 551, C (Grad): OK .
+Turn 552, D (Grad): So we wanna put {disfmarker}
+Turn 553, G (PhD): Well I 'd leave all the {disfmarker} All the transcript stuff shouldn't {disfmarker} should be backed up ,
+Turn 554, E (Postdoc): Mm - hmm .
+Turn 555, G (PhD): but all the waveform {disfmarker} {comment} Sound files should not be backed up ,
+Turn 556, C (Grad): Yeah , I guess {disfmarker} Right .
+Turn 557, G (PhD): the ones that you write out .
+Turn 558, C (Grad): OK . So , I mean , I guess th the other question was then , should we shorten them , downsample them , or keep them in their original form ? Um {disfmarker}
+Turn 559, D (Grad): It just depends on your tools . I mean , because it 's not backed up and it 's just on scratch , if your sc tools can't take shortened format , I would leave them expanded ,
+Turn 560, C (Grad): Right .
+Turn 561, D (Grad): so you don't have to unshorten them every single time you wanna do anything .
+Turn 562, C (Grad): OK .
+Turn 563, G (PhD): We can downsample them ,
+Turn 564, C (Grad): Do you think that 'd be OK ?
+Turn 565, G (PhD): so .
+Turn 566, C (Grad): To downsample them ?
+Turn 567, G (PhD): Yeah . Yeah , we get the same performance .
+Turn 568, C (Grad): OK .
+Turn 569, G (PhD): I mean the r the front - end on the SRI recognizer just downsamples them on the fly ,
+Turn 570, C (Grad): Yeah , I guess the only argument against downsampling is to preserve just the original files in case we want to experiment with different filtering techniques .
+Turn 571, G (PhD): so {disfmarker} So that 's {disfmarker}
+Turn 572, F (Professor): I {disfmarker} I {disfmarker} I 'm sorry {disfmarker}
+Turn 573, G (PhD): Yeah , if
+Turn 574, F (Professor): Yeah , l I mean over all our data , we {disfmarker} we want to not downsample .
+Turn 575, G (PhD): fe You 'd {disfmarker} you wanna not . OK .
+Turn 576, F (Professor): Yeah .
+Turn 577, G (PhD): So we 're {disfmarker} what we 're doing is we 're writing out {disfmarker} I mean , this is just a question . We 're writing out these individual segments , that wherever there 's a time boundary from Thilo , or {disfmarker} or Jane 's transcribers , you know , we {disfmarker} we chop it {pause} there .
+Turn 578, F (Professor): Yeah . Mm - hmm .
+Turn 579, G (PhD): And the reason is so that we can feed it to the recognizer ,
+Turn 580, F (Professor): Mm - hmm .
+Turn 581, G (PhD): and throw out ones that we 're not using and so forth .
+Turn 582, F (Professor): Yeah .
+Turn 583, G (PhD): And those are the ones that we 're storing .
+Turn 584, D (Grad): Yeah , as I said , since that 's {disfmarker} it 's regeneratable , what I would do is take {disfmarker} downsample it ,
+Turn 585, G (PhD): So {disfmarker} Yeah .
+Turn 586, D (Grad): and compress it however you 're e the SRI recognizer wants to take it in .
+Turn 587, G (PhD): Yeah .
+Turn 588, F (Professor): ye
+Turn 589, G (PhD): So we can't shorten them ,
+Turn 590, C (Grad): Right .
+Turn 591, G (PhD): but we can downsample them .
+Turn 592, F (Professor): Yeah , I mean {disfmarker} yeah , I 'm sorry .
+Turn 593, G (PhD): So .
+Turn 594, F (Professor): As {disfmarker} yeah , as long as there is a {disfmarker} a form that we can come from again , that is not downsampled , {comment} then ,
+Turn 595, C (Grad): r Yeah .
+Turn 596, G (PhD): Oh yeah th
+Turn 597, C (Grad): Yeah those are gonna be kept .
+Turn 598, G (PhD): Yeah . Yeah . That {disfmarker} that 's why we need more disk space
+Turn 599, F (Professor): uuu
+Turn 600, G (PhD): cuz we 're basically duplicating the originals , um {disfmarker}
+Turn 601, F (Professor): Yeah .
+Turn 602, D (Grad): Right .
+Turn 603, F (Professor): Then it 's fine . But for {disfmarker} for {disfmarker} fu future research we 'll be doing it with different microphone positions and so on
+Turn 604, G (PhD): Oh yeah .
+Turn 605, C (Grad): Right .
+Turn 606, D (Grad): Yep .
+Turn 607, G (PhD): No . We always have the original long ones .
+Turn 608, F (Professor): we would like to {disfmarker}
+Turn 609, B (PhD): So the SRI front - end won't take a uh {disfmarker} an {disfmarker} an {disfmarker} a large audio file name and then a {disfmarker} a list of segments to chop out {comment} from that large audio file ?
+Turn 610, F (Professor): Yeah .
+Turn 611, B (PhD): They actually have to be chopped out already ?
+Turn 612, G (PhD): Um , it 's better if they 're chopped out ,
+Turn 613, B (PhD): Uh - huh .
+Turn 614, G (PhD): and {disfmarker} and it {disfmarker} it will be {disfmarker} yeah , y we could probably write something to do that , but it 's actually convenient to have them chopped out cuz you can run them , you know , in different orders . You c you can actually move them around .
+Turn 615, D (Grad): And that 's the whole point about the naming conventions
+Turn 616, G (PhD): Uh , you can get rid of
+Turn 617, D (Grad): is that you could run all the English speaking ,
+Turn 618, G (PhD): Yeah , it it 's a lot faster .
+Turn 619, D (Grad): all the native speakers , and all the non - native speakers ,
+Turn 620, G (PhD): Right . You can grab everything with the word " the " in it ,
+Turn 621, D (Grad): and all the men , and all the women . Yeah .
+Turn 622, G (PhD): and it 's {disfmarker} That 's a lot quicker than actually trying to access the wavefile each time , find the time boundaries and {disfmarker} So in principle , yeah , you could do that ,
+Turn 623, B (PhD): I don't {disfmarker} I don't think that 's really right .
+Turn 624, G (PhD): but it 's {disfmarker} but it 's um {disfmarker}
+Turn 625, D (Grad): " That 's just not right , man . " The {disfmarker} the point {disfmarker}
+Turn 626, G (PhD): These are long {disfmarker} These are long {disfmarker}
+Turn 627, D (Grad): So {disfmarker} so s For example , what if you wanted to run {disfmarker} run all the native speakers .
+Turn 628, G (PhD): You know . This is an hour of speech .
+Turn 629, D (Grad): Right , so if {disfmarker} if you did it that way you would have to generate a program that looks in the database somewhere , extracts out the language , finds the time - marks for that particular one , do it that way . The way they 're doing it , you have that already extracted and it 's embedded in the file name . And so , you know , you just say {disfmarker}
+Turn 630, G (PhD): We - yeah that 's {disfmarker} so that 's part of it
+Turn 631, D (Grad): y so you just say you know " asterisk E asterisk dot wave " , and you get what you want .
+Turn 632, G (PhD): is {disfmarker} Right . And the other part is just that once they 're written out it {disfmarker} it is a lot faster to {disfmarker} to process them .
+Turn 633, D (Grad): Rather than doing seeks through the file .
+Turn 634, G (PhD): So . Otherwise , you 're just accessing {disfmarker}
+Turn 635, D (Grad): This is all just temporary access , so I don't {disfmarker} I think {disfmarker} it 's all just {disfmarker} It 's fine . You know . Fine to do it however is convenient .
+Turn 636, G (PhD): Right .
+Turn 637, F (Professor): I mean it just depends how big the file is . If the file sits in memory you can do extremely fast seeks
+Turn 638, G (PhD): Right . The other thing is that , believe it or not {disfmarker} I mean , we have some {disfmarker}
+Turn 639, F (Professor): but .
+Turn 640, D (Grad): Yeah and they don't . Two gig ?
+Turn 641, G (PhD): So we 're also looking at these in Waves like for the alignments and so forth . You can't load an hour of speech into X Waves .
+Turn 642, F (Professor): Yeah .
+Turn 643, G (PhD): You need to s have these small files , and in fact , even for the Transcriber program Um {disfmarker}
+Turn 644, D (Grad): Yes you can .
+Turn 645, B (PhD): Yeah , you {disfmarker} you can give Waves a start and an end time . And middle .
+Turn 646, G (PhD): Yeah , if you try to load s really long waveform into X Waves , you 'll be waiting there for {disfmarker}
+Turn 647, B (PhD): No , I {disfmarker} I 'm not suggesting you load a long wave file ,
+Turn 648, G (PhD): Oh
+Turn 649, B (PhD): I 'm just saying you give it a start and an end time . And it 'll just go and pull out that section .
+Turn 650, D (Grad): I th w The transcribers didn't have any problem with that did they Jane ?
+Turn 651, E (Postdoc): What 's th u w in what respect ?
+Turn 652, G (PhD): Loading the long {disfmarker}
+Turn 653, A (PhD): No , with the Transcriber tool , it 's no problem .
+Turn 654, D (Grad): They loaded {disfmarker} they loaded the long long files into X Waves .
+Turn 655, G (PhD): It takes a very long ti
+Turn 656, A (PhD): Yeah just to load a transcription
+Turn 657, E (Postdoc): In the {disfmarker} in Mm - hmm .
+Turn 658, A (PhD): 
+Turn 659, G (PhD): Right .
+Turn 660, A (PhD): takes a long time ,
+Turn 661, G (PhD): It takes a l very long time .
+Turn 662, A (PhD): but not for the wavefile . The wavefile is there immediately .
+Turn 663, E (Postdoc): Mm - hmm . Yeah .
+Turn 664, D (Grad): Are you talking about Transcriber or X Waves ?
+Turn 665, G (PhD): Huh .
+Turn 666, A (PhD): Yeah . Oh , I 'm tr talking about Transcriber .
+Turn 667, G (PhD): Actually , you 're talking about Transcriber , right ?
+Turn 668, A (PhD): Yeah .
+Turn 669, D (Grad): Because {disfmarker} because i we used X Waves to do the digits .
+Turn 670, E (Postdoc): It was also true of the digits task which was X Waves .
+Turn 671, D (Grad): And they were loading the full mixed files then ,
+Turn 672, E (Postdoc): Yeah . Very quickly .
+Turn 673, D (Grad): and it didn't seem to be any problem .
+Turn 674, E (Postdoc): I agree .
+Turn 675, G (PhD): Huh . Well we {disfmarker} we have a problem with that , you know , time - wise on a {disfmarker} It - it 's a lot slower to load in a long file ,
+Turn 676, D (Grad): Hmm . Seemed really fast .
+Turn 677, G (PhD): and also to check the file , so if you have a transcript , um ,
+Turn 678, D (Grad): Well regardless , it 's {disfmarker}
+Turn 679, F (Professor): Yeah .
+Turn 680, G (PhD): I mean it 's {disfmarker} I {disfmarker} I think overall you could get everything to work by accessing the same waveform and trying to find two {disfmarker} you know , the begin and end times . Um , but I think it 's more efficient , if we have the storage space , to have the small ones .
+Turn 681, D (Grad): and , it 's no problem , right ?
+Turn 682, G (PhD): Yeah , it 's {disfmarker}
+Turn 683, D (Grad): Because it 's not backed up .
+Turn 684, G (PhD): Yeah .
+Turn 685, D (Grad): So we just {disfmarker}
+Turn 686, G (PhD): It 's {disfmarker} it 's just {disfmarker}
+Turn 687, D (Grad): If we don't have a spare disk sitting around we go out and we buy ourselves an eighty gigabyte drive and make it all scratch space . You know , it 's not a big deal .
+Turn 688, E (Postdoc): You 're right about the backup being {pause} a bottleneck .
+Turn 689, G (PhD): Right .
+Turn 690, E (Postdoc): It 's good to think towards scratch .
+Turn 691, G (PhD): Yeah , so these wouldn't be backed up , the {disfmarker}
+Turn 692, E (Postdoc): Yeah .
+Turn 693, F (Professor): Yep .
+Turn 694, G (PhD): Right .
+Turn 695, D (Grad): So remind me afterward
+Turn 696, G (PhD): And {disfmarker}
+Turn 697, D (Grad): and I 'll {disfmarker} and we 'll look at your disk and see where to put stuff .
+Turn 698, C (Grad): OK . Alright . I mean , I could just u do a DU on it right ? And just see which {disfmarker} how much is on each {disfmarker} So .
+Turn 699, D (Grad): Yep . Each partition . And you wanna use , either XA or scratch .
+Turn 700, C (Grad): OK .
+Turn 701, D (Grad): Well X question mark , anything starting with X is scratch .
+Turn 702, C (Grad): OK .
+Turn 703, E (Postdoc): With two {disfmarker} two digits .
+Turn 704, D (Grad): Two digits , right , XA , XB , XC . OK ?
+Turn 705, F (Professor): So , @ @ .
+Turn 706, D (Grad): Jane ?
+Turn 707, E (Postdoc): OK . So I got a little print - out here . So three on this side , three on this side . And I stapled them . OK . Alright so , first of all , um , there was a {disfmarker} an interest in the transcribe transcription , uh , checking procedures and {disfmarker} {vocalsound} and I can {vocalsound} tell you first , uh , to go through the steps although you 've probably seen them . Um , as you might imagine , when you 're dealing with , um , r really c a fair number of words , and uh , @ @ {comment} natural speech which means s self - repairs and all these other factors , that there 're lots of things to be , um , s standardized and streamlined and checked on . And , um , so , I did a bunch of checks , and the first thing I did was obviously a spell - check . And at that point I discovered certain things like , um , " accommodate " with one " M " , that kind of thing . And then , in addition to that , I did an exhaustive listing of the forms in the data file , which included n detecting things like f faulty punctuation and things {disfmarker}
+Turn 708, B (PhD): I 'm {disfmarker} I 'm sorry to interrupt
+Turn 709, E (Postdoc): Yeah ?
+Turn 710, B (PhD): you could {disfmarker} could I just back up a little bit
+Turn 711, E (Postdoc): Sure , please ,
+Turn 712, B (PhD): and {disfmarker}
+Turn 713, E (Postdoc): yeah , please , please .
+Turn 714, B (PhD): So you 're doing these {disfmarker} So {pause} the whole process is that the transcribers get the conversation
+Turn 715, E (Postdoc): Yeah , yeah , yeah .
+Turn 716, B (PhD): and they do their pass over it .
+Turn 717, E (Postdoc): Yes .
+Turn 718, B (PhD): And then when they 're finished with it , it comes to you ,
+Turn 719, E (Postdoc): That 's right .
+Turn 720, B (PhD): and you begin these sanit these quality checks .
+Turn 721, E (Postdoc): Exactly . I do these checks .
+Turn 722, B (PhD): OK .
+Turn 723, E (Postdoc): Uh - huh .
+Turn 724, B (PhD): OK .
+Turn 725, E (Postdoc): Exactly . Yeah . Thank you . And so , uh , I do a {disfmarker} an exhaustive listing of the forms {disfmarker} Actually , I will go through this in {disfmarker} in order , so if {disfmarker} if we could maybe wait and stick keep that for a second cuz we 're not ready for that .
+Turn 726, D (Grad): So on the fifth page , seven down {disfmarker}
+Turn 727, E (Postdoc): Yeah , yeah , yeah , yeah . Exactly ! Exactly ! Alright so , {vocalsound} a spelling check first then an exhaustive listing of the , uh {disfmarker} all the forms in the data with the punctuation attached and at that point I pick up things like , oh , you know , word followed by two commas . And th and then another check involves , uh , being sure that every utterance has an identifiable speaker . And if not , then that gets checked . Then there 's this issue of glossing s w so - called " spoken - forms " . So there {disfmarker} mo for the most part , we 're keeping it standard wo word level transcription . But there 's {disfmarker} w And that that 's done with the assumption that {pause} pronunciation variants can be handled . So for things like " and " , the fact that someone doesn't say the " D " , uh that 's not important enough to capture in the transcription because a {disfmarker} a good pronunciation , uh , you know , model would be able to handle that . However , things like " cuz " where you 're lacking an entire very prominent first syllable , and furthermore , it 's a form that 's specific to spoken language , those are r reasons {disfmarker} f for those reasons I {disfmarker} I kept that separate , and used the convention of using " CUZ " for that form , however , glossing it so that it 's possible with the script to plug in the full orthographic form for that one , and a couple of others , not many . So " wanna " is another one , " going {disfmarker} " uh , " gonna " is another one , with just the assumption , again , that this {disfmarker} th these are things which it 's not really fair to a c consider {disfmarker} expect that {disfmarker} a pronunciation model , to handle . And Chuck , you in you indicated that " cuz " is {disfmarker} is one of those that 's handled in a different way also , didn't you ? Did I {disfmarker}
+Turn 728, B (PhD): I don't remember .
+Turn 729, E (Postdoc): OK . So {disfmarker} so it might not have been {disfmarker} {vocalsound} It might not have been you ,
+Turn 730, B (PhD): Hmm .
+Turn 731, E (Postdoc): but someone told me that in fact " cuz " is treated differently in , um , i u in this context because of that r reason that , um , it 's a little bit farther than a pronunciation variant . OK , so after that , let 's see ,
+Turn 732, B (PhD): So that was part of the spell - check , {comment} or was that {disfmarker} that was after the spell - check ?
+Turn 733, E (Postdoc): um . Well so when I get the exhau So the spell - check picks up those words because they 're not in the dictionary .
+Turn 734, B (PhD): Uh - huh .
+Turn 735, E (Postdoc): So it gets " cuz " and " wanna " and that {disfmarker}
+Turn 736, D (Grad): And then you gloss them ?
+Turn 737, E (Postdoc): Yeah , mm - hmm . Run it through {disfmarker} I have a sed {disfmarker} You know , so I do sed script saying whenever you see " gonna " you know , " convert it to gonna " , you know , " gloss equals quote going - to quote " , you know . And with all these things being in curly brackets
+Turn 738, D (Grad): Mm - hmm .
+Turn 739, E (Postdoc): so they 're always distinctive . OK , I also wrote a script which will , um , retrieve anything in curly brackets , {vocalsound} or anything which I 've classified as an acronym , and {disfmarker} a pronounced acronym . And the way I tag ac pronounced acronyms is that I have underscores between the components . So if it 's " ACL " then it 's " A " underscore " C " underscore " L " .
+Turn 740, D (Grad): And so {disfmarker} so your list here , are these ones that actually occurred in the meetings ?
+Turn 741, E (Postdoc): And the th Yes . Uh - huh , yeah .
+Turn 742, D (Grad): Whew !
+Turn 743, E (Postdoc): OK , so now . Uh and {disfmarker} a
+Turn 744, D (Grad): We are acronym - loaded .
+Turn 745, G (PhD): Um , can I ask a question about the glossing , uh before we go on ?
+Turn 746, E (Postdoc): Yeah .
+Turn 747, G (PhD): So , for a word like " because " is it that it 's always predictably " because " ? I mean , is " CUZ " always meaning " because " ?
+Turn 748, E (Postdoc): Yes , but not the reverse . So sometimes people will say " because " in the meeting , and if {disfmarker} if they actually said " because " , then it 's written as " because " with no {disfmarker} w " cuz " doesn't even figure into the equation .
+Turn 749, F (Professor): But {disfmarker} but in our meetings people don't say " hey cuz how you doing ? "
+Turn 750, G (PhD): Beca - because {disfmarker} Right . {comment} {vocalsound} Right .
+Turn 751, D (Grad): Except right there .
+Turn 752, E (Postdoc): Yeah .
+Turn 753, F (Professor): Yeah .
+Turn 754, G (PhD): Um , so , I guess {disfmarker} So , from the point of view of {disfmarker}
+Turn 755, E (Postdoc): That 's a good point .
+Turn 756, G (PhD): The {disfmarker} the only problem is that with {disfmarker} for the recognition we {disfmarker} we map it to " because " ,
+Turn 757, D (Grad): Well ,
+Turn 758, G (PhD): and so if we know that " CUZ " {disfmarker}
+Turn 759, E (Postdoc): That 's fine .
+Turn 760, D (Grad): but they have the gloss .
+Turn 761, E (Postdoc): Well Don has a script .
+Turn 762, C (Grad): Yeah .
+Turn 763, G (PhD): but , we don't {disfmarker}
+Turn 764, D (Grad): You have the gloss form so you always replace it .
+Turn 765, E (Postdoc): Exactly .
+Turn 766, D (Grad): If that 's how {disfmarker} what you wanna do .
+Turn 767, E (Postdoc): Uh - huh . And Don knows this ,
+Turn 768, C (Grad): Yeah .
+Turn 769, E (Postdoc): and he 's bee he has a glo he has a script that {disfmarker}
+Turn 770, C (Grad): I replace the " cuz " with " because " if it 's glossed .
+Turn 771, G (PhD): S Right . But , if it 's {disfmarker} OK .
+Turn 772, C (Grad): And {disfmarker}
+Turn 773, G (PhD): But then there are other glosses that we don't replace , right ? Because {disfmarker}
+Turn 774, E (Postdoc): Yes . And that 's why there 're different tags on the glosses ,
+Turn 775, G (PhD): OK . So , then it 's fine .
+Turn 776, E (Postdoc): on the different {disfmarker} on the different types of comments , which we 'll {disfmarker} which we 'll see in just a second .
+Turn 777, C (Grad): Right .
+Turn 778, G (PhD): OK .
+Turn 779, E (Postdoc): So the pronounceable acronyms get underscores , the things in curly brackets are viewed as comments . There 're comments of four types . So this is a good time to introduce that . The four types . w And maybe we 'll expand that
+Turn 780, D (Grad): Um {disfmarker}
+Turn 781, E (Postdoc): but the {disfmarker} but the comments are , um , of four types mainly right now . One of them is , um , the gloss type we just mentioned .
+Turn 782, D (Grad): Can {disfmarker} ca
+Turn 783, E (Postdoc): Another type is , um {disfmarker}
+Turn 784, D (Grad): So a are we done with acronyms ? Cuz I had a question on what {disfmarker} what this meant .
+Turn 785, E (Postdoc): I 'm still doing the overview . I haven't actually gotten here yet .
+Turn 786, D (Grad): Oh I 'm sorry .
+Turn 787, E (Postdoc): OK so , gloss is things like replacing the full form u with the , um , more abbreviated one to the left . Uh , then you have if it 's {disfmarker} uh , there 're a couple different types of elements that can happen that aren't really properly words , and wo some of them are laughs and breathes , so we have {disfmarker} uh that 's prepended with a v a tag of " VOC " .
+Turn 788, A (PhD): Whew ! 
+Turn 789, E (Postdoc): And the non - vocal ones are like door - slams and tappings , and that 's prepended with a no non - vocalization .
+Turn 790, B (PhD): So then it {disfmarker} just an ending curly brace there , or is there something else in there .
+Turn 791, E (Postdoc): Oh yeah , so i e this would {disfmarker}
+Turn 792, D (Grad): A comment , basically .
+Turn 793, E (Postdoc): Let 's just take one example .
+Turn 794, B (PhD): Oh , oh , oh .
+Turn 795, E (Postdoc): And then the no non - vocalization would be something like a door - slam . They always end . So it 's like they 're paired curly brackets . And then the third type right now , {vocalsound} uh , is {pause} m things that fall in the category of comments about what 's happening . So it could be something like , you know , " referring to so - and - so " , " talking about such - and - such " , uh , you know , " looking at so - and - so " .
+Turn 796, B (PhD): So on the m
+Turn 797, E (Postdoc): Yeah .
+Turn 798, B (PhD): on the middle t So , in the first case that gloss applies to the word to the left . But in the middle two {disfmarker} Th - it 's not applying to anything , right ?
+Turn 799, E (Postdoc): Yeah , and this gets substituted here .
+Turn 800, D (Grad): They 're impulsive .
+Turn 801, B (PhD): OK .
+Turn 802, E (Postdoc): Huh - uh . No , they 're events .
+Turn 803, B (PhD): OK .
+Turn 804, D (Grad): Well the " QUAL " can be {disfmarker} The " QUAL " is applying to the left .
+Turn 805, E (Postdoc): They 're actually {disfmarker} They have the status of events .
+Turn 806, B (PhD): Right , I just meant the middle two ones , yeah .
+Turn 807, D (Grad): Yep .
+Turn 808, E (Postdoc): Well , and actually , um , it is true that , with respect to " laugh " , there 's another one which is " while laughing " ,
+Turn 809, D (Grad): " While laughing " .
+Turn 810, E (Postdoc): and that is , uh , i i An argument could be made for this {disfmarker} tur turning that into a qualitative statement because it 's talking about the thing that preceded it , but at present we haven't been , um , uh , coding the exact scope of laughing , you know , and so to have " while laughing " , you know that it happened somewhere in there which could well mean that it occurred separately and following , or , you know , including some of the utterances to the left . Haven't been awfully precise about that , but I have here , now we 're about to get to the {disfmarker} to this now , I have frequencies . So you 'll see how often these different things occur . But , um , uh , the very front page deals with this , uh , final c pa uh , uh , aspect of the standardization which has to do with the spoken forms like " mm - hmm " and " mm - hmm " and " ha " and " uh - uh " and all these different types . And , um , uh , someone pointed out to me , this might have been Chuck , {comment} about , um {disfmarker} about how a recognizer , if it 's looking for " mm - hmmm " with three M 's , {vocalsound} and it 's transcribed with two M 's , {vocalsound} that it might {disfmarker} uh , that it might increase the error rate which is {disfmarker} which would really be a shame because um , I p I personally w would not be able to make a claim that those are dr dramatically different items . So , right now I 've standardized across all the existing data with these spoken forms .
+Turn 811, D (Grad): Oh good .
+Turn 812, E (Postdoc): I {disfmarker} I should say
+Turn 813, D (Grad): So it 's a small list .
+Turn 814, E (Postdoc): all existing data except thirty minutes which got found today . So , I 'm gonna {disfmarker} {vocalsound} I 'm gonna {disfmarker} {vocalsound} I 'm gonna check {disfmarker}
+Turn 815, D (Grad): That {disfmarker} that 's known as " found data " .
+Turn 816, E (Postdoc): Yeah , yeah . Acsu - actually yeah . I got {disfmarker} It was stored in a place I didn't expect ,
+Turn 817, C (Grad): It 's like the z Zapruder Film .
+Turn 818, E (Postdoc): so {disfmarker} and {disfmarker} and um , w we , uh , sh yea reconstructed how that happened .
+Turn 819, F (Professor): I wanna work with lost data .
+Turn 820, D (Grad): Yeah . It 's much easier .
+Turn 821, E (Postdoc): And this is {disfmarker} this 'll be great . So I 'll {disfmarker} I 'll be able to get through that tonight , and then everyth i well , actually later today probably .
+Turn 822, D (Grad): Hmm .
+Turn 823, E (Postdoc): And so then we 'll have everything following these conventions . But you notice it 's really rather a small set of these kinds of things .
+Turn 824, D (Grad): Yeah .
+Turn 825, E (Postdoc): And I made it so that these are , um , with a couple exceptions but , things that you wouldn't find in the spell - checker so that they 'll show up really easily . And , um {disfmarker}
+Turn 826, C (Grad): Jane , can I ask you a question ? What 's that very last one correspond to ?
+Turn 827, E (Postdoc): Sure .
+Turn 828, C (Grad): I don't even know how to pronounce that .
+Turn 829, E (Postdoc): Well , yeah . Now that {disfmarker} that s only occurs once ,
+Turn 830, G (PhD): Yeah .
+Turn 831, E (Postdoc): and I 'm thinking of changing that .
+Turn 832, G (PhD): Right .
+Turn 833, C (Grad): Uh , is that like someone 's like burning or some such thing ?
+Turn 834, E (Postdoc): So - c I haven't listened to it so I don't know .
+Turn 835, C (Grad): Like their hair 's on fire ?
+Turn 836, E (Postdoc): I haven't heard it actually . I n I need to listen to that one .
+Turn 837, D (Grad): Ah !
+Turn 838, A (PhD): It 's the Castle of Ah !
+Turn 839, G (PhD): Actually we {disfmarker} we gave this to our pronunciation person ,
+Turn 840, C (Grad): Uh , it looks like that .
+Turn 841, G (PhD): she 's like , " I don't know what that is either " . So .
+Turn 842, E (Postdoc): Did she hear the th did she actually hear it ? Cuz I haven't heard it .
+Turn 843, G (PhD): No , we just gave her a list of words that , you know , weren't in our dictionary and so of course it picked up stuff like this , and she just didn't listen so she didn't know . We just {disfmarker} we 're waiting on that {pause} just to do the alignments .
+Turn 844, E (Postdoc): Yeah . Yeah I 'm curious to se hear what it is , but I didn't know {disfmarker} wanna change it to something else until I knew .
+Turn 845, C (Grad): Right .
+Turn 846, G (PhD): Maybe it 's " argh " ?
+Turn 847, E (Postdoc): Well , sss , {comment} you know {disfmarker}
+Turn 848, G (PhD): 
+Turn 849, C (Grad): But that 's not really like {disfmarker}
+Turn 850, E (Postdoc): Hhh .
+Turn 851, C (Grad): No one really says " argh , " you know ,
+Turn 852, E (Postdoc): 
+Turn 853, G (PhD): Yeah . Right , no one say
+Turn 854, C (Grad): it 's not {disfmarker}
+Turn 855, F (Professor): Well , you just did .
+Turn 856, B (PhD): Except for now !
+Turn 857, C (Grad): Well , there 's another {disfmarker} there 's another word error .
+Turn 858, D (Grad): 
+Turn 859, E (Postdoc): Yeah . That 's right .
+Turn 860, D (Grad): Yes , that 's right . We 're gonna have a big problem when we talk about that .
+Turn 861, C (Grad): Cha - ching .
+Turn 862, G (PhD): Ah .
+Turn 863, B (PhD): We 're gonna never recognize this meeting .
+Turn 864, D (Grad): In Monty Python you say " argh " a lot .
+Turn 865, E (Postdoc): OK .
+Turn 866, C (Grad): Oh yeah ?
+Turn 867, D (Grad): So . Well , or if you 're a C programmer .
+Turn 868, C (Grad): Mmm .
+Turn 869, D (Grad): You say arg - C and arg - V all the time .
+Turn 870, E (Postdoc): Yeah , that 's right .
+Turn 871, F (Professor): Yeah .
+Turn 872, E (Postdoc): That 's right .
+Turn 873, C (Grad): That 's true .
+Turn 874, E (Postdoc): Yeah .
+Turn 875, F (Professor): Yeah
+Turn 876, G (PhD): But it has a different prosody .
+Turn 877, F (Professor): Arg .
+Turn 878, D (Grad): It does .
+Turn 879, C (Grad): Mm - hmm .
+Turn 880, F (Professor): Arg {disfmarker} arg - max , arg - min , yeah .
+Turn 881, D (Grad): Ah !
+Turn 882, E (Postdoc): Uh ,
+Turn 883, G (PhD): So , Jane , what 's the {disfmarker} d
+Turn 884, D (Grad): Maybe he died while dictating .
+Turn 885, E (Postdoc): so .
+Turn 886, G (PhD): I have one question about the the " EH " versus like the " AH " and the " UH " .
+Turn 887, E (Postdoc): That 's partly a nonnative - native thing ,
+Turn 888, G (PhD): OK .
+Turn 889, E (Postdoc): but I have found " EH " in native speakers too .
+Turn 890, G (PhD): 
+Turn 891, E (Postdoc): But it 's mostly non - native {disfmarker}
+Turn 892, A (PhD): H
+Turn 893, B (PhD): That 's " eh " versus " ah " ?
+Turn 894, G (PhD): S OK .
+Turn 895, E (Postdoc): Eh .
+Turn 896, D (Grad): Eh ?
+Turn 897, G (PhD): " Eh , " yeah right , cuz there were {disfmarker} were some speakers that did definite " eh 's "
+Turn 898, E (Postdoc): Mm - hmm .
+Turn 899, G (PhD): but right now we {disfmarker}
+Turn 900, B (PhD): They were the Canadians , right ?
+Turn 901, F (Professor): Canadians , yeah , yeah , yeah .
+Turn 902, E (Postdoc): That 's right .
+Turn 903, G (PhD): So , it {disfmarker} it 's actually probably good for us to know the difference between the real " eh " and the one that 's just like " uh " or transcribed " aaa "
+Turn 904, E (Postdoc): Exactly .
+Turn 905, G (PhD): cuz in {disfmarker} like in Switchboard , you would see e all of these forms , but they all were like " uh " .
+Turn 906, D (Grad): You mean just the single letter " a " {comment} as in the particle ?
+Turn 907, A (PhD): The transcription or {disfmarker}
+Turn 908, D (Grad): Article .
+Turn 909, G (PhD): No , no , I mean like the {disfmarker} the " UH " ,
+Turn 910, E (Postdoc): " UH " .
+Turn 911, D (Grad): Oh .
+Turn 912, G (PhD): or {disfmarker} the " UH " , " EH " , " AH " were all the same . And then , we have this additional non - native version of {disfmarker} uh , like " eeh " .
+Turn 913, C (Grad): All the " EH " 's I 've seen have been like that . They 've been like " eh " like that have bee has been transcribed to " EH " . And sometimes it 's stronger ,
+Turn 914, E (Postdoc): Mm - hmm , that 's right .
+Turn 915, C (Grad): like " eeh " {comment} which is like closer to " EH " .
+Turn 916, E (Postdoc): Mmm .
+Turn 917, G (PhD): Right .
+Turn 918, C (Grad): But .
+Turn 919, D (Grad): I 'm just {disfmarker} these poor transcribers , they 're gonna hate this meeting .
+Turn 920, E (Postdoc): Yeah .
+Turn 921, C (Grad): I know . We should go off - line .
+Turn 922, E (Postdoc): Well , {vocalsound} we 're not doing {disfmarker} We 're not doing length .
+Turn 923, F (Professor): Quick Thilo , do a {disfmarker} do a filled pause for us .
+Turn 924, E (Postdoc): Yeah , that 's right .
+Turn 925, A (PhD): Ooo {comment} no .
+Turn 926, G (PhD): But you 're a native German speaker so it 's not a {disfmarker} not a issue for {disfmarker}
+Turn 927, A (PhD): Yeah .
+Turn 928, G (PhD): It 's only {disfmarker}
+Turn 929, D (Grad): Them Canadians .
+Turn 930, G (PhD): Onl yeah . No , only if you don't have lax vowels , I guess .
+Turn 931, D (Grad): Oh .
+Turn 932, G (PhD): Right .
+Turn 933, E (Postdoc): This makes sense .
+Turn 934, G (PhD): So it 's {disfmarker} like Japanese and Spanish
+Turn 935, E (Postdoc): Yeah I {disfmarker} I think you 've {disfmarker} uh - huh , yeah .
+Turn 936, D (Grad): Oh I see .
+Turn 937, F (Professor): Uh - huh .
+Turn 938, G (PhD): and {disfmarker}
+Turn 939, D (Grad): I didn't get that ,
+Turn 940, E (Postdoc): That makes sense .
+Turn 941, D (Grad): OK .
+Turn 942, E (Postdoc): Yeah , and so , you know , I mean , th th I have {disfmarker} there are some , um , Americans who {disfmarker} who are using this " eh " too , and I haven't listened to it systematically , maybe with some of them , uh , they 'd end up being " uh 's " but , uh , I my spot - checking has made me think that we do have " eh " in also , um , American e e data represented here . But any case , that 's the {disfmarker} this is reduced down from really quite a long a much longer list ,
+Turn 943, G (PhD): Yeah this is great .
+Turn 944, C (Grad): Mm - hmm .
+Turn 945, D (Grad): Yeah , it 's good ,
+Turn 946, E (Postdoc): and this is
+Turn 947, D (Grad): yeah .
+Turn 948, G (PhD): This is really really helpful .
+Turn 949, E (Postdoc): functionally pretty , you know , also {disfmarker} It was fascinating , I was listening to some of these , uh , I guess two nights ago , and it 's just hilarious to liste to {disfmarker} to do a search for the " mm - hmm 's " . And you get " mm - hmm " and diff everybody 's doing it .
+Turn 950, D (Grad): And just listen to them ? Yeah .
+Turn 951, E (Postdoc): Just {disfmarker} I wanted to say {disfmarker} I w think it would be fun to make a montage of it because there 's a " Mm - hmm . Mm - hmm .
+Turn 952, D (Grad): Performance art ,
+Turn 953, E (Postdoc): Mm - hmm . "
+Turn 954, D (Grad): just extract them all .
+Turn 955, G (PhD): Right .
+Turn 956, E (Postdoc): It 's really {disfmarker} it 's really fun to listen to .
+Turn 957, B (PhD): Morgan can make a song out of it .
+Turn 958, E (Postdoc): All these different vocal tracts , you know , but it 's {disfmarker} it 's the same item . It 's very interesting . OK . Uh , then the acronyms y and the ones in parentheses are ones which the transcriber wasn't sure of ,
+Turn 959, D (Grad): Oh I see .
+Turn 960, E (Postdoc): and I haven't been able to listen to to {disfmarker} to clarify , but you can see that the parenthesis convention makes it very easy to find them
+Turn 961, D (Grad): o How about question mark ?
+Turn 962, E (Postdoc): cuz it 's the only place where {disfmarker} where they 're used .
+Turn 963, A (PhD): The question marks , yeah . What are those ?
+Turn 964, E (Postdoc): Question mark is punctuation . So it {disfmarker} they said that @ @ {disfmarker}
+Turn 965, C (Grad): Mm - hmm .
+Turn 966, D (Grad): Oh .
+Turn 967, E (Postdoc): um , " DC ? "
+Turn 968, A (PhD): Ah .
+Turn 969, D (Grad): So they {disfmarker} so it 's " PLP ? "
+Turn 970, E (Postdoc): Exactly . Exactly . Yeah , so the only {disfmarker} Well , and I do have a stress marker here . Sometimes the contrastive stress is showing up , and , um {disfmarker}
+Turn 971, F (Professor): I 'm sorry , I {disfmarker} I got lost here . What - w what 's the difference between the parenthesized acronym and the non - parenthesized ?
+Turn 972, E (Postdoc): The parenthesized is something that the transcriber thought was ANN , but wasn't entirely sure . So I 'd need to go back or someone needs to go back , and say , you know , yes or no ,
+Turn 973, F (Professor): Ah .
+Turn 974, E (Postdoc): and then get rid of the parentheses .
+Turn 975, G (PhD): Right .
+Turn 976, E (Postdoc): But the parentheses are used only in that context in the transcripts , of of noti noticing that there 's something uncertain .
+Turn 977, D (Grad): Yeah , P - make is {disfmarker}
+Turn 978, G (PhD): Yeah I mean cuz they {disfmarker} they have no idea ,
+Turn 979, D (Grad): That 's a good one . That 's correct .
+Turn 980, G (PhD): right . If you hear CTPD , I mean , they do pretty well
+Turn 981, F (Professor): Yeah .
+Turn 982, C (Grad): Mm - hmm .
+Turn 983, G (PhD): but it 's {disfmarker}
+Turn 984, F (Professor): I {disfmarker} I don't recognize a lot of these .
+Turn 985, G (PhD): you know how are {disfmarker} how are they gonna know ?
+Turn 986, C (Grad): Yeah .
+Turn 987, D (Grad): I know ! I {disfmarker} I was saying that I think a lot of them are the Networks meeting .
+Turn 988, F (Professor): I {disfmarker}
+Turn 989, E (Postdoc): I think that 's true .
+Turn 990, F (Professor): Maybe .
+Turn 991, E (Postdoc): Yeah , absolutely .
+Turn 992, D (Grad): I see a few .
+Turn 993, E (Postdoc): NSA ,
+Turn 994, G (PhD): Yeah .
+Turn 995, E (Postdoc): a lot of these are {disfmarker} are coming from them . I listened to some of that .
+Turn 996, C (Grad): Yeah , we don't have that many acronyms comparatively in this meeting .
+Turn 997, D (Grad): Although I see {disfmarker} I see plenty of uh
+Turn 998, E (Postdoc): Yeah . Yeah . I agree .
+Turn 999, C (Grad): It 's not so bad .
+Turn 1000, G (PhD): Right .
+Turn 1001, E (Postdoc): And Robustness has a fair amount ,
+Turn 1002, A (PhD): Yeah .
+Turn 1003, C (Grad): Mmm .
+Turn 1004, E (Postdoc): but the NSA group is just very very many .
+Turn 1005, G (PhD): The recognizer , it is funny . Kept getting PTA for PDA .
+Turn 1006, D (Grad): Yeah , that 's pretty close .
+Turn 1007, F (Professor): Yeah .
+Turn 1008, G (PhD): This is close , right ,
+Turn 1009, C (Grad): That 's not bad .
+Turn 1010, G (PhD): and the PTA was in these , uh , topics about children ,
+Turn 1011, E (Postdoc): Yeah .
+Turn 1012, G (PhD): so , anyway .
+Turn 1013, E (Postdoc): That 's interesting .
+Turn 1014, G (PhD): Is the P - PTA working ?
+Turn 1015, E (Postdoc): Right and sometimes , I mean , you see a couple of these that are actually " OK 's " so it 's {disfmarker} it 's {disfmarker} may be that they got to the point where {disfmarker} I mean it was low enough understandable {disfmarker} understandability that they weren't entirely sure the person said " OK . " You know , so it isn't really necessarily a an undecipherable acronym ,
+Turn 1016, C (Grad): There 's a lot of " OK 's " .
+Turn 1017, E (Postdoc): but just n needs to be double checked . Now we get to the comments . This {disfmarker}
+Turn 1018, F (Professor): The number to the left is the number of incidences ?
+Turn 1019, D (Grad): Count . Yep .
+Turn 1020, E (Postdoc): Number of times out of the entire database ,
+Turn 1021, F (Professor): Uh - huh .
+Turn 1022, E (Postdoc): w except for that last thirty minutes I haven't checked yet .
+Turn 1023, F (Professor): So CTS is really big here ,
+Turn 1024, D (Grad): Yeah , I wonder what it is .
+Turn 1025, F (Professor): yeah . Yeah .
+Turn 1026, A (PhD): So what is the difference between " papers rustling " and " rustling papers " ?
+Turn 1027, F (Professor): IP , I know what IP is .
+Turn 1028, E (Postdoc): I 'd have to listen . I {disfmarker} I I agree . I w I 'd like to standardize these down farther but , um , uh , uh , to me that sounds equivalent .
+Turn 1029, A (PhD): Yeah .
+Turn 1030, E (Postdoc): But , I {disfmarker} I 'm a little hesitant to {disfmarker} to collapse across categories unless I actually listen to them .
+Turn 1031, A (PhD): Seems so .
+Turn 1032, F (Professor): OK .
+Turn 1033, D (Grad): Oh I 'm sure we 've said XML more than five times .
+Turn 1034, E (Postdoc): Well , then , at least now .
+Turn 1035, A (PhD): Now it 's at least six times , yeah .
+Turn 1036, F (Professor): S s six now , yeah .
+Turn 1037, E (Postdoc): Yeah . Six . OK well {disfmarker}
+Turn 1038, F (Professor): Wh - the self - referential aspect of these {disfmarker} these p
+Turn 1039, G (PhD): I 'm wai
+Turn 1040, C (Grad): Yeah .
+Turn 1041, D (Grad): Yes , it 's very bad .
+Turn 1042, G (PhD): Well this is exactly how people will prove that these meetings do differ because we 're recording , right ?
+Turn 1043, D (Grad): Yes .
+Turn 1044, G (PhD): Y no normally you don't go around saying , " Now you 've said it six times .
+Turn 1045, D (Grad): Yeah {comment} that 's right .
+Turn 1046, G (PhD): Now you 've said "
+Turn 1047, E (Postdoc): But did you notice that there were seven hundred and eighty five instances of " OK " ?
+Turn 1048, A (PhD): Seven hundred eighty - five instances .
+Turn 1049, E (Postdoc): And that 's just without the {disfmarker} without punc punctuation .
+Turn 1050, C (Grad): Yeah .
+Turn 1051, D (Grad): Yep .
+Turn 1052, F (Professor): No , I didn't . Yeah .
+Turn 1053, D (Grad): And that 's an underestimate
+Turn 1054, E (Postdoc): Extra forty one if it 's questioned .
+Turn 1055, B (PhD): Where 's that ?
+Turn 1056, D (Grad): cuz they 're Yep .
+Turn 1057, F (Professor): So th
+Turn 1058, E (Postdoc): On the page two of acronyms .
+Turn 1059, C (Grad): Is this after {disfmarker} like did you do some uh replacements for all the different form of " OK " to this ?
+Turn 1060, F (Professor): Yeah . Seven hundred eighty .
+Turn 1061, E (Postdoc): Yeah . Of " OK " , yes .
+Turn 1062, C (Grad): OK .
+Turn 1063, E (Postdoc): Mm - hmm . So that 's the single existing convention for " OK " .
+Turn 1064, B (PhD): Wait a minute , w s
+Turn 1065, F (Professor): So now we 're up to seven hundred and eighty eight .
+Turn 1066, E (Postdoc): Yeah that 's {disfmarker}
+Turn 1067, C (Grad): Although , what 's {disfmarker} there 's one with a slash after it . That 's kind of disturbing .
+Turn 1068, E (Postdoc): Yeah .
+Turn 1069, D (Grad): Yeah , we 'll have to look at it you know .
+Turn 1070, E (Postdoc): That 's {disfmarker} that 's {disfmarker} I looked for that one .
+Turn 1071, G (PhD): Yeah .
+Turn 1072, C (Grad): Anyway .
+Turn 1073, E (Postdoc): I actually explicitly looked for that one ,
+Turn 1074, C (Grad): Mm - hmm .
+Turn 1075, E (Postdoc): and I think that , um , I {disfmarker} I 'm not exactly sure about that .
+Turn 1076, B (PhD): Was that somewhere where they were gonna say " new speaker " or something ?
+Turn 1077, E (Postdoc): No , I looked for that , but that doesn't actually exist . And it may be , I don't {disfmarker} I can't explain that .
+Turn 1078, C (Grad): That 's alright . I 'm just pointing that out .
+Turn 1079, E (Postdoc): I i it 's the only {disfmarker}
+Turn 1080, C (Grad): There 's {disfmarker}
+Turn 1081, E (Postdoc): it 's the only pattern that has a slash after it , and I think it 's {disfmarker} it 's an epiphenomenon .
+Turn 1082, G (PhD): Well there 's not @ @ .
+Turn 1083, D (Grad): So I 'll just {disfmarker} I was just looking at the bottom of page three there , is that " to be " or " not to be " .
+Turn 1084, E (Postdoc): Yeah .
+Turn 1085, B (PhD): There 's no tilde in front of it ,
+Turn 1086, E (Postdoc): Oh that 's cute .
+Turn 1087, B (PhD): so .
+Turn 1088, E (Postdoc): That 's funny . Yeah .
+Turn 1089, D (Grad): OK anyways , sorry .
+Turn 1090, E (Postdoc): OK .
+Turn 1091, D (Grad): " Try to stay on topic , Adam . "
+Turn 1092, E (Postdoc): There is th one {disfmarker} Y well , no , that 's r that 's legitimate . So now , uh , comments , you can see they 're listed again , same deal , with exhaustive listing of everything found in everything except for these final th thirty minutes .
+Turn 1093, D (Grad): OK so , um , on some of these QUALs ,
+Turn 1094, E (Postdoc): Yeah .
+Turn 1095, D (Grad): are they really QUALs , or are they glosses ? So like there 's a " QUAL TCL " .
+Turn 1096, E (Postdoc): " TCL " . Where do you see that ?
+Turn 1097, D (Grad): Uh
+Turn 1098, E (Postdoc): Oh , oh . The reason is because w it was said " tickle " .
+Turn 1099, F (Professor): What 's a QUAL ?
+Turn 1100, D (Grad): Oh I see , I see .
+Turn 1101, C (Grad): Hmm .
+Turn 1102, D (Grad): So it 's not gloss . OK , I see .
+Turn 1103, E (Postdoc): Yep .
+Turn 1104, C (Grad): Sh - shouldn't it be " QUAL TICKLE " or something ?
+Turn 1105, D (Grad): It wasn't said " TCL " . Of course .
+Turn 1106, C (Grad): Like {disfmarker} it 's not {disfmarker}
+Turn 1107, E (Postdoc): On the {disfmarker} in the actual script {disfmarker} in the actual transcript , I s I {disfmarker} So this {disfmarker} this happens in the very first one .
+Turn 1108, C (Grad): Mm - hmm .
+Turn 1109, E (Postdoc): I actually wrote it as " tickle " .
+Turn 1110, C (Grad): OK .
+Turn 1111, E (Postdoc): Because we {disfmarker} they didn't say " TCL " , they said " tickle " .
+Turn 1112, C (Grad): Yeah .
+Turn 1113, E (Postdoc): And then , following that is " QUAL TCL " .
+Turn 1114, G (PhD): Right .
+Turn 1115, C (Grad): Oh I see . OK .
+Turn 1116, F (Professor): I f I forget , what 's QUAL ?
+Turn 1117, E (Postdoc): Qual - qualifier .
+Turn 1118, B (PhD): It 's just comment about what they said .
+Turn 1119, C (Grad): Yeah .
+Turn 1120, E (Postdoc): Comment .
+Turn 1121, C (Grad): It 's not something you wanna replace {pause} with
+Turn 1122, E (Postdoc): Comment or contextual comment .
+Turn 1123, B (PhD): So they didn't mean " tickle " as in Elmo ,
+Turn 1124, C (Grad): but {disfmarker}
+Turn 1125, A (PhD): Tickle ?
+Turn 1126, F (Professor): Yeah .
+Turn 1127, B (PhD): they meant " tickle " as in {disfmarker}
+Turn 1128, D (Grad): Yeah .
+Turn 1129, G (PhD): Huh .
+Turn 1130, F (Professor): Right .
+Turn 1131, G (PhD): But at some point {disfmarker} I mean , we probably shoul
+Turn 1132, D (Grad): We 'll probably add it to the language model .
+Turn 1133, G (PhD): But we should add it to the dictionar
+Turn 1134, D (Grad): Yeah .
+Turn 1135, G (PhD): No , to the pronunciation model .
+Turn 1136, D (Grad): What did I say ?
+Turn 1137, A (PhD): To the language model {disfmarker} model .
+Turn 1138, G (PhD): Language , uh {disfmarker}
+Turn 1139, D (Grad): Well both .
+Turn 1140, B (PhD): Add what , Liz ?
+Turn 1141, D (Grad): We can go on lan lan add it to both dictionary and language model .
+Turn 1142, G (PhD): Oh lan Oh OK - we OK
+Turn 1143, A (PhD): Yeah .
+Turn 1144, G (PhD): it 's in the language model , w yeah , but it so it 's the pronunciation model that has to have a pronunciation of " tickle " .
+Turn 1145, D (Grad): Well " tickle " was pronounced " tickle " . Right ?
+Turn 1146, A (PhD): " tickle " is pronounced " tickle " ?
+Turn 1147, B (PhD): What are you saying ?
+Turn 1148, D (Grad): It 's pronounced the same {disfmarker} it 's pronounced the same as the verb .
+Turn 1149, G (PhD): I 'm sorry !
+Turn 1150, D (Grad): So I think it 's the language model that makes it different .
+Turn 1151, G (PhD): Oh , sorry . What I meant is that there should be a pronunciation " tickle " for TCL as a word .
+Turn 1152, A (PhD): Yeah .
+Turn 1153, D (Grad): Oh I see .
+Turn 1154, G (PhD): And that word in the {disfmarker} in , you know , it stays in the language model wherever it was .
+Turn 1155, F (Professor): Mm - hmm .
+Turn 1156, D (Grad): Right . Right .
+Turn 1157, F (Professor): Right .
+Turn 1158, G (PhD): Yeah you never would put " tickle " in the language model in that form ,
+Turn 1159, E (Postdoc): 
+Turn 1160, D (Grad): Right .
+Turn 1161, G (PhD): yeah . Right . There 's actually a bunch of cases like this with people 's names and {disfmarker}
+Turn 1162, B (PhD): So how w there 'd be a problem for doing the language modeling then with our transcripts the way they are .
+Turn 1163, G (PhD): Yes . Yeah . Yeah so th th there there 's a few cases like that where the um , the word needs to be spelled out in {disfmarker} in a consistent way as it would appear in the language , but there 's not very many of these . Tcl 's one of them .
+Turn 1164, D (Grad): And {disfmarker} and you 'll ha you 'll have to do it sychronously .
+Turn 1165, G (PhD): Um , y yeah .
+Turn 1166, D (Grad): Right , so y so , whoever 's creating the new models , will have to also go through the transcripts and change them synchronously .
+Turn 1167, C (Grad): It 's just disturbing .
+Turn 1168, G (PhD): Right .
+Turn 1169, B (PhD): Hmm .
+Turn 1170, G (PhD): Right . We have this {disfmarker} there is this thing I was gonna talk to you about at some point about , you know , what do we do with the dictionary as we 're up updating the dictionary , these changes have to be consistent with what 's in the {disfmarker} Like spelling people 's names and so forth . If we make a spelling correction to their name , like someone had Deborah Tannen 's name mispelled , and since we know who that is , you know , we could correct it ,
+Turn 1171, D (Grad): You can correct it . Yeah .
+Turn 1172, G (PhD): but {disfmarker} but we need to make sure we have the mispel If it doesn't get corrected we have to have a pronunciation as a mispelled word in the dictionary .
+Turn 1173, E (Postdoc): Mm - hmm .
+Turn 1174, G (PhD): Things like that .
+Turn 1175, D (Grad): These are so funny to read .
+Turn 1176, E (Postdoc): Well , of course now the {disfmarker} the Tannen corre the spelling c change .
+Turn 1177, G (PhD): So .
+Turn 1178, E (Postdoc): Uh , that 's what gets {disfmarker} I {disfmarker} I picked those up in the frequency check .
+Turn 1179, G (PhD): Right . Right . So if there 's things that get corrected before we get them , it 's {disfmarker} it 's not an issue ,
+Turn 1180, E (Postdoc): Mm - hmm .
+Turn 1181, G (PhD): but if there 's things that um , we change later , then we always have to keep our {disfmarker} the dictionary up to date . And then , yeah , in the case of " tickle " I guess we would just have a , you know , word " TCL " which {disfmarker}
+Turn 1182, B (PhD): Mm - hmm .
+Turn 1183, D (Grad): You add it to the dictionary .
+Turn 1184, G (PhD): which normally would be an acronym , you know , " TCL "
+Turn 1185, D (Grad): Right .
+Turn 1186, G (PhD): but just has another pronunciation .
+Turn 1187, D (Grad): Yep .
+Turn 1188, E (Postdoc): " ICSI " is {disfmarker} is one of those that sometimes people pronounce and sometimes they say " ICSI . "
+Turn 1189, D (Grad): Mm - hmm .
+Turn 1190, E (Postdoc): So , those that are l are listed in the acronyms , I actually know
+Turn 1191, G (PhD): Oh yeah .
+Turn 1192, E (Postdoc): they were said as letters . The others , um , e those really do need to be listened to cuz I haven't been able to go to all the IC ICSI things ,
+Turn 1193, G (PhD): Right , exactly .
+Turn 1194, E (Postdoc): and {disfmarker} {comment} and until they 've been listened to they stay as " ICSI " .
+Turn 1195, D (Grad): Mm - hmm .
+Turn 1196, G (PhD): Right .
+Turn 1197, F (Professor): Don and I were just noticing , love this one over on page three , " vocal {disfmarker} vocal gesture mimicking sound of screwing something into head to hold mike in place . "
+Turn 1198, C (Grad): That 's great .
+Turn 1199, D (Grad): It 's this , " rrre - rrre - rrre " . It was me .
+Turn 1200, E (Postdoc): It was ! In fact , it was ! Yeah !
+Turn 1201, D (Grad): A lot of these are me the {disfmarker} the " beep is said with a high pit high pitch and lengthening . "
+Turn 1202, E (Postdoc): He {disfmarker} he s he said {disfmarker} he said get {disfmarker}
+Turn 1203, A (PhD): To head .
+Turn 1204, D (Grad): That was the {disfmarker} I was imitating uh , beeping out {disfmarker}
+Turn 1205, E (Postdoc): Yeah , that 's it .
+Turn 1206, F (Professor): Beep .
+Turn 1207, E (Postdoc): Perfect . Yeah that 's it .
+Turn 1208, F (Professor): Yeah .
+Turn 1209, G (PhD): Oh there is something spelled out " BEEEEEEP "
+Turn 1210, C (Grad): Um {disfmarker}
+Turn 1211, E (Postdoc): That 's it .
+Turn 1212, C (Grad): Yeah .
+Turn 1213, E (Postdoc): Yeah , that 's {disfmarker} that 's been changed .
+Turn 1214, G (PhD): in the old {disfmarker} Thank you . Because he was saying , " How many E 's do I have to allow for ? "
+Turn 1215, C (Grad): You need a lot of {disfmarker}
+Turn 1216, D (Grad): What I meant was " beep " .
+Turn 1217, C (Grad): You need a lot of qualification Adam .
+Turn 1218, D (Grad): I guess so .
+Turn 1219, E (Postdoc): That 's been changed . So , exactly , that 's where the lengthening comment c came in .
+Turn 1220, C (Grad): Subtext .
+Turn 1221, D (Grad): Anyway .
+Turn 1222, E (Postdoc): s chan brought it down .
+Turn 1223, G (PhD): Right , thanks , yeah .
+Turn 1224, D (Grad): So they 're vocalization ,
+Turn 1225, G (PhD): Right .
+Turn 1226, E (Postdoc): And those of course get {disfmarker} get picked up in the frequency check
+Turn 1227, D (Grad): glosses .
+Turn 1228, E (Postdoc): because you see " beep "
+Turn 1229, G (PhD): Right .
+Turn 1230, E (Postdoc): and you know {disfmarker} I mean it gets kicked out in the spelling , and it also gets kicked out in the , uh , freq frequency listing .
+Turn 1231, G (PhD): Right . Right .
+Turn 1232, E (Postdoc): I have the {disfmarker} there 're various things like " breathe " versus " breath " versus " inhale " and , hhh , you know , I don't know . I {disfmarker} I think they don't have any implications for anything else so it 's like I 'm tempted to leave them for now an and {disfmarker} It 's easy enough to find them when they 're in curly brackets . We can always get an exhaustive listing of these things and find them and change them .
+Turn 1233, G (PhD): Yeah .
+Turn 1234, F (Professor): " Sings finale - type song "
+Turn 1235, C (Grad): Yeah , that was in the first meeting .
+Turn 1236, F (Professor): that 's {disfmarker} that 's good .
+Turn 1237, G (PhD): Yeah .
+Turn 1238, D (Grad): Um ,
+Turn 1239, E (Postdoc): Yeah , but I don't actually remember what it was . But that was {disfmarker} Eric did that .
+Turn 1240, F (Professor): Yeah .
+Turn 1241, D (Grad): So on {disfmarker}
+Turn 1242, E (Postdoc): Yeah .
+Turn 1243, F (Professor): Tah - dah ! I don't know .
+Turn 1244, E (Postdoc): I think maybe something like that .
+Turn 1245, F (Professor): Something like that maybe , yeah .
+Turn 1246, E (Postdoc): Well , that 'd qualify .
+Turn 1247, D (Grad): On the glosses for numbers ,
+Turn 1248, E (Postdoc): Yeah .
+Turn 1249, D (Grad): it seems like there are lots of different ways it 's being done .
+Turn 1250, E (Postdoc): OK . Interesting question .
+Turn 1251, D (Grad): There 's a {disfmarker}
+Turn 1252, E (Postdoc): Yes . OK , now first of all {disfmarker} Ooo - ooo ! Very important .
+Turn 1253, D (Grad): " Ooo - ooo . "
+Turn 1254, E (Postdoc): Uh Chuck {disfmarker} Chuck led to a refinement here which is to add " NUMS " if these are parts of the read numbers . Now you already know i that I had , uh , in places where they hadn't transcribed numbers , I put " numbers " in place of any kind of numbers , but there are places where they , um , it {disfmarker} th this convention came later an and at the very first digits task in some transcripts they actually transcribed numbers . And , um , d Chuck pointed out that this is read speech , and it 's nice to have the option of ignoring it for certain other prob uh p uh , things . And that 's why there 's this other tag here which occurs a hundred and five {disfmarker} or three hundred and five times right now which is just {disfmarker} well n n " NUMS " by itself
+Turn 1255, D (Grad): " NUMS " , yeah .
+Turn 1256, E (Postdoc): which means this is part of the numbers task . I may change it to " digits " . I mean , i with the sed command you can really just change it however you want because it 's systematically encoded , you know ?
+Turn 1257, D (Grad): Yep .
+Turn 1258, E (Postdoc): Have to think about what 's the best for {disfmarker} for the overall purposes , but in any case , um , " numbers " and " NUMS " are a part of this digits task thing . Um , now th Then I have these numbers that have quotation marks around them . Um , I didn't want to put them in as gloss comments because then you get the substitution . And actually , th um , {vocalsound} the reason I b did it this way was because I initially started out with the other version , you have the numbers and you have the full form and the parentheses , however sometimes people stumble over these numbers they 're saying . So you say , " Seve - seventy eight point two " , or whatever . And there 's no way of capturing that if you 're putting the numbers off to the side . You can't have the seven and {disfmarker}
+Turn 1259, D (Grad): So what 's to the left of these ?
+Turn 1260, E (Postdoc): The left is i so example the very first one ,
+Turn 1261, D (Grad): Mm - hmm .
+Turn 1262, E (Postdoc): it would be , spelled out in words , " point five " .
+Turn 1263, D (Grad): OK , that 's what I was asking . Right .
+Turn 1264, E (Postdoc): Only it 's spelled out in words .
+Turn 1265, D (Grad): Point FIVE , yeah .
+Turn 1266, E (Postdoc): So i this is also spelled out in {disfmarker} in words . " Point five . "
+Turn 1267, D (Grad): Good .
+Turn 1268, E (Postdoc): And then , in here , " NUMS " , so it 's not going to be mistaken as a gloss . It comes out as " NUMS quote dot five " .
+Turn 1269, D (Grad): OK now , the other example is , in the glosses right there ,
+Turn 1270, E (Postdoc): Thank you .
+Turn 1271, D (Grad): " gloss one one one dash one three zero " .
+Turn 1272, C (Grad): Right .
+Turn 1273, D (Grad): What {disfmarker} what 's to the left of that ?
+Turn 1274, E (Postdoc): Well now {disfmarker} In that case it 's people saying things like " one one one dash so - and - so " or they 're saying uh " two {disfmarker} I mean zero " whatever .
+Turn 1275, D (Grad): OK .
+Turn 1276, E (Postdoc): And in that case , it 's part of the numbers task , and it 's not gonna be included in the read digits anyway ,
+Turn 1277, B (PhD): So there will be a " NUMS " tag on those lines ?
+Turn 1278, E (Postdoc): so {disfmarker} I m in the uh {disfmarker} There is .
+Turn 1279, B (PhD): Yeah .
+Turn 1280, E (Postdoc): Yeah . I 've added that all now too .
+Turn 1281, C (Grad): There 's a " numbers " tag {disfmarker}
+Turn 1282, D (Grad): Good .
+Turn 1283, C (Grad): I 'm sorry I 'm {disfmarker} I didn't follow that last thing .
+Turn 1284, G (PhD): Wait .
+Turn 1285, E (Postdoc): So , so gloss {disfmarker} in the same line that would have " gloss quote one one one dash one thirty " , you 'd have a gloss at the end of the line saying , uh , " curly bracket NUMS curly bracket " .
+Turn 1286, C (Grad): Right .
+Turn 1287, E (Postdoc): So if you {disfmarker} if you did a , uh , a " grep minus V nums "
+Turn 1288, G (PhD): Oh , so you could do " grep minus V nums " .
+Turn 1289, E (Postdoc): and you get rid of anything that was read .
+Turn 1290, G (PhD): So that 's the {disfmarker} yeah .
+Turn 1291, C (Grad): OK .
+Turn 1292, G (PhD): So there wouldn't be something like i if somebody said something like , " Boy , I 'm really tired , OK . " and then started reading that would be on a separate line ?
+Turn 1293, E (Postdoc): Yes .
+Turn 1294, G (PhD): OK great . Cuz I was doing the " grep minus V " quick and dirty and looked like that was working OK ,
+Turn 1295, E (Postdoc): Mm - hmm . Good .
+Turn 1296, G (PhD): but {disfmarker}
+Turn 1297, E (Postdoc): Yep .
+Turn 1298, G (PhD): Great . Now why do we {disfmarker} what 's the reason for having like the point five have the " NUMS " on it ? Is that just like when they 're talking about their data or something ?
+Turn 1299, E (Postdoc): This is more because {disfmarker}
+Turn 1300, G (PhD): Or {disfmarker}
+Turn 1301, E (Postdoc): Yeah . Oh these are all these , the " NUMS point " , this all where they 're saying " point " something or other .
+Turn 1302, G (PhD): These are all like inside the spontaneous {disfmarker}
+Turn 1303, E (Postdoc): And the other thing too is for readability of the transcript . I mean if you 're trying to follow this while you 're reading it it 's really hard to read , you know {disfmarker} eh , " so in the data column five has " , you know , " one point five compared to seventy nine point six " , it 's like when you see the words it 's really hard to follow the argument . And this is just really a {disfmarker} a way of someone who would handle th the data in a more discourse - y way to be able to follow what 's being said .
+Turn 1304, D (Grad): Label it .
+Turn 1305, G (PhD): Oh OK .
+Turn 1306, E (Postdoc): So this is where Chuck 's , um , overall h architecture comes in ,
+Turn 1307, G (PhD): I see .
+Turn 1308, E (Postdoc): where we 're gonna have a master file of the channelized data . Um , there will be scripts that are written to convert it into these t these main two uses and th some scripts will take it down th e into a f a for ta take it to a format that 's usable for the recognizer an uh , other scripts will take it to a form that 's usable for the {disfmarker} for linguistics an and discourse analysis . And , um , the implication that {disfmarker} that I have is that th the master copy will stay unchanged . These will just be things that are generated ,
+Turn 1309, D (Grad): Right
+Turn 1310, E (Postdoc): and e by using scripts .
+Turn 1311, G (PhD): OK .
+Turn 1312, D (Grad): Master copies of superset .
+Turn 1313, E (Postdoc): When things change then the {disfmarker} the script will cham change but the {disfmarker} but there won't be stored copies of {disfmarker} in different versions of things .
+Turn 1314, D (Grad): Good .
+Turn 1315, G (PhD): So , I guess I 'd have one request here which is just , um , maybe to make it more robust , th that the tag , whatever you would choose for this type of " NUMS " {comment} where it 's inside the spontaneous speech , is different than the tag that you use for the read speech .
+Turn 1316, B (PhD): Right . Right . That would argue for changing the other ones to be " digits " or something .
+Turn 1317, G (PhD): Um , that way w if we make a mistake parsing , or something , we don't see the " point five " , or {disfmarker} or it 's not there , then we
+Turn 1318, B (PhD): Mm - hmm .
+Turn 1319, G (PhD): a Just {disfmarker} an And actually for things like " seven eighths " , or people do fractions too I guess , you {disfmarker} maybe you want one overall tag for sort of that would be similar to that ,
+Turn 1320, E (Postdoc): Except {disfmarker}
+Turn 1321, G (PhD): or {disfmarker} As long as they 're sep as they 're different strings that we {disfmarker} that 'll make our p sort of processing more robust .
+Turn 1322, E (Postdoc): Well {disfmarker}
+Turn 1323, G (PhD): Cuz we really will get rid of everything that has the " NUMS " string in it .
+Turn 1324, B (PhD): I suppose what you could do is just make sure that you get rid of everything that has " curly brace NUMS curly brace " .
+Turn 1325, E (Postdoc): Well {disfmarker} Ex - exactly .
+Turn 1326, B (PhD): I mean that would be the {disfmarker}
+Turn 1327, E (Postdoc): Exactly . That was {disfmarker} that was my motivation . And i these can be changed , like I said .
+Turn 1328, G (PhD): Yeah .
+Turn 1329, E (Postdoc): You know , I mean , as I said I was considering changing it to " digits " . And , it just {disfmarker} i you know , it 's just a matter of deciding on whatever it is , and being sure the scripts know .
+Turn 1330, B (PhD): Right .
+Turn 1331, G (PhD): It would probably be safer , if you 're willing , to have a separate tag just because um , then we know for sure . And we can also do counts on them without having to do the processing . But you 're right , we could do it this way , it {disfmarker} it should work . Um ,
+Turn 1332, B (PhD): Yeah , and it makes it {disfmarker} I guess the thing about {disfmarker}
+Turn 1333, G (PhD): but it it 's probably not hard for a person to tell the difference
+Turn 1334, B (PhD): Yeah .
+Turn 1335, G (PhD): because one 's in the context of a {disfmarker} you know , a transcribed word string ,
+Turn 1336, B (PhD): Right .
+Turn 1337, E (Postdoc): The other thing is you can get really so minute with these things
+Turn 1338, G (PhD): and {disfmarker} So {disfmarker}
+Turn 1339, E (Postdoc): and increase the size of the files and the re and decrease the readability to such an extent by simply something like " percent " . Now I {disfmarker} I could have adopted a similar convention for " percent " , but somehow percent is not so hard , you know ?
+Turn 1340, D (Grad): Hmm .
+Turn 1341, E (Postdoc): i It 's just when you have these points and you 're trying to figure out where the decimal places are {disfmarker} And we could always add it later . Percent 's easy to detect . Point however is {disfmarker} is uh a word that has a couple different meanings . And you 'll find both of those in one of these meetings , where he 's saying " well the first point I wanna make is so - and - so " and he goes through four points , and also has all these decimals .
+Turn 1342, B (PhD): So Liz , what does the recognizer do ,
+Turn 1343, E (Postdoc): So .
+Turn 1344, B (PhD): uh ,
+Turn 1345, F (Professor): Hmm .
+Turn 1346, B (PhD): what does the SRI recognizer output for things like that ? " seven point five " . Does it output the word {disfmarker}
+Turn 1347, G (PhD): " Seven point five " .
+Turn 1348, B (PhD): Right , the word " seven " ?
+Turn 1349, D (Grad): Well , the numbers ?
+Turn 1350, B (PhD): The number " seven " ?
+Turn 1351, G (PhD): The word .
+Turn 1352, B (PhD): The word " seven " , OK .
+Turn 1353, F (Professor): Yeah .
+Turn 1354, G (PhD): Yeah .
+Turn 1355, F (Professor): So I 'd {disfmarker} so " I 'd like {disfmarker} I 'd like to talk about point five " .
+Turn 1356, G (PhD): And {disfmarker} and actually , you know the language {disfmarker}
+Turn 1357, F (Professor): Yeah .
+Turn 1358, G (PhD): it 's the same point , actually , the {disfmarker} the p you know , the word " to " and the word y th " going to " and " to go to " those are two different " to 's " and so there 's no distinction there .
+Turn 1359, B (PhD): Mm - hmm .
+Turn 1360, G (PhD): It 's just {disfmarker} just the word " point " has {disfmarker} Yeah , every word has only one , yeah e one version even if {disfmarker} even if it 's {disfmarker} A actually even like the word " read " {comment} and " read " Those are two different words . They 're spelled the same way , right ?
+Turn 1361, B (PhD): Mm - hmm .
+Turn 1362, G (PhD): And they 're still gonna be transcribed as READ .
+Turn 1363, B (PhD): Mm - hmm .
+Turn 1364, F (Professor): Right .
+Turn 1365, G (PhD): So , yeah , I {disfmarker} I like the idea of having this in there , I just {disfmarker} I was a little bit worried that , um , the tag for removing the read speech {disfmarker} because i What if we have like " read letters " or , I don't know ,
+Turn 1366, D (Grad): We might wanna {disfmarker} just a separate tag that says it 's read .
+Turn 1367, G (PhD): like " read something " like " read "
+Turn 1368, C (Grad): Mm - hmm .
+Turn 1369, G (PhD): yeah , basically . But other than that I it sounds great .
+Turn 1370, D (Grad): Yeah . OK ? Are we done ?
+Turn 1371, E (Postdoc): Well I wanted to say also regarding the channelized data ,
+Turn 1372, D (Grad): Oh , I guess we 're not done .
+Turn 1373, B (PhD): Yeah .
+Turn 1374, E (Postdoc): that , um , Thilo requested , um , that we ge get some segments done by hand to e e s reduce the size of the time bins wh like was Chuc - Chuck was mentioning earlier that , um , that , um , if you {disfmarker} if you said , " Oh " and it was in part of a really long , s complex , overlapping segment , that the same start and end times would be held for that one
+Turn 1375, D (Grad): Well {disfmarker}
+Turn 1376, E (Postdoc): as for the longer utterances ,
+Turn 1377, D (Grad): We did that for one meeting , right ,
+Turn 1378, E (Postdoc): and {disfmarker}
+Turn 1379, D (Grad): so you have that data don't you ?
+Turn 1380, A (PhD): Yeah , that 's the training data .
+Turn 1381, E (Postdoc): And he requested that there be , uh , similar , uh , samples done for five minute stretches c involving a variety of speakers and overlapping secti sections .
+Turn 1382, A (PhD): Yeah .
+Turn 1383, E (Postdoc): He gave me {disfmarker} he did the {disfmarker} very nice , he {disfmarker} he did some shopping through the data and found segments that would be useful . And at this point , all four of the ones that he specified have been done . In addition the I 've {disfmarker} I have the transcribers expanding the amount that they 're doing actually .
+Turn 1384, A (PhD): Oh great .
+Turn 1385, E (Postdoc): So right now , um , I know that as of today we got an extra fifteen minutes of that type , and I 'm having them expand the realm on either side of these places where they 've already started .
+Turn 1386, A (PhD): Oh great . OK .
+Turn 1387, E (Postdoc): But if {disfmarker} if {disfmarker} you know , and I {disfmarker} and he 's gonna give me some more sections that {disfmarker} that he thinks would be useful for this purpose .
+Turn 1388, A (PhD): Yeah . Yeah .
+Turn 1389, E (Postdoc): Because it 's true , I mean , if we could do the {disfmarker} the more fine grained tuning of this , uh , using an algorithm , that would be so much more efficient . And , um . So this is gonna be {pause} useful to expand this .
+Turn 1390, A (PhD): So I {disfmarker} I thought we {disfmarker} we sh we sh perhaps we should try to {disfmarker} to start with those channelized versions just to {disfmarker} just to try it . Give it {disfmarker} Give one tr transcriber the {disfmarker} the channelized version of {disfmarker} of my speech - nonspeech detection and look if {disfmarker} if that 's helpful for them , or just let them try if {disfmarker} if that 's better or If they {disfmarker} if they can {disfmarker}
+Turn 1391, E (Postdoc): You mean to start from scratch f in a brand new transcript ?
+Turn 1392, A (PhD): Yeah . Yeah . Yeah .
+Turn 1393, E (Postdoc): That 'd be excellent . Yeah , that 'd be really great . As it stands we 're still in the phase of sort of , um , cleaning up the existing data getting things , uh , in i m more tight tightly time {disfmarker} uh , aligned . I also wanna tell {disfmarker} um , I also wanted to r raise the issue that {disfmarker} OK so , there 's this idea we 're gonna have this master copy of the transcript , it 's gonna be modified by scripts t into these two different functions . And actually the master {disfmarker}
+Turn 1394, B (PhD): Two or more . Two or more different functions .
+Turn 1395, E (Postdoc): Two {disfmarker} two or more . And that the master is gonna be the channelized version .
+Turn 1396, B (PhD): Right .
+Turn 1397, E (Postdoc): So right now we 've taken this i initial one , it was a single channel basically the way it was input . And now , uh , thanks to the advances made in the interface , we can from now on use the channelized part , and , um , any changes that are made get made in the channelized version kind of thing . But I wanted to get all the finished {disfmarker} all the checks {disfmarker}
+Turn 1398, B (PhD): Yeah , so that has implications for your script .
+Turn 1399, C (Grad): Yeah . So , uh , have those {disfmarker} e e the vis the ten hours that have been transcribed already , have those been channelized ? And I know {disfmarker} I 've seen @ @ {disfmarker} I 've seen they 've been channelized ,
+Turn 1400, E (Postdoc): Yes , they have .
+Turn 1401, D (Grad): All ten hours ?
+Turn 1402, C (Grad): but
+Turn 1403, E (Postdoc): Except for the missing thirty minutes .
+Turn 1404, C (Grad): have they uh {disfmarker} have they been {disfmarker} has the time {disfmarker} have the time markings been adjusted , uh , p on a per channel {disfmarker}
+Turn 1405, D (Grad): Great .
+Turn 1406, E (Postdoc): Uh , for {disfmarker} for a total of like twenty m f for a total of {disfmarker} Let 's see , four times {disfmarker} total of about an {disfmarker} {pause} thirty minutes . That 's {disfmarker} that 's been the case .
+Turn 1407, C (Grad): So ,
+Turn 1408, E (Postdoc): And plus the training , whatever you have .
+Turn 1409, C (Grad): I guess , I mean , I don't know if we should talk about this now , or not , but I
+Turn 1410, D (Grad): Well it 's just we 're {pause} missing tea .
+Turn 1411, C (Grad): Yeah , I know .
+Turn 1412, D (Grad): So .
+Turn 1413, C (Grad): No , but I mean my question is like should I wait until all of those are processed , and channelized , like the time markings are adjusted before I do all the processing , and we start like branching off into the {disfmarker} into the {disfmarker} our layer of uh transcripts .
+Turn 1414, E (Postdoc): Well , you know the problem {disfmarker} the problem is that some {disfmarker} some of the adjustments that they 're making are to bring {disfmarker} are to combine bins that were {disfmarker} time bins which were previously separate . And the reason they do that is sometimes there 's a word that 's cut off .
+Turn 1415, C (Grad): Right .
+Turn 1416, E (Postdoc): And so , i i i it 's true that it 's likely to be adjusted in the way that the words are more complete . And ,
+Turn 1417, C (Grad): OK . No I know {disfmarker} I know that adjusting those things are gonna {disfmarker} is gonna make it better .
+Turn 1418, E (Postdoc): so I {disfmarker} it 's gonna be a more reliable thing and I 'm not sure {disfmarker}
+Turn 1419, C (Grad): I mean I 'm sure about that ,
+Turn 1420, E (Postdoc): Yeah .
+Turn 1421, C (Grad): but do you have like a time frame when you can expect like all of it to be done , or when you expect them to finish it , or {disfmarker}
+Turn 1422, E (Postdoc): Well partly it depends on how {disfmarker} um , how e effective it will be to apply an algorithm because i this takes time ,
+Turn 1423, C (Grad): Yeah . Yeah .
+Turn 1424, E (Postdoc): you know , it takes a couple hours t to do , uh , ten minutes .
+Turn 1425, C (Grad): Yeah , I don't doubt it . Um , so .
+Turn 1426, B (PhD): So right now the {disfmarker} what you 're doing is you 're taking the {disfmarker} uh , the o original version and you 're sort of channelizing yourself , right ?
+Turn 1427, C (Grad): Yeah . I 'm doing it myself . I mean i if the time markings aren't different across channels , like the channelized version really doesn't have any more information .
+Turn 1428, B (PhD): Mm - hmm .
+Turn 1429, C (Grad): So , I was just {disfmarker} I mean , originally I had done before like the channelized versions were coming out .
+Turn 1430, B (PhD): Right . Right .
+Turn 1431, C (Grad): Um ,
+Turn 1432, B (PhD): So I {disfmarker} I th I think probably the way it 'll go is that , you know , when we make this first general version and then start working on the script , that script @ @ that will be ma you know primarily come from what you 've done , um , we 'll need to work on a channelized version of those originals .
+Turn 1433, C (Grad): and so it 's a question of like what {disfmarker} Mm - hmm . Mm - hmm .
+Turn 1434, E (Postdoc): Mm - hmm .
+Turn 1435, B (PhD): And so it should be pretty much identical to what you have t except for the one that they 've already tightened the boundaries on .
+Turn 1436, E (Postdoc): Yep . Mm - hmm .
+Turn 1437, C (Grad): Right .
+Turn 1438, B (PhD): Um , So
+Turn 1439, E (Postdoc): Yeah , I mean {disfmarker}
+Turn 1440, B (PhD): uh , and then probably what will happen is as the transcribers finish tightening more and more , you know , that original version will get updated
+Turn 1441, E (Postdoc): yeah .
+Turn 1442, B (PhD): and then we 'll rerun the script and produce better uh versions .
+Turn 1443, C (Grad): OK .
+Turn 1444, B (PhD): But the {disfmarker} I guess the ef the effect for you guys , because you 're pulling out the little wave forms into separate ones , that would mean these boundaries are constantly changing you 'd have to constantly re rerun that ,
+Turn 1445, C (Grad): I know .
+Turn 1446, B (PhD): so , maybe {disfmarker}
+Turn 1447, C (Grad): Right .
+Turn 1448, E (Postdoc): But that {disfmarker}
+Turn 1449, G (PhD): But that {disfmarker} that 's not hard .
+Turn 1450, E (Postdoc): Mm - hmm .
+Turn 1451, C (Grad): No .
+Turn 1452, G (PhD): I I think the harder part is making sure that the transc the transcription {disfmarker}
+Turn 1453, B (PhD): OK .
+Turn 1454, G (PhD): So if you b merge two things , then you know that it 's the sum of the transcripts , but if you split inside something , you don't where the word {disfmarker} which words moved .
+Turn 1455, B (PhD): Mm - hmm . Mm - hmm .
+Turn 1456, G (PhD): And that 's wh that 's where it becomes a little bit {disfmarker} uh , having to rerun the processing .
+Turn 1457, B (PhD): Mm - hmm .
+Turn 1458, G (PhD): The cutting of the waveforms is pretty trivial .
+Turn 1459, C (Grad): Yeah . I mean as long as it can all be done automatically , I mean , then that 's not a concern .
+Turn 1460, B (PhD): Mm - hmm .
+Turn 1461, C (Grad): You know , if I just have to run three scripts to extract it all and let it run on my computer for an hour and a half , or however long it takes to parse and create all the reference file , that 's not a problem .
+Turn 1462, G (PhD): Right .
+Turn 1463, B (PhD): Yeah . Uh - huh . Mm - hmm .
+Turn 1464, C (Grad): Um , so yeah . As long as we 're at that point . And I know exactly like what the steps will work {disfmarker} what 's going on , in the editing process ,
+Turn 1465, B (PhD): Yeah .
+Turn 1466, C (Grad): so . OK .
+Turn 1467, E (Postdoc): So that 's {disfmarker} I I mean I could {disfmarker} there were other checks that I did , but it 's {disfmarker} I think that we 've {disfmarker} unless you think there 's anything else , I think that I 've covered it .
+Turn 1468, F (Professor): Yeah .
+Turn 1469, B (PhD): I can't think of any of the {disfmarker} other ones .
+Turn 1470, E (Postdoc): OK . Great .
+Turn 1471, F (Professor): OK .
+Turn 1472, D (Grad): Oop ! Man !

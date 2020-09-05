@@ -1,0 +1,602 @@
+Turn 0, A (PhD): OK , we 're on .
+Turn 1, C (Professor): OK , what are we talking about today ?
+Turn 2, B (PhD): I don't know . Do you have news from the conference talk ? Uh , that was programmed for yesterday {disfmarker} I guess .
+Turn 3, C (Professor): Uh {disfmarker}
+Turn 4, D (PhD): Yesterday
+Turn 5, C (Professor): Uh {disfmarker}
+Turn 6, D (PhD): Yesterday morning on video conference .
+Turn 7, C (Professor): Uh ,
+Turn 8, B (PhD): Well
+Turn 9, C (Professor): oh , I 'm sorry .
+Turn 10, E (Grad): Oh . Conference call .
+Turn 11, C (Professor): I know {disfmarker} now I know what you 're talking about . No , nobody 's told me anything .
+Turn 12, B (PhD): Alright .
+Turn 13, A (PhD): Oh , this was the , uh , talk where they were supposed to try to decide {disfmarker}
+Turn 14, B (PhD): To {disfmarker} to decide what to do ,
+Turn 15, A (PhD): Ah , right .
+Turn 16, B (PhD): yeah .
+Turn 17, D (PhD): Yeah .
+Turn 18, C (Professor): Yeah . No , that would have been a good thing to find out before this meeting , that 's . No , I have no {disfmarker} I have no idea . Um , Uh , so I mean , let 's {disfmarker} let 's assume for right now that we 're just kind of plugging on ahead ,
+Turn 19, B (PhD): Yeah .
+Turn 20, C (Professor): because even if they tell us that , uh , the rules are different , uh , we 're still interested in doing what we 're doing . So what are you doing ?
+Turn 21, B (PhD): Mm - hmm . Uh , well , we 've {disfmarker} a little bit worked on trying to see , uh , what were the bugs and the problem with the latencies .
+Turn 22, D (PhD): To improve {disfmarker}
+Turn 23, B (PhD): So , We took {disfmarker} first we took the LDA filters and , {vocalsound} uh , we designed new filters , using uh recursive filters actually .
+Turn 24, C (Professor): So when you say " we " , is that something Sunil is doing or is that {disfmarker} ?
+Turn 25, B (PhD): I 'm sorry ?
+Turn 26, C (Professor): Who is doing that ?
+Turn 27, B (PhD): Uh , us . Yeah .
+Turn 28, C (Professor): Oh , oh . Oh , OK .
+Turn 29, B (PhD): So we took the filters {disfmarker} the FIR filters {vocalsound} and we {comment} designed , uh , IIR filters that have the same frequency response .
+Turn 30, D (PhD): But {disfmarker}
+Turn 31, C (Professor): Mm - hmm .
+Turn 32, B (PhD): Well , similar , but that have shorter delays .
+Turn 33, C (Professor): Mm - hmm .
+Turn 34, B (PhD): So they had two filters , one for the low frequency bands and another for the high frequency bands . And so we redesigned two filters . And the low frequency band has sixty - four milliseconds of delay , and the high frequency band filter has something like eleven milliseconds compared to the two hundred milliseconds of the IIR filters . But it 's not yet test . So we have the filters but we still have to implement a routine that does recursive filtering
+Turn 35, C (Professor): OK .
+Turn 36, B (PhD): and {disfmarker}
+Turn 37, C (Professor): You {disfmarker} you had a discussion with Sunil about this though ?
+Turn 38, B (PhD): No . No .
+Turn 39, C (Professor): Uh - huh . Yeah , you should talk with him .
+Turn 40, B (PhD): Yeah , yeah .
+Turn 41, C (Professor): Yeah . No , I mean , because the {disfmarker} the {disfmarker} the {disfmarker} the whole problem that happened before was coordination ,
+Turn 42, B (PhD): Mm - hmm .
+Turn 43, C (Professor): right ? So {disfmarker} so you need to discuss with him what we 're doing ,
+Turn 44, B (PhD): Yeah .
+Turn 45, C (Professor): uh , cuz they could be doing the same thing and {disfmarker} or something .
+Turn 46, B (PhD): Mm - hmm . Uh , I {disfmarker} yeah , I don't know if th that 's what they were trying to {disfmarker} They were trying to do something different like taking , uh {disfmarker} well , using filter that takes only a past
+Turn 47, C (Professor): Right .
+Turn 48, B (PhD): and this is just a little bit different . But I will I will send him an email and tell him exactly what we are doing , so .
+Turn 49, C (Professor): Yeah , yeah . Um ,
+Turn 50, B (PhD): Um ,
+Turn 51, C (Professor): I mean {disfmarker} We just {disfmarker} we just have to be in contact more . I think that {disfmarker} the {disfmarker} the fact that we {disfmarker} we did that with {disfmarker} had that thing with the latencies was indicative of the fact that there wasn't enough communication .
+Turn 52, B (PhD): Mm - hmm .
+Turn 53, C (Professor): So .
+Turn 54, B (PhD): Alright .
+Turn 55, C (Professor): OK .
+Turn 56, B (PhD): Um , Yeah . Well , there is w one , um , remark about these filters , that they don't have a linear phase . So ,
+Turn 57, C (Professor): Right .
+Turn 58, B (PhD): Well , I don't know , perhaps it {disfmarker} perhaps it doesn't hurt because the phase is almost linear but . Um , and so , yeah , for the delay I gave you here , it 's {disfmarker} it 's , uh , computed on the five hertz modulation frequency , which is the {disfmarker} mmm , well , the most important for speech so . Uh , this is the first thing .
+Turn 59, C (Professor): So that would be , uh , a reduction of a hundred and thirty - six milliseconds ,
+Turn 60, D (PhD): The low f f
+Turn 61, B (PhD): Yeah .
+Turn 62, C (Professor): which , uh {disfmarker} What was the total we ended up with through the whole system ?
+Turn 63, B (PhD): Three hundred and thirty .
+Turn 64, C (Professor): So that would be within {disfmarker} ?
+Turn 65, B (PhD): Yeah , but there are other points actually , uh , which will perhaps add some more delay . Is that some other {disfmarker} other stuff in the process were perhaps not very {disfmarker} um perf well , not very correct , like the downsampling which w was simply dropping frames .
+Turn 66, C (Professor): Yeah .
+Turn 67, B (PhD): Um , so we will try also to add a nice downsampling having a filter that {disfmarker} that {disfmarker}
+Turn 68, C (Professor): Uh - huh .
+Turn 69, B (PhD): well , a low - pass filter at {disfmarker} at twenty - five hertz . Uh , because wh when {disfmarker} when we look at the LDA filters , well , they are basically low - pass but they leave a lot of what 's above twenty - five hertz .
+Turn 70, C (Professor): Yeah .
+Turn 71, B (PhD): Um , and so , yeah , this will be another filter which would add ten milliseconds again .
+Turn 72, C (Professor): Yeah .
+Turn 73, B (PhD): Um , yeah , and then there 's a third thing , is that , um , basically the way on - line normalization was done uh , is just using this recursion on {disfmarker} on the um , um , on the feature stream ,
+Turn 74, C (Professor): Yeah .
+Turn 75, B (PhD): and {disfmarker} but this is a filter , so it has also a delay . Uh , and when we look at this filter actually it has a delay of eighty - five milliseconds . So if we {disfmarker}
+Turn 76, C (Professor): Eighty - five .
+Turn 77, B (PhD): Yeah . If we want to be very correct , so if we want to {disfmarker} the estimation of the mean t t to {disfmarker} to be {disfmarker} well , the right estimation of the mean , we have to t to take eighty - five milliseconds in the future . Mmm .
+Turn 78, C (Professor): Hmm ! That 's a little bit of a problem .
+Turn 79, B (PhD): Yeah . Um , But , well , when we add up everything it 's {disfmarker} it will be alright . We would be at six so , sixty - five , plus ten , plus {disfmarker} for the downsampling , plus eighty - five for the on - line normalization . So it 's
+Turn 80, C (Professor): Uh ,
+Turn 81, B (PhD): plus {disfmarker} plus eighty for the neural net and PCA .
+Turn 82, C (Professor): yeah , but then there 's {disfmarker} Oh .
+Turn 83, B (PhD): So it would be around two hundred and forty {disfmarker} so , well ,
+Turn 84, C (Professor): Just {disfmarker} just barely in there .
+Turn 85, B (PhD): plus {disfmarker} plus the frames , but it 's OK .
+Turn 86, A (PhD): What 's the allowable ?
+Turn 87, C (Professor): Two - fifty , unless they changed the rules .
+Turn 88, B (PhD): Hmm .
+Turn 89, C (Professor): Which there is {disfmarker} there 's some discussion of .
+Turn 90, A (PhD): What were they thinking of changing it to ?
+Turn 91, C (Professor): But {disfmarker}
+Turn 92, B (PhD): Yeah .
+Turn 93, C (Professor): Uh , well the people who had very low latency want it to be low {disfmarker} uh , very {disfmarker} {vocalsound} very very narrow , uh , latency bound . And the people who have longer latency don't . So .
+Turn 94, A (PhD): Huh .
+Turn 95, B (PhD): So , yeah .
+Turn 96, C (Professor): Unfortunately we 're the main ones with long latency , but
+Turn 97, A (PhD): Ah !
+Turn 98, C (Professor): But , uh ,
+Turn 99, B (PhD): Yeah , and basically the best proposal had something like thirty or forty milliseconds of latency .
+Turn 100, C (Professor): you know , it 's {disfmarker} Yeah .
+Turn 101, B (PhD): So . Well .
+Turn 102, C (Professor): Yeah , so they were basically {disfmarker} I mean , they were more or less trading computation for performance and we were , uh , trading latency for performance . And they were dealing with noise explicitly and we weren't , and so I think of it as complementary , that if we can put the {disfmarker}
+Turn 103, A (PhD): Think of it as what ?
+Turn 104, C (Professor): Complementary .
+Turn 105, A (PhD): Hmm .
+Turn 106, C (Professor): I think the best systems {disfmarker} so , uh , everything that we did in in a way it was {disfmarker} it was just adamantly insisting on going in with a brain damaged system , which is something {disfmarker} actually , we 've done a lot over the last thirteen years . Uh , {vocalsound} which is we say , well this is the way we should do it . And then we do it . And then someone else does something that 's straight forward . So , w th w this was a test that largely had additive noise and we did {disfmarker} we adde did absolutely nothing explicitly to handle ad additive noise .
+Turn 107, A (PhD): Right .
+Turn 108, C (Professor): We just , uh , you know , trained up systems to be more discriminant . And , uh , we did this , uh , RASTA - like filtering which was done in the log domain and was tending to handle convolutional noise . We did {disfmarker} we actually did nothing about additive noise . So , um , the , uh , spectral sub subtraction schemes a couple places did seem to seem to do a nice job . And so , uh , we 're talking about putting {disfmarker} putting some of that in while still keeping some of our stuff . I think you should be able to end up with a system that 's better than both but clearly the way that we 're operating for this other stuff does involved some latency to {disfmarker} to get rid of most of that latency . To get down to forty or fifty milliseconds we 'd have to throw out most of what we 're doing . And {disfmarker} and , uh , I don't think there 's any good reason for it in the application actually . I mean , you 're {disfmarker} you 're {disfmarker} you 're speaking to a recognizer on a remote server and , uh , having a {disfmarker} a {disfmarker} a quarter second for some processing to clean it up . It doesn't seem like it 's that big a deal .
+Turn 109, A (PhD): Mm - hmm .
+Turn 110, C (Professor): These aren't large vocabulary things so the decoder shouldn't take a really long time , and .
+Turn 111, A (PhD): And I don't think anybody 's gonna notice the difference between a quarter of a second of latency and thirty milliseconds of latency .
+Turn 112, C (Professor): So . No . What {disfmarker} what does {disfmarker} wa was your experience when you were doing this stuff with , uh , the {disfmarker} the {disfmarker} the surgical , uh , uh , microscopes and so forth . Um , how long was it from when somebody , uh , finished an utterance to when , uh , something started happening ?
+Turn 113, A (PhD): Um , we had a silence detector , so we would look for the end of an utterance based on the silence detector .
+Turn 114, C (Professor): Mm - hmm .
+Turn 115, A (PhD): And I {disfmarker} I can't remember now off the top of my head how many frames of silence we had to detect before we would declare it to be the end of an utterance .
+Turn 116, C (Professor): Mm - hmm . Mm - hmm .
+Turn 117, A (PhD): Um , but it was , uh , I would say it was probably around the order of two hundred and fifty milliseconds .
+Turn 118, C (Professor): Yeah , and that 's when you 'd start doing things .
+Turn 119, A (PhD): Yeah , we did the back trace at that point to get the answer .
+Turn 120, C (Professor): Yeah . Of course that didn't take too long at that point .
+Turn 121, A (PhD): No , no it was pretty quick .
+Turn 122, C (Professor): Yeah .
+Turn 123, A (PhD): So {disfmarker}
+Turn 124, C (Professor): Yeah , so you {disfmarker} you {disfmarker} so you had a
+Turn 125, A (PhD): this w
+Turn 126, C (Professor): so you had a {disfmarker} a quarter second delay before , uh , plus some little processing time ,
+Turn 127, A (PhD): Right .
+Turn 128, C (Professor): and then the {disfmarker} the microscope would start moving or something .
+Turn 129, A (PhD): Right .
+Turn 130, C (Professor): Yeah .
+Turn 131, A (PhD): Right .
+Turn 132, C (Professor): And there 's physical inertia there , so probably the {disfmarker} the motion itself was all {disfmarker}
+Turn 133, A (PhD): And it felt to , uh , the users that it was instantaneous . I mean , as fast as talking to a person . It {disfmarker} th I don't think anybody ever complained about the delay .
+Turn 134, C (Professor): Yeah , so you would think as long as it 's under half a second or something .
+Turn 135, A (PhD): Yeah .
+Turn 136, C (Professor): Uh , I 'm not an expert on that
+Turn 137, A (PhD): Yeah .
+Turn 138, C (Professor): but .
+Turn 139, A (PhD): I don't remember the exact numbers but it was something like that .
+Turn 140, C (Professor): Yeah .
+Turn 141, A (PhD): I don't think you can really tell . A person {disfmarker} I don't think a person can tell the difference between , uh , you know , a quarter of a second and a hundred milliseconds , and {disfmarker} I 'm not even sure if we can tell the difference between a quarter of a second and half a second .
+Turn 142, C (Professor): Yeah .
+Turn 143, A (PhD): I mean it just {disfmarker} it feels so quick .
+Turn 144, C (Professor): Yeah . I mean , basically if you {disfmarker} yeah , if you said , uh , um , " what 's the , uh , uh {disfmarker} what 's the shortest route to the opera ? " and it took half a second to get back to you ,
+Turn 145, A (PhD): Yeah .
+Turn 146, C (Professor): I mean , {vocalsound} it would be f I mean , it might even be too abrupt . You might have to put in a s a s {vocalsound} a delay .
+Turn 147, A (PhD): Yeah . I mean , it may feel different than talking to a person
+Turn 148, C (Professor): Yeah .
+Turn 149, A (PhD): because when we talk to each other we tend to step on each other 's utterances . So like if I 'm asking you a question , you may start answering before I 'm even done .
+Turn 150, C (Professor): Yeah .
+Turn 151, A (PhD): So it {disfmarker} it would probably feel different
+Turn 152, C (Professor): Right .
+Turn 153, A (PhD): but I don't think it would feel slow .
+Turn 154, C (Professor): Right . Well , anyway , I mean , I think {disfmarker} we could cut {disfmarker} we know what else , we could cut down on the neural net time by {disfmarker} by , uh , playing around a little bit , going more into the past , or something like that . We t we talked about that .
+Turn 155, A (PhD): So is the latency from the neural net caused by how far ahead you 're looking ?
+Turn 156, C (Professor): Mm - hmm .
+Turn 157, B (PhD): Mm - hmm .
+Turn 158, C (Professor): And there 's also {disfmarker} well , there 's the neural net and there 's also this , uh , uh , multi - frame , uh , uh , KLT .
+Turn 159, A (PhD): Wasn't there {disfmarker} Was it in the , uh , recurrent neural nets where they weren't looking ahead at all ?
+Turn 160, C (Professor): They weren't looking ahead much . They p they looked ahead a little bit .
+Turn 161, A (PhD): A little bit . OK .
+Turn 162, C (Professor): Yeah . Yeah , I mean , you could do this with a recurrent net . And {disfmarker} and then {disfmarker} But you also could just , um , I mean , we haven't experimented with this but I imagine you could , um , uh , predict a , uh {disfmarker} um , a label , uh , from more in the past than in {disfmarker} than {disfmarker} than in the future . I mean , we 've d we 've done some stuff with that before . I think it {disfmarker} it works OK .
+Turn 163, B (PhD): Mm - hmm .
+Turn 164, A (PhD): We 've always had {disfmarker} usually we used the symmetric windows
+Turn 165, C (Professor): So .
+Turn 166, A (PhD): but I don't think {disfmarker}
+Turn 167, C (Professor): Yeah , but we 've {disfmarker} but we played a little bit with {disfmarker} with asymmetric , guys .
+Turn 168, A (PhD): Yeah .
+Turn 169, C (Professor): You can do it . So . So , that 's what {disfmarker} that 's what you 're busy with , s messing around with this ,
+Turn 170, B (PhD): Uh , yeah .
+Turn 171, C (Professor): yeah . And , uh ,
+Turn 172, D (PhD): Also we were thinking to {disfmarker} to , uh , apply the eh , spectral subtraction from Ericsson
+Turn 173, B (PhD): Yeah .
+Turn 174, C (Professor): Uh - huh .
+Turn 175, D (PhD): and to {disfmarker} to change the contextual KLT for LDA .
+Turn 176, A (PhD): Change the what ?
+Turn 177, D (PhD): The contextual KLT .
+Turn 178, A (PhD): I 'm missing that last word . Context
+Turn 179, C (Professor): K {disfmarker} KLT .
+Turn 180, A (PhD): KLT .
+Turn 181, D (PhD): KLT {disfmarker}
+Turn 182, E (Grad): Oh . KLT .
+Turn 183, A (PhD): Oh , KLT .
+Turn 184, C (Professor): Mm - hmm .
+Turn 185, A (PhD): Uh - huh .
+Turn 186, D (PhD): KLT , I 'm sorry . Uh , to change and use LDA discriminative .
+Turn 187, B (PhD): Yeah .
+Turn 188, C (Professor): Uh - huh .
+Turn 189, D (PhD): But {disfmarker} I don't know .
+Turn 190, C (Professor): Uh ,
+Turn 191, A (PhD): What is the advantage of that ?
+Turn 192, D (PhD): Uh {disfmarker}
+Turn 193, B (PhD): Well , it 's that by the for the moment we have , uh , something that 's discriminant and nonlinear . And the other is linear but it 's not discriminant at all . Well , it 's it 's a linear transformation , that {disfmarker} Uh {disfmarker}
+Turn 194, C (Professor): So at least just to understand maybe what the difference was between how much you were getting from just putting the frames together and how much you 're getting from the discriminative , what the nonlinearity does for you or doesn't do for you . Just to understand it a little better I guess .
+Turn 195, B (PhD): Mmm . Well {disfmarker} uh {disfmarker} yeah . Actually what we want to do , perhaps it 's to replace {disfmarker} to {disfmarker} to have something that 's discriminant but linear , also . And to see if it {disfmarker} if it improves ov over {disfmarker} over the non - discriminant linear transformation .
+Turn 196, A (PhD): Hmm .
+Turn 197, B (PhD): And if the neural net is better than this or , well . So .
+Turn 198, C (Professor): Yeah , well , that 's what I meant , is to see whether {disfmarker} whether it {disfmarker} having the neural net really buys you anything .
+Turn 199, B (PhD): Ye Mmm .
+Turn 200, C (Professor): Uh , I mean , it doe did look like it buys you something over just the KLT .
+Turn 201, B (PhD): Yeah .
+Turn 202, C (Professor): But maybe it 's just the discrimination and {disfmarker} and maybe {disfmarker} yeah , maybe the nonlinear discrimination isn't necessary .
+Turn 203, D (PhD): S maybe .
+Turn 204, B (PhD): Yeah . Mm - hmm .
+Turn 205, C (Professor): Could be .
+Turn 206, D (PhD): Maybe .
+Turn 207, C (Professor): Good {disfmarker} good to know . But the other part you were saying was the spectral subtraction , so you just kind of , uh {disfmarker}
+Turn 208, B (PhD): Yeah .
+Turn 209, C (Professor): At what stage do you do that ? Do you {disfmarker} you 're doing that , um {disfmarker} ?
+Turn 210, B (PhD): So it would be on the um {disfmarker} on {disfmarker} on the mel frequency bands ,
+Turn 211, D (PhD): We was think
+Turn 212, B (PhD): so . Yeah , be before everything .
+Turn 213, C (Professor): OK ,
+Turn 214, D (PhD): Yeah ,
+Turn 215, C (Professor): so just do that on the mel f
+Turn 216, D (PhD): we {disfmarker} no {disfmarker} nnn We {disfmarker} we was thinking to do before after VAD or
+Turn 217, B (PhD): Yeah ,
+Turn 218, D (PhD): Oh , {comment} we don't know exactly when it 's better .
+Turn 219, B (PhD): um {disfmarker}
+Turn 220, D (PhD): Before after VAD or {disfmarker}
+Turn 221, C (Professor): So {disfmarker} so you know that {disfmarker} that {disfmarker} that the way that they 're {disfmarker}
+Turn 222, D (PhD): and then
+Turn 223, B (PhD): Um .
+Turn 224, C (Professor): uh , one thing that would be no {disfmarker} good to find out about from this conference call is that what they were talking about , what they 're proposing doing , was having a third party , um , run a good VAD , and {disfmarker} and determine boundaries .
+Turn 225, D (PhD): Yeah .
+Turn 226, C (Professor): And then given those boundaries , then have everybody do the recognition .
+Turn 227, D (PhD): Begin to work .
+Turn 228, C (Professor): The reason for that was that , um , uh {disfmarker} if some one p one group put in the VAD and another didn't , uh , or one had a better VAD than the other since that {disfmarker} they 're not viewing that as being part of the {disfmarker} the task , and that any {disfmarker} any manufacturer would put a bunch of effort into having some s kind of good speech - silence detection . It still wouldn't be perfect but I mean , e the argument was " let 's not have that be part of this test . " " Let 's {disfmarker} let 's separate that out . " And so , uh , I guess they argued about that yesterday and , yeah , I 'm sorry , I don't {disfmarker} don't know the answer but we should find out . I 'm sure we 'll find out soon what they , uh {disfmarker} what they decided . So , uh {disfmarker} Yeah , so there 's the question of the VAD but otherwise it 's {disfmarker} it 's on the {disfmarker} the , uh {disfmarker} the mel fil filter bank , uh , energies I guess ?
+Turn 229, D (PhD): Mm - hmm .
+Turn 230, B (PhD): Mmm , yeah .
+Turn 231, C (Professor): You do {disfmarker} doing the {disfmarker} ?
+Turn 232, D (PhD): Mm - hmm .
+Turn 233, C (Professor): And you 're {disfmarker} you 're subtracting in the {disfmarker} in the {disfmarker} in the {disfmarker} I guess it 's power {disfmarker} power domain , uh , or {disfmarker} or magnitude domain . Probably power domain , right ?
+Turn 234, B (PhD): I guess it 's power domain , yeah .
+Turn 235, C (Professor): why
+Turn 236, B (PhD): I don't remember exactly .
+Turn 237, C (Professor): Yeah ,
+Turn 238, D (PhD): I don't remember .
+Turn 239, B (PhD): But {disfmarker} yeah , so it 's before everything else ,
+Turn 240, C (Professor): yep .
+Turn 241, B (PhD): and {disfmarker}
+Turn 242, C (Professor): I mean , if you look at the theory , it 's {disfmarker} it should be in the power domain but {disfmarker} but , uh , I 've seen implementations where people do it in the magnitude domain
+Turn 243, B (PhD): Yeah .
+Turn 244, C (Professor): and {disfmarker}
+Turn 245, B (PhD): Mmm .
+Turn 246, C (Professor): I have asked people why and they shrug their shoulders and say , " oh , it works . " So .
+Turn 247, B (PhD): Yeah .
+Turn 248, C (Professor): Uh , and there 's this {disfmarker} I guess there 's this mysterious {disfmarker} I mean people who do this a lot I guess have developed little tricks of the trade . I mean , there 's {disfmarker} there 's this , um {disfmarker} you don't just subtract the {disfmarker} the estimate of the noise spectrum . You subtract th that times {disfmarker}
+Turn 249, B (PhD): A little bit more and {disfmarker} Yeah .
+Turn 250, C (Professor): Or {disfmarker} or less , or {disfmarker}
+Turn 251, A (PhD): Really ?
+Turn 252, B (PhD): Yeah .
+Turn 253, A (PhD): Huh !
+Turn 254, C (Professor): Yeah .
+Turn 255, B (PhD): And generated this {disfmarker} this ,
+Turn 256, C (Professor): Uh .
+Turn 257, B (PhD): um , so you have the estimation of the power spectra of the noise , and you multiply this by a factor which is depend dependent on the SNR . So . Well .
+Turn 258, D (PhD): Hmm , maybe .
+Turn 259, A (PhD): Hmm !
+Turn 260, B (PhD): When the speech lev when the signal level is more important , compared to this noise level , the coefficient is small , and around one . But when the power le the s signal level is uh small compared to the noise level , the coefficient is more important . And this reduce actually the music musical noise ,
+Turn 261, A (PhD): Oh !
+Turn 262, B (PhD): uh which is more important during silence portions ,
+Turn 263, A (PhD): Uh - huh .
+Turn 264, B (PhD): when the s the energy 's small .
+Turn 265, A (PhD): Hmm !
+Turn 266, B (PhD): So there are tricks like this but , mmm .
+Turn 267, A (PhD): Hmm !
+Turn 268, C (Professor): Yeah .
+Turn 269, B (PhD): Yeah .
+Turn 270, C (Professor): So .
+Turn 271, A (PhD): Is the estimate of the noise spectrum a running estimate ? Or {disfmarker}
+Turn 272, B (PhD): Yeah .
+Turn 273, C (Professor): Yeah .
+Turn 274, B (PhD): Yeah .
+Turn 275, C (Professor): Well , that 's {disfmarker} I mean , that 's what differs from different {disfmarker} different tasks and different s uh , spectral subtraction methods .
+Turn 276, A (PhD): Hmm !
+Turn 277, C (Professor): I mean , if {disfmarker} if you have , uh , fair assurance that , uh , the noise is {disfmarker} is quite stationary , then the smartest thing to do is use as much data as possible to estimate the noise , get a much better estimate , and subtract it off .
+Turn 278, A (PhD): Mm - hmm .
+Turn 279, C (Professor): But if it 's varying at all , which is gonna be the case for almost any real situation , you have to do it on - line , uh , with some forgetting factor or something .
+Turn 280, A (PhD): So do you {disfmarker} is there some long window that extends into the past over which you calculate the average ?
+Turn 281, C (Professor): Well , there 's a lot of different ways of computing the noise spectrum . So one of the things that , uh , Hans - Guenter Hirsch did , uh {disfmarker} and pas and other people {disfmarker} actually , he 's {disfmarker} he wasn't the only one I guess , was to , uh , take some period of {disfmarker} of {disfmarker} of speech and in each band , uh , develop a histogram . So , to get a decent histogram of these energies takes at least a few seconds really . But , uh {disfmarker} I mean you can do it with a smaller amount but it 's pretty rough . And , um , in fact I think the NIST standard method of determining signal - to - noise ratio is based on this .
+Turn 282, A (PhD): A couple seconds ?
+Turn 283, C (Professor): So {disfmarker} No , no , it 's based on this kind of method ,
+Turn 284, A (PhD): Hmm .
+Turn 285, C (Professor): this histogram method . So you have a histogram . Now , if you have signal and you have noise , you basically have these two bumps in the histogram , which you could approximate as two Gaussians .
+Turn 286, A (PhD): But wh don't they overlap sometimes ?
+Turn 287, C (Professor): Oh , yeah .
+Turn 288, A (PhD): OK .
+Turn 289, C (Professor): So you have a mixture of two Gaussians .
+Turn 290, A (PhD): Yeah .
+Turn 291, C (Professor): Right ? And you can use EM to figure out what it is . You know .
+Turn 292, A (PhD): Yeah .
+Turn 293, C (Professor): So {disfmarker} so basically now you have this mixture of two Gaussians , you {disfmarker} you n know what they are , and , uh {disfmarker} I mean , sorry , you estimate what they are , and , uh , so this gives you what the signal is and what the noise e energy is in that band in the spectrum . And then you look over the whole thing and now you have a noise spectrum . So , uh , Hans - Guenter Hirsch and others have used that kind of method . And the other thing to do is {disfmarker} which is sort of more trivial and obvious {comment} {disfmarker} is to , uh , uh , determine through magical means that {disfmarker} that , uh , there 's no speech in some period , and then see what the spectrum is .
+Turn 294, A (PhD): Mm - hmm .
+Turn 295, C (Professor): Uh , but , you know , it 's {disfmarker} that {disfmarker} that {disfmarker} that 's tricky to do . It has mistakes . Uh , and if you 've got enough time , uh , this other method appears to be somewhat more reliable . Uh , a variant on that for just determining signal - to - noise ratio is to just , uh {disfmarker} you can do a w a uh {disfmarker} an iterative thing , EM - like thing , to determine means only . I guess it is EM still , but just {disfmarker} just determine the means only . Don't worry about the variances .
+Turn 296, A (PhD): Mm - hmm .
+Turn 297, C (Professor): And then you just use those mean values as being the {disfmarker} the , uh uh signal - to - noise ratio in that band .
+Turn 298, A (PhD): But what is the {disfmarker} it seems like this kind of thing could add to the latency . I mean , depending on where the window was that you used to calculate {pause} the signal - to - noise ratio .
+Turn 299, B (PhD): Yeah , sure . But {disfmarker} Mmm .
+Turn 300, C (Professor): Not necessarily . Cuz if you don't look into the future , right ?
+Turn 301, A (PhD): OK , well that {disfmarker} I guess that was my question ,
+Turn 302, C (Professor): if you just {disfmarker} yeah {disfmarker}
+Turn 303, A (PhD): yeah .
+Turn 304, C (Professor): I mean , if you just {disfmarker} if you {disfmarker} you , uh {disfmarker} a at the beginning you have some {disfmarker}
+Turn 305, A (PhD): Guess .
+Turn 306, C (Professor): esti some guess and {disfmarker} and , uh , uh {disfmarker}
+Turn 307, B (PhD): Yeah , but it {disfmarker}
+Turn 308, C (Professor): It 's an interesting question . I wonder how they did do it ?
+Turn 309, B (PhD): Actually , it 's a mmm {disfmarker} If - if you want to have a good estimation on non - stationary noise you have to look in the {disfmarker} in the future . I mean , if you take your window and build your histogram in this window , um , what you can expect is to have an estimation of th of the noise in {disfmarker} in the middle of the window , not at the end . So {disfmarker}
+Turn 310, C (Professor): Well , yeah ,
+Turn 311, B (PhD): the {disfmarker} but {disfmarker} but people {disfmarker}
+Turn 312, C (Professor): but what does {disfmarker} what {disfmarker} what {disfmarker} what does Alcatel do ?
+Turn 313, D (PhD): Mm - hmm .
+Turn 314, C (Professor): And {disfmarker} and France Telecom .
+Turn 315, B (PhD): The They just look in the past . I guess it works because the noise are , uh pret uh , almost stationary
+Turn 316, C (Professor): Pretty stationary .
+Turn 317, E (Grad): Pretty stationary ,
+Turn 318, B (PhD): but , um {disfmarker}
+Turn 319, C (Professor): Well , the thing , e e e e
+Turn 320, E (Grad): yeah .
+Turn 321, C (Professor): Yeah , y I mean , you 're talking about non - stationary noise but I think that spectral subtraction is rarely {disfmarker} is {disfmarker} is not gonna work really well for {disfmarker} for non - stationary noise ,
+Turn 322, B (PhD): Well , if y if you have a good estimation of the noise ,
+Turn 323, C (Professor): you know ?
+Turn 324, B (PhD): yeah , because well it it has to work .
+Turn 325, C (Professor): But it 's hard to {disfmarker}
+Turn 326, B (PhD): i
+Turn 327, C (Professor): but that 's hard to do .
+Turn 328, B (PhD): Yeah , that 's hard to do . Yeah .
+Turn 329, C (Professor): Yeah . So {disfmarker} so I think that {disfmarker} that what {disfmarker} what is {disfmarker} wh what 's more common is that you 're going to be helped with r slowly varying or stationary noise .
+Turn 330, B (PhD): But {disfmarker} Mm - hmm .
+Turn 331, C (Professor): That 's what spectral subtraction will help with , practically speaking .
+Turn 332, B (PhD): Mm - hmm . Mm - hmm .
+Turn 333, C (Professor): If it varies a lot , to get a If {disfmarker} if {disfmarker} to get a good estimate you need a few seconds of speech , even if it 's centered , right ?
+Turn 334, B (PhD): Mm - hmm .
+Turn 335, C (Professor): if you need a few seconds to get a decent estimate but it 's changed a lot in a few seconds , then it , you know , i it 's kind of a problem .
+Turn 336, B (PhD): Yeah .
+Turn 337, C (Professor): I mean , imagine e five hertz is the middle of the {disfmarker} of the speech modulation spectrum ,
+Turn 338, B (PhD): Mmm .
+Turn 339, C (Professor): right ? So imagine a jack hammer going at five hertz .
+Turn 340, B (PhD): Yeah , that 's {disfmarker}
+Turn 341, C (Professor): I mean , good {disfmarker} good luck . So ,
+Turn 342, B (PhD): So in this case , yeah , sure , you cannot {disfmarker}
+Turn 343, C (Professor): Yeah .
+Turn 344, B (PhD): But I think y um , Hirsch does experiment with windows of like between five hundred milliseconds and one second . And well , five hundred wa was not so bad . I mean and he worked on non - stationary noises , like noise modulated with well , wi with amplitude modulations and things like that ,
+Turn 345, A (PhD): Were his , uh , windows centered around the {disfmarker}
+Turn 346, B (PhD): and {disfmarker} But {disfmarker} Um , yeah . Well , I think {disfmarker} Yeah . Well , in {disfmarker} in the paper he showed that actually the estimation of the noise is {disfmarker} is delayed . Well , it 's {disfmarker} there is {disfmarker} you {disfmarker} you have to center the window , yeah .
+Turn 347, C (Professor): Yeah .
+Turn 348, B (PhD): Mmm .
+Turn 349, C (Professor): No , I understand it 's better to do but I just think that {disfmarker} that , uh , for real noises wh what {disfmarker} what 's most likely to happen is that there 'll be some things that are relatively stationary
+Turn 350, B (PhD): Mmm .
+Turn 351, C (Professor): where you can use one or another spectral subtraction thing
+Turn 352, B (PhD): Yeah .
+Turn 353, C (Professor): and other things where it 's not so stationary and {disfmarker} I mean , you can always pick something that {disfmarker} that falls between your methods ,
+Turn 354, B (PhD): Hmm .
+Turn 355, C (Professor): uh , uh , but I don't know if , you know , if sinusoidally , uh , modul amplitude modulated noise is {disfmarker} is sort of a big problem in {disfmarker} in in {disfmarker} practice .
+Turn 356, B (PhD): Yeah .
+Turn 357, C (Professor): I think that {vocalsound} it 's uh {disfmarker}
+Turn 358, A (PhD): We could probably get a really good estimate of the noise if we just went to the noise files , and built the averages from them .
+Turn 359, C (Professor): Yeah . Well .
+Turn 360, B (PhD): What {disfmarker} What do you mean ?
+Turn 361, C (Professor): Just cheat {disfmarker} You 're saying , cheat .
+Turn 362, B (PhD): But if the {disfmarker} if the noise is stationary perhaps you don't even need some kind of noise estimation algorithm .
+Turn 363, C (Professor): Yeah . Yeah .
+Turn 364, B (PhD): We just take th th th the beginning of the utterance and
+Turn 365, C (Professor): Oh , yeah , sure .
+Turn 366, B (PhD): I I know p I don't know if people tried this for Aurora .
+Turn 367, D (PhD): It 's the same .
+Turn 368, B (PhD): Well , everybody seems to use some kind of adaptive , well , scheme
+Turn 369, C (Professor): But {disfmarker} but {disfmarker}
+Turn 370, D (PhD): Yeah .
+Turn 371, B (PhD): but ,
+Turn 372, D (PhD): A dictionary .
+Turn 373, B (PhD): is it very useful
+Turn 374, C (Professor): you know , stationary {disfmarker}
+Turn 375, A (PhD): Very slow adaptation .
+Turn 376, B (PhD): and is the c
+Turn 377, A (PhD): th
+Turn 378, C (Professor): Right , the word " stationary " is {disfmarker} has a very precise statistical meaning . But , you know , in {disfmarker} in signal - processing really what we 're talking about I think is things that change slowly , uh , compared with our {disfmarker} our processing techniques .
+Turn 379, B (PhD): Mm - hmm .
+Turn 380, C (Professor): So if you 're driving along in a car I {disfmarker} I would think that most of the time the nature of the noise is going to change relatively slowly . It 's not gonna stay absolute the same . If you {disfmarker} if you check it out , uh , five minutes later you may be in a different part of the road
+Turn 381, B (PhD): Mm - hmm .
+Turn 382, C (Professor): or whatever . But it 's {disfmarker} it 's {disfmarker} i i i using the local characteristics in time , is probably going to work pretty well .
+Turn 383, B (PhD): Mm - hmm .
+Turn 384, C (Professor): But you could get hurt a lot if you just took some something from the beginning of all the speech , of , you know , an hour of speech and then later {disfmarker}
+Turn 385, B (PhD): Yeah .
+Turn 386, C (Professor): Uh , so they may be {disfmarker} you know , may be overly , uh , complicated for {disfmarker} for this test but {disfmarker} but {disfmarker} but , uh , I don't know . But what you 're saying , you know , makes sense , though . I mean , if possible you shouldn't {disfmarker} you should {disfmarker} you should make it , uh , the center of the {disfmarker} center of the window . But {disfmarker} uh , we 're already having problems with these delay , uh {disfmarker} {vocalsound} delay issues .
+Turn 387, B (PhD): Yeah , so .
+Turn 388, C (Professor): So , uh , we 'll have to figure ways without it . Um ,
+Turn 389, A (PhD): If they 're going to provide a , uh , voice activity detector that will tell you the boundaries of the speech , then , couldn't you just go outside those boundaries and do your estimate there ?
+Turn 390, C (Professor): Oh , yeah . You bet . Yeah . So I {disfmarker} I imagine that 's what they 're doing , right ? Is they 're {disfmarker} they 're probably looking in nonspeech sections and getting some , uh {disfmarker}
+Turn 391, B (PhD): Yeah , they have some kind of threshold on {disfmarker} on the previous estimate , and {disfmarker} So . Yeah . I think . Yeah , I think Ericsson used this kind of threshold . Yeah , so , they h they have an estimate of the noise level and they put a threshold like six or ten DB above , and what 's under this threshold is used to update the estimate . Is {disfmarker} is that right
+Turn 392, D (PhD): Yeah .
+Turn 393, B (PhD): or {disfmarker} ?
+Turn 394, D (PhD): I think so .
+Turn 395, B (PhD): So it 's {disfmarker} it 's {disfmarker}
+Turn 396, D (PhD): I have not here the proposal .
+Turn 397, B (PhD): Yeah . It 's like saying what 's under the threshold is silence ,
+Turn 398, C (Professor): Does France Telecom do this {disfmarker}
+Turn 399, B (PhD): and {disfmarker}
+Turn 400, E (Grad): Hmm .
+Turn 401, C (Professor): Does France Telecom do th do the same thing ? More or less ?
+Turn 402, B (PhD): I d I {disfmarker} Y you know , perhaps ?
+Turn 403, D (PhD): No . I do I have not here the proposal .
+Turn 404, C (Professor): OK . Um , OK , if we 're {disfmarker} we 're done {disfmarker} done with that , uh , let 's see . Uh , maybe we can talk about a couple other things briefly , just , uh , things that {disfmarker} that we 've been chatting about but haven't made it into these meetings yet . So you 're coming up with your quals proposal , and , uh {disfmarker} Wanna just give a two three minute summary of what you 're planning on doing ?
+Turn 405, E (Grad): Oh , um , two , three , it can be shorter than that .
+Turn 406, C (Professor): Yeah .
+Turn 407, E (Grad): Um . Well , I 've {disfmarker} I 've talked to some of you already . Um , but I 'm , uh , looking into extending the work done by Larry Saul and John Allen and uh Mazin Rahim . Um , they {disfmarker} they have a system that 's , uh , a multi - band , um , system but their multi - band is {disfmarker} is a little different than the way that we 've been doing multi - band in the past , where um {disfmarker} Where we 've been @ @ {comment} uh taking {pause} um {pause} {vocalsound} sub - band features and i training up these neural nets and {disfmarker} on {disfmarker} on phonetic targets , and then combining them some somehow down the line , um , they 're {disfmarker} they 're taking sub - band features and , um , training up a detector that detects for , um , these phonetic features for example , um , he presents um , uh , a detector to detect sonorance . And so what {disfmarker} what it basically is {disfmarker} is , um {disfmarker} it 's {disfmarker} there 's {disfmarker} at the lowest level , there {disfmarker} it 's {disfmarker} it 's an OR ga I mean , it 's an AND gate . So , uh , on each sub - band you have several independent tests , to test whether um , there 's the existence of sonorance in a sub - band . And then , um , it c it 's combined by a soft AND gate . And at the {disfmarker} at the higher level , for every {disfmarker} if , um {disfmarker} The higher level there 's a soft OR gate . Uh , so if {disfmarker} if this detector detects um , the presence of {disfmarker} of sonorance in any of the sub - bands , then the detect uh , the OR gate at the top says , " OK , well this frame has evidence of sonorance . "
+Turn 408, A (PhD): What are {disfmarker} what are some of the low level detectors that they use ?
+Turn 409, E (Grad): And these are all {disfmarker} Oh , OK . Well , the low level detectors are logistic regressions . Um , and the , uh {disfmarker}
+Turn 410, C (Professor): So that , by the way , basically is a {disfmarker} is one of the units in our {disfmarker} in our {disfmarker} our neural network .
+Turn 411, E (Grad): the one o
+Turn 412, C (Professor): So that 's all it is . It 's a sig it 's a sigmoid ,
+Turn 413, E (Grad): Yeah .
+Turn 414, C (Professor): uh , with weighted sum at the input ,
+Turn 415, A (PhD): Hmm .
+Turn 416, C (Professor): which you train by gradient {pause} descent .
+Turn 417, E (Grad): Right . Yeah , so he uses , um , an EM algorithm to {disfmarker} to um train up these um parameters for the logistic regression .
+Turn 418, C (Professor): Well , actually , yeah ,
+Turn 419, E (Grad): The {disfmarker}
+Turn 420, C (Professor): so I was using EM to get the targets . So {disfmarker} so you have this {disfmarker} this {disfmarker} this AND gate {disfmarker} what we were calling an AND gate , but it 's a product {disfmarker} product rule thing at the output . And then he uses , uh , i u and then feeding into that are {disfmarker} I 'm sorry , there 's {disfmarker} it 's an OR at the output , isn't it ? Yeah ,
+Turn 421, E (Grad): Mm - hmm .
+Turn 422, C (Professor): so that 's the product . And then , um , then he has each of these AND things . And , um , but {disfmarker} so they 're little neural {disfmarker} neural units . Um , and , um , they have to have targets . And so the targets come from EM .
+Turn 423, A (PhD): And so are each of these , low level detectors {comment} {disfmarker} are they , uh {disfmarker} are these something that you decide ahead of time , like " I 'm going to look for this particular feature or I 'm going to look at this frequency , " or {disfmarker} What {disfmarker} what {disfmarker} what are they looking at ?
+Turn 424, E (Grad): Um {disfmarker}
+Turn 425, A (PhD): What are their inputs ?
+Turn 426, E (Grad): Uh Right , so the {disfmarker} OK , so at each for each sub - band {comment} there are basically , uh , several measures of SNR and {disfmarker} and correlation .
+Turn 427, A (PhD): Ah , OK , OK .
+Turn 428, E (Grad): Um , um and he said there 's like twenty of these per {disfmarker} per sub - band . Um , and for {disfmarker} for every s every sub - band , e you {disfmarker} you just pick ahead of time , um , " I 'm going to have like five {pause} i independent logistic tests . "
+Turn 429, A (PhD): Mm - hmm .
+Turn 430, E (Grad): And you initialize these parameters , um , in some {disfmarker} some way and use EM to come up with your training targets for a {disfmarker} for the {disfmarker} the low - level detectors .
+Turn 431, A (PhD): Mm - hmm .
+Turn 432, E (Grad): And then , once you get that done , you {disfmarker} you {disfmarker} you train the whole {disfmarker} whole thing on maximum likelihood . Um , and h he shows that using this {disfmarker} this method to detect sonorance is it 's very robust compared to , um {disfmarker} {vocalsound} to typical , uh , full - band Gaussian mixtures um estimations of {disfmarker} of sonorance .
+Turn 433, A (PhD): Mm - hmm . Mm - hmm .
+Turn 434, E (Grad): And , uh so {disfmarker} so that 's just {disfmarker} that 's just one detector . So you can imagine building many of these detectors on different features . You get enough of these detectors together , um , then you have enough information to do , um , higher level discrimination , for example , discriminating between phones
+Turn 435, A (PhD): Mm - hmm .
+Turn 436, E (Grad): and then you keep working your way up until you {disfmarker} you build a full recognizer .
+Turn 437, A (PhD): Mm - hmm .
+Turn 438, E (Grad): So , um , that 's {disfmarker} that 's the direction which I 'm {disfmarker} I 'm thinking about going in my quals .
+Turn 439, A (PhD): Cool .
+Turn 440, C (Professor): You know , it has a number of properties that I really liked . I mean , one is the going towards , um , using narrow band information for , uh , ph phonetic features of some sort rather than just , uh , immediately going for the {disfmarker} the typical sound units .
+Turn 441, A (PhD): Right .
+Turn 442, C (Professor): Another thing I like about it is that you t this thing is going to be trained {disfmarker} explicitly trained for a product of errors rule , which is what , uh , Allen keeps pointing out that Fletcher observed in the twenties ,
+Turn 443, A (PhD): Mm - hmm .
+Turn 444, C (Professor): uh , for people listening to narrow band stuff . That 's Friday 's talk , by the way . And then , um , Uh , the third thing I like about it is , uh , and we 've played around with this in a different kind of way a little bit but it hasn't been our dominant way of {disfmarker} of operating anything , um , this issue of where the targets come from . So in our case when we 've been training it multi - band things , the way we get the targets for the individual bands is , uh , that we get the phonetic label {disfmarker} for the sound there
+Turn 445, A (PhD): Mm - hmm .
+Turn 446, C (Professor): and we say , " OK , we train every {disfmarker} " What this is saying is , OK , that 's maybe what our ultimate goal is {disfmarker} or not ultimate but penultimate {vocalsound} goal is getting these {disfmarker} these small sound units . But {disfmarker} but , um , along the way how much should we , uh {disfmarker} uh , what should we be training these intermediate things for ? I mean , because , uh , we don't know uh , that this is a particularly good feature . I mean , there 's no way , uh {disfmarker} someone in the audience yesterday was asking , " well couldn't you have people go through and mark the individual bands and say where the {disfmarker} where it was sonorant or not ? "
+Turn 447, A (PhD): Mm - hmm .
+Turn 448, C (Professor): But , you know , I think having a bunch of people listening to critical band wide , {vocalsound} uh , chunks of speech trying to determine whether {disfmarker} {comment} I think it 'd be impossible .
+Turn 449, E (Grad): Ouch .
+Turn 450, C (Professor): It 's all gonna sound like {disfmarker} like sine waves to you , more or less .
+Turn 451, A (PhD): Mm - hmm .
+Turn 452, C (Professor): I mean {disfmarker} Well not I mean , it 's g all g narrow band uh , i I m I think it 's very hard for someone to {disfmarker} to {disfmarker} a person to make that determination . So , um , um , we don't really know how those should be labeled . It could sh be that you should , um , not be paying that much attention to , uh , certain bands for certain sounds , uh , in order to get the best result .
+Turn 453, A (PhD): Mm - hmm .
+Turn 454, C (Professor): So , um , what we have been doing there , just sort of mixing it all together , is certainly much {disfmarker} much cruder than that . We trained these things up on the {disfmarker} on the , uh the final label . Now we have I guess done experiments {disfmarker} you 've probably done stuff where you have , um , done separate , uh , Viterbis on the different {disfmarker}
+Turn 455, E (Grad): Yeah . Forced alignment on the sub - band labels ?
+Turn 456, C (Professor): Yeah .
+Turn 457, E (Grad): Yeah .
+Turn 458, C (Professor): You 've done that . Did {disfmarker} did that help at all ?
+Turn 459, E (Grad): Um , it helps for one or t one iteration but um , anything after that it doesn't help .
+Turn 460, C (Professor): So {disfmarker} so that may or may t it {disfmarker} that aspect of what he 's doing may or may not be helpful because in a sense that 's the same sort of thing . You 're taking global information and determining what you {disfmarker} how you should {disfmarker} But this is {disfmarker} this is , uh , I th I think a little more direct .
+Turn 461, A (PhD): How did they measure the performance of their detector ?
+Turn 462, C (Professor): And {disfmarker} Well , he 's look he 's just actually looking at , uh , the confusions between sonorant and non - sonorant .
+Turn 463, A (PhD): Mm - hmm .
+Turn 464, C (Professor): So he hasn't applied it to recognition or if he did he didn't talk about it . It 's {disfmarker} it 's just {disfmarker} And one of the concerns in the audience , actually , was that {disfmarker} that , um , the , uh , uh {disfmarker} he {disfmarker} he did a comparison to , uh , you know , our old foil , the {disfmarker} the nasty old standard recognizer with {vocalsound} mel {disfmarker} mel filter bank at the front , and H M Ms , and {disfmarker} and so forth . And , um , it didn't do nearly as well , especially in {disfmarker} in noise . But the {disfmarker} one of the good questions in the audience was , well , yeah , but that wasn't trained for that . I mean , this use of a very smooth , uh , spectral envelope is something that , you know , has evolved as being generally a good thing for speech recognition but if you knew that what you were gonna do is detect sonorants or not {disfmarker} So sonorants and non - sonorants is {disfmarker} is {disfmarker} is almost like voiced - unvoiced , except I guess that the voiced stops are {disfmarker} are also called " obstruents " . Uh , so it 's {disfmarker} it 's {disfmarker} uh , but with the exception of the stops I guess it 's pretty much the same as voiced - unvoiced ,
+Turn 465, A (PhD): Mm - hmm .
+Turn 466, C (Professor): right ? So {disfmarker} so {disfmarker} Um . So , um , if you knew you were doing that , if you were doing something say for a {disfmarker} a , uh {disfmarker} a {disfmarker} a Vocoder , you wouldn't use the same kind of features . You would use something that was sensitive to the periodicity and {disfmarker} and not just the envelope . Uh , and so in that sense it was an unfair test . Um , so I think that the questioner was right . It {disfmarker} it was in that sense an unfair test . Nonetheless , it was one that was interesting because , uh , this is what we are actually using for speech recognition , these smooth envelopes . And this says that perhaps even , you know , trying to use them in the best way that we can , that {disfmarker} that {disfmarker} that we ordinarily do , with , you know , Gaussian mixtures and H M Ms {comment} and so forth , you {disfmarker} you don't , uh , actually do that well on determining whether something is sonorant or not .
+Turn 467, A (PhD): Didn't they {disfmarker}
+Turn 468, C (Professor): Which means you 're gonna make errors between similar sounds that are son sonorant or obstruent .
+Turn 469, A (PhD): Didn't they also do some kind of an oracle experiment where they said " if we {pause} could detect the sonorants perfectly {pause} and then show how it would improve speech recognition ? I thought I remember hearing about an experiment like that .
+Turn 470, C (Professor): The - these same people ?
+Turn 471, A (PhD): Mm - hmm .
+Turn 472, C (Professor): I don't remember that .
+Turn 473, A (PhD): Hmm .
+Turn 474, C (Professor): That would {disfmarker} that 's {disfmarker} you 're right , that 's exactly the question to follow up this discussion , is suppose you did that , uh , got that right . Um , Yeah .
+Turn 475, A (PhD): Hmm .
+Turn 476, B (PhD): What could be the other low level detectors , I mean , for {disfmarker} {comment} Other kind of features , or {disfmarker} ? in addition to detecting sonorants or {disfmarker} ? Th - that 's what you want to {disfmarker} to {disfmarker} to go for also
+Turn 477, E (Grad): Um {disfmarker}
+Turn 478, B (PhD): or {disfmarker} ?
+Turn 479, E (Grad): What t Oh , build other {disfmarker} other detectors on different {pause} phonetic features ?
+Turn 480, B (PhD): Other low level detectors ? Yeah .
+Turn 481, E (Grad): Um , uh Let 's see , um , Yeah , I d I don't know . e Um , um , I mean , w easiest thing would be to go {disfmarker} go do some voicing stuff but that 's very similar to sonorance .
+Turn 482, B (PhD): Mm - hmm .
+Turn 483, E (Grad): Um ,
+Turn 484, A (PhD): When we {disfmarker} when we talked with John Ohala the other day we made a list of some of the things that w
+Turn 485, E (Grad): Yeah .
+Turn 486, A (PhD): like frication ,
+Turn 487, E (Grad): Oh ! OK .
+Turn 488, A (PhD): abrupt closure ,
+Turn 489, E (Grad): Mm - hmm . Mm - hmm .
+Turn 490, A (PhD): R - coloring , nasality , voicing {disfmarker} Uh .
+Turn 491, C (Professor): Yeah , so there 's a half dozen like that that are {disfmarker}
+Turn 492, E (Grad): Yeah , nasality .
+Turn 493, C (Professor): Now this was coming at it from a different angle but maybe it 's a good way to start . Uh , these are things which , uh , John felt that a {disfmarker} a , uh {disfmarker} a human annotator would be able to reliably mark . So the sort of things he felt would be difficult for a human annotator to reliably mark would be tongue position kinds of things .
+Turn 494, E (Grad): Oh , OK . Placing stuff ,
+Turn 495, A (PhD): Mm - hmm .
+Turn 496, C (Professor): Yeah .
+Turn 497, E (Grad): yeah .
+Turn 498, A (PhD): There 's also things like stress .
+Turn 499, C (Professor): Uh {disfmarker}
+Turn 500, A (PhD): You can look at stress .
+Turn 501, C (Professor): But stress doesn't , uh , fit in this thing of coming up with features that will distinguish words from one another ,
+Turn 502, E (Grad): Mm - hmm .
+Turn 503, C (Professor): right ? It 's a {disfmarker} it 's a good thing to mark and will probably help us ultimate with recognition
+Turn 504, A (PhD): Yeah , there 's a few cases where it can like permit {comment} and permit .
+Turn 505, C (Professor): but {disfmarker}
+Turn 506, A (PhD): But {disfmarker} that 's not very common in English . In other languages it 's more uh , important .
+Turn 507, C (Professor): Well , yeah , but i either case you 'd write PERMIT , right ? So you 'd get the word right .
+Turn 508, A (PhD): No , I 'm saying , i i e I thought you were saying that stress doesn't help you distinguish between words .
+Turn 509, C (Professor): Um ,
+Turn 510, A (PhD): Oh , I see what you 're saying . As long as you get {disfmarker} The sequence ,
+Turn 511, C (Professor): We 're g if we 're doing {disfmarker} if we 're talking about transcription as opposed to something else {disfmarker}
+Turn 512, A (PhD): right ? Yeah . Yeah , yeah , yeah . Yeah . Right .
+Turn 513, C (Professor): Yeah .
+Turn 514, A (PhD): So where it could help is maybe at a higher level . Yeah .
+Turn 515, C (Professor): Right .
+Turn 516, E (Grad): Like a understanding application .
+Turn 517, A (PhD): Understanding , yeah . Exactly .
+Turn 518, C (Professor): Yeah .
+Turn 519, E (Grad): Yeah .
+Turn 520, C (Professor): But that 's this afternoon 's meeting . Yeah . We don't understand anything in this meeting . Yeah , so that 's {disfmarker} yeah , that 's , you know , a neat {disfmarker} neat thing and {disfmarker} and , uh {disfmarker} So .
+Turn 521, E (Grad): S so , um , Ohala 's going to help do these , uh {pause} transcriptions of the meeting data ?
+Turn 522, A (PhD): Uh , well I don't know . We d we sort of didn't get that far . Um , we just talked about some possible features that could be marked by humans and , um ,
+Turn 523, E (Grad): Hmm .
+Turn 524, A (PhD): because of having maybe some extra transcriber time we thought we could go through and mark some portion of the data for that . And , uh {disfmarker}
+Turn 525, C (Professor): Yeah ,
+Turn 526, E (Grad): Hmm .
+Turn 527, C (Professor): I mean , that 's not an immediate problem , that we don't immediately have a lot of extra transcriber time .
+Turn 528, A (PhD): Yeah , right .
+Turn 529, C (Professor): But {disfmarker} but , uh , in the long term I guess Chuck is gonna continue the dialogue with John and {disfmarker} and , uh , and , we 'll {disfmarker} we 'll end up doing some I think .
+Turn 530, A (PhD): I 'm definitely interested in this area , too , f uh , acoustic feature stuff .
+Turn 531, C (Professor): Uh - huh .
+Turn 532, E (Grad): OK .
+Turn 533, A (PhD): So .
+Turn 534, C (Professor): Yeah , I think it 's an interesting {disfmarker} interesting way to go .
+Turn 535, E (Grad): Cool .
+Turn 536, C (Professor): Um , I say it like " said - int " . I think it has a number of good things . Um , so , uh , y you want to talk maybe a c two or three minutes about what we 've been talking about today and other days ?
+Turn 537, F (Grad): Ri Yeah , OK , so , um , we 're interested in , um , methods for far mike speech recognition , um , {pause} mainly , uh , methods that deal with the reverberation {pause} in the far mike signal . So , um , one approach would be , um , say MSG and PLP , like was used in Aurora one and , um , there are other approaches which actually attempt to {pause} remove the reverberation , instead of being robust to it like MSG . And so we 're interested in , um , comparing the performance of {pause} um , a robust approach like MSG with these , um , speech enhancement or de - reverber de - reverberation approaches .
+Turn 538, B (PhD): Mm - hmm .
+Turn 539, F (Grad): And , um , {vocalsound} it looks like we 're gonna use the Meeting Recorder digits data for that .
+Turn 540, B (PhD): And the de - reverberation algorithm , do you have {disfmarker} can you give some more details on this or {disfmarker} ? Does it use one microphone ?
+Turn 541, F (Grad): o o
+Turn 542, B (PhD): Several microphones ? Does it {disfmarker} ?
+Turn 543, F (Grad): OK , well , um , there was something that was done by , um , a guy named Carlos , I forget his last name , {comment} who worked with Hynek , who , um ,
+Turn 544, C (Professor): Avendano .
+Turn 545, F (Grad): OK .
+Turn 546, C (Professor): Yeah .
+Turn 547, F (Grad): Who , um ,
+Turn 548, B (PhD): Mm - hmm .
+Turn 549, F (Grad): um , it was like RASTA in the sense that of it was , um , de - convolution by filtering um , except he used a longer time window ,
+Turn 550, B (PhD): Mm - hmm .
+Turn 551, F (Grad): like a second maybe . And the reason for that is RASTA 's time window is too short to , um include the whole , um , reverberation {disfmarker} um , I don't know what you call it the reverberation response . I if you see wh if you see what I mean . The reverberation filter from my mouth to that mike is like {disfmarker} it 's t got it 's too long in the {disfmarker} in the time domain for the um {disfmarker} for the RASTA filtering to take care of it . And , um , then there are a couple of other speech enhancement approaches which haven't been tried for speech recognition yet but have just been tried for enhancement , which , um , have the assumption that um , you can do LPC um analysis of th of the signal you get at the far microphone and the , um , all pole filter that you get out of that should be good . It 's just the , um , excitation signal {comment} that is going to be distorted by the reverberation and so you can try and reconstruct a better excitation signal and , um , feed that through the i um , all pole filter and get enhanced speech with reverberation reduced .
+Turn 552, B (PhD): Mm - hmm . Mm - hmm .
+Turn 553, C (Professor): There 's also this , uh , um , uh , echo cancellation stuff that we 've sort of been chasing , so , uh we have , uh {disfmarker} and when we 're saying these digits now we do have a close microphone signal and then there 's the distant microphone signal . And you could as a kind of baseline say , " OK , given that we have both of these , uh , we should be able to do , uh , a cancellation . " So that , uh , um , we {disfmarker} we , uh , essentially identify the system in between {disfmarker} the linear time invariant system between the microphones and {disfmarker} and {disfmarker} and {disfmarker} and re and invert it , uh , or {disfmarker} or cancel it out to {disfmarker} to some {disfmarker} some reasonable approximation
+Turn 554, B (PhD): Mm - hmm .
+Turn 555, C (Professor): through one method or another . Uh , that 's not a practical thing , uh , if you have a distant mike , you don't have a close mike ordinarily , but we thought that might make {disfmarker} also might make a good baseline . Uh , it still won't be perfect because there 's noise . Uh , but {disfmarker} And then there are s uh , there are single microphone methods that I think people have done for , uh {disfmarker} for this kind of de - reverberation . Do y do you know any references to any ? Cuz I {disfmarker} I w I was {disfmarker} w w I {disfmarker} I lead him down a {disfmarker} a bad path on that .
+Turn 556, B (PhD): Uh , I g I guess {disfmarker} I guess when people are working with single microphones , they are more trying to do {disfmarker}
+Turn 557, C (Professor): But .
+Turn 558, B (PhD): well , not {disfmarker} not very {disfmarker} Well , there is the Avendano work ,
+Turn 559, C (Professor): Right .
+Turn 560, B (PhD): but also trying to mmm , uh {disfmarker} trying to f t find the de - convolution filter but in the um {disfmarker} not in the time domain but in the uh the stream of features uh I guess . Well , @ @ {comment} there {disfmarker} there 's someone working on this on i in Mons
+Turn 561, C (Professor): Yeah , OK .
+Turn 562, B (PhD): So perhaps , yeah , we should try t to {disfmarker} He 's working on this , on trying to {disfmarker}
+Turn 563, C (Professor): Yeah .
+Turn 564, B (PhD): on re reverberation , um {disfmarker}
+Turn 565, C (Professor): The first paper on this is gonna have great references , I can tell already .
+Turn 566, B (PhD): Mm - hmm .
+Turn 567, C (Professor): It 's always good to have references , especially when reviewers read it or {disfmarker} or one of the authors and , {vocalsound} feel they 'll " You 're OK , you 've r You cited me . "
+Turn 568, B (PhD): So , yeah . Well , he did echo cancellation and he did some fancier things like , uh , {vocalsound} {vocalsound} uh , training different network on different reverberation conditions and then trying to find the best one , but . Well .
+Turn 569, C (Professor): Yeah .
+Turn 570, B (PhD): Yeah .
+Turn 571, C (Professor): The oth the other thing , uh , that Dave was talking about earlier was , uh , uh , multiple mike things , uh , where they 're all distant . So , um , I mean , there 's {disfmarker} there 's all this work on arrays , but the other thing is , uh , {pause} what can we do that 's cleverer that can take some advantage of only two mikes , uh , particularly if there 's an obstruction between them , as we {disfmarker} as we have over there .
+Turn 572, B (PhD): If there is {disfmarker} ?
+Turn 573, C (Professor): An obstruction between them .
+Turn 574, B (PhD): Ah , yeah .
+Turn 575, C (Professor): It creates a shadow which is {disfmarker} is helpful . It 's part of why you have such good directionality with , {vocalsound} with two ears
+Turn 576, B (PhD): Mm - hmm .
+Turn 577, C (Professor): even though they 're not several feet apart . For most {disfmarker} for most people 's heads .
+Turn 578, A (PhD): That could help though .
+Turn 579, C (Professor): So that {disfmarker} Yeah , the {disfmarker} the head , in the way , is really {disfmarker} that 's what it 's for . It 's basically ,
+Turn 580, A (PhD): That 's what the head 's for ? To separate the ears ?
+Turn 581, C (Professor): Yeah , it 's to separate the ears . That 's right , yeah . Yeah . Uh , so . Anyway , O K . Uh , I think that 's {disfmarker} that 's all we have this week .
+Turn 582, E (Grad): Oh .
+Turn 583, C (Professor):  And , uh , I think it 's digit time .
+Turn 584, A (PhD): Actually the , um {disfmarker} For some reason the digit forms are blank .
+Turn 585, C (Professor): Yeah ?
+Turn 586, A (PhD): Uh , I think th that may be due to the fact that {comment} Adam ran out of digits , {comment} uh , and didn't have time to regenerate any .
+Turn 587, C (Professor): Oh ! Oh ! I guess it 's {disfmarker} Well there 's no real reason to write our names on here then ,
+Turn 588, A (PhD): Yeah , if you want to put your credit card numbers and , uh {disfmarker}
+Turn 589, C (Professor): is there ?
+Turn 590, E (Grad): Oh , no {disfmarker} ?
+Turn 591, C (Professor): Or do {disfmarker} did any {disfmarker} do we need the names for the other stuff ,
+Turn 592, A (PhD): Uh , yeah , I do need your names and {disfmarker} and the time , and all that ,
+Turn 593, C (Professor): or {disfmarker} ? Oh , OK .
+Turn 594, A (PhD): cuz we put that into the " key " files .
+Turn 595, C (Professor): Oh , OK .
+Turn 596, A (PhD): Um . But w
+Turn 597, C (Professor): OK .
+Turn 598, A (PhD): That 's why we have the forms , uh , even if there are no digits .
+Turn 599, C (Professor): OK , yeah , I didn't notice this . I 'm sitting here and I was {disfmarker} I was about to read them too . It 's a , uh , blank sheet of paper .
+Turn 600, A (PhD): So I guess we 're {disfmarker} we 're done .
+Turn 601, C (Professor): Yeah , yeah , I 'll do my credit card number later . OK .

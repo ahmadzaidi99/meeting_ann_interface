@@ -1,0 +1,804 @@
+Turn 0, C (Professor): Uh , is it the twenty - fourth ?
+Turn 1, F (PhD): now we 're on .
+Turn 2, C (Professor): Yeah .
+Turn 3, A (PhD): Uh Chuck , is the mike type wireless {disfmarker}
+Turn 4, F (PhD): Yes .
+Turn 5, A (PhD): wireless headset ? OK .
+Turn 6, F (PhD): Yes .
+Turn 7, C (Professor): Yeah .
+Turn 8, F (PhD): For you it is .
+Turn 9, C (Professor): Yeah . We uh {disfmarker} we abandoned the lapel because they sort of were not too {disfmarker} not too hot , not too cold , they were {disfmarker} you know , they were {vocalsound} uh , far enough away that you got more background noise , uh , and uh {disfmarker} and so forth
+Turn 10, A (PhD): Uh - huh .
+Turn 11, C (Professor): but they weren't so close that they got quite the {disfmarker} you know , the really good {disfmarker} No , th
+Turn 12, A (PhD): OK .
+Turn 13, C (Professor): they {disfmarker} I mean they didn't {disfmarker} Wait a minute . I 'm saying that wrong . They were not so far away that they were really good representative distant mikes ,
+Turn 14, A (PhD): Uh - huh .
+Turn 15, C (Professor): but on the other hand they were not so close that they got rid of all the interference . So it was no {disfmarker} didn't seem to be a good point to them . On the other hand if you only had to have one mike in some ways you could argue the lapel was a good choice , precisely because it 's in the middle .
+Turn 16, A (PhD): Yeah , yeah .
+Turn 17, C (Professor): There 's uh , some kinds of junk that you get with these things that you don't get with the lapel uh , little mouth clicks and breaths and so forth are worse with these than with the lapel , but given the choice we {disfmarker} there seemed to be very strong opinions for uh , getting rid of lapels .
+Turn 18, A (PhD): The mike number is {disfmarker}
+Turn 19, C (Professor): So ,
+Turn 20, F (PhD): Uh , your mike number 's written on the back of that unit there .
+Turn 21, A (PhD): Oh yeah . One .
+Turn 22, F (PhD): And then the channel number 's usually one less than that .
+Turn 23, A (PhD): Oh , OK . OK .
+Turn 24, F (PhD): It - it 's one less than what 's written on the back of your {disfmarker}
+Turn 25, A (PhD): OK . OK .
+Turn 26, F (PhD): yeah . So you should be zero , actually .
+Turn 27, A (PhD): Hello ? Yeah .
+Turn 28, F (PhD): For your uh , channel number .
+Turn 29, A (PhD): Yep , yep .
+Turn 30, C (Professor): And you should do a lot of talking so we get a lot more of your pronunciations . no , they don't {disfmarker} don't have a {disfmarker} have any Indian pronunciations .
+Turn 31, F (PhD): So what we usually do is um , we typically will have our meetings
+Turn 32, C (Professor): Yeah .
+Turn 33, F (PhD): and then at the end of the meetings we 'll read the digits . Everybody goes around and reads the digits on the {disfmarker} the bottom of their forms .
+Turn 34, C (Professor): Session R
+Turn 35, D (PhD): R - nineteen ?
+Turn 36, A (PhD): OK .
+Turn 37, C (Professor): R - nineteen .
+Turn 38, F (PhD): Yeah . We 're {disfmarker} This is session R - nineteen .
+Turn 39, C (Professor): If you say so . O K . Do we have anything like an agenda ? What 's going on ? Um . I guess um . So . One thing {disfmarker}
+Turn 40, F (PhD): Sunil 's here for the summer ?
+Turn 41, C (Professor): Sunil 's here for the summer , right . Um , so , one thing is to talk about a kick off meeting maybe uh , and then just uh , I guess uh , progress reports individually , and then uh , plans for where we go between now and then , pretty much . Um .
+Turn 42, F (PhD): I could say a few words about um , some of the uh , compute stuff that 's happening around here , so that people in the group know .
+Turn 43, C (Professor): Mm - hmm . OK . Why don't you start with that ? That 's sort of {disfmarker}
+Turn 44, F (PhD): OK .
+Turn 45, C (Professor): Yeah ?
+Turn 46, F (PhD): We um {disfmarker} So we just put in an order for about twelve new machines , uh , to use as sort of a compute farm . And um , uh , we ordered uh , SUN - Blade - one - hundreds , and um , I 'm not sure exactly how long it 'll take for those to come in , but , uh , in addition , we 're running {disfmarker} So the plan for using these is , uh , we 're running P - make and Customs here and Andreas has sort of gotten that all uh , fixed up and up to speed . And he 's got a number of little utilities that make it very easy to um , {vocalsound} run things using P - make and Customs . You don't actually have to write P - make scripts and things like that . The simplest thing {disfmarker} And I can send an email around or , maybe I should do an FAQ on the web site about it or something . Um ,
+Turn 47, C (Professor): How about an email that points to the FAQ ,
+Turn 48, F (PhD): there 's a c
+Turn 49, C (Professor): you know what I 'm saying ?
+Turn 50, F (PhD): Yeah , yeah .
+Turn 51, C (Professor): so that you can {disfmarker} Yeah .
+Turn 52, F (PhD): Uh , there 's a command , uh , that you can use called " run command " . " Run dash command " , " run hyphen command " . And , if you say that and then some job that you want to execute , uh , it will find the fastest currently available machine , and export your job to that machine , and uh {disfmarker} and run it there and it 'll duplicate your environment . So you can try this as a simple test with uh , the L S command . So you can say " run dash command L S " , and , um , it 'll actually export that {vocalsound} LS command to some machine in the institute , and um , do an LS on your current directory . So , substitute LS for whatever command you want to run , and um {disfmarker} And that 's a simple way to get started using {disfmarker} using this . And , so , soon , when we get all the new machines up , {vocalsound} um , e then we 'll have lots more compute to use . Now th one of the nice things is that uh , each machine that 's part of the P - make and Customs network has attributes associated with it . Uh , attributes like how much memory the machine has , what its speed is , what its operating system , and when you use something like " run command " , you can specify those attributes for your program . For example if you only want your thing to run under Linux , you can give it the Linux attribute , and then it will find the fastest available Linux machine and run it on that . So . You can control where your jobs go , to a certain extent , all the way down to an individual machine . Each machine has an attribute which is the name of itself . So you can give that as an attribute and it 'll only run on that . If there 's already a job running , on some machine that you 're trying to select , your job will get queued up , and then when that resource , that machine becomes available , your job will get exported there . So , there 's a lot of nice features to it and it kinda helps to balance the load of the machines and uh , right now Andreas and I have been the main ones using it and we 're {disfmarker} Uh . The SRI recognizer has all this P - make customs stuff built into it .
+Turn 53, C (Professor): So as I understand , you know , he 's using all the machines and you 're using all the machines ,
+Turn 54, F (PhD): So .
+Turn 55, C (Professor): is the rough division of {disfmarker}
+Turn 56, F (PhD): Yeah . Exactly . Yeah , you know , I {disfmarker} I sort of got started {comment} using the recognizer just recently and uh , uh I fired off a training job , and then I fired off a recognition job and I get this email about midnight from Andreas saying , " uh , are you running two {vocalsound} trainings simultaneously s my m my jobs are not getting run . " So I had to back off a little bit . But , soon as we get some more machines then uh {disfmarker} then we 'll have more compute available . So , um , that 's just a quick update about what we 've got . So .
+Turn 57, G (Grad): Um , I have {disfmarker} I have a question about the uh , parallelization ?
+Turn 58, F (PhD): Mm - hmm .
+Turn 59, G (Grad): So , um , let 's say I have like , a thousand little {disfmarker} little jobs to do ?
+Turn 60, F (PhD): Mm - hmm .
+Turn 61, G (Grad): Um , how do I do it with " run command " ? I mean do {disfmarker}
+Turn 62, F (PhD): You could write a script uh , which called run command on each sub - job
+Turn 63, G (Grad): Uh - huh . A thousand times ?
+Turn 64, F (PhD): right ? But you probably wanna be careful with that
+Turn 65, G (Grad): OK .
+Turn 66, F (PhD): because um , you don't wanna saturate the network . Uh , so , um , you know , you should {disfmarker} you should probably not run more than , say ten jobs yourself at any one time , uh , just because then it would keep other people {disfmarker}
+Turn 67, G (Grad): Oh , too much file transfer and stuff .
+Turn 68, F (PhD): Well it 's not that so much as that , you know , e with {disfmarker} if everybody ran fifty jobs at once then it would just bring everything to a halt and , you know , people 's jobs would get delayed , so it 's sort of a sharing thing . Um ,
+Turn 69, G (Grad): OK .
+Turn 70, F (PhD): so you should try to limit it to somet sometim some number around ten jobs at a time . Um . So if you had a script for example that had a thousand things it needed to run , um , you 'd somehow need to put some logic in there if you were gonna use " run command " , uh , to only have ten of those going at a time . And uh , then , when one of those finished you 'd fire off another one . Um ,
+Turn 71, C (Professor): I remember I {disfmarker} I forget whether it was when the Rutgers or {disfmarker} or Hopkins workshop , I remember one of the workshops I was at there were {disfmarker} everybody was real excited cuz they got twenty - five machines and there was some kind of P - make like thing that sit sent things out .
+Turn 72, F (PhD): Mm - hmm . Mm - hmm .
+Turn 73, C (Professor): So all twenty - five people were sending things to all twenty - five machines
+Turn 74, F (PhD): Mm - hmm . Yeah .
+Turn 75, C (Professor): and {vocalsound} and things were a lot less efficient than if you 'd just use your own machine .
+Turn 76, F (PhD): Yeah . Yep . Yeah , exactly . Yeah , you have to be a little bit careful .
+Turn 77, C (Professor): as I recall , but . Yeah .
+Turn 78, D (PhD): Hmm .
+Turn 79, F (PhD): Um , but uh , you can also {disfmarker} If you have that level of parallelization um , and you don't wanna have to worry about writing the logic in {disfmarker} in a Perl script to take care of that , you can use um , P - make
+Turn 80, G (Grad): Just do P - make .
+Turn 81, F (PhD): and {disfmarker} and you basically write a Make file that uh , you know your final job depends on these one thousand things ,
+Turn 82, G (Grad): s Mm - hmm .
+Turn 83, F (PhD): and when you run P - make , uh , on your Make file , you can give it the dash capital J and {disfmarker} and then a number ,
+Turn 84, G (Grad): Mm - hmm .
+Turn 85, F (PhD): and that number represents how many uh , machines to use at once . And then it 'll make sure that it never goes above that .
+Turn 86, G (Grad): Right .
+Turn 87, F (PhD): So ,
+Turn 88, G (Grad): Right . OK .
+Turn 89, F (PhD): I can get some documentation .
+Turn 90, D (PhD): So it {disfmarker} it 's {disfmarker} it 's not systematically queued . I mean all the jobs are running . If you launch twenty jobs , they are all running . Alright .
+Turn 91, F (PhD): It depends . If you {disfmarker} " Run command " , that I mentioned before , is {disfmarker} doesn't know about other things that you might be running .
+Turn 92, D (PhD): Uh - huh .
+Turn 93, F (PhD): So , it would be possible to run a hundred run jobs at once ,
+Turn 94, D (PhD): Right .
+Turn 95, F (PhD): and they wouldn't know about each other . But if you use P - make , then , it knows about all the jobs that it has to run
+Turn 96, D (PhD): Mm - hmm .
+Turn 97, F (PhD): and it can control , uh , how many it runs simultaneously .
+Turn 98, C (Professor): So " run command " doesn't use P - make , or {disfmarker} ?
+Turn 99, F (PhD): It uses " export " underlyingly . But , if you {disfmarker} i It 's meant to be run one job at a time ? So you could fire off a thousand of those , and it doesn't know {disfmarker} any one of those doesn't know about the other ones that are running .
+Turn 100, C (Professor): So why would one use that rather than P - make ?
+Turn 101, F (PhD): Well , if you have , um {disfmarker} Like , for example , uh if you didn't wanna write a P - make script and you just had a , uh {disfmarker} an HTK training job that you know is gonna take uh , six hours to run , and somebody 's using , uh , the machine you typically use , you can say " run command " and your HTK thing and it 'll find another machine , the fastest currently available machine and {disfmarker} and run your job there .
+Turn 102, C (Professor): Now , does it have the same sort of behavior as P - make , which is that , you know , if you run something on somebody 's machine and they come in and hit a key then it {disfmarker}
+Turn 103, F (PhD): Yes . Yeah , there are um {disfmarker} Right . So some of the machines at the institute , um , have this attribute called " no evict " . And if you specify that , in {disfmarker} in one of your attribute lines , then it 'll go to a machine which your job won't be evicted from .
+Turn 104, C (Professor): Mm - hmm .
+Turn 105, F (PhD): But , the machines that don't have that attribute , if a job gets fired up on that , which could be somebody 's desktop machine , and {disfmarker} and they were at lunch ,
+Turn 106, C (Professor): Mm - hmm .
+Turn 107, F (PhD): they come back from lunch and they start typing on the console , then your machine will get evicted {disfmarker} your job {comment} will get evicted from their machine and be restarted on another machine . Automatically . So {disfmarker} which can cause you to lose time , right ? If you had a two hour job , and it got halfway through and then somebody came back to their machine and it got evicted . So . If you don't want your job to run on a machine where it could be evicted , then you give it the minus {disfmarker} the attribute , you know , " no evict " , and it 'll pick a machine that it can't be evicted from . So .
+Turn 108, C (Professor): Um , what {disfmarker} what about {disfmarker} I remember always used to be an issue , maybe it 's not anymore , that if you {disfmarker} if something required {disfmarker} if your machine required somebody hitting a key in order to evict things that are on it so you could work , but if you were logged into it from home ?
+Turn 109, F (PhD): Mm - hmm .
+Turn 110, C (Professor): and you weren't hitting any keys ? cuz you were , home ?
+Turn 111, F (PhD): Yeah , I {disfmarker} I 'm not sure how that works .
+Turn 112, C (Professor): Yeah .
+Turn 113, F (PhD): Uh , it seems like Andreas did something for that .
+Turn 114, C (Professor): Hmm .
+Turn 115, F (PhD): Um .
+Turn 116, C (Professor): OK . We can ask him sometime .
+Turn 117, F (PhD): But {disfmarker} Yeah . I don't know whether it monitors the keyboard or actually looks at the console TTY , so maybe if you echoed something to the you know , dev {disfmarker} dev console or something .
+Turn 118, C (Professor): You probably wouldn't ordinarily , though . Yeah . Right ? You probably wouldn't ordinarily .
+Turn 119, F (PhD): Hmm ?
+Turn 120, C (Professor): I mean you sort of {disfmarker} you 're at home and you 're trying to log in , and it takes forever to even log you in , and you probably go , " screw this " ,
+Turn 121, F (PhD): Yeah , yeah .
+Turn 122, C (Professor): and {disfmarker} {vocalsound} You know .
+Turn 123, F (PhD): Yeah . Yeah , so , um ,
+Turn 124, C (Professor): Yeah .
+Turn 125, F (PhD): yeah . I {disfmarker} I can {disfmarker} I 'm not sure about that one .
+Turn 126, C (Professor): yeah .
+Turn 127, F (PhD): But uh .
+Turn 128, C (Professor): OK .
+Turn 129, A (PhD): Uh , I need a little orientation about this environment and uh scr s how to run some jobs here because I never d did anything so far with this X emissions
+Turn 130, F (PhD): OK .
+Turn 131, A (PhD): So , I think maybe I 'll ask you after the meeting .
+Turn 132, F (PhD): Um . Yeah . Yeah , and {disfmarker} and also uh , Stephane 's a {disfmarker} a really good resource for that if you can't find me .
+Turn 133, A (PhD): Yeah , yeah , yeah . Yep . OK , sure
+Turn 134, D (PhD): Mmm .
+Turn 135, F (PhD): Especially with regard to the Aurora stuff .
+Turn 136, A (PhD): OK .
+Turn 137, F (PhD): He {disfmarker} he knows that stuff better than I do .
+Turn 138, C (Professor): OK . Well , why don't we uh , uh , Sunil since you 're {vocalsound} haven't {disfmarker} haven't been at one of these yet , why don't yo you tell us what 's {disfmarker} what 's up with you ? Wh - what you 've been up to , hopefully .
+Turn 139, A (PhD): Um . Yeah . So , uh , shall I start from {disfmarker} Well I don't know how may I {disfmarker} how {disfmarker} OK . Uh , I think I 'll start from the post uh Aurora submission maybe .
+Turn 140, C (Professor): Yeah .
+Turn 141, A (PhD): Uh , yeah , after the submission the {disfmarker} what I 've been working on mainly was to take {disfmarker} take other s submissions and then over their system , what they submitted , because we didn't have any speech enhancement system in {disfmarker} in ours . So {disfmarker} So I tried uh , And u First I tried just LDA . And then I found that uh , I mean , if {disfmarker} if I combine it with LDA , it gives @ @ improvement over theirs . Uh {disfmarker}
+Turn 142, F (PhD): Are y are you saying LDA ?
+Turn 143, A (PhD): Yeah . Yeah .
+Turn 144, F (PhD): LDA . OK .
+Turn 145, A (PhD): So , just {disfmarker} just the LDA filters . I just plug in {disfmarker} I just take the cepstral coefficients coming from their system and then plug in LDA on top of that . But the LDA filter that I used was different from what we submitted in the proposal .
+Turn 146, F (PhD): Mm - hmm .
+Turn 147, A (PhD): What I did was {vocalsound} I took the LDA filter 's design using clean speech , uh , mainly because the speech is already cleaned up after the enhancement so , instead of using this , uh , narrow {disfmarker} narrow band LDA filter that we submitted uh , I got new filters . So that seems to be giving {disfmarker} uh , improving over their uh , system . Slightly . But , not very significantly . And uh , that was uh , showing any improvement over {disfmarker} final {disfmarker} by plugging in an LDA . And uh , so then after {disfmarker} after that I {disfmarker} I added uh , on - line normalization also on top of that . And that {disfmarker} there {disfmarker} there also I n I found that I have to make some changes to their time constant that I used because th it has a {disfmarker} a mean and variance update time constant and {disfmarker} which is not suitable for the enhanced speech , and whatever we try it on with proposal - one . But um , I didn't {disfmarker} I didn't play with that time constant a lot , I just t g I just found that I have to reduce the value {disfmarker} I mean , I have to increase the time constant , or reduce the value of the update value . That 's all I found So I have to . Uh , Yeah . And uh , uh , the other {disfmarker} other thing what I tried was , I just um , uh , took the baseline and then ran it with the endpoint inf uh th information , just the Aurora baseline , to see that how much the baseline itself improves by just supplying the information of the {disfmarker} I mean the w speech and nonspeech . And uh , I found that the baseline itself improves by twenty - two percent by just giving the wuh .
+Turn 148, C (Professor): Uh , can you back up a second , I {disfmarker} I {disfmarker} I missed something , uh , I guess my mind wandered . Ad - ad When you added the on - line normalization and so forth , uh , uh things got better again ?
+Turn 149, A (PhD): Yeah . No .
+Turn 150, C (Professor): or is it ?
+Turn 151, A (PhD): No . No , things didn't get better with the same time constant that we used .
+Turn 152, C (Professor): Did it not ? No , no . With a different time constant .
+Turn 153, A (PhD): With the different time constant I found that {disfmarker} I mean , I didn't get an improvement over not using on - line normalization ,
+Turn 154, C (Professor): Oh .
+Turn 155, A (PhD): because I {disfmarker} I found that I would have change the value of the update factor .
+Turn 156, C (Professor): No you didn't , OK .
+Turn 157, A (PhD): But I didn't play it with play {disfmarker} play quite a bit to make it better than .
+Turn 158, C (Professor): Yeah .
+Turn 159, A (PhD): So , it 's still not {disfmarker}
+Turn 160, C (Professor): OK .
+Turn 161, A (PhD): I mean , the on - line normalization didn't give me any improvement .
+Turn 162, C (Professor): OK .
+Turn 163, A (PhD): And uh , so ,
+Turn 164, C (Professor): OK .
+Turn 165, A (PhD): oh yeah So I just stopped there with the uh , speech enhancement . The {disfmarker} the other thing what I tried was the {disfmarker} adding the uh , endpoint information to the baseline and that itself gives like twenty - two percent because the {disfmarker} the second {disfmarker} the new phase is going to be with the endpointed speech . And just to get a feel of how much the baseline itself is going to change by adding this endpoint information , I just , uh , use {disfmarker}
+Turn 166, C (Professor): Hmm .
+Turn 167, F (PhD): So people won't even have to worry about , uh , doing speech - nonspeech then .
+Turn 168, A (PhD): Yeah that 's , that 's what the feeling is like . They 're going to give the endpoint information .
+Turn 169, F (PhD): Mmm .
+Turn 170, C (Professor): G I guess the issue is that people do that anyway ,
+Turn 171, F (PhD): I see .
+Turn 172, C (Professor): everybody does that ,
+Turn 173, A (PhD): Yeah .
+Turn 174, C (Professor): and they wanted to see , given that you 're doing that , what {disfmarker} what are the best features that you should use .
+Turn 175, F (PhD): Yeah , I see .
+Turn 176, A (PhD): So ,
+Turn 177, C (Professor): I mean clearly they 're interact . So I don't know that I entirely agree with it .
+Turn 178, F (PhD): Yeah .
+Turn 179, C (Professor): But {disfmarker} but it might be uh {disfmarker} In some ways it might be better t to {disfmarker} rather than giving the endpoints , to have a standard that everybody uses and then interacts with .
+Turn 180, F (PhD): Mm - hmm .
+Turn 181, C (Professor): But , you know . It 's {disfmarker} it 's still someth reasonable .
+Turn 182, F (PhD): So , are people supposed to assume that there is uh {disfmarker} Are {disfmarker} are people not supposed to use any speech outside of those endpoints ?
+Turn 183, A (PhD): Uh {disfmarker}
+Turn 184, F (PhD): Or can you then use speech outside of it for estimating background noise and things ?
+Turn 185, A (PhD): No . No . That i I {disfmarker} Yeah . Yeah , yeah , exactly . I guess that is {disfmarker} that is where the consensus is . Like y you will {disfmarker} you will {disfmarker} You 'll be given the information about the beginning and the end of speech but the whole speech is available to you .
+Turn 186, F (PhD): OK .
+Turn 187, A (PhD): So .
+Turn 188, C (Professor): So it should make the spectral subtraction style things work even better ,
+Turn 189, A (PhD): Yeah .
+Turn 190, C (Professor): because you don't have the mistakes in it . Yeah ?
+Turn 191, A (PhD): Yeah . So {disfmarker}
+Turn 192, C (Professor): OK .
+Turn 193, A (PhD): So that {disfmarker} that {disfmarker} The baseline itself {disfmarker} I mean , it improves by twenty - two percent . I found that in s one of the SpeechDat - Car cases , that like , the Spanish one improves by just fifty percent by just putting the endpoint . w
+Turn 194, F (PhD): Wow .
+Turn 195, A (PhD): I mean you don't need any further speech enhancement with fifty . So , uh ,
+Turn 196, F (PhD): So the baseline itself improves by fifty percent .
+Turn 197, A (PhD): Yeah , by fifty percent .
+Turn 198, C (Professor): Yeah .
+Turn 199, F (PhD): Wow .
+Turn 200, C (Professor): So it 's g it 's gonna be harder to {vocalsound} beat that actually .
+Turn 201, F (PhD): Yeah .
+Turn 202, A (PhD): Yeah , so {disfmarker}
+Turn 203, C (Professor): But {disfmarker} but {disfmarker}
+Turn 204, A (PhD): so that is when uh , the {disfmarker} the qualification criteria was reduced from fifty percent to something like twenty - five percent for well - matched . And I think they have {disfmarker} they have actually changed their qualification c criteria now . And uh , Yeah , I guess after that , I just went home f I just had a vacation fo for four weeks . Uh .
+Turn 205, C (Professor): OK . No , that 's {disfmarker} that 's {disfmarker} that 's a good {disfmarker} good update .
+Turn 206, A (PhD): Ye Yeah , and I {disfmarker} I came back and I started working on uh , some other speech enhancement algorithm . I mean , so {disfmarker} I {disfmarker} from the submission what I found that people have tried spectral subtraction and Wiener filtering . These are the main uh , approaches where people have tried ,
+Turn 207, C (Professor): Yeah .
+Turn 208, A (PhD): so just to {disfmarker} just to fill the space with some f few more speech enhancement algorithms to see whether it improves a lot , I {disfmarker} I 've been working on this uh , signal subspace approach for speech enhancement where you take the noisy signal and then decomposing the signal s and the noise subspace and then try to estimate the clean speech from the signal plus noise subspace . And {disfmarker}
+Turn 209, C (Professor): Mm - hmm .
+Turn 210, A (PhD): So , I 've been actually running some s So far I 've been trying it only on Matlab . I have to {disfmarker} to {disfmarker} to test whether it works first or not
+Turn 211, C (Professor): Yeah .
+Turn 212, A (PhD): and then I 'll p port it to C and I 'll update it with the repository once I find it it giving any some positive result . So , yeah .
+Turn 213, C (Professor): S So you s you So you said one thing I want to jump on for a second . So {disfmarker} so now you 're {disfmarker} you 're getting tuned into the repository thing that he has here
+Turn 214, A (PhD): Yeah .
+Turn 215, C (Professor): and {disfmarker} so we we 'll have a {vocalsound} single place where the stuff is .
+Turn 216, A (PhD): Yep . Yeah .
+Turn 217, C (Professor): Cool . Um , so maybe uh , just briefly , you could remind us about the related experiments . Cuz you did some stuff that you talked about last week , I guess ?
+Turn 218, D (PhD): Mm - hmm .
+Turn 219, C (Professor): Um , where you were also combining something {disfmarker} both of you I guess were both combining something from the uh , French Telecom system with {vocalsound} the u uh {disfmarker}
+Turn 220, D (PhD): Right .
+Turn 221, C (Professor): I {disfmarker} I don't know whether it was system one or system two , or {disfmarker} ?
+Turn 222, D (PhD): Mm - hmm . It was system one . So
+Turn 223, C (Professor): OK .
+Turn 224, D (PhD): we {disfmarker} The main thing that we did is just to take the spectral subtraction from the France Telecom , which provide us some speech samples that are uh , with noise removed .
+Turn 225, C (Professor): So I let me {disfmarker} let me just stop you there . So then , one distinction is that uh , you were taking the actual France Telecom features and then applying something to {disfmarker}
+Turn 226, A (PhD): Uh , no there is a slight different . Uh I mean , which are extracted at the handset because they had another back - end blind equalization {disfmarker}
+Turn 227, C (Professor): Yeah .
+Turn 228, A (PhD): Yeah .
+Turn 229, C (Professor): Yeah . But that 's what I mean .
+Turn 230, A (PhD): Yeah .
+Turn 231, C (Professor): But u u Sorry ,
+Turn 232, A (PhD): Yeah .
+Turn 233, C (Professor): yeah , I 'm not being {disfmarker} I 'm not being clear .
+Turn 234, A (PhD): Yeah .
+Turn 235, C (Professor): What I meant was you had something like cepstra or something , right ?
+Turn 236, A (PhD): Yeah , yeah , yeah , yeah .
+Turn 237, C (Professor): And so one difference is that , I guess you were taking spectra .
+Turn 238, A (PhD): The speech .
+Turn 239, B (PhD): Yeah .
+Turn 240, D (PhD): Yeah . But I guess it 's the s exactly the same thing because on the heads uh , handset they just applied this Wiener filter and then compute cepstral features ,
+Turn 241, A (PhD): Yeah , the cepstral f The difference is like {disfmarker} There may be a slight difference in the way {disfmarker}
+Turn 242, D (PhD): right ? or {disfmarker} ?
+Turn 243, A (PhD): because they use exactly the baseline system for converting the cepstrum once you have the speech . I mean , if we are using our own code for th I mean that {disfmarker} that could be the only difference .
+Turn 244, D (PhD): Right .
+Turn 245, A (PhD): I mean , there is no other difference .
+Turn 246, D (PhD): Mm - hmm .
+Turn 247, A (PhD): Yeah .
+Turn 248, C (Professor): But you got some sort of different result . So I 'm trying to understand it . But uh , I th
+Turn 249, D (PhD): Yeah , well I think we should uh , have a table with all the result because I don't know I uh , I don't exactly know what are your results ? But ,
+Turn 250, A (PhD): OK . OK .
+Turn 251, D (PhD): Mmm . Yeah , but so we did this , and another difference I guess is that we just applied uh , proposal - one system after this without {disfmarker} well , with our modification to reduce the delay of the {disfmarker} the LDA filters ,
+Turn 252, A (PhD): Uh - huh .
+Turn 253, D (PhD): and
+Turn 254, B (PhD): And the filter {disfmarker}
+Turn 255, D (PhD): Well there are slight modifications , but it was the full proposal - one . In your case , if you tried just putting LDA , then maybe on - line normalization {disfmarker} ?
+Turn 256, A (PhD): Only LDA . Yeah . Af - I {disfmarker} after that I added on - line normalization , yeah .
+Turn 257, D (PhD): Mm - hmm . So we just tried directly to {disfmarker} to just , keep the system as it was and , um , when we plug the spectral subtraction it improves uh , signif significantly . Um , but , what seems clear also is that we have to retune the time constants of the on - line normalization .
+Turn 258, A (PhD): Yeah , yeah . Yeah .
+Turn 259, D (PhD): Because if we keep the value that was submitted uh , it doesn't help at all . You can remove on - line normalization , or put it , it doesn't change anything . Uh , uh , as long as you have the spectral subtraction . But , you can still find some kind of optimum somewhere , and we don't know where exactly
+Turn 260, A (PhD): Yeah .
+Turn 261, D (PhD): but , uh .
+Turn 262, A (PhD): Yeah , I assume .
+Turn 263, C (Professor): So it sounds like you should look at some tables of results or something
+Turn 264, D (PhD): Right .
+Turn 265, A (PhD): Yeah .
+Turn 266, D (PhD): Yeah .
+Turn 267, C (Professor): and see where i where the {disfmarker} {vocalsound} where they were different and what we can learn from it .
+Turn 268, D (PhD): Mm - hmm . Mm - hmm .
+Turn 269, A (PhD): without any change . OK .
+Turn 270, B (PhD): But it 's {disfmarker}
+Turn 271, D (PhD): Yeah . Well ,
+Turn 272, B (PhD): It 's the new .
+Turn 273, D (PhD): with {disfmarker} with {disfmarker} with changes ,
+Turn 274, A (PhD): with
+Turn 275, B (PhD): The new .
+Turn 276, D (PhD): because we change it the system to have {disfmarker}
+Turn 277, A (PhD): Oh yeah , I mean the {disfmarker} the new LDA filters .
+Turn 278, B (PhD): The new .
+Turn 279, A (PhD): I mean {disfmarker} OK .
+Turn 280, D (PhD): Yeah . LDA filters . There are other things that we finally were shown to improve also like , the sixty - four hertz cut - off .
+Turn 281, A (PhD): Mm - hmm .
+Turn 282, B (PhD): Mm - hmm .
+Turn 283, D (PhD): w Uh , it doesn't seem to hurt on TI - digits , finally .
+Turn 284, A (PhD): OK .
+Turn 285, D (PhD): Maybe because of other changes .
+Turn 286, A (PhD): OK .
+Turn 287, D (PhD): Um , well there are some {vocalsound} minor changes , yeah .
+Turn 288, A (PhD): Mm - hmm .
+Turn 289, D (PhD): And , right now if we look at the results , it 's , um , always better than {disfmarker} it seems always better than France Telecom for mismatch and high - mismatch . And it 's still slightly worse for well - matched .
+Turn 290, B (PhD): But
+Turn 291, D (PhD): Um , but this is not significant . But , the problem is that it 's not significant , but if you put this in the , mmm , uh , spreadsheet , it 's still worse . Even with very minor {disfmarker} uh , even if it 's only slightly worse for well - matched .
+Turn 292, C (Professor): Mm - hmm .
+Turn 293, D (PhD): And significantly better for HM . Uh , but , well . I don't think it 's importa important because when they will change their metric , uh , uh , mainly because of uh , when you p you plug the um , frame dropping in the baseline system , it will improve a lot HM , and MM ,
+Turn 294, A (PhD): Yeah .
+Turn 295, D (PhD): so , um , I guess what will happen {disfmarker} I don't know what will happen . But , the different contribution , I think , for the different test set will be more even .
+Turn 296, A (PhD): Because the {disfmarker} your improvement on HM and MM will also go down significantly in the spreadsheet so . But the {pause} the well - matched may still {disfmarker}
+Turn 297, D (PhD): Mm - hmm .
+Turn 298, A (PhD): I mean the well - matched may be the one which is least affected by adding the endpoint information .
+Turn 299, C (Professor): Right .
+Turn 300, A (PhD): Yeah . So the {disfmarker} the MM {disfmarker}
+Turn 301, D (PhD): Mm - hmm .
+Turn 302, A (PhD): MM and HM are going to be v hugely affected by it . Yeah .
+Turn 303, D (PhD): Yeah , so um , yeah .
+Turn 304, A (PhD): Yeah . But they d the {disfmarker} everything I mean is like , but there that 's how they reduce {disfmarker} why they reduce the qualification to twenty - five percent or some {disfmarker} something on .
+Turn 305, D (PhD): Mm - hmm .
+Turn 306, C (Professor): But are they changing the weighting ?
+Turn 307, A (PhD): Uh , no , I guess they are going ahead with the same weighting .
+Turn 308, D (PhD): Yeah .
+Turn 309, A (PhD): Yeah . So there 's nothing on {disfmarker}
+Turn 310, C (Professor): I don't understand that .
+Turn 311, A (PhD): Yeah .
+Turn 312, C (Professor): I guess I {disfmarker} I haven't been part of the discussion , so , um , it seems to me that the well - matched condition is gonna be unusual ,
+Turn 313, A (PhD): Usual .
+Turn 314, C (Professor): in this case . Unusual .
+Turn 315, A (PhD): Uh - huh .
+Turn 316, C (Professor): Because , um , you don't actually have good matches ordinarily for what any @ @ {disfmarker} particular person 's car is like , or
+Turn 317, A (PhD): Mmm .
+Turn 318, C (Professor): uh ,
+Turn 319, A (PhD): Mmm .
+Turn 320, C (Professor): It seems like something like the middle one is {disfmarker} is more natural .
+Turn 321, A (PhD): Hmm . Right .
+Turn 322, C (Professor): So I don't know why the {pause} well - matched is uh {disfmarker}
+Turn 323, D (PhD): Mm - hmm .
+Turn 324, A (PhD): Yeah , but actually the well {disfmarker} well the well - matched um , uh , I mean the {disfmarker} the well - matched condition is not like , uh , the one in TI - digits where uh , you have all the training , uh , conditions exactly like replicated in the testing condition also . It 's like , this is not calibrated by SNR or something . The well - matched has also some {disfmarker} some mismatch in that which is other than the {disfmarker}
+Turn 325, C (Professor): The well wa matched has mismatch ?
+Turn 326, A (PhD): has {disfmarker} has also some slight mismatches , unlike the TI - digits where it 's like prefectly matched
+Turn 327, F (PhD): Perfect to match .
+Turn 328, A (PhD): because it 's artificially added noise .
+Turn 329, C (Professor): Yeah .
+Turn 330, A (PhD): But this is natural recording .
+Turn 331, C (Professor): Yeah . So remind me of what well - matched meant ?
+Turn 332, A (PhD): The {disfmarker} the well - matched is like {disfmarker}
+Turn 333, C (Professor): You 've told me many times .
+Turn 334, A (PhD): the {disfmarker} the well - matched is defined like it 's seventy percent of the whole database is used for training and thirty percent for testing .
+Turn 335, D (PhD): Yeah . Well , so it means that if the database is large enough , it 's matched .
+Turn 336, A (PhD): It 's {disfmarker} it 's {disfmarker}
+Turn 337, D (PhD): Because it
+Turn 338, A (PhD): OK , it 's {disfmarker}
+Turn 339, C (Professor): Yeah .
+Turn 340, D (PhD): in each set you have a range of conditions {disfmarker} Well {disfmarker}
+Turn 341, C (Professor): Right . So , I mean , yeah , unless they deliberately chose it to be different , which they didn't because they want it to be well - matched , it is pretty much {disfmarker} You know , so it 's {disfmarker} so it 's sort of saying if you {disfmarker}
+Turn 342, F (PhD): It 's {disfmarker} it 's not guaranteed though .
+Turn 343, A (PhD): Yeah .
+Turn 344, C (Professor): Uh , it 's not guaranteed .
+Turn 345, A (PhD): Yeah .
+Turn 346, C (Professor): Right .
+Turn 347, D (PhD): Mm - hmm .
+Turn 348, A (PhD): Yeah because the m the main {disfmarker} major reason for the m
+Turn 349, C (Professor): Right .
+Turn 350, A (PhD): the main mismatch is coming from the amount of noise and the silence frames and all those present in the database actually .
+Turn 351, C (Professor): Again , if you have enough {disfmarker} if you have enough {disfmarker}
+Turn 352, A (PhD): No yeah , yeah . Yeah .
+Turn 353, C (Professor): So it 's sort of i i it 's sort of saying OK , so you {disfmarker} much as you train your dictation machine for talking into your computer , um , you {disfmarker} you have a car , and so you drive it around a bunch and {disfmarker} and record noise conditions , or something , and then {disfmarker} I don't think that 's very realistic , I mean I th
+Turn 354, A (PhD): Mm - hmm .
+Turn 355, C (Professor): I {disfmarker} I you know , so I {disfmarker} I {disfmarker} I {disfmarker} you know , I guess they 're saying that if you were a company that was selling the stuff commercially , that you would have a bunch of people driving around in a bunch of cars , and {disfmarker} and you would have something that was roughly similar and maybe that 's the argument , but I 'm not sure I buy it , so .
+Turn 356, A (PhD): Yeah , yeah , yeah .
+Turn 357, C (Professor): Uh , So What else is going on ?
+Turn 358, D (PhD): Mmm . You Yeah . We are playing {disfmarker} we are also playing , trying to put other spectral subtraction mmm , in the code . Um , it would be a very simple spectral subtraction , on the um , mel energies which I already tested but without the um frame dropping actually , and I think it 's important to have frame dropping if you use spectral subtraction .
+Turn 359, F (PhD): Is it {disfmarker} is spectral subtraction typically done on the {disfmarker} after the mel , uh , scaling or is it done on the FFT bins ?
+Turn 360, D (PhD): Um ,
+Turn 361, F (PhD): Does it matter , or {disfmarker} ?
+Turn 362, D (PhD): I d I don't know . Well , it 's both {disfmarker} both uh , cases can i
+Turn 363, F (PhD): Oh .
+Turn 364, D (PhD): Yeah . So - some of the proposal , uh , we 're doing this on the bin {disfmarker} on the FFT bins ,
+Turn 365, F (PhD): Hmm .
+Turn 366, D (PhD): others on the um , mel energies . You can do both , but I cannot tell you what 's {disfmarker} which one might be better or {disfmarker} I {disfmarker}
+Turn 367, F (PhD): Hmm .
+Turn 368, A (PhD): I guess if you want to reconstruct the speech , it may be a good idea to do it on FFT bins .
+Turn 369, D (PhD): I don't know . Yeah , but
+Turn 370, F (PhD): Mmm .
+Turn 371, A (PhD): But for speech recognition , it may not . I mean it may not be very different if you do it on mel warped or whether you do it on FFT . So you 're going to do a linear weighting anyway after that .
+Turn 372, F (PhD): I see .
+Turn 373, A (PhD): Well {disfmarker} Yeah ?
+Turn 374, F (PhD): Hmm .
+Turn 375, A (PhD): So , it may not be really a big different .
+Turn 376, D (PhD): Well , it gives something different , but I don't know what are the , pros and cons of both .
+Turn 377, A (PhD): It I Uh - huh .
+Turn 378, C (Professor): Hmm .
+Turn 379, A (PhD): So
+Turn 380, C (Professor): OK .
+Turn 381, A (PhD): The other thing is like when you 're putting in a speech enhancement technique , uh , is it like one stage speech enhancement ? Because everybody seems to have a mod two stages of speech enhancement in all the proposals , which is really giving them some improvement .
+Turn 382, D (PhD): Yeah .
+Turn 383, B (PhD): Mm - hmm .
+Turn 384, D (PhD): Mm - hmm .
+Turn 385, A (PhD): I mean they just do the same thing again once more .
+Turn 386, C (Professor): Mm - hmm .
+Turn 387, A (PhD): And {disfmarker} So , there 's something that is good about doing it {disfmarker} I mean , to cleaning it up once more .
+Turn 388, D (PhD): Yeah , it might be .
+Turn 389, A (PhD): Yeah ,
+Turn 390, D (PhD): Yeah .
+Turn 391, A (PhD): so we can {disfmarker}
+Turn 392, D (PhD): So maybe in my implementation I should also try to inspire me from this kind of thing
+Turn 393, A (PhD): Yeah . That 's what
+Turn 394, C (Professor): Well , the other thing would be to combine what you 're doing .
+Turn 395, D (PhD): and {disfmarker} Yeah .
+Turn 396, C (Professor): I mean maybe one or {disfmarker} one or the other of the things that you 're doing would benefit from the other happening first .
+Turn 397, A (PhD): That 's wh Yeah . So ,
+Turn 398, C (Professor): Right , so he 's doing a signal subspace thing , maybe it would work better if you 'd already done some simple spectral subtraction , or maybe vi maybe the other way around ,
+Turn 399, D (PhD): Yeah , mm - hmm .
+Turn 400, A (PhD): Yeah .
+Turn 401, C (Professor): you know ?
+Turn 402, A (PhD): So I 've been thinking about combining the Wiener filtering with signal subspace ,
+Turn 403, D (PhD): Mm - hmm .
+Turn 404, A (PhD): I mean just to see all {disfmarker} some {disfmarker} some such permutation combination to see whether it really helps or not .
+Turn 405, D (PhD): Mm - hmm . Mm - hmm . Mm - hmm . Yeah . Yeah .
+Turn 406, C (Professor): How is it {disfmarker} I {disfmarker} I guess I 'm ignorant about this , how does {disfmarker} I mean , since Wiener filter also assumes that you 're {disfmarker} that you 're adding together the two signals , how is {disfmarker} how is that differ from signal subspace ?
+Turn 407, A (PhD): The signal subspace ? The {disfmarker}
+Turn 408, C (Professor): Yeah .
+Turn 409, A (PhD): The signal subspace approach has actually an in - built Wiener filtering in it .
+Turn 410, C (Professor): Oh , OK .
+Turn 411, A (PhD): Yeah . It is like a KL transform followed by a Wiener filter . Is the signal is {disfmarker} is a signal substrate .
+Turn 412, C (Professor): Oh , oh , OK so the difference is the KL .
+Turn 413, A (PhD): So , the {disfmarker} the different {disfmarker} the c the {disfmarker} the advantage of combining two things is mainly coming from the signal subspace approach doesn't work very well if the SNR is very bad . It 's {disfmarker} it works very poorly with the poor SNR conditions , and in colored noise .
+Turn 414, C (Professor): I see . So essentially you could do simple spectral subtraction , followed by a KL transform , followed by a
+Turn 415, A (PhD): Wiener filtering . It 's a {disfmarker} it 's a cascade of two s
+Turn 416, C (Professor): Wiener filter . Yeah , in general , you don't {disfmarker} that 's right you don't wanna othorg orthogonalize if the things are noisy . Actually . Um , that was something that uh , Herve and I were talking about with um , the multi - band stuff , that if you 're converting things to from uh , bands , groups of bands into cepstral coef you know , local sort of local cepstral coefficients that it 's not that great to do it if it 's noisy .
+Turn 417, A (PhD): Mm - hmm . OK . Yeah . So .
+Turn 418, C (Professor): Uh , so .
+Turn 419, A (PhD): So that {disfmarker} that 's one reason maybe we could combine s some {disfmarker} something to improve SNR a little bit , first stage ,
+Turn 420, C (Professor): Yeah .
+Turn 421, A (PhD): and then do a something in the second stage which could take it further .
+Turn 422, D (PhD): What was your point about {disfmarker} about colored noise there ?
+Turn 423, A (PhD): Oh , the colored noise uh {disfmarker}
+Turn 424, D (PhD): Yeah .
+Turn 425, A (PhD): the colored noise {disfmarker} the {disfmarker} the v the signal subspace approach has {disfmarker} I mean , it {disfmarker} it actually depends on inverting the matrices . So it {disfmarker} it {disfmarker} ac the covariance matrix of the noise . So if {disfmarker} if it is not positive definite ,
+Turn 426, D (PhD): Mm - hmm .
+Turn 427, A (PhD): I mean it has a {disfmarker} it 's {disfmarker} It doesn't behave very well if it is not positive definite ak It works very well with white noise because we know for sure that it has a positive definite .
+Turn 428, C (Professor): So you should do spectral subtraction and then add noise .
+Turn 429, A (PhD): So the way they get around is like they do an inverse filtering , first of the colo colored noise
+Turn 430, C (Professor): Yeah .
+Turn 431, A (PhD): and then make the noise white ,
+Turn 432, C (Professor): Yeah .
+Turn 433, A (PhD): and then finally when you reconstruct the speech back , you do this filtering again .
+Turn 434, D (PhD): Yeah , right .
+Turn 435, C (Professor): I was only half kidding . I mean if you {disfmarker} sort of {vocalsound} you do the s spectral subtraction , that also gets rid {disfmarker}
+Turn 436, A (PhD): Yeah .
+Turn 437, D (PhD): Yeah .
+Turn 438, A (PhD): Yeah .
+Turn 439, C (Professor): and then you {disfmarker} then {disfmarker} then add a little bit l noise {disfmarker} noise addition {disfmarker} I mean , that sort of what J {disfmarker} JRASTA does , in a way .
+Turn 440, A (PhD): Yeah .
+Turn 441, C (Professor): If you look at what JRASTA doing essentially i i it 's equivalent to sort of adding a little {disfmarker} adding a little noise ,
+Turn 442, A (PhD): Huh ? Uh - huh .
+Turn 443, D (PhD): Uh - huh .
+Turn 444, C (Professor): in order to get rid of the effects of noise .
+Turn 445, A (PhD): So .
+Turn 446, C (Professor): OK .
+Turn 447, D (PhD): Yeah . Uh , yeah . So there is this . And maybe we {disfmarker} well we find some people so that {vocalsound} uh , agree to maybe work with us , and they have implementation of VTS techniques so it 's um , Vector Taylor Series that are used to mmm , {vocalsound} uh f to model the transformation between clean cepstra and noisy cepstra . So . Well , if you take the standard model of channel plus noise , uh , it 's {disfmarker} it 's a nonlinear eh uh , transformation in the cepstral domain .
+Turn 448, C (Professor): Mm - hmm . Yes .
+Turn 449, D (PhD): And uh , there is a way to approximate this using uh , first - order or second - order Taylor Series and it can be used for {vocalsound} uh , getting rid of the noise and the channel effect .
+Turn 450, C (Professor): Who is doing this ?
+Turn 451, D (PhD): Uh w working in the cepstral domain ? So there is one guy in Grenada ,
+Turn 452, B (PhD): Yeah , in Grenada one of my friend .
+Turn 453, D (PhD): and another in {pause} uh , Lucent that I met at ICASSP .
+Turn 454, C (Professor): Who 's the guy in Grenada ?
+Turn 455, D (PhD): uh ,
+Turn 456, B (PhD): Uh , Jose Carlos Segura .
+Turn 457, C (Professor): I don't know him .
+Turn 458, A (PhD): This VTS has been proposed by CMU ?
+Turn 459, D (PhD): Mm - hmm .
+Turn 460, A (PhD): Is it {disfmarker} is it the CMU ? Yeah , yeah , OK .
+Turn 461, B (PhD): Yeah , yeah , yeah . Originally the idea was from CMU .
+Turn 462, A (PhD): From C .
+Turn 463, D (PhD): Mm - hmm . Yeah .
+Turn 464, C (Professor): Uh - huh .
+Turn 465, D (PhD): Well , it 's again a different thing {vocalsound} {vocalsound} that could be tried . Um ,
+Turn 466, C (Professor): Uh - huh .
+Turn 467, D (PhD): Mmm , yeah .
+Turn 468, C (Professor): Yeah , so at any rate , you 're looking general , uh , standing back from it , looking at ways to combine one form or another of uh , noise removal , uh , with {disfmarker} with these other things we have ,
+Turn 469, D (PhD): Mm - hmm .
+Turn 470, C (Professor): uh , looks like a worthy thing to {disfmarker} to do here .
+Turn 471, D (PhD): Uh , yeah . But , yeah . But for sure there 's required to {disfmarker} that requires to re - check everything else , and re - optimize the other things
+Turn 472, C (Professor): Oh yeah .
+Turn 473, D (PhD): and , for sure the on - line normalization may be the LDA filter . Um ,
+Turn 474, C (Professor): Well one of the {disfmarker} seems like one of the things to go through next week when Hari 's here ,
+Turn 475, D (PhD): I {disfmarker}
+Turn 476, C (Professor): cuz Hari 'll have his own ideas too {disfmarker} or {pause} I guess not next week ,
+Turn 477, D (PhD): Uh - huh .
+Turn 478, C (Professor): week and a half , uh , will be sort of go through these alternatives , what we 've seen so far , and come up with some game plans . Um . You know . So , I mean one way would {disfmarker} he Here are some alternate visions . I mean one would be , you look at a few things very quickly , you pick on something that looks like it 's promising and then everybody works really hard on the same {disfmarker} different aspects of the same thing . Another thing would be to have t to {disfmarker} to pick two pol two plausible things , and {disfmarker} and you know , have t sort of two working things for a while until we figure out what 's better ,
+Turn 479, D (PhD): Mm - hmm .
+Turn 480, C (Professor): and then , you know , uh , but , w um , uh , he 'll have some ideas on that too .
+Turn 481, A (PhD): The other thing is to , uh {disfmarker} Most of the speech enhancement techniques have reported results on small vocabulary tasks . But we {disfmarker} we going to address this Wall Street Journal in our next stage , which is also going to be a noisy task so s very few people have reported something on using some continuous speech at all . So , there are some {disfmarker} I mean , I was looking at some literature on speech enhancement applied to large vocabulary tasks and spectral subtraction doesn't seems to be the thing to do for large vocabulary tasks . And it 's {disfmarker} Always people have shown improvement with Wiener filtering and maybe subspace approach over spectral subtraction everywhere . But if we {disfmarker} if we have to use simple spectral subtraction , we may have to do some optimization {pause} to make it work @ @ .
+Turn 482, C (Professor): So they 're making {disfmarker} there {disfmarker} Somebody 's generating Wall Street Journal with additive {disfmarker} artificially added noise or something ?
+Turn 483, A (PhD): Yeah , yeah .
+Turn 484, C (Professor): Sort of a {disfmarker} sort of like what they did with TI - digits , and ?
+Turn 485, A (PhD): Yeah . Yeah .
+Turn 486, C (Professor): Yeah , OK .
+Turn 487, A (PhD): I m I guess Guenter Hirsch is in charge of that . Guenter Hirsch and TI .
+Turn 488, C (Professor): OK .
+Turn 489, A (PhD): Maybe Roger {disfmarker} r Roger , maybe in charge of .
+Turn 490, C (Professor): And then they 're {disfmarker} they 're uh , uh , generating HTK scripts to {disfmarker}
+Turn 491, A (PhD): Yeah . Yeah , I don't know . There are {disfmarker} they have {disfmarker} there is no {disfmarker} I don't know if they are converging on HTK or are using some Mississippi State ,
+Turn 492, C (Professor): Mis - Mississippi State maybe ,
+Turn 493, A (PhD): yeah . I 'm not sure about that .
+Turn 494, C (Professor): yeah . Yeah , so that 'll be a little {disfmarker} little task in itself .
+Turn 495, A (PhD): Yeah .
+Turn 496, C (Professor): Um , well we 've {disfmarker} Yeah , it 's true for the additive noise , y artificially added noise we 've always used small vocabulary too . But for n there 's been noisy speech this larv large vocabulary that we 've worked with in Broadcast News . So we we did the Broadcast News evaluation
+Turn 497, A (PhD): Mm - hmm .
+Turn 498, C (Professor): and some of the focus conditions were noisy and {disfmarker} and {disfmarker}
+Turn 499, A (PhD): It had additive n
+Turn 500, C (Professor): But we {disfmarker} but we didn't do spectral subtraction . We were doing our funny stuff , right ? We were doing multi multi uh , multi - stream and {disfmarker} and so forth .
+Turn 501, A (PhD): Yeah .
+Turn 502, C (Professor): But it , you know , we di stuff we did helped . I mean it , did something .
+Turn 503, A (PhD): OK .
+Turn 504, C (Professor): So . Um , now we have this um , meeting data . You know , like the stuff we 're {comment} recording right now ,
+Turn 505, A (PhD): Yeah . Yeah .
+Turn 506, C (Professor): and {disfmarker} and uh , that we have uh , for the {disfmarker} uh , the quote - unquote noisy data there is just {disfmarker} noisy and reverberant actually . It 's the far field mike . And uh , we have uh , the digits that we do at the end of these things . And that 's what most o again , most of our work has been done with that , with {disfmarker} with uh , connected digits .
+Turn 507, A (PhD): Uh - huh .
+Turn 508, C (Professor): Um , but uh , we have recognition now with some of the continuous speech , large vocabulary continuous speech , using Switchboard {disfmarker} uh , Switchboard recognizer ,
+Turn 509, A (PhD): Yeah . OK .
+Turn 510, C (Professor): uh , no training , {vocalsound} from this , just {disfmarker} just plain using the Switchboard .
+Turn 511, A (PhD): Oh . You just take the Switchboard trained {disfmarker} ? Yeah ,
+Turn 512, C (Professor): That 's {disfmarker} that 's what we 're doing ,
+Turn 513, A (PhD): yeah .
+Turn 514, C (Professor): yeah . Now there are some adaptation though ,
+Turn 515, A (PhD): OK . Yeah . That 's cool .
+Turn 516, C (Professor): that {disfmarker} that uh , Andreas has been playing with ,
+Turn 517, A (PhD): OK .
+Turn 518, C (Professor): but we 're hop uh , actually uh , Dave and I were just talking earlier today about maybe at some point not that distant future , trying some of the techniques that we 've talked about on , uh , some of the large vocabulary data . Um , I mean , I guess no one had done {disfmarker} yet done test one on the distant mike using uh , the SRI recognizer and , uh ,
+Turn 519, F (PhD): I don't {disfmarker} not that I know of .
+Turn 520, C (Professor): Yeah , cuz everybody 's scared .
+Turn 521, A (PhD): Yeah .
+Turn 522, C (Professor): You 'll see a little smoke coming up from the {disfmarker} the CPU or something {vocalsound} trying to {disfmarker} trying to do it ,
+Turn 523, F (PhD): That 's right
+Turn 524, C (Professor): but uh , yeah . But , you 're right that {disfmarker} that {disfmarker} that 's a real good point , that uh , we {disfmarker} we don't know yeah , uh , I mean , what if any of these ta I guess that 's why they 're pushing that in the uh {disfmarker} in the evaluation .
+Turn 525, A (PhD): Yeah .
+Turn 526, C (Professor): Uh , But um , Good . OK . Anything else going on ? at you guys ' end ,
+Turn 527, B (PhD): I don't have good result , with the {disfmarker} inc including the new parameters ,
+Turn 528, C (Professor): or {disfmarker} ?
+Turn 529, B (PhD): I don't have good result . Are {pause} similar or a little bit worse .
+Turn 530, A (PhD): With what {disfmarker} what other new p new parameter ?
+Turn 531, G (Grad): You 're talking about your voicing ?
+Turn 532, C (Professor): Yeah .
+Turn 533, B (PhD): Yeah .
+Turn 534, C (Professor): So maybe {disfmarker} You probably need to back up a bit
+Turn 535, A (PhD): Yeah .
+Turn 536, B (PhD): Mm - hmm .
+Turn 537, C (Professor): seeing as how Sunil ,
+Turn 538, B (PhD): I tried to include another new parameter to the traditional parameter ,
+Turn 539, C (Professor): yeah .
+Turn 540, B (PhD): the coe the cepstrum coefficient ,
+Turn 541, A (PhD): Uh - huh .
+Turn 542, B (PhD): that , like , the auto - correlation , the R - zero and R - one over R - zero
+Turn 543, A (PhD): Mm - hmm . Mm - hmm .
+Turn 544, B (PhD): and another estimation of the var the variance of the difference for {disfmarker} of the spec si uh , spectrum of the signal and {disfmarker} and the spectrum of time after filt mel filter bank .
+Turn 545, A (PhD): I 'm so sorry . I didn't get it .
+Turn 546, B (PhD): Nuh . Well . Anyway . The {disfmarker} First you have the sp the spectrum of the signal ,
+Turn 547, A (PhD): Mm - hmm .
+Turn 548, B (PhD): and you have the {disfmarker} on the other side you have the output of the mel filter bank .
+Turn 549, A (PhD): Mm - hmm .
+Turn 550, B (PhD): You can extend the coefficient of the mel filter bank and obtain an approximation of the spectrum of the signal .
+Turn 551, A (PhD): Mmm . OK .
+Turn 552, B (PhD): I do the difference {disfmarker}
+Turn 553, A (PhD): OK .
+Turn 554, B (PhD): I found a difference at the variance of this different
+Turn 555, A (PhD): Uh - huh .
+Turn 556, B (PhD): because , suppose we {disfmarker} we think that if the variance is high , maybe you have n uh , noise .
+Turn 557, A (PhD): Yeah .
+Turn 558, B (PhD): And if the variance is small , maybe you have uh , speech .
+Turn 559, A (PhD): Uh - huh .
+Turn 560, B (PhD): To {disfmarker} to To {disfmarker} The idea is to found another feature for discriminate between voice sound and unvoice sound .
+Turn 561, A (PhD): OK .
+Turn 562, B (PhD): And we try to use this new feature {disfmarker} feature . And I did experiment {disfmarker} I need to change {disfmarker} to obtain this new feature I need to change the size {disfmarker} the window size {disfmarker} size . of the a of the {disfmarker} analysis window size , to have more information .
+Turn 563, A (PhD): Yeah . Make it longer .
+Turn 564, B (PhD): Uh , sixty - two point five milliseconds I think .
+Turn 565, A (PhD): OK .
+Turn 566, B (PhD): And I do {disfmarker} I did two type of experiment to include this feature directly with the {disfmarker} with the other feature and to train a neural network to select it voice - unvoice - silence {disfmarker} silence
+Turn 567, A (PhD): Unvoiced . Well .
+Turn 568, B (PhD): and to {disfmarker} to concat this new feature . But the result are n with the neural network I have more or less the same result .
+Turn 569, A (PhD): As using just the cepstrum ,
+Turn 570, B (PhD): Result .
+Turn 571, A (PhD): or {disfmarker} ?
+Turn 572, B (PhD): Yeah .
+Turn 573, A (PhD): OK .
+Turn 574, B (PhD): Yeah . It 's neve e e sometime it 's worse , sometime it 's a little bit better , but not significantly .
+Turn 575, A (PhD): Uh , is it with TI - digits , or with {disfmarker} ?
+Turn 576, B (PhD): And {disfmarker} No , I work with eh , Italian and Spanish basically .
+Turn 577, A (PhD): OK . OK .
+Turn 578, B (PhD): And if I don't y use the neural network , and use directly the feature the results are worse .
+Turn 579, A (PhD): Uh - huh .
+Turn 580, B (PhD): But Doesn't help .
+Turn 581, C (Professor): I {disfmarker} I {disfmarker} I really wonder though .
+Turn 582, D (PhD): Mm - hmm .
+Turn 583, C (Professor): I mean we 've had these discussions before , and {disfmarker} and one of the things that struck me was that {disfmarker} uh , about this line of thought that was particularly interesting to me was that we um {disfmarker} whenever you condense things , uh , in an irreversible way , um , you throw away some information . And , that 's mostly viewed on as a good thing , in the way we use it , because we wanna suppress things that will cause variability for uh particular , uh , phonetic units . Um , but , you 'll do throw something away . And so the question is , uh , can we figure out if there 's something we 've thrown away that we shouldn't have . And um . So , when they were looking at the difference between the filter bank and the FFT that was going into the filter bank , I was thinking " oh , OK , so they 're picking on something they 're looking on it to figure out noise , or voice {disfmarker} voiced property whatever . " So that {disfmarker} that 's interesting . Maybe that helps to drive the {disfmarker} the thought process of coming up with the features . But for me sort of the interesting thing was , " well , but is there just something in that difference which is useful ? " So another way of doing it , maybe , would be just to take the FFT uh , power spectrum , and feed it into a neural network ,
+Turn 584, B (PhD): To know {disfmarker}
+Turn 585, C (Professor): and then use it , you know , in combination , or alone , or {disfmarker} or whatever
+Turn 586, F (PhD): Wi - with what targets ?
+Turn 587, A (PhD): Voiced , unvoiced is like {disfmarker}
+Turn 588, C (Professor): Uh , no .
+Turn 589, A (PhD): Oh . Or anything .
+Turn 590, C (Professor): No the {disfmarker} just the same {disfmarker} same way we 're using {disfmarker} I mean , the same way that we 're using the filter bank .
+Turn 591, F (PhD): Phones .
+Turn 592, A (PhD): Oh , OK .
+Turn 593, C (Professor): Exact way {disfmarker} the same way we 're using the filter bank .
+Turn 594, D (PhD): Mm - hmm .
+Turn 595, C (Professor): I mean , the filter bank is good for all the reasons that we say it 's good . But it 's different . And , you know , maybe if it 's used in combination , it will get at something that we 're missing . And maybe , you know , using , orth you know , KLT , or uh , um , adding probabilities , I mean , all th all the different ways that we 've been playing with , that we would let the {disfmarker} essentially let the neural network determine what is it that 's useful , that we 're missing here .
+Turn 596, D (PhD): Mm - hmm . Mm - hmm .
+Turn 597, A (PhD): Mm - hmm .
+Turn 598, D (PhD): Yeah , but there is so much variability in the power spectrum .
+Turn 599, C (Professor): Well , that 's probably why y i it would be unlikely to work as well by itself , but it might help in combination .
+Turn 600, D (PhD): Mm - hmm . Mmm .
+Turn 601, C (Professor): But I {disfmarker} I {disfmarker} I have to tell you , I can't remember the conference , but , uh , I think it 's about ten years ago , I remember going to one of the speech conferences and {disfmarker} and uh , I saw within very short distance of one another a couple different posters that showed about the wonders of some auditory inspired front - end or something , and a couple posters away it was somebody who compared one to uh , just putting in the FFT and the FFT did slightly better . So I mean the {disfmarker} i i It 's true there 's lots of variability ,
+Turn 602, D (PhD): Mm - hmm .
+Turn 603, C (Professor): but again we have these wonderful statistical mechanisms for quantifying that a that variability , and you know , doing something reasonable with it .
+Turn 604, D (PhD): Mm - hmm .
+Turn 605, C (Professor): So , um , uh , It - it 's same , you know , argument that 's gone both ways about uh , you know , we have these data driven filters , in LDA , and on the other hand , if it 's data driven it means it 's driven by things that have lots of variability , and that are necessarily {disfmarker} not necessarily gonna be the same in training and test , so , in some ways it 's good to have data driven things , and in some ways it 's bad to have data driven things . So ,
+Turn 606, A (PhD): Yeah , d
+Turn 607, C (Professor): part of what we 're discovering , is ways to combine things that are data driven than are not .
+Turn 608, A (PhD): Yeah .
+Turn 609, C (Professor): Uh , so anyway , it 's just a thought , that {disfmarker} that if we {disfmarker} if we had that {disfmarker} maybe it 's just a baseline uh , which would show us " well , what are we really getting out of the filters " , or maybe i i probably not by itself , but in combination , uh ,
+Turn 610, D (PhD): Mm - hmm .
+Turn 611, C (Professor): you know , maybe there 's something to be gained from it , and let the {disfmarker} But , you know , y you 've only worked with us for a short time , maybe in a year or two you w you will actually come up with the right set of things to extract from this information . But , maybe the neural net and the H M Ms could figure it out quicker than you .
+Turn 612, B (PhD): Maybe .
+Turn 613, C (Professor): So .
+Turn 614, B (PhD): Yeah ,
+Turn 615, C (Professor): It 's just a thought .
+Turn 616, B (PhD): I can {disfmarker} I will try to do that .
+Turn 617, C (Professor): Yeah .
+Turn 618, A (PhD): What {disfmarker} one {disfmarker} one um p one thing is like what {disfmarker} before we started using this VAD in this Aurora , the {disfmarker} th what we did was like , I {disfmarker} I guess most of you know about this , adding this additional speech - silence bit to the cepstrum and training the HMM on that .
+Turn 619, C (Professor): Mm - hmm .
+Turn 620, A (PhD): That is just a binary feature and that seems to be {vocalsound} improving a lot on the SpeechDat - Car where there is a lot of noise but not much on the TI - digits . So , a adding an additional feature to distin to discriminate between speech and nonspeech was helping . That 's it .
+Turn 621, D (PhD): Wait {disfmarker} I {disfmarker} I 'm sorry ?
+Turn 622, A (PhD): Yeah , we actually added an additional binary feature to the cepstrum , just the baseline .
+Turn 623, D (PhD): Yeah ?
+Turn 624, B (PhD): You did some experiment .
+Turn 625, A (PhD): Yeah , yeah . Well , in {disfmarker} in the case of TI - digits it didn't actually give us anything , because there wasn't any f anything to discriminate between speech ,
+Turn 626, D (PhD): Yeah .
+Turn 627, A (PhD): and it was very short . But Italian was like very {disfmarker} it was a huge improvement on Italian .
+Turn 628, D (PhD): Hmm . Well {disfmarker} Mm - hmm . But anyway the question is even more , is within speech , can we get some features ? Are we drop dropping information that can might be useful within speech ,
+Turn 629, A (PhD): OK .
+Turn 630, D (PhD): I mean . To {disfmarker} maybe to distinguish between voice sound and unvoiced sounds ?
+Turn 631, A (PhD): Mm - hmm . Yeah , yeah . Yeah .
+Turn 632, C (Professor): And it 's particularly more relevant now since we 're gonna be given the endpoints .
+Turn 633, D (PhD): Yeah .
+Turn 634, C (Professor): So .
+Turn 635, D (PhD): Mm - hmm .
+Turn 636, A (PhD): Yeah , yeah .
+Turn 637, C (Professor): Uh . So .
+Turn 638, D (PhD): Mmm .
+Turn 639, A (PhD): Mmm .
+Turn 640, C (Professor): Um .
+Turn 641, A (PhD): There was a paper in ICASSP {disfmarker} this ICASSP {disfmarker} over the uh extracting some higher - order uh , information from the cepstral coefficients and I forgot the name . Some is some harmonics I don't know , I can {disfmarker} I can pull that paper out from ICASSP . It {disfmarker}
+Turn 642, C (Professor): Talking cumulants or something ?
+Turn 643, D (PhD): Yeah .
+Turn 644, A (PhD): Huh ? Uh , I don't know .
+Turn 645, C (Professor): Cumulants or something .
+Turn 646, A (PhD): I don't remember .
+Turn 647, C (Professor): But {disfmarker} No .
+Turn 648, A (PhD): It wa it was taking the , um {disfmarker} It was about finding the higher - order moments of {disfmarker} Yeah .
+Turn 649, C (Professor): Yeah ,
+Turn 650, A (PhD): And I 'm not sure about whether it is the higher - order moments , or {disfmarker}
+Turn 651, C (Professor): cumulants , yeah .
+Turn 652, A (PhD): maybe higher - order cumulants
+Turn 653, C (Professor): Oh .
+Turn 654, A (PhD): and {disfmarker} Yeah . It was {disfmarker} it was {disfmarker}
+Turn 655, C (Professor): Or m e
+Turn 656, A (PhD): Yeah . I mean , he was showing up uh some {disfmarker} something on noisy speech ,
+Turn 657, C (Professor): Yeah .
+Turn 658, A (PhD): some improvement on the noisy speech .
+Turn 659, D (PhD): Mm - hmm .
+Turn 660, A (PhD): Some small vocabulary tasks .
+Turn 661, C (Professor): Uh .
+Turn 662, A (PhD): So it was on PLP derived cepstral coefficients .
+Turn 663, C (Professor): Yeah , but again {disfmarker} You could argue that th that 's exactly what the neural network does .
+Turn 664, A (PhD): Mmm .
+Turn 665, C (Professor): So n neural network uh , is in some sense equivalent to computing , you know , higher - order moments of what you {disfmarker}
+Turn 666, A (PhD): trying to f to Moments , yeah . Yeah .
+Turn 667, C (Professor): yeah . So . I mean , it doesn't do it very specifically ,
+Turn 668, D (PhD): Mm - hmm .
+Turn 669, C (Professor): and pretty {disfmarker} you know . But .
+Turn 670, A (PhD): Yep .
+Turn 671, C (Professor): Uh , anything on your end you want to talk about ? Uh .
+Turn 672, G (Grad): Um , nothing I wanna really talk about . I can {disfmarker} I can just uh , um , share a little bit {disfmarker} Sunil hasn't {disfmarker} hasn't heard about uh , what I 've been doing .
+Turn 673, C (Professor): Yeah .
+Turn 674, G (Grad): Um , so , um , I told you I was {disfmarker} I was {disfmarker} I was getting prepared to take this qualifier exam . So basically that 's just , um , trying to propose um , uh , your next your {disfmarker} your following years of {disfmarker} of your PHD work , trying {disfmarker} trying to find a project to {disfmarker} to define and {disfmarker} and to work on . So , I 've been , uh , looking into , um , doing something about r uh , speech recognition using acoustic events . So , um , the idea is you have all these {disfmarker} these different events , for example voicing , nasality , R - coloring , you know burst or noise , uh , frication , that kinda stuff , um , building robust um , primary detectors for these acoustic events , and using the outputs of these robust detectors to do speech recognition . Um , and , um , these {disfmarker} these primary detectors , um , will be , uh , inspired by , you know , multi - band techniques , um , doing things , um , similar to Larry Saul 's work on , uh , graphical models to {disfmarker} to detect these {disfmarker} these , uh , acoustic events . And , um , so I {disfmarker} I been {disfmarker} I been thinking about that and some of the issues that I 've been running into are , um , exactly what {disfmarker} what kind of acoustic events I need , what {disfmarker} um , what acoustic events will provide a {disfmarker} a good enough coverage to {disfmarker} in order to do the later recognition steps . And , also , um , once I decide a set of acoustic events , um , h how do I {disfmarker} how do I get labels ? Training data for {disfmarker} for these acoustic events . And , then later on down the line , I can start playing with the {disfmarker} the models themselves , the {disfmarker} the primary detectors . Um , so , um , I kinda see {disfmarker} like , after {disfmarker} after building the primary detectors I see um , myself taking the outputs and feeding them in , sorta tandem style into {disfmarker} into a um , Gaussian mixtures HMM back - end , um , and doing recognition . Um . So , that 's {disfmarker} that 's just generally what I 've been looking at .
+Turn 675, A (PhD): Yeah .
+Turn 676, G (Grad): Um ,
+Turn 677, C (Professor): By {disfmarker} by the way , uh , the voiced - unvoiced version of that for instance could tie right in to what Carmen was looking at .
+Turn 678, G (Grad): Yeah .
+Turn 679, C (Professor): So ,
+Turn 680, D (PhD): Mm - hmm .
+Turn 681, C (Professor): you know , um , if you {disfmarker} if a multi - band approach was helpful as {disfmarker} as I think it is , it seems to be helpful for determining voiced - unvoiced ,
+Turn 682, G (Grad): Mm - hmm .
+Turn 683, C (Professor): that one might be another thing .
+Turn 684, B (PhD): Mm - hmm .
+Turn 685, G (Grad): Yeah . Yeah . Um , were {disfmarker} were you gonna say something ?
+Turn 686, F (PhD): Mmm .
+Turn 687, G (Grad): Oh . It looked {disfmarker} OK , never mind . Um , yeah . And so , this {disfmarker} this past week um , I 've been uh , looking a little bit into uh , TRAPS um , and doing {disfmarker} doing TRAPS on {disfmarker} on these e events too , just , um , seeing {disfmarker} seeing if that 's possible . Uh , and um , other than that , uh , I was kicked out of I - house for living there for four years .
+Turn 688, C (Professor): Oh no . So you live in a cardboard box in the street now
+Turn 689, G (Grad): Yeah .
+Turn 690, C (Professor): or , no ?
+Turn 691, G (Grad): Uh , well , s s som something like that .
+Turn 692, C (Professor): Yeah .
+Turn 693, G (Grad): In Albany , yeah . Yeah . And uh . Yep . That 's it .
+Turn 694, C (Professor): Suni - i d ' you v did uh {disfmarker} did you find a place ?
+Turn 695, A (PhD): Uh , no
+Turn 696, C (Professor): Is that out of the way ?
+Turn 697, A (PhD): not yet . Uh , yesterday I called up a lady who ha who will have a vacant room from May thirtieth and she said she 's interviewing two more people . So . And she would get back to me on Monday . So that 's {disfmarker} that 's only thing I have and Diane has a few more houses . She 's going to take some pictures and send me after I go back . So it 's {disfmarker} that 's {disfmarker}
+Turn 698, C (Professor): OK .
+Turn 699, F (PhD): Oh . So you 're not down here permanently yet ?
+Turn 700, A (PhD): No . I 'm going back to OGI today .
+Turn 701, F (PhD): Ah ! Oh , OK .
+Turn 702, G (Grad): Oh .
+Turn 703, C (Professor): OK . And then , you 're coming back uh {disfmarker}
+Turn 704, A (PhD): Uh , i I mean , I {disfmarker} I p I plan to be here on thirty - first .
+Turn 705, C (Professor): Thirty - first ,
+Turn 706, A (PhD): Yeah , well if there 's a house available or place to {disfmarker}
+Turn 707, C (Professor): OK .
+Turn 708, G (Grad): Thirty - first .
+Turn 709, C (Professor): Well , I mean i i if {disfmarker} if {disfmarker}
+Turn 710, A (PhD): Yeah , I hope .
+Turn 711, C (Professor): They 're available , and they 'll be able to get you something , so worst comes to worst we 'll put you up in a hotel for {disfmarker} for {disfmarker} for a while
+Turn 712, A (PhD): Yeah . So , in that case , I 'm going to be here on thirty - first definitely .
+Turn 713, C (Professor): until you {disfmarker} OK .
+Turn 714, E (Grad): You know , if you 're in a desperate situation and you need a place to stay , you could stay with me for a while . I 've got a spare bedroom right now .
+Turn 715, A (PhD): Oh . OK . Thanks . That sure is nice of you . So , it may be he needs more than me .
+Turn 716, G (Grad): Oh r oh . Oh no , no . My {disfmarker} my cardboard box is actually a nice spacious two bedroom apartment .
+Turn 717, C (Professor): So a two bedroom cardboard box . Th - that 's great .
+Turn 718, A (PhD): Yeah . Yeah . {vocalsound} Yeah .
+Turn 719, C (Professor): Thanks Dave .
+Turn 720, G (Grad): yeah
+Turn 721, A (PhD): Yeah .
+Turn 722, C (Professor): Um ,
+Turn 723, A (PhD): Yeah .
+Turn 724, C (Professor): Do y wanna say anything about {disfmarker} You {disfmarker} you actually been {disfmarker} Uh , last week you were doing this stuff with Pierre , you were {disfmarker} you were mentioning . Is that {disfmarker} that something worth talking about , or {disfmarker} ?
+Turn 725, E (Grad): Um , it 's {disfmarker} Well , um , it {disfmarker} I don't think it directly relates . Um , well , so , I was helping a speech researcher named Pierre Divenyi and he 's int He wanted to um , look at um , how people respond to formant changes , I think . Um . So he {disfmarker} he created a lot of synthetic audio files of vowel - to - vowel transitions , and then he wanted a psycho - acoustic um , spectrum . And he wanted to look at um , how the energy is moving {pause} over time in that spectrum and compare that to the {disfmarker} to the listener tests . And , um . So , I gave him a PLP spectrum . And {disfmarker} to um {disfmarker} he {disfmarker} he t wanted to track the peaks so he could look at how they 're moving . So I took the um , PLP LPC coefficients and um , I found the roots . This was something that Stephane suggested . I found the roots of the um , LPC polynomial to , um , track the peaks in the , um , PLP LPC spectra .
+Turn 726, A (PhD): well there is aligned spectral pairs , is like the {disfmarker} the {disfmarker} Is that the aligned s
+Turn 727, C (Professor): It 's a r root LPC , uh , of some sort .
+Turn 728, A (PhD): Oh , no .
+Turn 729, D (PhD): Mm - hmm .
+Turn 730, A (PhD): So you just {disfmarker}
+Turn 731, C (Professor): Yeah .
+Turn 732, A (PhD): instead of the log you took the root square , I mean cubic root or something . What di w I didn't get that .
+Turn 733, C (Professor): No , no . It 's {disfmarker} it 's {disfmarker} it 's taking the {disfmarker} finding the roots of the LPC polynomial .
+Turn 734, A (PhD): Polynomial . Yeah . Is that the line spectral {disfmarker}
+Turn 735, C (Professor): So it 's like line spectral pairs .
+Turn 736, A (PhD): Oh , it 's like line sp
+Turn 737, C (Professor): Except I think what they call line spectral pairs they push it towards the unit circle , don't they ,
+Turn 738, A (PhD): Yeah , yeah , yeah , yeah .
+Turn 739, C (Professor): to sort of ? But it {disfmarker} But uh , you know . But what we 'd used to do w when I did synthesis at National Semiconductor twenty years ago , the technique we were playing with initially was {disfmarker} was taking the LPC polynomial and {disfmarker} and uh , finding the roots . It wasn't PLP cuz Hynek hadn't invented it yet , but it was just LPC , and uh , we found the roots of the polynomial , And th When you do that , sometimes they 're f they 're what most people call formants , sometimes they 're not .
+Turn 740, A (PhD): Mmm .
+Turn 741, C (Professor): So it 's {disfmarker} it 's {disfmarker} it 's a little ,
+Turn 742, D (PhD): Hmm .
+Turn 743, C (Professor): uh {disfmarker} Formant tracking with it can be a little tricky cuz you get these funny {vocalsound} values in {disfmarker} in real speech ,
+Turn 744, F (PhD): So you just {disfmarker} You typically just get a few roots ?
+Turn 745, C (Professor): but .
+Turn 746, F (PhD): You know , two or three ,
+Turn 747, C (Professor): Well you get these complex pairs .
+Turn 748, F (PhD): something like that ?
+Turn 749, C (Professor): And it depends on the order that you 're doing , but .
+Turn 750, D (PhD): Mm - hmm .
+Turn 751, E (Grad): Right . So , um , if {disfmarker} @ @ {comment} Every root that 's {disfmarker} Since it 's a real signal , the LPC polynomial 's gonna have real coefficients . So I think that means that every root that is not a real root {comment} is gonna be a c complex pair ,
+Turn 752, F (PhD): Mm - hmm .
+Turn 753, E (Grad): um , of a complex value and its conjugate . Um . So for each {disfmarker} And if you look at that on the unit circle , um , one of these {disfmarker} one of the members of the pair will be a positive frequency , one will be a negative frequency , I think . So I just {disfmarker} So , um , f for the {disfmarker} I 'm using an eighth - order polynomial and I 'll get three or four of these pairs
+Turn 754, C (Professor): Yeah .
+Turn 755, A (PhD): Hmm .
+Turn 756, E (Grad): which give me s which gives me three or four peak positions .
+Turn 757, C (Professor): This is from synthetic speech , or {disfmarker} ?
+Turn 758, E (Grad): It 's {disfmarker} Right . Yeah .
+Turn 759, C (Professor): Yeah . So if it 's from synthetic speech then maybe it 'll be cleaner . I mean for real speech in real {disfmarker} then what you end up having is , like I say , funny little things that are {disfmarker} don't exactly fit your notion of formants all that well .
+Turn 760, F (PhD): How did {disfmarker}
+Turn 761, C (Professor): But {disfmarker} but mostly they are .
+Turn 762, D (PhD): But
+Turn 763, C (Professor): Mostly they do .
+Turn 764, D (PhD): Yeah .
+Turn 765, E (Grad): Mmm ,
+Turn 766, C (Professor): And {disfmarker} and what {disfmarker} I mean in {disfmarker} in what we were doing , which was not so much looking at things , it was OK
+Turn 767, D (PhD): I {disfmarker}
+Turn 768, C (Professor): because it was just a question of quantization . Uh , we were just you know , storing {disfmarker} It was {disfmarker} We were doing , uh , stored speech , uh , quantization .
+Turn 769, D (PhD): Mm - hmm .
+Turn 770, C (Professor): But {disfmarker} but uh , in your case um , you know {disfmarker}
+Turn 771, D (PhD): Actually you have peaks that are not at the formant 's positions , but they are lower in energy
+Turn 772, E (Grad): But {disfmarker} there 's some of that , yes .
+Turn 773, D (PhD): and {disfmarker} Well they are much lower .
+Turn 774, F (PhD): If this is synthetic speech can't you just get the formants directly ? I mean h how is the speech created ?
+Turn 775, E (Grad): It was created from a synthesizer , and um {disfmarker}
+Turn 776, F (PhD): Wasn't a formant synthesizer was it ?
+Turn 777, C (Professor): I bet it {disfmarker} it might have {disfmarker} may have been
+Turn 778, E (Grad): I {disfmarker} d d this {disfmarker}
+Turn 779, C (Professor): but maybe he didn't have control over it or something ?
+Turn 780, E (Grad): In {disfmarker} in fact w we {disfmarker} we could get , um , formant frequencies out of the synthesizer , as well . And , um , w one thing that the , um , LPC approach will hopefully give me in addition , um , is that I {disfmarker} I might be able to find the b the bandwidths of these humps as well . Um , Stephane suggested looking at each complex pair as a {disfmarker} like a se second - order IIR filter .
+Turn 781, C (Professor): Yeah .
+Turn 782, E (Grad): Um , but I don't think there 's a g a really good reason not to um , get the formant frequencies from the synthesizer instead . Except that you don't have the psycho - acoustic modeling in that .
+Turn 783, C (Professor): Yeah , so the actual {disfmarker} So you 're not getting the actual formants per se . You 're getting the {disfmarker} Again , you 're getting sort of the , uh {disfmarker}
+Turn 784, D (PhD): Mm - hmm .
+Turn 785, C (Professor): You 're getting something that is {disfmarker} is uh , af strongly affected by the PLP model . And so it 's more psycho - acoustic . So it 's a little {disfmarker} It 's {disfmarker} It 's {disfmarker} It 's sort of {disfmarker} sort of a different thing .
+Turn 786, F (PhD): Oh , I see . That 's sort of the point .
+Turn 787, C (Professor): But {disfmarker} Yeah . i Ordinarily , in a formant synthesizer , the bandwidths as well as the ban uh , formant centers are {disfmarker}
+Turn 788, F (PhD): Yeah .
+Turn 789, C (Professor): I mean , that 's {disfmarker} Somewhere in the synthesizer that was put in , as {disfmarker} as what you {disfmarker}
+Turn 790, E (Grad): Mm - hmm .
+Turn 791, C (Professor): But {disfmarker} but yeah , you view each complex pair as essentially a second - order section , which has , uh , band center and band width , and um , um {disfmarker} But . Yeah . O K . So , uh , yeah , you 're going back today and then back in a week I guess ,
+Turn 792, A (PhD): Yeah .
+Turn 793, C (Professor): and . Yeah . Great ! Well , welcome .
+Turn 794, A (PhD): Thanks .
+Turn 795, F (PhD): I guess we should do digits quickly .
+Turn 796, C (Professor): Oh yeah , digits .
+Turn 797, D (PhD): Mmm .
+Turn 798, C (Professor): I almost forgot that .
+Turn 799, B (PhD): Digits .
+Turn 800, C (Professor): I almost forgot our daily digits .
+Turn 801, F (PhD): You wanna go ahead ?
+Turn 802, C (Professor): Sure .
+Turn 803, F (PhD): OK .

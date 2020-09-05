@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+
+<ol>
+    {% for annotation in existing_annotations %}
+    <li>
+        {{ annotation["annotation_name"] }}<br>
+    </li>
+
+    {% endfor %}
+</ol>
+
+
+<form method="post">
+   <label for="topic">Add annotation</label><br>
+   <input type="text"  name="name" size="30" placeholder="Give annotation a name"><br>
+   <input type="submit" value="Add"><br><br>
+</form>
+{% endblock %}

@@ -1,0 +1,507 @@
+Turn 0, B (Grad): So I guess this is more or less now just to get you up to date , Johno . This is what , uh ,
+Turn 1, C (Grad): This is a meeting for me .
+Turn 2, B (Grad): um , Eva , Bhaskara , and I did .
+Turn 3, D (Grad): Did you add more stuff to it ? {pause} later ?
+Turn 4, B (Grad): Um . Why ?
+Turn 5, D (Grad): Um . I don't know . There were , like , the {disfmarker} you know , @ @ and all that stuff . But . I thought you {disfmarker} you said you were adding stuff
+Turn 6, B (Grad): Uh , no .
+Turn 7, D (Grad): but {pause} I don't know .
+Turn 8, B (Grad): This is {disfmarker} Um , Ha ! Very nice . Um , so we thought that , {vocalsound} We can write up uh , an element , and {disfmarker} for each of the situation nodes that we observed in the Bayes - net ? So . What 's the situation like at the entity that is mentioned ? if we know anything about it ? Is it under construction ? Or is it on fire or something {pause} happening to it ? Or is it stable ? and so forth , going all the way um , f through Parking , Location , Hotel , Car , Restroom , @ @ {comment} Riots , Fairs , Strikes , or Disasters .
+Turn 9, C (Grad): So is {disfmarker} This is {disfmarker} A situation are {disfmarker} is all the things which can be happening right now ? Or , what is the situation type ?
+Turn 10, B (Grad): That 's basically {pause} just specifying the {disfmarker} the input for the {disfmarker} w what 's
+Turn 11, C (Grad): Oh , I see y Why are you specifying it in XML ?
+Turn 12, B (Grad): Um . Just because it forces us to be specific about the values {pause} here ?
+Turn 13, C (Grad): OK .
+Turn 14, B (Grad): And , also , I mean , this is a {disfmarker} what the input is going to be . Right ? So , we will , uh {disfmarker} This is a schema . This is {disfmarker}
+Turn 15, C (Grad): Well , yeah . I just don't know if this is th l what the {disfmarker} Does {disfmarker} This is what Java Bayes takes ? as a Bayes - net spec ?
+Turn 16, B (Grad): No , because I mean if we {disfmarker} I mean we 're sure gonna interface to {disfmarker} We 're gonna get an XML document from somewhere . Right ? And that XML document will say " We are able to {disfmarker} We were able to observe that w the element , um , @ @ {comment} of the Location that the car is near . " So that 's gonna be {disfmarker} {vocalsound} {comment} Um .
+Turn 17, C (Grad): So this is the situational context , everything in it . Is that what Situation is short for , shi situational context ?
+Turn 18, B (Grad): Yep .
+Turn 19, C (Grad): OK .
+Turn 20, B (Grad): So this is just , again , a an XML schemata which defines a set of possible , uh , permissible XML structures , which we view as input into the Bayes - net . Right ?
+Turn 21, C (Grad): And then we can r {pause} uh possibly run one of them uh transformations ? That put it into the format that the Bayes n or Java Bayes or whatever wants ?
+Turn 22, B (Grad): Yea - Are you talking {disfmarker} are you talking about the {disfmarker} the structure ?
+Turn 23, C (Grad): Well it {disfmarker}
+Turn 24, B (Grad): I mean when you observe a node .
+Turn 25, C (Grad): When you {disfmarker} when you say {pause} the input to the {pause} v Java Bayes , {comment} it takes a certain format ,
+Turn 26, B (Grad): Um - hmm .
+Turn 27, C (Grad): right ? Which I don't think is this . Although I don't know .
+Turn 28, B (Grad): No , it 's certainly not this . Nuh .
+Turn 29, C (Grad): So you could just {disfmarker} Couldn't you just run a {disfmarker}
+Turn 30, B (Grad): XSL . {comment} Yeah .
+Turn 31, C (Grad): Yeah . To convert it into the Java Bayes for format ?
+Turn 32, B (Grad): Yep .
+Turn 33, C (Grad): OK .
+Turn 34, B (Grad): That 's {disfmarker} That 's no problem , but I even think that , um {disfmarker} I mean , once {disfmarker} Once you have this sort of as {disfmarker} running as a module {disfmarker} Right ? What you want is {disfmarker} You wanna say , " OK , give me the posterior probabilities of the Go - there {pause} node , when this is happening . " Right ? When the person said this , the car is there , it 's raining , and this is happening . And with this you can specify the {disfmarker} what 's happening in the situation , and what 's happening with the user . So we get {disfmarker} After we are done , through the Situation we get the User Vector . So , this is a {disfmarker}
+Turn 35, C (Grad): So this is just a specification of all the possible inputs ?
+Turn 36, B (Grad): Yep . And , all the possible outputs , too . So , we have , um , for example , the , uh , Go - there decision node
+Turn 37, C (Grad): OK .
+Turn 38, B (Grad): which has two elements , going - there and its posterior probability , and not - going - there and its posterior probability , because the output is always gonna be all the decision nodes and all the {disfmarker} the {disfmarker} a all the posterior probabilities for all the values .
+Turn 39, C (Grad): And then we would just look at the , eh , Struct that we wanna look at in terms of if {disfmarker} if we 're only asking about one of the {disfmarker} So like , if I 'm just interested in the going - there node , I would just pull that information out of the Struct that gets return that would {disfmarker} that Java Bayes would output ?
+Turn 40, B (Grad): Um , pretty much , yes , but I think it 's a little bit more complex . As , if I understand it correctly , it always gives you all the posterior probabilities for all the values of all decision nodes . So , when we input something , we always get the , uh , posterior probabilities for all of these . Right ?
+Turn 41, C (Grad): OK .
+Turn 42, B (Grad): So there is no way of telling it t not to tell us about the EVA {pause} values .
+Turn 43, C (Grad): Yeah , wait I agree , that 's {disfmarker} yeah , use {disfmarker} oh , uh {pause} Yeah , OK .
+Turn 44, B (Grad): So {disfmarker} so we get this whole list of {disfmarker} of , um , things , and the question is what to do with it , what to hand on , how to interpret it , in a sense . So y you said if you {disfmarker} " I 'm only interested in whether he wants to go there or not " , then I just look at that node , look which one {disfmarker}
+Turn 45, C (Grad): Look at that Struct in the output ,
+Turn 46, B (Grad): Yep .
+Turn 47, C (Grad): right ?
+Turn 48, B (Grad): Look at that Struct in the {disfmarker} the output , even though I wouldn't call it a " Struct " . But .
+Turn 49, C (Grad): Well i well , it 's an XML Structure that 's being res returned ,
+Turn 50, B (Grad): Oh . Mm - hmm .
+Turn 51, C (Grad): right ?
+Turn 52, B (Grad): So every part of a structure is a " Struct " . Yeah .
+Turn 53, C (Grad): Yeah , I just uh {disfmarker} I just was {disfmarker} abbreviated it to Struct in my head , and started going with that .
+Turn 54, B (Grad): That element or object , I would say .
+Turn 55, C (Grad): Not a C Struct . That 's not what I was trying to k
+Turn 56, B (Grad): Yeah .
+Turn 57, C (Grad): though yeah .
+Turn 58, B (Grad): OK . And , um , the reason is {disfmarker} why I think it 's a little bit more complex or why {disfmarker} why we can even think about it as an interesting problem in and of itself is {disfmarker} Um . So . The , uh {disfmarker} Let 's look at an example .
+Turn 59, C (Grad): Well , w wouldn't we just take the structure that 's outputted and then run another transformation on it , that would just dump the one that we wanted out ?
+Turn 60, B (Grad): Yeah . w We 'd need to prune . Right ? Throw things away .
+Turn 61, C (Grad): Well , actually , you don't even need to do that with XML .
+Turn 62, B (Grad): No
+Turn 63, C (Grad): D Can't you just look at one specific {disfmarker}
+Turn 64, B (Grad): Yeah , exactly . The {disfmarker} @ @ {comment} Xerxes allows you to say , u " Just give me the value of that , and that , and that . " But , we don't really know what we 're interested in {pause} before we look at the complete {disfmarker} at {disfmarker} at the overall result . So the person said , um , " Where is X ? " and so , we want to know , um , is {disfmarker} Does he want info ? o on this ? or know the location ? Or does he want to go there ? Let 's assume this is our {disfmarker} our question .
+Turn 65, C (Grad): Sure .
+Turn 66, B (Grad): Nuh ? So . Um . Do this in Perl . So we get {disfmarker} OK . Let 's assume this is the output . So . We should con be able to conclude from that that {disfmarker} I mean . It 's always gonna give us a value of how likely we think i it is that he wants to go there and doesn't want to go there , or how likely it is that he wants to get information . But , maybe w we should just reverse this to make it a little bit more delicate . So , does he wanna know where it is ? or does he wanna go there ?
+Turn 67, C (Grad): He wants to know where it is .
+Turn 68, B (Grad): Right . I {disfmarker} I {disfmarker} I tend to agree . And if it 's {disfmarker} If {disfmarker}
+Turn 69, C (Grad): Well now , y I mean , you could {disfmarker}
+Turn 70, B (Grad): And i if there 's sort of a clear winner here , and , um {disfmarker} and this is pretty , uh {disfmarker} indifferent , then we {disfmarker} then we might conclude that he actually wants to just know where , uh t uh , he does want to go there .
+Turn 71, C (Grad): Uh , out of curiosity , is there a reason why we wouldn't combine these three nodes ? into one smaller subnet ? that would just basically be {pause} the question for {disfmarker} We have " where is X ? " is the question , right ? That would just be Info - on or Location ? Based upon {disfmarker}
+Turn 72, B (Grad): Or Go - there . A lot of people ask that , if they actually just wanna go there . People come up to you on campus and say , " Where 's the library ? " You 're gonna say {disfmarker} y you 're gonna say , g " Go down that way . " You 're not gonna say " It 's {disfmarker} It 's five hundred yards away from you " or " It 's north of you " , or {disfmarker} " it 's located {disfmarker} "
+Turn 73, C (Grad): Well , I mean {disfmarker} But the {disfmarker} there 's {disfmarker} So you just have three decisions for the final node , that would link thes these three nodes in the net together .
+Turn 74, B (Grad): Um . I don't know whether I understand what you mean . But . Again , in this {disfmarker} Given this input , we , also in some situations , may wanna postulate an opinion whether that person wants to go there now the nicest way , use a cab , or so s wants to know it {disfmarker} wants to know where it is because he wants something fixed there , because he wants to visit t it or whatever . So , it {disfmarker} n I mean {disfmarker} a All I 'm saying is , whatever our input is , we 're always gonna get the full output . And some {disfmarker} some things will always be sort of too {disfmarker} not significant enough .
+Turn 75, C (Grad): Wha Or i or i it 'll be tight . You won't {disfmarker} it 'll be hard to decide .
+Turn 76, B (Grad): Yep .
+Turn 77, C (Grad): But I mean , I guess {disfmarker} I guess the thing is , uh , this is another , smaller , case of reasoning in the case of an uncertainty , which makes me think Bayes - net should be the way to solve these things . So if you had {disfmarker} If for every construction ,
+Turn 78, B (Grad): Oh !
+Turn 79, C (Grad): right ? you could say , " Well , there {disfmarker} Here 's the Where - Is construction . " And for the Where - Is construction , we know we need to l look at this node , that merges these three things together
+Turn 80, B (Grad): Mm - hmm .
+Turn 81, C (Grad): as for th to decide the response . And since we have a finite number of constructions that we can deal with , we could have a finite number of nodes .
+Turn 82, B (Grad): OK . Mm - hmm .
+Turn 83, C (Grad): Say , if we had to y deal with arbitrary language , it wouldn't make any sense to do that , because there 'd be no way to generate the nodes for every possible sentence .
+Turn 84, B (Grad): Mm - hmm .
+Turn 85, C (Grad): But since we can only deal with a finite amount of stuff {disfmarker}
+Turn 86, B (Grad): So , basically , the idea is to f to feed the output of that belief - net into another belief - net .
+Turn 87, C (Grad): Yeah , so basically take these three things and then put them into another belief - net .
+Turn 88, B (Grad): But , why {disfmarker} why {disfmarker} why only those three ? Why not the whol
+Turn 89, C (Grad): Well , I mean , d For the Where - Is question . So we 'd have a node for the Where - Is question .
+Turn 90, B (Grad): Yeah . But we believe that all the decision nodes are {disfmarker} can be relevant for the Where - Is , and the Where {disfmarker} How - do - I - get - to or the Tell - me - something - about .
+Turn 91, C (Grad): You can come in if you want .
+Turn 92, B (Grad): Yes , it is allowed .
+Turn 93, C (Grad): As long as y you 're not wearing your h your h headphones . Well , I do I {disfmarker} See , I don't know if this is a {pause} good idea or not . I 'm just throwing it out . But uh , it seems like we could have {disfmarker} I mea or uh we could put all of the all of the r information that could also be relevant {pause} into the Where - Is node answer
+Turn 94, B (Grad): Mm - hmm . Yep .
+Turn 95, C (Grad): node thing stuff . And uh {disfmarker}
+Turn 96, D (Grad): OK .
+Turn 97, B (Grad): I mean {disfmarker} Let 's not forget we 're gonna get some very strong {pause} input from {pause} these sub dis from these discourse things , right ? So . " Tell me the location of X . " Nuh ? Or " Where is X located at ? "
+Turn 98, C (Grad): We u
+Turn 99, B (Grad): Nuh ?
+Turn 100, C (Grad): Yeah , I know , but the Bayes - net would be able to {disfmarker} The weights on the {disfmarker} on the nodes in the Bayes - net would be able to do all that ,
+Turn 101, B (Grad): Mm - hmm .
+Turn 102, C (Grad): wouldn't it ? Here 's a k Oh ! Oh , I 'll wait until you 're {pause} plugged in . Oh , don't sit there . Sit here . You know how you don't like that one . It 's OK . That 's the weird one . That 's the one that 's painful . That hurts . It hurts so bad . I 'm h I 'm happy that they 're recording that . That headphone . The headphone {pause} that you have to put on backwards , with the little {disfmarker} little thing {disfmarker} and the little {disfmarker} little foam block on it ? It 's a painful , painful microphone .
+Turn 103, B (Grad): I think it 's th called " the Crown " .
+Turn 104, C (Grad): The crown ?
+Turn 105, D (Grad): What ?
+Turn 106, B (Grad): Yeah , versus " the Sony " .
+Turn 107, A (Grad): The Crown ? Is that the actual name ? OK .
+Turn 108, B (Grad): Mm - hmm . The manufacturer .
+Turn 109, C (Grad): I don't see a manufacturer on it .
+Turn 110, B (Grad): You w
+Turn 111, C (Grad): Oh , wait , here it is . h This thingy . Yeah , it 's " The Crown " . The crown of pain !
+Turn 112, A (Grad): Yes .
+Turn 113, B (Grad): You 're on - line ?
+Turn 114, C (Grad): Are you {disfmarker} are your mike o Is your mike on ?
+Turn 115, A (Grad): Indeed .
+Turn 116, C (Grad): OK . So you 've been working with these guys ? You know what 's going on ?
+Turn 117, A (Grad): Yes , I have . And , I do . Yeah , alright . s So where are we ?
+Turn 118, C (Grad): Excellent !
+Turn 119, B (Grad): We 're discussing this .
+Turn 120, A (Grad): I don't think it can handle French , but anyway .
+Turn 121, B (Grad): So . Assume we have something coming in . A person says , " Where is X ? " , and we get a certain {disfmarker} We have a Situation vector and a User vector and everything is fine ? An - an and {disfmarker} and our {disfmarker} and our {disfmarker}
+Turn 122, C (Grad): Did you just sti Did you just stick the m the {disfmarker} the {disfmarker} the microphone actually in the tea ?
+Turn 123, A (Grad): No .
+Turn 124, B (Grad): And , um ,
+Turn 125, A (Grad): I 'm not drinking tea . What are you talking about ?
+Turn 126, C (Grad): Oh , yeah . Sorry .
+Turn 127, B (Grad): let 's just assume our Bayes - net just has three decision nodes for the time being . These three , he wants to know something about it , he wants to know where it is , he wants to go there .
+Turn 128, C (Grad): In terms of , these would be wha how we would answer the question Where - Is , right ? We u This is {disfmarker} i That 's what you s it seemed like , explained it to me earlier
+Turn 129, B (Grad): Yeah , but , mmm .
+Turn 130, C (Grad): w We {disfmarker} we 're {disfmarker} we wanna know how to answer the question " Where is X ? "
+Turn 131, B (Grad): Yeah . No , I can {disfmarker} I can do the Timing node in here , too , and say " OK . "
+Turn 132, C (Grad): Well , yeah , but in the s uh , let 's just deal with the s the simple case of we 're not worrying about timing or anything . We just want to know how we should answer " Where is X ? "
+Turn 133, B (Grad): OK . And , um , OK , and , Go - there has two values , right ? , Go - there and not - Go - there . Let 's assume those are the posterior probabilities of that .
+Turn 134, A (Grad): Mm - hmm .
+Turn 135, B (Grad): Info - on has True or False and Location . So , he wants to know something about it , and he wants to know something {disfmarker} he wants to know Where - it - is ,
+Turn 136, A (Grad): Excuse me .
+Turn 137, B (Grad): has these values . And , um ,
+Turn 138, C (Grad): Oh , I see why we can't do that .
+Turn 139, B (Grad): And , um , in this case we would probably all agree that he wants to go there . Our belief - net thinks he wants to go there ,
+Turn 140, A (Grad): Yeah .
+Turn 141, B (Grad): right ?
+Turn 142, A (Grad): Mm - hmm .
+Turn 143, B (Grad): In the , uh , whatever , if we have something like this here , and this like that and maybe here also some {disfmarker}
+Turn 144, A (Grad): You should probably {comment} make them out of {disfmarker} Yeah .
+Turn 145, B (Grad): something like that ,
+Turn 146, C (Grad): Well , it
+Turn 147, B (Grad): then we would guess , " Aha ! He , our belief - net , {comment} has s stronger beliefs that he wants to know where it is , than actually wants to go {pause} there . " Right ?
+Turn 148, C (Grad): That it {disfmarker} Doesn't this assume , though , that they 're evenly weighted ?
+Turn 149, D (Grad): True .
+Turn 150, C (Grad): Like {disfmarker} I guess they are evenly weighted .
+Turn 151, A (Grad): The different decision nodes , you mean ?
+Turn 152, C (Grad): Yeah , the Go - there , the Info - on , and the Location ?
+Turn 153, A (Grad): Well , d yeah , this is making the assumption . Yes .
+Turn 154, C (Grad): Like {disfmarker}
+Turn 155, B (Grad): What do you mean by " differently weighted " ? They don't feed into anything really anymore .
+Turn 156, A (Grad): But I mean , why do we {disfmarker}
+Turn 157, C (Grad): Or I jus
+Turn 158, A (Grad): If we trusted the Go - there node more th much more than we trusted the other ones , then we would conclude , even in this situation , that he wanted to go there .
+Turn 159, C (Grad): Le
+Turn 160, A (Grad): So , in that sense , we weight them equally right now .
+Turn 161, B (Grad): OK . Makes sense . Yeah . But {disfmarker}
+Turn 162, C (Grad): So the But I guess the k the question {disfmarker} that I was as er wondering or maybe Robert was proposing to me is {disfmarker} How do we d make the decision on {disfmarker} as to {disfmarker} which one to listen to ?
+Turn 163, A (Grad): Yeah , so , the final d decision is the combination of these three . So again , it 's {disfmarker} it 's some kind of , uh {disfmarker}
+Turn 164, C (Grad): Bayes - net .
+Turn 165, A (Grad): Yeah , sure .
+Turn 166, C (Grad): OK so , then , the question i So then my question is t to you then , would be {disfmarker} So is the only r reason we can make all these smaller Bayes - nets , because we know we can only deal with a finite set of constructions ? Cuz oth If we 're just taking arbitrary language in , we couldn't have a node for every possible question , you know ?
+Turn 167, A (Grad): A decision node for every possible question , you mean ?
+Turn 168, C (Grad): Well , I {disfmarker} like , in the case of {disfmarker} Yeah . In the ca Any piece of language , we wouldn't be able to answer it with this system , b if we just h Cuz we wouldn't have the correct node . Basically , w what you 're s proposing is a n Where - Is node , right ?
+Turn 169, A (Grad): Yeah .
+Turn 170, C (Grad): And {disfmarker} and if we {disfmarker} And if someone {disfmarker} says , you know , uh , something in Mandarin to the system , we 'd - wouldn't know which node to look at to answer that question ,
+Turn 171, A (Grad): So is {disfmarker} Yeah . Yeah .
+Turn 172, C (Grad): right ?
+Turn 173, B (Grad): Mmm ?
+Turn 174, C (Grad): So , but {disfmarker} but if we have a finite {disfmarker} What ?
+Turn 175, B (Grad): I don't see your point . What {disfmarker} what {disfmarker} what I am thinking , or what we 're about to propose here is we 're always gonna get the whole list of values and their posterior probabilities . And now we need an expert system or belief - net or something that interprets that , that looks at all the values and says , " The winner is Timing . Now , go there . " " Uh , go there , Timing , now . " Or , " The winner is Info - on , Function - Off . " So , he wants to know {pause} something about it , and what it does . Nuh ? Uh , regardless of {disfmarker} of {disfmarker} of the input . Wh - Regardle
+Turn 176, C (Grad): Yeah , but But how does the expert {disfmarker} but how does the expert system know {disfmarker} how who which one to declare the winner , if it doesn't know the question it is , and how that question should be answered ?
+Turn 177, B (Grad): Based on the k what the question was , so what the discourse , the ontology , the situation and the user model gave us , we came up with these values for these decisions .
+Turn 178, C (Grad): Yeah I know . But how do we weight what we get out ? As , which one i Which ones are important ? So my i So , if we were to it with a Bayes - net , we 'd have to have a node {disfmarker} for every question that we knew how to deal with , that would take all of the inputs and weight them appropriately for that question .
+Turn 179, B (Grad): Mm - hmm .
+Turn 180, C (Grad): Does that make sense ? Yay , nay ?
+Turn 181, A (Grad): Um , I mean , are you saying that , what happens if you try to scale this up to the situation , or are we just dealing with arbitrary language ?
+Turn 182, C (Grad): We {disfmarker}
+Turn 183, A (Grad): Is that your point ?
+Turn 184, C (Grad): Well , no . I {disfmarker} I guess my question is , Is the reason that we can make a node f or {disfmarker} OK . So , lemme see if I 'm confused . Are we going to make a node for every question ? Does that make sense ? {disfmarker}
+Turn 185, A (Grad): For every question ?
+Turn 186, C (Grad): Or not .
+Turn 187, A (Grad): Like {disfmarker}
+Turn 188, C (Grad): Every construction .
+Turn 189, A (Grad): Hmm . I don't {disfmarker} Not necessarily , I would think . I mean , it 's not based on constructions , it 's based on things like , uh , there 's gonna be a node for Go - there or not , and there 's gonna be a node for Enter , View , Approach .
+Turn 190, C (Grad): Wel W OK . So , someone asked a question .
+Turn 191, A (Grad): Yeah .
+Turn 192, C (Grad): How do we decide how to answer it ?
+Turn 193, B (Grad): Well , look at {disfmarker} look {disfmarker} Face yourself with this pr question . You get this {disfmarker} You 'll have {disfmarker} y This is what you get . And now you have to make a decision . What do we think ? What does this tell us ? And not knowing what was asked , and what happened , and whether the person was a tourist or a local , because all of these factors have presumably already gone into making these posterior probabilities . What {disfmarker} what we need is a {disfmarker} just a mechanism that says , " Aha ! There is {disfmarker} "
+Turn 194, C (Grad): Yeah . I just don't think a " winner - take - all " type of thing is the {disfmarker}
+Turn 195, A (Grad): I mean , in general , like , we won't just have those three , right ? We 'll have , uh , like , many , many nodes . So we have to , like {disfmarker} So that it 's no longer possible to just look at the nodes themselves and figure out what the person is trying to say .
+Turn 196, B (Grad): Yep . Because there are interdependencies , right ? The uh {disfmarker} Uh , no . So if {disfmarker} if for example , the Go - there posterior possibility is so high , um , uh , w if it 's {disfmarker} if it has reached {disfmarker} reached a certain height , then all of this becomes irrelevant . So . If {disfmarker} even if {disfmarker} if the function or the history or something is scoring pretty good on the true node , true value {disfmarker}
+Turn 197, C (Grad): Wel I don't know about that , cuz that would suggest that {disfmarker} I mean {disfmarker}
+Turn 198, B (Grad): He wants to go there and know something about it ?
+Turn 199, C (Grad): Do they have to be mutual Yeah . Do they have to be mutually exclusive ?
+Turn 200, B (Grad): I think to some extent they are . Or maybe they 're not .
+Turn 201, C (Grad): Cuz I , uh {disfmarker} The way you describe what they meant , they weren't mutu uh , they didn't seem mutually exclusive to me .
+Turn 202, B (Grad): Well , if he doesn't want to go there , even if the Enter posterior proba So .
+Turn 203, C (Grad): Wel
+Turn 204, B (Grad): Go - there is No . Enter is High , and Info - on is High .
+Turn 205, C (Grad): Well , yeah , just out of the other three , though , that you had in the {disfmarker}
+Turn 206, B (Grad): Hmm ?
+Turn 207, C (Grad): those three nodes . The - d They didn't seem like they were mutually exclusive .
+Turn 208, B (Grad): No , there 's {disfmarker} No . But {disfmarker} It 's through the {disfmarker}
+Turn 209, C (Grad): So th s so , yeah , but some {disfmarker} So , some things would drop out , and some things would still be important .
+Turn 210, B (Grad): Mm - hmm .
+Turn 211, C (Grad): But I guess what 's confusing me is , if we have a Bayes - net to deal w another Bayes - net to deal with this stuff ,
+Turn 212, A (Grad): Mm - hmm .
+Turn 213, C (Grad): you know , uh , is the only reason {disfmarker} OK , so , I guess , if we have a Ba - another Bayes - net to deal with this stuff , the only r reason {pause} we can design it is cuz we know what each question is asking ?
+Turn 214, A (Grad): Yeah . I think that 's true .
+Turn 215, C (Grad): And then , so , the only reason {disfmarker} way we would know what question he 's asking is based upon {disfmarker} Oh , so if {disfmarker} Let 's say I had a construction parser , and I plug this in , I would know what each construction {disfmarker} the communicative intent of the construction was
+Turn 216, A (Grad): Mm - hmm .
+Turn 217, C (Grad): and so then I would know how to weight the nodes appropriately , in response . So no matter what they said , if I could map it onto a Where - Is construction , I could say , " ah !
+Turn 218, A (Grad): Ge Mm - hmm .
+Turn 219, C (Grad): well the the intent , here , was Where - Is " ,
+Turn 220, A (Grad): OK , right .
+Turn 221, C (Grad): and I could look at those .
+Turn 222, A (Grad): Yeah . Yes , I mean . Sure . You do need to know {disfmarker} I mean , to have that kind of information .
+Turn 223, B (Grad): Hmm . Yeah , I 'm also agreeing that {pause} a simple pru {comment} Take the ones where we have a clear winner . Forget about the ones where it 's all sort of middle ground . Prune those out and just hand over the ones where we have a winner . Yeah , because that would be the easiest way . We just compose as an output an XML mes {vocalsound} message that says . " Go there {pause} now . " " Enter historical information . " And not care whether that 's consistent with anything . Right ? But in this case if we say , " definitely he doesn't want to go there . He just wants to know where it is . " or let 's call this {disfmarker} this " Look - At - H " He wants to know something about the history of . So he said , " Tell me something about the history of that . " Now , the e But for some reason the Endpoint - Approach gets a really high score , {pause} too . We can't expect this to be sort of at O point {comment} three , three , three , O point , three , three , three , O point , three , three , three . Right ? Somebody needs to zap that . You know ? Or know {disfmarker} There needs to be some knowledge that {disfmarker}
+Turn 224, C (Grad): We {disfmarker} Yeah , but , the Bayes - net that would merge {disfmarker} I just realized that I had my hand in between my mouth and my micr er , my and my microphone . So then , the Bayes - net that would merge there , that would make the decision between Go - there , Info - on , and Location , would have a node to tell you which one of those three you wanted , and based upon that node , then you would look at the other stuff .
+Turn 225, B (Grad): Yep . Yep .
+Turn 226, C (Grad): I mean , it i Does that make sense ?
+Turn 227, B (Grad): Yep . It 's sort of one of those , that 's {disfmarker} It 's more like a decision tree , if {disfmarker} if you want . You first look o at the lowball ones ,
+Turn 228, C (Grad): Yeah , i
+Turn 229, B (Grad): and then {disfmarker}
+Turn 230, C (Grad): Yeah , I didn't intend to say that every possible {disfmarker} OK . There was a confusion there , k I didn't intend to say every possible thing should go into the Bayes - net , because some of the things aren't relevant in the Bayes - net for a specific question . Like the Endpoint is not necessarily relevant in the Bayes - net for Where - Is until after you 've decided whether you wanna go there or not .
+Turn 231, B (Grad): Mm - hmm .
+Turn 232, A (Grad): Right .
+Turn 233, C (Grad): Show us the way , Bhaskara .
+Turn 234, A (Grad): I guess the other thing is that um , yeah . I mean , when you 're asked a specific question and you don't even {disfmarker} Like , if you 're asked a Where - Is question , you may not even look {disfmarker} like , ask for the posterior probability of the , uh , EVA node , right ? Cuz , that 's what {disfmarker} I mean , in the Bayes - net you always ask for the posterior probability of a specific node . So , I mean , you may not even bother to compute things you don't need .
+Turn 235, B (Grad): Um . Aren't we always computing all ?
+Turn 236, A (Grad): No . You can compute , uh , the posterior probability of one subset of the nodes , given some other nodes , but totally ignore some other nodes , also . Basically , things you ignore get marginalized over .
+Turn 237, B (Grad): Yeah , but that 's {disfmarker} that 's just shifting the problem . Then you would have to make a decision ,
+Turn 238, A (Grad): Yeah . So you have to make {disfmarker}
+Turn 239, B (Grad): " OK , if it 's a Where - Is question , which decision nodes do I query ? "
+Turn 240, A (Grad): Yeah . Yes . But I would think that 's what you want to do .
+Turn 241, B (Grad): That 's un
+Turn 242, A (Grad): Right ?
+Turn 243, B (Grad): Mmm .
+Turn 244, D (Grad): Well , eventually , you still have to pick out which ones you look at .
+Turn 245, B (Grad): Yeah .
+Turn 246, D (Grad): So it 's pretty much the same problem ,
+Turn 247, B (Grad): Yeah {disfmarker} it 's {disfmarker} it 's {disfmarker} it 's apples and oranges .
+Turn 248, D (Grad): isn't it ?
+Turn 249, B (Grad): Nuh ? I mean , maybe it does make a difference in terms of performance , computational time .
+Turn 250, A (Grad): Mm - hmm .
+Turn 251, B (Grad): So either you always have it compute all the posterior possibilities for all the values for all nodes , and then prune the ones you think that are irrelevant ,
+Turn 252, A (Grad): Mmm .
+Turn 253, B (Grad): or you just make a p @ @ {comment} a priori estimate of what you think might be relevant and query those .
+Turn 254, A (Grad): Yeah .
+Turn 255, C (Grad): So basically , you 'd have a decision tree {pause} query , {pause} Go - there . If k if that 's false , query this one . If that 's true , query that one . And just basically do a binary search through the {disfmarker} ?
+Turn 256, A (Grad): I don't know if it would necessarily be that , uh , complicated . But , uh {disfmarker} I mean , it w
+Turn 257, C (Grad): Well , in the case of Go - there , it would be . In the case {disfmarker} Cuz if you needed an If y If Go - there was true , you 'd wanna know what endpoint was . And if it was false , you 'd wanna d look at either Lo - Income Info - on or History .
+Turn 258, A (Grad): Yeah . That 's true , I guess . Yeah , {vocalsound} so , in a way you would have that .
+Turn 259, C (Grad): Also , I 'm somewhat boggled by that Hugin software .
+Turn 260, A (Grad): OK , why 's that ?
+Turn 261, C (Grad): I can't figure out how to get the probabilities into it . Like , I 'd look at {disfmarker}
+Turn 262, A (Grad): Mm - hmm .
+Turn 263, C (Grad): It 's somewha It 's boggling me .
+Turn 264, A (Grad): OK . Alright . Well , hopefully it 's {pause} fixable .
+Turn 265, C (Grad): Ju
+Turn 266, A (Grad): It 's {disfmarker} there 's a {disfmarker}
+Turn 267, C (Grad): Oh yeah , yeah . I d I just think I haven't figured out what {disfmarker} the terms in Hugin mean , versus what Java Bayes terms are .
+Turn 268, A (Grad): OK .
+Turn 269, B (Grad): Um , by the way , are {disfmarker} Do we know whether Jerry and Nancy are coming ?
+Turn 270, A (Grad): So we can figure this out .
+Turn 271, B (Grad): Or {disfmarker} ?
+Turn 272, A (Grad): They should come when they 're done their stuff , basically , whenever that is . So .
+Turn 273, C (Grad): What d what do they need to do left ?
+Turn 274, A (Grad): Um , I guess , Jerry needs to enter marks , but I don't know if he 's gonna do that now or later . But , uh , if he 's gonna enter marks , it 's gonna take him awhile , I guess , and he won't be here .
+Turn 275, C (Grad): And what 's Nancy doing ?
+Turn 276, A (Grad): Nancy ? Um , she was sorta finishing up the , uh , calculation of marks and assigning of grades , but I don't know if she should be here . Well {disfmarker} or , she should be free after that , so {disfmarker} assuming she 's coming to this meeting . I don't know if she knows about it .
+Turn 277, C (Grad): She 's on the email list , right ?
+Turn 278, A (Grad): Is she ? OK .
+Turn 279, B (Grad): Mm - hmm . OK . Because basically , what {disfmarker} where we also have decided , prior to this meeting is that we would have a rerun of the three of us sitting together
+Turn 280, D (Grad): OK .
+Turn 281, B (Grad): sometime {pause} this week {pause} again
+Turn 282, A (Grad): OK .
+Turn 283, B (Grad): and finish up the , uh , values of this . So we have , uh {disfmarker} Believe it or not , we have all the bottom ones here .
+Turn 284, C (Grad): Well , I {disfmarker}
+Turn 285, D (Grad): You added a bunch of {pause} nodes , for {disfmarker} ?
+Turn 286, B (Grad): Yep . We {disfmarker} we {disfmarker} we have {disfmarker} Actually what we have is this line .
+Turn 287, D (Grad): OK .
+Turn 288, B (Grad): Right ?
+Turn 289, C (Grad): Uh , what do the , uh , structures do ?
+Turn 290, B (Grad): Hmm ?
+Turn 291, C (Grad): So the {disfmarker} the {disfmarker} the {disfmarker} For instance , this Location node 's got two inputs ,
+Turn 292, A (Grad): Four inputs .
+Turn 293, B (Grad): Hmm .
+Turn 294, C (Grad): that one you {disfmarker}
+Turn 295, B (Grad): Four .
+Turn 296, A (Grad): Those are {disfmarker} The bottom things are inputs , also .
+Turn 297, C (Grad): Oh , I see .
+Turn 298, A (Grad): Yeah .
+Turn 299, C (Grad): OK , that was OK . That makes a lot more sense to me now .
+Turn 300, B (Grad): Yep .
+Turn 301, C (Grad): Cuz I thought it was like , that one in Stuart 's book about , you know , the {disfmarker}
+Turn 302, A (Grad): Alarm in the dog ?
+Turn 303, C (Grad): U Yeah .
+Turn 304, A (Grad): Yeah .
+Turn 305, C (Grad): Or the earthquake and the alarm .
+Turn 306, A (Grad): Sorry . Yeah , I 'm confusing two .
+Turn 307, C (Grad): Yeah , there 's a dog one , too , but that 's in Java Bayes ,
+Turn 308, A (Grad): Right .
+Turn 309, C (Grad): isn't it ?
+Turn 310, A (Grad): Maybe .
+Turn 311, C (Grad): But there 's something about bowel problems or something with the dog .
+Turn 312, A (Grad): Yeah .
+Turn 313, B (Grad): And we have all the top ones , all the ones to which no arrows are pointing . What we 're missing are the {disfmarker} these , where arrows are pointing , where we 're combining top ones . So , we have to come up with values for this , and this , this , this , and so forth . And maybe just fiddle around with it a little bit more . And , um . And then it 's just , uh , edges , many of edges . And , um , we won't {comment} meet next Monday . So .
+Turn 314, C (Grad): Cuz of Memorial Day ?
+Turn 315, A (Grad): We 'll meet next Tuesday , I guess .
+Turn 316, B (Grad): Yep . Yeah .
+Turn 317, C (Grad): When 's Jerry leaving for {disfmarker} Italia ?
+Turn 318, B (Grad): On {disfmarker} on Friday .
+Turn 319, A (Grad): Which Friday ?
+Turn 320, B (Grad): This {disfmarker} this Friday .
+Turn 321, A (Grad): OK .
+Turn 322, D (Grad): Oh . This Friday ?
+Turn 323, C (Grad): Ugh .
+Turn 324, B (Grad): This Friday .
+Turn 325, C (Grad): As in , four days ?
+Turn 326, B (Grad): Yep .
+Turn 327, C (Grad): Or , three days ?
+Turn 328, A (Grad): Is he {disfmarker} How long is he gone for ?
+Turn 329, B (Grad): Two weeks .
+Turn 330, A (Grad): Italy , huh ? What 's , uh {disfmarker} what 's there ?
+Turn 331, B (Grad): Well , it 's a country . Buildings . People .
+Turn 332, A (Grad): Pasta .
+Turn 333, C (Grad): But it 's not a conference or anything .
+Turn 334, B (Grad): Hmm ?
+Turn 335, C (Grad): He 's just visiting .
+Turn 336, A (Grad): Right . Just visiting .
+Turn 337, B (Grad): Vacation .
+Turn 338, A (Grad): It 's a pretty nice place , in my brief , uh , encounter with it .
+Turn 339, B (Grad): Do you guys {disfmarker} Oh , yeah . So . Part of what we actually want to do is sort of schedule out what we want to surprise him with when {disfmarker} when he comes back . Um , so {disfmarker}
+Turn 340, C (Grad): Oh , I think we should disappoint him .
+Turn 341, B (Grad): Yeah ? You {disfmarker} or have a finished construction parser and a working belief - net , and uh {disfmarker}
+Turn 342, C (Grad): That wouldn't be disappointing . I think w we should do absolutely no work for the two weeks that he 's gone .
+Turn 343, B (Grad): Well , that 's actually what I had planned , personally . I had {disfmarker} I {disfmarker} I had sort of scheduled out in my mind that you guys do a lot of work , and I do nothing . And then , I sort of {disfmarker}
+Turn 344, C (Grad): Oh , yeah , that sounds good , too .
+Turn 345, B (Grad): sort of bask in {disfmarker} in your glory . But , uh , i do you guys have any vacation plans , because I myself am going to be , um , gone , but this is actually not really important . Just this weekend we 're going camping .
+Turn 346, C (Grad): Yeah , I 'm wanna be this {disfmarker} gone this weekend , too .
+Turn 347, B (Grad): Ah . But we 're all going to be here on Tuesday again ? Looks like it ?
+Turn 348, D (Grad): Yeah .
+Turn 349, B (Grad): OK , then . Let 's meet {disfmarker} meet again next Tuesday . And , um , finish up this Bayes - net . And once we have finished it , I guess we can , um {disfmarker} and that 's going to be more just you and me , because Bhaskara is doing probabilistic , recursive , structured , object - oriented , uh ,
+Turn 350, C (Grad): Killing machines !
+Turn 351, B (Grad): reasoning machines .
+Turn 352, A (Grad): Yes .
+Turn 353, B (Grad): And , um {disfmarker}
+Turn 354, C (Grad): Killing , reasoning . What 's the difference ?
+Turn 355, D (Grad): Wait . So you 're saying , next Tuesday , is it the whole group meeting , or just us three working on it , or {disfmarker} or {disfmarker} ?
+Turn 356, B (Grad): Uh . The whole group . And we present our results , our final ,
+Turn 357, D (Grad): OK .
+Turn 358, B (Grad): definite {disfmarker}
+Turn 359, D (Grad): So , when you were saying we {pause} need to do a re - run of , like {disfmarker}
+Turn 360, A (Grad): h What ?
+Turn 361, D (Grad): What {disfmarker} Like , just working out the rest of the {disfmarker}
+Turn 362, B (Grad): Yeah . We should do this th the upcoming days .
+Turn 363, D (Grad): This week ?
+Turn 364, B (Grad): So , this week , yeah .
+Turn 365, C (Grad): When you say , " the whole group " , you mean {pause} the four of us , and Keith ?
+Turn 366, D (Grad): OK .
+Turn 367, B (Grad): And , Ami might .
+Turn 368, C (Grad): Ami might be here , and it 's possible that Nancy 'll be here ?
+Turn 369, B (Grad): Yep .
+Turn 370, C (Grad): So , yeah .
+Turn 371, B (Grad): Because , th you know , once we have the belief - net done {disfmarker}
+Turn 372, C (Grad): You 're just gonna have to explain it to me , then , on Tuesday , how it 's all gonna work out . You know .
+Turn 373, B (Grad): We will . OK . Because then , once we have it sort of up and running , then we can start you know , defining the interfaces and then feed stuff into it and get stuff out of it , and then hook it up to some fake construction parser and {disfmarker}
+Turn 374, C (Grad): That you will have in about nine months or so .
+Turn 375, B (Grad): Yeah .
+Turn 376, C (Grad): Yeah .
+Turn 377, B (Grad): And , um ,
+Turn 378, C (Grad): The first bad version 'll be done in nine months .
+Turn 379, B (Grad): Yeah , I can worry about the ontology interface and you can {disfmarker} Keith can worry about the discourse . I mean , this is pretty {disfmarker} Um , I mean , I {disfmarker} I {disfmarker} I hope everybody uh knows that these are just going to be uh dummy values , right ?
+Turn 380, A (Grad): Which {disfmarker}
+Turn 381, B (Grad): where the {disfmarker}
+Turn 382, A (Grad): Which ones ?
+Turn 383, B (Grad): S so {disfmarker} so if the endpoint {disfmarker} if the Go - there is Yes and No , then Go - there - discourse will just be fifty - fifty . Right ?
+Turn 384, A (Grad): Um , what do you mean ? If the Go - there says No , then the Go - there is {disfmarker}
+Turn 385, D (Grad): I don't get it .
+Turn 386, A (Grad): I don't u understand .
+Turn 387, B (Grad): Um .
+Turn 388, A (Grad): Like , the Go - there depends on all those four things .
+Turn 389, B (Grad): Yep .
+Turn 390, A (Grad): Yeah .
+Turn 391, B (Grad): But , what are the values of the Go - there - discourse ?
+Turn 392, A (Grad): Well , it depends on the situation . If the discourse is strongly indicating that {disfmarker}
+Turn 393, B (Grad): Yeah , but , uh , we have no discourse input .
+Turn 394, A (Grad): Oh , I see . The d See , uh , specifically in our situation , D and O are gonna be , uh {disfmarker} Yeah . Sure . So , whatever .
+Turn 395, D (Grad): So , so far we have {disfmarker} Is that what the Keith node is ?
+Turn 396, B (Grad): Yep .
+Turn 397, D (Grad): OK . And you 're taking it out ? {pause} for now ?
+Turn 398, B (Grad): Well , this is D {disfmarker}
+Turn 399, D (Grad): Or {disfmarker} ?
+Turn 400, B (Grad): OK , this , I can {disfmarker} I can get it in here .
+Turn 401, D (Grad): All the D 's are {disfmarker}
+Turn 402, B (Grad): I can get it in here , so th We have the , uh , um , sk let 's {disfmarker} let 's call it " Keith - Johno
+Turn 403, A (Grad): Johno ?
+Turn 404, B (Grad): node " . There is an H {comment} somewhere printed .
+Turn 405, C (Grad): There you go .
+Turn 406, A (Grad): Yeah . People have the same problem with my name .
+Turn 407, B (Grad): Yeah .
+Turn 408, A (Grad): Oops .
+Turn 409, B (Grad): And , um ,
+Turn 410, C (Grad): Does th th does the H go b before the A or after the A ?
+Turn 411, A (Grad): Oh , in my name ? Before the A .
+Turn 412, C (Grad): Yeah . OK , good . Cuz you kn When you said people have the same problem , I thought {disfmarker} Cuz my H goes after the uh e e e the v
+Turn 413, A (Grad): People have the inverse problem with my name .
+Turn 414, C (Grad): OK . I always have to check , every time y I send you an email , {comment} a past email of yours , {comment} to make sure I 'm spelling your name correctly .
+Turn 415, A (Grad): Yeah . That 's good .
+Turn 416, C (Grad): I worry about you .
+Turn 417, A (Grad): I appreciate that .
+Turn 418, B (Grad): But , when you abbreviate yourself as the " Basman " , you don't use any H 's .
+Turn 419, A (Grad): " Basman " ? Yeah , it 's because of the chessplayer named Michael Basman , who is my hero .
+Turn 420, B (Grad): OK .
+Turn 421, C (Grad): You 're a geek . It 's O K . I
+Turn 422, B (Grad): OK .
+Turn 423, C (Grad): How do you pronou How do you pronounce your name ?
+Turn 424, D (Grad): Eva .
+Turn 425, C (Grad): Eva ?
+Turn 426, A (Grad): Not Eva ?
+Turn 427, D (Grad): Yeah .
+Turn 428, C (Grad): What if I were {disfmarker} What if I were to call you Eva ?
+Turn 429, D (Grad): I 'd probably still respond to it . I 've had people call me Eva , but I don't know .
+Turn 430, C (Grad): No , not just Eva , Eva . Like if I u take the V and s pronounce it like it was a German V ?
+Turn 431, B (Grad): Which is F .
+Turn 432, C (Grad): Yeah .
+Turn 433, D (Grad): Um , no idea then .
+Turn 434, B (Grad): Voiced .
+Turn 435, D (Grad): What ?
+Turn 436, C (Grad): It sounds like an F .
+Turn 437, D (Grad): I {disfmarker}
+Turn 438, C (Grad): There 's also an F in German ,
+Turn 439, D (Grad): OK .
+Turn 440, B (Grad): Well , it 's just the difference between voiced and unvoiced .
+Turn 441, C (Grad): which is why I {disfmarker} Yeah .
+Turn 442, D (Grad): OK .
+Turn 443, C (Grad): As long as that 's O K .
+Turn 444, D (Grad): Um .
+Turn 445, C (Grad): I mean , I might slip out and say it accidentally . That 's all I 'm saying .
+Turn 446, D (Grad): That 's fine .
+Turn 447, A (Grad): Yeah . It doesn't matter what those nodes are , anyway , because we 'll just make the weights " zero " for now .
+Turn 448, B (Grad): Yep . We 'll make them zero for now , because it {disfmarker} who {disfmarker} who knows what they come up with , what 's gonna come in there . OK . And , um , then should we start on Thursday ?
+Turn 449, A (Grad): OK .
+Turn 450, B (Grad): And not meet tomorrow ?
+Turn 451, A (Grad): Sure .
+Turn 452, B (Grad): OK . I 'll send an email , make a time suggestion .
+Turn 453, C (Grad): Wait , maybe it 's OK , so that {disfmarker} that {disfmarker} that we can {disfmarker} that we have one node per construction . Cuz even in people , like , they don't know what you 're talking about if you 're using some sort of strange construction .
+Turn 454, B (Grad): Yeah , they would still c sort of get the closest , best fit .
+Turn 455, C (Grad): Well , yeah , but I mean , the {disfmarker} uh , I mean , that 's what the construction parser would do .
+Turn 456, B (Grad): Mm - hmm .
+Turn 457, C (Grad): Uh , I mean , if you said something completely arbitrary , it would f find the closest construction ,
+Turn 458, B (Grad): OK .
+Turn 459, C (Grad): right ? But if you said something that was completel er {disfmarker} h theoretically the construction parser would do that {disfmarker} But if you said something for which there was no construction whatsoever , n people wouldn't have any idea what you were talking about .
+Turn 460, B (Grad): Mm - hmm .
+Turn 461, C (Grad): Like " Bus dog fried egg . " I mean . You know .
+Turn 462, B (Grad): Or , if even something Chinese , for example .
+Turn 463, C (Grad): Or , something in Mandarin , yeah . Or Cantonese , as the case may be . What do you think about that , Bhaskara ?
+Turn 464, A (Grad): I mean {disfmarker} Well {disfmarker} But how many constructions do {disfmarker} could we possibly have {pause} nodes for ?
+Turn 465, C (Grad): In this system , or in r
+Turn 466, A (Grad): No , we . Like , when people do this kind of thing .
+Turn 467, C (Grad): Oh , when p How many constructions do people have ?
+Turn 468, A (Grad): Yeah .
+Turn 469, C (Grad): I have not {comment} the slightest idea .
+Turn 470, A (Grad): Is it considered to be like in {disfmarker} are they considered to be like very , uh , sort of s abstract things ?
+Turn 471, C (Grad): Every noun is a construction .
+Turn 472, A (Grad): OK , so it 's like in the {pause} thousands .
+Turn 473, C (Grad): The {disfmarker} Yeah . Any {disfmarker} any form - meaning pair , to my understanding , is a construction .
+Turn 474, A (Grad): OK .
+Turn 475, B (Grad): So .
+Turn 476, C (Grad): And form u starts at the level of noun {disfmarker} Or actually , maybe even sounds .
+Turn 477, B (Grad): Phoneme . Yep .
+Turn 478, C (Grad): Yeah . And goes upwards until you get the ditransitive construction .
+Turn 479, A (Grad): S
+Turn 480, C (Grad): And then , of course , the c I guess , maybe there can be the {disfmarker} Can there be combinations of the dit
+Turn 481, A (Grad): Discourse - level {pause} constructions .
+Turn 482, C (Grad): Yeah . The " giving a speech " construction ,
+Turn 483, B (Grad): Rhetorical constructions .
+Turn 484, A (Grad): Yes .
+Turn 485, B (Grad): Yeah . But , I mean , you know , you can probably count {disfmarker} count the ways . I mean .
+Turn 486, C (Grad): It 's probab Yeah , I would s definitely say it 's finite .
+Turn 487, B (Grad): Yeah .
+Turn 488, C (Grad): And at least in compilers , that 's all that really matters , as long as your analysis is finite .
+Turn 489, A (Grad): How 's that ? {nonvocalsound} How it can be finite , again ?
+Turn 490, C (Grad): Nah , I can't think of a way it would be infinite .
+Turn 491, B (Grad): Well , you can come up with new constructions .
+Turn 492, C (Grad): Yeah . {comment} If the {disfmarker} if your {disfmarker} if your brain was totally non - deterministic , then perhaps there 's a way to get , uh , infin an infinite number of constructions that you 'd have to worry about .
+Turn 493, A (Grad): But , I mean , in the {nonvocalsound} practical sense , it 's impossible .
+Turn 494, C (Grad): Right . Cuz if we have a fixed number of neurons {disfmarker} ?
+Turn 495, A (Grad): Yeah .
+Turn 496, C (Grad): So the best - case scenario would be the number of constructions {disfmarker} or , the worst - case scenario is the number of constructions equals the number of neurons .
+Turn 497, A (Grad): Well , two to the power of the number of neurons .
+Turn 498, C (Grad): Right . But still finite .
+Turn 499, B (Grad): OK .
+Turn 500, C (Grad): No , wait . Not necessarily , is it ? We can end the {pause} meeting . I just {disfmarker} Can't you use different var different levels of activation ? across , uh {disfmarker} lots of different neurons , to specify different values ?
+Turn 501, B (Grad): Mm - hmm .
+Turn 502, A (Grad): Um , yeah , but there 's , like , a certain level of {disfmarker}
+Turn 503, C (Grad): There 's a bandwidth issue ,
+Turn 504, A (Grad): Bandw - Yeah , so you can't do better than something .
+Turn 505, C (Grad): right ? Yeah .
+Turn 506, B (Grad): Turn off the mikes . Otherwise it gets really tough for the tr

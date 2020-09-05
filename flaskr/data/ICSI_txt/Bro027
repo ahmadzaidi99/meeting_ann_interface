@@ -1,0 +1,1127 @@
+Turn 0, A (PhD): OK , we 're going .
+Turn 1, C (PhD): Eight , eight ?
+Turn 2, D (PhD): This is three .
+Turn 3, C (PhD): Three .
+Turn 4, D (PhD): Yep . Yep .
+Turn 5, B (Professor): Test . Hmm . Let 's see . Move it bit . Test ? Test ? OK , I guess it 's alright . So , let 's see . Yeah , Barry 's not here and Dave 's not here . Um , I can say about {disfmarker} just q just quickly to get through it , that Dave and I submitted this ASRU .
+Turn 6, A (PhD): This is for ASRU .
+Turn 7, B (Professor): Yeah . So . Um . Yeah , it 's {disfmarker} it 's interesting . I mean , basically we 're dealing with rever reverberation , and , um , when we deal with pure reverberation , the technique he 's using works really , really well . Uh , and when they had the reverberation here , uh , we 'll measure the signal - to - noise ratio and it 's , uh , about nine DB . So ,
+Turn 8, D (PhD): Hmm .
+Turn 9, B (Professor): um ,
+Turn 10, A (PhD): You mean , from the actual , uh , recordings ?
+Turn 11, B (Professor): a fair amount of {disfmarker}
+Turn 12, D (PhD): k
+Turn 13, A (PhD): It 's nine DB ?
+Turn 14, B (Professor): Yeah . Yeah . Um {disfmarker} And actually it brought up a question which may be relevant to the Aurora stuff too . Um , I know that when you figured out the filters that we 're using for the Mel scale , there was some experimentation that went on at {disfmarker} at , uh {disfmarker} at OGI . Um , but one of the differences that we found between the two systems that we were using , {comment} the {disfmarker} the Aurora HTK system baseline system {comment} and the system that we were {disfmarker} the {disfmarker} the uh , other system we were using , the uh , the SRI system , was that the SRI system had maybe a , um , hundred hertz high - pass . And the , uh , Aurora HTK , it was like twenty .
+Turn 15, D (PhD): Yep . S sixty - four .
+Turn 16, B (Professor): Uh .
+Turn 17, D (PhD): S sixty - four .
+Turn 18, B (Professor): Sixty - four ? Uh .
+Turn 19, D (PhD): Yeah , if you 're using the baseline .
+Turn 20, B (Professor): Is that the ba band center ?
+Turn 21, D (PhD): No , the edge .
+Turn 22, B (Professor): The edge is really , uh , sixty - four ?
+Turn 23, D (PhD): Yeah .
+Turn 24, B (Professor): For some reason , uh , Dave thought it was twenty ,
+Turn 25, D (PhD):  So the , uh , center would be somewhere around like hundred
+Turn 26, B (Professor): but .
+Turn 27, D (PhD): and {disfmarker} hundred and {disfmarker} hundred {disfmarker} hundred and {disfmarker} maybe {disfmarker} it 's like {disfmarker} fi hundred hertz .
+Turn 28, B (Professor): But do you know , for instance , h how far down it would be at twenty hertz ? What the {disfmarker} how much rejection would there be at twenty hertz , let 's say ?
+Turn 29, D (PhD): At twenty hertz .
+Turn 30, B (Professor): Yeah , any idea what the curve looks like ?
+Turn 31, D (PhD): Twenty hertz frequency {disfmarker} Oh , it 's {disfmarker} it 's zero at twenty hertz , right ? The filter ?
+Turn 32, C (PhD): Yea - actually , the left edge of the first filter is at sixty - four .
+Turn 33, D (PhD): Sixt - s sixty - four .
+Turn 34, C (PhD): So {disfmarker}
+Turn 35, D (PhD): So anything less than sixty - four is zero .
+Turn 36, C (PhD): Mmm .
+Turn 37, B (Professor): It 's actually set to zero ? What kind of filter is that ?
+Turn 38, C (PhD): Yeah .
+Turn 39, D (PhD): Yeah .
+Turn 40, B (Professor): Is this {disfmarker} oh , from the {disfmarker} from {disfmarker}
+Turn 41, C (PhD): It {disfmarker} This is the filter bank in the frequency domain that starts at sixty - four .
+Turn 42, B (Professor): Oh , so you , uh {disfmarker} so you really set it to zero , the FFT ?
+Turn 43, D (PhD): Yeah ,
+Turn 44, C (PhD): Yeah .
+Turn 45, D (PhD): yeah . So it 's {disfmarker} it 's a weight on the ball spectrum . Triangular weighting .
+Turn 46, B (Professor): Right . OK . Um {disfmarker} OK . So that 's {disfmarker} that 's a little different than Dave thought , I think . But {disfmarker} but , um , still , it 's possible that we 're getting in some more noise . So I wonder , is it {disfmarker} @ @ Was there {disfmarker} their experimentation with , uh , say , throwing away that filter or something ? And , uh {disfmarker}
+Turn 47, D (PhD): Uh , throwing away the first ?
+Turn 48, B (Professor): Yeah .
+Turn 49, D (PhD): Um , yeah , we {disfmarker} we 've tried including the full {disfmarker} full bank . Right ? From zero to four K .
+Turn 50, C (PhD): Mm - hmm .
+Turn 51, D (PhD): And that 's always worse than using sixty - four hertz .
+Turn 52, B (Professor): Right , but the question is , whether sixty - four hertz is {disfmarker} is , uh , too , uh , low .
+Turn 53, D (PhD): Yeah , I mean , make it a hundred or so ?
+Turn 54, B (Professor): Yeah .
+Turn 55, D (PhD): I t I think I 've tried a hundred and it was more or less the same , or slightly worse .
+Turn 56, B (Professor): On what test set ?
+Turn 57, D (PhD): On the same , uh , SpeechDat - Car , Aurora .
+Turn 58, B (Professor): Um , it was on the SpeechDat - Car .
+Turn 59, D (PhD): Yeah . So I tried a hundred to four K . Yeah .
+Turn 60, B (Professor): Um ,
+Turn 61, D (PhD): So it was {disfmarker}
+Turn 62, B (Professor): and on {disfmarker} and on the , um , um , {vocalsound} TI - digits also ?
+Turn 63, D (PhD): No , no , no . I think I just tried it on SpeechDat - Car .
+Turn 64, B (Professor): Mmm . That 'd be something to look at sometime because what , um , eh , he was looking at was performance in this room .
+Turn 65, D (PhD): Mm - hmm .
+Turn 66, B (Professor): Would that be more like {disfmarker} Well , you 'd think that 'd be more like SpeechDat - Car , I guess , in terms of the noise . The SpeechDat - Car is more , uh , sort of roughly stationary , a lot of it . And {disfmarker} and TI - digits maybe is not so much as {disfmarker}
+Turn 67, D (PhD): Yeah .
+Turn 68, C (PhD): Mm - hmm .
+Turn 69, B (Professor): Yeah .
+Turn 70, D (PhD): Yeah .
+Turn 71, B (Professor): Mm - hmm . OK . Well , maybe it 's not a big deal . But , um {disfmarker} Anyway , that was just something we wondered about . But , um , uh , certainly a lot of the noise , uh , is , uh , below a hundred hertz . Uh , the signal - to - noise ratio , you know , looks a fair amount better if you {disfmarker} if you high - pass filter it from this room .
+Turn 72, D (PhD): Yeah .
+Turn 73, B (Professor): But , um {disfmarker} but it 's still pretty noisy . Even {disfmarker} even for a hundred hertz up , it 's {disfmarker} it 's still fairly noisy . The signal - to - noise ratio is {disfmarker} is {disfmarker} is actually still pretty bad .
+Turn 74, C (PhD): Mm - hmm .
+Turn 75, A (PhD): Hmm .
+Turn 76, B (Professor): So , um , I mean , the main {disfmarker} the {disfmarker} the {disfmarker}
+Turn 77, A (PhD): So that 's on th that 's on the f the far field ones though , right ? Yeah .
+Turn 78, B (Professor): Yeah , that 's on the far field . Yeah , the near field 's pretty good .
+Turn 79, A (PhD): So wha what is , uh {disfmarker} what 's causing that ?
+Turn 80, B (Professor): Well , we got a {disfmarker} a video projector in here , uh , and , uh {disfmarker} which we keep on during every {disfmarker} every session we record ,
+Turn 81, A (PhD): Yeah .
+Turn 82, B (Professor): which , you know , I {disfmarker} I {disfmarker} w we were aware of
+Turn 83, A (PhD): Uh - huh .
+Turn 84, B (Professor): but {disfmarker} but we thought it wasn't a bad thing .
+Turn 85, A (PhD): Yeah .
+Turn 86, B (Professor): I mean , that 's a nice noise source . Uh , and there 's also the , uh {disfmarker} uh , air conditioning .
+Turn 87, A (PhD): Hmm .
+Turn 88, B (Professor): Which , uh , you know , is a pretty low frequency kind of thing .
+Turn 89, A (PhD): Mm - hmm .
+Turn 90, B (Professor): But {disfmarker} but , uh {disfmarker} So , those are {disfmarker} those are major components , I think ,
+Turn 91, A (PhD): I see .
+Turn 92, B (Professor): uh , for the stationary kind of stuff .
+Turn 93, A (PhD): Mmm .
+Turn 94, B (Professor): Um , but , um , it , uh {disfmarker} I guess , I {disfmarker} maybe I said this last week too but it {disfmarker} it {disfmarker} it really became apparent to us that we need to {disfmarker} to take account of noise . And , uh , so I think when {disfmarker} when he gets done with his prelim study I think {vocalsound} one of the next things we 'd want to do is to take this , uh {disfmarker} uh , noise , uh , processing stuff and {disfmarker} and , uh {disfmarker} uh , synthesize some speech from it .
+Turn 95, A (PhD): When are his prelims ?
+Turn 96, B (Professor): And then {disfmarker} Um , I think in about , um , a little less than two weeks .
+Turn 97, A (PhD): Oh . Wow .
+Turn 98, B (Professor): Yeah . Yeah . So . Uh , it might even be sooner . Uh , let 's see , this is the sixteenth , seventeenth ? Yeah , I don't know if he 's before {disfmarker} It might even be in a week .
+Turn 99, A (PhD): So , I
+Turn 100, B (Professor): A week ,
+Turn 101, A (PhD): Huh . I {disfmarker} I guessed that they were gonna do it some time during the semester
+Turn 102, B (Professor): week and a half .
+Turn 103, A (PhD): but they 'll do it any time , huh ?
+Turn 104, B (Professor): They seem to be {disfmarker} Well , the semester actually is starting up .
+Turn 105, A (PhD): Is it already ?
+Turn 106, B (Professor): Yeah , the semester 's late {disfmarker} late August they start here .
+Turn 107, A (PhD): Yikes .
+Turn 108, B (Professor): So they do it right at the beginning of the semester .
+Turn 109, A (PhD): Yeah .
+Turn 110, B (Professor): Yeah . So , uh {disfmarker} Yep . I mean , that {disfmarker} that was sort of one {disfmarker} I mean , the overall results seemed to be first place in {disfmarker} in {disfmarker} in the case of either , um , artificial reverberation or a modest sized training set . Uh , either way , uh , i uh , it helped a lot . And {disfmarker} But if you had a {disfmarker} a really big training set , a recognizer , uh , system that was capable of taking advantage of a really large training set {disfmarker} I thought that {disfmarker} One thing with the HTK is that is has the {disfmarker} as we 're using {disfmarker} the configuration we 're using is w s is {disfmarker} being bound by the terms of Aurora , we have all those parameters just set as they are . So even if we had a hundred times as much data , we wouldn't go out to , you know , ten or t or a hundred times as many Gaussians or anything . So , um , it 's kind of hard to take advantage of {disfmarker} of {disfmarker} of big chunks of data . Uh , whereas the other one does sort of expand as you have more training data .
+Turn 111, C (PhD): Mm - hmm .
+Turn 112, D (PhD): Mmm , yeah .
+Turn 113, B (Professor): It does it automatically , actually . And so , um , uh , that one really benefited from the larger set . And it was also a diverse set with different noises and so forth . Uh , so , um , that , uh {disfmarker} that seemed to be {disfmarker} So , if you have that {disfmarker} that better recognizer that can {disfmarker} that can build up more parameters , and if you , um , have the natural room , which in this case has a p a pretty bad signal - to - noise ratio , then in that case , um , the right thing to do is just do {disfmarker} u use speaker adaptation . And {disfmarker} and not bother with {disfmarker} with this acoustic , uh , processing . But I think that that would not be true if we did some explicit noise - processing as well as , uh , the convolutional kind of things we were doing .
+Turn 114, C (PhD): Mm - hmm .
+Turn 115, B (Professor): So . That 's sort of what we found .
+Turn 116, D (PhD): Hmm .
+Turn 117, A (PhD): I , um {disfmarker} {vocalsound} uh , started working on the uh {disfmarker} Mississippi State recognizer . So , I got in touch with Joe and {disfmarker} and , uh , from your email and things like that .
+Turn 118, D (PhD): Oh , OK .
+Turn 119, A (PhD): And , uh , they added me to the list {disfmarker} uh , the mailing list .
+Turn 120, D (PhD): OK , great .
+Turn 121, A (PhD): And he gave me all of the pointers and everything that I needed . And so I downloaded the , um {disfmarker} There were two things , uh , that they had to download . One was the , uh , I guess the software . And another wad {disfmarker} was a , um , sort of like a sample {disfmarker} a sample run . So I downloaded the software and compiled all of that . And it compiled fine .
+Turn 122, D (PhD): Eight .
+Turn 123, A (PhD): No problems .
+Turn 124, D (PhD): Oh , eh , great .
+Turn 125, A (PhD): And , um , I grabbed the sample stuff but I haven't , uh , compiled it .
+Turn 126, D (PhD): That sample was released only yesterday or the day before , right ?
+Turn 127, A (PhD): No {disfmarker} Well , I haven't grabbed that one yet . So there 's two .
+Turn 128, D (PhD): Oh , there is another short sample set {disfmarker}
+Turn 129, A (PhD): There was another short one , yeah .
+Turn 130, D (PhD): o o sample .
+Turn 131, A (PhD): And so I haven't grabbed the latest one that he just , uh , put out yet .
+Turn 132, D (PhD): OK . Oh , OK . F Yeah , OK .
+Turn 133, A (PhD): So . Um , but , the software seemed to compile fine and everything , so . And , um , So .
+Turn 134, B (Professor): Is there any word yet about the issues about , um , adjustments for different feature sets or anything ?
+Turn 135, A (PhD): No , I {disfmarker} I d You asked me to write to him and I think I forgot to ask him about that . Or if I did ask him , he didn't reply .
+Turn 136, B (Professor): Yeah .
+Turn 137, A (PhD): I {disfmarker} I don't remember yet . Uh , I 'll {disfmarker} I 'll d I 'll double check that and ask him again .
+Turn 138, B (Professor): Yeah . Yeah , it 's like that {disfmarker} that could r turn out to be an important issue for us .
+Turn 139, D (PhD): Hmm . Mmm .
+Turn 140, A (PhD): Yeah . Yeah .
+Turn 141, B (Professor): Yeah .
+Turn 142, D (PhD): Cuz they have it {disfmarker}
+Turn 143, A (PhD): Maybe I 'll send it to the list . Yeah .
+Turn 144, D (PhD): Cuz they have , uh , already frozen those in i insertion penalties and all those stuff is what {disfmarker} I feel . Because they have this document explaining the recognizer .
+Turn 145, A (PhD): Uh - huh .
+Turn 146, D (PhD): And they have these tables with , uh , various language model weights , insertion penalties .
+Turn 147, A (PhD): OK , I haven't seen that one yet .
+Turn 148, D (PhD): u
+Turn 149, A (PhD): So .
+Turn 150, D (PhD): Uh , it 's th it 's there on that web .
+Turn 151, A (PhD): OK .
+Turn 152, D (PhD): And , uh , on that , I mean , they have run some experiments using various insertion penalties and all those {disfmarker}
+Turn 153, A (PhD): And so they 've picked {disfmarker} the values .
+Turn 154, D (PhD): Yeah , I think they pi p
+Turn 155, A (PhD): Oh , OK .
+Turn 156, D (PhD): yeah , they picked the values from {disfmarker}
+Turn 157, A (PhD): OK .
+Turn 158, B (Professor): For r w what test set ?
+Turn 159, D (PhD): Uh , p the one that they have reported is a NIST evaluation , Wall Street Journal .
+Turn 160, B (Professor): But that has nothing to do with what we 're testing on , right ?
+Turn 161, C (PhD): Mm - hmm .
+Turn 162, D (PhD): You know . No . So they 're , like {disfmarker} um {disfmarker} So they are actually trying to , uh , fix that {disfmarker} those values using the clean , uh , training part of the Wall Street Journal . Which is {disfmarker} I mean , the Aurora . Aurora has a clean subset .
+Turn 163, B (Professor): Right .
+Turn 164, D (PhD): I mean , they want to train it and then this {disfmarker} they 're going to run some evaluations .
+Turn 165, B (Professor): So they 're set they 're setting it based on that ?
+Turn 166, D (PhD): Yeah .
+Turn 167, B (Professor): OK . So now , we may come back to the situation where we may be looking for a modification of the features to account for the fact that we can't modify these parameters .
+Turn 168, A (PhD): Yeah .
+Turn 169, B (Professor): But , um ,
+Turn 170, D (PhD): Yeah .
+Turn 171, B (Professor): uh {disfmarker} but it 's still worth , I think , just {disfmarker} since {disfmarker} you know , just chatting with Joe about the issue .
+Turn 172, A (PhD): Yeah , OK . Do you think that 's something I should just send to him
+Turn 173, B (Professor): Um {disfmarker}
+Turn 174, A (PhD): or do you think I should send it to this {disfmarker} there 's an {disfmarker} a m a mailing list .
+Turn 175, B (Professor): Well , it 's not a secret . I mean , we 're , you know , certainly willing to talk about it with everybody , but I think {disfmarker} I think that , um {disfmarker} um , it 's probably best to start talking with him just to {disfmarker}
+Turn 176, A (PhD): OK .
+Turn 177, B (Professor): Uh @ @ {comment} you know , it 's a dialogue between two of you about what {disfmarker} you know , what does he think about this and what {disfmarker} what {disfmarker} you know {disfmarker} what could be done about it .
+Turn 178, A (PhD): Yeah . OK .
+Turn 179, B (Professor): Um , if you get ten people in {disfmarker} involved in it there 'll be a lot of perspectives based on , you know , how {disfmarker}
+Turn 180, A (PhD): Yeah .
+Turn 181, B (Professor): you know .
+Turn 182, A (PhD): Right .
+Turn 183, B (Professor): Uh {disfmarker} But , I mean , I think it all should come up eventually ,
+Turn 184, A (PhD): OK .
+Turn 185, B (Professor): but if {disfmarker} if {disfmarker} if there is any , uh , uh , way to move in {disfmarker} a way that would {disfmarker} that would , you know , be more open to different kinds of features . But if {disfmarker} if , uh {disfmarker} if there isn't , and it 's just kind of shut down and {disfmarker} and then also there 's probably not worthwhile bringing it into a larger forum where {disfmarker} where political issues will come in .
+Turn 186, A (PhD): Yeah . OK .
+Turn 187, D (PhD): Oh . So this is now {disfmarker} it 's {disfmarker} it 's compiled under Solaris ?
+Turn 188, A (PhD): Yeah .
+Turn 189, D (PhD): Yeah , OK .
+Turn 190, A (PhD): Yep .
+Turn 191, D (PhD): Because he {disfmarker} there was some mail r saying that it 's {disfmarker} may not be stable for Linux and all those .
+Turn 192, A (PhD): Yeah . Yeah , i that was a particular version .
+Turn 193, D (PhD): SUSI
+Turn 194, A (PhD): Yeah , SUSI or whatever it was
+Turn 195, D (PhD): yeah . Yeah , yeah .
+Turn 196, A (PhD): but we don't have that .
+Turn 197, D (PhD): Yeah , OK .
+Turn 198, A (PhD): So . Should be OK .
+Turn 199, D (PhD): OK , that 's fine .
+Turn 200, A (PhD): Yeah , it compiled fine actually .
+Turn 201, D (PhD): Yeah .
+Turn 202, A (PhD): No {disfmarker} no errors . Nothing . So .
+Turn 203, B (Professor): Uh , this is slightly off topic
+Turn 204, D (PhD): That 's good .
+Turn 205, B (Professor): but , uh , I noticed , just glancing at the , uh , Hopkins workshop , uh , web site that , uh , um {disfmarker} one of the thing I don't know {disfmarker} Well , we 'll see how much they accomplish , but one of the things that they were trying to do in the graphical models thing was to put together a {disfmarker} a , uh , tool kit for doing , uh r um , arbitrary graphical models for , uh , speech recognition .
+Turn 206, A (PhD): Hmm .
+Turn 207, B (Professor): So {disfmarker} And Jeff , uh {disfmarker} the two Jeffs were
+Turn 208, A (PhD): Who 's the second Jeff ?
+Turn 209, B (Professor): Uh {disfmarker} Oh , uh , do you know Geoff Zweig ?
+Turn 210, A (PhD): No .
+Turn 211, B (Professor): Oh . Uh , he {disfmarker} he , uh {disfmarker} he was here for a couple years
+Turn 212, A (PhD): Oh , OK .
+Turn 213, B (Professor): and he , uh {disfmarker} got his PHD . He {disfmarker} And he 's , uh , been at IBM for the last couple years .
+Turn 214, A (PhD): Oh , OK .
+Turn 215, B (Professor): So .
+Turn 216, A (PhD): Wow . That would be neat .
+Turn 217, B (Professor): Uh , so he did {disfmarker} he did his PHD on dynamic Bayes - nets , uh , for {disfmarker} for speech recognition . He had some continuity built into the model , presumably to handle some , um , inertia in the {disfmarker} in the production system , and , um {disfmarker}
+Turn 218, A (PhD): Hmm .
+Turn 219, B (Professor): So .
+Turn 220, D (PhD): Hmm .
+Turn 221, C (PhD): Um , I 've been playing with , first , the , um , VAD . Um , {vocalsound} so it 's exactly the same approach , but the features that the VAD neural network use are , uh , MFCC after noise compensation . Oh , I think I have the results .
+Turn 222, B (Professor): What was it using before ?
+Turn 223, C (PhD): Before it was just P L
+Turn 224, D (PhD): 
+Turn 225, C (PhD): So .
+Turn 226, D (PhD): Yeah , it was actually {disfmarker} No . Not {disfmarker} I mean , it was just the noisy features I guess .
+Turn 227, C (PhD): Yeah ,
+Turn 228, D (PhD): Yeah , yeah , yeah ,
+Turn 229, C (PhD): noisy {disfmarker} noisy features .
+Turn 230, D (PhD): not compensated .
+Turn 231, C (PhD): Um {disfmarker} This is what we get after {disfmarker} This {disfmarker} So , actually , we , yeah , here the features are noise compensated and there is also the LDA filter . Um , and then it 's a pretty small neural network which use , um , {vocalsound} nine frames of {disfmarker} of six features from C - zero to C - fives , plus the first derivatives . And it has one hundred hidden units .
+Turn 232, A (PhD): Is that nine frames u s uh , centered around the current frame ? Or {disfmarker}
+Turn 233, C (PhD): Yeah . Mm - hmm .
+Turn 234, B (Professor): S so , I 'm {disfmarker} I 'm sorry , there 's {disfmarker} there 's {disfmarker} there 's how many {disfmarker} how many inputs ?
+Turn 235, C (PhD): So it 's twelve times nine .
+Turn 236, B (Professor): Twelve times nine inputs , and a hundred , uh , hidden .
+Turn 237, C (PhD): Hidden and
+Turn 238, D (PhD): Two outputs .
+Turn 239, C (PhD): two outputs .
+Turn 240, B (Professor): Two outputs . OK . So I guess about eleven thousand parameters , which {disfmarker} actually shouldn't be a problem , even in {disfmarker} in small phones . Yeah .
+Turn 241, C (PhD): Mm - hmm .
+Turn 242, A (PhD): So , I 'm {disfmarker} I 'm {disfmarker} s so what is different between this and {disfmarker} and what you {disfmarker}
+Turn 243, C (PhD): It should be OK . So the previous syst It 's based on the system that has a fifty - three point sixty - six percent improvement . It 's the same system . The only thing that changed is the n a p eh {disfmarker} a es the estimation of the silence probabilities .
+Turn 244, A (PhD): Ah . OK .
+Turn 245, C (PhD): Which now is based on , uh , cleaned features .
+Turn 246, B (Professor): And , it 's a l it 's a lot better .
+Turn 247, A (PhD): Wow .
+Turn 248, C (PhD): Yeah .
+Turn 249, B (Professor): That 's great .
+Turn 250, C (PhD): Um {disfmarker} So it 's {disfmarker} it 's not bad , but the problem is still that the latency is too large .
+Turn 251, B (Professor): What 's the latency ?
+Turn 252, C (PhD): Because {disfmarker} um {disfmarker} the {disfmarker} the latency of the VAD is two hundred and twenty milliseconds . And , uh , the VAD is used uh , i for on - line normalization , and it 's used before the delta computation . So if you add these components it goes t to a hundred and seventy , right ?
+Turn 253, B (Professor): I {disfmarker} I 'm confused . You started off with two - twenty and you ended up with one - seventy ?
+Turn 254, C (PhD): With two an two hundred and seventy .
+Turn 255, B (Professor): Two - seventy .
+Turn 256, C (PhD): If {disfmarker} Yeah , if you add the c delta comp delta computation
+Turn 257, B (Professor): Oh .
+Turn 258, C (PhD): which is done afterwards . Um {disfmarker}
+Turn 259, B (Professor): So it 's two - twenty . I the is this {disfmarker} are these twenty - millisecond frames ? Is that why ? Is it after downsampling ? or {disfmarker}
+Turn 260, C (PhD): The two - twenty is one hundred milliseconds for the um {disfmarker} No , it 's forty milliseconds for t for the , uh , uh , cleaning of the speech . Um {disfmarker} then there is , um , the neural network which use nine frames . So it adds forty milliseconds .
+Turn 261, B (Professor): a OK .
+Turn 262, C (PhD): Um , after that , um , you have the um , filtering of the silence probabilities . Which is a million filter it , and it creates a one hundred milliseconds delay . So , um {disfmarker}
+Turn 263, B (Professor): 
+Turn 264, D (PhD): Plus there is a delta at the input .
+Turn 265, C (PhD): Yeah , and there is the delta at the input which is ,
+Turn 266, B (Professor): One hundred milliseconds for smoothing .
+Turn 267, C (PhD): um {disfmarker} So it 's {disfmarker} @ @ {disfmarker}
+Turn 268, B (Professor): Uh , median .
+Turn 269, C (PhD): 
+Turn 270, D (PhD): It 's like forty plus {disfmarker} forty {disfmarker} plus {disfmarker}
+Turn 271, B (Professor): And then forty {disfmarker}
+Turn 272, C (PhD): Mmm . Forty {disfmarker} This forty plus twenty , plus one hundred .
+Turn 273, B (Professor): forty p 
+Turn 274, C (PhD): Uh {disfmarker}
+Turn 275, D (PhD): So it 's two hundred actually .
+Turn 276, C (PhD): Yeah , there are twenty that comes from {disfmarker} There is ten that comes from the LDA filters also . Right ?
+Turn 277, D (PhD): Oh , OK .
+Turn 278, C (PhD): Uh , so it 's two hundred and ten , yeah .
+Turn 279, D (PhD): If you are using {disfmarker}
+Turn 280, B (Professor): Uh {disfmarker}
+Turn 281, C (PhD): Plus the frame ,
+Turn 282, D (PhD): t If you are using three frames {disfmarker}
+Turn 283, C (PhD): so it 's two - twenty .
+Turn 284, D (PhD): If you are phrasing f {comment} using three frames , it is thirty here for delta .
+Turn 285, C (PhD): Yeah , I think it 's {disfmarker} it 's five frames , but .
+Turn 286, D (PhD): So five frames , that 's twenty . OK , so it 's who un {comment} two hundred and ten .
+Turn 287, B (Professor): Uh , p Wait a minute . It 's forty {disfmarker} {vocalsound} forty for the {disfmarker} for the cleaning of the speech ,
+Turn 288, C (PhD): So . Forty cleaning .
+Turn 289, B (Professor): forty for the I N {disfmarker} ANN , a hundred for the smoothing .
+Turn 290, C (PhD): Yeah .
+Turn 291, B (Professor): Well , but at ten {disfmarker} ,
+Turn 292, C (PhD): Twenty for the delta .
+Turn 293, B (Professor): Twenty for delta .
+Turn 294, D (PhD): At th {nonvocalsound} At the input . I mean , that 's at the input to the net .
+Turn 295, C (PhD): Yeah .
+Turn 296, B (Professor): Delta at input to net ?
+Turn 297, D (PhD): And there i
+Turn 298, C (PhD): Yeah .
+Turn 299, D (PhD): Yeah . So it 's like s five , six cepstrum plus delta at nine {disfmarker} nine frames of {disfmarker}
+Turn 300, B (Professor): And then ten milliseconds for {disfmarker}
+Turn 301, D (PhD): Fi - There 's an LDA filter .
+Turn 302, B (Professor): ten milliseconds for LDA filter , and t and ten {disfmarker} another ten milliseconds you said for the frame ?
+Turn 303, C (PhD): For the frame I guess . I computed two - twenty {disfmarker} Yeah , well , it 's {disfmarker} I guess it 's for the fr {disfmarker} the {disfmarker}
+Turn 304, B (Professor): OK . And then there 's delta besides that ?
+Turn 305, C (PhD): So this is the features that are used by our network and then afterwards , you have to compute the delta on the , uh , main feature stream ,
+Turn 306, B (Professor): OK .
+Turn 307, C (PhD): which is um , delta and double - deltas , which is fifty milliseconds .
+Turn 308, B (Professor): Yeah . No , I mean , the {disfmarker} after the noise part , the forty {disfmarker} the {disfmarker} the other hundred and eighty {disfmarker} Well , I mean , Wait a minute . Some of this is , uh {disfmarker} is , uh {disfmarker} is in parallel , isn't it ? I mean , the LDA {disfmarker} Oh , you have the LDA as part of the V D - uh , VAD ? Or {disfmarker}
+Turn 309, C (PhD): The VAD use , uh , LDA filtered features also .
+Turn 310, B (Professor): Oh , it does ?
+Turn 311, C (PhD): Mm - hmm .
+Turn 312, B (Professor): Ah . So in that case there isn't too much in parallel . Uh {disfmarker}
+Turn 313, C (PhD): No . There is , um , just downsampling , upsampling , and the LDA .
+Turn 314, B (Professor): Um , so the delta at the end is how much ?
+Turn 315, C (PhD): It 's fifty .
+Turn 316, D (PhD): It 's {disfmarker}
+Turn 317, B (Professor): Fifty . Alright . So {disfmarker}
+Turn 318, C (PhD): But well , we could probably put the delta , um , {vocalsound} before on - line normalization . It should not that make a big difference ,
+Turn 319, A (PhD): What if you used a smaller window for the delta ?
+Turn 320, C (PhD): because {disfmarker}
+Turn 321, A (PhD): Could that help a little bit ? I mean , I guess there 's a lot of things you could do to {disfmarker}
+Turn 322, C (PhD): Yeah .
+Turn 323, B (Professor): Yeah .
+Turn 324, C (PhD): Yeah ,
+Turn 325, B (Professor): So
+Turn 326, C (PhD): but , nnn {disfmarker}
+Turn 327, B (Professor): Yeah . So if you {disfmarker} if you put the delta before the , uh , ana on - line {disfmarker} If {disfmarker} Yeah {disfmarker}
+Turn 328, C (PhD): Mm - hmm .
+Turn 329, B (Professor): uh {disfmarker} then {disfmarker} then it could go in parallel .
+Turn 330, C (PhD): Cuz i
+Turn 331, B (Professor): And then y then you don't have that additive {disfmarker}
+Turn 332, C (PhD): Yeah ,
+Turn 333, D (PhD): Yep .
+Turn 334, C (PhD): cuz the time constant of the on - line normalization is pretty long compared to the delta window ,
+Turn 335, B (Professor): OK .
+Turn 336, C (PhD): so . It should not make {disfmarker}
+Turn 337, B (Professor): OK . And you ought to be able to shove tw , uh {disfmarker} sh uh {disfmarker} pull off twenty milliseconds from somewhere else to get it under two hundred , right ? I mean {disfmarker}
+Turn 338, A (PhD): Is two hundred the d
+Turn 339, B (Professor): The hundred milla
+Turn 340, C (PhD): Mm - hmm .
+Turn 341, B (Professor): mill a hundred milliseconds for smoothing is sort of an arbitrary amount . It could be eighty and {disfmarker} and probably do @ @ {disfmarker}
+Turn 342, C (PhD): Yeah ,
+Turn 343, A (PhD): i a hun
+Turn 344, C (PhD): yeah .
+Turn 345, A (PhD): uh {disfmarker} Wh - what 's the baseline you need to be under ? Two hundred ?
+Turn 346, B (Professor): Well , we don't know . They 're still arguing about it .
+Turn 347, C (PhD): 
+Turn 348, A (PhD): Oh .
+Turn 349, B (Professor): I mean , if it 's two {disfmarker} if {disfmarker} if it 's , uh {disfmarker} if it 's two - fifty , then we could keep the delta where it is if we shaved off twenty . If it 's two hundred , if we shaved off twenty , we could {disfmarker} we could , uh , meet it by moving the delta back .
+Turn 350, A (PhD): So , how do you know that what you have is too much if they 're still deciding ?
+Turn 351, B (Professor): Uh , we don't , but it 's just {disfmarker} I mean , the main thing is that since that we got burned last time , and {disfmarker} you know , by not worrying about it very much , we 're just staying conscious of it .
+Turn 352, A (PhD): Uh - huh . Oh , OK , I see .
+Turn 353, B (Professor): And so , th I mean , if {disfmarker} if {disfmarker} if a week before we have to be done someone says , " Well , you have to have fifty milliseconds less than you have now " , it would be pretty frantic around here . So {disfmarker}
+Turn 354, A (PhD): Ah , OK .
+Turn 355, B (Professor): Uh {disfmarker}
+Turn 356, A (PhD): But still , that 's {disfmarker} that 's a pretty big , uh , win . And it doesn't seem like you 're {disfmarker} in terms of your delay , you 're , uh , that {disfmarker}
+Turn 357, B (Professor): He added a bit on , I guess , because before we were {disfmarker} we were {disfmarker} had {disfmarker} were able to have the noise , uh , stuff , uh , and the LVA be in parallel .
+Turn 358, C (PhD): Hmm .
+Turn 359, B (Professor): And now he 's {disfmarker} he 's requiring it to be done first .
+Turn 360, C (PhD): Well , but I think the main thing , maybe , is the cleaning of the speech , which takes forty milliseconds or so .
+Turn 361, B (Professor): Right . Well , so you say {disfmarker} let 's say ten milliseconds {disfmarker} seconds for the LDA .
+Turn 362, C (PhD): And {disfmarker} and {disfmarker} but {disfmarker} the LDA is , well , pretty short right now .
+Turn 363, B (Professor): Well , ten . And then forty for the other .
+Turn 364, C (PhD): Yeah .
+Turn 365, D (PhD): Yeah , the LDA {disfmarker} LDA {disfmarker} we don't know , is , like {disfmarker} is it very crucial for the features , right ?
+Turn 366, C (PhD): No . I just {disfmarker} This is the first try .
+Turn 367, D (PhD): Yeah .
+Turn 368, B (Professor): Right ,
+Turn 369, C (PhD): I mean , I {disfmarker} maybe the LDA 's not very useful then .
+Turn 370, B (Professor): so you could start pulling back ,
+Turn 371, D (PhD): S s h
+Turn 372, B (Professor): but {disfmarker}
+Turn 373, D (PhD): Yeah ,
+Turn 374, B (Professor): But I think you have {disfmarker}
+Turn 375, D (PhD): l
+Turn 376, B (Professor): I mean , you have twenty for delta computation which y now you 're sort of doing twice , right ? But yo w were you doing that before ?
+Turn 377, C (PhD): Mmm . Well , in the proposal , um , the input of the VAD network were just three frames , I think .
+Turn 378, D (PhD): On the {disfmarker} in the {disfmarker} Mm - hmm . Just {disfmarker} Yeah , just the static , no delta .
+Turn 379, B (Professor): Right .
+Turn 380, C (PhD): Uh , static features .
+Turn 381, B (Professor): So , what you have now is fort uh , forty for the {disfmarker} the noise , twenty for the delta , and ten for the LDA . That 's seventy milliseconds of stuff which was formerly in parallel ,
+Turn 382, C (PhD): 
+Turn 383, B (Professor): right ? So I think ,
+Turn 384, C (PhD): Mm - hmm .
+Turn 385, B (Professor): you know , that 's {disfmarker} that 's the difference as far as the timing , right ?
+Turn 386, C (PhD): Yeah .
+Turn 387, B (Professor): Um , and you could experiment with cutting various pieces of these back a bit , but {disfmarker} I mean , we 're s we 're not {disfmarker} we 're not in terrible shape .
+Turn 388, A (PhD): Yeah , that 's what it seems like to me . It 's pretty good .
+Turn 389, B (Professor): Yeah .
+Turn 390, C (PhD): Mm - hmm .
+Turn 391, B (Professor): It 's {disfmarker} it 's not like it 's adding up to four hundred milliseconds or something .
+Turn 392, A (PhD): Where {disfmarker} where is this {disfmarker} where is this fifty - seven point O two in {disfmarker} in comparison to the last evaluation ?
+Turn 393, B (Professor): Well , it 's {disfmarker} I think it 's better than anything , uh , anybody got .
+Turn 394, A (PhD): Oh , is that right ?
+Turn 395, C (PhD): Yeah . The best was fifty - four point five .
+Turn 396, B (Professor): Yeah .
+Turn 397, D (PhD): Point s
+Turn 398, A (PhD): Oh .
+Turn 399, B (Professor): Yeah . Uh
+Turn 400, C (PhD): And our system was forty - nine , but with the neural network .
+Turn 401, A (PhD): Wow . So this is almost ten percent .
+Turn 402, B (Professor): With the f with the neural net . Yeah , and r and {disfmarker}
+Turn 403, C (PhD): It would
+Turn 404, D (PhD): Yeah , so this is {disfmarker} this is like the first proposal . The proposal - one . It was forty - four , actually .
+Turn 405, B (Professor): Yeah . Yeah . And we still don't have the neural net in . So {disfmarker} so it 's {disfmarker}
+Turn 406, A (PhD): Wow .
+Turn 407, B (Professor): You know . So it 's {disfmarker} We 're {disfmarker} we 're doing better .
+Turn 408, A (PhD): This is {disfmarker} this is really good .
+Turn 409, B (Professor): I mean , we 're getting better recognition . I mean , I 'm sure other people working on this are not sitting still either , but {disfmarker}
+Turn 410, A (PhD): Yeah .
+Turn 411, B (Professor): but {disfmarker} but , uh {disfmarker} Uh , I mean , the important thing is that we learn how to do this better , and , you know . So . Um , Yeah . So , our , um {disfmarker} Yeah , you can see the kind of {disfmarker} kind of numbers that we 're having , say , on SpeechDat - Car which is a hard task , cuz it 's really , um {disfmarker} I think it 's just sort of {disfmarker} sort of reasonable numbers , starting to be . I mean , it 's still terri
+Turn 412, C (PhD): Mm - hmm . Yeah , even for a well - matched case it 's sixty percent error rate reduction ,
+Turn 413, B (Professor): Yeah .
+Turn 414, C (PhD): which is {disfmarker}
+Turn 415, B (Professor): Yeah . Probably half . Good !
+Turn 416, C (PhD): Um , Yeah . So actually , this is in between {vocalsound} what we had with the previous VAD and what Sunil did with an IDL VAD . Which gave sixty - two percent improvement , right ?
+Turn 417, D (PhD): Yeah , it 's almost that .
+Turn 418, C (PhD): So {disfmarker}
+Turn 419, D (PhD): It 's almost an average somewhere around {disfmarker}
+Turn 420, C (PhD): Yeah .
+Turn 421, D (PhD): Yeah .
+Turn 422, A (PhD): What was that ? Say that last part again ?
+Turn 423, C (PhD): So , if you use , like , an IDL VAD , uh , for dropping the frames ,
+Turn 424, D (PhD): o o Or the best we can get .
+Turn 425, C (PhD): the best that we can get {disfmarker} i That means that we estimate the silence probability on the clean version of the utterances . Then you can go up to sixty - two percent error rate reduction , globally .
+Turn 426, A (PhD): Mmm .
+Turn 427, C (PhD): Mmm {disfmarker} Yeah .
+Turn 428, A (PhD): So that would be even {disfmarker} That wouldn't change this number down here to sixty - two ?
+Turn 429, C (PhD): Yeah .
+Turn 430, B (Professor): Yeah . So you {disfmarker} you were get
+Turn 431, C (PhD): If you add a g good v very good VAD , that works as well as a VAD working on clean speech ,
+Turn 432, A (PhD): Yeah . Yeah .
+Turn 433, C (PhD): then you wou you would go {disfmarker}
+Turn 434, A (PhD): So that 's sort of the best you could hope for .
+Turn 435, C (PhD): Mm - hmm .
+Turn 436, A (PhD): I see .
+Turn 437, B (Professor): Probably . Yeah . So fi si fifty - three is what you were getting with the old VAD .
+Turn 438, C (PhD): Yeah .
+Turn 439, B (Professor): And , uh {disfmarker} and sixty - two with the {disfmarker} the , you know , quote , unquote , cheating VAD . And fifty - seven is what you got with the real VAD .
+Turn 440, C (PhD): Mm - hmm .
+Turn 441, B (Professor): That 's great .
+Turn 442, C (PhD): Uh , yeah , the next thing is , I started to play {disfmarker} Well , I don't want to worry too much about the delay , no . Maybe it 's better to wait
+Turn 443, B (Professor): OK .
+Turn 444, C (PhD): for the decision
+Turn 445, B (Professor): Yeah .
+Turn 446, C (PhD): from the committee . Uh , but I started to play with the , um , {vocalsound} {vocalsound} uh , tandem neural network . Mmm I just did the configuration that 's very similar to what we did for the February proposal . And {disfmarker} Um . So . There is a f a first feature stream that use uh straight MFCC features .
+Turn 447, B (Professor): Mm - hmm .
+Turn 448, C (PhD): Well , these features actually . And the other stream is the output of a neural network , using as input , also , these , um , cleaned MFCC . Um {disfmarker}
+Turn 449, A (PhD): Those are th those are th what is going into the tandem net ?
+Turn 450, C (PhD): I don't have the comp Mmm ?
+Turn 451, A (PhD): Those two ?
+Turn 452, C (PhD): So there is just this feature stream , {comment} the fifteen MFCC plus delta and double - delta .
+Turn 453, B (Professor): No .
+Turn 454, A (PhD): Yeah ?
+Turn 455, C (PhD): Um , so it 's {disfmarker} makes forty - five features {comment} that are used as input to the HTK . And then , there is {disfmarker} there are more inputs that comes from the tandem MLP .
+Turn 456, A (PhD): Oh , oh . OK . I see .
+Turn 457, B (Professor): Yeah , h he likes to use them both ,
+Turn 458, A (PhD): Uh - huh .
+Turn 459, B (Professor): cuz then it has one part that 's discriminative ,
+Turn 460, C (PhD): Yeah . Um {disfmarker}
+Turn 461, B (Professor): one part that 's not .
+Turn 462, A (PhD): Right . OK .
+Turn 463, C (PhD): So , um , uh , yeah . Right now it seems that {disfmarker} i I just tested on SpeechDat - Car while the experiment are running on your {disfmarker} on TI - digits . Well , it improves on the well - matched and the mismatched conditions , but it get worse on the highly mismatched . Um ,
+Turn 464, A (PhD): Compared to these numbers ?
+Turn 465, C (PhD): Compared to these numbers , yeah . Um ,
+Turn 466, B (Professor): y
+Turn 467, C (PhD): like , on the well - match and medium mismatch , the gain is around five percent relative , but it goes down a lot more , like fifteen percent on the HM case .
+Turn 468, B (Professor): You 're just using the full ninety features ?
+Turn 469, C (PhD):  The {disfmarker}
+Turn 470, B (Professor): Y you have ninety features ?
+Turn 471, C (PhD): i I have , um {disfmarker} From the networks , it 's twenty - eight . So {disfmarker}
+Turn 472, B (Professor): And from the other side it 's forty - five .
+Turn 473, C (PhD): So , d i It 's forty - five .
+Turn 474, B (Professor): So it 's {disfmarker} you have seventy - three features ,
+Turn 475, C (PhD): Yeah .
+Turn 476, B (Professor): and you 're just feeding them like that .
+Turn 477, C (PhD): Yeah .
+Turn 478, B (Professor): There isn't any KLT or anything ?
+Turn 479, C (PhD): Mm - hmm . There 's a KLT after the neural network , as {disfmarker} as before .
+Turn 480, A (PhD): That 's how you get down to twenty - eight ?
+Turn 481, C (PhD): Yeah .
+Turn 482, A (PhD): Why twenty - eight ?
+Turn 483, C (PhD): I don't know .
+Turn 484, A (PhD): Oh .
+Turn 485, C (PhD): Uh . It 's {disfmarker} i i i It 's because it 's what we did for the first proposal . We tested , uh , trying to go down
+Turn 486, A (PhD): Ah .
+Turn 487, B (Professor): It 's a multiple of seven .
+Turn 488, C (PhD): and Yeah .
+Turn 489, D (PhD): Yeah .
+Turn 490, C (PhD): So {disfmarker} Um .
+Turn 491, D (PhD): Yeah .
+Turn 492, C (PhD): I wanted to do something very similar to the proposal as a first {disfmarker} first try .
+Turn 493, D (PhD): Yeah .
+Turn 494, A (PhD): I see .
+Turn 495, B (Professor): Yeah .
+Turn 496, A (PhD): Yeah . That makes sense .
+Turn 497, C (PhD): But we have to {disfmarker} for sure , we have to go down , because the limit is now sixty features .
+Turn 498, B (Professor): Yeah .
+Turn 499, C (PhD): So , uh , we have to find a way to decrease the number of features . Um {disfmarker}
+Turn 500, A (PhD): So , it seems funny that {disfmarker} I don't know , maybe I don't u quite understand everything , {comment} but that adding features {disfmarker} I guess {disfmarker} I guess if you 're keeping the back - end fixed . Maybe that 's it . Because it seems like just adding information shouldn't give worse results . But I guess if you 're keeping the number of Gaussians fixed in the recognizer , then {disfmarker}
+Turn 501, B (Professor): Well , yeah .
+Turn 502, C (PhD): Mmm .
+Turn 503, B (Professor): But , I mean , just in general , adding information {disfmarker} Suppose the information you added , well , was a really terrible feature and all it brought in was noise .
+Turn 504, A (PhD): Yeah .
+Turn 505, B (Professor): Right ? So {disfmarker} so , um {disfmarker} Or {disfmarker} or suppose it wasn't completely terrible , but it was completely equivalent to another one feature that you had , except it was noisier .
+Turn 506, A (PhD): Uh - huh .
+Turn 507, B (Professor): Right ? In that case you wouldn't necessarily expect it to be better at all .
+Turn 508, A (PhD): Oh , yeah , I wasn't necessarily saying it should be better . I 'm just surprised that you 're getting fifteen percent relative worse on the wel
+Turn 509, B (Professor): Uh - huh .
+Turn 510, C (PhD): But it 's worse .
+Turn 511, B (Professor): On the highly mismatched condition .
+Turn 512, A (PhD): On the highly mismatch .
+Turn 513, C (PhD): Yeah , I {disfmarker}
+Turn 514, A (PhD): Yeah .
+Turn 515, B (Professor): So , " highly mismatched condition " means that in fact your training is a bad estimate of your test .
+Turn 516, C (PhD): Uh - huh .
+Turn 517, B (Professor): So having {disfmarker} having , uh , a g a l a greater number of features , if they aren't maybe the right features that you use , certainly can e can easily , uh , make things worse . I mean , you 're right . If you have {disfmarker} if you have , uh , lots and lots of data , and you have {disfmarker} and your {disfmarker} your {disfmarker} your training is representative of your test , then getting more sources of information should just help . But {disfmarker} but it 's {disfmarker} It doesn't necessarily work that way .
+Turn 518, A (PhD): Huh .
+Turn 519, C (PhD): Mm - hmm .
+Turn 520, B (Professor): So I wonder , um , Well , what 's your {disfmarker} what 's your thought about what to do next with it ?
+Turn 521, C (PhD): Um , I don't know . I 'm surprised , because I expected the neural net to help more when there is more mismatch , as it was the case for the {disfmarker}
+Turn 522, B (Professor): Mm - hmm .
+Turn 523, D (PhD): So , was the training set same as the p the February proposal ? OK .
+Turn 524, C (PhD): Yeah , it 's the same training set , so it 's TIMIT with the TI - digits ' , uh , noises , uh , added .
+Turn 525, D (PhD): 
+Turn 526, B (Professor): Mm - hmm .
+Turn 527, C (PhD): Um {disfmarker}
+Turn 528, B (Professor): Well , we might {disfmarker} uh , we might have to experiment with , uh better training sets . Again . But ,
+Turn 529, C (PhD): Mm - hmm .
+Turn 530, B (Professor): I {disfmarker} The other thing is , I mean , before you found that was the best configuration , but you might have to retest those things now that we have different {disfmarker} The rest of it is different , right ? So , um , uh , For instance , what 's the effect of just putting the neural net on without the o other {disfmarker} other path ?
+Turn 531, C (PhD): Mm - hmm .
+Turn 532, B (Professor): I mean , you know what the straight features do .
+Turn 533, C (PhD): Yeah .
+Turn 534, B (Professor): That gives you this . You know what it does in combination .
+Turn 535, C (PhD): Mm - hmm .
+Turn 536, B (Professor): You don't necessarily know what {disfmarker}
+Turn 537, A (PhD): What if you did the {disfmarker} Would it make sense to do the KLT on the full set of combined features ? Instead of just on the {disfmarker}
+Turn 538, C (PhD): Yeah . I g I guess . Um . The reason I did it this ways is that in February , it {disfmarker} we {disfmarker} we tested different things like that , so , having two KLT , having just a KLT for a network , or having a global KLT .
+Turn 539, A (PhD): Oh , I see .
+Turn 540, C (PhD): And {disfmarker}
+Turn 541, A (PhD): So you tried the global KLT before
+Turn 542, C (PhD): Well {disfmarker}
+Turn 543, A (PhD): and it didn't really {disfmarker}
+Turn 544, C (PhD): Yeah . And , uh , th Yeah .
+Turn 545, A (PhD): I see .
+Turn 546, C (PhD): The differences between these configurations were not huge , but {disfmarker} it was marginally better with this configuration .
+Turn 547, A (PhD): Uh - huh . Uh - huh .
+Turn 548, B (Professor): But , yeah , that 's obviously another thing to try ,
+Turn 549, C (PhD): Um .
+Turn 550, B (Professor): since things are {disfmarker} things are different .
+Turn 551, C (PhD): Mm - hmm . Mm - hmm .
+Turn 552, B (Professor): And I guess if the {disfmarker} These are all {disfmarker} so all of these seventy - three features are going into , um , the , uh {disfmarker} the HMM .
+Turn 553, C (PhD): Yeah .
+Turn 554, B (Professor): And is {disfmarker} are {disfmarker} i i are {disfmarker} are any deltas being computed of tha of them ?
+Turn 555, C (PhD): Of the straight features , yeah .
+Turn 556, B (Professor): n Not of the {disfmarker}
+Turn 557, C (PhD): So . But n th the , um , tandem features are u used as they are .
+Turn 558, B (Professor): Are not .
+Turn 559, C (PhD): So , yeah , maybe we can add some context from these features also as {disfmarker} Dan did in {disfmarker} in his last work .
+Turn 560, B (Professor): Could . i Yeah , but the other thing I was thinking was , um {disfmarker} Uh , now I lost track of what I was thinking . But .
+Turn 561, A (PhD): What is the {disfmarker} You said there was a limit of sixty features or something ?
+Turn 562, C (PhD): Mm - hmm .
+Turn 563, A (PhD): What 's the relation between that limit and the , um , forty - eight {disfmarker} uh , forty eight hundred bits per second ?
+Turn 564, B (Professor): Oh , I know what I was gonna say .
+Turn 565, C (PhD): Um , not {disfmarker} no relation .
+Turn 566, B (Professor): No relation .
+Turn 567, A (PhD): So I {disfmarker} I {disfmarker} I don't understand ,
+Turn 568, C (PhD): The f the forty - eight hundred bits is for transmission of some features .
+Turn 569, A (PhD): because i I mean , if you 're only using h
+Turn 570, C (PhD): And generally , i it {disfmarker} s allows you to transmit like , fifteen , uh , cepstrum .
+Turn 571, B (Professor): The issue was that , um , this is supposed to be a standard that 's then gonna be fed to somebody 's recognizer somewhere which might be , you know , it {disfmarker} it might be a concern how many parameters are use {disfmarker} u used and so forth . And so , uh , they felt they wanted to set a limit . So they chose sixty . Some people wanted to use hundreds of parameters and {disfmarker} and that bothered some other people .
+Turn 572, A (PhD): Uh - huh .
+Turn 573, B (Professor): u And so they just chose that . I {disfmarker} I {disfmarker} I think it 's kind of r arbitrary too . But {disfmarker} but that 's {disfmarker} that 's kind of what was chosen . I {disfmarker} I remembered what I was going to say . What I was going to say is that , um , maybe {disfmarker} {vocalsound} maybe with the noise removal , uh , these things are now more correlated . So you have two sets of things that are kind of uncorrelated , uh , within themselves , but they 're pretty correlated with one another .
+Turn 574, C (PhD): Mm - hmm .
+Turn 575, B (Professor): And , um , they 're being fed into these , uh , variants , only Gaussians and so forth , and {disfmarker} and , uh ,
+Turn 576, C (PhD): Mm - hmm .
+Turn 577, B (Professor): so maybe it would be a better idea now than it was before to , uh , have , uh , one KLT over everything , to de - correlate it .
+Turn 578, C (PhD): Mm - hmm . Yeah , I see .
+Turn 579, B (Professor): Maybe . You know .
+Turn 580, D (PhD): What are the S N Rs in the training set , TIMIT ?
+Turn 581, C (PhD): It 's , uh , ranging from zero to clean ? Yeah . From zero to clean .
+Turn 582, D (PhD): Mm - hmm .
+Turn 583, B (Professor): Yeah . So we found this {disfmarker} this , uh {disfmarker} this Macrophone data , and so forth , that we were using for these other experiments , to be pretty good .
+Turn 584, C (PhD): Mm - hmm .
+Turn 585, B (Professor): So that 's {disfmarker} i after you explore these other alternatives , that might be another way to start looking , is {disfmarker} is just improving the training set .
+Turn 586, C (PhD): Mm - hmm .
+Turn 587, B (Professor): I mean , we were getting , uh , lots better recognition using that , than {disfmarker} Of course , you do have the problem that , um , u i {comment} we are not able to increase the number of Gaussians , uh , or anything to , uh , uh , to match anything . So we 're only improving the training of our feature set , but that 's still probably something .
+Turn 588, A (PhD): So you 're saying , add the Macrophone data to the training of the neural net ? The tandem net ?
+Turn 589, B (Professor): Yeah , that 's the only place that we can train .
+Turn 590, A (PhD): Yeah .
+Turn 591, B (Professor): We can't train the other stuff with anything other than the standard amount ,
+Turn 592, A (PhD): Right .
+Turn 593, B (Professor): so . Um , um {disfmarker}
+Turn 594, A (PhD): What {disfmarker} what was it trained on again ? The one that you used ?
+Turn 595, C (PhD): It 's TIMIT with noise .
+Turn 596, A (PhD): Uh - huh .
+Turn 597, B (Professor): Yeah .
+Turn 598, C (PhD): So , yeah , it 's rather a small {disfmarker}
+Turn 599, B (Professor): How big is the net , by the way ?
+Turn 600, C (PhD): Um , Uh , it 's , uh , five hundred hidden units . And {disfmarker}
+Turn 601, B (Professor): And again , you did experiments back then where you made it bigger and it {disfmarker} and that was {disfmarker} that was sort of the threshold point . Much less than that , it was worse ,
+Turn 602, C (PhD): Yeah .
+Turn 603, B (Professor): and
+Turn 604, C (PhD): Yeah .
+Turn 605, B (Professor): much more than that , it wasn't much better . Hmm .
+Turn 606, C (PhD): Yeah . @ @ ?
+Turn 607, D (PhD): So is it {disfmarker} is it though the performance , big relation in the high ma high mismatch has something to do with the , uh , cleaning up that you {disfmarker} that is done on the TIMIT after adding noise ?
+Turn 608, C (PhD): 
+Turn 609, D (PhD): So {disfmarker} it 's {disfmarker} i All the noises are from the TI - digits ,
+Turn 610, C (PhD): Yeah .
+Turn 611, D (PhD): right ? So you {disfmarker} i
+Turn 612, C (PhD): Um {disfmarker} They {disfmarker} k uh {disfmarker}
+Turn 613, D (PhD): Well , it it 's like the high mismatch of the SpeechDat - Car after cleaning up , maybe having more noise than the {disfmarker} the training set of TIMIT after clean {disfmarker} s after you do the noise clean - up .
+Turn 614, C (PhD): Mmm .
+Turn 615, D (PhD): I mean , earlier you never had any compensation , you just trained it straight away .
+Turn 616, C (PhD): Mm - hmm .
+Turn 617, D (PhD): So it had like all these different conditions of S N Rs , actually in their training set of neural net .
+Turn 618, C (PhD): Mm - hmm . Mm - hmm .
+Turn 619, D (PhD): But after cleaning up you have now a different set of S N Rs , right ?
+Turn 620, C (PhD): Yeah .
+Turn 621, D (PhD): For the training of the neural net .
+Turn 622, C (PhD): Mm - hmm .
+Turn 623, D (PhD): And {disfmarker} is it something to do with the mismatch that {disfmarker} that 's created after the cleaning up , like the high mismatch {disfmarker}
+Turn 624, C (PhD): You mean the {disfmarker} the most noisy occurrences on SpeechDat - Car might be a lot more noisy than {disfmarker}
+Turn 625, D (PhD): Mm - hmm . Of {disfmarker} that {disfmarker} I mean , the SNR after the noise compensation of the SpeechDat - Car .
+Turn 626, B (Professor): Oh , so {disfmarker} Right . So the training {disfmarker} the {disfmarker} the neural net is being trained with noise compensated stuff .
+Turn 627, C (PhD): Maybe .
+Turn 628, D (PhD):  Yeah .
+Turn 629, C (PhD): Yeah , yeah .
+Turn 630, B (Professor): Which makes sense ,
+Turn 631, D (PhD): Yeah .
+Turn 632, B (Professor): but , uh , you 're saying {disfmarker} Yeah , the noisier ones are still going to be , even after our noise compensation , are still gonna be pretty noisy .
+Turn 633, D (PhD): Yeah .
+Turn 634, C (PhD): Mm - hmm .
+Turn 635, D (PhD): Yeah , so now the after - noise compensation the neural net is seeing a different set of S N Rs than that was originally there in the training set . Of TIMIT . Because in the TIMIT it was zero to some clean .
+Turn 636, B (Professor): Right . Yes .
+Turn 637, D (PhD): So the net saw all the SNR @ @ conditions .
+Turn 638, B (Professor): Right .
+Turn 639, D (PhD): Now after cleaning up it 's a different set of SNR .
+Turn 640, B (Professor): Right .
+Turn 641, D (PhD): And that SNR may not be , like , com covering the whole set of S N Rs that you 're getting in the SpeechDat - Car .
+Turn 642, B (Professor): Right , but the SpeechDat - Car data that you 're seeing is also reduced in noise by the noise compensation .
+Turn 643, C (PhD): Yeah .
+Turn 644, D (PhD): Yeah , yeah , yeah , yeah , it is . But , I 'm saying , there could be some {disfmarker} some issues of {disfmarker}
+Turn 645, B (Professor): So .
+Turn 646, C (PhD): Mm - hmm .
+Turn 647, B (Professor): Yeah .
+Turn 648, C (PhD): Well , if the initial range of SNR is different , we {disfmarker} the problem was already there before . And {disfmarker}
+Turn 649, B (Professor): Yeah .
+Turn 650, C (PhD): Because {disfmarker} Mmm {disfmarker}
+Turn 651, B (Professor): Yeah , I mean , it depends on whether you believe that the noise compensation is equally reducing the noise on the test set and the training set .
+Turn 652, C (PhD): Hmm .
+Turn 653, B (Professor): Uh {disfmarker}
+Turn 654, D (PhD): On the test set , yeah . 
+Turn 655, B (Professor): Right ? I mean , you 're saying there 's a mismatch in noise that wasn't there before ,
+Turn 656, D (PhD): Hmm . Mm - hmm .
+Turn 657, B (Professor): but if they were both the same before , then if they were both reduic reduced equally , then , there would not be a mismatch .
+Turn 658, D (PhD): Mm - hmm .
+Turn 659, B (Professor): So , I mean , this may be {disfmarker} Heaven forbid , this noise compensation process may be imperfect , but . Uh , so maybe it 's treating some things differently .
+Turn 660, C (PhD): Yeah , uh {disfmarker}
+Turn 661, D (PhD): Well , I {disfmarker} I don't know . I {disfmarker} I just {disfmarker} that could be seen from the TI - digits , uh , testing condition because , um , the noises are from the TI - digits , right ? Noise {disfmarker}
+Turn 662, C (PhD): Yeah . So {disfmarker}
+Turn 663, D (PhD): So cleaning up the TI - digits and if the performance goes down in the TI - digits mismatch {disfmarker} high mismatch like this {disfmarker}
+Turn 664, C (PhD): Clean training , yeah .
+Turn 665, D (PhD): on a clean training , or zero DB testing .
+Turn 666, C (PhD): Yeah , we 'll {disfmarker} so we 'll see . Uh .
+Turn 667, D (PhD): Yeah .
+Turn 668, C (PhD): Maybe .
+Turn 669, D (PhD): Then it 's something to do .
+Turn 670, C (PhD): Mm - hmm .
+Turn 671, B (Professor): I mean , one of the things about {disfmarker}
+Turn 672, C (PhD): Yeah .
+Turn 673, B (Professor): I mean , the Macrophone data , um , I think , you know , it was recorded over many different telephones .
+Turn 674, C (PhD): Mm - hmm .
+Turn 675, B (Professor): And , um , so , there 's lots of different kinds of acoustic conditions . I mean , it 's not artificially added noise or anything . So it 's not the same . I don't think there 's anybody recording over a car from a car , but {disfmarker} I think it 's {disfmarker} it 's varied enough that if {disfmarker} if doing this adjustments , uh , and playing around with it doesn't , uh , make it better , the most {disfmarker} uh , it seems like the most obvious thing to do is to improve the training set . Um {disfmarker} I mean , what we were {disfmarker} uh {disfmarker} the condition {disfmarker} It {disfmarker} it gave us an enormous amount of improvement in what we were doing with Meeting Recorder digits , even though there , again , these m Macrophone digits were very , very different from , uh , what we were going on here . I mean , we weren't talking over a telephone here . But it was just {disfmarker} I think just having a {disfmarker} a nice variation in acoustic conditions was just a good thing .
+Turn 676, C (PhD): Mm - hmm . Yep .
+Turn 677, D (PhD): Mmm .
+Turn 678, C (PhD): Yeah , actually {vocalsound} to s eh , what I observed in the HM case is that the number of deletion dramatically increases . It {disfmarker} it doubles .
+Turn 679, B (Professor): Number of deletions .
+Turn 680, C (PhD): When I added the num the neural network it doubles the number of deletions . Yeah , so I don't you know {vocalsound} how to interpret that , but , mmm {disfmarker}
+Turn 681, B (Professor): Yeah . Me either .
+Turn 682, C (PhD): t
+Turn 683, A (PhD): And {disfmarker} and did {disfmarker} an other numbers stay the same ? Insertion substitutions stay the same ?
+Turn 684, C (PhD): They p stayed the same ,
+Turn 685, A (PhD): Roughly ?
+Turn 686, C (PhD): they {disfmarker} maybe they are a little bit uh , lower .
+Turn 687, A (PhD): Uh - huh .
+Turn 688, C (PhD): They are a little bit better . Yeah . But {disfmarker}
+Turn 689, B (Professor): Did they increase the number of deletions even for the cases that got better ?
+Turn 690, C (PhD): Mm - hmm .
+Turn 691, B (Professor): Say , for the {disfmarker} I mean , it {disfmarker}
+Turn 692, C (PhD): No , it doesn't .
+Turn 693, B (Professor): So it 's only the highly mismatched ?
+Turn 694, C (PhD): No .
+Turn 695, B (Professor): And it {disfmarker} Remind me again , the " highly mismatched " means that the {disfmarker}
+Turn 696, C (PhD): Clean training and {disfmarker}
+Turn 697, B (Professor): Uh , sorry ?
+Turn 698, C (PhD): It 's clean training {disfmarker} Well , close microphone training and distant microphone , um , high speed , I think .
+Turn 699, B (Professor): Close mike training {disfmarker}
+Turn 700, C (PhD): Well {disfmarker} The most noisy cases are the distant microphone for testing .
+Turn 701, B (Professor): Right . So {disfmarker} Well , maybe the noise subtraction is subtracting off speech .
+Turn 702, C (PhD): Separating . Yeah .
+Turn 703, B (Professor): Wh
+Turn 704, C (PhD): But {disfmarker} Yeah . I mean , but without the neural network it 's {disfmarker} well , it 's better . It 's just when we add the neural networks .
+Turn 705, B (Professor): Yeah , right .
+Turn 706, C (PhD): The feature are the same except that {disfmarker}
+Turn 707, B (Professor): Uh , that 's right , that 's right . Um {disfmarker}
+Turn 708, A (PhD): Well that {disfmarker} that says that , you know , the , um {disfmarker} the models in {disfmarker} in , uh , the recognizer are really paying attention to the neural net features .
+Turn 709, C (PhD): Yeah .
+Turn 710, A (PhD): Uh .
+Turn 711, C (PhD): Mm - hmm .
+Turn 712, B (Professor): But , yeah , actually {disfmarker} {nonvocalsound} the TIMIT noises {pause} are sort of a range of noises and they 're not so much the stationary driving kind of noises , right ? It 's {disfmarker} it 's pretty different . Isn't it ?
+Turn 713, C (PhD): Uh , there is a car noise . So there are f just four noises . Um , uh , " Car " , I think , " Babble " ,
+Turn 714, D (PhD): " Babble . "
+Turn 715, C (PhD): " Subway " , right ? and {disfmarker}
+Turn 716, D (PhD): " Street " or " Airport " or something .
+Turn 717, C (PhD): and {disfmarker} " Street " isn't {disfmarker}
+Turn 718, D (PhD): Or " Train station " .
+Turn 719, C (PhD): " Train station " , yeah .
+Turn 720, D (PhD): Yeah .
+Turn 721, C (PhD): So {disfmarker} it 's mostly {disfmarker} Well , " Car " is stationary ,
+Turn 722, B (Professor): Mm - hmm .
+Turn 723, C (PhD): " Babble " , it 's a stationary background plus some voices ,
+Turn 724, B (Professor): Mm - hmm .
+Turn 725, C (PhD): some speech over it . And the other two are rather stationary also .
+Turn 726, B (Professor): Well , I {disfmarker} I think that if you run it {disfmarker} Actually , you {disfmarker} maybe you remember this . When you {disfmarker} in {disfmarker} in the old experiments when you ran with the neural net only , and didn't have this side path , um , uh , with the {disfmarker} the pure features as well , did it make things better to have the neural net ?
+Turn 727, C (PhD): Mm - hmm .
+Turn 728, B (Professor): Was it about the same ? Uh , w i
+Turn 729, C (PhD): It was {disfmarker} b a little bit worse .
+Turn 730, B (Professor): Than {disfmarker} ?
+Turn 731, C (PhD): Than just the features , yeah .
+Turn 732, B (Professor): So , until you put the second path in with the pure features , the neural net wasn't helping at all .
+Turn 733, C (PhD): Mm - hmm .
+Turn 734, B (Professor): Well , that 's interesting .
+Turn 735, C (PhD): It was helping , uh , if the features are b were bad ,
+Turn 736, B (Professor): Yeah .
+Turn 737, C (PhD): I mean . Just plain P L Ps or M F
+Turn 738, B (Professor): Yeah .
+Turn 739, C (PhD): C Cs . as soon as we added LDA on - line normalization , and {vocalsound} all these things , then {disfmarker}
+Turn 740, B (Professor): They were doing similar enough things . Well , I still think it would be k sort of interesting to see what would happen if you just had the neural net without the side thing .
+Turn 741, C (PhD): Yeah ,
+Turn 742, B (Professor): And {disfmarker} and the thing I {disfmarker} I have in mind is , uh , maybe you 'll see that the results are not just a little bit worse .
+Turn 743, C (PhD): mm - hmm .
+Turn 744, B (Professor): Maybe that they 're a lot worse . You know ? And , um {disfmarker} But if on the ha other hand , uh , it 's , say , somewhere in between what you 're seeing now and {disfmarker} and {disfmarker} and , uh , what you 'd have with just the pure features , then maybe there is some problem of a {disfmarker} of a , uh , combination of these things , or correlation between them somehow .
+Turn 745, C (PhD): Mm - hmm .
+Turn 746, B (Professor): If it really is that the net is hurting you at the moment , then I think the issue is to focus on {disfmarker} on , uh , improving the {disfmarker} the net .
+Turn 747, C (PhD): Yeah ,
+Turn 748, B (Professor): Um .
+Turn 749, C (PhD): mm - hmm .
+Turn 750, B (Professor): So what 's the overall effe I mean , you haven't done all the experiments but you said it was i somewhat better , say , five percent better , for the first two conditions , and fifteen percent worse for the other one ? But it 's {disfmarker} but of course that one 's weighted lower ,
+Turn 751, C (PhD): Y yeah , oh . Yeah .
+Turn 752, B (Professor): so I wonder what the net effect is .
+Turn 753, C (PhD): I d I {disfmarker} I think it 's {disfmarker} it was one or two percent . That 's not that bad , but it was l like two percent relative worse on SpeechDat - Car . I have to {disfmarker} to check that . Well , I have {disfmarker} I will .
+Turn 754, D (PhD): Well , it will {disfmarker} overall it will be still better even if it is fifteen percent worse , because the fifteen percent worse is given like f w twenty - five {disfmarker} point two five eight .
+Turn 755, B (Professor): Right .
+Turn 756, C (PhD): Mm - hmm . Hmm .
+Turn 757, B (Professor): Right . So the {disfmarker} so the worst it could be , if the others were exactly the same , is four ,
+Turn 758, D (PhD): Is it like {disfmarker}
+Turn 759, B (Professor): and {disfmarker} and , uh , in fact since the others are somewhat better {disfmarker}
+Turn 760, D (PhD): Yeah , so it 's four . Is i So either it 'll get cancelled out , or you 'll get , like , almost the same .
+Turn 761, B (Professor): Uh .
+Turn 762, C (PhD): Yeah , it was {disfmarker} it was slightly worse .
+Turn 763, D (PhD): Slightly bad . Yeah .
+Turn 764, C (PhD): Um ,
+Turn 765, B (Professor): Yeah , it should be pretty close to cancelled out .
+Turn 766, D (PhD): Yeah .
+Turn 767, A (PhD): You know , I 've been wondering about something .
+Turn 768, C (PhD): Mm - hmm .
+Turn 769, A (PhD): In the , um {disfmarker} a lot of the , um {disfmarker} the Hub - five systems , um , recently have been using LDA . and {disfmarker} and they , um {disfmarker} They run LDA on the features right before they train the models . So there 's the {disfmarker} the LDA is {disfmarker} is right there before the H M
+Turn 770, D (PhD): Yeah .
+Turn 771, A (PhD): So , you guys are using LDA but it seems like it 's pretty far back in the process .
+Turn 772, D (PhD): Uh , this LDA is different from the LDA that you are talking about . The LDA that you {disfmarker} saying is , like , you take a block of features , like nine frames or something , {comment} and then do an LDA on it ,
+Turn 773, A (PhD): Yeah . Uh - huh .
+Turn 774, D (PhD): and then reduce the dimensionality to something like twenty - four or something like that .
+Turn 775, A (PhD): Yeah , you c you c you can .
+Turn 776, D (PhD): And then feed it to HMM .
+Turn 777, A (PhD): I mean , it 's {disfmarker} you know , you 're just basically i
+Turn 778, D (PhD): Yeah , so this is like a two d two dimensional tile .
+Turn 779, A (PhD): You 're shifting the feature space . Yeah .
+Turn 780, D (PhD): So this is a two dimensional tile . And the LDA that we are f applying is only in time , not in frequency {disfmarker} high cost frequency . So it 's like {disfmarker} more like a filtering in time , rather than doing a r
+Turn 781, A (PhD): Ah . OK . So what i what about , um {disfmarker} i u what i w I mean , I don't know if this is a good idea or not , but what if you put {disfmarker} ran the other kind of LDA , uh , on your features right before they go into the HMM ?
+Turn 782, D (PhD): Uh , it {disfmarker}
+Turn 783, C (PhD): Mm - hmm . No , actually , I think {disfmarker} i
+Turn 784, D (PhD): m
+Turn 785, C (PhD): Well . What do we do with the ANN is {disfmarker} is something like that except that it 's not linear . But it 's {disfmarker} it 's like a nonlinear discriminant analysis .
+Turn 786, A (PhD): Yeah . Right , it 's the {disfmarker} It 's {disfmarker} Right . The {disfmarker} So {disfmarker} Yeah , so it 's sort of like {disfmarker}
+Turn 787, C (PhD): But .
+Turn 788, A (PhD): The tandem stuff is kind of like i nonlinear LDA .
+Turn 789, C (PhD): Yeah . It 's {disfmarker}
+Turn 790, A (PhD): I g
+Turn 791, C (PhD): Yeah .
+Turn 792, A (PhD): Yeah .
+Turn 793, B (Professor): Yeah .
+Turn 794, A (PhD): But I mean , w but the other features that you have , um , th the non - tandem ones ,
+Turn 795, C (PhD): Uh . Mm - hmm . Yeah , I know . That {disfmarker} that {disfmarker} Yeah . Well , in the proposal , they were transformed u using PCA , but {disfmarker}
+Turn 796, A (PhD): Uh - huh .
+Turn 797, C (PhD): Yeah , it might be that LDA could be better .
+Turn 798, B (Professor): The a the argument i is kind of i in {disfmarker} and it 's not like we really know , but the argument anyway is that , um , uh , we always have the prob I mean , discriminative things are good . LDA , neural nets , they 're good .
+Turn 799, A (PhD): Yeah .
+Turn 800, B (Professor): Uh , they 're good because you {disfmarker} you {disfmarker} you learn to distinguish between these categories that you want to be good at distinguishing between . And PCA doesn't do that . It {disfmarker} PAC - PCA {disfmarker} low - order PCA throws away pieces that are uh , maybe not {disfmarker} not gonna be helpful just because they 're small , basically .
+Turn 801, A (PhD): Right .
+Turn 802, B (Professor): But , uh , the problem is , training sets aren't perfect and testing sets are different . So you f you {disfmarker} you face the potential problem with discriminative stuff , be it LDA or neural nets , that you are training to discriminate between categories in one space but what you 're really gonna be g getting is {disfmarker} is something else .
+Turn 803, A (PhD): Uh - huh .
+Turn 804, B (Professor): And so , uh , Stephane 's idea was , uh , let 's feed , uh , both this discriminatively trained thing and something that 's not . So you have a good set of features that everybody 's worked really hard to make ,
+Turn 805, A (PhD): Yeah .
+Turn 806, B (Professor): and then , uh , you {disfmarker} you discriminately train it , but you also take the path that {disfmarker} that doesn't have that ,
+Turn 807, A (PhD): Uh - huh .
+Turn 808, B (Professor): and putting those in together . And that {disfmarker} that seem So it 's kind of like a combination of the {disfmarker} uh , what , uh , Dan has been calling , you know , a feature {disfmarker} uh , you know , a feature combination versus posterior combination or something . It 's {disfmarker} it 's , you know , you have the posterior combination but then you get the features from that and use them as a feature combination with these {disfmarker} these other things . And that seemed , at least in the last one , as he was just saying , he {disfmarker} he {disfmarker} when he only did discriminative stuff , i it actually was {disfmarker} was {disfmarker} it didn't help at all in this particular case .
+Turn 809, A (PhD): Yeah .
+Turn 810, B (Professor): There was enough of a difference , I guess , between the testing and training . But by having them both there {disfmarker} The fact is some of the time , the discriminative stuff is gonna help you .
+Turn 811, A (PhD): Mm - hmm .
+Turn 812, B (Professor): And some of the time it 's going to hurt you ,
+Turn 813, A (PhD): Right .
+Turn 814, B (Professor): and by combining two information sources if , you know {disfmarker} if {disfmarker} if {disfmarker}
+Turn 815, A (PhD): So you wouldn't necessarily then want to do LDA on the non - tandem features because now you 're doing something to them that {disfmarker}
+Turn 816, B (Professor): That i i I think that 's counter to that idea .
+Turn 817, A (PhD): Yeah , right .
+Turn 818, B (Professor): Now , again , it 's {disfmarker} we 're just trying these different things . We don't really know what 's gonna work best . But if that 's the hypothesis , at least it would be counter to that hypothesis to do that .
+Turn 819, A (PhD): Right .
+Turn 820, B (Professor): Um , and in principle you would think that the neural net would do better at the discriminant part than LDA .
+Turn 821, A (PhD): Right . Yeah . Well {disfmarker} y
+Turn 822, B (Professor): Though , maybe not .
+Turn 823, A (PhD): Yeah . Exactly . I mean , we , uh {disfmarker} we were getting ready to do the tandem , uh , stuff for the Hub - five system , and , um , Andreas and I talked about it , and the idea w the thought was , " Well , uh , yeah , that i you know {disfmarker} th the neural net should be better , but we should at least have uh , a number , you know , to show that we did try the LDA in place of the neural net , so that we can you know , show a clear path .
+Turn 824, B (Professor): Right .
+Turn 825, A (PhD): You know , that you have it without it , then you have the LDA , then you have the neural net , and you can see , theoretically . So . I was just wondering {disfmarker} I {disfmarker} I {disfmarker}
+Turn 826, B (Professor): Well , I think that 's a good idea .
+Turn 827, A (PhD): Yeah .
+Turn 828, B (Professor): Did {disfmarker} did you do that
+Turn 829, A (PhD): Um . No .
+Turn 830, B (Professor): or {disfmarker} tha that 's a {disfmarker}
+Turn 831, A (PhD): That 's what {disfmarker} that 's what we 're gonna do next as soon as I finish this other thing . So .
+Turn 832, B (Professor): Yeah . Yeah . No , well , that 's a good idea . I {disfmarker} I {disfmarker}
+Turn 833, A (PhD): We just want to show .
+Turn 834, B (Professor): i Yeah .
+Turn 835, A (PhD): I mean , it {disfmarker} everybody believes it ,
+Turn 836, B (Professor): Oh , no it 's a g
+Turn 837, A (PhD): but you know , we just {disfmarker}
+Turn 838, B (Professor): No , no , but it might not {disfmarker} not even be true .
+Turn 839, A (PhD): Yeah .
+Turn 840, B (Professor): I mean , it 's {disfmarker} it 's {disfmarker} it 's {disfmarker} it 's {disfmarker} it 's a great idea . I mean , one of the things that always disturbed me , uh , in the {disfmarker} the resurgence of neural nets that happened in the eighties was that , um , a lot of people {disfmarker} Because neural nets were pretty easy to {disfmarker} to use {disfmarker} a lot of people were just using them for all sorts of things without , uh , looking at all into the linear , uh {disfmarker} uh , versions of them .
+Turn 841, A (PhD): Yeah . Mm - hmm . Yeah .
+Turn 842, B (Professor): And , uh , people were doing recurrent nets but not looking at IIR filters , and {disfmarker} You know , I mean , uh , so I think , yeah , it 's definitely a good idea to try it .
+Turn 843, A (PhD): Yeah , and everybody 's putting that on their {vocalsound} systems now , and so , I that 's what made me wonder about this ,
+Turn 844, B (Professor): Well , they 've been putting them in their systems off and on for ten years ,
+Turn 845, A (PhD): but .
+Turn 846, B (Professor): but {disfmarker} but {disfmarker} but , uh ,
+Turn 847, A (PhD): Yeah , what I mean is it 's {disfmarker} it 's like in the Hub - five evaluations , you know , and you read the system descriptions and everybody 's got , {vocalsound} you know , LDA on their features .
+Turn 848, B (Professor): And now they all have that . I see .
+Turn 849, A (PhD): And so .
+Turn 850, B (Professor): Yeah .
+Turn 851, A (PhD): Uh .
+Turn 852, C (PhD): It 's the transformation they 're estimating on {disfmarker} Well , they are trained on the same data as the final HMM are .
+Turn 853, A (PhD): Yeah , so it 's different . Yeah , exactly . Cuz they don't have these , you know , mismatches that {disfmarker} that you guys have .
+Turn 854, C (PhD): Mm - hmm .
+Turn 855, A (PhD): So that 's why I was wondering if maybe it 's not even a good idea .
+Turn 856, C (PhD): Mm - hmm .
+Turn 857, A (PhD): I don't know . I {disfmarker} I don't know enough about it ,
+Turn 858, C (PhD): Mm - hmm .
+Turn 859, A (PhD): but {disfmarker} Um .
+Turn 860, B (Professor): I mean , part of why {disfmarker} I {disfmarker} I think part of why you were getting into the KLT {disfmarker} Y you were describing to me at one point that you wanted to see if , uh , you know , getting good orthogonal features was {disfmarker} and combining the {disfmarker} the different temporal ranges {disfmarker} was the key thing that was happening or whether it was this discriminant thing , right ? So you were just trying {disfmarker} I think you r I mean , this is {disfmarker} it doesn't have the LDA aspect but th as far as the orthogonalizing transformation , you were trying that at one point , right ?
+Turn 861, C (PhD): Mm - hmm .
+Turn 862, B (Professor): I think you were .
+Turn 863, C (PhD): Mm - hmm . Yeah .
+Turn 864, B (Professor): Does something . It doesn't work as well . Yeah . Yeah .
+Turn 865, D (PhD): So , yeah , I 've been exploring a parallel VAD without neural network with , like , less latency using SNR and energy , um , after the cleaning up . So what I 'd been trying was , um , uh {disfmarker} After the b after the noise compensation , n I was trying t to f find a f feature based on the ratio of the energies , that is , cl after clean and before clean . So that if {disfmarker} if they are , like , pretty c close to one , which means it 's speech . And if it is n if it is close to zero , which is {disfmarker} So it 's like a scale @ @ probability value . So I was trying , uh , with full band and multiple bands , m ps uh {disfmarker} separating them to different frequency bands and deriving separate decisions on each bands , and trying to combine them . Uh , the advantage being like it doesn't have the latency of the neural net if it {disfmarker} if it can
+Turn 866, B (Professor): Mm - hmm .
+Turn 867, D (PhD): g And {pause} it gave me like , uh , one point {disfmarker} One {disfmarker} more than one percent relative improvement . So , from fifty - three point six it went to fifty f four point eight . So it 's , like , only slightly more than a percent improvement ,
+Turn 868, B (Professor): Mm - hmm .
+Turn 869, D (PhD): just like {disfmarker} Which means that it 's {disfmarker} it 's doing a slightly better job than the previous VAD ,
+Turn 870, B (Professor): Mm - hmm .
+Turn 871, D (PhD): uh , at a l lower delay .
+Turn 872, B (Professor): Mm - hmm .
+Turn 873, D (PhD): Um , so , um {disfmarker}
+Turn 874, B (Professor): But {disfmarker} i d I 'm sorry ,
+Turn 875, D (PhD): so {disfmarker} u
+Turn 876, B (Professor): does it still have the median {pause} filter stuff ?
+Turn 877, D (PhD): It still has the median filter .
+Turn 878, B (Professor): So it still has most of the delay ,
+Turn 879, D (PhD): So {disfmarker}
+Turn 880, B (Professor): it just doesn't {disfmarker}
+Turn 881, D (PhD): Yeah , so d with the delay , that 's gone is the input , which is the sixty millisecond . The forty plus {pause} twenty .
+Turn 882, B (Professor): Well , w i
+Turn 883, D (PhD): At the input of the neural net you have this , uh , f nine frames of context plus the delta .
+Turn 884, B (Professor): Oh , plus the delta ,
+Turn 885, C (PhD): Mm - hmm .
+Turn 886, B (Professor): right . OK .
+Turn 887, D (PhD): Yeah . So that delay , plus the LDA .
+Turn 888, B (Professor): Mm - hmm .
+Turn 889, D (PhD): Uh , so the delay is only the forty millisecond of the noise cleaning , plus the hundred millisecond smoothing at the output .
+Turn 890, B (Professor): Mm - hmm . Mm - hmm .
+Turn 891, D (PhD): Um . So . Yeah . So the {disfmarker} the {disfmarker} di the biggest {disfmarker} The problem f for me was to find a consistent threshold that works {pause} well across the different databases , because I t I try to make it work on tr SpeechDat - Car
+Turn 892, B (Professor): Mm - hmm .
+Turn 893, D (PhD): and it fails on TI - digits , or if I try to make it work on that it 's just the Italian or something , it doesn't work on the Finnish .
+Turn 894, B (Professor): Mm - hmm .
+Turn 895, D (PhD): So , um . So there are {disfmarker} there was , like , some problem in balancing the deletions and insertions when I try different thresholds .
+Turn 896, B (Professor): Mm - hmm .
+Turn 897, D (PhD): So {disfmarker} The {disfmarker} I 'm still trying to make it better by using some other features from the {disfmarker} after the p clean up {disfmarker} maybe , some , uh , correlation {disfmarker} auto - correlation or some s additional features of {disfmarker} to mainly the improvement of the VAD . I 've been trying .
+Turn 898, B (Professor): Now this {disfmarker} this {disfmarker} this , uh , " before and after clean " , it sounds like you think that 's a good feature . That {disfmarker} that , it {disfmarker} you th think that the , uh {disfmarker} the {disfmarker} i it appears to be a good feature , right ?
+Turn 899, D (PhD): Mm - hmm .
+Turn 900, B (Professor): What about using it in the neural net ?
+Turn 901, D (PhD): Yeah .
+Turn 902, C (PhD): Yeah , eventually we could {disfmarker} could just
+Turn 903, D (PhD): Yeah , so {disfmarker} Yeah , so that 's the {disfmarker} Yeah . So we 've been thinking about putting it into the neural net also .
+Turn 904, B (Professor): Yeah .
+Turn 905, D (PhD): Because they did {disfmarker} that itself {disfmarker}
+Turn 906, C (PhD): Then you don't have to worry about the thresholds and {disfmarker}
+Turn 907, D (PhD): There 's a threshold and {disfmarker} Yeah .
+Turn 908, B (Professor): Yeah .
+Turn 909, C (PhD): but just {disfmarker}
+Turn 910, D (PhD): Yeah . So that {disfmarker} that 's , uh {disfmarker}
+Turn 911, B (Professor): Yeah . So if we {disfmarker} if we can live with the latency or cut the latencies elsewhere , then {disfmarker} then that would be a , uh , good thing .
+Turn 912, D (PhD): Yeah . Yeah .
+Turn 913, B (Professor): Um , anybody {disfmarker} has anybody {disfmarker} you guys or {disfmarker} or Naren , uh , somebody , tried the , uh , um , second th second stream thing ? Uh .
+Turn 914, D (PhD): Oh , I just {disfmarker} I just h put the second stream in place and , uh ran one experiment , but just like {disfmarker} just to know that everything is fine .
+Turn 915, B (Professor): Uh - huh .
+Turn 916, D (PhD): So it was like , uh , forty - five cepstrum plus twenty - three mel {disfmarker} log mel .
+Turn 917, B (Professor): Yeah .
+Turn 918, D (PhD): And {disfmarker} and , just , like , it gave me the baseline performance of the Aurora , which is like zero improvement .
+Turn 919, B (Professor): Yeah . Yeah .
+Turn 920, D (PhD): So I just tried it on Italian just to know that everything is {disfmarker} But I {disfmarker} I didn't export anything out of it because it was , like , a weird feature set .
+Turn 921, B (Professor): Yeah .
+Turn 922, D (PhD): So .
+Turn 923, B (Professor): Yeah . Well , what I think , you know , would be more what you 'd want to do is {disfmarker} is {disfmarker} is , uh , put it into another neural net . Right ?
+Turn 924, C (PhD): Mm - hmm .
+Turn 925, D (PhD): Yeah , yeah , yeah , yeah .
+Turn 926, B (Professor): And then {disfmarker} But , yeah , we 're {disfmarker} we 're not quite there yet . So we have to {vocalsound} figure out the neural nets , I guess .
+Turn 927, C (PhD): Yeah .
+Turn 928, D (PhD): The uh , other thing I was wondering was , um , if the neural net , um , has any {disfmarker} because of the different noise con unseen noise conditions for the neural net , where , like , you train it on those four noise conditions , while you are feeding it with , like , a additional {disfmarker} some four plus some {disfmarker} f few more conditions which it hasn't seen , actually ,
+Turn 929, C (PhD): Mm - hmm .
+Turn 930, D (PhD): from the {disfmarker} f f while testing .
+Turn 931, C (PhD): Yeah , yeah . Right .
+Turn 932, D (PhD): Um {disfmarker} instead of just h having c uh , those cleaned up t cepstrum , sh should we feed some additional information , like {disfmarker} The {disfmarker} the {disfmarker} We have the VAD flag . I mean , should we f feed the VAD flag , also , at the input so that it {disfmarker} it has some additional discriminating information at the input ?
+Turn 933, C (PhD): Hmm - hmm ! Um {disfmarker}
+Turn 934, B (Professor): Wh - uh , the {disfmarker} the VAD what ?
+Turn 935, D (PhD): We have the VAD information also available at the back - end .
+Turn 936, B (Professor): Uh - huh .
+Turn 937, D (PhD): So if it is something the neural net is not able to discriminate the classes {disfmarker}
+Turn 938, B (Professor): Yeah .
+Turn 939, D (PhD): I mean {disfmarker} Because most of it is sil I mean , we have dropped some silence f We have dropped so silence frames ?
+Turn 940, B (Professor): Mm - hmm .
+Turn 941, D (PhD): No , we haven't dropped silence frames still .
+Turn 942, C (PhD): Uh , still not . Yeah .
+Turn 943, D (PhD): Yeah . So {disfmarker}
+Turn 944, C (PhD): Th
+Turn 945, D (PhD): the b b biggest classification would be the speech and silence . So , by having an additional , uh , feature which says " this is speech and this is nonspeech " , I mean , it certainly helps in some unseen noise conditions for the neural net .
+Turn 946, A (PhD): What {disfmarker} Do y do you have that feature available for the test data ?
+Turn 947, D (PhD): Well , I mean , we have {disfmarker} we are transferring the VAD to the back - end {disfmarker} feature to the back - end . Because we are dropping it at the back - end after everything {disfmarker} all the features are computed .
+Turn 948, A (PhD): Oh , oh , I see .
+Turn 949, D (PhD): So {disfmarker}
+Turn 950, A (PhD): I see .
+Turn 951, D (PhD): so the neural {disfmarker} so that is coming from a separate neural net or some VAD .
+Turn 952, A (PhD): OK . OK .
+Turn 953, D (PhD): Which is {disfmarker} which is certainly giving a
+Turn 954, A (PhD): So you 're saying , feed that , also , into {pause} the neural net .
+Turn 955, D (PhD): to {disfmarker} Yeah . So it it 's an {disfmarker} additional discriminating information .
+Turn 956, A (PhD): Yeah . Yeah . Right .
+Turn 957, D (PhD): So that {disfmarker}
+Turn 958, B (Professor): You could feed it into the neural net . The other thing {comment} you could do is just , um , p modify the , uh , output probabilities of the {disfmarker} of the , uh , uh , um , neural net , tandem neural net , {comment} based on the fact that you have a silence probability .
+Turn 959, D (PhD): Mm - hmm .
+Turn 960, B (Professor): Right ?
+Turn 961, C (PhD): Mm - hmm .
+Turn 962, B (Professor): So you have an independent estimator of what the silence probability is , and you could multiply the two things , and renormalize .
+Turn 963, C (PhD): Yeah .
+Turn 964, B (Professor): Uh , I mean , you 'd have to do the nonlinearity part and deal with that . Uh , I mean , go backwards from what the nonlinearity would , you know {disfmarker} would be .
+Turn 965, D (PhD): Through {disfmarker} t to the soft max .
+Turn 966, B (Professor): But {disfmarker} but , uh {disfmarker}
+Turn 967, C (PhD): Yeah , so {disfmarker} maybe , yeah , when {disfmarker}
+Turn 968, A (PhD): But in principle wouldn't it be better to feed it in ? And let the net do that ?
+Turn 969, B (Professor): Well , u Not sure .
+Turn 970, A (PhD): Hmm .
+Turn 971, B (Professor): I mean , let 's put it this way . I mean , y you {disfmarker} you have this complicated system with thousands and thousand parameters
+Turn 972, A (PhD): Yeah .
+Turn 973, B (Professor): and you can tell it , uh , " Learn this thing . " Or you can say , " It 's silence ! Go away ! " I mean , I mean , i Doesn't {disfmarker} ? I think {disfmarker} I think the second one sounds a lot more direct .
+Turn 974, A (PhD): What {disfmarker} what if you {disfmarker}
+Turn 975, B (Professor): Uh .
+Turn 976, A (PhD): Right . So , what if you then , uh {disfmarker} since you know this , what if you only use the neural net on the speech portions ?
+Turn 977, B (Professor): Well , uh ,
+Turn 978, C (PhD): That 's what {disfmarker}
+Turn 979, A (PhD): Well , I guess that 's the same . Uh , that 's similar .
+Turn 980, B (Professor): Yeah , I mean , y you 'd have to actually run it continuously ,
+Turn 981, A (PhD): But I mean {disfmarker} I mean , train the net only on {disfmarker}
+Turn 982, B (Professor): but it 's {disfmarker} @ @ {disfmarker} Well , no , you want to train on {disfmarker} on the nonspeech also , because that 's part of what you 're learning in it , to {disfmarker} to {disfmarker} to generate , that it 's {disfmarker} it has to distinguish between .
+Turn 983, D (PhD): Speech .
+Turn 984, A (PhD): But I mean , if you 're gonna {disfmarker} if you 're going to multiply the output of the net by this other decision , uh , would {disfmarker} then you don't care about whether the net makes that distinction , right ?
+Turn 985, B (Professor): Well , yeah . But this other thing isn't perfect .
+Turn 986, A (PhD): Ah .
+Turn 987, B (Professor): So that you bring in some information from the net itself .
+Turn 988, A (PhD): Right , OK . That 's a good point .
+Turn 989, B (Professor): Yeah . Now the only thing that {disfmarker} that bothers me about all this is that I {disfmarker} I {disfmarker} I {disfmarker} The {disfmarker} the fact {disfmarker} i i It 's sort of bothersome that you 're getting more deletions .
+Turn 990, C (PhD): Yeah . But {disfmarker} So I might maybe look at , is it due to the fact that um , the probability of the silence at the output of the network , is , uh ,
+Turn 991, B (Professor): Is too high .
+Turn 992, C (PhD): too {disfmarker} too high or {disfmarker}
+Turn 993, B (Professor): Yeah . So maybe {disfmarker} So {disfmarker}
+Turn 994, C (PhD): If it 's the case , then multiplying it again by {disfmarker} i by something ?
+Turn 995, D (PhD): It may not be {disfmarker} it {disfmarker}
+Turn 996, B (Professor): Yeah .
+Turn 997, C (PhD): Mm - hmm .
+Turn 998, D (PhD): Yeah , it {disfmarker} it may be too {disfmarker} it 's too high in a sense , like , everything is more like a , um , flat probability .
+Turn 999, B (Professor): Yeah .
+Turn 1000, C (PhD): Oh - eee - hhh .
+Turn 1001, D (PhD): So , like , it 's not really doing any distinction between speech and nonspeech {disfmarker}
+Turn 1002, C (PhD): Uh , yeah .
+Turn 1003, D (PhD): or , I mean , different {disfmarker} among classes .
+Turn 1004, B (Professor): Yeah .
+Turn 1005, C (PhD): Mm - hmm .
+Turn 1006, A (PhD): Be interesting to look at the {disfmarker} Yeah , for the {disfmarker} I wonder if you could do this . But if you look at the , um , highly mism high mismat the output of the net on the high mismatch case and just look at , you know , the distribution versus the {disfmarker} the other ones , do you {disfmarker} do you see more peaks or something ?
+Turn 1007, C (PhD): Yeah . Yeah , like the entropy of the {disfmarker} the output ,
+Turn 1008, A (PhD): Yeah .
+Turn 1009, B (Professor): Yeah , for instance .
+Turn 1010, C (PhD): or {disfmarker}
+Turn 1011, B (Professor): But I {disfmarker} bu
+Turn 1012, C (PhD): It {disfmarker} it seems that the VAD network doesn't {disfmarker} Well , it doesn't drop , uh , too many frames because the dele the number of deletion is reasonable . But it 's just when we add the tandem , the final MLP , and then {disfmarker}
+Turn 1013, B (Professor): Yeah . Now the only problem is you don't want to ta I guess wait for the output of the VAD before you can put something into the other system ,
+Turn 1014, C (PhD): u
+Turn 1015, B (Professor): cuz that 'll shoot up the latency a lot , right ? Am I missing something here ?
+Turn 1016, C (PhD): But {disfmarker}
+Turn 1017, D (PhD): Mm - hmm .
+Turn 1018, C (PhD): Yeah . Right .
+Turn 1019, B (Professor): Yeah . So that 's maybe a problem with what I was just saying . But {disfmarker} but {disfmarker} I I guess {disfmarker}
+Turn 1020, A (PhD): But if you were gonna put it in as a feature it means you already have it by the time you get to the tandem net , right ?
+Turn 1021, D (PhD): Um , well . We {disfmarker} w we don't have it , actually ,
+Turn 1022, B (Professor): No .
+Turn 1023, D (PhD): because it 's {disfmarker} it has a high rate energy {disfmarker}
+Turn 1024, A (PhD): Ah .
+Turn 1025, D (PhD): the VAD has a {disfmarker}
+Turn 1026, B (Professor): Yeah .
+Turn 1027, A (PhD): OK .
+Turn 1028, B (Professor): It 's kind of done in {disfmarker} I mean , some of the things are , not in parallel , but certainly , it would be in parallel with the {disfmarker} with a tandem net .
+Turn 1029, A (PhD): Right .
+Turn 1030, B (Professor): In time . So maybe , if that doesn't work , um {disfmarker} But it would be interesting to see if that was the problem , anyway . And {disfmarker} and {disfmarker} and then I guess another alternative would be to take the feature that you 're feeding into the VAD , and feeding it into the other one as well .
+Turn 1031, C (PhD): Mm - hmm .
+Turn 1032, B (Professor): And then maybe it would just learn {disfmarker} learn it better .
+Turn 1033, C (PhD): Mm - hmm .
+Turn 1034, B (Professor): Um {disfmarker} But that 's {disfmarker} Yeah , that 's an interesting thing to try to see , if what 's going on is that in the highly mismatched condition , it 's , um , causing deletions by having this silence probability up {disfmarker} up too high ,
+Turn 1035, C (PhD): Mm - hmm .
+Turn 1036, B (Professor): at some point where the VAD is saying it 's actually speech .
+Turn 1037, C (PhD): Yeah .
+Turn 1038, B (Professor): Which is probably true .
+Turn 1039, C (PhD): So , m
+Turn 1040, B (Professor): Cuz {disfmarker} Well , the V A if the VAD said {disfmarker} since the VAD is {disfmarker} is {disfmarker} is right a lot , uh {disfmarker}
+Turn 1041, C (PhD): Yeah .
+Turn 1042, B (Professor): Hmm . Anyway . Might be .
+Turn 1043, C (PhD): Mm - hmm .
+Turn 1044, B (Professor): Yeah . Well , we just started working with it . But these are {disfmarker} these are some good ideas I think .
+Turn 1045, C (PhD): Mm - hmm . Yeah , and the other thing {disfmarker} Well , there are other issues maybe for the tandem , like , uh , well , do we want to , w uh n Do we want to work on the targets ? Or , like , instead of using phonemes , using more context dependent units ?
+Turn 1046, A (PhD): For the tandem net you mean ?
+Turn 1047, C (PhD): Well , I 'm {disfmarker} Yeah .
+Turn 1048, A (PhD): Hmm .
+Turn 1049, C (PhD): I 'm thinking , also , a w about Dan 's work where he {disfmarker} he trained {vocalsound} a network , not on phoneme targets but on the HMM state targets . And {disfmarker} it was giving s slightly better results .
+Turn 1050, B (Professor): Problem is , if you are going to run this on different m test sets , including large vocabulary ,
+Turn 1051, C (PhD): Yeah . Yeah .
+Turn 1052, B (Professor): um ,
+Turn 1053, C (PhD): Uh {disfmarker}
+Turn 1054, B (Professor): I think {disfmarker}
+Turn 1055, C (PhD): Mmm . I was just thinking maybe about , like , generalized diphones , and {disfmarker} come up with a {disfmarker} a reasonable , not too large , set of context dependent units , and {disfmarker} and {disfmarker} Yeah . And then anyway we would have to reduce this with the KLT .
+Turn 1056, B (Professor): Yeah .
+Turn 1057, C (PhD): So . But {disfmarker} I don't know .
+Turn 1058, B (Professor): Yeah . Well , maybe . But I d I d it {disfmarker} it {disfmarker} i it 's all worth looking at ,
+Turn 1059, C (PhD): Mm - hmm .
+Turn 1060, B (Professor): but it sounds to me like , uh , looking at the relationship between this and the {disfmarker} speech noise stuff is {disfmarker} is {disfmarker} is probably a key thing .
+Turn 1061, C (PhD): Mm - hmm .
+Turn 1062, B (Professor): That and the correlation between stuff .
+Turn 1063, A (PhD): So if , uh {disfmarker} if the , uh , high mismatch case had been more like the , uh , the other two cases {comment} in terms of giving you just a better performance , {comment} how would this number have changed ?
+Turn 1064, C (PhD): Mm - hmm . Oh , it would be {disfmarker} Yeah . Around five percent better , I guess . If {disfmarker} if {disfmarker} i
+Turn 1065, A (PhD): y Like sixty ?
+Turn 1066, B (Professor): Well , we don't know what 's it 's gonna be the TI - digits yet . He hasn't got the results back yet .
+Turn 1067, C (PhD): Yeah . If you extrapolate the SpeechDat - Car well - matched and medium - mismatch , it 's around , yeah , maybe five .
+Turn 1068, A (PhD): Uh - huh . Yeah . So this would be sixty - two ?
+Turn 1069, B (Professor): Sixty - two .
+Turn 1070, A (PhD): Which is {disfmarker}
+Turn 1071, B (Professor): Yeah .
+Turn 1072, C (PhD): Sixty - two , yeah .
+Turn 1073, D (PhD): Somewhere around sixty , must be . Right ? Yeah .
+Turn 1074, C (PhD): Well , it 's around five percent , because it 's {disfmarker} s Right ? If everything is five percent .
+Turn 1075, D (PhD): Yeah . Yeah .
+Turn 1076, A (PhD): All the other ones were five percent ,
+Turn 1077, C (PhD): Mm - hmm .
+Turn 1078, A (PhD): the {disfmarker}
+Turn 1079, B (Professor): Yeah .
+Turn 1080, C (PhD): I d I d I just have the SpeechDat - Car right now , so {disfmarker}
+Turn 1081, A (PhD): Yeah .
+Turn 1082, C (PhD): It 's running {disfmarker} it shou we should have the results today during the afternoon ,
+Turn 1083, A (PhD): Hmm .
+Turn 1084, C (PhD): but {disfmarker} Well .
+Turn 1085, B (Professor): Hmm . Well {disfmarker} Um {disfmarker} So I won't be here for {disfmarker}
+Turn 1086, A (PhD): When {disfmarker} When do you leave ?
+Turn 1087, B (Professor): Uh , I 'm leaving next Wednesday . May or may not be in in the morning . I leave in the afternoon . Um ,
+Turn 1088, A (PhD): But you 're {disfmarker}
+Turn 1089, B (Professor): so I {disfmarker}
+Turn 1090, A (PhD): are you {disfmarker} you 're not gonna be around this afternoon ?
+Turn 1091, B (Professor): Yeah .
+Turn 1092, A (PhD): Oh .
+Turn 1093, B (Professor): Oh , well . I 'm talking about next week . I 'm leaving {disfmarker} leaving next Wednesday .
+Turn 1094, A (PhD): Uh - huh .
+Turn 1095, B (Professor): This afternoon {disfmarker} uh {disfmarker} Oh , right , for the Meeting meeting ? Yeah , that 's just cuz of something on campus .
+Turn 1096, A (PhD): Ah , OK , OK .
+Turn 1097, B (Professor): Yeah . But , um , yeah , so next week I won't , and the week after I won't , cuz I 'll be in Finland . And the week after that I won't . By that time you 'll be {disfmarker} {comment} Uh , you 'll both be gone {pause} from here . So there 'll be no {disfmarker} definitely no meeting on {disfmarker} on September sixth . Uh ,
+Turn 1098, A (PhD): What 's September sixth ?
+Turn 1099, B (Professor): and {disfmarker} Uh , that 's during Eurospeech .
+Turn 1100, A (PhD): Oh , oh , right . OK .
+Turn 1101, B (Professor): So , uh , Sunil will be in Oregon . Uh , Stephane and I will be in Denmark . Uh {disfmarker} Right ? So it 'll be a few weeks , really , before we have a meeting of the same cast of characters . Um , but , uh {disfmarker} I guess , just {disfmarker} I mean , you guys should probably meet . And maybe Barry {disfmarker} Barry will be around . And {disfmarker} and then uh , uh , we 'll start up again with Dave and {disfmarker} Dave and Barry and Stephane and us on the , uh , twentieth . No . Thirteenth ? About a month ?
+Turn 1102, A (PhD): So , uh , you 're gonna be gone for the next three weeks or something ?
+Turn 1103, B (Professor): I 'm gone for two and a half weeks starting {disfmarker} starting next Wed - late next Wednesday .
+Turn 1104, A (PhD): So that 's {disfmarker} you won't be at the next three of these meetings . Is that right ?
+Turn 1105, B (Professor): Uh , I won't {disfmarker} it 's probably four because of {disfmarker} is it three ? Let 's see , twenty - third , thirtieth , sixth . That 's right , next three . And the {disfmarker} the third one won't {disfmarker} probably won't be a meeting , cuz {disfmarker} cuz , uh , Su - Sunil , Stephane , and I will all not be here .
+Turn 1106, A (PhD): Oh , right . Right .
+Turn 1107, B (Professor): Um {disfmarker} Mmm . {comment} So it 's just , uh , the next two where there will be {disfmarker} there , you know , may as well be meetings ,
+Turn 1108, A (PhD): OK .
+Turn 1109, B (Professor): but I just won't be at them . And then starting up on the thirteenth , {nonvocalsound} uh , we 'll have meetings again but we 'll have to do without Sunil here somehow .
+Turn 1110, A (PhD): When do you go back ?
+Turn 1111, B (Professor): So .
+Turn 1112, D (PhD): Thirty - first , August .
+Turn 1113, B (Professor): Yeah . Yeah . So . Cool .
+Turn 1114, A (PhD): When is the evaluation ? November , or something ?
+Turn 1115, B (Professor): Yeah , it was supposed to be November fifteenth . Has anybody heard anything different ?
+Turn 1116, C (PhD): I don't know . The meeting in {disfmarker} is the five and six of December . So {disfmarker}
+Turn 1117, D (PhD): p s It 's like {disfmarker} Yeah , it 's tentatively all full . Yeah .
+Turn 1118, C (PhD): Mm - hmm .
+Turn 1119, D (PhD): Uh , that 's a proposed date , I guess .
+Turn 1120, C (PhD): Yeah , um {disfmarker} so the evaluation should be on a week before or {disfmarker}
+Turn 1121, A (PhD): Yeah .
+Turn 1122, B (Professor): Yep . But , no , this is good progress . So . Uh {disfmarker} OK .
+Turn 1123, A (PhD): Should we do digits ?
+Turn 1124, B (Professor): Guess we 're done . Digits ? Yep .
+Turn 1125, A (PhD): OK .
+Turn 1126, B (Professor): It 's a wrap .

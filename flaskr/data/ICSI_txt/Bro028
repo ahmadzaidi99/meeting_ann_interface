@@ -1,0 +1,570 @@
+Turn 0, A (PhD): Eh , we should be going .
+Turn 1, B (Professor): So ne next week we 'll have , uh , both Birger {pause} and , uh , Mike {disfmarker} Michael {disfmarker} Michael Kleinschmidt and Birger Kollmeier will join us .
+Turn 2, D (PhD): Uh - huh .
+Turn 3, B (Professor): Um , and you 're {disfmarker} {vocalsound} you 're probably gonna go up in a couple {disfmarker} three weeks or so ? When d when are you thinking of going up to , uh , OGI ?
+Turn 4, D (PhD): Yeah , like , uh , not next week but maybe the week after .
+Turn 5, B (Professor): OK . Good . So at least we 'll have one meeting with {vocalsound} yo with you still around , and {disfmarker} and {disfmarker}
+Turn 6, D (PhD): Uh - huh .
+Turn 7, B (Professor): That 's good .
+Turn 8, D (PhD): Um , Yeah . Well , {vocalsound} maybe we can start with this . Mmm .
+Turn 9, B (Professor): All today , huh ?
+Turn 10, D (PhD): Yeah .
+Turn 11, B (Professor): Oh .
+Turn 12, D (PhD): Um . Yeah . So there was this conference call this morning , um , and the only topic on the agenda was just to discuss a and to come at {disfmarker} uh , to get a decision about this latency problem .
+Turn 13, B (Professor): No , this {disfmarker} I 'm sorry , this is a conference call between different Aurora people or just {disfmarker} ?
+Turn 14, D (PhD): Uh , yeah . It 's the conference call between the Aurora , {vocalsound} uh , group .
+Turn 15, B (Professor): It 's the main conference call . OK .
+Turn 16, D (PhD): Uh , yeah . There were like two hours of {pause} discussions , and then suddenly , {vocalsound} uh , people were tired , I guess , and they decided on {nonvocalsound} a number , two hundred and twenty , um , included e including everything . Uh , it means that it 's like eighty milliseconds {pause} less than before .
+Turn 17, B (Professor): And what are we sitting at currently ?
+Turn 18, D (PhD): Um .
+Turn 19, B (Professor): Yeah .
+Turn 20, D (PhD): So , currently d uh , we have system that has two hundred and thirty . So , that 's fine .
+Turn 21, B (Professor): Two thirty .
+Turn 22, D (PhD): Yeah . So that 's the system that 's described on the second point of {pause} this {vocalsound} document .
+Turn 23, B (Professor): So it 's {disfmarker} we have to reduce it by ten milliseconds somehow .
+Turn 24, D (PhD): Yeah . But that 's {disfmarker} Yeah . That 's not a problem , I {disfmarker} I guess .
+Turn 25, B (Professor): OK . W It 's {disfmarker} it 's p d primary {disfmarker} primarily determined by the VAD at this point ,
+Turn 26, D (PhD): Um .
+Turn 27, B (Professor): right ?
+Turn 28, D (PhD): Yeah .
+Turn 29, B (Professor): S so we can make the VAD a little shorter .
+Turn 30, D (PhD): Yeah . At this point , yeah .
+Turn 31, B (Professor): That 's {disfmarker}
+Turn 32, D (PhD): Yeah , uh - huh .
+Turn 33, B (Professor): Yeah . We probably should do that pretty soon so that we don't get used to it being a certain way .
+Turn 34, D (PhD): Uh - huh .
+Turn 35, B (Professor): Yeah .
+Turn 36, D (PhD): Um .
+Turn 37, B (Professor): Was Hari on the {disfmarker} on the phone ?
+Turn 38, D (PhD): Yeah , sure .
+Turn 39, B (Professor): OK .
+Turn 40, D (PhD): Well , it was mainly a discussion {vocalsound} between Hari and {vocalsound} David ,
+Turn 41, B (Professor): Hmm .
+Turn 42, D (PhD): who was like {disfmarker}
+Turn 43, B (Professor): Yeah .
+Turn 44, D (PhD): Uh ,
+Turn 45, B (Professor): OK .
+Turn 46, D (PhD): mmm {disfmarker} Uh , yeah . So , the second thing is the system that we have currently . Oh , yes . We have , like , a system that gives sixty - two percent improvement , but {vocalsound} if you want to stick to the {disfmarker} {vocalsound} this latency {disfmarker} Well , it has a latency of two thirty , but {vocalsound} if you want also to stick to the number {vocalsound} of features that {disfmarker} limit it to sixty , {vocalsound} then we go a little bit down but it 's still sixty - one percent . Uh , and if we drop the tandem network , then we have fifty - seven percent .
+Turn 47, B (Professor): Uh , but th the two th two thirty includes the tandem network ?
+Turn 48, D (PhD): Yeah .
+Turn 49, B (Professor): OK . And i is the tandem network , uh , small enough that it will fit on the terminal size in terms of {disfmarker} ?
+Turn 50, D (PhD): Uh , no , I don't think so .
+Turn 51, B (Professor): No .
+Turn 52, D (PhD): No .
+Turn 53, B (Professor): OK .
+Turn 54, D (PhD): It 's still {disfmarker} in terms of computation , if we use , like , their way of computing the {disfmarker} the maps {disfmarker} the {disfmarker} the MIPs , {vocalsound} I think it fits ,
+Turn 55, B (Professor): Mm - hmm . Mm - hmm .
+Turn 56, D (PhD): but it 's , uh , m mainly a problem of memory .
+Turn 57, B (Professor): Right .
+Turn 58, D (PhD): Um , and I don't know how much {pause} this can be discussed or not , because it 's {disfmarker} it could be in ROM , so it 's maybe not that expensive . But {disfmarker}
+Turn 59, B (Professor): Ho - how much memory d ? H how many {disfmarker} ?
+Turn 60, D (PhD): I d I d uh , I {disfmarker} I don't kn remember exactly , but {disfmarker} {vocalsound} Uh . Yeah , I c I {disfmarker} I have to check that .
+Turn 61, B (Professor): Yeah . I 'd like to {pause} see that , cuz maybe I could think a little bit about it , cuz we {vocalsound} maybe we could make it a little smaller or {disfmarker} I mean , it 'd be {disfmarker} it 'd be neat if we could fit it all .
+Turn 62, D (PhD): Uh - huh .
+Turn 63, B (Professor): Uh , I 'd like to see how far off we are .
+Turn 64, D (PhD): Mm - hmm .
+Turn 65, B (Professor): But I guess it 's still within their rules to have {disfmarker} have it on the , uh , t uh , server side . Right ?
+Turn 66, D (PhD): Yeah . Yeah .
+Turn 67, B (Professor): OK .
+Turn 68, D (PhD): Mmm .
+Turn 69, B (Professor): And this is still {disfmarker} ? Uh , well , y you 're saying here . I c I should just let you go on .
+Turn 70, D (PhD): Yeah , there were small tricks to make this tandem network work . Uh , {vocalsound} mmm , and one of the trick was to , {vocalsound} um , use {vocalsound} some kind of hierarchical structure where {pause} the silence probability is not computed by {pause} the final tandem network but by the VAD network . Um , so apparently it looks better when , {vocalsound} uh , we use the silence probability from the VAD network
+Turn 71, B (Professor): Huh .
+Turn 72, D (PhD): and we re - scale the other probabilities by one minus the silence probability . Um . So it 's some kind of hierarchical thing , {vocalsound} uh , that Sunil also tried , um , {vocalsound} {vocalsound} on SPINE and apparently it helps a little bit also . Mmm . And . Yeah , the reason w why {disfmarker} why we did that with the silence probability was that , {vocalsound} um {disfmarker}
+Turn 73, B (Professor): Could {disfmarker} ? Uh , uh , I 'm {disfmarker} I 'm really sorry . Can you repeat what you were saying about the silence probability ?
+Turn 74, D (PhD): Mm - hmm .
+Turn 75, B (Professor): I only {disfmarker} My mind was some {disfmarker}
+Turn 76, D (PhD): Yeah . So there is the tandem network that e e e estimates the phone probabilities
+Turn 77, B (Professor): Yeah . Yeah .
+Turn 78, D (PhD): and the silence probabilities also .
+Turn 79, B (Professor): Right .
+Turn 80, D (PhD): And {vocalsound} things get better when , instead of using the silence probability computed by the tandem network , we use the silence probability , uh , given by the VAD network ,
+Turn 81, B (Professor): Oh .
+Turn 82, D (PhD): um ,
+Turn 83, B (Professor): The VAD network is {disfmarker} ?
+Turn 84, D (PhD): Which is smaller , but maybe , um {disfmarker} So we have a network for the VAD which has one hundred hidden units , and the tandem network has five hundred . Um . So it 's smaller but th the silence probability {pause} from this network seems , uh , better .
+Turn 85, B (Professor): OK .
+Turn 86, D (PhD): Mmm . Uh . Well , it looks strange , but {disfmarker}
+Turn 87, B (Professor): Yeah . But {disfmarker}
+Turn 88, D (PhD): but it
+Turn 89, B (Professor): OK .
+Turn 90, D (PhD): Maybe it 's {disfmarker} has something to do to {vocalsound} the fact that {vocalsound} we don't have infinite training data and {disfmarker}
+Turn 91, B (Professor): We don't ?
+Turn 92, D (PhD): Well ! And so {disfmarker} Well , things are not optimal
+Turn 93, B (Professor): Yeah .
+Turn 94, D (PhD): and {disfmarker} Mmm {disfmarker}
+Turn 95, E (Grad): Are you {disfmarker} you were going to say why {disfmarker} what made you {disfmarker} wh what led you to do that .
+Turn 96, D (PhD): Yeah . Uh , there was a p {comment} problem that we observed , um , {vocalsound} {vocalsound} that there was {disfmarker} there were , like , many insertions in the {disfmarker} in the system .
+Turn 97, B (Professor): Mm - hmm .
+Turn 98, D (PhD): Mmm .
+Turn 99, B (Professor): Hmm .
+Turn 100, D (PhD): Actually plugging in the tandem network was increasing , I {disfmarker} I {disfmarker} I think , the number of insertions .
+Turn 101, B (Professor): Mm - hmm .
+Turn 102, D (PhD): And , {vocalsound} um {disfmarker} So it looked strange and then just using the {disfmarker} the other silence probability helps . Mmm . Um {disfmarker} Yeah . The next thing we will do is train this tandem on more data .
+Turn 103, B (Professor): So , you know , in a way what it might {disfmarker} i it 's {disfmarker} it 's a little bit like {vocalsound} combining knowledge sources .
+Turn 104, D (PhD): Um {disfmarker}
+Turn 105, B (Professor): Right ? Because {vocalsound} the fact that you have these two nets that are different sizes {pause} means they behave a little differently ,
+Turn 106, D (PhD): Mm - hmm .
+Turn 107, B (Professor): they find different {pause} things . And , um , if you have , um {disfmarker} f the distribution that you have from , uh , f speech sounds is w {comment} sort of one source of knowledge .
+Turn 108, D (PhD): Mm - hmm .
+Turn 109, B (Professor): And this is {disfmarker} and rather than just taking one minus that to get the other , which is essentially what 's happening , you have this other source of knowledge that you 're putting in there . So you make use of both of them {vocalsound} in {disfmarker} in {pause} what you 're ending up with . Maybe it 's better .
+Turn 110, D (PhD): Yeah .
+Turn 111, B (Professor): Anyway , you can probably justify anything if what 's use
+Turn 112, D (PhD): Yeah .
+Turn 113, B (Professor): Yeah .
+Turn 114, D (PhD): And {disfmarker} and the features are different also . I mean , the VAD doesn't use the same features there are .
+Turn 115, B (Professor): Mm - hmm .
+Turn 116, E (Grad): Hmm .
+Turn 117, B (Professor): Oh !
+Turn 118, D (PhD): Um {disfmarker}
+Turn 119, B (Professor): That might be the key , actually .
+Turn 120, D (PhD): Mm - hmm .
+Turn 121, B (Professor): Cuz you were really thinking about speech versus nonspeech for that .
+Turn 122, D (PhD): Mm - hmm .
+Turn 123, B (Professor): That 's a good point .
+Turn 124, D (PhD): Mmm . Uh . Well , there are other things that {vocalsound} we should do but , {vocalsound} um , {vocalsound} it requires time and {disfmarker} {vocalsound} We have ideas , like {disfmarker} so , these things are like hav having a better VAD . Uh , we have some ideas about that . It would {disfmarker} {vocalsound} probably implies working a little bit on features that are more {vocalsound} suited to a voice activity detection .
+Turn 125, B (Professor): Mm - hmm .
+Turn 126, D (PhD): Working on the second stream . Of course we have ideas on this also , but {disfmarker} {vocalsound} w we need to try different things and {disfmarker} Uh , but their noise estimation , um {disfmarker} {vocalsound} uh {disfmarker}
+Turn 127, B (Professor): I mean , back on the second stream , I mean , that 's something we 've talked about for a while . I mean , I think {nonvocalsound} that 's certainly a high hope .
+Turn 128, D (PhD): Yeah . {vocalsound} Mmm .
+Turn 129, B (Professor): Um , so we have this {disfmarker} this default idea about just using some sort of purely spectral thing ?
+Turn 130, D (PhD): Uh , yeah .
+Turn 131, B (Professor): for a second stream ?
+Turn 132, D (PhD): But , um , we {disfmarker} we did a first try with this , and it {disfmarker} it {vocalsound} clearly hurts .
+Turn 133, B (Professor): But , uh , how was the stream combined ?
+Turn 134, D (PhD): Uh . {vocalsound} It was c it was just combined , um , by the acoustic model . So there was , no neural network for the moment .
+Turn 135, B (Professor): Right . So , I mean , if you just had a second stream that was just spectral and had another neural net and combined there , that {disfmarker} that , uh , {vocalsound} might be good .
+Turn 136, D (PhD): Mm - hmm . Yeah . Mm - hmm . Mm - hmm . Mmm . Yeah . Um {disfmarker} Yeah , and the other thing , that noise estimation and th um , maybe try to train {disfmarker} uh , the training data for the t tandem network , right now , is like {disfmarker} i is using the noises from the Aurora task and {vocalsound} {vocalsound} I think that people might , {vocalsound} um , try to argue about that because {vocalsound} then in some cases we have the same noises in {disfmarker} for training the network {pause} than the noises that are used for testing ,
+Turn 137, B (Professor): Right .
+Turn 138, D (PhD): and {disfmarker} So we have t n uh , to try to get rid of these {disfmarker} {vocalsound} this problem .
+Turn 139, B (Professor): Yeah . Maybe you just put in some other noise , something that 's different .
+Turn 140, D (PhD): Mm - hmm . {vocalsound} Yeah .
+Turn 141, B (Professor): I mean , it {disfmarker} it 's probably helpful to have {disfmarker} have a little noise there . But it may be something else
+Turn 142, D (PhD): Uh - huh .
+Turn 143, B (Professor): th at least you could say it was .
+Turn 144, D (PhD): Yeah .
+Turn 145, B (Professor): And then {disfmarker} if it doesn't hurt too much , though .
+Turn 146, D (PhD): Uh - huh .
+Turn 147, B (Professor): Yeah . That 's a good idea .
+Turn 148, D (PhD): Um . Yeah . The last thing is that I think we are getting close to human performance . Well , that 's something I would like to investigate further , but , um , I did , like , um {disfmarker} I did , uh , listen to the m most noisy utterances of the SpeechDat - Car Italian and tried to transcribe them . And , um {disfmarker}
+Turn 149, B (Professor): So this is a particular human . This is {disfmarker} this i this is Stephane .
+Turn 150, D (PhD): Yeah . So that 's {disfmarker} that 's {disfmarker}
+Turn 151, E (Grad): St - Stephane .
+Turn 152, B (Professor): Yeah .
+Turn 153, D (PhD): that 's the {disfmarker} the flaw of the experiment . This is just {disfmarker} i j {comment} {vocalsound} {vocalsound} it 's just one subject ,
+Turn 154, B (Professor): Yeah .
+Turn 155, E (Grad): Getting close .
+Turn 156, D (PhD): but {disfmarker} but still , uh , {vocalsound} what happens is {disfmarker} is that , {vocalsound} uh , the digit error rate on this is around one percent ,
+Turn 157, B (Professor): Yeah .
+Turn 158, D (PhD): while our system is currently at seven percent . Um , but what happens also is that if I listen to the , um {disfmarker} {nonvocalsound} a re - synthesized version of the speech and {pause} I re - synthesized this using a white noise that 's filtered by a LPC , uh , filter {disfmarker}
+Turn 159, B (Professor): Yeah .
+Turn 160, D (PhD): Um , well , you can argue , that , uh {disfmarker} that this is not speech ,
+Turn 161, B (Professor): Yeah .
+Turn 162, D (PhD): so the ear is not trained to recognize this . But s actually it sound like {pause} whispering , so we are {disfmarker}
+Turn 163, B (Professor): Well , I mean , it 's {disfmarker}
+Turn 164, D (PhD): eh {disfmarker}
+Turn 165, B (Professor): There 's two problems there . I mean {disfmarker} I mean , so {disfmarker} so the first is {vocalsound} that by doing LPC - twelve with synthesized speech w like you 're saying , uh , it 's {disfmarker} {vocalsound} i i you 're {disfmarker} you 're adding other degradation .
+Turn 166, D (PhD): Uh - huh .
+Turn 167, B (Professor): Right ? So it 's not just the noise but you 're adding in fact some degradation because it 's only an approximation . Um , and the second thing is {disfmarker} which is m maybe more interesting {disfmarker} is that , um , {comment} {vocalsound} if you do it with whispered speech , you get this number . What if you had {pause} done analysis {comment} re - synthesis and taken the pitch as well ? Alright ? So now you put the pitch in .
+Turn 168, D (PhD): Uh - huh .
+Turn 169, B (Professor): What would the percentage be then ?
+Turn 170, D (PhD): Um {disfmarker}
+Turn 171, B (Professor): See , that 's the question . So , you see , if it 's {disfmarker} if it 's {disfmarker} if it 's , uh {disfmarker} Let 's say it 's {pause} back down to one percent again .
+Turn 172, D (PhD): Uh - huh .
+Turn 173, B (Professor): That would say at least for people , having the pitch is really , really important , which would be interesting in itself . Um ,
+Turn 174, D (PhD): Uh , yeah . But {disfmarker}
+Turn 175, B (Professor): if i on the other hand , if it stayed up {pause} near five percent , {vocalsound} then I 'd say " boy , LPC n twelve is pretty crummy " . You know ?
+Turn 176, D (PhD): Uh - huh .
+Turn 177, B (Professor): So I I I 'm not sure {disfmarker} I 'm not sure how we can conclude from this anything about {disfmarker} that our system is close to {vocalsound} the human performance .
+Turn 178, D (PhD): Ye Yeah . Well , the point is that eh l ey {disfmarker} the point is that , um , {vocalsound} what I {disfmarker} what I listened to when I re - synthesized the LP - the LPC - twelve {pause} spectrum {vocalsound} is in a way what the system , uh , is hearing , cuz @ @ {disfmarker} all the {disfmarker} all the , um , excitation {disfmarker} all the {disfmarker} well , the excitation is {disfmarker} is not taken into account . That 's what we do with our system . And
+Turn 179, B (Professor): Well , you 're not doing the LPC {disfmarker}
+Turn 180, D (PhD): in this case {disfmarker}
+Turn 181, B (Professor): I mean , so {disfmarker} so what if you did a {disfmarker}
+Turn 182, D (PhD): Well , it 's not LPC , sure ,
+Turn 183, B (Professor): What if you did LPC - twenty ?
+Turn 184, D (PhD): but {disfmarker} LPC {disfmarker} ?
+Turn 185, B (Professor): Twenty . Right ? I mean , th the thing is LPC is not a {disfmarker} a really great representation of speech .
+Turn 186, D (PhD): Mm - hmm . Mm - hmm .
+Turn 187, B (Professor): So , all I 'm saying is that you have in addition to the w the , uh , removal of pitch , {vocalsound} you also are doing , uh , a particular parameterization ,
+Turn 188, D (PhD): Mm - hmm .
+Turn 189, B (Professor): which , um , uh {disfmarker}
+Turn 190, D (PhD): Mmm .
+Turn 191, B (Professor): Uh , so , let 's see , how would you do {disfmarker} ? So , fo
+Turn 192, D (PhD): But that 's {disfmarker} that 's what we do with our systems . And {disfmarker}
+Turn 193, B (Professor): No . Actually , we d we {disfmarker} we don't , because we do {disfmarker} we do , uh , {vocalsound} uh , mel filter bank , for instance . Right ?
+Turn 194, D (PhD): Yeah , but is it that {disfmarker} is it that different , I mean ?
+Turn 195, B (Professor): Um , {vocalsound} I don't know what mel , {pause} uh , based synthesis would sound like ,
+Turn 196, D (PhD): I
+Turn 197, B (Professor): but certainly the spectra are quite different .
+Turn 198, D (PhD): Mm - hmm .
+Turn 199, A (PhD): Couldn't you t couldn't you , um , test the human performance on just the original {pause} audio ?
+Turn 200, D (PhD): Mm - hmm . This is the one percent number .
+Turn 201, B (Professor): Yeah , it 's one percent . He 's trying to remove the pitch information
+Turn 202, D (PhD): Mm - hmm .
+Turn 203, A (PhD): Oh , oh . OK ,
+Turn 204, D (PhD): Mm - hmm .
+Turn 205, A (PhD): I see .
+Turn 206, B (Professor): and make it closer to what {disfmarker} to what we 're seeing as the feature vectors .
+Turn 207, A (PhD): OK . So , y uh , your performance was one percent , and then when you re - synthesize with LPC - twelve it went to five .
+Turn 208, D (PhD): Uh - huh . Yeah .
+Turn 209, A (PhD): OK .
+Turn 210, B (Professor): I mean {disfmarker} We were {disfmarker} we were j It {disfmarker} it {disfmarker} it 's a little bit still apples and oranges because we are choosing these features in order to be the best for recognition .
+Turn 211, D (PhD): Uh - huh .
+Turn 212, B (Professor): And , um , i if you listen to them they still might not be very {disfmarker} Even if you made something closer to what we 're gonna {disfmarker} i it might not sound very good .
+Turn 213, D (PhD): Yeah .
+Turn 214, B (Professor): Uh , and i the degradation from that might {disfmarker} might actually make it even harder , {vocalsound} uh , to understand than the LPC - twelve . So all I 'm saying is that the LPC - twelve {vocalsound} puts in {disfmarker} synthesis puts in some degradation that 's not what we 're used to hearing ,
+Turn 215, D (PhD): Uh - huh .
+Turn 216, B (Professor): and is , um {disfmarker} It 's not {disfmarker} it 's not just a question of how much information is there , as if you will always take maximum {vocalsound} advantage of any information that 's presented to you .
+Turn 217, D (PhD): Mm - hmm .
+Turn 218, B (Professor): In fact , you {vocalsound} hear some things better than others . And so it {disfmarker} it isn't {disfmarker}
+Turn 219, A (PhD): But {disfmarker}
+Turn 220, B (Professor): But , {vocalsound} I agree that it says that , uh , the kind of information that we 're feeding it is probably , {vocalsound} um , um , a little bit , um , minimal . There 's definitely some things that we 've thrown away . And that 's why I was saying it might be interesting if you {disfmarker} {vocalsound} an interesting test of this would be if you {disfmarker} if you actually put the pitch back in . So , you just extract it from the actual speech and put it back in , and see does that {disfmarker} is that {disfmarker} does that make the difference ? If that {disfmarker} if that takes it down to one percent again , {vocalsound} then you 'd say " OK , it 's {disfmarker} it 's in fact having , um , {vocalsound} not just the spectral envelope but also the {disfmarker} also the {disfmarker} the pitch {vocalsound} that , uh , {comment} @ @ {comment} has the information that people can use , anyway . "
+Turn 221, D (PhD): Uh - huh . Mmm .
+Turn 222, A (PhD): But from this it 's pretty safe to say that the system is with either {vocalsound} two to seven percent away from {pause} the performance of a human . Right ? So it 's somewhere in that range .
+Turn 223, B (Professor): Well , or it 's {disfmarker} it 's {disfmarker}
+Turn 224, A (PhD): Two {disfmarker} two to six percent .
+Turn 225, B (Professor): Yeah , so {disfmarker} It 's {disfmarker} it 's one point four times , uh , to , uh , seven times the error ,
+Turn 226, D (PhD): To f seven times , yeah .
+Turn 227, B (Professor): for Stephane .
+Turn 228, D (PhD): Um .
+Turn 229, B (Professor): So , uh {disfmarker} uh , but i I don't know . I do don't wanna take you away from other things .
+Turn 230, D (PhD): But {disfmarker} {comment} but {disfmarker}
+Turn 231, B (Professor): But that 's {disfmarker} {vocalsound} that 's what {disfmarker} that 's the first thing that I would be curious about , is , you know , i i {vocalsound} when you we
+Turn 232, D (PhD): But the signal itself is like a mix of {disfmarker} um , of a {disfmarker} a periodic sound and , {pause} @ @ {comment} uh , unvoiced sound , and the noise
+Turn 233, B (Professor): Mm - hmm .
+Turn 234, D (PhD): which is mostly , {vocalsound} uh , noise . I mean not {pause} periodic . So , {pause} what {disfmarker} what do you mean exactly by putting back the pitch in ? Because {disfmarker}
+Turn 235, A (PhD): In the LPC synthesis ? I think {disfmarker}
+Turn 236, B (Professor): Yeah . You did LPC re - synthesis {disfmarker}
+Turn 237, D (PhD): I
+Turn 238, B (Professor): L PC re - synthesis .
+Turn 239, D (PhD): Uh - huh .
+Turn 240, B (Professor): So , {vocalsound} uh {disfmarker} and you did it with a noise source , rather than with {disfmarker} with a s periodic source .
+Turn 241, D (PhD): Mm - hmm .
+Turn 242, B (Professor): Right ? So if you actually did real re - synthesis like you do in an LPC synthesizer , where it 's unvoiced you use noise , where it 's voiced you use , {vocalsound} uh , periodic pulses .
+Turn 243, D (PhD): Um .
+Turn 244, B (Professor): Right ?
+Turn 245, D (PhD): Yeah , but it 's neither {pause} purely voiced or purely unvoiced . Esp - especially because there is noise .
+Turn 246, B (Professor): Well , it might be hard to do it
+Turn 247, D (PhD): So {disfmarker}
+Turn 248, B (Professor): but it but {disfmarker} but the thing is that if you {disfmarker} {vocalsound} um , if you detect that there 's periodic {disfmarker} s strong periodic components , then you can use a voiced {disfmarker} voice thing .
+Turn 249, D (PhD): Oh . Uh - huh . Yeah .
+Turn 250, B (Professor): Yeah . I mean , it 's probably not worth your time . It 's {disfmarker} it 's a side thing and {disfmarker} and {disfmarker} and there 's a lot to do .
+Turn 251, D (PhD): Uh - huh , yeah .
+Turn 252, B (Professor): But I 'm {disfmarker} I 'm just saying , at least as a thought experiment , {vocalsound} that 's what I would wanna test .
+Turn 253, D (PhD): Mm - hmm .
+Turn 254, B (Professor): Uh , I wan would wanna drive it with a {disfmarker} a {disfmarker} a two - source system rather than a {disfmarker} than a one - source system .
+Turn 255, D (PhD): Mm - hmm . Mm - hmm .
+Turn 256, B (Professor): And then that would tell you whether in fact it 's {disfmarker} Cuz we 've talked about , like , this harmonic tunneling or {vocalsound} other things that people have done based on pitch , maybe that 's really a key element . Maybe {disfmarker} maybe , uh , {vocalsound} uh , without that , it 's {disfmarker} it 's not possible to do a whole lot better than we 're doing . That {disfmarker} that could be .
+Turn 257, D (PhD): Yeah . That 's what I was thinking by doing this es experiment ,
+Turn 258, B (Professor): Yeah .
+Turn 259, D (PhD): like {disfmarker} Mmm . {vocalsound} Evi
+Turn 260, B (Professor): But , I mean , other than that , I don't think it 's {disfmarker} I mean , other than the pitch de information , {vocalsound} it 's hard to imagine that there 's a whole lot more {vocalsound} in the signal that {disfmarker} that , uh {disfmarker} that we 're throwing away that 's important .
+Turn 261, D (PhD): Yeah , but {disfmarker} Yeah . {vocalsound} Mm - hmm . Yeah , right .
+Turn 262, B (Professor): Right ? I mean , we 're using {vocalsound} a fair number of filters in the filter bank and {disfmarker} uh {disfmarker}
+Turn 263, D (PhD): Mm - hmm . Uh , yeah .
+Turn 264, B (Professor): Hmm . Yeah .
+Turn 265, D (PhD): Um .
+Turn 266, B (Professor): Yeah . That look
+Turn 267, D (PhD): Yeah , that 's it .
+Turn 268, B (Professor): Yeah . That 's {disfmarker} that 's {disfmarker} I mean , one {disfmarker} one percent is sort of what I would {disfmarker} I would figure . If somebody was paying really close attention , you might get {disfmarker} I would actually think that if , {vocalsound} you looked at people on various times of the day and different amounts of attention , you might actually get up to three or four percent error on digits . Uh , {vocalsound} uh {disfmarker}
+Turn 269, D (PhD): Mm - hmm . Um .
+Turn 270, B (Professor): So it 's {disfmarker} you know , we 're not {disfmarker} we 're not incredibly far off . On the other hand , with any of these numbers except maybe the one percent , it 's st it 's not actually usable in a commercial system with a full telephone number or something .
+Turn 271, D (PhD): Uh - huh . Yeah . At these noise levels .
+Turn 272, B (Professor): Yeah .
+Turn 273, D (PhD): Yeah . Mm - hmm .
+Turn 274, B (Professor): Right .
+Turn 275, D (PhD): Well , yeah . These numbers , I mean . Mmm .
+Turn 276, B (Professor): Good . Um , while we 're still on Aurora stuff {pause} maybe you can talk a little about the status with the , uh , {vocalsound} Wall Street Journal {vocalsound} things for it .
+Turn 277, A (PhD): So I 've , um , downloaded , uh , a couple of things from Mississippi State . Um , one is their {vocalsound} software {disfmarker} their , uh , LVCSR system . Downloaded the latest version of that . Got it compiled and everything . Um , downloaded the scripts . They wrote some scripts that sort of make it easy to run {vocalsound} the system on the Wall Street Journal , uh , data . Um , so I haven't run the scripts yet . Uh , I 'm waiting {disfmarker} there was one problem with part of it and I wrote a note to Joe asking him about it . So I 'm waiting to hear from him . But , um , I did print something out just to give you an idea about where the system is . Uh , {vocalsound} they {disfmarker} on their web site they , uh , did this little table of where their system performs relative to other systems that have done this {disfmarker} this task . And , um , the Mississippi State system {vocalsound} using a bigram grammar , uh , is at about eight point two percent . Other comparable systems from , uh {disfmarker} {vocalsound} were getting from , uh , like six point nine , six point eight percent . So they 're {disfmarker}
+Turn 278, B (Professor): This is on clean test set ?
+Turn 279, A (PhD): This is on clean {disfmarker} on clean stuff . Yeah . They {disfmarker} they 've started a table {vocalsound} where they 're showing their results on various different noise conditions but they {disfmarker} they don't have a whole lot of it filled in and {disfmarker} {vocalsound} and I didn't notice until after I 'd printed it out that , um , {vocalsound} they don't say here {pause} what these different testing conditions are .
+Turn 280, B (Professor): 
+Turn 281, A (PhD): You actually have to click on it on the web site to see them . So I {disfmarker} I don't know what those {pause} numbers really mean .
+Turn 282, B (Professor): What kind of numbers are they getting on these {disfmarker} on the test conditions ?
+Turn 283, A (PhD): Well , see , I was a little confused because on this table , I 'm {disfmarker} the they 're showing word error rate . But on this one , I {disfmarker} I don't know if these are word error rates because they 're really big . So , {vocalsound} under condition one here it 's ten percent . Then under three it goes to sixty - four point six percent .
+Turn 284, B (Professor): Yeah , that 's probably Aurora .
+Turn 285, A (PhD): Yeah .
+Turn 286, B (Professor): I mean {disfmarker}
+Turn 287, A (PhD): So m I guess maybe they 're error rates but they 're , uh {disfmarker} they 're really high .
+Turn 288, B (Professor): I {disfmarker} I {disfmarker} I don't find that surpri
+Turn 289, A (PhD): So {disfmarker}
+Turn 290, B (Professor): I mean , we {disfmarker} W what 's {disfmarker} what 's some of the lower error rates on {disfmarker} on {disfmarker} on {disfmarker} uh , some of the higher error rates on , uh , {vocalsound} some of these w uh , uh , highly mismatched difficult conditions ? What 's a {disfmarker} ?
+Turn 291, D (PhD): Uh . Yeah , it 's around fifteen to twenty percent .
+Turn 292, A (PhD): Correct ?
+Turn 293, D (PhD): And the baseline , eh {disfmarker}
+Turn 294, A (PhD): Accuracy ?
+Turn 295, D (PhD): Uh , error rate .
+Turn 296, B (Professor): Yeah .
+Turn 297, D (PhD): Twenty percent error rate ,
+Turn 298, B (Professor): Yeah . So twenty percent error rate on digits .
+Turn 299, D (PhD): and {disfmarker}
+Turn 300, A (PhD): Oh , oh , on digits .
+Turn 301, B (Professor): So if you 're doing {disfmarker} so if you 're doing ,
+Turn 302, D (PhD): and {disfmarker}
+Turn 303, A (PhD): Yeah .
+Turn 304, D (PhD): On digits .
+Turn 305, A (PhD): OK .
+Turn 306, B (Professor): you know ,
+Turn 307, D (PhD): And this is so {disfmarker} so {disfmarker} still the baseline .
+Turn 308, B (Professor): sixty - thousand {disfmarker} 
+Turn 309, D (PhD): Right ?
+Turn 310, A (PhD): Yeah .
+Turn 311, B (Professor): Yeah , and if you 're saying sixty - thousand word recognition , getting sixty percent error on some of these noise condition not at all surprising .
+Turn 312, A (PhD): Yeah .
+Turn 313, D (PhD): The baseline is sixty percent also on digits ,
+Turn 314, A (PhD): Oh , is it ?
+Turn 315, D (PhD): on the m more {pause} mismatched conditions .
+Turn 316, A (PhD): OK .
+Turn 317, B (Professor): Yeah .
+Turn 318, D (PhD): So .
+Turn 319, A (PhD): So , yeah , that 's probably what it is then . Yeah . So they have a lot of different conditions that they 're gonna be filling out .
+Turn 320, B (Professor): It 's a bad sign when you {disfmarker} looking at the numbers , you can't tell whether it 's accuracy or error rate .
+Turn 321, A (PhD): Yeah . Yeah . It 's {disfmarker} it 's gonna be hard . Um , they 're {disfmarker} I I 'm still waiting for them to {pause} release the , um , {vocalsound} multi - CPU version of their scripts , cuz right now their script only handles processing on a single CPU , which will take a really long time to run . So . But their s
+Turn 322, B (Professor): This is for the training ?
+Turn 323, A (PhD): Uh {disfmarker} I beli Yes , for the training {pause} also . And , um , they 're supposed to be coming out with it any time ,
+Turn 324, B (Professor): OK .
+Turn 325, A (PhD): the multi - CPU one . So , as soon as they get that , then I 'll {disfmarker} I 'll grab those too
+Turn 326, B (Professor): OK .
+Turn 327, A (PhD): and so w
+Turn 328, B (Professor): Yeah . Cuz we have to get started ,
+Turn 329, A (PhD): Yeah .
+Turn 330, B (Professor): cuz it 's {disfmarker} cuz , uh ,
+Turn 331, A (PhD): Yeah . I 'll go ahead and try to run it though with just the single CPU one ,
+Turn 332, B (Professor): if the {disfmarker}
+Turn 333, A (PhD): and {disfmarker} I {disfmarker} they {disfmarker} they , {vocalsound} um , released like a smaller data set that you can use that only takes like sixteen hours to train and stuff . So I can {disfmarker} I can run it on that just to make sure that the {disfmarker} {vocalsound} the thing works and everything .
+Turn 334, B (Professor): Oh ! Good . Yeah . Cuz we 'll {disfmarker}
+Turn 335, E (Grad): Hmm .
+Turn 336, B (Professor): I guess the actual evaluation will be in six weeks or something . So . Is that about right {pause} you think ?
+Turn 337, D (PhD): Uh , we don't know yet , I {disfmarker} I think .
+Turn 338, B (Professor): Really , we don't know ?
+Turn 339, D (PhD): Uh - huh . Um .
+Turn 340, A (PhD): It wasn't on the conference call this morning ?
+Turn 341, B (Professor): Hmm .
+Turn 342, D (PhD): No .
+Turn 343, A (PhD): Hmm . Did they say anything on the conference call {pause} about , um , how the {pause} Wall Street Journal part of the test was going to be {pause} run ? Because I {disfmarker} I thought I remembered hearing that some sites {vocalsound} were saying that they didn't have the compute to be able to run the Wall Street Journal stuff at their place ,
+Turn 344, D (PhD): No . Mmm .
+Turn 345, A (PhD): so there was some talk about having Mississippi State run {pause} the systems for them . And I {disfmarker} Did {disfmarker} did that come up at all ?
+Turn 346, D (PhD): Uh , no . Well , this {disfmarker} first , this was not the point at all of this {disfmarker} the meeting today
+Turn 347, A (PhD): Oh , OK .
+Turn 348, D (PhD): and ,
+Turn 349, B (Professor): Some
+Turn 350, D (PhD): uh , frankly , I don't know because I d {comment} didn't read also the {pause} most recent mails about {vocalsound} the large - vocabulary task . But , {vocalsound} uh , did you {disfmarker} do you still , uh , get the mails ? You 're not on the mailing list or what ?
+Turn 351, A (PhD): Hmm - mm . The only , um , mail I get is from Mississippi State {disfmarker}
+Turn 352, D (PhD): Uh - huh .
+Turn 353, A (PhD): so {disfmarker}
+Turn 354, D (PhD): Oh , yeah . So we should have a look at this .
+Turn 355, A (PhD): about their system . I {disfmarker} I don't get any {pause} mail about {disfmarker}
+Turn 356, B (Professor): I have to say , there 's uh something funny - sounding about saying that one of these big companies doesn't have enough cup compute power do that , so they 're having to have it done by Mississippi State .
+Turn 357, A (PhD): Yeah .
+Turn 358, B (Professor): It just {disfmarker} {vocalsound} just sounds funny .
+Turn 359, A (PhD): Yeah . It does .
+Turn 360, B (Professor): But ,
+Turn 361, A (PhD): Yeah . I 'm {disfmarker} I 'm wondering about that
+Turn 362, B (Professor): anyway .
+Turn 363, A (PhD): because there 's this whole issue about , you know , simple tuning parameters , like word insertion penalties .
+Turn 364, D (PhD): Mm - hmm .
+Turn 365, A (PhD): And {pause} whether or not those are going to be tuned or not , and {disfmarker} {comment} So .
+Turn 366, D (PhD): Mm - hmm .
+Turn 367, A (PhD): I mean , it makes a big difference . If you change your front - end , you know , the scale is completely {disfmarker} can be completely different , so . It seems reasonable that that at least should be tweaked to match the front - end . But {disfmarker}
+Turn 368, D (PhD): You didn't get any answer from {pause} Joe ?
+Turn 369, A (PhD): I did , but Joe {pause} said , you know , " what you 're saying makes sense
+Turn 370, D (PhD): Uh - huh .
+Turn 371, A (PhD): and {pause} I don't know " . So he doesn't know what the answer is .
+Turn 372, D (PhD): Uh - huh .
+Turn 373, A (PhD): I mean , that 's th We had this back and forth a little bit about , {vocalsound} you know , are sites gonna {disfmarker} are you gonna run this data for different sites ? And , well , if {disfmarker} if Mississippi State runs it , then maybe they 'll do a little optimization on that {pause} parameter , and , uh {disfmarker} But then he wasn't asked to run it for anybody . So i it 's {disfmarker} it 's just not clear yet what 's gonna happen .
+Turn 374, D (PhD): Mm - hmm .
+Turn 375, A (PhD): Uh , he 's been putting this stuff out on their web site and {disfmarker} for people to grab but I haven't heard too much about what 's happening .
+Turn 376, B (Professor): So it could be {disfmarker} I mean , Chuck and I had actually talked about this a couple times , and {disfmarker} and {disfmarker} over some lunches , I think , {vocalsound} that , um , {vocalsound} one thing that we might wanna do {disfmarker} The - there 's this question about , you know , what do you wanna scale ? Suppose y you can't adjust {vocalsound} these word insertion penalties and so forth , so you have to do everything at the level of the features . What could you do ? And , uh , one thing I had suggested at an earlier time was maybe some sort of scaling , some sort of root or {disfmarker} or something of the , um , {vocalsound} uh , features . But the problem with that is that isn't quite the same , it occurred to me later , because what you really want to do is scale the , uh , @ @ {comment} the range of the likelihoods rather than {disfmarker}
+Turn 377, D (PhD): Nnn , the dist Yeah .
+Turn 378, B (Professor): But , {vocalsound} what might get at something similar , it just occurred to me , is kind of an intermediate thing {disfmarker} is because we do this strange thing that we do with the tandem system , at least in that system what you could do {vocalsound} is take the , um , {vocalsound} uh , values that come out of the net , which are something like log probabilities , and scale those . And then , uh , um {disfmarker} {pause} then at least those things would have the right values or the right {disfmarker} the right range . And then that goes into the rest of it and then that 's used as observations . So it 's {disfmarker} it 's , {vocalsound} um , another way to do it .
+Turn 379, D (PhD): Mm - hmm . Mm - hmm . But , these values are not directly used as probabilities anyway .
+Turn 380, B (Professor): I know they 're not .
+Turn 381, D (PhD): So there are {disfmarker} there is {disfmarker}
+Turn 382, B (Professor): I know they 're not . But {disfmarker} but , you know {disfmarker} So because what we 're doing is pretty strange and complicated , we don't really know what the effect is {pause} at the other end .
+Turn 383, D (PhD): Uh - huh . Mm - hmm .
+Turn 384, B (Professor): So , {vocalsound} um , {pause} my thought was maybe {disfmarker} I mean , they 're not used as probabilities , but the log probabilities {disfmarker} we 're taking advantage of the fact that something like log probabilities has more of a Gaussian shape than Gaus - than {vocalsound} probabilities , and so we can model them better . So , {pause} in a way we 're taking advantage of the fact that they 're probabilities , because they 're this quantity that looks kind of Gaussian when you take it 's log . So , {comment} {vocalsound} uh , maybe {disfmarker} maybe it would have a {disfmarker} a reasonable effect to do that .
+Turn 385, D (PhD): Mm - hmm .
+Turn 386, B (Professor): I d I don't know . But , {pause} I mean , I guess we still haven't had a {disfmarker} {vocalsound} a ruling back on this . And we may end up being in a situation where we just you know really can't change the {vocalsound} word insertion penalty . But the other thing we could do {vocalsound} is {disfmarker} also we could {disfmarker} I mean , this {disfmarker} this may not help us , {vocalsound} uh , in the evaluation but it might help us in our understanding at least . We might , {vocalsound} just run it with different insper insertion penalties , and show that , uh , " well , OK , not changing it , {vocalsound} playing the rules the way you wanted , we did this . But in fact if we did that , it made a {disfmarker} {pause} a big difference . "
+Turn 387, A (PhD): I wonder if it {disfmarker} it might be possible to , uh , simulate the back - end with some other system . So we {disfmarker} we get our f front - end features , and then , uh , as part of the process of figuring out the scaling of these features , {comment} you know , if we 're gonna take it to a root or to a power or something , {comment} {vocalsound} we have some back - end that we attach onto our features that sort of simulates what would be happening .
+Turn 388, B (Professor): Mm - hmm .
+Turn 389, A (PhD): Um ,
+Turn 390, B (Professor): And just adjust it until it 's the best number ?
+Turn 391, A (PhD): and just adjust it until that {disfmarker} our l version of the back - end , uh , decides that {disfmarker} that {disfmarker}
+Turn 392, B (Professor): Well , we can probably use the real thing , can't we ? And then jus just , uh , {vocalsound} use it on a reduced test set or something .
+Turn 393, A (PhD): Yeah . Oh , yeah . That 's true .
+Turn 394, B (Professor): Yeah .
+Turn 395, A (PhD): And then we just use that to determine some scaling factor that we use .
+Turn 396, B (Professor): Yeah . So I mean , I I think that that 's a reasonable thing to do and the only question is what 's the actual knob that we use ?
+Turn 397, A (PhD): Mm - hmm .
+Turn 398, B (Professor): And the knob that we use should {disfmarker} uh , uh , unfortunately , like I say , I don't know the analytic solution to this cuz what we really want to do is change the scale of the likelihoods ,
+Turn 399, A (PhD): Mm - hmm .
+Turn 400, B (Professor): not the cha not the scale of the {disfmarker} {vocalsound} the {pause} observations . But {disfmarker} but , uh {disfmarker}
+Turn 401, D (PhD): Mm - hmm .
+Turn 402, A (PhD): Yeah .
+Turn 403, E (Grad): Out of curiosity , what {disfmarker} what kind of recognizer {pause} is the one from Mississippi State ?
+Turn 404, A (PhD): Uh , w what do you mean when you say " what kind " ?
+Turn 405, E (Grad): Is it {disfmarker} ? Um , is it like a {pause} Gaussian mixture model ?
+Turn 406, A (PhD): Yeah . Gaussian mixture model .
+Turn 407, E (Grad): OK .
+Turn 408, A (PhD): It 's the same system that they use {pause} when they participate in the Hub - five evals . It 's a , {vocalsound} um {disfmarker} sort of {pause} came out of , uh {disfmarker} uh , looking a lot like HTK . I mean , they started off with {disfmarker} um , when they were building their system they were always comparing to HTK to make sure they were getting similar results . And so , {vocalsound} it 's a Gaussian mixture system , uh {disfmarker}
+Turn 409, B (Professor): Do they have the same sort of mix - down sort of procedure , where they {vocalsound} start off with a small number of some things
+Turn 410, A (PhD): I don't know . Yeah . And then {pause} divide the mixtures in half .
+Turn 411, B (Professor): and {disfmarker} ? Yeah .
+Turn 412, A (PhD): I don't know if they do that . I 'm not really sure .
+Turn 413, B (Professor): Yeah .
+Turn 414, E (Grad): Hmm .
+Turn 415, B (Professor): D Do you know what kind of tying they use ? Are they {disfmarker} they sort of {disfmarker} some sort of {disfmarker} a bunch of Gaussians that they share across everything ? Or {disfmarker} {vocalsound} or if it 's {disfmarker} ?
+Turn 416, A (PhD): Yeah , th I have {disfmarker} I {disfmarker} I {disfmarker} I don't have it up here but I have a {disfmarker} {pause} the whole system description , that describes exactly what their {pause} system is
+Turn 417, B (Professor): OK .
+Turn 418, A (PhD): and I {disfmarker} I 'm not sure . But , um {disfmarker}
+Turn 419, B (Professor): OK .
+Turn 420, A (PhD): It 's some kind of a mixture of Gaussians and , {vocalsound} uh , clustering and , uh {disfmarker} They 're {disfmarker} they 're trying to put in sort of all of the standard features that people use nowadays .
+Turn 421, E (Grad): Mm - hmm .
+Turn 422, B (Professor): So the other , uh , Aurora thing maybe is {disfmarker} I I dunno if any of this is gonna {vocalsound} {pause} come in in time to be relevant , but , uh , we had talked about , uh , {comment} Guenter {vocalsound} playing around , uh , uh , over in Germany
+Turn 423, D (PhD): Mm - hmm .
+Turn 424, B (Professor): and {disfmarker} and , @ @ {comment} uh , {pause} possibly coming up with something {vocalsound} that would , uh , {pause} uh , fit in later . Uh , I saw that other mail where he said that he {disfmarker} {vocalsound} uh , it wasn't going to work for him to do CVS .
+Turn 425, D (PhD): Yeah . Yeah . So now he has a version of the software .
+Turn 426, B (Professor): So he just has it all sitting there . Yeah .
+Turn 427, D (PhD): Yeah . Um {disfmarker} Mm - hmm .
+Turn 428, B (Professor): So if he 'll {disfmarker} he might work on improving the noise estimate or on {vocalsound} some histogram things , or {disfmarker}
+Turn 429, D (PhD): Yeah . Mm - hmm .
+Turn 430, B (Professor): Yeah . I just saw the Eurospeech {disfmarker} We {disfmarker} we didn't talk about it at our meeting but I just saw the {disfmarker} just read the paper . Someone , I forget the name , {comment} and {disfmarker} and Ney , uh , about histogram equalization ? Did you see that one ?
+Turn 431, D (PhD): Um , it was a poster . Or {disfmarker}
+Turn 432, B (Professor): Yeah . I mean , I just read the paper .
+Turn 433, D (PhD): Yeah .
+Turn 434, B (Professor): I didn't see the poster .
+Turn 435, D (PhD): Yeah . Um {disfmarker} {vocalsound} It was something {pause} similar to n {vocalsound} on - line normalization finally {disfmarker} I mean , in {vocalsound} the idea of {disfmarker} of normalizing {disfmarker}
+Turn 436, B (Professor): Yeah . But it 's a little more {disfmarker} it {disfmarker} it 's a little finer , right ? So they had like ten quantiles
+Turn 437, D (PhD): Yeah .
+Turn 438, B (Professor): and {disfmarker} {vocalsound} and they adjust the distribution .
+Turn 439, D (PhD): Right .
+Turn 440, B (Professor): So you {disfmarker} you have the distributions from the training set ,
+Turn 441, D (PhD): N
+Turn 442, B (Professor): and then , uh {disfmarker} So this is just a {disfmarker} a histogram of {disfmarker} of {vocalsound} the amplitudes , I guess . Right ? And then {disfmarker} {vocalsound} Um , people do this in image processing some .
+Turn 443, D (PhD): Mm - hmm .
+Turn 444, B (Professor): You have this kind of {disfmarker} {vocalsound} of histogram of {disfmarker} of levels of brightness or whatever . And {disfmarker} and {disfmarker} and then , {vocalsound} when you get a new {disfmarker} new thing that you {disfmarker} you want to adjust to be {pause} better in some way , {vocalsound} you adjust it so that the histogram of the new data looks like the old data .
+Turn 445, A (PhD): Hmm .
+Turn 446, B (Professor): You do this kind of {vocalsound} piece - wise linear or , {vocalsound} uh , some kind of piece - wise approximation . They did a {disfmarker} uh one version that was piece - wise linear and another that had a power law thing between them {disfmarker} {vocalsound} between the {pause} points . And , uh , they said they s they sort of see it in a way as s for the speech case {comment} {disfmarker} as being kind of a generalization of spectral subtraction in a way , because , you know , in spectral subtraction you 're trying to {vocalsound} get rid of this excess energy . Uh , you know , it 's not supposed to be there . Uh {disfmarker} {vocalsound} and , uh , this is sort of {pause} {vocalsound} adjusting it for {disfmarker} for a lot of different levels . And then they have s they have some kind of , {vocalsound} uh , {pause} a floor or something ,
+Turn 447, E (Grad): Hmm .
+Turn 448, B (Professor): so if it gets too low you don't {disfmarker} don't do it .
+Turn 449, A (PhD): Hmm .
+Turn 450, B (Professor): And they {disfmarker} they claimed very nice results ,
+Turn 451, D (PhD): Mm - hmm .
+Turn 452, A (PhD): So is this a histogram across different frequency bins ?
+Turn 453, B (Professor): and {disfmarker}
+Turn 454, A (PhD): Or {disfmarker} ?
+Turn 455, B (Professor): Um , I think this i You know , I don't remember that . Do you remember {disfmarker} ?
+Turn 456, D (PhD): I think they have , yeah , different histograms . I uh {disfmarker} Something like one per {pause} frequency band ,
+Turn 457, B (Professor): One {disfmarker}
+Turn 458, A (PhD): So , one histogram per frequency bin .
+Turn 459, B (Professor): One per critical {disfmarker}
+Turn 460, D (PhD): or {disfmarker} But I did {disfmarker} Yeah , I guess .
+Turn 461, A (PhD): And that 's {disfmarker}
+Turn 462, D (PhD): But I should read the paper . I just went {pause} through the poster quickly ,
+Turn 463, B (Professor): Yeah .
+Turn 464, A (PhD): So th
+Turn 465, B (Professor): And I don't remember whether it was {pause} filter bank things
+Turn 466, A (PhD): Oh .
+Turn 467, D (PhD): and I didn't {disfmarker}
+Turn 468, B (Professor): or whether it was FFT bins
+Turn 469, A (PhD): Huh .
+Turn 470, B (Professor): or {disfmarker}
+Turn 471, A (PhD): And {disfmarker} and that {disfmarker} that , um , {pause} histogram represents {pause} the {pause} different energy levels that have been seen at that {pause} frequency ?
+Turn 472, B (Professor): I don't remember that . And how often they {disfmarker} you 've seen them . Yeah .
+Turn 473, A (PhD): Uh - huh .
+Turn 474, E (Grad): Hmm .
+Turn 475, B (Professor): Yeah . And they do {disfmarker} they said that they could do it for the test {disfmarker} So you don't have to change the training . You just do a measurement over the training . And then , uh , for testing , uh , you can do it for one per utterance . Even relatively short utterances . And they claim it {disfmarker} it works pretty well .
+Turn 476, A (PhD): So they , uh {disfmarker} Is the idea that you {disfmarker} you run a test utterance through some histogram generation thing and then you compare the histograms and that tells you {vocalsound} what to do to the utterance to make it more like {disfmarker} ?
+Turn 477, B (Professor): I guess in pri Yeah . In principle .
+Turn 478, A (PhD): I see .
+Turn 479, B (Professor): I didn't read carefully how they actually implemented it ,
+Turn 480, A (PhD): Hmm . Yeah .
+Turn 481, B (Professor): whether it was some , {vocalsound} uh , on - line thing , or whether it was a second pass , or what . But {disfmarker} but they {disfmarker} {vocalsound} That {disfmarker} that was sort of the idea .
+Turn 482, A (PhD): Hmm .
+Turn 483, B (Professor): So that {disfmarker} that seemed , you know , different . We 're sort of curious about , uh , what are some things that are , u u um , {vocalsound} @ @ {comment} {pause} conceptually quite different from what we 've done .
+Turn 484, A (PhD): Mm - hmm .
+Turn 485, B (Professor): Cuz we {disfmarker} you know , one thing that w that , uh , Stephane and Sunil seemed to find , {vocalsound} uh , was , you know , they could actually make a unified piece of software that handled a range of different things that people were talking about , and it was really just sort of setting of different {pause} constants . And it would turn , you know , one thing into another . It 'd turn Wiener filtering into spectral subtraction , or whatever . But there 's other things that we 're not doing . So , we 're not making any use of pitch , uh , uh , which again , might {disfmarker} might be important , uh , because the stuff between the harmonics is probably a schmutz . And {disfmarker} and the , {vocalsound} uh , transcribers will have fun with that . Uh {disfmarker} {vocalsound} And , um , the , uh , stuff at the harmonics isn't so much . And {disfmarker} and , uh {disfmarker} And we there 's this overall idea of really sort of matching the {disfmarker} the hi distributions somehow . Uh , not just , um , {vocalsound} um {disfmarker} not just subtracting off your estimate of the noise . So . So I guess , uh , {vocalsound} Guenter 's gonna play around with some of these things now over this next {pause} period ,
+Turn 486, D (PhD): Uh , I dunno .
+Turn 487, B (Professor): or {disfmarker} ?
+Turn 488, D (PhD): I don't have feedback from him , but
+Turn 489, B (Professor): Yeah .
+Turn 490, D (PhD): I guess he 's gonna , maybe {disfmarker}
+Turn 491, B (Professor): Well , he 's got it anyway , so he can .
+Turn 492, D (PhD): Yeah .
+Turn 493, B (Professor): So potentially if he came up with something that was useful , like a diff a better noise estimation module or something , he could ship it to you guys u up there
+Turn 494, D (PhD): Uh - huh .
+Turn 495, B (Professor): and
+Turn 496, D (PhD): Yeah .
+Turn 497, B (Professor): we could put it in .
+Turn 498, D (PhD): Mm - hmm . {vocalsound} Mm - hmm .
+Turn 499, B (Professor): Yeah . Yeah . So , that 's good . So , why don't we just , uh , um {disfmarker} I think starting {disfmarker} {pause} starting a w couple weeks from now , especially if you 're not gonna be around for a while , we 'll {disfmarker} we 'll be shifting more over to some other {disfmarker} {vocalsound} other territory . But , uh , uh , {comment} uh , n not {disfmarker} not so much in this meeting about Aurora , but {disfmarker} but , uh , uh , maybe just , uh , quickly today about {disfmarker} maybe you could just say a little bit about what you 've been talking about with Michael . And {disfmarker} and then Barry can say something about {pause} what {comment} {disfmarker} what we 're talking about .
+Turn 500, C (Grad): OK . So Michael Kleinschmidt , who 's a PHD student from Germany , {vocalsound} showed up this week . He 'll be here for about six months . And he 's done some work using {vocalsound} an auditory model {pause} of , um , {vocalsound} human hearing , and {pause} using that f uh , to generate speech recognition features . And {pause} he did {vocalsound} work back in Germany {vocalsound} with , um , a toy recognition system {vocalsound} using , um , isolated {vocalsound} digit recognition {vocalsound} as the task . It was actually just a single - layer neural network {vocalsound} that classified words {disfmarker} classified digits , {vocalsound} in fact . Um , and {pause} he tried that on {disfmarker} I think on some Aurora data and got results that he thought {pause} seemed respectable . And he w he 's coming here to u u use it on a {vocalsound} uh , a real speech recognition system . So I 'll be working with him on that . And , um , maybe I should say a little more about these features , although I don't understand them that well . The {disfmarker} I think it 's a two - stage idea . And , um , {vocalsound} the first stage of these features correspond to what 's called the peripheral {vocalsound} auditory system . And {vocalsound} I guess that is like {vocalsound} a filter bank with a compressive nonlinearity . And {vocalsound} I 'm - I 'm not sure what we have @ @ in there that isn't already modeled in something like , {vocalsound} um , {pause} PLP . I should learn more about that . And then {vocalsound} the second stage {pause} is , um , {vocalsound} the most different thing , I think , from what we usually do . It 's , um {disfmarker} {vocalsound} {vocalsound} it computes features which are , {vocalsound} um , {vocalsound} based on {disfmarker} sort of like based on diffe different w um , wavelet basis functions {vocalsound} used to analyze {vocalsound} the input .  So th he uses analysis functions called {vocalsound} Gabor functions , um , {vocalsound} which have a certain {vocalsound} extent , um , {vocalsound} in time and in frequency . And {vocalsound} the idea is these are used to sample , {vocalsound} um , the signal in a represented as a time - frequency representation . So you 're {pause} sampling some piece of this time - frequency plane . And , um , {vocalsound} that , {vocalsound} um , is {disfmarker} is interesting , cuz , {vocalsound} @ @ for {disfmarker} for one thing , you could use it , {vocalsound} um , in a {disfmarker} a multi - scale way . You could have these {disfmarker} instead of having everything {disfmarker} like we use a twenty - five millisecond or so analysis window , {vocalsound} typically , um , and that 's our time scale for features , but you could {disfmarker} {vocalsound} using this , um , basis function idea , you could have some basis functions which have a lot longer time scale and , um , some which have a lot shorter , and {vocalsound} so it would be like {pause} a set of multi - scale features . So he 's interested in , um {disfmarker} Th - this is {disfmarker} because it 's , um {disfmarker} there are these different parameters for the shape of these {vocalsound} basis functions , {vocalsound} um {disfmarker} {vocalsound} there are a lot of different possible basis functions . And so he {disfmarker} {vocalsound} he actually does {vocalsound} an optimization procedure to choose an {disfmarker} {vocalsound} an optimal set of basis functions out of all the possible ones .
+Turn 501, A (PhD): Hmm . H What does he do to choose those ?
+Turn 502, C (Grad): The method he uses is kind of funny {disfmarker} is , {comment} {vocalsound} um , {vocalsound} he starts with {disfmarker} he has a set of M of them . Um , he {disfmarker} and then {pause} he uses that to classify {disfmarker} I mean , he t he tries , um , {vocalsound} using {pause} just M minus one of them . So there are M possible subsets of this {vocalsound} length - M vector . He tries classifying , using each of the M {vocalsound} possible sub - vectors .
+Turn 503, D (PhD): Hmm .
+Turn 504, C (Grad): Whichever sub - vector , {vocalsound} um , works the {disfmarker} the best , I guess , he says {disfmarker} {vocalsound} the {disfmarker} the fe feature that didn't use was the most useless feature ,
+Turn 505, B (Professor): Y yeah . Gets thrown out . Yeah .
+Turn 506, C (Grad): so we 'll throw it out and we 're gonna randomly select another feature {pause} from the set of possible basis functions .
+Turn 507, A (PhD): Hmm !
+Turn 508, B (Professor): Yeah .
+Turn 509, A (PhD): So it 's a {disfmarker}
+Turn 510, B (Professor): So i so it 's actuall
+Turn 511, A (PhD): it 's a little bit like a genetic algorithm or something in a way .
+Turn 512, B (Professor): Well , it 's {disfmarker} it 's much simpler .
+Turn 513, E (Grad): It 's like a greedy {disfmarker}
+Turn 514, B (Professor): But it 's {disfmarker} but it 's {disfmarker} uh , it 's {disfmarker} there 's a lot {disfmarker} number of things I like about it , let me just say .
+Turn 515, A (PhD): Greedy .
+Turn 516, B (Professor): So , first thing , well , you 're absolutely right . I mean , {vocalsound} i i {nonvocalsound} in truth , {pause} both pieces of this are {disfmarker} have their analogies in stuff we already do . But it 's a different take {vocalsound} at how to approach it and potentially one that 's m maybe a bit more systematic than what we 've done , uh , and a b a bit more inspiration from {disfmarker} from auditory things . So it 's {disfmarker} so I think it 's a neat thing to try . The primary features , {vocalsound} um , are in fact {disfmarker} Yeah , essentially , it 's {disfmarker} it 's , uh , you know , PLP or {disfmarker} or mel cepstrum , or something like that . You 've {disfmarker} you 've got some , {vocalsound} uh , compression . We always have some compression . We always have some {disfmarker} you know , the {disfmarker} the {disfmarker} the kind of filter bank with a kind of {vocalsound} {vocalsound} quasi - log scaling . Um , {vocalsound} if you put in {disfmarker} if you also include the RASTA in it {disfmarker} i RASTA {disfmarker} the filtering being done in the log domain {vocalsound} has an AGC - like , uh , characteristic , which , you know , people typi typically put in these kind of , {vocalsound} uh , {pause} um , {vocalsound} uh , auditory front - ends . So it 's very , very similar , uh , but it 's not exactly the same . Um , I would agree that the second one is {disfmarker} is somewhat more different but , {vocalsound} um , it 's mainly different in that the things that we have been doing like that have been {disfmarker} {vocalsound} um , had a different kind of motivation and have ended up with different kinds of constraints . So , for instance , if you look at the LDA RASTA stuff , {vocalsound} you know , basically what they do is they {disfmarker} they look at the different eigenvectors out of the LDA and they form filters out of it . Right ? And those {pause} filters have different , uh , kinds of temporal extents and temporal characteristics . And so in fact they 're multi - scale . But , they 're not sort of systematically multi - scale , like " let 's start here and go to there , and go to there , and go to there " , and so forth . It 's more like , {vocalsound} you run it on this , you do discriminant analysis , and you find out what 's helpful . 
+Turn 517, C (Grad): I it 's multi - scale because you use several of these in parallel ,
+Turn 518, B (Professor): Yeah . They use several of them .
+Turn 519, C (Grad): is that right ? Of {disfmarker}
+Turn 520, B (Professor): Yeah .
+Turn 521, C (Grad): OK .
+Turn 522, B (Professor): Uh , I mean , you don't have to but {disfmarker} but {disfmarker} but , uh , Hynek has . Um , but it 's also , uh {disfmarker}  Hyn - when Hynek 's had people do this kind of LDA analysis , they 've done it on frequency direction and they 've done it on the time direction . I think he may have had people sometimes doing it on both simultaneously {disfmarker} some two - D {disfmarker} and that would be the closest to these Gabor function kind of things . Uh , but I don't think they 've done that much of that . And , uh , the other thing that 's interesting {disfmarker} the {disfmarker} the , uh {disfmarker} the feature selection thing , it 's a simple method , but I kinda like it . Um , {vocalsound} there 's a {disfmarker} {pause} a old , old method for feature selection . I mean , {pause} eh , uh , I remember people referring to it as old when I was playing with it twenty years ago , so I know it 's pretty old , uh , called Stepwise Linear Discriminant Analysis in which you {disfmarker} which {disfmarker} I think it 's used in social sciences a lot . So , you {disfmarker} you {disfmarker} you {disfmarker} you pick the best feature . And then {vocalsound} you take {disfmarker} y you find the next feature that 's the best in combination with it . And then so on and so on . And what {disfmarker} what Michael 's describing seems to me much , much better , because the problem with the stepwise discriminant analysis is that you don't know that {disfmarker} you know , if you 've {vocalsound} picked the right set of features . Just because something 's a good feature doesn't mean that you should be adding it . So , {vocalsound} um , {pause} uh , here at least you 're starting off with all of them , and you 're {vocalsound} throwing out useless features . I think that 's {disfmarker} that seems , uh {disfmarker} {vocalsound} that seems like a lot better idea . Uh , you 're always looking at things in combination with other features . Um , so the only thing is , of course , there 's this {disfmarker} this artificial question of {disfmarker} of , uh , {vocalsound} exactly how you {disfmarker} how you a how you assess it and if {disfmarker} if your order had been different in throwing them out . I mean , it still isn't necessarily really optimal , but it seems like a pretty good heuristic . So I th I think it 's {disfmarker} it 's {disfmarker} I think it 's kinda neat stuff .
+Turn 523, E (Grad): Hmm .
+Turn 524, B (Professor): And {disfmarker} and {disfmarker} and , uh , the thing that I wanted to {disfmarker} to add to it also was to have us use this in a multi - stream way .
+Turn 525, E (Grad): Hmm .
+Turn 526, B (Professor): Um , so {disfmarker} so that , um , {vocalsound} when you come up with these different things , {vocalsound} and these different functions , {vocalsound} you don't necessarily just put them all into one huge vector , but perhaps {vocalsound} you {vocalsound} have some of them in one stream and some of them in another stream , and so forth . And , um , um , {comment} um {disfmarker} And we 've also talked a little bit about , uh , {vocalsound} uh , Shihab Shamma 's stuff , in which {vocalsound} you {disfmarker} the way you look at it is that there 's these different mappings and some of them emphasize , uh , upward moving , {vocalsound} uh , energy and fre and frequency . And some are emphasizing downward and {vocalsound} fast things and slow things and {disfmarker} and {pause} so forth . So . So there 's a bunch of stuff to look at . But , uh , I think we 're sorta gonna start off with what {vocalsound} he , uh , came here with and branch out {disfmarker} {vocalsound} branch out from there . And his advisor is here , too , {vocalsound} at the same time . So , he 'll be another {pause} interesting source of {pause} wisdom .
+Turn 527, E (Grad): Hmm .
+Turn 528, B (Professor): So .
+Turn 529, E (Grad): As {disfmarker} as we were talking about this I was thinking , {vocalsound} um , {vocalsound} whether there 's a relationship between {disfmarker} {vocalsound} um , {vocalsound} {vocalsound} between Michael 's approach to , uh , some {disfmarker} some sort of optimal brain damage or optimal brain surgeon on the neural nets .
+Turn 530, B (Professor): Yeah .
+Turn 531, C (Grad): Hmm .
+Turn 532, E (Grad): So , like , if we have , um {disfmarker} we have our {disfmarker} we have our RASTA features and {disfmarker} and presumably the neural nets are {disfmarker} are learning some sort of a nonlinear mapping , {vocalsound} uh , from the {disfmarker} the {disfmarker} the features {vocalsound} to {disfmarker} to this {disfmarker} this probability posterior space .
+Turn 533, B (Professor): Mm - hmm .
+Turn 534, E (Grad): Right ? And , um {disfmarker} {vocalsound} {vocalsound} and each of the hidden units is learning some sort of {disfmarker} some sort of {disfmarker} some sort of pattern . Right ? And it could be , like {disfmarker} {vocalsound} like these , um {disfmarker} these auditory patterns that Michael {pause} is looking at . And then when you 're looking at the {disfmarker} {vocalsound} the , uh , {pause} um , {vocalsound} the best features , {vocalsound} you know , you can take out {disfmarker} you can do the {disfmarker} do this , uh , brain surgery by taking out , {vocalsound} um , hidden units that don't really help at all .
+Turn 535, B (Professor): Mm - hmm . Or the {disfmarker} or features .
+Turn 536, E (Grad): And this is k sorta like {disfmarker}
+Turn 537, B (Professor): Right ?
+Turn 538, E (Grad): Yeah .
+Turn 539, B (Professor): I mean , y actually , you make me think a {disfmarker} a very important point here is that , um , {vocalsound} if we a again try to look at how is this different from what we 're already doing , {vocalsound} uh , there 's a {disfmarker} a , uh {disfmarker} {vocalsound} a nasty argument that could be made th that it 's {disfmarker} it 's not different at {disfmarker} at all , because , uh {disfmarker} if you ignore the {disfmarker} the selection part because we are going into a {disfmarker} a very powerful , {vocalsound} uh , nonlinearity that , uh , in fact is combining over time and frequency , and is coming up with its own {disfmarker} you know , better than Gabor functions its , you know , neural net functions ,
+Turn 540, E (Grad): Mm - hmm .
+Turn 541, B (Professor): its {disfmarker} {comment} {vocalsound} whatever it finds to be best .
+Turn 542, C (Grad): 
+Turn 543, B (Professor): Um , so you could argue that in fact it {disfmarker} But I {disfmarker} I don't actually believe that argument because I know that , um , {vocalsound} you can , uh {disfmarker} computing features is useful , even though {pause} in principle you haven't {pause} {vocalsound} added anything {disfmarker} in fact , you subtracted something , from the original waveform {disfmarker} You know , uh , if you 've {disfmarker} you 've processed it in some way you 've typically lost something {disfmarker} some information . And so , {vocalsound} you 've lost information and yet it does better with {disfmarker} {vocalsound} with features than it does with the waveform . So , uh , I {disfmarker} I know that i sometimes it 's useful to {disfmarker} {pause} to constrain things . So that 's {vocalsound} why it really seems like the constraint {disfmarker} in {disfmarker} in all this stuff it 's the constraints that are actually what matters . Because if it wasn't {pause} the constraints that mattered , then we would 've completely solved this problem long ago , because long ago we already knew how to put waveforms into powerful statistical mechanisms . So .
+Turn 544, D (PhD): Yeah . Well , if we had infinite processing power and {pause} data , {comment} I guess , using the waveform could {disfmarker}
+Turn 545, E (Grad): Right .
+Turn 546, B (Professor): Yeah Uh , then it would work . Yeah , I agree . Yeah . There 's the problem .
+Turn 547, D (PhD): So , that 's {disfmarker}
+Turn 548, B (Professor): Yeah . Then it would work . But {disfmarker} but , I mean , i it 's {disfmarker} {vocalsound} With finite {pause} of those things {disfmarker} I mean , uh , we {disfmarker} we have done experiments where we literally have put waveforms in and {disfmarker} and {disfmarker} and , uh ,
+Turn 549, D (PhD): Mm - hmm .
+Turn 550, B (Professor): we kept the number of parameters the same and so forth , and it used a lot of training data . And it {disfmarker} and it {disfmarker} it , uh {disfmarker} not infinite but a lot , and then compared to the number parameters {disfmarker} and it {disfmarker} it , uh {disfmarker} it just doesn't do nearly as well . So , anyway the point is that you want to suppress {disfmarker}
+Turn 551, D (PhD): Mm - hmm .
+Turn 552, B (Professor): it 's not just having the maximum information , you want to suppress , {vocalsound} uh , the aspects of the input signal that are not helpful for {disfmarker} for the discrimination you 're trying to make . So . So maybe just briefly , uh {disfmarker}
+Turn 553, E (Grad): Well , that sort of segues into {pause} what {disfmarker} what I 'm doing .
+Turn 554, B (Professor): Yeah .
+Turn 555, E (Grad): Um , {vocalsound} so , uh , the big picture is k um , {vocalsound} come up with a set of , {vocalsound} uh , intermediate categories , then build intermediate category classifiers , then do recognition , and , um , improve speech recognition in that way . Um , so right now I 'm in {disfmarker} in the phase where {vocalsound} I 'm looking at {disfmarker} at , um , deciding on a initial set of intermediate categories . And {vocalsound} I 'm looking {vocalsound} for data data - driven {pause} methods that can help me find , {vocalsound} um , a set of intermediate categories {vocalsound} of speech that , uh , will help me to discriminate {pause} later down the line . And one of the ideas , {vocalsound} um , that was to take a {disfmarker} take a neural net {disfmarker} train {disfmarker} train an ordinary neural net {vocalsound} to {disfmarker} {vocalsound} uh , to learn the posterior probabilities of phones . And so , um , at the end of the day you have this neural net and it has hidden {disfmarker} {vocalsound} hidden units . And each of these hidden units is {disfmarker} {vocalsound} um , is learning some sort of pattern . And so , um , what {disfmarker} what are these patterns ?
+Turn 556, A (PhD): Hmm .
+Turn 557, E (Grad): I don't know . Um , and I 'm gonna to try to {disfmarker} {vocalsound} to look at those patterns {vocalsound} to {disfmarker} to see , {vocalsound} um , {vocalsound} from those patterns {disfmarker} uh , presumably those are important patterns for discriminating between phone classes . And maybe {disfmarker} {vocalsound} maybe some , uh , intermediate categories can come from {vocalsound} just looking at the patterns of {disfmarker} {vocalsound} um , that the neural net learns .
+Turn 558, B (Professor): Be - before you get on the next part l let me just point out that s there 's {disfmarker} there 's a {disfmarker} a pretty nice {comment} {vocalsound} relationship between what you 're talking about doing and what you 're talking about doing there . Right ?
+Turn 559, E (Grad): Yeah .
+Turn 560, B (Professor): So , {vocalsound} it seems to me that , you know , if you take away the {disfmarker} the {disfmarker} {pause} the difference of this {pause} primary features , {vocalsound} and , say , you use {disfmarker} as we had talked about maybe doing {disfmarker} you use P - RASTA - PLP or something for the {disfmarker} the primary features , {vocalsound} um , then this feature discovery , {pause} uh , uh , thing {vocalsound} is just what he 's talking about doing , too , except that he 's talking about doing them in order to discover {pause} intermediate categories that correspond {vocalsound} to these {disfmarker} uh , uh , what these sub - features are {disfmarker} are {disfmarker} are {disfmarker} are showing you . And , um , {vocalsound} the other difference is that , um , {vocalsound} he 's doing this in a {disfmarker} in a multi - band setting , which means that he 's constraining himself {vocalsound} to look across time in some f relatively limited , uh , uh , spectral extent . Right ? And whereas in {disfmarker} in this case you 're saying " let 's just do it unconstrained " . So they 're {disfmarker} they 're really pretty related and maybe they 'll be {disfmarker} at some point where we 'll see the {disfmarker} the connections a little better and {vocalsound} connect them .
+Turn 561, C (Grad): Hmm .
+Turn 562, E (Grad): Mm - hmm . Um . Yeah , so {disfmarker} so that 's the {disfmarker} that 's the first part {disfmarker} uh , one {disfmarker} one of the ideas to get at some {disfmarker} {vocalsound} some patterns of intermediate categories . Um , {vocalsound} the other one {pause} was , {vocalsound} um , to , {vocalsound} uh , come up with a {disfmarker} a {disfmarker} a model {disfmarker} {comment} um , a graphical model , {vocalsound} that treats {pause} the intermediate categories {vocalsound} as hidden {disfmarker} hidden variables , latent variables , that we don't know anything about , but that through , {vocalsound} um , s statistical training and the EM algorithm , {vocalsound} um , at the end of the day , {vocalsound} we have , um {disfmarker} we have learned something about these {disfmarker} these latent , um {disfmarker} latent variables which happen to correspond to {vocalsound} intermediate categories . Um . {vocalsound} {nonvocalsound} Yeah , and so those are the {disfmarker} the two directions that I 'm {disfmarker} I 'm looking into right now . And , uh , {vocalsound} um {disfmarker} {vocalsound} {vocalsound} Yeah . I guess that 's {disfmarker} that 's it .
+Turn 563, B (Professor): OK . Should we do our digits and get ou get our treats ?
+Turn 564, E (Grad): Oh , tea time ?
+Turn 565, B (Professor): Yeah . It 's kind of like , you know , the little rats with the little thing dropping down to them .
+Turn 566, A (PhD): That 's ri
+Turn 567, B (Professor): We do the digits and then we get our treats .
+Turn 568, E (Grad): Oops .
+Turn 569, A (PhD): OK .

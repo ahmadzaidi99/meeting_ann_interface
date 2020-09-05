@@ -1,0 +1,686 @@
+Turn 0, D (Professor): OK .
+Turn 1, A (PhD): Mike . Mike - one ?
+Turn 2, B (PhD): Ah .
+Turn 3, D (Professor): We 're on ? Yes , please . I mean , we 're testing noise robustness but let 's not get silly . OK , so , uh , you 've got some , uh , Xerox things to pass out ?
+Turn 4, A (PhD): Yeah ,
+Turn 5, D (Professor): That are {disfmarker}
+Turn 6, A (PhD): um .
+Turn 7, D (Professor): Yeah .
+Turn 8, A (PhD): Yeah . Yeah , I 'm sorry for the table , but as it grows in size , uh , it .
+Turn 9, D (Professor): Uh , so for th the last column we use our imagination . OK .
+Turn 10, B (PhD): Ah , yeah .
+Turn 11, D (Professor): Ah .
+Turn 12, A (PhD): Uh , yeah .
+Turn 13, B (PhD): Uh , do you want @ @ .
+Turn 14, D (Professor): This one 's nice , though . This has nice big font .
+Turn 15, A (PhD): Yeah .
+Turn 16, C (Grad): Let 's see . Yeah . Chop !
+Turn 17, D (Professor): Yeah .
+Turn 18, A (PhD): So
+Turn 19, D (Professor): When you get older you have these different perspectives . I mean , lowering the word hour rate is fine , but having big font !
+Turn 20, A (PhD): Next time we will put colors or something .
+Turn 21, D (Professor): That 's what 's {disfmarker}
+Turn 22, A (PhD): Uh .
+Turn 23, D (Professor): Yeah . It 's mostly big font . OK .
+Turn 24, A (PhD): OK , s so there is kind of summary of what has been done {disfmarker}
+Turn 25, D (Professor): Uh {disfmarker} Go ahead .
+Turn 26, A (PhD): It 's this . Summary of experiments since , well , since last week
+Turn 27, D (Professor): Oh . OK .
+Turn 28, A (PhD): and also since the {disfmarker} we 've started to run {disfmarker} work on this . Um . {pause} So since last week we 've started to fill the column with um {vocalsound} uh features w with nets trained on PLP with on - line normalization but with delta also , because the column was not completely {disfmarker}
+Turn 29, D (Professor): Mm - hmm . Mm - hmm . 
+Turn 30, A (PhD): well , it 's still not completely filled ,
+Turn 31, D (Professor): 
+Turn 32, A (PhD): but {pause} we have more results to compare with network using without PLP and {pause} finally , hhh , {comment} um {pause} ehhh {comment} PL - uh delta seems very important . Uh {pause} I don't know . If you take um , let 's say , anyway Aurora - two - B , so , the next {disfmarker} t the second , uh , part of the table ,
+Turn 33, D (Professor): Mm - hmm .
+Turn 34, A (PhD): uh {pause} when we use the large training set using French , Spanish , and English , you have one hundred and six without delta and eighty - nine with the delta .
+Turn 35, D (Professor): a And again all of these numbers are with a hundred percent being , uh , the baseline performance ,
+Turn 36, A (PhD): Yeah , on the baseline , yeah . So {disfmarker}
+Turn 37, D (Professor): but with a mel cepstra system going straight into the HTK ?
+Turn 38, A (PhD): Yeah . Yeah . So now we see that the gap between the different training set is much {pause} uh uh much smaller
+Turn 39, D (Professor): Yes .
+Turn 40, A (PhD): um {disfmarker}
+Turn 41, C (Grad): It 's out of the way .
+Turn 42, A (PhD): But , actually , um , for English training on TIMIT is still better than the other languages . And  Mmm , {pause} Yeah . And f also for Italian , actually . If you take the second set of experiment for Italian , so , the mismatched condition ,
+Turn 43, D (Professor): Mm - hmm .
+Turn 44, A (PhD): um {pause} when we use the training on TIMIT so , it 's multi - English , we have a ninety - one number ,
+Turn 45, D (Professor): Mm - hmm .
+Turn 46, A (PhD): and training with other languages is a little bit worse .
+Turn 47, D (Professor): Um {disfmarker} Oh , I see . Down near the bottom of this sheet .
+Turn 48, A (PhD): So ,
+Turn 49, D (Professor): Uh , {comment} {pause} yes .
+Turn 50, A (PhD): yeah .
+Turn 51, D (Professor): OK .
+Turn 52, A (PhD): And , yeah , and here the gap is still more important between using delta and not using delta . If y if I take the training s the large training set , it 's {disfmarker} we have one hundred and seventy - two ,
+Turn 53, D (Professor): Yes .
+Turn 54, A (PhD): and one hundred and four when we use delta .
+Turn 55, D (Professor): Yeah .
+Turn 56, A (PhD): Uh . {pause} Even if the contexts used is quite the same ,
+Turn 57, D (Professor): Mm - hmm .
+Turn 58, A (PhD): because without delta we use seventeenths {disfmarker} seventeen frames . Uh . Yeah , um , so the second point is that we have no single cross - language experiments , uh , that we did not have last week . Uh , so this is training the net on French only , or on English only , and testing on Italian .
+Turn 59, D (Professor): Mm - hmm .
+Turn 60, A (PhD): And training the net on French only and Spanish only and testing on , uh TI - digits .
+Turn 61, D (Professor): Mm - hmm .
+Turn 62, A (PhD): And , fff {comment} um , yeah . What we see is that these nets are not as good , except for the multi - English , which is always one of the best . Yeah , then we started to work on a large dat database containing , uh , sentences from the French , from the Spanish , from the TIMIT , from SPINE , uh from {comment} uh English digits , and from Italian digits . So this is the {disfmarker} another line {disfmarker} another set of lines in the table . Uh , @ @ with SPINE
+Turn 63, D (Professor): Ah , yes . Mm - hmm .
+Turn 64, A (PhD): and {pause} uh , actually we did this before knowing the result of all the data , uh , so we have to to redo the uh {disfmarker} the experiment training the net with , uh PLP , but with delta . But
+Turn 65, D (Professor): Mm - hmm .
+Turn 66, A (PhD): um this {disfmarker} this net performed quite well . Well , it 's {disfmarker} it 's better than the net using French , Spanish , and English only . Uh . So , uh , yeah . We have also started feature combination experiments . Uh many experiments using features and net outputs together . And this is {disfmarker} The results are on the other document . Uh , we can discuss this after , perhaps {disfmarker} well , just , @ @ . Yeah , so basically there are four {disfmarker} four kind of systems . The first one , yeah , is combining , um , two feature streams , uh using {disfmarker} and each feature stream has its own MPL . So it 's the {disfmarker} kind of similar to the tandem that was proposed for the first . The multi - stream tandem for the first proposal . The second is using features and KLT transformed MLP outputs . And the third one is to u use a single KLT trans transform features as well as MLP outputs . Um , yeah . Mmm . You know you can {disfmarker} you can comment these results ,
+Turn 67, B (PhD): Yes , I can s I would like to say that , for example , um , mmm , if we doesn't use the delta - delta , uh we have an improve when we use s some combination . But when
+Turn 68, A (PhD): Yeah , we ju just to be clear , the numbers here are uh recognition accuracy .
+Turn 69, B (PhD): w Yeah , this {disfmarker} Yeah , this number recognition acc
+Turn 70, A (PhD): So it 's not the {disfmarker} {vocalsound} Again we switch to another {disfmarker}
+Turn 71, B (PhD): Yes , and the baseline {disfmarker} the baseline have {disfmarker} i is eighty - two .
+Turn 72, D (Professor): Baseline is eighty - two .
+Turn 73, B (PhD): Yeah
+Turn 74, A (PhD): So it 's experiment only on the Italian mismatched for the moment for this .
+Turn 75, D (Professor): Uh , this is Italian mismatched .
+Turn 76, A (PhD): Um .
+Turn 77, B (PhD): Yeah , by the moment .
+Turn 78, A (PhD): Mm - hmm .
+Turn 79, D (Professor): OK .
+Turn 80, B (PhD): And first in the experiment - one I {disfmarker} I do {disfmarker} I {disfmarker} I use different MLP ,
+Turn 81, D (Professor): Mm - hmm .
+Turn 82, B (PhD): and is obviously that the multi - English MLP is the better . Um . for the ne {disfmarker} rest of experiment I use multi - English , only multi - English . And I try to combine different type of feature , but the result is that the MSG - three feature doesn't work for the Italian database because never help to increase the accuracy .
+Turn 83, A (PhD): Yeah , eh , actually , if w we look at the table , the huge table , um , we see that for TI - digits MSG perform as well as the PLP ,
+Turn 84, D (Professor): Mm - hmm .
+Turn 85, A (PhD): but this is not the case for Italian what {disfmarker} where the error rate is c is almost uh twice the error rate of PLP .
+Turn 86, D (Professor): Mm - hmm .
+Turn 87, A (PhD): So , um {vocalsound} uh , well , I don't think this is a bug but this {disfmarker} this is something in {disfmarker} probably in the MSG um process that uh I don't know what exactly . Perhaps the fact that the {disfmarker} the {disfmarker} there 's no low - pass filter , well , or no pre - emp pre - emphasis filter and that there is some DC offset in the Italian , or , well , something simple like that . But {disfmarker} that we need to sort out if want to uh get improvement by combining PLP and MSG
+Turn 88, D (Professor): Mm - hmm .
+Turn 89, A (PhD): because for the moment MSG do doesn't bring much information .
+Turn 90, D (Professor): Mm - hmm .
+Turn 91, A (PhD): And as Carmen said , if we combine the two , we have the result , basically , of PLP .
+Turn 92, D (Professor): I Um , the uh , baseline system {disfmarker} when you said the baseline system was uh , uh eighty - two percent , that was trained on what and tested on what ? That was , uh Italian mismatched d uh , uh , digits , uh , is the testing ,
+Turn 93, B (PhD): Yeah .
+Turn 94, D (Professor): and the training is Italian digits ?
+Turn 95, B (PhD): Yeah .
+Turn 96, D (Professor): So the " mismatch " just refers to the noise and {disfmarker} and , uh microphone and so forth ,
+Turn 97, A (PhD): Yeah .
+Turn 98, B (PhD): Yeah .
+Turn 99, D (Professor): right ? So , um did we have {disfmarker} So would that then correspond to the first line here of where the training is {disfmarker} is the uh Italian digits ?
+Turn 100, B (PhD): The train the training of the HTK ?
+Turn 101, D (Professor): The {disfmarker}
+Turn 102, B (PhD): Yes . Ah yes !
+Turn 103, D (Professor): Yes .
+Turn 104, B (PhD): This h Yes . Th - Yes .
+Turn 105, D (Professor): Yes . Training of the net ,
+Turn 106, B (PhD): Yeah .
+Turn 107, D (Professor): yeah . So , um {disfmarker} So what that says is that in a matched condition , {vocalsound} we end up with a fair amount worse putting in the uh PLP . Now w would {disfmarker} do we have a number , I suppose for the matched {disfmarker} I {disfmarker} I don't mean matched , but uh use of Italian {disfmarker} training in Italian digits for PLP only ?
+Turn 108, B (PhD): Uh {pause} yes ?
+Turn 109, A (PhD): Uh {pause} yeah , so this is {disfmarker} basically this is in the table . Uh {pause} so the number is fifty - two ,
+Turn 110, B (PhD): Another table .
+Turn 111, A (PhD): uh {disfmarker}
+Turn 112, D (Professor): Fifty - two percent .
+Turn 113, A (PhD): Fift - So {disfmarker} No , it 's {disfmarker} it 's the {disfmarker}
+Turn 114, B (PhD): No .
+Turn 115, D (Professor): No , fifty - two percent of eighty - two ?
+Turn 116, A (PhD): Of {disfmarker} of {disfmarker} of uh {pause} eighteen {disfmarker}
+Turn 117, B (PhD): Eighty .
+Turn 118, A (PhD): of eighteen .
+Turn 119, B (PhD): Eighty .
+Turn 120, A (PhD): So it 's {disfmarker} it 's error rate , basically .
+Turn 121, B (PhD): It 's plus six .
+Turn 122, A (PhD): It 's er error rate ratio . So {disfmarker} 
+Turn 123, D (Professor): Oh this is accuracy ! 
+Turn 124, A (PhD): Uh , so we have nine {disfmarker} nine {disfmarker} let 's say ninety percent .
+Turn 125, B (PhD): Yeah .
+Turn 126, D (Professor): Oy ! {comment} OK . Ninety .
+Turn 127, A (PhD): Yeah . Um {comment} which is uh {comment} what we have also if use PLP and MSG together ,
+Turn 128, D (Professor): Yeah .
+Turn 129, A (PhD): eighty - nine point seven .
+Turn 130, D (Professor): OK , so even just PLP , uh , it is not , in the matched condition {disfmarker} Um I wonder if it 's a difference between PLP and mel cepstra , or whether it 's that the net half , for some reason , is not helping .
+Turn 131, A (PhD): Uh . P - PLP and Mel cepstra give the same {disfmarker} same results .
+Turn 132, D (Professor): Same result pretty much ?
+Turn 133, A (PhD): Well , we have these results . I don't know . It 's not {disfmarker} Do you have this result with PLP alone , {comment} j fee feeding HTK ?
+Turn 134, D (Professor): So , s
+Turn 135, A (PhD): That {disfmarker} That 's what you mean ?
+Turn 136, B (PhD): Yeah ,
+Turn 137, A (PhD): Just PLP at the input of HTK .
+Turn 138, B (PhD): yeah yeah yeah yeah , at the first {disfmarker} and the {disfmarker} Yeah .
+Turn 139, A (PhD): Yeah . So , PLP {disfmarker}
+Turn 140, D (Professor): Eighty - eight point six .
+Turn 141, A (PhD): Yeah .
+Turn 142, D (Professor): Um , so adding MSG
+Turn 143, A (PhD): Um {disfmarker}
+Turn 144, D (Professor): um {disfmarker} Well , but that 's {disfmarker} yeah , that 's without the neural net ,
+Turn 145, A (PhD): Yeah , that 's without the neural net
+Turn 146, D (Professor): right ?
+Turn 147, A (PhD): and that 's the result basically that OGI has also with the MFCC with on - line normalization .
+Turn 148, D (Professor): But she had said eighty - two .
+Turn 149, A (PhD): This is the {disfmarker} w well , but this is without on - line normalization .
+Turn 150, D (Professor): Right ? Oh , this {disfmarker} the eighty - two .
+Turn 151, A (PhD): Yeah .
+Turn 152, B (PhD): 
+Turn 153, A (PhD): Eighty - two is the {disfmarker} it 's the Aurora baseline , so MFCC . Then we can use {disfmarker} well , OGI , they use MFCC {disfmarker} th the baseline MFCC plus on - line normalization
+Turn 154, D (Professor): Oh , I 'm sorry , I k I keep getting confused because this is accuracy .
+Turn 155, A (PhD): Yeah , sorry . Yeah .
+Turn 156, B (PhD): Yeah .
+Turn 157, D (Professor): OK . Alright .
+Turn 158, A (PhD): Yeah .
+Turn 159, D (Professor): Alright . So this is {disfmarker} I was thinking all this was worse . OK so this is all better
+Turn 160, B (PhD): Yes , better .
+Turn 161, D (Professor): because eighty - nine is bigger than eighty - two .
+Turn 162, A (PhD): Mm - hmm .
+Turn 163, B (PhD): Yeah .
+Turn 164, D (Professor): OK . I 'm {disfmarker} I 'm all better now . OK , go ahead .
+Turn 165, A (PhD): So what happ what happens is that when we apply on - line normalization we jump to almost ninety percent .
+Turn 166, D (Professor): Yeah . Mm - hmm .
+Turn 167, A (PhD): Uh , when we apply a neural network , is the same . We j jump to ninety percent .
+Turn 168, B (PhD): Nnn , we don't know exactly .
+Turn 169, D (Professor): Yeah .
+Turn 170, A (PhD): And {disfmarker} And um {disfmarker} whatever the normalization , actually . If we use n neural network , even if the features are not correctly normalized , we jump to ninety percent . So {disfmarker}
+Turn 171, D (Professor): So we go from eighty - si eighty - eight point six to {disfmarker} to ninety , or something .
+Turn 172, A (PhD): Well , ninety {disfmarker} No , I {disfmarker} I mean ninety It 's around eighty - nine , ninety , eighty - eight .
+Turn 173, D (Professor): Eighty - nine .
+Turn 174, A (PhD): Well , there are minor {disfmarker} minor differences .
+Turn 175, B (PhD): Yeah .
+Turn 176, D (Professor): And then adding the MSG does nothing , basically .
+Turn 177, A (PhD): No .
+Turn 178, D (Professor): Yeah . OK .
+Turn 179, A (PhD): Uh For Italian , yeah .
+Turn 180, D (Professor): For this case , right ?
+Turn 181, A (PhD): Um .
+Turn 182, D (Professor): Alright . So , um {disfmarker} So actually , the answer for experiments with one is that adding MSG , if you {disfmarker} uh does not help in that case .
+Turn 183, A (PhD): Mm - hmm .
+Turn 184, D (Professor): Um {disfmarker}
+Turn 185, A (PhD):  But w Yeah .
+Turn 186, D (Professor): The other ones , we 'd have to look at it , but {disfmarker} And the multi - English , does uh {disfmarker} So if we think of this in error rates , we start off with , uh eighteen percent error rate , roughly .
+Turn 187, A (PhD): Mm - hmm .
+Turn 188, D (Professor): Um {pause} and {pause} we uh almost , uh cut that in half by um putting in the on - line normalization and the neural net .
+Turn 189, A (PhD): Yeah
+Turn 190, D (Professor): And the MSG doesn't however particularly affect things .
+Turn 191, A (PhD): No .
+Turn 192, D (Professor): And we cut off , I guess about twenty - five percent of the error . Uh {pause} no , not quite that , is it . Uh , two point six out of eighteen . About , um {pause} sixteen percent or something of the error , um , if we use multi - English instead of the matching condition .
+Turn 193, A (PhD): Mm - hmm . Yeah .
+Turn 194, D (Professor): Not matching condition , but uh , the uh , Italian training .
+Turn 195, A (PhD): Mm - hmm .
+Turn 196, B (PhD): Yeah .
+Turn 197, D (Professor): OK .
+Turn 198, A (PhD): Mmm .
+Turn 199, B (PhD): We select these {disfmarker} these {disfmarker} these tasks because it 's the more difficult .
+Turn 200, D (Professor): Yes , good . OK ? So then you 're assuming multi - English is closer to the kind of thing that you could use since you 're not gonna have matching , uh , data for the {disfmarker} uh for the new {disfmarker} for the other languages and so forth . Um , one qu thing is that , uh {disfmarker} I think I asked you this before , but I wanna double check . When you say " ME " in these other tests , that 's the multi - English ,
+Turn 201, A (PhD): That 's {disfmarker} it 's a part {disfmarker} it 's {disfmarker}
+Turn 202, D (Professor): but it is not all of the multi - English , right ? It is some piece of {disfmarker} part of it .
+Turn 203, A (PhD): Or , one million frames .
+Turn 204, D (Professor): And the multi - English is how much ?
+Turn 205, B (PhD): You have here the information .
+Turn 206, A (PhD): It 's one million and a half . Yeah .
+Turn 207, D (Professor): Oh , so you used almost all You used two thirds of it ,
+Turn 208, A (PhD): Yeah .
+Turn 209, D (Professor): you think . So , it it 's still {disfmarker} it hurts you {disfmarker} seems to hurt you a fair amount to add in this French and Spanish .
+Turn 210, A (PhD): Mmm .
+Turn 211, B (PhD): Yeah .
+Turn 212, D (Professor): I wonder why Yeah . Uh .
+Turn 213, C (Grad): Well Stephane was saying that they weren't hand - labeled ,
+Turn 214, A (PhD): Yeah , it 's {disfmarker}
+Turn 215, B (PhD): Yeah .
+Turn 216, A (PhD): Yeah .
+Turn 217, C (Grad): the French and the Spanish .
+Turn 218, B (PhD): The Spanish . Maybe for that .
+Turn 219, D (Professor): Hmm .
+Turn 220, A (PhD): Mmm .
+Turn 221, D (Professor): It 's still {disfmarker} OK . Alright , go ahead . And then {disfmarker} then {disfmarker}
+Turn 222, B (PhD): Um . Mmm , with the experiment type - two , I {disfmarker} first I tried to to combine , nnn , some feature from the MLP and other feature {disfmarker} another feature .
+Turn 223, D (Professor): Mm - hmm .
+Turn 224, B (PhD): And we s we can {disfmarker} first the feature are without delta and delta - delta , and we can see that in the situation , uh , the MSG - three , the same help nothing .
+Turn 225, D (Professor): Mm - hmm .
+Turn 226, B (PhD): And then I do the same but with the delta and delta - delta {disfmarker} PLP delta and delta - delta . And they all p but they all put off the MLP is it without delta and delta - delta . And we have a l little bit less result than the {disfmarker} the {disfmarker} the baseline PLP with delta and delta - delta .
+Turn 227, D (Professor): Mm - hmm .
+Turn 228, B (PhD): Maybe if {disfmarker} when we have the new {disfmarker} the new {pause} neural network trained with PLP delta and delta - delta , maybe the final result must be better . I don't know .
+Turn 229, A (PhD): Actually , just to be some more {disfmarker}
+Turn 230, B (PhD): Uh {disfmarker}
+Turn 231, A (PhD): Do This number , this eighty - seven point one number , has to be compared with the
+Turn 232, D (Professor): Yes , yeah , I mean it can't be compared with the other
+Turn 233, A (PhD): Which number ?
+Turn 234, D (Professor): cuz this is , uh {disfmarker} with multi - English , uh , training .
+Turn 235, B (PhD): Mm - hmm .
+Turn 236, D (Professor): So you have to compare it with the one over that you 've got in a box , which is that , uh the eighty - four point six .
+Turn 237, B (PhD): Mm - hmm .
+Turn 238, D (Professor): Right ?
+Turn 239, A (PhD): Uh .
+Turn 240, D (Professor): So {disfmarker}
+Turn 241, A (PhD): Yeah , but I mean in this case for the eighty - seven point one we used MLP outputs for the PLP net
+Turn 242, D (Professor): Yeah .
+Turn 243, A (PhD): and straight features with delta - delta . And straight features with delta - delta gives you what 's on the first sheet .
+Turn 244, B (PhD): Mm - hmm .
+Turn 245, D (Professor): Yeah . Not t not
+Turn 246, A (PhD): It 's eight eighty - eight point six .
+Turn 247, D (Professor): tr No . No . No .
+Turn 248, B (PhD): Yes .
+Turn 249, D (Professor): Not trained with multi - English .
+Turn 250, A (PhD): Uh , yeah , but th this is the second configuration .
+Turn 251, B (PhD): No , but they {disfmarker} they feature @ @ without {disfmarker}
+Turn 252, A (PhD): So we use feature out uh , net outputs together with features . So yeah , this is not {disfmarker} perhaps not clear here but in this table , the first column is for MLP and the second for the features .
+Turn 253, D (Professor): Eh . {comment} Oh , I see . Ah . So you 're saying w so asking the question , " What {disfmarker} what has adding the MLP done to improve over the ,
+Turn 254, A (PhD): So , just {disfmarker} Yeah so , actually it {disfmarker} it {disfmarker} it decreased the {disfmarker} the accuracy .
+Turn 255, D (Professor): uh {disfmarker}
+Turn 256, B (PhD): Yeah .
+Turn 257, D (Professor): Yes .
+Turn 258, A (PhD): Because we have eighty - eight point six .
+Turn 259, D (Professor): Uh - huh .
+Turn 260, A (PhD): And even the MLP alone {disfmarker} What gives the MLP alone ? Multi - English PLP . Oh no , it gives eighty - three point six . So we have our eighty - three point six and now eighty - eighty point six ,
+Turn 261, B (PhD): But {disfmarker}
+Turn 262, A (PhD): that gives eighty - seven point one .
+Turn 263, D (Professor): Mm - hmm . Eighty - s I thought it was eighty Oh , OK , eighty - three point six and eighty {disfmarker} eighty - eight point six .
+Turn 264, A (PhD): Eighty - three point six . Eighty {disfmarker}
+Turn 265, D (Professor): OK .
+Turn 266, A (PhD): Is th is that right ? Yeah ?
+Turn 267, B (PhD): Yeah . But {disfmarker} I don't know {disfmarker} but maybe if we have the neural network trained with the PLP {pause} delta and delta - delta , maybe tha this can help .
+Turn 268, A (PhD): Perhaps , yeah .
+Turn 269, D (Professor): Well , that 's {disfmarker} that 's one thing , but see the other thing is that , um , I mean it 's good to take the difficult case , but let 's {disfmarker} let 's consider what that means . What {disfmarker} what we 're saying is that one o one of the things that {disfmarker} I mean my interpretation of your {disfmarker} your s original suggestion is something like this , as motivation . When we train on data that is in one sense or another , similar to the testing data , then we get a win by having discriminant training .
+Turn 270, A (PhD): Mm - hmm .
+Turn 271, D (Professor): When we train on something that 's quite different , we have a potential to have some problems .
+Turn 272, A (PhD): Mm - hmm .
+Turn 273, D (Professor): And , um , if we get something that helps us when it 's somewhat similar , and doesn't hurt us too much when it {disfmarker} when it 's quite different , that 's maybe not so bad .
+Turn 274, A (PhD): Yeah . Mmm .
+Turn 275, D (Professor): So the question is , if you took the same combination , and you tried it out on , uh {disfmarker} on say digits ,
+Turn 276, A (PhD): On TI - digits ? OK .
+Turn 277, D (Professor): you know , d Was that experiment done ?
+Turn 278, A (PhD): No , not yet .
+Turn 279, D (Professor): Yeah , OK . Uh , then does that , eh {disfmarker} you know maybe with similar noise conditions and so forth , {comment} does it {disfmarker} does it then look much better ?
+Turn 280, A (PhD): Mm - hmm .
+Turn 281, D (Professor): And so what is the range over these different kinds of uh {disfmarker} of tests ? So , an anyway . OK , go ahead .
+Turn 282, A (PhD): Yeah .
+Turn 283, B (PhD): And , with this type of configuration which I do on experiment using the new neural net with name broad klatt s twenty - seven , uh , d I have found more or less the same result .
+Turn 284, D (Professor): Mm - hmm .
+Turn 285, A (PhD): So , it 's slightly better ,
+Turn 286, B (PhD): Little bit better ?
+Turn 287, A (PhD): yeah .
+Turn 288, D (Professor): Slightly better .
+Turn 289, A (PhD): Yeah .
+Turn 290, B (PhD): Slightly bet better . Yes , is better .
+Turn 291, D (Professor): And {disfmarker} and you know again maybe if you use the , uh , delta {pause} there , uh , you would bring it up to where it was , uh you know at least about the same for a difficult case .
+Turn 292, B (PhD): Yeah , maybe . Maybe . Maybe .
+Turn 293, A (PhD): Yeah .
+Turn 294, B (PhD): Oh , yeah .
+Turn 295, A (PhD): Yeah . Well , so perhaps let 's {disfmarker} let 's jump at the last experiment .
+Turn 296, B (PhD):  Oh , yeah .
+Turn 297, D (Professor): So .
+Turn 298, A (PhD): It 's either less information from the neural network if we use only the silence output .
+Turn 299, B (PhD): i
+Turn 300, D (Professor): Mm - hmm .
+Turn 301, A (PhD): It 's again better . So it 's eighty - nine point {disfmarker} point one .
+Turn 302, B (PhD): Yeah ,
+Turn 303, D (Professor): Mm - hmm .
+Turn 304, B (PhD): and we have only forty {disfmarker} forty feature
+Turn 305, A (PhD): So .
+Turn 306, B (PhD): because in this situation we have one hundred and three feature .
+Turn 307, D (Professor): Yeah .
+Turn 308, B (PhD): Yeah . And then w with the first configuration , I f I am found that work , uh , doesn't work {disfmarker}
+Turn 309, D (Professor): Yeah .
+Turn 310, B (PhD): uh , well , work , but is better , the second configuration . Because I {disfmarker} for the del Engli - PLP delta and delta - delta , here I have eighty - five point three accuracy , and with the second configuration I have eighty - seven point one .
+Turn 311, D (Professor): Um , by the way , there is a another , uh , suggestion that would apply , uh , to the second configuration , um , which , uh , was made , uh , by , uh , Hari . And that was that , um , if you have {disfmarker} uh feed two streams into HTK , um , and you , uh , change the , uh variances {disfmarker} if you scale the variances associated with , uh these streams um , you can effectively scale {pause} the streams . Right ? So , um , you know , without changing the scripts for HTK , which is the rule here , uh , you can still change the variances
+Turn 312, A (PhD): Mm - hmm . 
+Turn 313, D (Professor): which would effectively change the scale of these {disfmarker} these , uh , two streams that come in .
+Turn 314, A (PhD): Uh , {comment} yeah .
+Turn 315, D (Professor): And , um , so , um , if you do that , for instance it may be the case that , um , the MLP should not be considered as strongly , for instance .
+Turn 316, A (PhD): Mmm .
+Turn 317, D (Professor): And , um , so this is just setting them to be , excuse me , of equal {disfmarker} equal weight . Maybe it shouldn't be equal weight .
+Turn 318, B (PhD): Maybe .
+Turn 319, D (Professor): Right ? You know , I I 'm sorry to say that gives more experiments if we wanted to look at that , but {disfmarker} but , uh , um , you know on the other hand it 's just experiments at the level of the HTK recognition .
+Turn 320, A (PhD): Mmm .
+Turn 321, D (Professor): It 's not even the HTK ,
+Turn 322, A (PhD): Yeah .
+Turn 323, D (Professor): uh , uh {disfmarker}
+Turn 324, B (PhD): Yeah . Yeah .
+Turn 325, D (Professor): Well , I guess you have to do the HTK training also .
+Turn 326, B (PhD): so this is what we decided to do .
+Turn 327, D (Professor): Uh , do you ? Let me think . Maybe you don't . Uh . Yeah , you have to change the {disfmarker} No , you can just do it in {disfmarker} as {disfmarker} once you 've done the training {disfmarker}
+Turn 328, C (Grad): And then you can vary it . Yeah .
+Turn 329, D (Professor): Yeah , the training is just coming up with the variances so I guess you could {disfmarker} you could just scale them all .
+Turn 330, A (PhD): Scale
+Turn 331, D (Professor): Variances .
+Turn 332, A (PhD): Yeah . But {disfmarker} Is it {disfmarker} i th I mean the HTK models are diagonal covariances , so I d Is it {disfmarker}
+Turn 333, D (Professor): That 's uh , exactly the point , I think , that if you change {disfmarker} um , change what they are {disfmarker}
+Turn 334, A (PhD): Hmm . Mm - hmm .
+Turn 335, D (Professor): It 's diagonal covariance matrices , but you say what those variances are .
+Turn 336, A (PhD): Mm - hmm .
+Turn 337, D (Professor): So , that {disfmarker} you know , it 's diagonal , but the diagonal means th that then you 're gonna {disfmarker} it 's gonna {disfmarker} it 's gonna internally multiply it {disfmarker} and {disfmarker} and uh , {vocalsound} uh , i it im uh implicitly exponentiated to get probabilities , and so it 's {disfmarker} it 's gonna {disfmarker} it 's {disfmarker} it 's going to affect the range of things if you change the {disfmarker} change the variances {pause} of some of the features .
+Turn 338, A (PhD): Mmm . Mmm .
+Turn 339, B (PhD): do ?
+Turn 340, D (Professor): So , i it 's precisely given that model you can very simply affect , uh , the s the strength that you apply the features . That was {disfmarker} that was , uh , Hari 's suggestion .
+Turn 341, A (PhD): Yeah . Yeah .
+Turn 342, D (Professor): So , um {disfmarker}
+Turn 343, B (PhD): Yeah .
+Turn 344, D (Professor): Yeah . So . So it could just be that h treating them equally , tea treating two streams equally is just {disfmarker} just not the right thing to do . Of course it 's potentially opening a can of worms because , you know , maybe it should be a different {vocalsound} number for {disfmarker} for each {vocalsound} kind of {pause} test set , or something ,
+Turn 345, A (PhD): Mm - hmm .
+Turn 346, D (Professor): but {disfmarker} OK .
+Turn 347, A (PhD): Yeah .
+Turn 348, D (Professor): So I guess the other thing is to take {disfmarker} you know {disfmarker} if one were to take , uh , you know , a couple of the most successful of these ,
+Turn 349, A (PhD): Yeah , and test across everything .
+Turn 350, D (Professor): and uh {disfmarker} Yeah , try all these different tests .
+Turn 351, A (PhD): Mmm .
+Turn 352, B (PhD): Yeah .
+Turn 353, A (PhD): Yeah .
+Turn 354, D (Professor): Alright . Uh .
+Turn 355, A (PhD): So , the next point , yeah , we 've had some discussion with Steve and Shawn , um , about their um , uh , articulatory stuff , um . So we 'll perhaps start something next week .
+Turn 356, D (Professor): Mm - hmm .
+Turn 357, A (PhD): Um , discussion with Hynek , Sunil and Pratibha for trying to plug in their our {disfmarker} our networks with their {disfmarker} within their block diagram , uh , where to plug in the {disfmarker} the network , uh , after the {disfmarker} the feature , before as um a as a plugin or as a anoth another path , discussion about multi - band and TRAPS , um , actually Hynek would like to see , perhaps if you remember the block diagram there is , uh , temporal LDA followed b by a spectral LDA for each uh critical band . And he would like to replace these by a network which would , uh , make the system look like a TRAP . Well , basically , it would be a TRAP system . Basically , this is a TRAP system {disfmarker} kind of TRAP system , I mean , but where the neural network are replaced by LDA . Hmm . {vocalsound} Um , yeah , and about multi - band , uh , I started multi - band MLP trainings , um mmh {comment} Actually , I w I w hhh {comment} prefer to do exactly what I did when I was in Belgium . So I take exactly the same configurations , seven bands with nine frames of context , and we just train on TIMIT , and on the large database , so , with SPINE and everything . And , mmm , I 'm starting to train also , networks with larger contexts . So , this would {disfmarker} would be something between TRAPS and multi - band because we still have quite large bands , and {disfmarker} but with a lot of context also . So Um Yeah , we still have to work on Finnish , um , basically , to make a decision on which MLP can be the best across the different languages . For the moment it 's the TIMIT network , and perhaps the network trained on everything . So . Now we can test these two networks on {disfmarker} with {disfmarker} with delta and large networks . Well , test them also on Finnish
+Turn 358, B (PhD): Mmm .
+Turn 359, A (PhD): and see which one is the {disfmarker} the {disfmarker} the best . Uh , well , the next part of the document is , well , basically , a kind of summary of what {disfmarker} everything that has been done . So . We have seventy - nine M L Ps trained on one , two , three , four , uh , three , four , five , six , seven ten {disfmarker} on ten different databases .
+Turn 360, D (Professor): Mm - hmm .
+Turn 361, A (PhD): Uh , the number of frames is bad also , so we have one million and a half for some , three million for other , and six million for the last one . Uh , yeah ! {comment} As we mentioned , TIMIT is the only that 's hand - labeled , and perhaps this is what makes the difference . Um . Yeah , the other are just Viterbi - aligned . So these seventy - nine MLP differ on different things . First , um with respect to the on - line normalization , there are {disfmarker} that use bad on - line normalization , and other good on - line normalization . Um . With respect to the features , with respect to the use of delta or no , uh with respect to the hidden layer size and to the targets . Uh , but of course we don't have all the combination of these different parameters Um . s What 's this ? We only have two hundred eighty six different tests And no not two thousand .
+Turn 362, D (Professor):  Ugh ! I was impressed boy , two thousand .
+Turn 363, A (PhD): Yeah .
+Turn 364, B (PhD): Ah , yes .
+Turn 365, D (Professor): OK .
+Turn 366, B (PhD): I say this morning that @ @ thought it was the {disfmarker}
+Turn 367, D (Professor): Alright , now I 'm just slightly impressed , OK .
+Turn 368, A (PhD): Um . Yeah , basically the observation is what we discussed already . The MSG problem , um , the fact that the MLP trained on target task decreased the error rate . but when the M - MLP is trained on the um {disfmarker} is not trained on the target task , it increased the error rate compared to using straight features . Except if the features are bad {disfmarker} uh , actually except if the features are not correctly on - line normalized . In this case the tandem is still better even if it 's trained on {disfmarker} not on the target digits .
+Turn 369, D (Professor): Yeah . So it sounds like {vocalsound} yeah , the net corrects some of the problems with some poor normalization .
+Turn 370, A (PhD): Yeah .
+Turn 371, D (Professor): But if you can do good normalization it 's {disfmarker} it 's uh {disfmarker} OK .
+Turn 372, A (PhD): Yeah .
+Turn 373, B (PhD): Yeah .
+Turn 374, A (PhD): Uh , so the fourth point is , yeah , the TIMIT plus noise seems to be the training set that gives better {disfmarker} the best network .
+Turn 375, D (Professor): So So - Let me {disfmarker} bef before you go on to the possible issues .
+Turn 376, A (PhD): Mm - hmm .
+Turn 377, D (Professor): So , on the MSG uh problem um , I think that in {disfmarker} in the {disfmarker} um , in the short {pause} time {pause} solution um , that is , um , trying to figure out what we can proceed forward with to make the greatest progress ,
+Turn 378, A (PhD): Mm - hmm .
+Turn 379, D (Professor): uh , much as I said with JRASTA , even though I really like JRASTA and I really like MSG ,
+Turn 380, A (PhD): Mm - hmm .
+Turn 381, D (Professor): I think it 's kind of in category that it 's , it {disfmarker} it may be complicated .
+Turn 382, A (PhD): Yeah .
+Turn 383, D (Professor): And uh it might be {disfmarker} if someone 's interested in it , uh , certainly encourage anybody to look into it in the longer term , once we get out of this particular rush {pause} uh for results .
+Turn 384, A (PhD): Mm - hmm .
+Turn 385, D (Professor): But in the short term , unless you have some {disfmarker} some s strong idea of what 's wrong ,
+Turn 386, A (PhD): I don't know at all but I 've {disfmarker} perhaps {disfmarker} I have the feeling that it 's something that 's quite {disfmarker} quite simple or just like nnn , no high - pass filter
+Turn 387, D (Professor): Yeah , probably .
+Turn 388, A (PhD): or {disfmarker} Mmm . Yeah . {pause} My {disfmarker} But I don't know .
+Turn 389, D (Professor): There 's supposed to {disfmarker} well MSG is supposed to have a an on - line normalization though , right ?
+Turn 390, A (PhD): It 's {disfmarker} There is , yeah , an AGC - kind of AGC . Yeah . {vocalsound} Yeah . Yeah .
+Turn 391, D (Professor): Yeah , but also there 's an on - line norm besides the AGC , there 's an on - line normalization that 's supposed to be uh , yeah ,
+Turn 392, A (PhD): Mmm .
+Turn 393, D (Professor): taking out means and variances and so forth . So .
+Turn 394, A (PhD): Yeah .
+Turn 395, D (Professor): In fac in fact the on - line normalization that we 're using came from the MSG design ,
+Turn 396, A (PhD): Um .
+Turn 397, D (Professor): so it 's {disfmarker}
+Turn 398, A (PhD): Yeah , but {disfmarker} Yeah . But this was the bad on - line normalization . Actually . Uh . Are your results are still with the bad {disfmarker} the bad {disfmarker}
+Turn 399, B (PhD): Maybe , may {disfmarker} No ? With the better {disfmarker}
+Turn 400, A (PhD): With the O - OLN - two ?
+Turn 401, B (PhD): No ?
+Turn 402, A (PhD): Ah yeah , you have {disfmarker} you have OLN - two ,
+Turn 403, B (PhD): Oh ! Yeah , yeah , yeah ! With " two " , with " on - line - two " .
+Turn 404, A (PhD): yeah .
+Turn 405, B (PhD): Yeah , yeah ,
+Turn 406, D (Professor): " On - line - two " is good .
+Turn 407, A (PhD): So it 's , is the good yeah .
+Turn 408, B (PhD): yeah . Yep , it 's a good .
+Turn 409, D (Professor): " Two " is good ?
+Turn 410, A (PhD): And {disfmarker}
+Turn 411, D (Professor): No , " two " is bad .
+Turn 412, A (PhD): Yeah .
+Turn 413, B (PhD): Well , actually , it 's good with the ch with the good .
+Turn 414, D (Professor): OK . Yeah . So {disfmarker} Yeah , I {disfmarker} I agree . It 's probably something simple uh , i if {disfmarker} if uh someone , you know , uh , wants to play with it for a little bit . I mean , you 're gonna do what you 're gonna do
+Turn 415, A (PhD): Mmm .
+Turn 416, D (Professor): but {disfmarker} but my {disfmarker} my guess would be that it 's something that is a simple thing that could take a while to find .
+Turn 417, A (PhD): But {disfmarker} Yeah . Mmm . I see , yeah .
+Turn 418, D (Professor): Yeah .
+Turn 419, A (PhD): And {disfmarker}
+Turn 420, D (Professor): Uh . {comment} And the other {disfmarker} the results uh , observations two and three , Um , is
+Turn 421, A (PhD): Mmm .
+Turn 422, D (Professor): uh {disfmarker} Yeah , that 's pretty much what we 've seen . That 's {disfmarker} that {disfmarker} what we were concerned about is that if it 's not on the target task {disfmarker} If it 's on the target task then it {disfmarker} it {disfmarker} it helps to have the MLP transforming it .
+Turn 423, A (PhD): Mmm .
+Turn 424, D (Professor): If it uh {disfmarker} if it 's not on the target task , then , depending on how different it is , uh you can get uh , a reduction in performance .
+Turn 425, A (PhD): Mmm .
+Turn 426, D (Professor): And the question is now how to {disfmarker} how to get one and not the other ? Or how to {disfmarker} how to ameliorate the {disfmarker} the problems .
+Turn 427, A (PhD): Mmm .
+Turn 428, D (Professor): Um , because it {disfmarker} it certainly does {disfmarker} is nice to have in there , when it {disfmarker} {vocalsound} when there is something like the training data .
+Turn 429, A (PhD): Mm - hmm . Um . Yeah . So , {pause} the {disfmarker} the reason {disfmarker} Yeah , the reason is that the {disfmarker} perhaps the target {disfmarker} the {disfmarker} the task dependency {disfmarker} the language dependency , {vocalsound} and the noise dependency {disfmarker}
+Turn 430, D (Professor): So that 's what you say th there . I see .
+Turn 431, A (PhD): Well , the e e But this is still not clear because , um , I {disfmarker} I {disfmarker} I don't think we have enough result to talk about the {disfmarker} the language dependency . Well , the TIMIT network is still the best but there is also an the other difference , the fact that it 's {disfmarker} it 's hand - labeled .
+Turn 432, D (Professor): Hey ! Um , just {disfmarker} you can just sit here . Uh , I d I don't think we want to mess with the microphones but it 's uh {disfmarker} Just uh , have a seat . Um . s Summary of the first uh , uh forty - five minutes is that some stuff work and {disfmarker} works , and some stuff doesn't OK ,
+Turn 433, A (PhD): We still have uh {pause} this {disfmarker} One of these perhaps ?
+Turn 434, B (PhD): Yeah .
+Turn 435, A (PhD): Mm - hmm . 
+Turn 436, D (Professor): Yeah , I guess we can do a little better than that but {disfmarker} {vocalsound} I think if you {disfmarker} if you start off with the other one , actually , that sort of has it in words and then th that has it the {pause} associated results .
+Turn 437, B (PhD): Um .
+Turn 438, D (Professor): OK . So you 're saying that um , um , although from what we see , yes there 's what you would expect in terms of a language dependency and a noise dependency . That is , uh , when the neural net is trained on one of those and tested on something different , we don't do as well as in the target thing . But you 're saying that uh , it is {disfmarker} Although that general thing is observable so far , there 's something you 're not completely convinced about . And {disfmarker} and what is that ? I mean , you say " not clear yet " . What {disfmarker} what do you mean ?
+Turn 439, A (PhD): Uh , mmm , uh , {comment} I mean , that the {disfmarker} the fact that s Well , for {disfmarker} for TI - digits the TIMIT net is the best ,  which is the English net .
+Turn 440, D (Professor): Mm - hmm .
+Turn 441, A (PhD): But the other are slightly worse . But you have two {disfmarker} two effects , the effect of changing language and the effect of training on something that 's {pause} Viterbi - aligned instead of hand {disfmarker} hand - labeled .
+Turn 442, B (PhD): Yeah .
+Turn 443, A (PhD): So . Um . Yeah .
+Turn 444, D (Professor): Do you think the alignments are bad ? I mean , have you looked at the alignments at all ? What the Viterbi alignment 's doing ?
+Turn 445, A (PhD): Mmm . I don't {disfmarker} I don't know . Did - did you look at the Spanish alignments Carmen ?
+Turn 446, B (PhD): Mmm , no .
+Turn 447, D (Professor): Might be interesting to look at it . Because , I mean , that is just looking but um , um {disfmarker} It 's not clear to me you necessarily would do so badly from a Viterbi alignment . It depends how good the recognizer is
+Turn 448, A (PhD): Mm - hmm .
+Turn 449, D (Professor): that 's {disfmarker} that {disfmarker} the {disfmarker} the engine is that 's doing the alignment .
+Turn 450, A (PhD): Yeah . But {disfmarker} Yeah . But , perhaps it 's not really the {disfmarker} the alignment that 's bad but the {disfmarker} just the ph phoneme string that 's used for the alignment
+Turn 451, D (Professor): Aha !
+Turn 452, A (PhD): Mmm .
+Turn 453, B (PhD): Yeah . 
+Turn 454, D (Professor): The pronunciation models and so forth
+Turn 455, A (PhD): I mean {pause} for {disfmarker} We {disfmarker} It 's single pronunciation , uh {disfmarker}
+Turn 456, D (Professor): Aha .
+Turn 457, A (PhD): French {disfmarker} French s uh , phoneme strings were corrected manually
+Turn 458, D (Professor): I see .
+Turn 459, A (PhD): so we asked people to listen to the um {disfmarker} the sentence and we gave the phoneme string and they kind of correct them . But still ,  there {disfmarker} there might be errors just in the {disfmarker} in {disfmarker} in the ph string of phonemes . Mmm . Um . Yeah , so this is not really the Viterbi alignment ,  in fact , yeah . Um , the third {disfmarker} The third uh issue is the noise dependency perhaps but , well , this is not clear yet because all our nets are trained on the same noises and {disfmarker}
+Turn 460, D (Professor): I thought some of the nets were trained with SPINE and so forth . So it {disfmarker} And that has other noise .
+Turn 461, A (PhD): Yeah . So {disfmarker} Yeah . But {disfmarker} Yeah . Results are only coming for {disfmarker} for this net . Mmm .
+Turn 462, D (Professor): OK , yeah , just don't {disfmarker} just need more {disfmarker} more results there with that @ @ .
+Turn 463, A (PhD): Yeah . Um . So . Uh , from these results we have some questions with answers . What should be the network input ? Um , PLP work as well as MFCC , I mean . Um . But it seems impor important to use the delta . Uh , with respect to the network size , there 's one experiment that 's still running and we should have the result today , comparing network with five hundred and {pause} one thousand units . So , nnn , still no answer actually .
+Turn 464, D (Professor): Hm - hmm .
+Turn 465, A (PhD): Uh , the training set , well , some kind of answer . We can , we can tell which training set gives the best result , but {vocalsound} we don't know exactly why . Uh , so .
+Turn 466, D (Professor): Uh . Right , I mean the multi - English so far is {disfmarker} is the best .
+Turn 467, A (PhD): Yeah .
+Turn 468, D (Professor): " Multi - multi - English " just means " TIMIT " ,
+Turn 469, A (PhD): Yeah .
+Turn 470, D (Professor): right ?
+Turn 471, B (PhD): Yeah .
+Turn 472, D (Professor): So uh That 's {disfmarker} Yeah . So . And {disfmarker} and when you add other things in to {disfmarker} to broaden it , it gets worse {pause} uh typically .
+Turn 473, A (PhD): Mmm . Mm - hmm .
+Turn 474, D (Professor): Yeah .
+Turn 475, A (PhD): Then uh some questions without answers .
+Turn 476, D (Professor): OK .
+Turn 477, A (PhD): Uh , training set , um ,
+Turn 478, D (Professor): Uh - huh .
+Turn 479, A (PhD): uh , training targets {disfmarker}
+Turn 480, D (Professor): I like that . The training set is both questions , with answers and without answers .
+Turn 481, A (PhD): It 's {disfmarker} Yeah . Yeah .
+Turn 482, D (Professor): It 's sort of , yes {disfmarker} it 's mul it 's multi - uh - purpose .
+Turn 483, A (PhD): Yeah .
+Turn 484, D (Professor): OK .
+Turn 485, A (PhD): Uh , training s Right . So {disfmarker} Yeah , the training targets actually , the two of the main issues perhaps are still the language dependency {vocalsound} and the noise dependency . And perhaps to try to reduce the language dependency , we should focus on finding some other kind of training targets .
+Turn 486, D (Professor): Mm - hmm .
+Turn 487, A (PhD): And labeling s labeling seems important uh , because of TIMIT results .
+Turn 488, D (Professor): Mm - hmm .
+Turn 489, A (PhD): Uh . For moment you use {disfmarker} we use phonetic targets but we could also use articulatory targets , soft targets , and perhaps even , um use networks that doesn't do classification but just regression so uh , train to have neural networks that um , um , uh ,
+Turn 490, D (Professor): Mm - hmm .
+Turn 491, A (PhD): does a regression and well , basically com com compute features and noit not , nnn , features without noise . I mean uh , transform the fea noisy features {vocalsound} in other features that are not noisy . But continuous features . Not uh uh , hard targets .
+Turn 492, D (Professor): Mm - hmm . Mm - hmm .
+Turn 493, A (PhD): Uh {disfmarker}
+Turn 494, D (Professor): Yeah , that {pause} seems like a good thing to do , probably ,  not uh again a short - term sort of thing .
+Turn 495, A (PhD): Yeah .
+Turn 496, D (Professor): I mean one of the things about that is that um it 's {disfmarker} e u the ri I guess the major risk you have there of being {disfmarker} is being dependent on {disfmarker} very dependent on the kind of noise and {disfmarker} and so forth .
+Turn 497, A (PhD): Yeah . f But , yeah .
+Turn 498, D (Professor): Uh . But it 's another thing to try .
+Turn 499, A (PhD): So , this is w w i wa wa this is one thing , this {disfmarker} this could be {disfmarker} could help {disfmarker} could help perhaps to reduce language dependency and for the noise part um we could combine this with other approaches , like , well , the Kleinschmidt approach . So the d the idea of putting all the noise that we can find inside a database . I think Kleinschmidt was using more than fifty different noises to train his network ,
+Turn 500, B (PhD): Yeah .
+Turn 501, D (Professor): Mm - hmm .
+Turn 502, A (PhD): and {disfmarker} So this is one {vocalsound} approach and the other is multi - band {vocalsound} {vocalsound} uh , that I think is more robust to the noisy changes .
+Turn 503, D (Professor): Mm - hmm . Mm - hmm .
+Turn 504, A (PhD): So perhaps , I think something like multi - band trained on a lot of noises with uh , features - based targets could {disfmarker} could {disfmarker} could help .
+Turn 505, D (Professor): Yeah , if you {disfmarker} i i It 's interesting thought maybe if you just trained up {disfmarker} I mean w yeah , one {disfmarker} one fantasy would be you have something like articulatory targets and you have {pause} um some reasonable database , um but then {disfmarker} which is um {vocalsound} copied over many times with a range of different noises ,
+Turn 506, A (PhD): Mm - hmm .
+Turn 507, D (Professor): And uh {disfmarker} {vocalsound} If {disfmarker} Cuz what you 're trying to {pause} do is come up with a {disfmarker} a core , reasonable feature set which is then gonna be used uh , by the {disfmarker} the uh HMM {pause} system .
+Turn 508, A (PhD): Mm - hmm .
+Turn 509, D (Professor): So . Yeah , OK .
+Turn 510, A (PhD): So , um , yeah . The future work is , {pause} well , try to connect to the {disfmarker} to make {disfmarker} to plug in the system to the OGI system . Um , there are still open questions there , where to put the MLP basically .
+Turn 511, D (Professor): Mm - hmm .
+Turn 512, A (PhD): Um .
+Turn 513, D (Professor): And I guess , you know , the {disfmarker} the {disfmarker} the real open question , I mean , e u there 's lots of open questions , but one of the core quote {comment} " open questions " for that is um , um , if we take the uh {disfmarker} you know , the best ones here , maybe not just the best one , but the best few or something {disfmarker} You want the most promising group from these other experiments . Um , how well do they do over a range of these different tests , not just the Italian ?
+Turn 514, A (PhD): Mmm ,
+Turn 515, D (Professor): Um . And y
+Turn 516, A (PhD): Yeah , yeah .
+Turn 517, D (Professor): y {pause} Right ? And then um {disfmarker} then see , {pause} again , how {disfmarker} We know that there 's a mis there 's a uh {disfmarker} a {disfmarker} a loss in performance when the neural net is trained on conditions that are different than {disfmarker} than , uh we 're gonna test on , but well , if you look over a range of these different tests um , how well do these different ways of combining the straight features with the MLP features , uh stand up over that range ?
+Turn 518, B (PhD): Mm - hmm .
+Turn 519, D (Professor): That 's {disfmarker} that {disfmarker} that seems like the {disfmarker} the {disfmarker} the real question . And if you know that {disfmarker} So if you just take PLP with uh , the double - deltas . Assume that 's the p the feature . look at these different ways of combining it . And uh , take {disfmarker} let 's say , just take uh multi - English cause that works pretty well for the training .
+Turn 520, A (PhD): Mm - hmm .
+Turn 521, D (Professor): And just look {disfmarker} take that case and then look over all the different things . How does that {disfmarker} How does that compare between the {disfmarker}
+Turn 522, A (PhD): So all the {disfmarker} all the test sets you mean , yeah .
+Turn 523, B (PhD): Yeah .
+Turn 524, D (Professor): All the different test sets ,
+Turn 525, A (PhD): And {disfmarker}
+Turn 526, D (Professor): and for {disfmarker} and for the couple different ways that you have of {disfmarker} of {disfmarker} of combining them .
+Turn 527, A (PhD): Yeah .
+Turn 528, D (Professor): Um . {pause} How well do they stand up , over the {disfmarker}
+Turn 529, A (PhD): Mmm . And perhaps doing this for {disfmarker} cha changing the variance of the streams and so on {pause} getting different scaling {disfmarker}
+Turn 530, B (PhD): Mm - hmm .
+Turn 531, D (Professor): That 's another possibility if you have time , yeah . Yeah .
+Turn 532, A (PhD): Um . Yeah , so thi this sh would be more working on the MLP as an additional path instead of an insert to the {disfmarker} to their diagram .
+Turn 533, D (Professor): 
+Turn 534, A (PhD): Cuz {disfmarker} Yeah . Perhaps the insert idea is kind of strange because nnn , they {disfmarker} they make LDA and then we will again add a network does discriminate anal nnn , that discriminates ,
+Turn 535, D (Professor): Yeah . {pause} It 's a little strange
+Turn 536, A (PhD): or {disfmarker} ? Mmm ?
+Turn 537, D (Professor): but on the other hand they did it before .
+Turn 538, A (PhD): Mmm . And {disfmarker} and {disfmarker} and
+Turn 539, D (Professor): Um the
+Turn 540, A (PhD): yeah . And because also perhaps we know that the {disfmarker} when we have very good features the MLP doesn't help . So . I don't know .
+Turn 541, D (Professor): Um , the other thing , though , is that um {disfmarker} So . Uh , we {disfmarker} we wanna get their path running here , right ? If so , we can add this other stuff .
+Turn 542, A (PhD): Um .
+Turn 543, D (Professor): as an additional path right ?
+Turn 544, A (PhD): Yeah , the {disfmarker} the way we want to do {disfmarker}
+Turn 545, D (Professor): Cuz they 're doing LDA {pause} RASTA .
+Turn 546, A (PhD): The d What ?
+Turn 547, D (Professor): They 're doing LDA RASTA ,
+Turn 548, A (PhD): Yeah , the way we want to do it perhaps is to {disfmarker} just to get the VAD labels and the final features .
+Turn 549, D (Professor): yeah ?
+Turn 550, A (PhD): So they will send us the {disfmarker} Well , provide us with the feature files ,
+Turn 551, D (Professor): I see . I see .
+Turn 552, A (PhD): and with VAD uh , binary labels so that we can uh , get our MLP features and filter them with the VAD and then combine them with their f feature stream . So .
+Turn 553, D (Professor): I see . So we {disfmarker} So . First thing of course we 'd wanna do there is to make sure that when we get those labels of final features is that we get the same results as them . Without putting in a second path .
+Turn 554, A (PhD): Uh . You mean {disfmarker} Oh , yeah ! Just re re retraining r retraining the HTK ?
+Turn 555, D (Professor): Yeah just th w i i Just to make sure that we {pause} have {disfmarker} we understand properly what things are , our very first thing to do is to {disfmarker} is to double check that we get the exact same results as them on HTK .
+Turn 556, A (PhD):  Oh yeah . Yeah , OK . Mmm .
+Turn 557, B (PhD): Yeah .
+Turn 558, D (Professor): Uh , I mean , I don't know that we need to r
+Turn 559, A (PhD): Yeah .
+Turn 560, D (Professor): Um {pause} Do we need to retrain I mean we can just take the re their training files also . But . {pause} But , uh just for the testing , jus just make sure that we get the same results {pause} so we can duplicate it before we add in another {disfmarker}
+Turn 561, A (PhD): Mmm . OK .
+Turn 562, D (Professor): Cuz otherwise , you know , we won't know what things mean .
+Turn 563, A (PhD): Oh , yeah . OK . And um . Yeah , so fff , LogRASTA , I don't know if we want to {disfmarker} We can try {pause} networks with LogRASTA filtered features .
+Turn 564, D (Professor): Maybe .
+Turn 565, A (PhD): Mmm . I 'm sorry ? Yeah . Well {disfmarker} Yeah . But {disfmarker}
+Turn 566, D (Professor): Oh ! You know , the other thing is when you say comb I 'm {disfmarker} I 'm sorry , I 'm interrupting . {comment} that u Um , uh , when you 're talking about combining multiple features , um {disfmarker} Suppose we said , " OK , we 've got these different features and so forth , but PLP seems {pause} pretty good . " If we take the approach that Mike did and have {disfmarker}
+Turn 567, A (PhD): Mm - hmm .
+Turn 568, D (Professor): I mean , one of the situations we have is we have these different conditions . We have different languages , we have different {disfmarker} {vocalsound} different noises , Um {pause} If we have some drastically different conditions and we just train up different M L Ps {pause} with them .
+Turn 569, A (PhD): 
+Turn 570, D (Professor): And put {disfmarker} put them together . What {disfmarker} what {disfmarker} What Mike found , for the reverberation case at least , I mean {disfmarker} I mean , who knows if it 'll work for these other ones . That you did have nice interpolative effects . That is , that yes , if you knew {pause} what the reverberation condition was gonna be and you trained for that , then you got the best results . But if you had , say , a heavily - reverberation ca heavy - reverberation case and a no - reverberation case , uh , and then you fed the thing , uh something that was a modest amount of reverberation then you 'd get some result in between the two . So it was sort of {disfmarker} behaved reasonably . Is tha that a fair {disfmarker} Yeah .
+Turn 571, A (PhD): Yeah . So you {disfmarker} you think it 's perhaps better to have several M L Yeah but {disfmarker}
+Turn 572, D (Professor): It works better if {pause} what ?
+Turn 573, A (PhD): Yea
+Turn 574, D (Professor): I see . Well , see , i oc You were doing some something that was {disfmarker} So maybe the analogy isn't quite right . You were doing something that was in way a little better behaved . You had reverb for a single variable which was re uh , uh , reverberation . Here the problem seems to be is that we don't have a hug a really huge net with a really huge amount of training data . But we have s f {pause} for this kind of task , I would think , {pause} sort of a modest amount . I mean , a million frames actually isn't that much . We have a modest amount of {disfmarker} of uh training data from a couple different conditions , and then uh {disfmarker} in {disfmarker} yeah , that {disfmarker} and the real situation is that there 's enormous variability that we anticipate in the test set in terms of language , and noise type uh , and uh , {pause} uh , channel characteristic , sort of all over the map . A bunch of different dimensions . And so , I 'm just concerned that we don't really have {pause} um , the data to train up {disfmarker} I mean one of the things that we were seeing is that when we added in {disfmarker} we still don't have a good explanation for this , but we are seeing that we 're adding in uh , a fe few different databases and uh the performance is getting worse and uh , when we just take one of those databases that 's a pretty good one , it actually is {disfmarker} is {disfmarker} is {disfmarker} is {disfmarker} is better . And uh that says to me , yes , that , you know , there might be some problems with the pronunciation models that some of the databases we 're adding in or something like that . But one way or another {pause} we don't have uh , seemingly , the ability {pause} to represent , in the neural net of the size that we have , um , all of the variability {pause} that we 're gonna be covering . So that I 'm {disfmarker} I 'm {disfmarker} I 'm hoping that um , this is another take on the efficiency argument you 're making , which is I 'm hoping that with moderate size neural nets , uh , that uh if we {disfmarker} if they look at more constrained conditions they {disfmarker} they 'll have enough parameters to really represent them . Mm - hmm . Mm - hmm . Mm - hmm . Yeah .
+Turn 575, A (PhD): So doing both is {disfmarker} is not {disfmarker} is not right , you mean , or {disfmarker} ? Yeah .
+Turn 576, D (Professor): Yeah . I {disfmarker} I just sort of have a feeling {disfmarker}
+Turn 577, A (PhD): But {disfmarker} Yeah . Mm - hmm . 
+Turn 578, D (Professor): Yeah . I mean {disfmarker} {vocalsound} i i e The um {disfmarker} I think it 's true that the OGI folk found that using LDA {pause} RASTA , which is a kind of LogRASTA , it 's just that they have the {disfmarker} I mean it 's done in the log domain , as I recall , and it 's {disfmarker} it uh {disfmarker} it 's just that they d it 's trained up , right ? That that um benefitted from on - line normalization . So they did {disfmarker} At least in their case , it did seem to be somewhat complimentary . So will it be in our case , where we 're using the neural net ? I mean they {disfmarker} they were not {disfmarker} not using the neural net . Uh I don't know . OK , so the other things you have here are uh , trying to improve results from a single {disfmarker} Yeah . Make stuff better . OK . Uh . {vocalsound} Yeah . And CPU memory issues . Yeah . We 've been sort of ignoring that , haven't we ?
+Turn 579, A (PhD): Yeah , so I don't know .
+Turn 580, D (Professor): But {disfmarker}
+Turn 581, A (PhD): But we have to address the problem of CPU and memory we {disfmarker}
+Turn 582, D (Professor): Yeah , but I li Well , I think {disfmarker} My impression {disfmarker} You {disfmarker} you folks have been looking at this more than me . But my impression was that {vocalsound} uh , there was a {disfmarker} a {disfmarker} a {disfmarker} a strict constraint on the delay ,
+Turn 583, B (PhD): Yeah .
+Turn 584, D (Professor): but beyond that it was kind of that uh using less memory was better , and {vocalsound} using less CPU was better . Something like that ,
+Turn 585, A (PhD): Yeah , but {disfmarker}
+Turn 586, D (Professor): right ?
+Turn 587, A (PhD): Yeah . So , yeah , but we 've {disfmarker} I don't know . We have to get some reference point to where we {disfmarker} Well , what 's a reasonable number ? Perhaps be because if it 's {disfmarker} if it 's too large or {disfmarker} large or @ @ {disfmarker}
+Turn 588, D (Professor): Um , well I don't think we 're {vocalsound} um {vocalsound} completely off the wall . I mean I think that if we {disfmarker} if we have {disfmarker} Uh , I mean the ultimate fall back that we could do {disfmarker} If we find uh {disfmarker} I mean we may find that we {disfmarker} we 're not really gonna worry about the M L You know , if the MLP ultimately , after all is said and done , doesn't really help then we won't have it in .
+Turn 589, A (PhD): Mmm .
+Turn 590, D (Professor): If the MLP does , we find , help us enough in some conditions , uh , we might even have more than one MLP . We could simply say that is uh , done on the uh , server .
+Turn 591, A (PhD): Mmm .
+Turn 592, D (Professor): And it 's uh {disfmarker} We do the other manipulations that we 're doing before that . So , I {disfmarker} I {disfmarker} I think {disfmarker} I think that 's {disfmarker} {pause} that 's OK .
+Turn 593, A (PhD): And {disfmarker} Yeah .
+Turn 594, D (Professor): So I think the key thing was um , this plug into OGI . Um , what {disfmarker} what are they {disfmarker} What are they gonna be working {disfmarker} Do we know what they 're gonna be working on while we take their features ,
+Turn 595, A (PhD): They 're {disfmarker} They 're starting to wor work on some kind of multi - band .
+Turn 596, D (Professor): and {disfmarker} ?
+Turn 597, A (PhD): So . Um {disfmarker} This {disfmarker} that was Pratibha . Sunil , what was he doing , do you remember ?
+Turn 598, B (PhD): Sunil ?
+Turn 599, A (PhD): Yeah . He was doing something new or {disfmarker} ?
+Turn 600, B (PhD): I {disfmarker} I don't re I didn't remember . Maybe he 's working with {pause} neural network .
+Turn 601, A (PhD): I don't think so . Trying to tune wha networks ?
+Turn 602, B (PhD): Yeah , I think so .
+Turn 603, A (PhD): I think they were also mainly , well , working a little bit of new things , like networks and multi - band , but mainly trying to tune their {disfmarker} their system as it is now to {disfmarker} just trying to get the best from this {disfmarker} this architecture .
+Turn 604, B (PhD): Yeah .
+Turn 605, A (PhD): 
+Turn 606, D (Professor): OK . So I guess the way it would work is that you 'd get {disfmarker} There 'd be some point where you say , " OK , this is their version - one " or whatever , and we get these VAD labels and features and so forth for all these test sets from them ,
+Turn 607, A (PhD): Mm - hmm .
+Turn 608, D (Professor): and then um , uh , that 's what we work with . We have a certain level we try to improve it with this other path and then um , uh , when it gets to be uh , January some point uh , we say , " OK we {disfmarker} we have shown that we can improve this , in this way . So now uh {pause} um {pause} what 's your newest version ? " And then maybe they 'll have something that 's better and then we {disfmarker} we 'd combine it . This is always hard . I mean I {disfmarker} I {disfmarker} I used to work {pause} with uh folks who were trying to improve a good uh , HMM system with uh {disfmarker} with a neural net system and uh , it was {pause} a common problem that you 'd {disfmarker} Oh , and this {disfmarker} Actually , this is true not just for neural nets but just for {disfmarker} in general if people were {pause} working with uh , rescoring uh , N - best lists or lattices that come {disfmarker} came from uh , a mainstream recognizer . Uh , You get something from the {disfmarker} the other site at one point and you work really hard on making it better with rescoring . But they 're working really hard , too . So by the time {pause} you have uh , improved their score , they have also improved their score
+Turn 609, A (PhD): Mmm .
+Turn 610, D (Professor): and now there isn't any difference ,
+Turn 611, A (PhD): Yeah .
+Turn 612, D (Professor): because the other {disfmarker}
+Turn 613, B (PhD): Yeah .
+Turn 614, D (Professor): So , um , I guess at some point we 'll have to
+Turn 615, A (PhD): So it 's {disfmarker}
+Turn 616, D (Professor): uh {disfmarker} {comment} Uh , I {disfmarker} I don't know . I think we 're {disfmarker} we 're integrated a little more tightly than happens in a lot of those cases . I think at the moment they {disfmarker} they say that they have a better thing we can {disfmarker} we {disfmarker} e e
+Turn 617, A (PhD): Mmm .
+Turn 618, D (Professor): What takes all the time here is that th we 're trying so many things , presumably uh , in a {disfmarker} in a day we could turn around uh , taking a new set of things from them and {disfmarker} and rescoring it ,
+Turn 619, A (PhD): Mmm . Yeah . Yeah , perhaps we could .
+Turn 620, D (Professor): right ? So . Yeah . Well , OK . No , this is {disfmarker} I think this is good . I think that the most wide open thing is the issues about the uh , you know , different trainings . You know , da training targets and noises and so forth .
+Turn 621, A (PhD): Mmm . So we {disfmarker} we can for {disfmarker} we c we can forget combining multiple features and MLG perhaps ,
+Turn 622, D (Professor): That 's sort of wide open .
+Turn 623, A (PhD): or focus more on the targets and on the training data and {disfmarker} ?
+Turn 624, D (Professor): Yeah , I think for right now um , I th I {disfmarker} I really liked MSG . And I think that , you know , one of the things I liked about it is has such different temporal properties . And um , I think that there is ultimately a really good uh , potential for , you know , bringing in things with different temporal properties . Um , but um , uh , we only have limited time and there 's a lot of other things we have to look at .
+Turn 625, A (PhD): Mmm .
+Turn 626, D (Professor): And it seems like much more core questions are issues about the training set and the training targets , and fitting in uh what we 're doing with what they 're doing , and , you know , with limited time . Yeah . I think {pause} we have to start cutting down .
+Turn 627, A (PhD): Mmm .
+Turn 628, D (Professor): So uh {disfmarker} I think so , yeah . And then , you know , once we {disfmarker} Um , having gone through this {pause} process and trying many different things , I would imagine that certain things uh , come up that you are curious about uh , that you 'd not getting to and so when the dust settles from the evaluation uh , I think that would time to go back and take whatever intrigued you most , you know , got you most interested uh and uh {disfmarker} and {disfmarker} and work with it , you know , for the next round . Uh , as you can tell from these numbers uh , nothing that any of us is gonna do is actually gonna completely solve the problem .
+Turn 629, A (PhD): Mmm .
+Turn 630, D (Professor): So . So , {comment} there 'll still be plenty to do . Barry , you 've been pretty quiet .
+Turn 631, C (Grad): Just listening .
+Turn 632, D (Professor): Well I figured that , but {disfmarker} {vocalsound} That {disfmarker} what {disfmarker} what {disfmarker} what were you involved in in this primarily ?
+Turn 633, C (Grad): Um , {vocalsound} helping out {vocalsound} uh , preparing {disfmarker} Well , they 've been kind of running all the experiments and stuff and I 've been uh , uh w doing some work on the {disfmarker} on the {disfmarker} preparing all {disfmarker} all the data for them to {disfmarker} to um , train and to test on . Um Yeah . Right now , I 'm {disfmarker} I 'm focusing mainly on this final project I 'm working on in Jordan 's class .
+Turn 634, D (Professor): Ah !
+Turn 635, C (Grad): Yeah .
+Turn 636, D (Professor): I see . Right . What 's {disfmarker} what 's that ?
+Turn 637, C (Grad): Um , {vocalsound} I 'm trying to um {disfmarker} So there was a paper in ICSLP about um this {disfmarker} this multi - band um , belief - net structure . {comment} This guy did {disfmarker}
+Turn 638, D (Professor): Mm - hmm .
+Turn 639, C (Grad): uh basically it was two H M Ms with {disfmarker} with a {disfmarker} with a dependency arrow between the two H M
+Turn 640, D (Professor): Uh - huh .
+Turn 641, C (Grad): And so I wanna try {disfmarker} try coupling them instead of t having an arrow that {disfmarker} that flows from one sub - band to another sub - band . I wanna try having the arrows go both ways . And um , {vocalsound} I 'm just gonna see if {disfmarker} if that {disfmarker} that better models {pause} um , uh asynchrony in any way or um {disfmarker} {pause} Yeah .
+Turn 642, D (Professor): Oh ! OK . Well , that sounds interesting .
+Turn 643, C (Grad): Yeah .
+Turn 644, D (Professor): OK . Alright . Anything to {disfmarker} {vocalsound} you wanted to {disfmarker} No . OK . Silent partner in the {disfmarker} {vocalsound} in the meeting . Oh , we got a laugh out of him , that 's good . OK , everyone h must contribute to the {disfmarker} our {disfmarker} our sound {disfmarker} {vocalsound} sound files here . OK , so speaking of which , if we don't have anything else that we need {disfmarker} You happy with where we are ?
+Turn 645, A (PhD): Mmm .
+Turn 646, D (Professor): Know {disfmarker} know wher know where we 're going ? Uh {disfmarker}
+Turn 647, A (PhD): I think so , yeah .
+Turn 648, D (Professor): Yeah , yeah . You {disfmarker} you happy ?
+Turn 649, B (PhD): 
+Turn 650, D (Professor): You 're happy . OK everyone {pause} should be happy . OK . You don't have to be happy . You 're almost done . Yeah , yeah . OK .
+Turn 651, E (Grad): Al - actually I should mention {disfmarker} So if {disfmarker} {comment} um , about the Linux machine " Swede . "
+Turn 652, D (Professor): Yeah .
+Turn 653, E (Grad): So it looks like the um , neural net tools are installed there .
+Turn 654, A (PhD): Mmm .
+Turn 655, E (Grad): And um Dan Ellis {comment} I believe knows something about using that machine so
+Turn 656, A (PhD): Mmm .
+Turn 657, E (Grad): If people are interested in {disfmarker} in getting jobs running on that maybe I could help with that .
+Turn 658, A (PhD): Yeah , but I don't know if we really need now a lot of machines . Well . we could start computing another huge table but {disfmarker} yeah , we {disfmarker}
+Turn 659, D (Professor): Well . Yeah , I think we want a different table , at least
+Turn 660, A (PhD): Yeah , sure .
+Turn 661, D (Professor): Right ? I mean there 's {disfmarker} there 's some different things that we 're trying to get at now .
+Turn 662, A (PhD): But {disfmarker}
+Turn 663, D (Professor): But {disfmarker}
+Turn 664, A (PhD): Yeah . Mmm .
+Turn 665, D (Professor): So . Yeah , as far as you can tell , you 're actually OK on C - on CPU uh , for training and so on ? Yeah .
+Turn 666, A (PhD): Ah yeah . I think so . Well , more is always better , but mmm , I don't think we have to train a lot of networks , now that we know {disfmarker} We just select what works {pause} fine
+Turn 667, D (Professor): OK . OK .
+Turn 668, A (PhD): and try to improve this
+Turn 669, B (PhD): Yeah . to work
+Turn 670, D (Professor): And we 're OK on {disfmarker} And we 're OK on disk ?
+Turn 671, A (PhD): and {disfmarker} It 's OK , yeah . Well sometimes we have some problems .
+Turn 672, B (PhD): Some problems with the {disfmarker}
+Turn 673, D (Professor): But they 're correctable , uh problems .
+Turn 674, A (PhD): Yeah , restarting the script basically
+Turn 675, B (PhD): You know .
+Turn 676, A (PhD): and {disfmarker}
+Turn 677, D (Professor): Yes . Yeah , I 'm familiar with {vocalsound} that one , OK . Alright , so uh , {comment} {vocalsound} since uh , we didn't ha get a channel on for you , {comment} you don't have to read any digits but the rest of us will . Uh , is it on ? Well . We didn't uh {disfmarker} I think I won't touch anything cuz I 'm afraid of making the driver crash which it seems to do , {pause} pretty easily . OK , thanks . OK , so we 'll uh {disfmarker} I 'll start off the uh um connect the {disfmarker}
+Turn 678, A (PhD): My battery is low .
+Turn 679, D (Professor): Well , let 's hope it works . Maybe you should go first and see so that you 're {disfmarker} OK .
+Turn 680, B (PhD): batteries ?
+Turn 681, C (Grad): Yeah , your battery 's going down too .
+Turn 682, D (Professor): Transcript uh two {disfmarker}
+Turn 683, C (Grad): Carmen 's battery is d going down too .
+Turn 684, D (Professor): Oh , OK . Yeah . Why don't you go next then . OK . Guess we 're done . OK , uh so . Just finished digits . Yeah , so . Uh Well , it 's good . I think {disfmarker} I guess we can turn off our microphones now .
+Turn 685, C (Grad): Just pull the batteries out .

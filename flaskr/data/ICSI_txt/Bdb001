@@ -1,0 +1,766 @@
+Turn 0, C (Grad): Yeah , we had a long discussion about how much w how easy we want to make it for people to bleep things out . So {disfmarker} Morgan wants to make it hard .
+Turn 1, D (PhD): It {disfmarker} it doesn't {disfmarker}
+Turn 2, C (Grad): Did {disfmarker} did {disfmarker} did it {disfmarker} ? I didn't even check yesterday whether it was moving .
+Turn 3, D (PhD): It didn't move yesterday either when I started it .
+Turn 4, C (Grad): So .
+Turn 5, D (PhD): So I don't know if it doesn't like both of us {disfmarker}
+Turn 6, C (Grad): Channel three ? Channel three ?
+Turn 7, D (PhD): You know , I discovered something yesterday on these , um , wireless ones .
+Turn 8, B (Grad): Channel two .
+Turn 9, C (Grad): Mm - hmm ?
+Turn 10, D (PhD): You can tell if it 's picking up {pause} breath noise and stuff .
+Turn 11, C (Grad): Yeah , it has a little indicator on it {disfmarker} on the AF .
+Turn 12, D (PhD): Mm - hmm . So if you {disfmarker} yeah , if you breathe under {disfmarker} breathe and then you see AF go off , then you know {pause} it 's p picking up your mouth noise .
+Turn 13, F (PhD): Oh , that 's good . Cuz we have a lot of breath noises .
+Turn 14, C (Grad): Yep . Test .
+Turn 15, F (PhD): In fact , if you listen to just the channels of people not talking , it 's like " @ @ " . It 's very disgust
+Turn 16, C (Grad): What ? Did you see Hannibal recently or something ?
+Turn 17, F (PhD): Sorry . Exactly . It 's very disconcerting . OK . So , um ,
+Turn 18, C (Grad): 
+Turn 19, F (PhD): I was gonna try to get out of here , like , in half an hour , um , cuz I really appreciate people coming , and {vocalsound} the main thing that I was gonna ask people to help with today is {pause} to give input on what kinds of database format we should {pause} use in starting to link up things like word transcripts and annotations of word transcripts , so anything that transcribers or discourse coders or whatever put in the signal , {vocalsound} with time - marks for , like , words and phone boundaries and all the stuff we get out of the forced alignments and the recognizer . So , we have this , um {disfmarker} I think a starting point is clearly the {disfmarker} the channelized {pause} output of Dave Gelbart 's program , which Don brought a copy of ,
+Turn 20, C (Grad): Yeah . Yeah , I 'm {disfmarker} I 'm familiar with that . I mean , we {disfmarker} I sort of already have developed an XML format for this sort of stuff .
+Turn 21, F (PhD): um , which {disfmarker}
+Turn 22, D (PhD): Can I see it ?
+Turn 23, C (Grad): And so the only question {disfmarker} is it the sort of thing that you want to use or not ? Have you looked at that ? I mean , I had a web page up .
+Turn 24, F (PhD): Right . So ,
+Turn 25, C (Grad): So {disfmarker}
+Turn 26, F (PhD): I actually mostly need to be able to link up , or {disfmarker} I it 's {disfmarker} it 's a question both of what the representation is and {disfmarker}
+Turn 27, C (Grad): You mean , this {disfmarker} I guess I am gonna be standing up and drawing on the board .
+Turn 28, F (PhD): OK , yeah . So you should , definitely .
+Turn 29, C (Grad): Um , so {disfmarker} so it definitely had that as a concept . So tha it has a single time - line ,
+Turn 30, F (PhD): Mm - hmm .
+Turn 31, C (Grad): and then you can have lots of different sections , each of which have I Ds attached to it , and then you can refer from other sections to those I Ds , if you want to . So that , um {disfmarker} so that you start with {disfmarker} with a time - line tag . " Time - line " . And then you have a bunch of times . I don't e I don't remember exactly what my notation was ,
+Turn 32, A (PhD): Oh , I remember seeing an example of this .
+Turn 33, C (Grad): but it {disfmarker}
+Turn 34, F (PhD): Right , right .
+Turn 35, A (PhD): Yeah .
+Turn 36, C (Grad): Yeah , " T equals one point three two " , uh {disfmarker} And then I {disfmarker} I also had optional things like accuracy , and then " ID equals T one , uh , one seven " . And then , {nonvocalsound} I also wanted to {disfmarker} to be i to be able to not specify specifically what the time was and just have a stamp .
+Turn 37, F (PhD): Right .
+Turn 38, C (Grad): Yeah , so these are arbitrary , assigned by a program , not {disfmarker} not by a user . So you have a whole bunch of those . And then somewhere la further down you might have something like an utterance tag which has " start equals T - seventeen , end equals T - eighteen " . So what that 's saying is , we know it starts at this particular time . We don't know when it ends .
+Turn 39, F (PhD): OK .
+Turn 40, C (Grad): Right ? But it ends at this T - eighteen , which may be somewhere else . We say there 's another utterance . We don't know what the t time actually is but we know that it 's the same time as this end time .
+Turn 41, A (PhD): Mmm .
+Turn 42, C (Grad): You know , thirty - eight , whatever you want .
+Turn 43, A (PhD): So you 're essentially defining a lattice .
+Turn 44, C (Grad): OK . Yes , exactly .
+Turn 45, A (PhD): Yeah .
+Turn 46, C (Grad): And then , uh {disfmarker} and then these also have I Ds . Right ? So you could {disfmarker} you could have some sort of other {disfmarker} other tag later in the file that would be something like , um , oh , I don't know , {comment} uh , {nonvocalsound} " noise - type equals {nonvocalsound} door - slam " . You know ? And then , uh , {nonvocalsound} you could either say " time equals a particular time - mark " or you could do other sorts of references . So {disfmarker} or {disfmarker} or you might have a prosody {disfmarker} " Prosody " right ? D ? T ? D ? T ? T ?
+Turn 47, F (PhD): It 's an O instead of an I , but the D is good .
+Turn 48, C (Grad): You like the D ? That 's a good D .
+Turn 49, F (PhD): Yeah .
+Turn 50, C (Grad): Um , you know , so you could have some sort of type here , and then you could have , um {disfmarker} the utterance that it 's referring to could be U - seventeen or something like that .
+Turn 51, F (PhD): OK . So , I mean , that seems {disfmarker} that seems g great for all of the encoding of things with time and ,
+Turn 52, C (Grad): Oh , well .
+Turn 53, F (PhD): um {disfmarker} I {disfmarker} I guess my question is more , uh , what d what do you do with , say , a forced alignment ?
+Turn 54, A (PhD): How - how
+Turn 55, F (PhD): I mean you 've got all these phone labels , and what do you do if you {disfmarker} just conceptually , if you get , um , transcriptions where the words are staying but the time boundaries are changing , cuz you 've got a new recognition output , or s sort of {disfmarker} what 's the , um , sequence of going from the waveforms that stay the same , the transcripts that may or may not change , and then the utterance which {disfmarker} where the time boundaries that may or may not change {disfmarker} ?
+Turn 56, A (PhD): Oh , that 's {disfmarker} That 's actually very nicely handled here because you could {disfmarker} you could {disfmarker} all you 'd have to change is the , {vocalsound} um , time - stamps in the time - line without {disfmarker} without , uh , changing the I Ds .
+Turn 57, F (PhD): Um . And you 'd be able to propagate all of the {disfmarker} the information ?
+Turn 58, C (Grad): Right . That 's , the who that 's why you do that extra level of indirection . So that you can just change the time - line .
+Turn 59, A (PhD): Except the time - line is gonna be huge . If you say {disfmarker}
+Turn 60, C (Grad): Yes .
+Turn 61, F (PhD): Yeah ,
+Turn 62, A (PhD): suppose you have a phone - level alignment .
+Turn 63, F (PhD): yeah , especially at the phone - level .
+Turn 64, A (PhD): You 'd have {disfmarker} you 'd have {disfmarker}
+Turn 65, F (PhD): The {disfmarker} we {disfmarker} we have phone - level backtraces .
+Turn 66, C (Grad): Yeah , this {disfmarker} I don't think I would do this for phone - level . I think for phone - level you want to use some sort of binary representation
+Turn 67, F (PhD): Um {disfmarker}
+Turn 68, C (Grad): because it 'll be too dense otherwise .
+Turn 69, F (PhD): OK . So , if you were doing that and you had this sort of companion , uh , thing that gets called up for phone - level , uh , what would that look like ?
+Turn 70, A (PhD): Why
+Turn 71, C (Grad): I would use just an existing {disfmarker} an existing way of doing it .
+Turn 72, F (PhD): How would you {disfmarker} ?
+Turn 73, A (PhD): Mmm . But {disfmarker} but why not use it for phone - level ?
+Turn 74, F (PhD): H h
+Turn 75, A (PhD): It 's just a matter of {disfmarker} it 's just a matter of it being bigger . But if you have {disfmarker} you know , barring memory limitations , or uh {disfmarker} I w I mean this is still the m
+Turn 76, C (Grad): It 's parsing limitations . I don't want to have this text file that you have to read in the whole thing to do something very simple for .
+Turn 77, A (PhD): Oh , no . You would use it only {pause} for {pause} purposes where you actually want the phone - level information , I 'd imagine .
+Turn 78, F (PhD): So you could have some file that configures how much information you want in your {disfmarker} in your XML or something .
+Turn 79, C (Grad): Right . I mean , you 'd {disfmarker} y
+Turn 80, F (PhD): Um ,
+Turn 81, A (PhD): You {disfmarker}
+Turn 82, C (Grad): I {disfmarker} I am imagining you 'd have multiple versions of this depending on the information that you want .
+Turn 83, F (PhD): cuz th it does get very bush with {disfmarker} Right .
+Turn 84, C (Grad): Um , I 'm just {disfmarker} what I 'm wondering is whether {disfmarker} I think for word - level , this would be OK .
+Turn 85, F (PhD): Yeah .
+Turn 86, C (Grad): For word - level , it 's alright .
+Turn 87, F (PhD): Yeah . Definitely .
+Turn 88, A (PhD): Mm - hmm .
+Turn 89, C (Grad): For lower than word - level , you 're talking about so much data that I just {disfmarker} I don't know . I don't know if that {disfmarker}
+Turn 90, F (PhD): I mean , we actually have {disfmarker} So , one thing that Don is doing , is we 're {disfmarker} we 're running {disfmarker} For every frame , you get a pitch value ,
+Turn 91, D (PhD): Lattices are big , too .
+Turn 92, F (PhD): and not only one pitch value but different kinds of pitch values
+Turn 93, C (Grad): Yeah , I mean , for something like that I would use P - file
+Turn 94, F (PhD): depending on {disfmarker}
+Turn 95, C (Grad): or {disfmarker} or any frame - level stuff I would use P - file .
+Turn 96, F (PhD): Meaning {disfmarker} ?
+Turn 97, C (Grad): Uh , that 's a {disfmarker} well , or something like it . It 's ICS uh , ICSI has a format for frame - level representation of features . Um .
+Turn 98, F (PhD): OK . That you could call {disfmarker} that you would tie into this representation with like an ID .
+Turn 99, C (Grad): Right . Right . Or {disfmarker} or there 's a {disfmarker} there 's a particular way in XML to refer to external resources .
+Turn 100, F (PhD): And {disfmarker} OK .
+Turn 101, C (Grad): So you would say " refer to this external file " . Um , so that external file wouldn't be in {disfmarker}
+Turn 102, F (PhD): So that might {disfmarker} that might work .
+Turn 103, D (PhD): But what {disfmarker} what 's the advantage of doing that versus just putting it into this format ?
+Turn 104, C (Grad): More compact , which I think is {disfmarker} is better .
+Turn 105, D (PhD): Uh - huh .
+Turn 106, C (Grad): I mean , if you did it at this {disfmarker}
+Turn 107, F (PhD): I mean these are long meetings and with {disfmarker} for every frame ,
+Turn 108, C (Grad): You don't want to do it with that {disfmarker} Anything at frame - level you had better encode binary
+Turn 109, F (PhD): um {disfmarker}
+Turn 110, C (Grad): or it 's gonna be really painful .
+Turn 111, A (PhD): Or you just compre I mean , I like text formats . Um , b you can always , uh , G - zip them , and , um , you know , c decompress them on the fly if y if space is really a concern .
+Turn 112, D (PhD): Yeah , I was thi I was thinking the advantage is that we can share this with other people .
+Turn 113, C (Grad): Well , but if you 're talking about one per frame , you 're talking about gigabyte - size files . You 're gonna actually run out of space in your filesystem for one file .
+Turn 114, F (PhD): These are big files . These are really {disfmarker} I mean {disfmarker}
+Turn 115, C (Grad): Right ? Because you have a two - gigabyte limit on most O Ss .
+Turn 116, A (PhD): Right , OK . I would say {disfmarker} OK , so frame - level is probably not a good idea . But for phone - level stuff it 's perfectly {disfmarker}
+Turn 117, F (PhD): And th it 's {disfmarker}
+Turn 118, A (PhD): Like phones , or syllables , or anything like that .
+Turn 119, F (PhD): Phones are every five frames though , so . Or something like that .
+Turn 120, A (PhD): But {disfmarker} but {disfmarker} but most of the frames are actually not speech . So , you know , people don't {disfmarker} v Look at it , words times the average {disfmarker} The average number of phones in an English word is , I don't know , {comment} five maybe ?
+Turn 121, F (PhD): Yeah , but we actually {disfmarker}
+Turn 122, A (PhD): So , look at it , t number of words times five . That 's not {disfmarker} that not {disfmarker}
+Turn 123, F (PhD): Oh , so you mean pause phones take up a lot of the {disfmarker} long pause phones .
+Turn 124, A (PhD): Exactly .
+Turn 125, C (Grad): Yep .
+Turn 126, A (PhD): Yeah .
+Turn 127, F (PhD): Yeah . OK . That 's true . But you do have to keep them in there . Y yeah .
+Turn 128, C (Grad): So I think it {disfmarker} it 's debatable whether you want to do phone - level in the same thing .
+Turn 129, F (PhD): OK .
+Turn 130, C (Grad): But I think , a anything at frame - level , even P - file , is too verbose .
+Turn 131, F (PhD): OK . So {disfmarker}
+Turn 132, C (Grad): I would use something tighter than P - files .
+Turn 133, F (PhD): Do you {disfmarker} Are you familiar with it ?
+Turn 134, C (Grad): So .
+Turn 135, F (PhD): I haven't seen this particular format ,
+Turn 136, A (PhD): I mean , I 've {disfmarker} I 've used them .
+Turn 137, F (PhD): but {disfmarker}
+Turn 138, A (PhD): I don't know what their structure is .
+Turn 139, F (PhD): OK .
+Turn 140, A (PhD): I 've forgot what the str
+Turn 141, D (PhD): But , wait a minute , P - file for each frame is storing a vector of cepstral or PLP values ,
+Turn 142, C (Grad): It 's whatever you want , actually .
+Turn 143, D (PhD): right ? Right .
+Turn 144, C (Grad): So that {disfmarker} what 's nice about the P - file {disfmarker} It {disfmarker} i Built into it is the concept of {pause} frames , utterances , sentences , that sort of thing , that structure . And then also attached to it is an arbitrary vector of values . And it can take different types .
+Turn 145, F (PhD): Oh .
+Turn 146, C (Grad): So it {disfmarker} th they don't all have to be floats . You know , you can have integers and you can have doubles , and all that sort of stuff .
+Turn 147, F (PhD): So that {disfmarker} that sounds {disfmarker} that sounds about what I w
+Turn 148, C (Grad): Um . Right ? And it has a header {disfmarker} it has a header format that {pause} describes it {pause} to some extent . So , the only problem with it is it 's actually storing the {pause} utterance numbers and the {pause} frame numbers in the file , even though they 're always sequential . And so it does waste a lot of space .
+Turn 149, A (PhD): Hmm .
+Turn 150, C (Grad): But it 's still a lot tighter than {disfmarker} than ASCII . And we have a lot of tools already to deal with it .
+Turn 151, F (PhD): You do ? OK . Is there some documentation on this somewhere ?
+Turn 152, C (Grad): Yeah , there 's a ton of it . Man - pages and , uh , source code , and me .
+Turn 153, F (PhD): OK , great . So , I mean , that sounds good . I {disfmarker} I was just looking for something {disfmarker} I 'm not a database person , but something sort of standard enough that , you know , if we start using this we can give it out , other people can work on it ,
+Turn 154, C (Grad): Yeah , it 's not standard .
+Turn 155, F (PhD): or {disfmarker} {comment} Is it {disfmarker} ?
+Turn 156, C (Grad): I mean , it 's something that we developed at ICSI . But , uh {disfmarker}
+Turn 157, F (PhD): But it 's {pause} been used here
+Turn 158, C (Grad): But it 's been used here
+Turn 159, F (PhD): and people 've {disfmarker}
+Turn 160, C (Grad): and {disfmarker} and , you know , we have a {pause} well - configured system that you can distribute for free , and {disfmarker}
+Turn 161, D (PhD): I mean , it must be the equivalent of whatever you guys used to store feat your computed features in , right ?
+Turn 162, F (PhD): OK .
+Turn 163, A (PhD): Yeah , th we have {disfmarker} Actually , we {disfmarker} we use a generalization of the {disfmarker} the Sphere format .
+Turn 164, D (PhD): Mmm .
+Turn 165, A (PhD): Um , but {disfmarker} Yeah , so there is something like that but it 's , um , probably not as sophist
+Turn 166, C (Grad): Well , what does H T K do for features ?
+Turn 167, D (PhD): And I think there 's {disfmarker}
+Turn 168, C (Grad): Or does it even have a concept of features ?
+Turn 169, A (PhD): They ha it has its own {disfmarker} I mean , Entropic has their own feature format that 's called , like , S - SD or some so SF or something like that .
+Turn 170, F (PhD): Yeah .
+Turn 171, C (Grad): I 'm just wondering , would it be worth while to use that instead ?
+Turn 172, D (PhD): Yeah .
+Turn 173, A (PhD): Hmm ?
+Turn 174, F (PhD): Yeah . Th - this is exactly the kind of decision {disfmarker} It 's just whatever {disfmarker}
+Turn 175, D (PhD): But , I mean , people don't typically share this kind of stuff , right ?
+Turn 176, A (PhD): Right .
+Turn 177, C (Grad): They generate their own .
+Turn 178, D (PhD): I mean {disfmarker} Yeah .
+Turn 179, F (PhD): Actually , I {disfmarker} I just {disfmarker} you know , we {disfmarker} we 've done this stuff on prosodics and three or four places have asked for those prosodic files , and we just have an ASCII , uh , output of frame - by - frame .
+Turn 180, C (Grad): Ah , right .
+Turn 181, F (PhD): Which is fine , but it gets unwieldy to go in and {disfmarker} and query these files with really huge files .
+Turn 182, C (Grad): Right .
+Turn 183, F (PhD): I mean , we could do it . I was just thinking if there 's something that {disfmarker} where all the frame values are {disfmarker}
+Turn 184, C (Grad): And a and again , if you have a {disfmarker} if you have a two - hour - long meeting , that 's gonna {disfmarker}
+Turn 185, F (PhD): Hmm ? They 're {disfmarker} they 're fair they 're quite large .
+Turn 186, C (Grad): Yeah , I mean , they 'd be emo enormous .
+Turn 187, F (PhD): And these are for ten - minute Switchboard conversations ,
+Turn 188, C (Grad): Right .
+Turn 189, F (PhD): and {disfmarker} So it 's doable , it 's just that you can only store a feature vector at frame - by - frame and it doesn't have any kind of ,
+Turn 190, D (PhD): Is {disfmarker} is the sharing part of this a pretty important {pause} consideration
+Turn 191, F (PhD): um {disfmarker}
+Turn 192, D (PhD): or does that just sort of , uh {disfmarker} a nice thing to have ?
+Turn 193, F (PhD): I {disfmarker} I don't know enough about what we 're gonna do with the data . But I thought it would be good to get something that we can {disfmarker} that other people can use or adopt for their own kinds of encoding . And just , I mean we have to use some we have to make some decision about what to do .
+Turn 194, C (Grad): Yeah .
+Turn 195, F (PhD): And especially for the prosody work , what {disfmarker} what it ends up being is you get features from the signal , and of course those change every time your alignments change . So you re - run a recognizer , you want to recompute your features , um , and then keep the database up to date .
+Turn 196, C (Grad): Right .
+Turn 197, F (PhD): Or you change a word , or you change a {vocalsound} utterance boundary segment , which is gonna happen a lot . And so I wanted something where {pause} all of this can be done in a elegant way and that if somebody wants to try something or compute something else , that it can be done flexibly . Um , it doesn't have to be pretty , it just has to be , you know , easy to use , and {disfmarker}
+Turn 198, C (Grad): Yeah , the other thing {disfmarker} We should look at ATLAS , the NIST thing ,
+Turn 199, F (PhD): Oh .
+Turn 200, A (PhD): Mmm .
+Turn 201, C (Grad): and see if they have anything at that level .
+Turn 202, F (PhD): Uh {disfmarker}
+Turn 203, C (Grad): I mean , I 'm not sure what to do about this with ATLAS , because they chose a different route . I chose something that {disfmarker} Th - there are sort of two choices . Your {disfmarker} your file format can know about {disfmarker} know that you 're talking about language {pause} and speech , which is what I chose , and time , or your file format can just be a graph representation . And then the application has to impose the structure on top . So what it looked like ATLAS chose is , they chose the other way , which was their file format is just nodes and links , and you have to interpret what they mean yourself .
+Turn 204, F (PhD): And why did you not choose that type of approach ?
+Turn 205, C (Grad): Uh , because I knew that we were doing speech , and I thought it was better if you 're looking at a raw file to be {disfmarker} t for the tags to say " it 's an utterance " , as opposed to the tag to say " it 's a link " .
+Turn 206, F (PhD): OK . OK .
+Turn 207, C (Grad): So , but {disfmarker}
+Turn 208, F (PhD): But other than that , are they compatible ? I mean , you could sort of {disfmarker}
+Turn 209, C (Grad): Yeah , they 're reasonably compatible .
+Turn 210, F (PhD): I mean , you {disfmarker} you could {disfmarker}
+Turn 211, D (PhD): You could probably translate between them .
+Turn 212, C (Grad): Yep .
+Turn 213, F (PhD): Yeah , that 's w So ,
+Turn 214, C (Grad): So , well , the other thing is if we choose to use ATLAS , which maybe we should just do , we should just throw this out before we invest a lot of time in it .
+Turn 215, F (PhD): OK . I don't {disfmarker} So this is what the meeting 's about ,
+Turn 216, C (Grad): Yeah .
+Turn 217, F (PhD): just sort of how to {disfmarker} Um , cuz we need to come up with a database like this just to do our work . And I actually don't care , as long as it 's something useful to other people , what we choose .
+Turn 218, C (Grad): Yeah .
+Turn 219, F (PhD): So maybe it 's {disfmarker} maybe oth you know , if {disfmarker} if you have any idea of how to choose , cuz I don't .
+Turn 220, C (Grad): The only thing {disfmarker} Yeah .
+Turn 221, A (PhD): Do they already have tools ?
+Turn 222, C (Grad): I mean , I {disfmarker} I chose this for a couple reasons . One of them is that it 's easy to parse . You don't need a full XML parser . It 's very easy to just write a Perl script {pause} to parse it .
+Turn 223, A (PhD): As long as uh each tag is on one line .
+Turn 224, C (Grad): Exactly . Exactly . Which I always do .
+Turn 225, F (PhD): And you can have as much information in the tag as you want , right ?
+Turn 226, C (Grad): Well , I have it structured . Right ? So each type tag has only particular items that it can take .
+Turn 227, F (PhD): Can you {disfmarker} But you can add to those structures if you {disfmarker}
+Turn 228, C (Grad): Sure . If you have more information . So what {disfmarker} What NIST would say is that instead of doing this , you would say something like " link {nonvocalsound} start equals , um , you know , some node ID ,
+Turn 229, F (PhD): Yeah . So {disfmarker}
+Turn 230, C (Grad): end equals some other node ID " , and then " type " would be " utterance " .
+Turn 231, A (PhD): Hmm .
+Turn 232, C (Grad): You know , so it 's very similar .
+Turn 233, F (PhD): So why would it be a {disfmarker} a waste to do it this way if it 's similar enough that we can always translate it ?
+Turn 234, D (PhD): It probably wouldn't be a waste . It would mean that at some point if we wanted to switch , we 'd just have to translate everything .
+Turn 235, C (Grad): Write a translator . But it se Since they are developing a big {disfmarker}
+Turn 236, F (PhD): But it {disfmarker} but that sounds {disfmarker}
+Turn 237, D (PhD): But that 's {disfmarker} I don't think that 's a big deal .
+Turn 238, F (PhD): As long as it is {disfmarker}
+Turn 239, C (Grad): they 're developing a big infrastructure . And so it seems to me that if {disfmarker} if we want to use that , we might as well go directly to what they 're doing , rather than {disfmarker}
+Turn 240, A (PhD): If we want to {disfmarker} Do they already have something that 's {disfmarker} that would be useful for us in place ?
+Turn 241, D (PhD): Yeah . See , that 's the question . I mean , how stable is their {disfmarker} Are they ready to go ,
+Turn 242, C (Grad): The {disfmarker} I looked at it {disfmarker}
+Turn 243, D (PhD): or {disfmarker} ?
+Turn 244, C (Grad): The last time I looked at it was a while ago , probably a year ago , uh , when we first started talking about this .
+Turn 245, D (PhD): Hmm .
+Turn 246, C (Grad): And at that time at least {vocalsound} it was still not very {pause} complete . And so , specifically they didn't have any external format representation at that time . They just had the sort of conceptual {pause} node {disfmarker} uh , annotated transcription graph , which I really liked . And that 's exactly what this stuff is based on . Since then , they 've developed their own external file format , which is , uh , you know , this sort of s this sort of thing . Um , and apparently they 've also developed a lot of tools , but I haven't looked at them . Maybe I should .
+Turn 247, A (PhD): We should {disfmarker} we should find out .
+Turn 248, F (PhD): I mean , would the tools {disfmarker} would the tools run on something like this , if you can translate them anyway ?
+Turn 249, C (Grad): Um , th what would {disfmarker} would {disfmarker} would {disfmarker} what would worry me is that maybe we might miss a little detail
+Turn 250, A (PhD): It 's a hassle
+Turn 251, F (PhD): I mean , that {disfmarker} I guess it 's a question that {disfmarker}
+Turn 252, A (PhD): if {disfmarker}
+Turn 253, F (PhD): uh , yeah .
+Turn 254, C (Grad): that would make it very difficult to translate from one to the other .
+Turn 255, F (PhD): OK .
+Turn 256, A (PhD): I {disfmarker} I think if it 's conceptually close , and they already have or will have tools that everybody else will be using , I mean , {vocalsound} it would be crazy to do something s you know , separate that {disfmarker}
+Turn 257, F (PhD): OK .
+Turn 258, C (Grad): Yeah , we might as well . Yep .
+Turn 259, F (PhD): Yeah .
+Turn 260, C (Grad): So I 'll {disfmarker} I 'll take a closer look at it .
+Turn 261, F (PhD): Actually , so it 's {disfmarker} that {disfmarker} that would really be the question , is just what you would feel is in the long run the best thing .
+Turn 262, C (Grad): And {disfmarker} Right .
+Turn 263, F (PhD): Cuz {vocalsound} once we start , sort of , doing this I don't {disfmarker} we don't actually have enough time to probably have to rehash it out again
+Turn 264, C (Grad): The {disfmarker} Yep . The other thing {disfmarker} the other way that I sort of established this was as easy translation to and from the Transcriber format .
+Turn 265, F (PhD): and {disfmarker} s Right .
+Turn 266, C (Grad): Um ,
+Turn 267, F (PhD): Right .
+Turn 268, C (Grad): but {disfmarker}
+Turn 269, F (PhD): I mean , I like this . This is sort of intuitively easy to actually r read ,
+Turn 270, C (Grad): Yep .
+Turn 271, F (PhD): as easy it could {disfmarker} as it could be . But , I suppose that {pause} as long as they have a type here that specifies " utt " , um ,
+Turn 272, C (Grad): It 's almost the same .
+Turn 273, F (PhD): it 's {disfmarker} yeah , close enough that {disfmarker}
+Turn 274, C (Grad): The {disfmarker} the {disfmarker} the {disfmarker} the point is {disfmarker} with this , though , is that you can't really add any supplementary information . Right ? So if you suddenly decide that you want {disfmarker}
+Turn 275, F (PhD): You have to make a different type .
+Turn 276, C (Grad): Yeah . You 'd have to make a different type .
+Turn 277, F (PhD): So {disfmarker} Well , if you look at it and {disfmarker} Um , I guess in my mind I don't know enough {disfmarker} Jane would know better , {comment} about the {pause} types of annotations and {disfmarker} and {disfmarker} But I imagine that those are things that would {disfmarker} well , you guys mentioned this , {comment} that could span any {disfmarker} it could be in its own channel , it could span time boundaries of any type ,
+Turn 278, C (Grad): Right .
+Turn 279, F (PhD): it could be instantaneous , things like that . Um , and then from the recognition side we have backtraces at the phone - level .
+Turn 280, C (Grad): Right .
+Turn 281, F (PhD): If {disfmarker} if it can handle that , it could handle states or whatever . And then at the prosody - level we have frame {disfmarker} sort of like cepstral feature files ,
+Turn 282, C (Grad): Yep .
+Turn 283, F (PhD): uh , like these P - files or anything like that . And that 's sort of the world of things that I {disfmarker} And then we have the aligned channels , of course ,
+Turn 284, C (Grad): Right .
+Turn 285, A (PhD): It seems to me you want to keep the frame - level stuff separate .
+Turn 286, F (PhD): and {disfmarker} Yeah .
+Turn 287, A (PhD): And then {disfmarker}
+Turn 288, F (PhD): I {disfmarker} I definitely agree and I wanted to find actually a f a nicer format or a {disfmarker} maybe a more compact format than what we used before .
+Turn 289, C (Grad): Right .
+Turn 290, F (PhD): Just cuz you 've got {vocalsound} ten channels or whatever and two hours of a meeting . It 's {disfmarker} it 's a lot of {disfmarker}
+Turn 291, C (Grad): Huge .
+Turn 292, A (PhD): Now {disfmarker} now how would you {disfmarker} how would you represent , um , multiple speakers in this framework ? Were {disfmarker} You would just represent them as {disfmarker}
+Turn 293, C (Grad): Um ,
+Turn 294, A (PhD): You would have like a speaker tag or something ?
+Turn 295, C (Grad): there 's a spea speaker tag up at the top which identifies them and then each utt the way I had it is each turn or each utterance , {comment} I don't even remember now , had a speaker ID tag attached to it .
+Turn 296, A (PhD): Mm - hmm . OK .
+Turn 297, C (Grad): And in this format you would have a different tag , which {disfmarker} which would , uh , be linked to the link . So {disfmarker} so somewhere else you would have another thing {pause} that would be ,
+Turn 298, F (PhD): Yeah .
+Turn 299, C (Grad): um {disfmarker} Let 's see , would it be a node or a link ? Um {disfmarker} And so {disfmarker} so this one would have , um , an ID is link {disfmarker} {comment} link seventy - four or something like that .
+Turn 300, A (PhD): Mm - hmm .
+Turn 301, C (Grad): And then somewhere up here you would have a link that {disfmarker} that , uh , you know , was referencing L - seventy - four and had speaker Adam .
+Turn 302, A (PhD): Is i ?
+Turn 303, C (Grad): You know , or something like that .
+Turn 304, F (PhD): Actually , it 's the channel , I think , that {disfmarker}
+Turn 305, A (PhD): Well , channel or speaker or whatever .
+Turn 306, F (PhD): I mean , w yeah , channel is what the channelized output out
+Turn 307, A (PhD): It doesn't {disfmarker}
+Turn 308, C (Grad): This isn't quite right .
+Turn 309, A (PhD): Right .
+Turn 310, C (Grad): I have to look at it again .
+Turn 311, F (PhD): Yeah , but {disfmarker}
+Turn 312, A (PhD): But {disfmarker} but {disfmarker} so how in the NIST format do we express {vocalsound} a hierarchical relationship between , um , say , an utterance and the words within it ? So how do you {pause} tell {pause} that {pause} these are the words that belong to that utterance ?
+Turn 313, C (Grad): Um , you would have another structure lower down than this that would be saying they 're all belonging to this ID .
+Turn 314, A (PhD): Mm - hmm .
+Turn 315, D (PhD): So each thing refers to the {pause} utterance that it belongs to .
+Turn 316, C (Grad): Right . And then each utterance could refer to a turn ,
+Turn 317, D (PhD): So it 's {disfmarker} it 's not hi it 's sort of bottom - up .
+Turn 318, C (Grad): and each turn could refer to something higher up .
+Turn 319, F (PhD): And what if you actually have {disfmarker} So right now what you have as utterance , um , the closest thing that comes out of the channelized is the stuff between the segment boundaries that the transcribers put in or that Thilo put in , which may or may not actually be , like , a s it 's usually not {disfmarker} um , the beginning and end of a sentence , say .
+Turn 320, C (Grad): Well , that 's why I didn't call it " sentence " .
+Turn 321, F (PhD): So , right . Um , so it 's like a segment or something .
+Turn 322, C (Grad): Yeah .
+Turn 323, F (PhD): So , I mean , I assume this is possible , that if you have {disfmarker} someone annotates the punctuation or whatever when they transcribe , you can say , you know , from {disfmarker} for {disfmarker} from the c beginning of the sentence to the end of the sentence , from the annotations , this is a unit , even though it never actually {disfmarker} i It 's only a unit by virtue of the annotations {pause} at the word - level .
+Turn 324, C (Grad): Sure . I mean , so you would {disfmarker} you would have yet another tag .
+Turn 325, F (PhD): And then that would get a tag somehow .
+Turn 326, C (Grad): You 'd have another tag which says this is of type " sentence " .
+Turn 327, F (PhD): OK . OK .
+Turn 328, C (Grad): And , what {disfmarker}
+Turn 329, F (PhD): But it 's just not overtly in the {disfmarker}
+Turn 330, A (PhD): OK .
+Turn 331, F (PhD): Um , cuz this is exactly the kind of {disfmarker}
+Turn 332, A (PhD): So {disfmarker}
+Turn 333, F (PhD): I think that should be {pause} possible as long as the {disfmarker} But , uh , what I don't understand is where the {disfmarker} where in this type of file {pause} that would be expressed .
+Turn 334, C (Grad): Right . You would have another tag somewhere . It 's {disfmarker} well , there 're two ways of doing it .
+Turn 335, F (PhD): S so it would just be floating before the sentence or floating after the sentence without a time - mark .
+Turn 336, C (Grad): You could have some sort of link type {disfmarker} type equals " sentence " , and ID is " S - whatever " . And then lower down you could have an utterance . So the type is " utterance " {disfmarker} equals " utt " . And you could either say that {disfmarker} No . I don't know {disfmarker}
+Turn 337, A (PhD): So here 's the thing .
+Turn 338, C (Grad): I take that back .
+Turn 339, A (PhD): Um {disfmarker}
+Turn 340, C (Grad): Can you {disfmarker} can you say that this is part of this ,
+Turn 341, F (PhD): See , cuz it 's {disfmarker}
+Turn 342, A (PhD): Hhh .
+Turn 343, F (PhD): it 's {disfmarker}
+Turn 344, D (PhD): You would just have a r
+Turn 345, F (PhD): S
+Turn 346, C (Grad): or do you say this is part of this ? I think {disfmarker}
+Turn 347, D (PhD): You would refer up to the sentence .
+Turn 348, F (PhD): But they 're {disfmarker}
+Turn 349, A (PhD): Well , the thing {disfmarker}
+Turn 350, F (PhD): they 're actually overlapping each other , sort of .
+Turn 351, C (Grad): So {disfmarker}
+Turn 352, A (PhD): the thing is that some something may be a part of one thing for one purpose and another thing of another purpose .
+Turn 353, C (Grad): Right .
+Turn 354, A (PhD): So f
+Turn 355, F (PhD): You have to have another type then , I guess .
+Turn 356, A (PhD): s Um , well , s let 's {disfmarker} let 's ta so let 's {disfmarker}
+Turn 357, C (Grad): Well , I think I 'm {disfmarker} I think w I had better look at it again
+Turn 358, F (PhD): Yeah .
+Turn 359, A (PhD): so {disfmarker}
+Turn 360, C (Grad): because I {disfmarker} I 'm {disfmarker}
+Turn 361, F (PhD): OK . OK .
+Turn 362, A (PhD): y So for instance @ @ {comment} sup
+Turn 363, C (Grad): There 's one level {disfmarker} there 's one more level of indirection that I 'm forgetting .
+Turn 364, A (PhD): Suppose you have a word sequence and you have two different segmentations of that same word sequence . f Say , one segmentation is in terms of , um , you know , uh , sentences . And another segmentation is in terms of , um , {vocalsound} I don't know , {comment} prosodic phrases . And let 's say that they don't {pause} nest . So , you know , a prosodic phrase may cross two sentences or something .
+Turn 365, C (Grad): Right .
+Turn 366, A (PhD): I don't know if that 's true or not but {vocalsound} let 's as
+Turn 367, F (PhD): Well , it 's definitely true with the segment .
+Turn 368, A (PhD): Right .
+Turn 369, F (PhD): That 's what I {disfmarker} exactly what I meant by the utterances versus the sentence could be sort of {disfmarker}
+Turn 370, A (PhD): Yeah . So , you want to be s you want to say this {disfmarker} this word is part of that sentence and this prosodic phrase .
+Turn 371, F (PhD): Yeah .
+Turn 372, A (PhD): But the phrase is not part of the sentence
+Turn 373, F (PhD): Yeah .
+Turn 374, A (PhD): and neither is the sentence part of the phrase .
+Turn 375, F (PhD): Right .
+Turn 376, C (Grad): I I 'm pretty sure that you can do that , but I 'm forgetting the exact level of nesting .
+Turn 377, A (PhD): So , you would have to have {vocalsound} two different pointers from the word up {disfmarker} one level up , one to the sent
+Turn 378, C (Grad): So {disfmarker} so what you would end up having is a tag saying " here 's a word , and it starts here and it ends here " .
+Turn 379, A (PhD): Right .
+Turn 380, C (Grad): And then lower down you would say " here 's a prosodic boundary and it has these words in it " . And lower down you 'd have " here 's a sentence ,
+Turn 381, A (PhD): Right .
+Turn 382, F (PhD): An - Right .
+Turn 383, C (Grad): and it has these words in it " .
+Turn 384, F (PhD): So you would be able to go in and say , you know , " give me all the words in the bound in the prosodic phrase
+Turn 385, C (Grad): Yep .
+Turn 386, F (PhD): and give me all the words in the {disfmarker} " Yeah .
+Turn 387, C (Grad): So I think that 's {disfmarker} that would wor
+Turn 388, F (PhD): Um , OK .
+Turn 389, C (Grad): Let me look at it again .
+Turn 390, A (PhD): Mm - hmm . The {disfmarker} the o the other issue that you had was , how do you actually efficiently extract , um {disfmarker} find and extract information in a structure of this type ?
+Turn 391, F (PhD): OK .
+Turn 392, C (Grad): So .
+Turn 393, F (PhD): That 's good .
+Turn 394, A (PhD): So you gave some examples like {disfmarker}
+Turn 395, F (PhD): Well , uh , and , I mean , you guys might {disfmarker} I don't know if this is premature because I suppose once you get the representation you can do this , but the kinds of things I was worried about is ,
+Turn 396, A (PhD): No , that 's not clear .
+Turn 397, F (PhD): uh {disfmarker}
+Turn 398, A (PhD): I mean , yeah , you c sure you can do it ,
+Turn 399, F (PhD): Well , OK . So i if it {disfmarker}
+Turn 400, A (PhD): but can you do it sort of l l you know , it {disfmarker}
+Turn 401, F (PhD): I I mean , I can't do it , but I can {disfmarker} um ,
+Turn 402, A (PhD): y y you gotta {disfmarker} you gotta do this {disfmarker} you {disfmarker} you 're gonna want to do this very quickly
+Turn 403, C (Grad): Well {disfmarker}
+Turn 404, A (PhD): or else you 'll spend all your time sort of searching through very {vocalsound} complex data structures {disfmarker}
+Turn 405, F (PhD): Right . You 'd need a p sort of a paradigm for how to do it . But an example would be " find all the cases in which Adam started to talk while Andreas was talking and his pitch was rising , Andreas 's pitch " . That kind of thing .
+Turn 406, C (Grad): Right . I mean , that 's gonna be {disfmarker} Is the rising pitch a {pause} feature , or is it gonna be in the same file ?
+Turn 407, F (PhD): Well , the rising pitch will never be {pause} hand - annotated . So the {disfmarker} all the prosodic features are going to be automatically {disfmarker}
+Turn 408, C (Grad): But the {disfmarker} I mean , that 's gonna be hard regardless ,
+Turn 409, F (PhD): So they 're gonna be in those {disfmarker}
+Turn 410, C (Grad): right ? Because you 're gonna have to write a program that goes through your feature file and looks for rising pitches .
+Turn 411, A (PhD): Yeah .
+Turn 412, F (PhD): So {disfmarker} Right . So normally what we would do is we would say " what do we wanna assign rising pitch to ? " Are we gonna assign it to words ? Are we gonna just assign it to sort of {disfmarker} when it 's rising we have a begin - end rise representation ? But suppose we dump out this file and we say , uh , for every word we just classify it as , w you know , rise or fall or neither ?
+Turn 413, C (Grad): OK . Well , in that case you would add that to this {pause} format
+Turn 414, F (PhD): OK .
+Turn 415, C (Grad): r
+Turn 416, F (PhD): So we would basically be sort of , um , taking the format and enriching it with things that we wanna query in relation to the words that are already in the file ,
+Turn 417, C (Grad): Right .
+Turn 418, F (PhD): and then querying it .
+Turn 419, A (PhD): You want sort of a grep that 's {disfmarker} that works at the structural {disfmarker} on the structural representation .
+Turn 420, F (PhD): OK .
+Turn 421, C (Grad): You have that . There 's a {pause} standard again in XML , specifically for searching XML documents {disfmarker} structured X - XML documents , where you can specify both the content and the structural position .
+Turn 422, A (PhD): Yeah , but it 's {disfmarker} it 's not clear that that 's {disfmarker} That 's relative to the structure of the XML document ,
+Turn 423, F (PhD): If {disfmarker}
+Turn 424, A (PhD): not to the structure of what you 're representing in the document .
+Turn 425, C (Grad): You use it as a tool . You use it as a tool , not an end - user . It 's not an end - user thing .
+Turn 426, A (PhD): Right .
+Turn 427, C (Grad): It 's {disfmarker} it 's {disfmarker} you would use that to build your tool to do that sort of search .
+Turn 428, A (PhD): Right . Be Because here you 're specifying a lattice .
+Turn 429, F (PhD): Uh {disfmarker}
+Turn 430, A (PhD): So the underlying {disfmarker} that 's the underlying data structure . And you want to be able to search in that lattice .
+Turn 431, F (PhD): But as long as the {disfmarker}
+Turn 432, C (Grad): It 's a graph , but {disfmarker}
+Turn 433, A (PhD): That 's different from searching through the text .
+Turn 434, F (PhD): But it seems like as long as the features that {disfmarker}
+Turn 435, C (Grad): Well , no , no , no . The whole point is that the text and the lattice are isomorphic . They {pause} represent each other {pause} completely .
+Turn 436, A (PhD): Um {disfmarker}
+Turn 437, C (Grad): So that {disfmarker} I mean th
+Turn 438, F (PhD): That 's true if the features from your acoustics or whatever that are not explicitly in this are at the level of these types .
+Turn 439, A (PhD): Hhh .
+Turn 440, F (PhD): That {disfmarker} that if you can do that {disfmarker}
+Turn 441, C (Grad): Yeah , but that 's gonna be the trouble no matter what . Right ? No matter what format you choose , you 're gonna have the trou you 're gonna have the difficulty of relating the {disfmarker} the frame - level features {disfmarker}
+Turn 442, F (PhD): That 's right . That 's true . That 's why I was trying to figure out what 's the best format for this representation .
+Turn 443, C (Grad): Yep .
+Turn 444, F (PhD): And it 's still gonna be {disfmarker}
+Turn 445, A (PhD): Hmm .
+Turn 446, F (PhD): it 's still gonna be , uh , not direct .
+Turn 447, C (Grad): Right .
+Turn 448, F (PhD): You know , it {disfmarker} Or another example was , you know , uh , where in the language {disfmarker} where in the word sequence are people interrupting ? So , I guess that one 's actually easier .
+Turn 449, D (PhD): What about {disfmarker} what about , um , the idea of using a relational database to , uh , store the information from the XML ? So you would have {disfmarker} XML basically would {disfmarker} Uh , you {disfmarker} you could use the XML to put the data in , and then when you get data out , you put it back in XML . So use XML as sort of the {disfmarker} the transfer format ,
+Turn 450, C (Grad): Transfer .
+Turn 451, D (PhD): uh , but then you store the data in the database , which allows you to do all kinds of {pause} good search things in there .
+Turn 452, C (Grad): The , uh {disfmarker} One of the things that ATLAS is doing is they 're trying to define an API which is independent of the back store ,
+Turn 453, F (PhD): Huh .
+Turn 454, C (Grad): so that , uh , you could define a single API and the {disfmarker} the storage could be flat XML files or a database .
+Turn 455, D (PhD): Mm - hmm .
+Turn 456, C (Grad): My opinion on that is for the s sort of stuff that we 're doing , {comment} I suspect it 's overkill to do a full relational database , that , um , just a flat file and , uh , search tools I bet will be enough .
+Turn 457, A (PhD): But {disfmarker}
+Turn 458, C (Grad): But that 's the advantage of ATLAS , is that if we actually take {disfmarker} decide to go that route completely and we program to their API , then if we wanted to add a database later it would be pretty easy .
+Turn 459, D (PhD): Mm - hmm . Mm - hmm .
+Turn 460, F (PhD): It seems like the kind of thing you 'd do if {disfmarker} I don't know , if people start adding all kinds of s bells and whistles to the data . And so that might be {disfmarker} I mean , it 'd be good for us to know {disfmarker} to use a format where we know we can easily , um , input that to some database if other people are using it .
+Turn 461, C (Grad): Yep .
+Turn 462, F (PhD): Something like that .
+Turn 463, C (Grad): I guess I 'm just a little hesitant to try to go whole hog on sort of the {disfmarker} the whole framework that {disfmarker} that NIST is talking about , with ATLAS and a database and all that sort of stuff ,
+Turn 464, F (PhD): So {disfmarker}
+Turn 465, C (Grad): cuz it 's a big learning curve , just to get going .
+Turn 466, D (PhD): Hmm .
+Turn 467, A (PhD): Hmm .
+Turn 468, C (Grad): Whereas if we just do a flat file format , sure , it may not be as efficient but everyone can program in Perl and {disfmarker} and use it .
+Turn 469, F (PhD): OK .
+Turn 470, C (Grad): Right ?
+Turn 471, A (PhD): But this is {disfmarker}
+Turn 472, C (Grad): So , as opposed to {disfmarker}
+Turn 473, A (PhD): I {disfmarker} I 'm still , um , {vocalsound} not convinced that you can do much at all on the text {disfmarker} on the flat file that {disfmarker} that {disfmarker} you know , the text representation . e Because the text representation is gonna be , uh , not reflecting the structure of {disfmarker} of your words and annotations . It 's just {disfmarker} it 's {disfmarker}
+Turn 474, C (Grad): Well , if it 's not representing it , then how do you recover it ? Of course it 's representing it .
+Turn 475, A (PhD): No . You {disfmarker} you have to {disfmarker} what you have to do is you have to basically {disfmarker}
+Turn 476, C (Grad): That 's the whole point .
+Turn 477, A (PhD): Y yeah . You can use Perl to read it in and construct a internal representation that is essentially a lattice . But , the {disfmarker} and then {disfmarker}
+Turn 478, C (Grad): OK .
+Turn 479, D (PhD): Yeah .
+Turn 480, C (Grad): Well , that was a different point .
+Turn 481, A (PhD): Right .
+Turn 482, C (Grad): Right ? So what I was saying is that {disfmarker}
+Turn 483, A (PhD): But that 's what you 'll have to do . Bec - be
+Turn 484, C (Grad): For Perl {disfmarker} if you want to just do Perl . If you wanted to use the structured XML query language , that 's a different thing . And it 's a set of tools {vocalsound} that let you specify given the D - DDT {disfmarker} DTD of the document , um , what sorts of structural searches you want to do . So you want to say that , you know , you 're looking for , um , a tag within a tag within a particular tag that has this particular text in it , um , and , uh , refers to a particular value . And so the point isn't that an end - user , who is looking for a query like you specified , wouldn't program it in this language . What you would do is , someone would build a tool that used that as a library . So that they {disfmarker} so that you wouldn't have to construct the internal representations yourself .
+Turn 485, F (PhD): Is a {disfmarker} See , I think the kinds of questions , at least in the next {disfmarker} to the end of this year , are {disfmarker} there may be a lot of different ones , but they 'll all have a similar nature . They 'll be looking at either a word - level prosodic , uh , an {disfmarker} a value ,
+Turn 486, C (Grad): Mm - hmm .
+Turn 487, F (PhD): like a continuous value , like the slope of something . But you know , we 'll do something where we {disfmarker} some kind of data reduction where the prosodic features are sort o uh , either at the word - level or at the segment - level ,
+Turn 488, C (Grad): Right .
+Turn 489, F (PhD): or {disfmarker} or something like that . They 're not gonna be at the phone - level and they 're no not gonna be at the frame - level when we get done with sort of giving them simpler shapes and things . And so the main thing is just being able {disfmarker} Well , I guess , the two goals . Um , one that Chuck mentioned is starting out with something that we don't have to start over , that we don't have to throw away if other people want to extend it for other kinds of questions ,
+Turn 490, C (Grad): Right .
+Turn 491, F (PhD): and being able to at least get enough , uh , information out on {disfmarker} where we condition the location of features on information that 's in the kind of file that you {pause} put up there . And that would {disfmarker} that would do it ,
+Turn 492, C (Grad): Yeah . I think that there are quick and dirty solutions ,
+Turn 493, F (PhD): I mean , for me .
+Turn 494, C (Grad): and then there are long - term , big - infrastructure solutions . And so {vocalsound} we want to try to pick something that lets us do a little bit of both .
+Turn 495, F (PhD): In the between , right . And especially that the representation doesn't have to be thrown away ,
+Turn 496, C (Grad): Um {disfmarker} Right .
+Turn 497, F (PhD): even if your tools change .
+Turn 498, C (Grad): And so it seems to me that {disfmarker} I mean , I have to look at it again to see whether it can really do what we want , but if we use the ATLAS external file representation , um , it seems like it 's rich enough that you could do quick tools just as I said in Perl , and then later on if we choose to go up the learning curve , we can use the whole ATLAS inter infrastructure ,
+Turn 499, F (PhD): Yeah . I mean , that sounds good to me .
+Turn 500, C (Grad): which has all that built in .
+Turn 501, F (PhD): I {disfmarker} I don't {disfmarker} So if {disfmarker} if you would l look at that and let us know what you think .
+Turn 502, C (Grad): Sure .
+Turn 503, F (PhD): I mean , I think we 're sort of guinea pigs , cuz I {disfmarker} I want to get the prosody work done but I don't want to waste time , you know , getting the {disfmarker}
+Turn 504, A (PhD): Oh , maybe {disfmarker}
+Turn 505, F (PhD): Yeah ?
+Turn 506, A (PhD): um {disfmarker}
+Turn 507, C (Grad): Well , I wouldn't wait for the formats , because anything you pick we 'll be able to translate to another form .
+Turn 508, A (PhD): Well {disfmarker} Ma well , maybe you should actually look at it yourself too to get a sense of what it is you 'll {disfmarker} you 'll be dealing with ,
+Turn 509, F (PhD): OK .
+Turn 510, A (PhD): because , um , you know , Adam might have one opinion but you might have another , so
+Turn 511, B (Grad): Yeah .
+Turn 512, F (PhD): Yeah , definitely .
+Turn 513, A (PhD): I think the more eyes look at this the better .
+Turn 514, F (PhD): Especially if there 's , e um {disfmarker} you know , if someone can help with at least the {disfmarker} the setup of the right {disfmarker}
+Turn 515, C (Grad): Hi , Jane .
+Turn 516, F (PhD): Oh , hi .
+Turn 517, A (PhD): Mmm .
+Turn 518, F (PhD): the right representation , then , i you know , I hope it won't {disfmarker} We don't actually need the whole full - blown thing to be ready ,
+Turn 519, C (Grad): Can you {disfmarker} Oh , well .
+Turn 520, F (PhD): so . Um , so maybe if you guys can look at it and sort of see what ,
+Turn 521, B (Grad): Yeah .
+Turn 522, C (Grad): Sure .
+Turn 523, F (PhD): um {disfmarker} I think we 're {disfmarker} we 're {disfmarker} {vocalsound} we 're actually just {disfmarker}
+Turn 524, C (Grad): We 're about done .
+Turn 525, F (PhD): yeah ,
+Turn 526, B (Grad): Hmm .
+Turn 527, F (PhD): wrapping up , but , um {disfmarker} Yeah , sorry , it 's a uh short meeting , but , um {disfmarker} Well , I don't know . Is there anything else , like {disfmarker} I mean that helps me a lot ,
+Turn 528, C (Grad): Well , I think the other thing we might want to look at is alternatives to P - file .
+Turn 529, F (PhD): but {disfmarker}
+Turn 530, C (Grad): I mean , th the reason I like P - file is I 'm already familiar with it , we have expertise here , and so if we pick something else , there 's the learning - curve problem . But , I mean , it is just something we developed at ICSI .
+Turn 531, A (PhD): Is there an {disfmarker} is there an IP - API ?
+Turn 532, C (Grad): And so {disfmarker} Yeah .
+Turn 533, A (PhD): OK .
+Turn 534, C (Grad): There 's an API for it . And , uh ,
+Turn 535, A (PhD): There used to be a problem that they get too large ,
+Turn 536, C (Grad): a bunch of libraries , P - file utilities .
+Turn 537, A (PhD): and so {pause} basically the {disfmarker} uh the filesystem wouldn't {disfmarker}
+Turn 538, C (Grad): Well , that 's gonna be a problem no matter what . You have the two - gigabyte limit on the filesystem size . And we definitely hit that with Broadcast News .
+Turn 539, A (PhD): Maybe you could extend the API to , uh , support , uh , like splitting up , you know , conceptually one file into smaller files on disk so that you can essentially , you know , have arbitrarily long f
+Turn 540, C (Grad): Yep . Most of the tools can handle that .
+Turn 541, A (PhD): Yeah .
+Turn 542, C (Grad): So that we didn't do it at the API - level . We did it at the t tool - level . That {disfmarker} that {disfmarker} most {disfmarker} many of them can s you can specify several P - files and they 'll just be done sequentially .
+Turn 543, A (PhD): OK .
+Turn 544, C (Grad): So .
+Turn 545, F (PhD): So , I guess , yeah , if {disfmarker} if you and Don can {disfmarker} if you can show him the P - file stuff and see .
+Turn 546, C (Grad): Sure .
+Turn 547, F (PhD): So this would be like for the F - zero {disfmarker}
+Turn 548, B (Grad): True .
+Turn 549, C (Grad): I mean , if you do " man P - file " or " apropos P - file " , you 'll see a lot .
+Turn 550, B (Grad): I 've used the P - file , I think . I 've looked at it at least , briefly , I think when we were doing s something .
+Turn 551, A (PhD): What does the P stand for anyway ?
+Turn 552, C (Grad): I have no idea .
+Turn 553, B (Grad): Oh , in there .
+Turn 554, C (Grad): I didn't de I didn't develop it . You know , it was {disfmarker} I think it was Dave Johnson . So it 's all part of the Quicknet library . It has all the utilities for it .
+Turn 555, A (PhD): No , P - files were around way before Quicknet . P - files were {disfmarker} were around when {disfmarker} w with , um , {vocalsound} RAP .
+Turn 556, C (Grad): Oh , were they ?
+Turn 557, D (PhD): Mm - hmm .
+Turn 558, A (PhD): Right ?
+Turn 559, F (PhD): It 's like the history of ICSI .
+Turn 560, A (PhD): You worked with P - files .
+Turn 561, C (Grad): Mm - hmm .
+Turn 562, F (PhD): Like {disfmarker}
+Turn 563, D (PhD): No .
+Turn 564, A (PhD): I worked with P - files .
+Turn 565, F (PhD): Yeah ?
+Turn 566, D (PhD): I don't remember what the " P " is , though .
+Turn 567, A (PhD): No .
+Turn 568, C (Grad): But there are ni they 're {disfmarker} The {pause} Quicknet library has a bunch of things in it to handle P - files ,
+Turn 569, A (PhD): Yeah .
+Turn 570, C (Grad): so it works pretty well .
+Turn 571, A (PhD): 
+Turn 572, F (PhD): And that isn't really , I guess , as important as the {disfmarker} the main {disfmarker} I don't know what you call it , the {disfmarker} the main sort of word - level {disfmarker}
+Turn 573, C (Grad): Neither do I .
+Turn 574, D (PhD): Probably stands for " Phil " . Phil Kohn .
+Turn 575, C (Grad): It 's a Phil file ?
+Turn 576, D (PhD): Yeah . That 's my guess .
+Turn 577, F (PhD): Huh . OK . Well , that 's really useful . I mean , this is exactly the kind of thing that I wanted to settle . Um , so {disfmarker}
+Turn 578, C (Grad): Yeah , I 've been meaning to look at the ATLAS stuff again anyway .
+Turn 579, F (PhD): Great .
+Turn 580, C (Grad): So , just keep {disfmarker}
+Turn 581, F (PhD): Yeah . I guess it 's also sort of a political deci I mean , if {disfmarker} if you feel like that 's a community that would be good to tie into anyway , then it 's {disfmarker} sounds like it 's worth doing .
+Turn 582, C (Grad): Yeah , I think it {disfmarker} it w
+Turn 583, A (PhD): j I think there 's {disfmarker}
+Turn 584, C (Grad): And , w uh , as I said , I {disfmarker} what I did with this stuff {disfmarker} I based it on theirs . It 's just they hadn't actually come up with an external format yet . So now that they have come up with a format , it doesn't {disfmarker} it seems pretty reasonable to use it .
+Turn 585, A (PhD): Mmm .
+Turn 586, C (Grad): But let me look at it again .
+Turn 587, F (PhD): OK , great .
+Turn 588, C (Grad): As I said , that {disfmarker}
+Turn 589, F (PhD): Cuz we actually can start {disfmarker}
+Turn 590, C (Grad): There 's one level {disfmarker} there 's one more level of indirection and I 'm just blanking on exactly how it works . I gotta look at it again .
+Turn 591, F (PhD): I mean , we can start with , um , I guess , this input from Dave 's , which you had printed out , the channelized input . Cuz he has all of the channels , you know , with the channels in the tag and stuff like that .
+Turn 592, C (Grad): Yeah , I 've seen it .
+Turn 593, F (PhD): So that would be i directly ,
+Turn 594, C (Grad): Yep . Easy {disfmarker} easy to map .
+Turn 595, F (PhD): um {disfmarker} Yeah . And so then it would just be a matter of getting {disfmarker} making sure to handle the annotations that are , you know , not at the word - level and , um , t to import the
+Turn 596, B (Grad): Where are those annotations coming from ?
+Turn 597, F (PhD): Well , right now , I g Jane would {disfmarker} {vocalsound} would {disfmarker}
+Turn 598, C (Grad): Mm - hmm .
+Turn 599, F (PhD): Yeah .
+Turn 600, E (Postdoc): Are you talking about the overlap a annotations ?
+Turn 601, F (PhD): Yeah , any kind of annotation {pause} that , like , isn't already there . Uh , you know , anything you can envision .
+Turn 602, E (Postdoc): Yeah . So what I was imagining was {disfmarker} um , so Dave says we can have unlimited numbers of green ribbons . And so put , uh , a {disfmarker} a green ribbon on for an overlap code . And since we w we {disfmarker} I {disfmarker} I think it 's important to remain flexible regarding the time bins for now . And so it 's nice to have {disfmarker} However , you know , you want to have it , uh , time time uh , located in the discourse . So , um , if we {disfmarker} if we tie the overlap code to the first word in the overlap , then you 'll have a time - marking . It won't {disfmarker} it 'll be independent of the time bins , however these e evolve , shrink , or whatever , increase , or {disfmarker} Also , you could have different time bins for different purposes . And having it tied to the first word in an overlap segment is unique , uh , you know , anchored , clear . And it would just end up on a separate ribbon .
+Turn 603, C (Grad): Right .
+Turn 604, E (Postdoc): So the overlap coding is gonna be easy with respect to that . You look puzzled .
+Turn 605, D (PhD): I {disfmarker} I just {disfmarker} I don't quite understand what these things are .
+Turn 606, E (Postdoc): OK .
+Turn 607, D (PhD): Uh .
+Turn 608, E (Postdoc): What , the codes themselves ?
+Turn 609, D (PhD): Well , th overlap codes .
+Turn 610, E (Postdoc): Or the {disfmarker} ?
+Turn 611, D (PhD): I 'm not sure what that @ @ {disfmarker}
+Turn 612, C (Grad): Well , I mean , is that {disfmarker}
+Turn 613, D (PhD): It probably doesn't matter .
+Turn 614, E (Postdoc): Well , we don't have to go into the codes .
+Turn 615, C (Grad): I mean , it doesn't .
+Turn 616, D (PhD): No , I d
+Turn 617, E (Postdoc): We don't have to go into the codes .
+Turn 618, C (Grad): I mean , that {disfmarker} not for the topic of this meeting .
+Turn 619, E (Postdoc): But let me just {disfmarker} No . W the idea is just to have a separate green ribbon , you know , and {disfmarker} and {disfmarker} and let 's say that this is a time bin . There 's a word here . This is the first word of an overlapping segment of any length , overlapping with any other , uh , word {disfmarker} uh , i segment of any length . And , um , then you can indicate that this here was perhaps a ch a backchannel , or you can say that it was , um , a usurping of the turn , or you can {disfmarker} you know , any {disfmarker} any number of categories . But the fact is , you have it time - tagged in a way that 's independent of the , uh , sp particular time bin that the word ends up in . If it 's a large unit or a small unit , or
+Turn 620, A (PhD): Mm - hmm .
+Turn 621, E (Postdoc): we sh change the boundaries of the units , it 's still unique and {disfmarker} and , uh , fits with the format ,
+Turn 622, F (PhD): Right .
+Turn 623, E (Postdoc): flexible , all that .
+Turn 624, A (PhD): Um , it would be nice {disfmarker} um , eh , gr this is sort of r regarding {disfmarker} uh , uh it 's related but not directly germane to the topic of discussion , but , when it comes to annotations , um , you often find yourself in the situation where you have {pause} different annotations {pause} of the same , say , word sequence . OK ?
+Turn 625, E (Postdoc): Yeah .
+Turn 626, A (PhD): And sometimes the word sequences even differ slightly because they were edited s at one place but not the other .
+Turn 627, E (Postdoc): Yeah .
+Turn 628, A (PhD): So , once this data gets out there , some people might start annotating this for , I don't know , dialogue acts or , um , you know , topics or what the heck . You know , there 's a zillion things that people might annotate this for . And the only thing that is really sort of common among all the versi the various versions of this data is the word sequence , or approximately .
+Turn 629, E (Postdoc): Yep .
+Turn 630, F (PhD): Or the time .
+Turn 631, A (PhD): Or the times . But , see , if you 'd annotate dialogue acts , you don't necessarily want to {disfmarker} or topics {disfmarker} you don't really want to be dealing with time - marks .
+Turn 632, F (PhD): I guess .
+Turn 633, A (PhD): You 'd {disfmarker} it 's much more efficient for them to just see the word sequence , right ?
+Turn 634, F (PhD): Mm - hmm .
+Turn 635, A (PhD): I mean , most people aren't as sophisticated as {disfmarker} as we are here with , you know , uh , time alignments and stuff . So {disfmarker} So the {disfmarker} the {disfmarker} the point is {disfmarker}
+Turn 636, C (Grad): Should {disfmarker} should we mention some names on the people who are n ?
+Turn 637, A (PhD): Right . So , um , the p my point is that {pause} you 're gonna end up with , uh , word sequences that are differently annotated . And {pause} you want some tool , uh , that is able to sort of merge these different annotations back into a single , uh , version . OK ? Um , and we had this problem very massively , uh , at SRI when we worked , uh , a while back on , {vocalsound} uh {disfmarker} well , on dialogue acts as well as , uh , you know , um , what was it ? uh ,
+Turn 638, F (PhD): Well , all the Switchboard in it .
+Turn 639, A (PhD): utterance types . There 's , uh , automatic , uh , punctuation and stuff like that .
+Turn 640, F (PhD): Yeah .
+Turn 641, A (PhD): Because we had one set of {pause} annotations that were based on , uh , one version of the transcripts with a particular segmentation , and then we had another version that was based on , uh , a different s slightly edited version of the transcripts with a different segmentation . So , {vocalsound} we had these two different versions which were {disfmarker} you know , you could tell they were from the same source but they weren't identical . So it was extremely hard {vocalsound} to reliably merge these two back together to correlate the information from the different annotations .
+Turn 642, C (Grad): Yep . I {disfmarker} I don't see any way that file formats are gonna help us with that .
+Turn 643, A (PhD): No .
+Turn 644, C (Grad): It 's {disfmarker} it 's all a question of semantic .
+Turn 645, A (PhD): No . But once you have a file format , I can imagine writing {disfmarker} not personally , but someone writing a tool that is essentially an alignment tool , um , that mediates between various versions ,
+Turn 646, F (PhD): Mm - hmm .
+Turn 647, C (Grad): Yeah .
+Turn 648, A (PhD): and {disfmarker} uh , sort of like th uh , you know , you have this thing in UNIX where you have , uh , diff .
+Turn 649, C (Grad): Diff .
+Turn 650, F (PhD): W - diff or diff .
+Turn 651, A (PhD): There 's the , uh , diff that actually tries to reconcile different {disfmarker} two diffs f {comment} based on the same original .
+Turn 652, F (PhD): Yeah .
+Turn 653, E (Postdoc): Is it S - diff ?
+Turn 654, C (Grad): Yep .
+Turn 655, E (Postdoc): Mmm .
+Turn 656, A (PhD): Something like that , um , but operating on these lattices that are really what 's behind this {disfmarker} uh , this annotation format .
+Turn 657, C (Grad): Yep .
+Turn 658, A (PhD): So {disfmarker}
+Turn 659, C (Grad): There 's actually a diff library you can use {pause} to do things like that that {disfmarker} so you have different formats .
+Turn 660, F (PhD): You could definitely do that with the {disfmarker}
+Turn 661, A (PhD): So somewhere in the API you would like to have like a merge or some {disfmarker} some function that merges two {disfmarker} two versions .
+Turn 662, C (Grad): Yeah , I think it 's gonna be very hard . Any sort of structured anything when you try to merge is really , really hard
+Turn 663, A (PhD): Right .
+Turn 664, C (Grad): because you ha i The hard part isn't the file format . The hard part is specifying what you mean by " merge " .
+Turn 665, A (PhD): Is {disfmarker} Exactly .
+Turn 666, C (Grad): And that 's very difficult .
+Turn 667, F (PhD): But the one thing that would work here actually for i that is more reliable than the utterances is the {disfmarker} the speaker ons and offs . So if you have a good ,
+Turn 668, C (Grad): But this is exactly what I mean , is that {disfmarker} that the problem i
+Turn 669, F (PhD): um {disfmarker} Yeah . You just have to know wha what to tie it to .
+Turn 670, C (Grad): Yeah , exactly . The problem is saying " what are the semantics ,
+Turn 671, F (PhD): And {disfmarker}
+Turn 672, C (Grad): what do you mean by " merge " ? "
+Turn 673, F (PhD): Right , right .
+Turn 674, A (PhD): Right . So {disfmarker} so just to let you know what we {disfmarker} where we kluged it by , uh , doing {disfmarker} uh , by doing {disfmarker} Hhh .
+Turn 675, C (Grad): So .
+Turn 676, A (PhD): Both were based on words , so , bo we have two versions of the same words intersp you know , sprinkled with {disfmarker} with different tags for annotations .
+Turn 677, C (Grad): And then you did diff .
+Turn 678, A (PhD): And we did diff . Exactly !
+Turn 679, C (Grad): Yeah , that 's just what I thought .
+Turn 680, A (PhD): And that 's how {disfmarker}
+Turn 681, C (Grad): That 's just wh how I would have done it .
+Turn 682, A (PhD): Yeah . But , you know , it had lots of errors and things would end up in the wrong order , and so forth . Uh , so , um , if you had a more {disfmarker}
+Turn 683, C (Grad): Yep .
+Turn 684, A (PhD): Uh , it {disfmarker} it was a kluge because it was basically reducing everything to {disfmarker} uh , to {disfmarker} uh , uh , to textual alignment .
+Turn 685, C (Grad): A textual {disfmarker}
+Turn 686, A (PhD): Um , so {disfmarker}
+Turn 687, F (PhD): But , d isn't that something where whoever {disfmarker} if {vocalsound} {disfmarker} if the people who are making changes , say in the transcripts , cuz this all happened when the transcripts were different {disfmarker} ye um , if they tie it to something , like if they tied it to the acoustic segment {disfmarker} if they {disfmarker} You know what I mean ? Then {disfmarker} Or if they tied it to an acoustic segment and we had the time - marks , that would help .
+Turn 688, C (Grad): Yep .
+Turn 689, F (PhD): But the problem is exactly as Adam said , that you get , you know , y you don't have that information or it 's lost in the merge somehow ,
+Turn 690, E (Postdoc): Well , can I ask one question ?
+Turn 691, F (PhD): so {disfmarker}
+Turn 692, E (Postdoc): It {disfmarker} it seems to me that , um , we will have o an official version of the corpus , which will be only one {disfmarker} one version in terms of the words {disfmarker} where the words are concerned . We 'd still have the {disfmarker} the merging issue maybe if coding were done independently of the {disfmarker}
+Turn 693, A (PhD): And you 're gonna get that
+Turn 694, E (Postdoc): But {disfmarker} but {disfmarker}
+Turn 695, A (PhD): because if the data gets out , people will do all kinds of things to it . And , uh , s you know , several years from now you might want to look into , um , the prosody of referring expressions . And someone at the university of who knows where has annotated the referring expressions . So you want to get that annotation and bring it back in line with your data .
+Turn 696, C (Grad): Right .
+Turn 697, A (PhD): OK ?
+Turn 698, C (Grad): But unfortunately they 've also hand - edited it .
+Turn 699, E (Postdoc): OK , then {disfmarker}
+Turn 700, F (PhD): But they 've also {disfmarker} Exactly . And so that 's exactly what we should {disfmarker} somehow when you distribute the data , say that {disfmarker} you know , that {disfmarker} have some way of knowing how to merge it back in and asking people to try to do that .
+Turn 701, A (PhD): Yeah .
+Turn 702, C (Grad): Yep .
+Turn 703, A (PhD): Right .
+Turn 704, E (Postdoc): Well , then the {disfmarker}
+Turn 705, D (PhD): What 's {disfmarker} what 's wrong with {pause} doing times ? I {disfmarker}
+Turn 706, E (Postdoc): I agree . That was what I was wondering .
+Turn 707, F (PhD): Uh , yeah , time is the {disfmarker}
+Turn 708, C (Grad): Well ,
+Turn 709, E (Postdoc): Time is unique . You were saying that you didn't think we should {disfmarker}
+Turn 710, F (PhD): Time is passing !
+Turn 711, A (PhD): Time {disfmarker} time {disfmarker} times are ephemeral .
+Turn 712, E (Postdoc): Andreas was saying {disfmarker} Yeah .
+Turn 713, C (Grad): what if they haven't notated with them , times ?
+Turn 714, F (PhD): Yeah . He {disfmarker} he 's a language modeling person , though .
+Turn 715, A (PhD): Um {disfmarker}
+Turn 716, C (Grad): So {disfmarker} so imagine {disfmarker} I think his {disfmarker} his example is a good one . Imagine that this person who developed the corpus of the referring expressions didn't include time .
+Turn 717, A (PhD): Mm - hmm . Yeah .
+Turn 718, C (Grad): He included references to words .
+Turn 719, E (Postdoc): Ach !
+Turn 720, A (PhD): Yeah .
+Turn 721, C (Grad): He said that at this word is when {disfmarker} when it happened .
+Turn 722, E (Postdoc): Well , then {disfmarker}
+Turn 723, A (PhD): Or she .
+Turn 724, C (Grad): Or she .
+Turn 725, E (Postdoc): But then couldn't you just indirectly figure out the time {pause} tied to the word ?
+Turn 726, F (PhD): But still they {disfmarker} Exactly .
+Turn 727, C (Grad): Sure . But what if {disfmarker} what if they change the words ?
+Turn 728, F (PhD): Yeah .
+Turn 729, E (Postdoc): Not {disfmarker} Well , but you 'd have some anchoring point . He couldn't have changed all the words .
+Turn 730, D (PhD): But can they change the words without changing the time of the word ?
+Turn 731, C (Grad): Sure . But they could have changed it a little . The {disfmarker} the point is , that {disfmarker} that they may have annotated it off a word transcript that isn't the same as our word transcript , so how do you merge it back in ? I understand what you 're saying .
+Turn 732, A (PhD): Mmm . Mm - hmm .
+Turn 733, C (Grad): And I {disfmarker} I guess the answer is , um , it 's gonna be different every time . It 's j it 's just gonna be {disfmarker}
+Turn 734, E (Postdoc): Yeah .
+Turn 735, F (PhD): Yeah .
+Turn 736, C (Grad): I it 's exactly what I said before ,
+Turn 737, F (PhD): You only know the boundaries of the {disfmarker}
+Turn 738, C (Grad): which is that " what do you mean by " merge " ? " So in this case where you have the words and you don't have the times , well , what do you mean by " merge " ? If you tell me what you mean , I can write a program to do it .
+Turn 739, F (PhD): Right . Right . You can merge at the level of the representation that the other person preserved and that 's it .
+Turn 740, C (Grad): Right . And that 's about all you can do .
+Turn 741, F (PhD): And beyond that , all you know is {disfmarker} is relative ordering and sometimes even that is wrong .
+Turn 742, C (Grad): So {disfmarker} so in {disfmarker} so in this one you would have to do a best match between the word sequences ,
+Turn 743, F (PhD): So .
+Turn 744, A (PhD): Mm - hmm .
+Turn 745, C (Grad): extract the times f from the best match of theirs to yours , and use that .
+Turn 746, F (PhD): And then infer that their time - marks are somewhere in between .
+Turn 747, C (Grad): Right .
+Turn 748, F (PhD): Yeah , exactly .
+Turn 749, E (Postdoc): But it could be that they just {disfmarker} uh , I mean , it could be that they chunked {disfmarker} they {disfmarker} they lost certain utterances and all that stuff ,
+Turn 750, C (Grad): Right , exactly . So it could get very , very ugly .
+Turn 751, E (Postdoc): or {disfmarker}
+Turn 752, F (PhD): Definitely .
+Turn 753, E (Postdoc): Yeah .
+Turn 754, F (PhD): Definitely . Alright .
+Turn 755, E (Postdoc): That 's interesting .
+Turn 756, F (PhD): Well , I guess , w I {disfmarker} I didn't want to keep people too long and Adam wanted t people {disfmarker} I 'll read the digits . If anyone else offers to , that 'd be great . And
+Turn 757, A (PhD): Ah , well .
+Turn 758, C (Grad): Yeah .
+Turn 759, F (PhD): if not , I guess {disfmarker}
+Turn 760, A (PhD): For th for the {disfmarker} {nonvocalsound} for the benefit of science we 'll read the digits .
+Turn 761, C (Grad): More digits , the better . OK , this is
+Turn 762, F (PhD): Thanks {disfmarker} thanks a lot . It 's really helpful . I mean , Adam and Don {nonvocalsound} will sort of meet and I think that 's great . Very useful . Go next .
+Turn 763, D (PhD): Scratch that .
+Turn 764, E (Postdoc): O three
+Turn 765, C (Grad): Oh , right .

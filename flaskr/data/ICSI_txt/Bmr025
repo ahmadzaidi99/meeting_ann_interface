@@ -1,0 +1,660 @@
+Turn 0, E (PhD): Yeah .
+Turn 1, B (Professor): Um , so . If we can't , we can't . But uh we 're gonna try to make this an abbreviated meeting cuz the {disfmarker} the next {disfmarker} next occupants were pushing for it , so . Um . So . Agenda is {disfmarker} according to this , is transcription status , DARPA demos XML tools , disks , backups , et cetera and
+Turn 2, H (Grad): Does anyone have anything to {pause} add to the agenda ?
+Turn 3, B (Professor): OK . Should we just go in order ? Transcription status ? Who 's {disfmarker} that 's probably you .
+Turn 4, A (Postdoc): I can do that quickly . Um I hired several more transcribers , They 're making great progress .
+Turn 5, B (Professor): Seven ?
+Turn 6, A (Postdoc): Seve - several , several .
+Turn 7, B (Professor): Oh .
+Turn 8, A (Postdoc): And uh {disfmarker} and uh , uh I 've been uh finishing up the uh double checking . I hoped to have had that done by today but it 's gonna take one more week .
+Turn 9, H (Grad): Um
+Turn 10, D (PhD): I g
+Turn 11, H (Grad): as a somewhat segue into the next topic , um could I get a hold of uh the data even if it 's not really corrected yet just so I can get the data formats and make sure the information retrieval stuff is working ?
+Turn 12, A (Postdoc): Certainly . Yeah I mean , it 's in the same place it 's been .
+Turn 13, H (Grad): So can you just {disfmarker} Oh , it is .
+Turn 14, A (Postdoc): Uh - huh . No change .
+Turn 15, H (Grad): OK . Just {disfmarker} So , " transcripts " is the sub - directory ?
+Turn 16, A (Postdoc): Uh {disfmarker} Yes . Uh - huh .
+Turn 17, H (Grad): OK . So I 'll {disfmarker} I 'll probably just make some copies of those rather than use the ones that are there .
+Turn 18, A (Postdoc): OK .
+Turn 19, H (Grad): Um and then just {disfmarker} we 'll have to remember to delete them once the corrections are made .
+Turn 20, A (Postdoc): OK .
+Turn 21, B (Professor): OK , wh
+Turn 22, D (PhD): I also got anot a short remark to the transcription . I 've uh just processed the first five EDU meetings and they are chunked up so they would {disfmarker} they probably can be sent to IBM whenever they want them .
+Turn 23, C (Grad): Cool .
+Turn 24, F (PhD): Well the second one of those
+Turn 25, D (PhD): Yep . It 's already at IBM ,
+Turn 26, F (PhD): is already at IBM .
+Turn 27, D (PhD): but the other ones {disfmarker}
+Turn 28, F (PhD): That 's the one that {pause} we 're waiting to hear from them on .
+Turn 29, D (PhD): Yeah . Yeah .
+Turn 30, A (Postdoc): OK .
+Turn 31, F (PhD): Yeah .
+Turn 32, A (Postdoc): These are separate from the ones that {disfmarker}
+Turn 33, F (PhD): As soon as {disfmarker}
+Turn 34, A (Postdoc): I mean , these are {disfmarker}
+Turn 35, F (PhD): They 're the IBM set .
+Turn 36, D (PhD): Yep .
+Turn 37, H (Grad): It 's this one .
+Turn 38, A (Postdoc): Excellent . Good .
+Turn 39, F (PhD): Yeah . And so as soon as we hear from Brian that this one is OK
+Turn 40, H (Grad): Is my mike on ? Yeah .
+Turn 41, F (PhD): and we get the transcript back and we find out that hopefully there are no problems matching up the transcript with what we gave them , then uh we 'll be ready to go and we 'll just send them the next four as a big batch ,
+Turn 42, A (Postdoc): Excellent .
+Turn 43, F (PhD): and let them work on that .
+Turn 44, H (Grad): And so we 're doing those as disjoint from the ones we 're transcribing here ?
+Turn 45, F (PhD): Yes , exactly .
+Turn 46, H (Grad): OK , good .
+Turn 47, F (PhD): We 're sort of doing things in parallel , that way we can get as much done a at once .
+Turn 48, H (Grad): Yeah , I think that 's the right way to do it ,
+Turn 49, F (PhD): Yeah .
+Turn 50, H (Grad): especially for the information retrieval stuff . Anything else on transcription status ?
+Turn 51, A (Postdoc): Hm - mmm .
+Turn 52, H (Grad): OK .
+Turn 53, B (Professor): DARPA demos , we had the submeeting the other day .
+Turn 54, H (Grad): Right , which uh {disfmarker} So I 've been working on using the THISL tools to do information retrieval on meeting data and the THISL tools are {disfmarker} there 're two sets , there 's a back - end and a front - end , so the front - end is the user interface and the back - end is the indexing tool and the querying tool . And so I 've written some tools to convert everything into the right for file formats . And the command line version of the indexing and the querying is now working . So at least on the one meeting that I had the transcript for uh conveniently you can now do information retrieval on it , do {disfmarker} type in a {disfmarker} a string and get back a list of start - end times for the meeting ,
+Turn 55, F (PhD): What {disfmarker} what kind of uh {disfmarker} what does that look like ? The string that you type in .
+Turn 56, H (Grad): uh of hits .
+Turn 57, F (PhD): What are you {disfmarker} are you {disfmarker} are they keywords , or are they {disfmarker} ?
+Turn 58, H (Grad): Keywords .
+Turn 59, F (PhD): OK . I see .
+Turn 60, H (Grad): Right ? And so {disfmarker} and then it munges it to pass it to the THISL IR which uses an SGML - like format for everything .
+Turn 61, F (PhD): I see .
+Turn 62, B (Professor): And then does it play something back or that 's something you 're having to program ?
+Turn 63, H (Grad): Um , right now , I have a tool that will do that on a command line using our standard tools ,
+Turn 64, B (Professor): Yeah .
+Turn 65, H (Grad): but my intention is to do a prettier user interface based either {disfmarker} So {disfmarker} so that 's the other thing I wanted to discuss , is well what should we do for the user interface ? We have two tools that have already been written . Um the SoftSound guys did a web - based one ,
+Turn 66, B (Professor): Mm - hmm .
+Turn 67, H (Grad): um , which I haven't used , haven't looked at . Dan says it 's pretty good
+Turn 68, B (Professor): Mm - hmm .
+Turn 69, H (Grad): but it does mean you need to be running a web server .
+Turn 70, B (Professor): Mm - hmm .
+Turn 71, H (Grad): And so it {disfmarker} it 's pretty big and complex . Uh and it would be difficult to port to Windows because it means porting the web server to Windows .
+Turn 72, B (Professor): Mm - hmm .
+Turn 73, H (Grad): Uh the other option is Dan did the Tcl - TK THISL GUI front - end for Broadcast News
+Turn 74, B (Professor): Yeah .
+Turn 75, H (Grad): which I think looks great . I think that 's a nice demo . Um and that would be much easier to port to Windows . And so I think that 's the way we should go .
+Turn 76, A (Postdoc): I {disfmarker} Can I ask a question ? So um as it stands within the {disfmarker} the Channeltrans interface , it 's possible to do a find and a play .
+Turn 77, H (Grad): Mm - hmm .
+Turn 78, A (Postdoc): You can find a searched string and play . So e Are you {disfmarker} So you 're adding like um , I don't know , uh are they fuzzy matches or are they {pause} uh {disfmarker} ?
+Turn 79, H (Grad): It 's a sort of standard , text - retrieval - based {disfmarker} So it 's uh term frequency , inverse document frequency scoring .
+Turn 80, A (Postdoc): OK .
+Turn 81, H (Grad): Um and then there are all sorts of metrics for spacing how far apart they have to be and things like that . So it {disfmarker} it 's
+Turn 82, A (Postdoc): It 's a lot more sophisticated than the uh the basically Windows - based {disfmarker}
+Turn 83, H (Grad): i it 's like doing a Google query or anyth anything else like that .
+Turn 84, A (Postdoc): OK .
+Turn 85, H (Grad): So i it uses {disfmarker} So it pr produces an index ahead of time so you don't {disfmarker} you 're not doing a linear search through all the documents . Cuz you can imagine if {disfmarker} with {disfmarker} if we have the sixty hours ' worth you do {disfmarker} wouldn't wanna do a search .
+Turn 86, A (Postdoc): Hm - mmm . Good .
+Turn 87, H (Grad): Um you have to do preindexing and so that {disfmarker} these tools do all that . And so the work to get the front - end to work would be porting it {disfmarker} well {disfmarker} uh to get it to work on the UNIX systems , our side is just rewriting them and modifying them to work for meetings .
+Turn 88, B (Professor): Mm - hmm .
+Turn 89, H (Grad): So that it understands that they 're different speakers and that it 's one big audio file instead of a bunch of little ones and just sorta things like that .
+Turn 90, B (Professor): Mm - hmm .
+Turn 91, G (PhD): Mm - hmm .
+Turn 92, F (PhD): So what does the user see as the result of the query ?
+Turn 93, H (Grad): On which tool ?
+Turn 94, F (PhD): THISL .
+Turn 95, H (Grad): The THISL GUI tool which is the one that Dan wrote , Tcl - TK
+Turn 96, F (PhD): Yeah .
+Turn 97, H (Grad): um you type in a query and then you get back a list of hits and you can type on them and listen to them . Click on them rather {comment} with a mouse .
+Turn 98, F (PhD): Ah .
+Turn 99, B (Professor): Mmm
+Turn 100, F (PhD): So if you typed in " small heads " or something you could
+Turn 101, H (Grad): Right , you 'd get {disfmarker}
+Turn 102, F (PhD): get back a uh uh {comment} something that would let you click and listen to some audio where that phrase had occurred
+Turn 103, H (Grad): something {disfmarker} You {disfmarker} you 'd get to listen to " beep " .
+Turn 104, F (PhD): or some
+Turn 105, B (Professor): That was a really good look . It 's too bad that that couldn't {vocalsound} come into the {disfmarker}
+Turn 106, H (Grad): You couldn't get a video .
+Turn 107, G (PhD): Guess who I practice on ?
+Turn 108, A (Postdoc): At some point we 're gonna have to say what that private joke is , that keeps coming up .
+Turn 109, B (Professor): Yeah . And then again , maybe not . So , {vocalsound} uh {disfmarker} Yeah , that soun that sounds reasonable . Yeah , it loo it {disfmarker} my {disfmarker} my recollection of it is it 's {disfmarker} it 's a pretty reasonable uh demo sort of format .
+Turn 110, H (Grad): Right .
+Turn 111, F (PhD): Yeah that sounds good .
+Turn 112, H (Grad): And so I think there 'd be minimal effort to get it to work , minimally
+Turn 113, F (PhD): That sounds really neat .
+Turn 114, H (Grad): and then we 'd wanna add things like query by speaker and by meeting and all that sort of stuff . Um Dave Gelbart expressed some interest in working on that so I 'll work with him on it . And it {disfmarker} it 's looking pretty good , you know , the fact that I got the query system working . So if we wanna just do a video - based one I think that 'll be easy .
+Turn 115, B (Professor): Mm - hmm .
+Turn 116, H (Grad): If we wanna get it to Windows it 's gonna be a little more work because the THISL IR , the information retrieval tool 's {disfmarker} um , I had difficulty just compiling them on Solaris .
+Turn 117, B (Professor): Mm - hmm .
+Turn 118, H (Grad): So getting them to compile on Windows might be challenging .
+Turn 119, B (Professor): Mm - hmm .
+Turn 120, F (PhD): But you were saying that {disfmarker} that the uh {disfmarker} that there 's that set of tools , uh , Cygnus tools , that {disfmarker}
+Turn 121, H (Grad): So . It certainly helps .
+Turn 122, F (PhD): Uh - huh .
+Turn 123, H (Grad): Um , I mean without those I wouldn't even attempt it .
+Turn 124, B (Professor): Mm - hmm .
+Turn 125, F (PhD): Yeah .
+Turn 126, H (Grad): But what those {disfmarker} they {disfmarker} what those do is provide sort of a BSD compatibility layer ,
+Turn 127, B (Professor): Mm - hmm .
+Turn 128, H (Grad): so that the normal UNIX function calls all work .
+Turn 129, B (Professor): Mm - hmm .
+Turn 130, F (PhD): And you have to have all the o
+Turn 131, H (Grad): Um , But the problem is that {disfmarker} that the THISL tools didn't use anything like Autoconf and so you have the normal porting problems of different header files and th some things are defined and some things aren't and uh different compiler work - arounds and so on . So the fact that um it took me a day to get it c to compile under Solaris means it 's probably gonna take me s significantly more than that to get it to compile under Windows .
+Turn 132, B (Professor): How about having it run under free BSD ?
+Turn 133, E (PhD): Well what you need {disfmarker}
+Turn 134, H (Grad): Free BSD would probably be easier .
+Turn 135, E (PhD): All you need to do is say to Dan " gee it would be nice if this worked under Autoconf " and it 'll be done in a day .
+Turn 136, H (Grad): That 's true .
+Turn 137, D (PhD): Uh {disfmarker}
+Turn 138, E (PhD): Right ?
+Turn 139, H (Grad): Actually you know I should check because he did port it to SPRACHcore
+Turn 140, E (PhD): Right .
+Turn 141, H (Grad): so he might have done that already .
+Turn 142, E (PhD): I {disfmarker} I {disfmarker} I wouldn't be surprised .
+Turn 143, B (Professor): So {disfmarker}
+Turn 144, H (Grad): I 'll check at that {disfmarker}
+Turn 145, B (Professor): But it would {disfmarker} what would serve {disfmarker} would serve both purposes , is if you contact him and ask him if he 's already done it .
+Turn 146, E (PhD): What I {disfmarker}
+Turn 147, F (PhD): How does it play ?
+Turn 148, H (Grad): Yeah , right .
+Turn 149, B (Professor): If he has then you learn , if he hasn't then he 'll do it .
+Turn 150, H (Grad): Right .
+Turn 151, A (Postdoc): Wow .
+Turn 152, F (PhD): I hope he never listens to these meetings .
+Turn 153, H (Grad): That 's right . So , and I 've been corresponding with Dan and also with uh uh , SoftSound guy , uh {disfmarker}
+Turn 154, A (Postdoc): It 's amazing .
+Turn 155, B (Professor): Yeah .
+Turn 156, H (Grad): Blanking on his name .
+Turn 157, B (Professor): Tony Robinson ?
+Turn 158, F (PhD): Tony Robinson ?
+Turn 159, H (Grad): Do I mean Tony ? I guess I do .
+Turn 160, B (Professor): Yeah .
+Turn 161, E (PhD): James Christie .
+Turn 162, H (Grad): Or S or Steve Renals .
+Turn 163, B (Professor): Steve Renal - Steve Renals .
+Turn 164, H (Grad): Which one do I mean ?
+Turn 165, E (PhD): Steve Renals is not SoftSound , is he ?
+Turn 166, B (Professor): No .
+Turn 167, H (Grad): My brain is not working ,
+Turn 168, B (Professor): OK .
+Turn 169, H (Grad): I don't remember who I 've been corresponding with .
+Turn 170, E (PhD): Steve wro i it 's Ste - Steve Renals wrote THISL IR .
+Turn 171, H (Grad): Then it 's Steve Renals .
+Turn 172, B (Professor): Oh , OK .
+Turn 173, E (PhD): OK .
+Turn 174, H (Grad): So uh just getting documentation and uh and f and formats ,
+Turn 175, B (Professor): Yeah .
+Turn 176, H (Grad): so that 's all going pretty well ,
+Turn 177, B (Professor): Assuming we 're {disfmarker}
+Turn 178, E (PhD): Right .
+Turn 179, F (PhD): What about issues of playing sound files @ @ between the two platforms ?
+Turn 180, H (Grad): I think we 'll be OK with that . Um we have {disfmarker} Well , that 's a good point too .
+Turn 181, E (PhD): Here 's a {disfmarker} here 's a crazy idea {pause} actually .
+Turn 182, H (Grad): I don't know .
+Turn 183, E (PhD): Why don't you try and merge {pause} Transcriber {pause} and THISL IR ? They 're both Tcl interfaces .
+Turn 184, H (Grad): Well this is one of the reasons {disfmarker} This is the {disfmarker} one of the reasons that I 'm gonna have uh Dave Gelbart {disfmarker} Gelbart {disfmarker} Having him volunteer to work on it is a really good thing because he 's worked on the Transcriber stuff
+Turn 185, E (PhD): Right .
+Turn 186, H (Grad): and he 's more familiar with Tcl - TK than I am .
+Turn 187, E (PhD): And then you get {disfmarker} they {disfmarker} then you get the Windows media playing for free .
+Turn 188, H (Grad): Well that 's Snack , not {disfmarker} not Transcriber .
+Turn 189, E (PhD): Right . But the point is that the Transcriber uses Snack and then you can {disfmarker} but you can use a {disfmarker} a lot of the same functionality and it 's {disfmarker}
+Turn 190, H (Grad): Yeah , yeah , I mean , I {disfmarker} I think THISL {disfmarker} THISL GUI probably uses Snack . And so my intention was just to base it on that .
+Turn 191, E (PhD): Yeah . Well my thought was is that it would be nice {disfmarker} it would be nice to have the running transcripts um eh you know , from speaker to speaker .
+Turn 192, H (Grad): And if it doesn't {disfmarker}
+Turn 193, E (PhD): Right ? Do you have {disfmarker} you have , you know , a speaker mark here and a speaker mark here ?
+Turn 194, H (Grad): Right , we 'll have to figure out a user interface for that , so .
+Turn 195, E (PhD): Right . Well that {disfmarker} eh my thought was if you had like Multitrans or whatever do it . Or whatever .
+Turn 196, H (Grad): Yeah . It might be fairly difficult to get that to work in {comment} the little short segments we 'd be talking about and having the search tools and so on . We {disfmarker} we can look into it ,
+Turn 197, E (PhD): Yeah .
+Turn 198, H (Grad): but {disfmarker}
+Turn 199, B (Professor): The thing I was asking about with , um , free BSD is that it might be easier to get PowerPoint shows running in free BSD than to get this other package running in {disfmarker}
+Turn 200, H (Grad): Yeah , I mean we have to {disfmarker} I have to sit down and try it before I make too many judgments ,
+Turn 201, B (Professor): Yeah .
+Turn 202, H (Grad): so uh Um My experience with the Gnu compatibility library is really it 's just as hard and just as easy to port to any system . Right ? The Windows system isn't any harder because it {disfmarker} it looks like a BSD system .
+Turn 203, B (Professor): Mm - hmm .
+Turn 204, H (Grad): It 's just , you know , just like all of them , the " include " files are a little different and the function calls are a little different .
+Turn 205, B (Professor): Right .
+Turn 206, H (Grad): So I {disfmarker} it might be a little easier but it 's not gonna be a lot easier .
+Turn 207, B (Professor): OK . So there was that demo , which was one of the main ones , then we talked about um some other stuff which would basically be um showing off the {disfmarker} the Transcriber interface itself and as you say , maybe we could even merge those in some sense , but {disfmarker} but um , uh {disfmarker} and part of that was showing off what the speech - non uh nonspeech {comment} stuff that Thilo has done {pause} s {pause} looks like .
+Turn 208, D (PhD): Yeah .
+Turn 209, A (Postdoc): Can I ask one more thing about THISL ? So with the IR stuff then you end up with a somewhat prioritized um {disfmarker} ?
+Turn 210, H (Grad): Mm - hmm . Mm - hmm ,
+Turn 211, A (Postdoc): Excellent .
+Turn 212, H (Grad): ranked .
+Turn 213, A (Postdoc): Excellent . Yeah .
+Turn 214, G (PhD): So another idea I w t had just now actually for the demo was whether it might be of interest to sh to show some of the prosody uh {vocalsound} work that Don 's been doing .
+Turn 215, B (Professor): Mm - hmm .
+Turn 216, G (PhD): Um actually show some of the features and then show for instance a task like finding sentence boundaries or finding turn boundaries . Um , you know , you can show that graphically , sort of what the features are doing . It , you know , it doesn't work great but it 's definitely giving us something .
+Turn 217, B (Professor): Well I think at {disfmarker} at the very least we 're gonna want something illustrative with that
+Turn 218, G (PhD): I don't know if that would be of interest or not .
+Turn 219, B (Professor): cuz I 'm gonna want to talk about it and so i if there 's something that shows it graphically it 's much better than me just having a bullet point
+Turn 220, G (PhD): Yeah .
+Turn 221, B (Professor): pointing at something I don't know much about ,
+Turn 222, G (PhD): I mean , you 're looking at this now {disfmarker}
+Turn 223, B (Professor): so .
+Turn 224, G (PhD): Are you looking at Waves or Matlab ?
+Turn 225, C (Grad): Um yeah I 'm starting to and um {disfmarker} Yeah we can probably find some examples of different type of prosodic events going on .
+Turn 226, G (PhD): Yeah def
+Turn 227, B (Professor): S so when we here were having this demo meeting , what we 're sort of coming up with is that we wanna have all these pieces together , to first order , by the end of the month
+Turn 228, G (PhD): I
+Turn 229, B (Professor): and then that 'll give us a week or so .
+Turn 230, C (Grad): Ooo . The end of {disfmarker}
+Turn 231, G (PhD): Oh , the end of this month or next month ? Oh , you mean like today ?
+Turn 232, H (Grad): This month .
+Turn 233, B (Professor): Ju
+Turn 234, G (PhD): Oh .
+Turn 235, B (Professor): June . June . June .
+Turn 236, G (PhD): Next month .
+Turn 237, H (Grad): Oh sorry , next month .
+Turn 238, C (Grad): Yeah .
+Turn 239, G (PhD): Sorry .
+Turn 240, H (Grad): Today isn't June first ,
+Turn 241, F (PhD): There 's another one .
+Turn 242, H (Grad): is it .
+Turn 243, B (Professor): Uh {disfmarker} that 'll {disfmarker} that 'll give us {disfmarker} that 'll give us a week or so to uh {disfmarker} to port things over to my laptop and make sure that works ,
+Turn 244, E (PhD): Exactly .
+Turn 245, G (PhD): Sorry .
+Turn 246, B (Professor): yeah .
+Turn 247, G (PhD): I think , I mean eh where {disfmarker}
+Turn 248, C (Grad): Yeah , I mean I 'll be here .
+Turn 249, G (PhD): Yeah if d if Don can sort of talk to whoever 's {disfmarker}
+Turn 250, B (Professor): Yeah .
+Turn 251, G (PhD): cuz we 're doing this anyway as part of our {disfmarker} you know , the research , visualizing what these features are doing
+Turn 252, B (Professor): Yeah .
+Turn 253, G (PhD): and so either {disfmarker} it might not be integrated but it {disfmarker} it could potentially be in it .
+Turn 254, B (Professor): Yeah . Well , this is to an audience of researchers
+Turn 255, G (PhD): Could find some .
+Turn 256, B (Professor): so I mean , you know , to let s the goal is to let them know what it is we 're doing .
+Turn 257, G (PhD): I mean it 's different .
+Turn 258, B (Professor): So that 's {disfmarker}
+Turn 259, G (PhD): I don't think anyone has done this on meeting data so it might be neat , you know .
+Turn 260, B (Professor): Yeah . Good . Done with that . XML tools ?
+Turn 261, H (Grad): Um . So I 've been doing a bunch of XML tools where you {disfmarker} we 're sort of moving to XML as the general format for everything and I think that 's definitely the right way to go because there are a lot of tools that let you do extraction and reformatting of XML tools . Um . So yet again we should probably meet to talk about transcription formats in XML because I 'm not particularly happy with what we have now . I mean it works with Transcriber but it {disfmarker} it 's a pain to use it in other tools uh because it doesn't mark start and end .
+Turn 262, F (PhD): Start and end of each {disfmarker} ?
+Turn 263, D (PhD): Yeah .
+Turn 264, H (Grad): Uh {disfmarker} Utterance .
+Turn 265, F (PhD): Utterance . Just marks {disfmarker} ?
+Turn 266, H (Grad): So it 's implicit in {disfmarker} in there
+Turn 267, F (PhD): Yeah .
+Turn 268, H (Grad): but you have to do a lot of processing to get it .
+Turn 269, F (PhD): Right . Right .
+Turn 270, H (Grad): And so {disfmarker} and also I 'd like to do the indirect time line business . Um but regardless , I mean , w that 's something that you , me , and Jane can talk about later . Um , but I 've installed XML tools of various sorts in various languages and so if people are interested in doing {disfmarker} extracting any information from any of these files , either uh information on users because the user database is that way {disfmarker} I 'm converting the Key files to XML so that you can extract m uh various inf uh sorted information on individual meetings
+Turn 271, C (Grad): Cool .
+Turn 272, D (PhD): Yeah .
+Turn 273, H (Grad): and then also the transcripts . And so l just let me know there {disfmarker} it 's mostly Java and Perl but we can get other languages too if {disfmarker} if that 's desirable .
+Turn 274, G (PhD): Oh , quick question on that . Is {disfmarker} do we have the {disfmarker} {vocalsound} the seat information ? In {disfmarker} in the Key files now ?
+Turn 275, A (Postdoc): Mm - hmm .
+Turn 276, H (Grad): The seat information is on the Key files for the ones which
+Turn 277, A (Postdoc): Ah .
+Turn 278, G (PhD): Oh in {disfmarker} For the new one
+Turn 279, H (Grad): it 's been recorded ,
+Turn 280, G (PhD): OK .
+Turn 281, H (Grad): yeah .
+Turn 282, B (Professor): Seat ?
+Turn 283, G (PhD): Great . Sea - yeah .
+Turn 284, H (Grad): Where {disfmarker} where you 're sitting .
+Turn 285, B (Professor): Oh ! Not {disfmarker} not the quality or anything . No .
+Turn 286, D (PhD): n
+Turn 287, H (Grad): Right .
+Turn 288, B (Professor): OK . I see .
+Turn 289, H (Grad): " It 's pretty soft and squishy . "
+Turn 290, B (Professor): Yeah . Yeah .
+Turn 291, G (PhD): Alright .
+Turn 292, B (Professor): OK .
+Turn 293, G (PhD): OK .
+Turn 294, H (Grad): Oh , but that might just be me . Um .
+Turn 295, G (PhD): Alright .
+Turn 296, B (Professor): That 's more seat information than we wanted .
+Turn 297, G (PhD): Never mind .
+Turn 298, E (PhD): Hmm .
+Turn 299, G (PhD): I 'm just trying to figure out , you know , when Morgan 's voice appears on someone 's microphone are they next to him or are they across from him ?
+Turn 300, B (Professor): Yeah .
+Turn 301, H (Grad): Maybe we should bleep that out .
+Turn 302, B (Professor): Mmm , yeah .
+Turn 303, F (PhD): Wait a minute ,
+Turn 304, B (Professor): Yeah .
+Turn 305, F (PhD): how {disfmarker} how w eh where is it in the Key file ?
+Turn 306, H (Grad): Right . The square bracket .
+Turn 307, G (PhD): Cuz I mean I haven't been putting it in and {disfmarker} in by {disfmarker}
+Turn 308, H (Grad): You haven't been putting it in .
+Turn 309, G (PhD): Right .
+Turn 310, A (Postdoc): Well bu
+Turn 311, G (PhD): I have not .
+Turn 312, H (Grad): Oh , OK .
+Turn 313, A (Postdoc): Isn't it always on the digits ?
+Turn 314, B (Professor): Some of these are missing .
+Turn 315, G (PhD): And {disfmarker}
+Turn 316, B (Professor): Aren't they ?
+Turn 317, A (Postdoc): Isn't it always on the digits forms ?
+Turn 318, B (Professor): Some fall out of {disfmarker}
+Turn 319, G (PhD): Well it
+Turn 320, H (Grad): Yeah so we can go back and fill them in for the ones we have .
+Turn 321, C (Grad): Ooo .
+Turn 322, G (PhD): I mean they 're on th right , these , but I just hadn't ever been putting it in the Key files .
+Turn 323, F (PhD): Yeah I {disfmarker} I never {disfmarker}
+Turn 324, G (PhD): And I don't think Chuck was either
+Turn 325, F (PhD): I never knew we were supposed to put it in the Key file .
+Turn 326, G (PhD): cuz {disfmarker}
+Turn 327, H (Grad): I had told you guys about it
+Turn 328, F (PhD): Oh really ?
+Turn 329, G (PhD): Oh , so we 're both sorry .
+Turn 330, H (Grad): but {disfmarker}
+Turn 331, G (PhD): So {disfmarker}
+Turn 332, H (Grad): I mean this is why I wanna use a g a tool to do it rather than the plain text
+Turn 333, G (PhD): OK .
+Turn 334, F (PhD): OK .
+Turn 335, H (Grad): because with the plain text it 's very easy to skip those things .
+Turn 336, G (PhD): OK .
+Turn 337, H (Grad): So . Um if you use the Edit - key , or Key - edit {disfmarker}
+Turn 338, D (PhD): Edit - key .
+Turn 339, H (Grad): I think it 's Edit - key , {comment} command {disfmarker} Did I show you guys that ?
+Turn 340, D (PhD): Yep .
+Turn 341, F (PhD): You mentioned it ,
+Turn 342, H (Grad): I did show it to you ,
+Turn 343, F (PhD): yeah . Yeah .
+Turn 344, H (Grad): but I think you both said " no , you 'll just use text file " .
+Turn 345, F (PhD): Text .
+Turn 346, H (Grad): Um it has it in there , a place to fill it in .
+Turn 347, G (PhD): OK .
+Turn 348, F (PhD): OK .
+Turn 349, H (Grad): Yeah , and so if you don't fill it in , you 're not gonna get it in the meetings .
+Turn 350, G (PhD): So if {disfmarker} Right . Well I {disfmarker} I just realized I hadn't been doing it
+Turn 351, H (Grad): So .
+Turn 352, G (PhD): and probably {disfmarker} So {disfmarker}
+Turn 353, H (Grad): Yep .
+Turn 354, C (Grad): u
+Turn 355, H (Grad): Yeah and then the other thing also that Thilo noticed is , on the microphone , on channel zero it says hand - held mike or Crown mike ,
+Turn 356, G (PhD): Yeah . Right .
+Turn 357, H (Grad): you actually have to say which one .
+Turn 358, G (PhD): I know {disfmarker} Yeah , I usually delete the {disfmarker}
+Turn 359, H (Grad): So .
+Turn 360, F (PhD): Oh ! OK . I didn't do that either .
+Turn 361, G (PhD): I don't ,
+Turn 362, D (PhD): Yeah .
+Turn 363, G (PhD): maybe I forgot to d
+Turn 364, F (PhD): Takes me no time at all to edit these .
+Turn 365, G (PhD): But it 's almost {disfmarker} Yeah .
+Turn 366, H (Grad): Yeah that 's cuz you kn
+Turn 367, F (PhD): I 'm not doing anything .
+Turn 368, H (Grad): I {disfmarker} I know why .
+Turn 369, G (PhD): And I was {disfmarker} I was looking at Chuck 's , like , " oh what did Chuck do , OK I 'll do that " . So .
+Turn 370, H (Grad): And then uh also in a couple of places instead of filling the participants under " participants " they were filled in under " description " .
+Turn 371, B (Professor): Ah , OK .
+Turn 372, G (PhD): Uh {disfmarker}
+Turn 373, H (Grad): And so that 's also a problem . So anyway .
+Turn 374, G (PhD): We will do better .
+Turn 375, H (Grad): That 's it . Oh uh also I 'm working on another version of this tool , the {disfmarker} the one that shows up here , {comment} that will flash yellow if the mike isn't connected . And it 's not quite ready to go yet because um it 's hard to tell whether the mike 's connected or not because the best quality ones , the Crown ones , {comment} are about the same level if they 're off and no one 's o off or if they 're on and no one 's talking .
+Turn 376, C (Grad): Huh .
+Turn 377, H (Grad): Um these {disfmarker} these ones , they are much easier , there 's a bigger difference . So I 'm working on that and it {disfmarker} it sorta works and so eventually we will change to that and then you 'll be able to see graphically if your mike is dropping in or out .
+Turn 378, C (Grad): Will that also include like batteries dying ? Just a any time the mike 's putting out zeros basically .
+Turn 379, H (Grad): Yep . Yep . Yep .
+Turn 380, F (PhD): But with the screensaver kicking in , it {disfmarker}
+Turn 381, D (PhD): But
+Turn 382, H (Grad): Now {disfmarker}
+Turn 383, D (PhD): y yeah .
+Turn 384, C (Grad): Yeah .
+Turn 385, D (PhD): Yeah .
+Turn 386, H (Grad): Well I 'll turn off the screensaver too .
+Turn 387, C (Grad): Oops . Speaking of which .
+Turn 388, H (Grad): Um the other thing is as I 've said before , it is actually on the thing . There 's a little level meter but of course no one ever pays attention to it . So I think having it on the screen is more easy to notice .
+Turn 389, A (Postdoc): It would be nice if {disfmarker} if these had little light indicators , little L E Ds for {disfmarker}
+Turn 390, H (Grad): Uh buzzer .
+Turn 391, A (Postdoc): Yeah , a buzzer .
+Turn 392, H (Grad): " Bamp , bamp ! "
+Turn 393, B (Professor): Small shocks
+Turn 394, A (Postdoc): Yeah . Actually {disfmarker}
+Turn 395, B (Professor): administered to the {disfmarker} OK . Oh {disfmarker}
+Turn 396, H (Grad): OK , disk backup , et cetera ? Um I spoke with Dave Johnson about putting all the Meeting Recorder stuff on non - backed - up disk to save the overhead of backup and he pretty much said " yeah , you could do that if you want " but he thought it was a bad idea . In fact what he said is doing the manual one , {comment} doing uh NW archive to copy it {comment} is a good idea and we should do that and have it backed up . He w he 's a firm believer in {disfmarker} in lots of different modalities of backup . I mean , his point was well taken . This data cannot be recovered .
+Turn 397, G (PhD): Yeah .
+Turn 398, H (Grad): And so if a mistake is made and we lose the backup we should have the archive and if then a mistake is made and we lose the archive we should have the backup .
+Turn 399, B (Professor): Well I guess it is true that even with something that 's backed up it 's not gonna {disfmarker} if it 's stationary it 's not going to go through the increment it 's not gonna burden things in the incremental backups .
+Turn 400, H (Grad): Just {disfmarker} just the monthly full .
+Turn 401, A (Postdoc): Hmm .
+Turn 402, B (Professor): Yeah , so the monthly full will be a bear but {disfmarker}
+Turn 403, H (Grad): Yeah . But he said that {disfmarker} that we sh shouldn't worry too much about that , that we 're getting a new backup system and we 're far enough away from saturation on full backups that it 's w probably OK .
+Turn 404, B (Professor): Really ?
+Turn 405, H (Grad): And uh , so the only issue here is the timing between getting more disks and uh recording meetings .
+Turn 406, B (Professor): So I guess the idea is that we would be reserving the non - backed - up space for things that took less than twenty - four hours to recreate or something like that , right ?
+Turn 407, H (Grad): Things that are recreatable easily and also {disfmarker} Yeah , basically things that are recreatable .
+Turn 408, B (Professor): Yeah . Yeah .
+Turn 409, H (Grad): The expanded files and things like that .
+Turn 410, B (Professor): OK .
+Turn 411, H (Grad): They take up a lot more room anyway .
+Turn 412, B (Professor): Yeah .
+Turn 413, H (Grad): Uh but we do need more disk .
+Turn 414, B (Professor): So we can get more disk . Yeah . So .
+Turn 415, H (Grad): Yeah . And I {disfmarker} I think I agree with him . I mean his point was well taken that if we lose one of these we cannot get it back .
+Turn 416, B (Professor): OK .
+Turn 417, H (Grad): I don't think there was any other et cetera there .
+Turn 418, B (Professor): Well I was allowing someone else to come up with something related that they had uh {disfmarker}
+Turn 419, E (PhD): I thought you guys were gonna burn C Ds ?
+Turn 420, H (Grad): Um unfortunately {disfmarker} we could burn C Ds but first of all it 's a pain .
+Turn 421, E (PhD): Yeah .
+Turn 422, H (Grad): Because you have to copy it down to the PC and then burn it and that 's a multi - step procedure . And second of all the {disfmarker} the write - once burners as opposed to a professional press don't last .
+Turn 423, E (PhD): Yeah .
+Turn 424, H (Grad): So I think burning them for distribution is fine but burning them for backup is not a good idea .
+Turn 425, E (PhD): I see . OK .
+Turn 426, H (Grad): Cuz th they {disfmarker} they fail after a couple years .
+Turn 427, E (PhD): Alright .
+Turn 428, A (Postdoc): I do have uh uh {disfmarker} It 's a different topic . Can I add one top topic ? We have time ? I wanted to ask , I know that uh that Thilo you were , um , bringing the Channeltrans interface onto the Windows machine ? And I wanted to know is th
+Turn 429, D (PhD): Yeah it 's {disfmarker} it {disfmarker} Basically it 's done ,
+Turn 430, A (Postdoc): It 's all done ? That 's g wonderful . Great .
+Turn 431, D (PhD): yeah . Yeah .
+Turn 432, H (Grad): Yes , since Tcl - TK runs on it , basically things 'll just work .
+Turn 433, D (PhD): Yeah it {disfmarker} Yeah , it was just a problem with the Snack version and the Transcriber version but it 's solved .
+Turn 434, A (Postdoc): Does {disfmarker} and that {disfmarker} does that mean , I {disfmarker}
+Turn 435, D (PhD): So .
+Turn 436, A (Postdoc): maybe I should know this but I don't . Does this mean that the {disfmarker} that this could be por uh ported to a Think - Pad note or some other type of uh {disfmarker}
+Turn 437, D (PhD): Yeah , basically uh I did install it on my laptop and yeah
+Turn 438, A (Postdoc): Wonderful .
+Turn 439, D (PhD): it worked .
+Turn 440, A (Postdoc): Wonderful .
+Turn 441, B (Professor): Hmm ! Good . CrossPads ? CrossPads ?
+Turn 442, H (Grad): Uh got an email from uh James Landay who basically said " if you 're not using them , could you return them ? " So he said he doesn't need them , he just periodically w at the end of each term sends out email to everyone who was recorded as having them and asks them if they 're still using them .
+Turn 443, B (Professor): So we 've never used them .
+Turn 444, A (Postdoc): We used them once .
+Turn 445, B (Professor): Once ?
+Turn 446, H (Grad): We {disfmarker} we used them a couple times ,
+Turn 447, A (Postdoc): Mm - hmm . Couple times .
+Turn 448, F (PhD): Them ? There 's more than one ?
+Turn 449, H (Grad): but {disfmarker}
+Turn 450, A (Postdoc): Yeah .
+Turn 451, B (Professor): i
+Turn 452, H (Grad): Yeah , we have two . Um .
+Turn 453, B (Professor): But {disfmarker}
+Turn 454, H (Grad): My opinion on it is , first , I never take notes anyway so I 'm not gonna use it , um and second , it 's another level of infrastructure that we have to deal with .
+Turn 455, A (Postdoc): And I have {disfmarker} uh so my {disfmarker} my feeling on it is that I think in principle it 's a really nice idea , and you have the time tags which makes it better tha than just taking ra raw notes . On the other hand , I {disfmarker} the down side for me was that I think the pen is really noisy . So you have ka kaplunk , kaplunk , kaplunk . And I {disfmarker} and I don't know if it 's audible on the {disfmarker} but I {disfmarker} I sort of thought that was a disadvantage . I do take notes , I mean , I could be taking notes on these things and I guess the plus with the CrossPads would be the time markings but {disfmarker} I don't know .
+Turn 456, D (PhD): Uh , what is a CrossPad ?
+Turn 457, B (Professor): So it 's {disfmarker} it 's um {disfmarker} it 's a regular pad , just a regular pad of paper but there 's this pen which indicates position .
+Turn 458, C (Grad): Thank you .
+Turn 459, B (Professor): And so you have time and position stuff stored
+Turn 460, D (PhD): OK .
+Turn 461, B (Professor): so that you can {disfmarker} you have a record of whatever it is you 've written .
+Turn 462, D (PhD): OK .
+Turn 463, H (Grad): And then you can download it and they have OCR and searching and all sorts of things .
+Turn 464, D (PhD): OK . OK .
+Turn 465, H (Grad): So i if you take notes it 's a great little device .
+Turn 466, A (Postdoc): Could {disfmarker} Mm - hmm .
+Turn 467, H (Grad): But I don't take notes ,
+Turn 468, B (Professor): And one of the reasons that it was brought up originally was because uh we were interested in {disfmarker} in higher - level things ,
+Turn 469, H (Grad): so .
+Turn 470, B (Professor): not just the , you know , microphone stuff but also summarization and so forth and the question is if you were going to go to some gold standard of what wa what was it that happened in the meeting you know , where would it come from ? And um I think that was one of the things ,
+Turn 471, D (PhD): Yeah .
+Turn 472, G (PhD): Yeah .
+Turn 473, H (Grad): Yep .
+Turn 474, B (Professor): right ? And so the {disfmarker} it seemed like a neat idea . We 'll have a {disfmarker} you know , have a scribe , have somebody uh take good notes and then that 's part of the record of the meeting . And then we did it once or twice and we sort of {disfmarker}
+Turn 475, H (Grad): Yep , and then just sort of died out .
+Turn 476, B (Professor): probably chose the wrong scribe but it was {disfmarker} {vocalsound} It 's uh {disfmarker}
+Turn 477, G (PhD): I mean {disfmarker}
+Turn 478, H (Grad): Yeah that 's right .
+Turn 479, A (Postdoc): Well I did it one time
+Turn 480, H (Grad): Yep .
+Turn 481, A (Postdoc): but um {disfmarker}
+Turn 482, B (Professor): Yeah .
+Turn 483, A (Postdoc): u but I guess the {disfmarker} the other thing I 'm thinking is if we wanted that kind of thing I wonder if we 'd lose that much by having someone be a scribe by listening to the tape , to the recording afterwards and taking notes in some other interface .
+Turn 484, F (PhD): I mean we 're transcribing it anyways , why do we need notes ?
+Turn 485, A (Postdoc): Oh it 's la it 's useful ,
+Turn 486, H (Grad): Because that 's summary .
+Turn 487, A (Postdoc): have a summary and high points .
+Turn 488, B (Professor): Summary .
+Turn 489, G (PhD): I think {disfmarker} there 's also {disfmarker} there 's this use that {disfmarker}
+Turn 490, F (PhD): Summarize it from the transcription .
+Turn 491, G (PhD): the {disfmarker} Well , what if you 're sitting there and you just wanna make an X and you don't wanna take notes and you 're {disfmarker} you just wanna
+Turn 492, F (PhD): Doodle .
+Turn 493, G (PhD): get the summary of the transcript from this time location like {disfmarker} you know , and {disfmarker} and then while you 're bored you don't do anything and once in a while , maybe there 's a joke and you put a X and {disfmarker} {comment} But {disfmarker} in {disfmarker} in other words you can use that just to highlight times in a very simple way . Also with {disfmarker} I was thinking and I know Morgan disagrees with me on this but suppose you have a group in here and you wanna let them note whenever they think there might be something later that they might not wanna distribute in terms of content , they could just sort of make an X near that point or a question mark that sort of alerts them that when they get the transcript back they c could get some red flags in that transcript region and they can then look at it . So . I know we haven't been using it but I w I can imagine it being useful just for sort of marking time periods
+Turn 494, H (Grad): Right .
+Turn 495, G (PhD): which you then get back in a transcript
+Turn 496, A (Postdoc): Well .
+Turn 497, B (Professor): I guess {disfmarker} so , you know , what {disfmarker} what makes one think i is maybe we should actually schedule some periods where people go over something later
+Turn 498, G (PhD): so .
+Turn 499, B (Professor): and {disfmarker} and {disfmarker} and put some kind of summary or something uh you know , some {disfmarker} there 'd be some scribe who would actually listen , w who 'd agreed to actually listen to the whole thing , not transcribe it , but just sort of write down things that struck them as important . But {disfmarker} then you don't {disfmarker} you don't have the time reference uh that you 'd have if you had it live .
+Turn 500, G (PhD): Right . And you don't have a lot of other cues that might be useful ,
+Turn 501, B (Professor): Yeah .
+Turn 502, F (PhD): How do you synchronize the time in the CrossPad and the time of the recording ?
+Turn 503, G (PhD): so .
+Turn 504, H (Grad): I mean that was one of the issues we talked about originally and that that 's w part of the difficulty is that we need an infrastructure for using the time {disfmarker} the CrossPads and so that means synchronizing the time {disfmarker}
+Turn 505, G (PhD): 
+Turn 506, A (Postdoc): Mm - hmm .
+Turn 507, H (Grad): You know you want it pretty close and there 's a fair amount of skew because it 's a hand - held unit with a battery
+Turn 508, A (Postdoc): Well when {disfmarker} when I d
+Turn 509, H (Grad): and so you {disfmarker}
+Turn 510, A (Postdoc): OK .
+Turn 511, H (Grad): so you have to synchronize at the beginning of each meeting all the pads that are being used , so that it 's synchronized with the time on that and then you have to download to an application , and then you have to figure out what the data formats are and convert it over if you wanna do anything with this information .
+Turn 512, A (Postdoc): w Mm - hmm .
+Turn 513, E (PhD): Why {disfmarker}
+Turn 514, H (Grad): And so there 's a lot of infrastructure which
+Turn 515, A (Postdoc): There is an alternative .
+Turn 516, H (Grad): unless someone {disfmarker}
+Turn 517, A (Postdoc): There is an alternative , I mean , it 's still , there 's uh {disfmarker} you know , your point stands about there be {disfmarker} needing to be an infrastructure , but it doesn't have to be synchronized with the little clock 's timer on it . You c I mean , I {disfmarker} when I {disfmarker} when I did it I synchronized it by voice , by whispering " one , two , three , four " onto the microphone
+Turn 518, H (Grad): Hmm .
+Turn 519, A (Postdoc): and uh , you know .
+Turn 520, H (Grad): Well , but then there 's the infrastructure at the other end
+Turn 521, E (PhD): Right .
+Turn 522, H (Grad): which someone has to listen to that and find that point ,
+Turn 523, A (Postdoc): Yeah , it 's transcribed . It 's in the transcript .
+Turn 524, H (Grad): and then mark it .
+Turn 525, A (Postdoc): Yeah .
+Turn 526, H (Grad): So .
+Turn 527, A (Postdoc): Well it 's in the transcript .
+Turn 528, G (PhD): Well , could we keep one of these things for another year ? Would h I mean is there a big cau
+Turn 529, H (Grad): We can keep all {disfmarker} both of them for the whole whole year .
+Turn 530, G (PhD): just {disfmarker} just in case we {disfmarker}
+Turn 531, H (Grad): I mean , it 's just {disfmarker}
+Turn 532, G (PhD): even maybe some of the transcribers who might be wanting to annotate uh f just there 's a bunch of things that might be neat to do but I {disfmarker} it might not be the case that we can actually synchronize them and then do all the infrastructure but we could at least try it out .
+Turn 533, B (Professor): Well {disfmarker} one thing that we might try um is on some set of meetings , some collection of meetings , maybe EDU is the right one or maybe something else , we {disfmarker} we get somebody to buy into the idea of doing this as part of the task . I mean ,
+Turn 534, G (PhD): Right .
+Turn 535, B (Professor): uh part of the reason {disfmarker} I think part of the reason that Adam was so interested in uh the SpeechCorder sort of f idea from the beginning is he said from the beginning he hated taking notes and {disfmarker}
+Turn 536, H (Grad): Yep .
+Turn 537, B (Professor): and so forth so and {disfmarker} and Jane is more into it but eh uh you know I don't know if you wanna really do {disfmarker} do this all the time so I think the thing is to {disfmarker} to get someone to actually buy into it and have at least some series of meetings where we do it . Um {disfmarker} and if so , it 's probably worth having one . The p the {disfmarker} the problem with the {disfmarker} the more extended view , all these other you know with uh quibbling about particular applications of it is that it looks like it 's hard to get people to um uh routinely use it , I mean it just hasn't happened anyway . But maybe if we can get a person to {disfmarker}
+Turn 538, G (PhD): Yeah I don't think it has to be part of a what everybody does in a meeting but it might be a useful , neat part of the project that we can , you know , show off as a mechanism for synchronizing events in time that happen that you just wanna make a note of , like what Jane was talking about with some later browsing , just {disfmarker} just as a convenience , even if it 's not a full - blown note taking substitute .
+Turn 539, E (PhD): Well if you wanted to do that maybe the right architecture for it is to get a PDA with a wireless card . And {disfmarker} and that way you can synchronize very easily with the {disfmarker} the {disfmarker} the meeting because you 'll be synchroni you can synchronize with the {disfmarker} the Linux server and uh {disfmarker}
+Turn 540, G (PhD): So what kind of input would you be {disfmarker} ?
+Turn 541, E (PhD): so {disfmarker} so , I mean , if you 're not worried about {disfmarker}
+Turn 542, H (Grad): Buttons .
+Turn 543, G (PhD): You 'd just be pressing like a {disfmarker} a {disfmarker}
+Turn 544, E (PhD): Well {disfmarker} well you have a PDA and may and you could have the same sort of X interface or whatever , I mean , you 'd have to do a little eh a little bit of coding to do it .
+Turn 545, G (PhD): Mm - hmm .
+Turn 546, E (PhD): But you could imagine ,
+Turn 547, G (PhD): Yeah , that be good .
+Turn 548, E (PhD): I mean , if {disfmarker} if all you really wanted was {disfmarker} you didn't want this secondary note - taking channel but just sort of being able to use m markers of some sort , a PDA with a l a wireless card would be the {disfmarker} probably the right way to go . I mean even buttons you could do , sort of , I mean , as you said .
+Turn 549, H (Grad): I mean for what {disfmarker} what you 've been describing buttons would be even more convenient than anything else ,
+Turn 550, G (PhD): M right .
+Turn 551, E (PhD): Right .
+Turn 552, G (PhD): That would be fine too .
+Turn 553, H (Grad): right ? You have the {disfmarker}
+Turn 554, G (PhD): I mean , I don't have , you know , grandiose ideas in mind but I 'm just sort of thinking well we 've {disfmarker} we 're getting into the next year now and we have a lot of these things worked out at {disfmarker} in terms of the speech maybe somebody will be interested in this and {disfmarker}
+Turn 555, A (Postdoc): I like this PDA idea . Yeah .
+Turn 556, B (Professor): Yeah , I do like the idea of having a couple buttons
+Turn 557, G (PhD): Yeah .
+Turn 558, H (Grad): Well I 'm sure there would {disfmarker}
+Turn 559, A (Postdoc): Yeah .
+Turn 560, B (Professor): where like one {disfmarker} one button was " uh - oh " and then another button was " that 's great " and another button " that 's f "
+Turn 561, G (PhD): Or like this is my " I 'm supposed to do this " kind of button ,
+Turn 562, A (Postdoc): Yeah .
+Turn 563, G (PhD): like " I better remember to {disfmarker} "
+Turn 564, H (Grad): Action item .
+Turn 565, G (PhD): Yeah something like that or {disfmarker}
+Turn 566, A (Postdoc): And then {disfmarker}
+Turn 567, H (Grad): I mean I think the CrossPad idea is a good one .
+Turn 568, A (Postdoc): Uh - huh .
+Turn 569, H (Grad): It 's just a question of getting people to use it and getting the infrastructure set up in such a way that it 's not a lot of extra work . I mean that 's part of the reason why it hasn't happened is that it 's been a lot of extra work for me
+Turn 570, G (PhD): Yeah .
+Turn 571, B (Professor): Right .
+Turn 572, A (Postdoc): Well , and not just for you .
+Turn 573, H (Grad): and {disfmarker}
+Turn 574, A (Postdoc): But it 's also , it has this problem of having to go from an analog to a d a digital record too ,
+Turn 575, G (PhD): W
+Turn 576, A (Postdoc): doesn't it ? I mean {disfmarker}
+Turn 577, H (Grad): Well it 's digital but it 's in a format that is not particularly standard .
+Turn 578, A (Postdoc): But I mean , say , if i if {disfmarker} if you 're writing {disfmarker} if you 're writing notes in it does {disfmarker} it {disfmarker} it can't do handwriting recognition , right ?
+Turn 579, B (Professor): No , no , but it 's just {disfmarker} it 's just storing the pixel informa position information ,
+Turn 580, A (Postdoc): OK .
+Turn 581, B (Professor): it 's all digital .
+Turn 582, A (Postdoc): I {disfmarker} I guess what I 'm thinking is that the PDA solution you h you have it already without needing to go from the pixelization to a {disfmarker} to a {disfmarker} I mean {disfmarker}
+Turn 583, B (Professor): Right . You don't have to {disfmarker}
+Turn 584, E (PhD): The transfer function is less errorful ,
+Turn 585, A (Postdoc): Oh , nicely put .
+Turn 586, B (Professor): Yeah .
+Turn 587, E (PhD): yes .
+Turn 588, G (PhD): Yeah , yeah .
+Turn 589, B (Professor): Yeah . Yeah .
+Turn 590, G (PhD): Well it also {disfmarker} it 's maybe realistic cuz people are supposed to be bringing their P D As to the meeting eventually , right ? That 's why we have this little {disfmarker} I don't know what {disfmarker} I don't wanna cause more work for anyone but I can imagine some interesting things that you could do with it and so if we don't have to return it and we can keep it for a year {disfmarker} I don't know .
+Turn 591, H (Grad): Well {disfmarker} w we don't {disfmarker} we certainly don't have to return it , as I said . All {disfmarker} all he said is that if you 're not using it could you return it , if you are using it feel free to keep it . The point is that we haven't used it at all and are we going to ?
+Turn 592, B (Professor): So we have no but {disfmarker} uh by I {disfmarker} I would suggest you return one . Because we {disfmarker} we you know , we {disfmarker} we haven't used it at all .
+Turn 593, G (PhD): Yeah .
+Turn 594, H (Grad): OK .
+Turn 595, G (PhD): We c
+Turn 596, B (Professor): We have some aspirations of using them
+Turn 597, G (PhD): One would probably be fine .
+Turn 598, B (Professor): and {disfmarker}
+Turn 599, G (PhD): Maybe we could do like a student project , you know , maybe someone who wants to do this as their main like s project for something would be cool .
+Turn 600, B (Professor): Yeah .
+Turn 601, H (Grad): Yep . I mean if we had them out and sitting on the table people might use them a little more
+Turn 602, B (Professor): Maybe Jeremy could sit in some meetings and press a button when there {disfmarker} when {disfmarker} when somebody laughed .
+Turn 603, H (Grad): although there is a little {disfmarker}
+Turn 604, G (PhD): Well , I 'm {disfmarker} yeah , that 's not a bad {disfmarker}
+Turn 605, B (Professor): Yeah , yeah . Yeah .
+Turn 606, G (PhD): Jeremy 's gonna be an {disfmarker} he 's a new student starting on modeling brea breath and laughter , actually , which sounds funny but I think it should be cool ,
+Turn 607, B (Professor): Yeah .
+Turn 608, G (PhD): so .
+Turn 609, H (Grad): Sounds breathy to me .
+Turn 610, G (PhD): OK . " Ha - ha - ha . "
+Turn 611, H (Grad): Breath and lau " ha - ha - ha - ha " . " Ha - ha - ha - ha . "
+Turn 612, B (Professor): Well dear .
+Turn 613, H (Grad): Um .
+Turn 614, B (Professor): Hmm .
+Turn 615, H (Grad): That reminded me of something . Oh well , too late . It slipped out .
+Turn 616, B (Professor): OK .
+Turn 617, G (PhD): You 're {disfmarker} you 're gonna tease me ?
+Turn 618, H (Grad): Oh , equipment .
+Turn 619, G (PhD): OK .
+Turn 620, H (Grad): Ordered {disfmarker} Uh , well I 'm always gonna do that . W uh {disfmarker} {comment} We ordered uh more wireless , and so they should be coming in at some point .
+Turn 621, G (PhD): Great .
+Turn 622, H (Grad): And then at the same time I 'll probably rewire the room as per Jane 's suggestion so that uh the first N channels are wireless , eh are the m the close - talking and the next N are far - field .
+Turn 623, B (Professor): You know what he means but isn't that funny sounding ? " We ordered more wireless . " It 's like wires are the things so you 're wiring {disfmarker} you 're {disfmarker} you 're {disfmarker} you {disfmarker} we 're {disfmarker} we ordered more absence of the thing .
+Turn 624, G (PhD): That 's a very philosophical statement from Morgan .
+Turn 625, H (Grad): wired less , wired more .
+Turn 626, G (PhD): I just {disfmarker} it 's sort of a anachronism , I mean it 's like {disfmarker} It 's great .
+Turn 627, B (Professor): Anyway .
+Turn 628, H (Grad): Should we do digits ? Do we have anything else ?
+Turn 629, B (Professor): Yeah .
+Turn 630, A (Postdoc): OK .
+Turn 631, B (Professor): I mean there 's {disfmarker} there 's all this stuff going on uh between uh Andreas and {disfmarker} and {disfmarker} and Dave and Chuck and others with various kinds of runs uh um {disfmarker} recognition runs , trying to figure things out about the features but it 's {disfmarker} it 's all sort of in process , so there 's not much to say right now . Uh why don't we start with our {disfmarker} our esteemed guest .
+Turn 632, E (PhD): OK . Alright .
+Turn 633, H (Grad): So just the transcript number and then the {disfmarker} then the {disfmarker}
+Turn 634, E (PhD): This is {disfmarker} Yes , this is number two for me today .
+Turn 635, B (Professor): See all you have to do is go away to move way up in the {disfmarker}
+Turn 636, E (PhD): Oh .
+Turn 637, G (PhD): We could do simultaneous . Initiate him .
+Turn 638, B (Professor): We {disfmarker} we could .
+Turn 639, H (Grad): Should we do simultaneous ?
+Turn 640, G (PhD): Well , I 'm just thinking , are you gonna try to save the data before this next group comes in ?
+Turn 641, B (Professor): Yeah .
+Turn 642, H (Grad): Yeah , absolutely .
+Turn 643, G (PhD): Yeah , so we might wanna do it simultaneous .
+Turn 644, H (Grad): I mean you hav sorta have to .
+Turn 645, B (Professor): Well OK , so let 's do one of those simultaneous ones .
+Turn 646, G (PhD): Right , so {disfmarker} so we might n we might need to do that actually .
+Turn 647, B (Professor): That sounds good .
+Turn 648, H (Grad): OK .
+Turn 649, E (PhD): OK .
+Turn 650, B (Professor): Everybody ready ?
+Turn 651, A (Postdoc): Yeah .
+Turn 652, B (Professor): A one .
+Turn 653, G (PhD): You have to plug your ears , by the way uh Eric ,
+Turn 654, H (Grad): Well I have to ,
+Turn 655, D (PhD): You don't have to .
+Turn 656, E (PhD): OK , alright .
+Turn 657, G (PhD): or {disfmarker} or you start laughing .
+Turn 658, H (Grad): I don't know about other people .
+Turn 659, B (Professor): OK , a one and a two and a three . OK , babble , take five .

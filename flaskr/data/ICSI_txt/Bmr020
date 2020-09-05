@@ -1,0 +1,1139 @@
+Turn 0, A (Grad): OK , we 're recording .
+Turn 1, F (Professor): We can say the word " zero " all we want ,
+Turn 2, G (PhD): I 'm doing some
+Turn 3, F (Professor): but just {disfmarker}
+Turn 4, G (PhD): square brackets , coffee sipping , square brackets .
+Turn 5, B (PhD): That 's not allowed , I think .
+Turn 6, C (Postdoc): Cur - curly brackets .
+Turn 7, E (Grad): Is that voiced or unvoiced ?
+Turn 8, A (Grad): Curly brackets .
+Turn 9, B (PhD): Curly brackets .
+Turn 10, F (Professor): Curly brackets .
+Turn 11, A (Grad): Right .
+Turn 12, B (PhD): Oops .
+Turn 13, F (Professor): Well , correction for transcribers .
+Turn 14, G (PhD): Mmm ! {comment} {vocalsound} Gar - darn !
+Turn 15, F (Professor): Yeah .
+Turn 16, C (Postdoc): Channel two .
+Turn 17, A (Grad): Do we use square brackets for anything ?
+Turn 18, C (Postdoc): Yeah . Uh {disfmarker}
+Turn 19, E (Grad): These poor transcribers .
+Turn 20, F (Professor): u
+Turn 21, C (Postdoc): Not ri not right now . I mean {disfmarker} No .
+Turn 22, D (PhD): There 's gonna be some zeros from this morning 's meeting because I noticed that
+Turn 23, F (Professor): u
+Turn 24, D (PhD): Barry , I think maybe you turned your mike off before the digits were {disfmarker} Oh , was it during digits ? Oh , so it doesn't matter .
+Turn 25, F (Professor): Yeah .
+Turn 26, A (Grad): It 's still not a good idea .
+Turn 27, B (PhD): So it 's not {disfmarker} it 's not that bad if it 's at the end , but it 's {disfmarker} in the beginning , it 's {pause} bad .
+Turn 28, D (PhD): Yeah . Yeah .
+Turn 29, A (Grad): Yeah , you wanna {disfmarker} you wanna keep them on so you get {pause} good noise {disfmarker} noise floors , through the whole meeting .
+Turn 30, C (Postdoc): That 's interesting . Hmm .
+Turn 31, F (Professor): Uh , I probably just should have left it on . Yeah I did have to run , but {disfmarker}
+Turn 32, E (Grad): Is there any way to change that in the software ?
+Turn 33, A (Grad): Change what in the software ?
+Turn 34, E (Grad): Where like you just don't {disfmarker} like if you {disfmarker} if it starts catching zeros , like in the driver or something {disfmarker} in the card , or somewhere in the hardware {disfmarker} Where if you start seeing zeros on w across one channel , you just add some {vocalsound} random , @ @ {comment} noise floor {disfmarker} like a small noise floor .
+Turn 35, A (Grad): I mean certainly we could do that , but I don't think that 's a good idea . We can do that in post - processing if {disfmarker} if the application needs it .
+Turn 36, E (Grad): Yeah .
+Turn 37, B (PhD): Manual post - processing .
+Turn 38, F (Professor): Well , I {disfmarker} u I actually don't know what the default {comment} is anymore as to how we 're using the {disfmarker} the front - end stuff but {disfmarker} for {disfmarker} for {disfmarker} when we use the ICSI front - end ,
+Turn 39, A (Grad): As an argument .
+Turn 40, F (Professor): but um , there is an {disfmarker} there is an o an option in {disfmarker} in RASTA , which , um , {vocalsound} in when I first put it in , uh , back in the days when I actually wrote things , uh , {vocalsound} I {pause} did actually put in a random bit or so that was in it ,
+Turn 41, E (Grad): OK .
+Turn 42, F (Professor): but {vocalsound} then I realized that putting in a random bit was equivalent to adding uh {disfmarker} adding flat spectrum ,
+Turn 43, E (Grad): Right .
+Turn 44, F (Professor): and it was a lot faster to just add a constant to the {disfmarker} {vocalsound} to the spectrum . So then I just started doing that
+Turn 45, E (Grad): Mmm . OK .
+Turn 46, F (Professor): instead of calling " rand " {comment} or something ,
+Turn 47, E (Grad): Right .
+Turn 48, F (Professor): so . So it d it does that . Gee ! Here we all are !
+Turn 49, A (Grad): Uh , so the only agenda items were Jane {disfmarker} was Jane wanted to talk about some of the IBM transcription process .
+Turn 50, F (Professor): There 's an agenda ?
+Turn 51, A (Grad): I sort of {vocalsound} condensed the three things you said into that . And then just {disfmarker} I only have like , this afternoon and maybe tomorrow morning to get anything done before I go to Japan for ten days . So if there 's anything that n absolutely , desperately needs to be done , you should let me know now .
+Turn 52, F (Professor): Uh , and you just sent off a Eurospeech paper , so .
+Turn 53, G (PhD): Right . I hope they accept it .
+Turn 54, F (Professor): Right .
+Turn 55, G (PhD): I mean , I {disfmarker} both actu as {disfmarker} as a submission and {disfmarker} {vocalsound} you know , as a paper . Um {disfmarker} but {disfmarker}
+Turn 56, A (Grad): Well yeah , you sent it in {pause} late .
+Turn 57, F (Professor): Yeah , I guess you {disfmarker} first you have to do the first one ,
+Turn 58, A (Grad): Yeah .
+Turn 59, F (Professor): and then {disfmarker} Yeah .
+Turn 60, G (PhD): We actually exceeded the delayed deadline by o another day , so .
+Turn 61, B (PhD): Oops .
+Turn 62, F (Professor): Oh they {disfmarker} they had some extension that they announced or something ?
+Turn 63, G (PhD): Well yeah . Liz had sent them a note saying " could we please {pause} have another " {comment} {pause} I don't know , " three days " or something , and they said yes .
+Turn 64, D (PhD): And then she said " Did I say three ?
+Turn 65, A (Grad): Oh ,
+Turn 66, D (PhD): I meant four . "
+Turn 67, A (Grad): that was the other thing uh ,
+Turn 68, G (PhD): But u
+Turn 69, A (Grad): uh , Dave Gelbart sent me email , I think he sent it to you too , {comment} that um , there 's a special topic , section in si in Eurospeech on new , corp corpors corpora . And it 's not due until like May fifteenth .
+Turn 70, F (Professor): Oh this isn't the Aurora one ?
+Turn 71, A (Grad): No .
+Turn 72, F (Professor): It 's another one ?
+Turn 73, A (Grad): It 's a different one .
+Turn 74, B (PhD): No it 's {disfmarker} Yeah . Yeah .
+Turn 75, E (Grad): Huh !
+Turn 76, A (Grad): And uh ,
+Turn 77, F (Professor): Oh !
+Turn 78, B (PhD): I got this mail from {disfmarker}
+Turn 79, A (Grad): I s forwarded it to Jane as I thought being the most relevant person . Um {disfmarker} So , I thought it was highly relevant {disfmarker}
+Turn 80, C (Postdoc): Yeah I 'm {disfmarker}
+Turn 81, F (Professor): That 's {disfmarker}
+Turn 82, A (Grad): have you {disfmarker} did you look at the URL ?
+Turn 83, C (Postdoc): Yeah . I think so too . Um , I haven't gotten over to there yet ,
+Turn 84, A (Grad): Mm - hmm .
+Turn 85, C (Postdoc): but what {disfmarker} our discussion yesterday , I really {disfmarker} I {disfmarker} I wanna submit one .
+Turn 86, B (PhD): Was this {pause} SmartKom message ? I think {pause} Christoph Draxler sent this ,
+Turn 87, C (Postdoc): Yeah . And , you offered to {disfmarker} to join me , if you want me to .
+Turn 88, A (Grad): I 'll help ,
+Turn 89, B (PhD): yeah .
+Turn 90, A (Grad): but obviously I can't , really do , most of it ,
+Turn 91, C (Postdoc): Yeah . Yeah , that 's right .
+Turn 92, G (PhD): I think several people {disfmarker} sent this ,
+Turn 93, A (Grad): so .
+Turn 94, B (PhD): Yeah .
+Turn 95, C (Postdoc): Uh - huh .
+Turn 96, G (PhD): yeah .
+Turn 97, A (Grad): But any {disfmarker} any help you need I can certainly provide .
+Turn 98, F (Professor): Well ,
+Turn 99, G (PhD): Yeah .
+Turn 100, F (Professor): that 's {disfmarker} that 's a great idea .
+Turn 101, G (PhD): Well {disfmarker} there {disfmarker} there were some interesting results in this paper , though . For instance that Morgan {disfmarker} uh , accounted for fifty - six percent of the Robustness meetings in terms of number of words .
+Turn 102, A (Grad): Wow .
+Turn 103, C (Postdoc): In {disfmarker} in terms of what ? In term
+Turn 104, G (PhD): Number of words .
+Turn 105, C (Postdoc): One ? Wow ! OK .
+Turn 106, A (Grad): That 's just cuz he talks really fast .
+Turn 107, C (Postdoc): Do you mean ,
+Turn 108, F (Professor): n No .
+Turn 109, A (Grad): I know
+Turn 110, B (PhD): Oh . Short words .
+Turn 111, C (Postdoc): because {disfmarker} is it partly , eh , c correctly identified words ? Or is it {disfmarker} or just overall volume ?
+Turn 112, G (PhD): No . Well , according to the transcripts .
+Turn 113, A (Grad): But re well regardless . I think it 's {disfmarker} he 's {disfmarker} he 's in all of them ,
+Turn 114, C (Postdoc): Oh . OK .
+Turn 115, F (Professor): Yeah .
+Turn 116, G (PhD): I mean , we didn't mention Morgan by name
+Turn 117, A (Grad): and he talks a lot .
+Turn 118, G (PhD): we just {disfmarker}
+Turn 119, A (Grad): One participant .
+Turn 120, F (Professor): Well {disfmarker} we have now , but {disfmarker}
+Turn 121, G (PhD): We {disfmarker} we {disfmarker} we {disfmarker} something about {disfmarker}
+Turn 122, A (Grad): Did you identify him as a senior {pause} member ?
+Turn 123, G (PhD): No , we as identify him as the person dominating the conversation .
+Turn 124, F (Professor): Well .
+Turn 125, A (Grad): Yeah .
+Turn 126, C (Postdoc): OK .
+Turn 127, F (Professor): I mean I get these AARP things , but I 'm not se really senior yet , but {disfmarker}
+Turn 128, G (PhD): Right
+Turn 129, F (Professor): Um ,
+Turn 130, G (PhD): Hmm .
+Turn 131, F (Professor): but uh , other than that delightful result , what was the rest of the paper about ?
+Turn 132, G (PhD): Um , well it was about {disfmarker} it had three sections
+Turn 133, F (Professor): You sent it to me but I haven't seen it yet .
+Turn 134, G (PhD): uh {disfmarker} three kinds of uh results , if you will . Uh , the one was that the {disfmarker} just the {disfmarker} the amount of overlap
+Turn 135, A (Grad): The good , the bad , and the ugly .
+Turn 136, G (PhD): um , s in terms of {disfmarker} in terms of number of words and also we computed something called a " spurt " , which is essentially a stretch of speech with uh , no pauses exceeding five hundred milliseconds . Um , and we computed how many overlapped i uh spurts there were and how many overlapped words there were . {vocalsound} Um , for four different {pause} corpora , the Meeting Recorder meetings , the Robustness meetings Switchboard and CallHome , and , found {disfmarker} and sort of compared the numbers . Um , and found that the , uh , you know , as you might expect the Meeting Recorder {pause} meetings had the most overlap uh , but next were Switchboard and CallHome , which both had roughly the same , almost identical in fact , and the Robustness meetings were {disfmarker} had the least , so {disfmarker} One sort of unexpected result there is that uh two - party telephone conversations have {vocalsound} about the same amount of overlap ,
+Turn 137, A (Grad): I 'm surprised .
+Turn 138, G (PhD): sort of in gen you know {disfmarker} order of magnitude - wise as , uh {disfmarker} as face - to - face meetings with multiple {disfmarker}
+Turn 139, A (Grad): I have {disfmarker} I had better start changing all my slides !
+Turn 140, G (PhD): Yeah . Also , I {disfmarker} in the Levinson , the pragmatics book , {comment} in you know , uh , textbook , {vocalsound} there 's {disfmarker} I found this great quote where he says {vocalsound} you know {disfmarker} you know , how people {disfmarker} it talks about how uh {disfmarker} how {disfmarker} how people are so good at turn taking ,
+Turn 141, C (Postdoc): Mm - hmm . Yeah . Yeah .
+Turn 142, G (PhD): and {vocalsound} so {disfmarker} they 're so good that {vocalsound} generally , u the overlapped speech does not {disfmarker} is less than five percent .
+Turn 143, C (Postdoc): Oh , that 's interesting . Yeah .
+Turn 144, G (PhD): So , this is way more than five percent .
+Turn 145, E (Grad): Did he mean face {disfmarker} like face - to - face ? Or {disfmarker} ?
+Turn 146, G (PhD): Well , in real conversations ,
+Turn 147, E (Grad): Hmm .
+Turn 148, G (PhD): everyday conversations .
+Turn 149, C (Postdoc): Mm - hmm .
+Turn 150, G (PhD): It 's s what these conversation analysts have been studying for years and years there .
+Turn 151, C (Postdoc): Mm - hmm .
+Turn 152, B (PhD): But {disfmarker}
+Turn 153, C (Postdoc): Well , of course , no , it doesn't necessarily go against what he said , cuz he said " generally speaking " . In order to {disfmarker} to go against that kind of a claim you 'd have to big canvassing .
+Turn 154, A (Grad): Hmm .
+Turn 155, B (PhD): And in f
+Turn 156, G (PhD): Well , he {disfmarker} he made a claim {disfmarker}
+Turn 157, A (Grad): Well {disfmarker}
+Turn 158, G (PhD): Well {disfmarker}
+Turn 159, A (Grad): 
+Turn 160, B (PhD): But {disfmarker}
+Turn 161, F (Professor): Yeah , we {disfmarker} we have pretty limited sample here .
+Turn 162, B (PhD): Five percent of time or five percent of what ?
+Turn 163, A (Grad): Yeah , I was gonna ask that too .
+Turn 164, C (Postdoc): Yeah .
+Turn 165, B (PhD): Yeah .
+Turn 166, C (Postdoc): Exactly .
+Turn 167, G (PhD): Well it 's time .
+Turn 168, B (PhD): Yeah , so {disfmarker}
+Turn 169, C (Postdoc): It 's {disfmarker} i it 's not against his conclusion ,
+Turn 170, G (PhD): So {disfmarker} {vocalsound} but still {disfmarker} but still {disfmarker} u
+Turn 171, C (Postdoc): it just says that it 's a bi bell curve , and that , {vocalsound} you have something that has a nice range , in your sampling .
+Turn 172, G (PhD): Yeah . So there are slight {disfmarker} There are differences in how you measure it , but still it 's {disfmarker} {vocalsound} You know , the difference between um {disfmarker} between that number and what we have in meetings , which is more like , {vocalsound} you know , close to {disfmarker} in meetings like these , uh {disfmarker} you know , close to twenty percent .
+Turn 173, C (Postdoc): Mm - hmm . Mm - hmm .
+Turn 174, F (Professor): But what was it like , say , in the Robustness meeting , for instance ?
+Turn 175, G (PhD): That {disfmarker}
+Turn 176, A (Grad): But {disfmarker}
+Turn 177, G (PhD): Robustness meeting ? It was {vocalsound} about half of the r So , {vocalsound} in terms of number of words , it 's like seventeen or eigh eighteen percent for the Meeting Recorder meetings and {vocalsound} about half that for , {vocalsound} uh , the Robustness .
+Turn 178, F (Professor): Maybe ten percent ?
+Turn 179, A (Grad): But I don't know if that 's really a fair way of comparing between , multi - party , conversations and two - party conversations . Yeah . I {disfmarker} I {disfmarker} I don't know .
+Turn 180, B (PhD): Then {disfmarker} then {disfmarker} then you have to {disfmarker}
+Turn 181, A (Grad): I mean that 's just something {disfmarker}
+Turn 182, D (PhD): Yeah , I just wonder if you have to normalize by the numbers of speakers or something .
+Turn 183, C (Postdoc): Yeah .
+Turn 184, B (PhD): Then {disfmarker} Yeah , then normalize by {disfmarker} by something like that ,
+Turn 185, C (Postdoc): Yeah , that 's a good point .
+Turn 186, G (PhD): Well , we didn't get to look at that ,
+Turn 187, B (PhD): yeah .
+Turn 188, C (Postdoc): Yeah .
+Turn 189, G (PhD): but this obvious thing to see if {disfmarker} if there 's a dependence on the number of uh {disfmarker} participants .
+Turn 190, C (Postdoc): Good idea .
+Turn 191, A (Grad): I mean {disfmarker} I bet there 's a weak dependence . I 'm sure it 's {disfmarker} it 's not a real strong one .
+Turn 192, B (PhD): Yeah .
+Turn 193, G (PhD): Right .
+Turn 194, A (Grad): Right ? Because you
+Turn 195, D (PhD): Cuz not everybody talks .
+Turn 196, A (Grad): Right .
+Turn 197, G (PhD): Right .
+Turn 198, D (PhD): Yeah .
+Turn 199, A (Grad): You have a lot of {disfmarker} a lot of two - party , subsets within the meeting .
+Turn 200, G (PhD): Right .
+Turn 201, C (Postdoc): Uh - huh .
+Turn 202, A (Grad): Well regardless {disfmarker} it 's an interesting result regardless .
+Turn 203, G (PhD): So {disfmarker} Right .
+Turn 204, C (Postdoc): Yes , that 's right .
+Turn 205, G (PhD): And {disfmarker} and {disfmarker} and then {disfmarker} and we also d computed this both with and without backchannels ,
+Turn 206, C (Postdoc): Mm - hmm .
+Turn 207, G (PhD): so you might think that backchannels have a special status because they 're essentially just {disfmarker}
+Turn 208, A (Grad): Uh - huh . So , did {disfmarker} we all said " uh - huh " and nodded at the same time ,
+Turn 209, G (PhD): R right .
+Turn 210, A (Grad): so .
+Turn 211, G (PhD): But , even if you take out all the backchannels {disfmarker} so basically you treat backchannels l as nonspeech , as pauses ,
+Turn 212, A (Grad): Mm - hmm .
+Turn 213, F (Professor): Mm - hmm .
+Turn 214, G (PhD): you still have significant overlap . You know , it goes down from maybe {disfmarker} For Switchboard it goes down from {disfmarker} I don't know {disfmarker} f um {disfmarker} {comment} I don't know {disfmarker} f fourteen percent of the words to maybe {vocalsound} uh I don't know , eleven percent or something {disfmarker} it 's {disfmarker} it 's not a dramatic change ,
+Turn 215, A (Grad): Mm - hmm .
+Turn 216, G (PhD): so it 's {disfmarker} Anyway , so it 's uh {disfmarker} That was {disfmarker} that was one set of {pause} results , and then the second one was just basically the {disfmarker} {vocalsound} the stuff we had in the {disfmarker} in the HLT paper on how overlaps effect the {pause} recognition performance .
+Turn 217, C (Postdoc): Hmm .
+Turn 218, A (Grad): Nope . Right .
+Turn 219, F (Professor): Mm - hmm .
+Turn 220, G (PhD): And we rescored things um , a little bit more carefully . We also fixed the transcripts in {disfmarker} in numerous ways . Uh , but mostly we added one {disfmarker} one number , which was what if you {pause} uh , basically score ignoring all {disfmarker} So {disfmarker} so the {disfmarker} the conjecture from the HLT results was that {vocalsound} most of the added recognition error is from insertions {vocalsound} due to background speech . So , we scored {vocalsound} all the recognition results , {vocalsound} uh , in such a way that the uh {disfmarker}
+Turn 221, A (Grad): Oh by the way , who 's on channel four ? You 're getting a lot of breath .
+Turn 222, B (PhD): Yeah . I j was just wondering .
+Turn 223, E (Grad): That 's {disfmarker}
+Turn 224, B (PhD): Yeah .
+Turn 225, E (Grad): That 's me .
+Turn 226, G (PhD): uh , well Don 's been working hard .
+Turn 227, E (Grad): That 's right .
+Turn 228, G (PhD): OK , so {disfmarker} {vocalsound} so if you have the foreground speaker speaking here , and then there 's some background speech , may be overlapping it somehow , um , and this is the time bin that we used , then of course you 're gonna get insertion errors here and here .
+Turn 229, A (Grad): Right .
+Turn 230, G (PhD): Right ? So we scored everything , and I must say the NIST scoring tools are pretty nice for this , where you just basically ignore everything outside of the , {vocalsound} uh , region that was deemed to be foreground speech . And where that was we had to use the t forced alignment , uh , results from s for {disfmarker} so {disfmarker} That 's somewhat {disfmarker} that 's somewhat subject to error , but still we {disfmarker} we {disfmarker} {vocalsound} Uh , Don did some ha hand - checking and {disfmarker} and we think that {disfmarker} based on that , we think that the results are you know , valid , although of course , some error is gonna be in there . But basically what we found is after we take out these regions {disfmarker} so we only score the regions that were certified as foreground speech , {comment} {vocalsound} the recognition error went down to almost {vocalsound} uh , the {pause} level of the non - overlapped {pause} speech . So that means that {vocalsound} even if you do have background speech , if you can somehow separate out or find where it is , {vocalsound} uh , the recognizer does a good job ,
+Turn 231, A (Grad): That 's great .
+Turn 232, B (PhD): Yeah .
+Turn 233, G (PhD): even though there is this back
+Turn 234, A (Grad): Yeah , I guess that doesn't surprise me , because , with the close - talking mikes , the {disfmarker} the signal will be so much stronger .
+Turn 235, G (PhD): Right . Right .
+Turn 236, F (Professor): Mm - hmm .
+Turn 237, G (PhD): Mm - hmm . Um ,
+Turn 238, A (Grad): What {disfmarker} what sort of normalization do you do ?
+Turn 239, G (PhD): so {disfmarker} Uh , well , we just {disfmarker} @ @ {comment} we do {disfmarker} u you know , vit
+Turn 240, A (Grad): I mean in you recognizer , in the SRI recognizer .
+Turn 241, G (PhD): Well , we do uh , VTL {disfmarker} {vocalsound} vocal tract length normalization , w and we uh {disfmarker} you know , we {disfmarker} we uh , {vocalsound} make all the features have zero mean and unit variance .
+Turn 242, A (Grad): Over an entire utterance ?
+Turn 243, F (Professor): And {disfmarker}
+Turn 244, A (Grad): Or windowed ?
+Turn 245, G (PhD): Over {disfmarker} over the entire c over the entire channel .
+Turn 246, B (PhD): Don't {pause} train {disfmarker}
+Turn 247, G (PhD): Over the {disfmarker}
+Turn 248, A (Grad): Hmm .
+Turn 249, G (PhD): but you know . Um , now we didn't re - align the recognizer for this . We just took the old {disfmarker} So this is actually a sub - optimal way of doing it ,
+Turn 250, A (Grad): Right .
+Turn 251, F (Professor): Right .
+Turn 252, G (PhD): right ? So we took the old recognition output and we just scored it differently . So the recognizer didn't have the benefit of knowing where the foreground speech {disfmarker} a start
+Turn 253, F (Professor): Were you including the {disfmarker} the lapel {pause} in this ?
+Turn 254, G (PhD): Yes .
+Turn 255, F (Professor): And did the {disfmarker} did {disfmarker} did the la did the {disfmarker} the problems with the lapel go away also ? Or {disfmarker}
+Turn 256, G (PhD): Um , it {disfmarker} Yeah .
+Turn 257, F (Professor): fray for {disfmarker} for insertions ?
+Turn 258, G (PhD): It u not per {disfmarker} I mean , not completely , but yes ,
+Turn 259, F (Professor): Less so .
+Turn 260, G (PhD): dramatically . So we have to um {disfmarker}
+Turn 261, F (Professor): I mean , you still {disfmarker}
+Turn 262, G (PhD): Well I should bring the {disfmarker} should bring the table with results . Maybe we can look at it {pause} Monday .
+Turn 263, F (Professor): I would presume that you still would have somewhat higher error with the lapel for insertions than {disfmarker}
+Turn 264, G (PhD): Yes . It 's {disfmarker} It 's {disfmarker}
+Turn 265, F (Professor): Yeah .
+Turn 266, G (PhD): Yes . Yeah .
+Turn 267, F (Professor): Cuz again , looking forward to the non - close miked case , I think that we s still {disfmarker}
+Turn 268, G (PhD): Mm - hmm .
+Turn 269, A (Grad): I 'm not looking forward to it .
+Turn 270, F (Professor): i it 's the high signal - to - noise ratio
+Turn 271, G (PhD): Right .
+Turn 272, F (Professor): here that {disfmarker} that helps you .
+Turn 273, G (PhD): u s Right . So {disfmarker} so that was number {disfmarker} that was the second set of {disfmarker} uh , the second section . And then , {vocalsound} the third thing was , we looked at , {vocalsound} {vocalsound} uh , what we call " interrupts " , although that 's {disfmarker} that may be {vocalsound} a misnomer , but basically {vocalsound} we looked at cases where {disfmarker} Uh , so we {disfmarker} we used the punctuation from the original transcripts and we inferred the beginnings and ends of sentences . So , you know {disfmarker}
+Turn 274, C (Postdoc): Di - did you use upper - lower case also , or not ?
+Turn 275, G (PhD): Um {disfmarker}
+Turn 276, C (Postdoc): U upper lower case or no ?
+Turn 277, G (PhD): Hmm ?
+Turn 278, C (Postdoc): OK .
+Turn 279, G (PhD): No , we only used , you know , uh periods , uh , question marks and {pause} exclamation . And we know that there 's th that 's not a very g I mean , we miss a lot of them ,
+Turn 280, C (Postdoc): Yeah . That 's OK but {disfmarker}
+Turn 281, G (PhD): but {disfmarker} but it 's f i i
+Turn 282, C (Postdoc): Comma also or not ?
+Turn 283, G (PhD): No commas . No . And then {vocalsound} we looked at locations where , uh , if you have overlapping speech and someone else starts a sentence , you know , where do these {disfmarker} where do other people start their {vocalsound} turns {disfmarker} not turns really , but you know , sentences ,
+Turn 284, B (PhD): Ah .
+Turn 285, G (PhD): um {disfmarker} So we only looked at cases where there was a foreground speaker and then at the to at the {disfmarker} so the {disfmarker} the foreground speaker started into their sentence and then someone else started later .
+Turn 286, B (PhD): Somewhere in between the start and the end ?
+Turn 287, G (PhD): OK ? And so what {disfmarker}
+Turn 288, B (PhD): OK .
+Turn 289, G (PhD): Sorry ?
+Turn 290, B (PhD): Somewhere in between the start and the end of the foreground ?
+Turn 291, G (PhD): Yes . Uh , so that such that there was overlap between the two sentences .
+Turn 292, B (PhD): Yeah .
+Turn 293, G (PhD): So , the {disfmarker} the question was how can we {disfmarker} what can we say about the places where the second or {disfmarker} or actually , several second speakers , {vocalsound} um {pause} start their {pause} " interrupts " , as we call them .
+Turn 294, D (PhD): Three words from the end .
+Turn 295, A (Grad): At pause boundaries .
+Turn 296, G (PhD): w And we looked at this in terms of um {disfmarker}
+Turn 297, A (Grad): On T - closures , only .
+Turn 298, G (PhD): So {disfmarker} so we had {disfmarker} {vocalsound} we had um u to {disfmarker} for {disfmarker} for the purposes of this analysis , we tagged the word sequences , and {disfmarker} and we time - aligned them . Um , and we considered it interrupt {disfmarker} if it occurred in the middle of a word , we basically {disfmarker} you know , considered that to be a interrupt as if it were at {disfmarker} at the beginning of the word . So that , {vocalsound} if any part of the word was overlapped , it was considered an interrupted {pause} word .
+Turn 299, F (Professor): Mm - hmm .
+Turn 300, G (PhD): And then we looked at the {disfmarker} the locatio the , {vocalsound} um , you know , the features that {disfmarker} the tags because we had tagged these word strings , {comment} {vocalsound} um , that {disfmarker} that occurred right before these {disfmarker} these uh , interrupt locations .
+Turn 301, B (PhD): Tag by uh
+Turn 302, G (PhD): And the tags we looked at are {vocalsound} the spurt tag , which basically says {disfmarker} or actually {disfmarker} Sorry . End of spurt . So {disfmarker} {vocalsound} whether there was a pause essentially here , because spurts are a {disfmarker} defined as being you know , five hundred milliseconds or longer pauses , and then we had things like discourse markers , uh , backchannels , uh , disfluencies . um , uh , filled pauses {disfmarker} So disfluen the D 's are for , {vocalsound} um , {vocalsound} the interruption points of a disfluency , so , where you hesitate , or where you start the repair there . Uh , what else do we had . Uh , repeated {disfmarker} you know , repeated words is another of that kind of disfluencies and so forth . So we had both the beginnings and ends of these {disfmarker} uh so , the end of a filled pause and the end of a discourse marker . And we just eyeballed {disfmarker} I mean {vocalsound} we didn't really hand - tag all of these things . We just {pause} looked at the distribution of words , and so every {vocalsound} " so yeah " , and " OK " , uh , and " uh - huh " were {disfmarker} were the {disfmarker} were deemed to be backchannels and {vocalsound} " wow " and " so " and {vocalsound} uh " right " , uh were um {disfmarker} {pause} Not " right " . " Right " is a backchannel . But so , we sort of {disfmarker} just based on the lexical {disfmarker} {vocalsound} um , identity of the words , we {disfmarker} we tagged them as one of these things . And of course the d the interruption points we got from the original transcripts . So , and then we looked at the disti so we looked at the {pause} distribution of these different kinds of tags , overall uh , and {disfmarker} and {disfmarker} and particularly at the interruption points . And uh , we found that there is a marked difference so that for instance after {disfmarker} so at the end after a discourse marker or after backchannel or after filled pause , you 're much more likely to be interrupted {vocalsound} than before . OK ? And also of course after spurt ends , which means basically in p inside pauses . So pauses are always an opportunity for {disfmarker} So we have this little histogram which shows these distributions and , {vocalsound} um ,
+Turn 303, D (PhD): I wonder {disfmarker}
+Turn 304, G (PhD): you know , it 's {disfmarker} it 's {disfmarker} it 's not {disfmarker} No big surprises , but it is {pause} sort of interesting from {disfmarker}
+Turn 305, A (Grad): It 's nice to actually measure it though .
+Turn 306, G (PhD): Yeah .
+Turn 307, D (PhD): I wonder about the cause and effect there . In other words uh {pause} if you weren't going to pause you {disfmarker} you will because you 're g being interrupted .
+Turn 308, G (PhD): Well we 're ne
+Turn 309, D (PhD): Uh {disfmarker}
+Turn 310, G (PhD): Right . There 's no statement about cause and effect .
+Turn 311, D (PhD): Yeah , right . No , no , no .
+Turn 312, G (PhD): This is just a statistical correlation ,
+Turn 313, D (PhD): Right , I {disfmarker} I see . Yeah .
+Turn 314, G (PhD): yeah .
+Turn 315, F (Professor): But he {disfmarker} yeah , he 's {disfmarker} he 's right , y I mean maybe you weren't intending to pause at all , but {disfmarker} {vocalsound} You were intending to stop for fifty - seven milliseconds ,
+Turn 316, G (PhD): Right .
+Turn 317, F (Professor): but then Chuck came in
+Turn 318, G (PhD): Right .
+Turn 319, D (PhD): Yeah .
+Turn 320, F (Professor): and so you {vocalsound} paused for a second
+Turn 321, G (PhD): Right . Anyway . {comment} So ,
+Turn 322, F (Professor): or more .
+Turn 323, G (PhD): uh , and that was basically it . And {disfmarker} and we {disfmarker} so we wrote this and then , {vocalsound} we found we were at six pages , and then we started {vocalsound} cutting furiously
+Turn 324, B (PhD): Oops .
+Turn 325, G (PhD): and {vocalsound} threw out half of the {vocalsound} material again , and uh played with the LaTeX stuff and {disfmarker}
+Turn 326, A (Grad): Made the font smaller and the narrows longer .
+Turn 327, G (PhD): uh , and {disfmarker} until it fi
+Turn 328, B (PhD): Font smaller , yeah .
+Turn 329, G (PhD): No , no . W well , d you couldn't really make everything smaller
+Turn 330, B (PhD): Put the abstract end .
+Turn 331, G (PhD): but we s we put {disfmarker} Oh , I {disfmarker} I {disfmarker}
+Turn 332, A (Grad): Took out white space .
+Turn 333, G (PhD): you know the {disfmarker} the gap between the two columns is like ten millimeters ,
+Turn 334, B (PhD): Yeah .
+Turn 335, G (PhD): so I d shrunk it to eight millimeters and that helped some . And stuff like that .
+Turn 336, D (PhD): Wasn't there {disfmarker} wasn't there some result , Andreas {disfmarker}
+Turn 337, F (Professor): Yeah {disfmarker}
+Turn 338, D (PhD): I {disfmarker} I thought maybe Liz presented this at some conference a while ago about {vocalsound} uh , backchannels
+Turn 339, G (PhD): Mm - hmm . Mm - hmm .
+Turn 340, D (PhD): uh , and that they tend to happen when uh {pause} the pitch drops . You know you get a falling pitch . And so that 's when people tend to backchannel .
+Turn 341, G (PhD): Yeah . Well {disfmarker}
+Turn 342, D (PhD): Uh - i i do you rem
+Turn 343, G (PhD): y We didn't talk about , uh , prosodic , uh , properties at all ,
+Turn 344, D (PhD): Right . Right . But {disfmarker}
+Turn 345, G (PhD): although that 's {disfmarker} I {disfmarker} I take it that 's something that uh Don will {disfmarker} will look at
+Turn 346, E (Grad): Yeah , we 're gonna be looking at that .
+Turn 347, G (PhD): now that we have the data and we have the alignment , so . This is purely based on you know the words
+Turn 348, D (PhD): Mm - hmm .
+Turn 349, G (PhD): and {disfmarker}
+Turn 350, C (Postdoc): I have a reference for that though . Uh - huh .
+Turn 351, D (PhD): Oh you do .
+Turn 352, G (PhD): Yeah .
+Turn 353, D (PhD): So am I recalling correctly ?
+Turn 354, G (PhD): Anyway , so .
+Turn 355, C (Postdoc): Well , I didn't know about Liz 's finding on that ,
+Turn 356, D (PhD): About {disfmarker}
+Turn 357, C (Postdoc): but I know of another paper that talks about something
+Turn 358, D (PhD): Uh - huh .
+Turn 359, C (Postdoc): that {disfmarker}
+Turn 360, D (PhD): Hmm .
+Turn 361, E (Grad): I 'd like to see that reference too .
+Turn 362, C (Postdoc): OK .
+Turn 363, D (PhD): It made me think about a cool little device that could be built to uh {disfmarker} to handle those people that call you on the phone and just like to talk and talk and talk . And you just have this little detector that listens for these {vocalsound} drops in pitch and gives them the backchannel . And so then you {vocalsound} hook that to the phone and go off
+Turn 364, A (Grad): Yeah . Uh - huh .
+Turn 365, D (PhD): and do the {vocalsound} {disfmarker} do whatever you r wanna do ,
+Turn 366, G (PhD): Oh yeah . Well {disfmarker}
+Turn 367, D (PhD): while that thing keeps them busy .
+Turn 368, G (PhD): There 's actually {disfmarker} uh there 's this a former student of here from Berkeley , Nigel {disfmarker} Nigel Ward .
+Turn 369, D (PhD): Uh - huh . Sure .
+Turn 370, G (PhD): Do you know him ?
+Turn 371, D (PhD): Yeah .
+Turn 372, G (PhD): He did a system uh , in {disfmarker} he {disfmarker} he lives in Japan now , and he did this backchanneling , automatic backchanneling system .
+Turn 373, F (Professor): Right .
+Turn 374, G (PhD): It 's a very {disfmarker}
+Turn 375, D (PhD): Oh !
+Turn 376, G (PhD): So , exactly what you describe ,
+Turn 377, D (PhD): Huh .
+Turn 378, G (PhD): but for Japanese . And it 's apparently {disfmarker} for Japa - in Japanese it 's really important that you backchannel . It 's really impolite if you don't , and {disfmarker} So .
+Turn 379, F (Professor): Huh . Actually for a lot of these people I think you could just sort of backchannel continuously and it would {pause} pretty much be fine .
+Turn 380, D (PhD): It wouldn't matter ? Yeah .
+Turn 381, E (Grad): Yeah . That 's w That 's what I do .
+Turn 382, D (PhD): Random intervals .
+Turn 383, A (Grad): There was {disfmarker} there was of course a Monty Python sketch with that . Where the barber who was afraid of scissors was playing a {disfmarker} a tape of clipping sounds , and saying " uh - huh " , " yeah " , " how about them sports teams ? "
+Turn 384, G (PhD): Anyway . So the paper 's on - line and y I {disfmarker} I think I uh {disfmarker} I CC ' ed a message to Meeting Recorder with the URL so you can get it .
+Turn 385, A (Grad): Yep .
+Turn 386, F (Professor): Yeah .
+Turn 387, A (Grad): Printed it out , haven't read it yet .
+Turn 388, F (Professor): Yeah .
+Turn 389, G (PhD): Um , uh one more thing . So I {disfmarker} I 'm actually {disfmarker} {vocalsound} about to send Brian Kingbury an email saying where he can find the {disfmarker} the s the m the material he wanted for the s for the speech recognition experiment , so {disfmarker} but I haven't sent it out yet because actually my desktop locked up , like I can't type anything . Uh b so if there 's any suggestions you have for that I was just gonna send him the {disfmarker}
+Turn 390, D (PhD): Is it the same directory that you had suggested ?
+Turn 391, G (PhD): I made a directory . I called it um {disfmarker}
+Turn 392, C (Postdoc): He still has his Unix account here , you know .
+Turn 393, G (PhD): Well this isn't {disfmarker}
+Turn 394, C (Postdoc): Yeah .
+Turn 395, G (PhD): He does ?
+Turn 396, C (Postdoc): And he {disfmarker} and he 's {disfmarker}
+Turn 397, G (PhD): Yeah but {disfmarker} but {disfmarker} but he has to {disfmarker}
+Turn 398, C (Postdoc): I 'd hafta add him to Meeting Recorder , I guess ,
+Turn 399, G (PhD): he prefe he said he would prefer FTP
+Turn 400, C (Postdoc): but {disfmarker} OK .
+Turn 401, G (PhD): and also , um , the other person that wants it {disfmarker} There is one person at SRI who wants to look at the {vocalsound} um , you know , the uh {disfmarker} the data we have so far ,
+Turn 402, C (Postdoc): OK .
+Turn 403, G (PhD): and so I figured that FTP is the best {pause} approach . So what I did is I um {disfmarker} {vocalsound} {vocalsound} @ @ {comment} I made a n new directory after Chuck said that would c that was gonna be a good thing . Uh , so it 's " FTP {vocalsound} {pause} pub
+Turn 404, A (Grad): Pub real .
+Turn 405, G (PhD): real " {disfmarker} Exactly . MTGC {disfmarker} What is it again ? CR {disfmarker}
+Turn 406, A (Grad): Ask Dan Ellis .
+Turn 407, F (Professor): u R D {disfmarker} RDR , yeah .
+Turn 408, G (PhD): Or {disfmarker} Yeah . Right ? The same {disfmarker} the same as the mailing list ,
+Turn 409, F (Professor): Yeah ,
+Turn 410, G (PhD): and {disfmarker}
+Turn 411, F (Professor): the {disfmarker} {pause} No vowels .
+Turn 412, G (PhD): Yeah . Um ,
+Turn 413, F (Professor): Yeah
+Turn 414, G (PhD): and then under there {disfmarker} Um actually {disfmarker} Oh and this directory , {vocalsound} is not readable . It 's only uh , accessible . So , {vocalsound} in other words , to access anything under there , you have to {vocalsound} be told what the name is .
+Turn 415, A (Grad): Right .
+Turn 416, G (PhD): So that 's sort of a g {vocalsound} quick and dirty way of doing access control .
+Turn 417, F (Professor): Mm - hmm .
+Turn 418, G (PhD): So {disfmarker} uh , and the directory for this I call it I " ASR zero point one " because it 's sort of meant for recognition .
+Turn 419, F (Professor): So anyone who hears this meeting now knows the {disfmarker}
+Turn 420, A (Grad): Beta ?
+Turn 421, G (PhD): And then {disfmarker} then in there I have a file that lists all the other {vocalsound} files , so that someone can get that file and then know the file names and therefore download them . If you don't know the file names you can't {disfmarker}
+Turn 422, F (Professor): Is that a dash or a dot in there ?
+Turn 423, G (PhD): I mean you can {disfmarker}
+Turn 424, A (Grad): Don't {disfmarker} don't {disfmarker} don't say .
+Turn 425, G (PhD): Dash . Anyway . So all I {disfmarker} all I was gonna do there was stick the {disfmarker} the transcripts after we {disfmarker} the way that we munged them for scoring , because that 's what he cares about , and {disfmarker} um , and also {disfmarker} and then the {disfmarker} the {pause} waveforms that Don segmented . I mean , just basically tar them all up f I mean {disfmarker} w for each meeting I tar them all into one tar file and G - zip them and stick them there .
+Turn 426, A (Grad): I uh , put digits in my own home directory {disfmarker} home FTP directory ,
+Turn 427, G (PhD): And so .
+Turn 428, A (Grad): but I 'll probably move them there as well .
+Turn 429, G (PhD): Oh , OK .
+Turn 430, D (PhD): So we could point Mari to this also for her {vocalsound} March O - one request ?
+Turn 431, G (PhD): OK . Yeah . March O - one .
+Turn 432, D (PhD): Or {disfmarker}
+Turn 433, G (PhD): Oh !
+Turn 434, D (PhD): You n Remember she was {disfmarker}
+Turn 435, G (PhD): Oh she wanted that also ?
+Turn 436, D (PhD): Well she was saying that it would be nice if we had {disfmarker} they had a {disfmarker} Or was she talking {disfmarker} Yeah . She was saying it would be nice if they had eh {pause} the same set , so that when they did experiments they could compare .
+Turn 437, G (PhD): Right , but they don't have a recognizer even .
+Turn 438, D (PhD): Yeah .
+Turn 439, E (Grad): Um {disfmarker} I
+Turn 440, G (PhD): But yeah , we can send {disfmarker} I can CC Mari on this so that she knows {disfmarker}
+Turn 441, D (PhD): Yeah . So , for the thing that {disfmarker}
+Turn 442, C (Postdoc): That 's good .
+Turn 443, D (PhD): We need to give Brian the beeps file ,
+Turn 444, G (PhD): Right .
+Turn 445, D (PhD): so I was gonna probably put it {disfmarker}
+Turn 446, A (Grad): We can put it in the same place . Just put in another directory .
+Turn 447, D (PhD): Yeah , it I 'll make another directory .
+Turn 448, G (PhD): Well , make ano make another directory .
+Turn 449, D (PhD): Yeah . Exactly .
+Turn 450, G (PhD): You don't n m
+Turn 451, D (PhD): Yeah .
+Turn 452, G (PhD): Yeah .
+Turn 453, E (Grad): And , Andreas , um , sampled ?
+Turn 454, G (PhD): Yeah . They are ?
+Turn 455, E (Grad): I think so . Yeah . Um , so either we should regenerate the original {vocalsound} versions , {comment} {pause} or um , we should just make a note of it .
+Turn 456, G (PhD): OK . Oh . Beca - Well {disfmarker} OK , because in one directory there 's two versions .
+Turn 457, E (Grad): Yeah , that 's the first meeting I cut both versions . Just to check which w if there is a significant difference .
+Turn 458, G (PhD): OK . And so I {disfmarker} but {disfmarker} OK so {disfmarker} but for the other meetings it 's the downsampled version that you have .
+Turn 459, E (Grad): They 're all downsampled , yeah .
+Turn 460, G (PhD): Oh , OK . Oh that 's th important to know , OK so we should probably {disfmarker} uh {pause} give them the non - downsampled versions .
+Turn 461, E (Grad): Yeah . So {disfmarker}
+Turn 462, G (PhD): OK . Alright , then I 'll hold off on that and I 'll wait for you um {disfmarker}
+Turn 463, E (Grad): Probably by tomorrow
+Turn 464, G (PhD): gen
+Turn 465, E (Grad): I can {disfmarker} I 'll send you an email .
+Turn 466, G (PhD): OK . Alright . OK . Yeah , definitely they should have the full bandwidth version ,
+Turn 467, E (Grad): Yeah , because I mean {disfmarker} I I think Liz decided to go ahead with the {pause} downsampled versions cuz we can {disfmarker} There was no s like , r significant difference .
+Turn 468, G (PhD): yeah . OK . Well , it takes {disfmarker} it takes up less disk space , for one thing .
+Turn 469, E (Grad): It does take up less disk space , and apparently it did even better {pause} than the original {disfmarker} than the original versions ,
+Turn 470, G (PhD): Yeah . Yeah .
+Turn 471, E (Grad): which you know , is just , probably random .
+Turn 472, G (PhD): Right . Yeah , it was a small difference
+Turn 473, E (Grad): But , um {pause} they probably w want the originals .
+Turn 474, G (PhD): but yeah . Yeah . OK . OK , good . Good that {disfmarker} Well , it 's a good thing that {disfmarker}
+Turn 475, A (Grad): OK , I think we 're losing , Don and Andreas at three - thirty , right ? OK .
+Turn 476, E (Grad): Hey mon hafta booga .
+Turn 477, G (PhD): Yeah .
+Turn 478, F (Professor): So , that 's why it was good to have Andreas , say these things but {disfmarker} So , we should probably talk about the IBM transcription process stuff that {disfmarker}
+Turn 479, C (Postdoc): OK . So , um you know that Adam created um , a b a script to generate the beep file ?
+Turn 480, F (Professor): Hmm .
+Turn 481, C (Postdoc): To then create something to send to IBM . And , um , you {disfmarker} you should probably talk about that . But {disfmarker} but you were gonna to use the {pause} originally transcribed file because I tightened the time bins and that 's also the one that they had already {vocalsound} in trying to debug the first stage of this . And uh , my understanding was that , um {disfmarker} I haven't {disfmarker} {vocalsound} I haven't listened to it yet ,
+Turn 482, A (Grad): Mm - hmm .
+Turn 483, C (Postdoc): but it sounded very good and {disfmarker} and I understand that you guys {vocalsound} were going to have a meeting today , before this meeting .
+Turn 484, A (Grad): It was just to talk about how to generate it . Um , just so that while I 'm gone , you can regenerate it if you decide to do it a different way . So uh , Chuck and Thilo should , now more or less know how to generate the file
+Turn 485, C (Postdoc): Excellent . OK .
+Turn 486, A (Grad): and , {vocalsound} the other thing Chuck pointed out is that , um , {vocalsound} since this one is hand - marked , {vocalsound} there are discourse boundaries . Right ? So {disfmarker} so when one person is speaking , there 's breaks .
+Turn 487, C (Postdoc): Mm - hmm .
+Turn 488, A (Grad): Whereas Thilo 's won't have that . So what {disfmarker} what we 're probably gonna do is just write a script , that if two , chunks are very close to each other on the same channel we 'll just merge them .
+Turn 489, C (Postdoc): Oh ! OK . Ah , interesting . Yeah . Yeah . Oh , sure . Yeah , sure . Makes sense .
+Turn 490, A (Grad): So , uh , and that will get around the problem of , the , {vocalsound} you know " one word beep , one word beep , one word beep , one word beep " .
+Turn 491, C (Postdoc): Yeah . Ah ! Clever . Yes . Clever . Yeah . Excellent .
+Turn 492, D (PhD): Yeah , in fact after our meeting uh , this morning Thilo came in and said that {vocalsound} um , there could be {pause} other differences between {vocalsound} the uh {pause} already transcribed meeting with the beeps in it and one that has {pause} just r been run through his process .
+Turn 493, C (Postdoc): And that 's the purpose . Yeah .
+Turn 494, D (PhD): So tomorrow , {vocalsound} when we go to make the um {pause} uh , chunked file {vocalsound} for IBM , we 're going to actually compare the two . So he 's gonna run his process on that same meeting ,
+Turn 495, C (Postdoc): Great idea !
+Turn 496, D (PhD): and then we 're gonna do the beep - ify on both , and listen to them and see if we notice any real differences .
+Turn 497, G (PhD): Beep - ify !
+Turn 498, C (Postdoc): OK , now one thing that prevented us from apply you {disfmarker} you from applying {disfmarker} Exactly . The training {disfmarker} So that is the training meeting . OK .
+Turn 499, D (PhD): Yeah , w and we know that . Wel - uh we just wanna if {disfmarker} if there 're any major differences between {vocalsound} doing it on the hand
+Turn 500, C (Postdoc): Uh - huh . Oh , interesting . Ah !
+Turn 501, A (Grad): Hmm .
+Turn 502, C (Postdoc): OK . Interesting idea . Great .
+Turn 503, G (PhD): So this training meeting , uh w un is that uh {pause} some data where we have uh very um , {vocalsound} you know , accurate {pause} time marks ? for {disfmarker}
+Turn 504, C (Postdoc): I went back and hand - marked the {pause} ba the bins , I ment I mentioned that last week .
+Turn 505, G (PhD): OK , yeah .
+Turn 506, D (PhD): But the {disfmarker} but there 's {disfmarker} yeah , but there is this one issue with them in that there 're {disfmarker} {vocalsound} there are time boundaries in there that occur in the middle of speech .
+Turn 507, G (PhD): Because {disfmarker}
+Turn 508, D (PhD): So {disfmarker} Like when we went t to um {disfmarker} When I was listening to the original file that Adam had , it 's like you {disfmarker} you hear a word then you hear a beep {vocalsound} and then you hear the continuation of what is the same sentence .
+Turn 509, A (Grad): That 's on the other channel . That 's because of channel overlap .
+Turn 510, D (PhD): Well , and {disfmarker} and so the {disfmarker} th
+Turn 511, C (Postdoc): Hmm .
+Turn 512, A (Grad): It 's {disfmarker} i
+Turn 513, D (PhD): So there are these chunks that look like uh {disfmarker} {vocalsound} that have uh {disfmarker}
+Turn 514, A (Grad): I mean that 's not gonna be true of the foreground speaker . That 'll only be if it 's the background speaker .
+Turn 515, D (PhD): Right . So you 'll {disfmarker} you 'll have a chunk of , you know , channel {vocalsound} A which starts at zero and ends at ten , and then the same channel starting at eleven , ending at fifteen , and then again , starting at sixteen , ending at twenty . Right , so that 's three chunks where {vocalsound} actually we w can just make one chunk out of that which is A , zero , twenty .
+Turn 516, G (PhD): Mm - hmm .
+Turn 517, C (Postdoc): Yeah .
+Turn 518, A (Grad): That 's what I just said ,
+Turn 519, C (Postdoc): Sure . Sure .
+Turn 520, A (Grad): yeah .
+Turn 521, D (PhD): Yeah . So I just wanted to make sure that it was clear .
+Turn 522, C (Postdoc): Yeah , I thought that was {disfmarker}
+Turn 523, D (PhD): So {vocalsound} if you were to use these , you have to be careful not to pull out these individual {disfmarker}
+Turn 524, C (Postdoc): Yeah .
+Turn 525, G (PhD): Oh ! I mean it {disfmarker} Right , I mean w I mean what I would {disfmarker} I was interested in is having {disfmarker} {vocalsound} a se having time marks for the beginnings and ends of speech by each speaker .
+Turn 526, A (Grad): Well , that 's definitely a problem .
+Turn 527, G (PhD): Uh , because we could use that to fine tune our alignment process
+Turn 528, A (Grad): Battery .
+Turn 529, D (PhD): Yeah .
+Turn 530, G (PhD): to make it more accurate .
+Turn 531, B (PhD): Battery ?
+Turn 532, D (PhD): Mm - hmm .
+Turn 533, G (PhD): So {disfmarker} uh , it {disfmarker} I don't care that you know , there 's actually abutting segments that we have to join together . That 's fine .
+Turn 534, D (PhD): OK .
+Turn 535, G (PhD): But what we do care about is that {vocalsound} the beginnings and ends um {pause} are actually close to the speech {vocalsound} inside of that
+Turn 536, D (PhD): Yeah , I think Jane tightened these up by hand .
+Turn 537, G (PhD): uh {disfmarker}
+Turn 538, B (PhD): OK .
+Turn 539, C (Postdoc): Yeah .
+Turn 540, G (PhD): OK , so what is the {disfmarker} sort of how tight are they ?
+Turn 541, F (Professor): Uh , it looks much better .
+Turn 542, B (PhD): Yeah . Looks good .
+Turn 543, C (Postdoc): They were , um , reasonably tight , but not excruciatingly tight .
+Turn 544, G (PhD): Oh .
+Turn 545, C (Postdoc): That would 've taken more time . I just wanted to get it so tha So that if you have like " yeah " {comment} in a {disfmarker} swimming in a big bin , then it 's {disfmarker}
+Turn 546, G (PhD): No , no ! I don
+Turn 547, A (Grad): Let me make a note on yours .
+Turn 548, G (PhD): actually I {disfmarker} I {disfmarker}
+Turn 549, B (PhD): Yeah .
+Turn 550, G (PhD): I {disfmarker} it 's f That 's fine because we don't want to {disfmarker} th that 's perfectly fine . In fact it 's good . You always want to have a little bit of pause or nonspeech around the speech , say for recognition purposes . Uh , but just {disfmarker} just u w you know get an id I just wanted to have an idea of the {disfmarker} {vocalsound} of how much extra you allowed um {disfmarker} so that I can interpret the numbers if I compared that with a forced alignment segmentation .
+Turn 551, C (Postdoc): I can't answer that ,
+Turn 552, G (PhD): So .
+Turn 553, C (Postdoc): but {disfmarker} but my main goal was {pause} um , in these areas where you have a three - way overlap {vocalsound} and one of the overlaps involves " yeah " , {vocalsound} and it 's swimming in this huge bin , {vocalsound} I wanted to get it so that it was clo more closely localized .
+Turn 554, G (PhD): Mm - hmm . Mm - hmm . Right . But are we talking about , I don't know , {pause} a {vocalsound} {pause} tenth of a second ? a {disfmarker} ? You know ? How {disfmarker} how much {disfmarker} how much extra would you allow at most {disfmarker}
+Turn 555, C (Postdoc): I {disfmarker} I wanted to {disfmarker} I wanted it to be able to {disfmarker} l he be heard normally ,
+Turn 556, G (PhD): Mm - hmm .
+Turn 557, C (Postdoc): so that if you {disfmarker} if you play {pause} back that bin and have it in the mode where it stops at the boundary , {vocalsound} it sounds like a normal word .
+Turn 558, G (PhD): OK .
+Turn 559, C (Postdoc): It doesn't sound like the person {disfmarker} i it sounds normal . It 's as if the person could 've stopped there .
+Turn 560, G (PhD): Mm - hmm .
+Turn 561, C (Postdoc): And it wouldn't have been an awkward place to stop .
+Turn 562, G (PhD): OK .
+Turn 563, C (Postdoc): Now sometimes you know , it 's {disfmarker} these are involved in places where there was no time . And so , {vocalsound} {vocalsound} there wouldn't be {pause} a gap afterwards because {disfmarker}
+Turn 564, G (PhD): OK .
+Turn 565, C (Postdoc): I mean some cases , there 're some people {pause} um , who {disfmarker} who have very long {pause} segments of discourse where , {vocalsound} you know , they 'll {disfmarker} they 'll breath {pause} and then I put a break .
+Turn 566, G (PhD): Mm - hmm .
+Turn 567, C (Postdoc): But other than that , it 's really pretty continuous and this includes things like going from one sentence into the {disfmarker} u one utterance into the next , one sentence into the next , um , w without really stopping . I mean {disfmarker} i they , i you know in writing you have this {vocalsound} two spaces and a big gap
+Turn 568, G (PhD): Mm - hmm .
+Turn 569, C (Postdoc): you know .
+Turn 570, G (PhD): Right .
+Turn 571, C (Postdoc): But {disfmarker} but uh {pause} {vocalsound} i some people are planning and , you know , I mean , a lot {disfmarker} we always are planning {pause} what we 're going to say next .
+Turn 572, G (PhD): OK .
+Turn 573, C (Postdoc): But uh , in which case , the gap between {pause} these two complete syntactic units , {vocalsound} um , which of course n spoken things are not always complete syntactically , but {disfmarker} {vocalsound} but it would be a shorter p shorter break {vocalsound} than {vocalsound} maybe you might like .
+Turn 574, G (PhD): Mm - hmm .
+Turn 575, C (Postdoc): But the goal there was to {pause} not have {vocalsound} the text be so {disfmarker} so crudely {pause} parsed in a time bin . I mean , because {vocalsound} from a discourse m purpose {pause} it 's {disfmarker} {vocalsound} it 's more {disfmarker} {vocalsound} it 's more useful to be able to see {disfmarker} and also you know , from a speech recognition purpose my impression is that {vocalsound} if you have too long a unit , it 's {disfmarker} it doesn't help you very much either , cuz of the memory .
+Turn 576, G (PhD): Well , yeah . That 's fine .
+Turn 577, C (Postdoc): So , that means that {vocalsound} the amount of time after something is variable depending partly on context , but my general goal {vocalsound} when there was {pause} sufficient space , room , pause {pause} after it {pause} to have it be {pause} kind of a natural feeling {pause} gap .
+Turn 578, G (PhD): OK .
+Turn 579, C (Postdoc): Which I c I don't know what it would be quantified as . You know , Wally Chafe says that {vocalsound} um , {vocalsound} in producing narratives , the spurts that people use {vocalsound} tend to be , {vocalsound} uh , that the {disfmarker} the {disfmarker} what would be a pause might be something like two {disfmarker} two seconds .
+Turn 580, G (PhD): Mmm .
+Turn 581, C (Postdoc): And um , that would be , you know one speaker . The discourse {disfmarker} {vocalsound} the people who look at turn taking often do use {disfmarker}
+Turn 582, G (PhD): Mm - hmm .
+Turn 583, C (Postdoc): I was interested that you chose uh , {vocalsound} you know um , {comment} the {disfmarker} you know that you use cuz I think that 's a unit that would be more consistent with sociolinguistics . Yeah .
+Turn 584, G (PhD): Well we chose um , you know , half a second because {vocalsound} if {disfmarker} if you go much larger , you have a {disfmarker} y you know , your {disfmarker} your statement about how much overlap there is becomes less , {vocalsound} um , precise ,
+Turn 585, C (Postdoc): Mm - hmm .
+Turn 586, G (PhD): because you include more of actual pause time into what you consider overlap speech . Um , so , it 's sort of a compromise ,
+Turn 587, B (PhD): Yeah . {comment} {vocalsound} {vocalsound} Yeah , I also used I think something around zero point five seconds for the speech - nonspeech detector {disfmarker}
+Turn 588, G (PhD): and {disfmarker} {vocalsound} it 's also based {disfmarker} I mean Liz suggested that value based on {vocalsound} the distribution of pause times that you see in Switchboard and {disfmarker} and other corpora .
+Turn 589, C (Postdoc): Mm - hmm .
+Turn 590, G (PhD): Um {disfmarker} So {disfmarker}
+Turn 591, B (PhD): for the minimum silence length .
+Turn 592, G (PhD): Mm - hmm . I see .
+Turn 593, B (PhD): So .
+Turn 594, G (PhD): Yeah .
+Turn 595, C (Postdoc): Mm - hmm .
+Turn 596, G (PhD): OK .
+Turn 597, C (Postdoc): In any case , this {disfmarker} this uh , meeting {pause} that I hand {disfmarker} I {disfmarker} I hand - adjusted two of them I mentioned before ,
+Turn 598, G (PhD): Mm - hmm .
+Turn 599, C (Postdoc): and I sent {disfmarker} I sent email ,
+Turn 600, G (PhD): OK ,
+Turn 601, C (Postdoc): so {disfmarker}
+Turn 602, G (PhD): So {disfmarker} so at some point we will try to fine - tune our forced alignment
+Turn 603, C (Postdoc): And I sent the {comment} {pause} path .
+Turn 604, G (PhD): maybe using those as references because you know , what you would do is you would play with different parameters . And to get an object You need an objective {vocalsound} measure of how closely you can align the models to the actual speech . And that 's where your your data would be {pause} very important to have . So , I will {disfmarker} Um {disfmarker}
+Turn 605, B (PhD): Yeah and hopefully the new meetings {pause} which will start from the channelized version will {disfmarker} will have better time boundaries {pause} and alignments .
+Turn 606, G (PhD): Mm - hmm . Right .
+Turn 607, C (Postdoc): But I like this idea of {disfmarker} uh , for our purposes for the {disfmarker} for the IBM preparation , {vocalsound} uh , n having these {pause} joined together ,
+Turn 608, B (PhD): Yeah . Yeah .
+Turn 609, C (Postdoc): and uh {disfmarker} It makes a lot of sense . And in terms of transcription , it would be easy to do it that way .
+Turn 610, G (PhD): Yeah .
+Turn 611, C (Postdoc): The way that they have with the longer units ,
+Turn 612, G (PhD): Yeah .
+Turn 613, C (Postdoc): not having to fuss with adding these units at this time .
+Turn 614, B (PhD): Yeah . Whi - which could have one drawback . If there is uh a backchannel in between those three things ,
+Turn 615, G (PhD): Right .
+Turn 616, C (Postdoc): Mm - hmm .
+Turn 617, B (PhD): the {disfmarker} the n the backchannel will {disfmarker} will occur at the end of {disfmarker} of those three .
+Turn 618, C (Postdoc): Yes .
+Turn 619, B (PhD): And {disfmarker} and in {disfmarker} in the {disfmarker} in the previous version where in the n which is used now , {vocalsound} there , the backchannel would {disfmarker} would be in - between there somewhere , so .
+Turn 620, C (Postdoc): I see .
+Turn 621, B (PhD): That would be more natural
+Turn 622, C (Postdoc): Yeah . Well ,
+Turn 623, B (PhD): but {disfmarker}
+Turn 624, C (Postdoc): that 's {disfmarker} that 's right , but you know , thi this brings me to the other f stage of this which I discussed with you earlier today ,
+Turn 625, B (PhD): Yeah .
+Turn 626, C (Postdoc): which is {vocalsound} the second stage is {vocalsound} um , w what to do {pause} in terms of the transcribers adjustment of these data . I discussed this with you too . Um , the tr so the idea initially was , we would get {vocalsound} uh , for the new meetings , so the e EDU meetings , that {vocalsound} Thilo ha has now presegmented all of them for us , on a channel by channel basis . And um , so , I 've assigned {disfmarker} I 've {disfmarker} I 've assigned them to our transcribers and um , so far I 've discussed it with one , with uh {disfmarker} And I had a {pause} about an hour discussion with her about this yesterday , we went through {vocalsound} uh EDU - one , at some extent . And it occurred to me that {vocalsound} um {disfmarker} that {vocalsound} basically what we have in this kind of a format is {disfmarker} you could consider it as a staggered mixed file , we had some discussion over the weekend a about {disfmarker} at {disfmarker} at this other meeting that we were all a at {disfmarker} um , {vocalsound} about whether the tran the IBM transcribers should hear a single channel audio , or a mixed channel audio . And um , {vocalsound} in {disfmarker} in a way , by {disfmarker} by having this {disfmarker} this chunk and then the backchannel {vocalsound} after it , it 's like a stagal staggered mixed channel . And um , {vocalsound} it occurred {pause} to me in my discussion with her yesterday that um , um , the {disfmarker} {pause} the {disfmarker} the maximal gain , it 's {disfmarker} from the IBM {pause} people , may be in long stretches of connected speech . So it 's basically a whole bunch of words {vocalsound} which they can really do , because of the continuity within that person 's turn . So , what I 'm thinking , and it may be that not all meetings will be good for this , {comment} but {disfmarker} but what I 'm thinking is that {vocalsound} in the EDU meetings , they tend to be {vocalsound} driven by a couple of dominant speakers . And , if the chunked files focused on the dominant speakers , {vocalsound} then , when {disfmarker} when it got s patched together when it comes back from IBM , we can add the backchannels . It seems to me {vocalsound} that {vocalsound} um , you know , the backchannels per - se wouldn't be so hard , but then there 's this question of the time {pause} @ @ {comment} uh , marking , and whether the beeps would be {vocalsound} uh y y y And I 'm not exactly sure how that {disfmarker} how that would work with the {disfmarker} with the backchannels . And , so um {disfmarker} And certainly things that are {vocalsound} intrusions of multiple words , {vocalsound} taken out of context and displaced in time from where they occurred , {vocalsound} that would be hard . So , m my {vocalsound} thought is {pause} i I 'm having this transcriber go through {vocalsound} the EDU - one meeting , and indicate a start time {nonvocalsound} f for each dominant speaker , endpoi end time for each dominant speaker , and the idea that {vocalsound} these units would be generated for the dominant speakers , {vocalsound} and maybe not for the other channels .
+Turn 627, A (Grad): Yeah the only , um , disadvantage of that is , then it 's hard to use an automatic method to do that . The advantage is that it 's probably faster to do that than it is to use the automated method and correct it . So .
+Turn 628, C (Postdoc): Well , it {disfmarker}
+Turn 629, A (Grad): We 'll just have to see .
+Turn 630, C (Postdoc): OK . I think {disfmarker} {vocalsound} I {disfmarker} I think um , you know , the original plan was that the transcriber would adjust the t the boundaries , and all that for all the channels but , {vocalsound} you know , that is so time - consuming , and since we have a bottleneck here , we want to get IBM things that are usable s as soon as possible , then this seemed to me it 'd be a way of gett to get them a flood of data , which would be useful when it comes back to us . And um {disfmarker}
+Turn 631, A (Grad): Yeah .
+Turn 632, C (Postdoc): Oh also , at the same time she {disfmarker} when she goes through this , she 'll be {vocalsound} uh {disfmarker} If there 's anything that {vocalsound} was encoded as a pause , but really has something transcribable in it , {vocalsound} then she 's going to {vocalsound} uh , make a mark {disfmarker} w uh , so you know , so {vocalsound} that {disfmarker} that bin would be marked as it {disfmarker} as double dots and she 'll just add an S . And in the other {disfmarker} in the other case , if it 's marked as speech , {vocalsound} and really there 's nothing transcribable in it , then she 's going to put a s dash , and I 'll go through and it {disfmarker} and um , you know , with a {disfmarker} {vocalsound} {vocalsound} with a substitution command , get it so that it 's clear that those are the other category . I 'll just , you know , recode them . But um , {vocalsound} um , the transcribable events {pause} that um , I 'm considering in this , {vocalsound} uh , continue to be {vocalsound} laugh , as well as speech , and cough and things like that , so I 'm not stripping out anything , just {disfmarker} just you know , being very lenient in what 's considered speech . Yeah ?
+Turn 633, D (PhD): Jane ? In terms of the {disfmarker} this new procedure you 're suggesting , {vocalsound} um , u what is the {disfmarker}
+Turn 634, A (Grad): It 's not that different .
+Turn 635, D (PhD): So I 'm a little confused , because how do we know where to put beeps ? Is it {disfmarker} i d y is it {disfmarker}
+Turn 636, C (Postdoc): Oh , OK .
+Turn 637, A (Grad): Transcriber will do it .
+Turn 638, C (Postdoc): So what it {disfmarker} what it {disfmarker} what it involves is {disfmarker} is really a s uh , {vocalsound} uh , the original pr procedure , but {vocalsound} only applied to {pause} uh , a certain {pause} strategically chosen {pause} s aspect of the data .
+Turn 639, A (Grad): We pick the easy parts of the data basically ,
+Turn 640, C (Postdoc): So {disfmarker}
+Turn 641, A (Grad): and transcriber marks it by hand .
+Turn 642, C (Postdoc): You got it .
+Turn 643, A (Grad): And because {disfmarker}
+Turn 644, D (PhD): But after we 've done Thilo 's thing .
+Turn 645, A (Grad): No .
+Turn 646, C (Postdoc): Yes !
+Turn 647, A (Grad): Oh , after . Oh , OK ,
+Turn 648, C (Postdoc): Yes !
+Turn 649, A (Grad): I didn't {disfmarker} I didn't understand that .
+Turn 650, C (Postdoc): Oh yeah !
+Turn 651, A (Grad): OK .
+Turn 652, B (PhD): So , I 'm @ @ {disfmarker} now I 'm confused .
+Turn 653, C (Postdoc): OK . We start with your presegmented version {disfmarker}
+Turn 654, G (PhD): OK , and I 'm leaving .
+Turn 655, E (Grad): Yeah , I have to go as well .
+Turn 656, G (PhD): So , um {disfmarker}
+Turn 657, A (Grad): OK , leave the mikes on , and just put them on the table .
+Turn 658, E (Grad): OK . Thanks .
+Turn 659, C (Postdoc): We start with the presegmented version {disfmarker}
+Turn 660, A (Grad): Let me mark you as no digits .
+Turn 661, B (PhD): You start with the presegmentation , r {vocalsound} yeah ?
+Turn 662, C (Postdoc): Yeah . And then um , {vocalsound} the transcriber , {vocalsound} instead of going painstakingly through all the channels and moving the boundaries around , and deciding if it 's speech or not , but not transcribing anything . OK ? Instead of doing that , which was our original plan , {vocalsound} the tra They focus on the dominant speaker {disfmarker}
+Turn 663, D (PhD): Mm - hmm . They just {vocalsound} do that on {pause} the main channels .
+Turn 664, C (Postdoc): Yeah . So what they do is they identify who 's the di dominant speaker , and when the speaker starts .
+Turn 665, D (PhD): OK .
+Turn 666, B (PhD): Yeah ? OK .
+Turn 667, C (Postdoc): So I mean , you 're still gonna {disfmarker}
+Turn 668, B (PhD): And you just {disfmarker}
+Turn 669, C (Postdoc): So we 're {disfmarker} It 's based on your se presegmentation , that 's the basic {pause} thing .
+Turn 670, B (PhD): and you just use the s the segments of the dominant speaker then ? For {disfmarker} for sending to {disfmarker} to IBM or {disfmarker} ?
+Turn 671, C (Postdoc): Yeah . Exactly .
+Turn 672, D (PhD): So , now Jane , my question is {vocalsound} when they 're all done adjusting the w time boundaries for the dominant speaker , {comment} have they then also erased the time boundaries for the other ones ?
+Turn 673, C (Postdoc): Mm - hmm . Uh No . No , no . Huh - uh . S
+Turn 674, D (PhD): So how will we know who {disfmarker}
+Turn 675, B (PhD): Yeah .
+Turn 676, C (Postdoc): That 's {disfmarker} that 's why she 's notating the start and end points of the dominant speakers . So , on a {disfmarker} you know , so {vocalsound} i in EDU - one , i as far as I listened to it , you start off with a {disfmarker} a s section by Jerry . So Jerry starts at minute so - and - so , and goes until minute so - and - so . And then Mark Paskin comes in . And he starts at {vocalsound} minute such - and - such , and goes on till minute so - and - so . OK . And then {vocalsound} meanwhile , she 's listening to {vocalsound} {pause} both of these guys ' channels , determining if there 're any cases of misclassification of speech as nothing , and nothing as speech ,
+Turn 677, D (PhD): Mm - hmm . OK .
+Turn 678, C (Postdoc): and {vocalsound} a and adding a tag if that happens .
+Turn 679, D (PhD): So she does the adjustments on those guys ?
+Turn 680, C (Postdoc): But you know , I wanted to say , his segmentation is so good , that {vocalsound} um , the part that I listened to with her yesterday {vocalsound} didn't need any adjustments of the bins .
+Turn 681, B (PhD): On that meeting .
+Turn 682, D (PhD): Mm - hmm .
+Turn 683, C (Postdoc): So far we haven't . So this is not gonna be a major part of the process , at least {disfmarker} least not in {disfmarker} not on ones that {disfmarker} that really {disfmarker}
+Turn 684, D (PhD): So if you don't have to adjust the bins , why not just do what it {disfmarker} for all the channels ?
+Turn 685, C (Postdoc): Mm - hmm ?
+Turn 686, D (PhD): Why not just throw all the channels to IBM ?
+Turn 687, C (Postdoc): Well there 's the question o of {pause} whether {disfmarker} Well , OK . She i It 's a question of how much time we want our transcriber to invest here {vocalsound} when she 's gonna have to invest that when it comes back from IBM anyway .
+Turn 688, D (PhD): Mm - hmm .
+Turn 689, C (Postdoc): So if it 's only inserting " mm - hmm "s here and there , then , wouldn't that be something that would be just as efficient to do at this end , instead of having it go through I B M , then be patched together , then be double checked here .
+Turn 690, D (PhD): Mm - hmm . Right .
+Turn 691, B (PhD): Yeah . But {disfmarker} But then we could just use the {disfmarker} the output of the detector , and do the beeping on it , and send it to I B
+Turn 692, D (PhD): Without having her check anything .
+Turn 693, B (PhD): Yeah .
+Turn 694, F (Professor): Right .
+Turn 695, C (Postdoc): Well , I guess {disfmarker}
+Turn 696, A (Grad): I think we just {disfmarker} we just have to listen to it and see how good they are .
+Turn 697, B (PhD): For some meetings , I 'm {disfmarker} I 'm sure it {disfmarker} i n
+Turn 698, C (Postdoc): I 'm {disfmarker} I 'm open to that , it was {disfmarker}
+Turn 699, F (Professor): Yeah , if it 's working well ,
+Turn 700, B (PhD): That 's {disfmarker} And some {disfmarker} on some meetings it 's good .
+Turn 701, F (Professor): that sounds like a good idea since as you say you have to do stuff with the other end anyway .
+Turn 702, B (PhD): Yeah .
+Turn 703, C (Postdoc): Well yea OK , good . I mean the detector , this {disfmarker}
+Turn 704, D (PhD): Yeah , I mean we have to fix it when it comes back anyhow .
+Turn 705, B (PhD): Yeah .
+Turn 706, C (Postdoc): Now , you were saying that they {disfmarker} they differ in how well they work depending on channel s sys systems and stuff .
+Turn 707, B (PhD): Yeah . So we should perhaps just select meetings on which the speech - nonspeech detection works well ,
+Turn 708, C (Postdoc): But EDU is great .
+Turn 709, B (PhD): and just use , {vocalsound} those meetings to {disfmarker} to {disfmarker} to send to IBM and , do the other ones .
+Turn 710, A (Grad): Release to begin with .
+Turn 711, C (Postdoc): How interesting . You know {disfmarker}
+Turn 712, F (Professor): What 's the problem {disfmarker} the l I forget . Is the problem the lapel , or {disfmarker} or {disfmarker}
+Turn 713, B (PhD): Uh , it really depends . Um , my {disfmarker} my {disfmarker} my impression is that it 's better for meetings with fewer speakers , and it 's better for {disfmarker} {vocalsound} for meetings where nobody is breathing .
+Turn 714, F (Professor): Oh ,
+Turn 715, B (PhD): Yeah ,
+Turn 716, F (Professor): the dead meetings .
+Turn 717, B (PhD): get {disfmarker} That 's it .
+Turn 718, D (PhD): So in fact this might suggest an alternative sort of a {disfmarker} a c a hybrid between these two things .
+Turn 719, A (Grad): No , the undead meeting , yeah .
+Turn 720, C (Postdoc): Yeah . Yeah ?
+Turn 721, D (PhD): So the {disfmarker} the one suggestion is you know we {disfmarker} {vocalsound} we run Thilo 's thing and then we have somebody go and adjust all the time boundaries
+Turn 722, B (PhD): Yeah .
+Turn 723, C (Postdoc): Yeah ?
+Turn 724, D (PhD): and we send it to IBM . The other one is {vocalsound} we just run his thing and send it to IBM .
+Turn 725, B (PhD): Yeah .
+Turn 726, D (PhD): There 's a {disfmarker} a another possibility if we find that there are some problems ,
+Turn 727, B (PhD): Yeah . Yeah .
+Turn 728, D (PhD): and that is {vocalsound} if we go ahead and we {vocalsound} just run his , and we generate the beeps file , then we have somebody listen beeps file .
+Turn 729, B (PhD): Yeah . And erase {disfmarker}
+Turn 730, D (PhD): And they listen to each section and say " yes , no " whether that section is
+Turn 731, B (PhD): Yeah .
+Turn 732, C (Postdoc): Is intelligible .
+Turn 733, D (PhD): i i intelligible or not . And it just {disfmarker} You know , there 's a little interface which will {disfmarker} for all the " yes " - es it {disfmarker} then that will be the final {vocalsound} beep file .
+Turn 734, B (PhD): Yeah .
+Turn 735, A (Grad): Blech .
+Turn 736, C (Postdoc): That 's interesting ! Cuz that 's {disfmarker} that 's directly related to the e end task .
+Turn 737, A (Grad): Stress test .
+Turn 738, D (PhD): Mm - hmm .
+Turn 739, C (Postdoc): How interesting !
+Turn 740, D (PhD): Yeah . I mean it wouldn't be that much fun for a transcriber to sit there , hear it , beep , yes or no .
+Turn 741, B (PhD): Nope .
+Turn 742, F (Professor): I {disfmarker} I {disfmarker} I don't know .
+Turn 743, D (PhD): But it would be quick .
+Turn 744, F (Professor): It would be {disfmarker} kind of quick but they 're still listening to everything .
+Turn 745, D (PhD): But there 's no adjusting . And that 's what 's slow . There 's no adjusting of time boundaries .
+Turn 746, C (Postdoc): Well , {vocalsound} eh , listening does take time too .
+Turn 747, D (PhD): Yeah .
+Turn 748, F (Professor): Yeah . I don't know , I {disfmarker} I think I 'm {disfmarker} I 'm really tending towards {disfmarker}
+Turn 749, A (Grad): One and a half times real time .
+Turn 750, F (Professor): I mean , {vocalsound} what 's the worst that happens ? Do the transcribers {disfmarker} I mean as long as th on the other end they can say there 's {disfmarker} there 's something {disfmarker} conventions so that they say " huh ? "
+Turn 751, D (PhD): Yeah . Right . They {disfmarker} they {disfmarker}
+Turn 752, F (Professor): and then we can flag those later .
+Turn 753, D (PhD): Yeah . That 's true .
+Turn 754, F (Professor): i i It {disfmarker} i
+Turn 755, D (PhD): We can just catch it at the {disfmarker} catch everything at this side .
+Turn 756, F (Professor): Yeah .
+Turn 757, D (PhD): Well maybe that 's the best way to go ,
+Turn 758, C (Postdoc): How interesting !
+Turn 759, D (PhD): just {disfmarker}
+Turn 760, A (Grad): I mean it just depends on how {disfmarker}
+Turn 761, C (Postdoc): Well EDU {disfmarker}
+Turn 762, B (PhD): Yeah ,
+Turn 763, A (Grad): Sorry , go ahead .
+Turn 764, B (PhD): u u u
+Turn 765, C (Postdoc): So I was gonna say , EDU - one is good enough ,
+Turn 766, B (PhD): Yeah .
+Turn 767, C (Postdoc): maybe we could include it in this {disfmarker} in this set of uh , this stuff we send .
+Turn 768, B (PhD): Yeah there 's {disfmarker} I {disfmarker} I think there are some meetings where it would {disfmarker} would {disfmarker} It 's possible like this .
+Turn 769, A (Grad): Yeah I {disfmarker} I think , we won't know until we generate a bunch of beep files automatically , listen to them and see how bad they are .
+Turn 770, B (PhD): Yeah . Yeah .
+Turn 771, D (PhD): Yeah .
+Turn 772, C (Postdoc): Mm - hmm .
+Turn 773, D (PhD): We won't be able to s include it with this first thing ,
+Turn 774, A (Grad): If {disfmarker}
+Turn 775, C (Postdoc): Hmm . Oh , OK .
+Turn 776, D (PhD): because there 's a part of the process of the beep file which requires knowing the normalization coefficients .
+Turn 777, C (Postdoc): Oh , I see .
+Turn 778, D (PhD): And {disfmarker} {vocalsound} So a
+Turn 779, A (Grad): That 's not hard to do . Just {disfmarker} it takes {disfmarker} you know , it just takes five minutes rather than , taking a second .
+Turn 780, D (PhD): OK
+Turn 781, B (PhD): Yeah .
+Turn 782, A (Grad): So . I just hand {disfmarker} hard - coded it .
+Turn 783, D (PhD): Right , except I don't think that {disfmarker} the c the instructions for doing that was in that directory , right ? I {disfmarker} I didn't see where you had gener
+Turn 784, A (Grad): No , but it 's easy enough to do .
+Turn 785, B (PhD): What {disfmarker}
+Turn 786, F (Professor): But I {disfmarker} but I have a {disfmarker}
+Turn 787, B (PhD): Doing the gain ? It 's no problem . Adjusting the gain ?
+Turn 788, D (PhD): n Doing th No , getting the coefficients , for each channel .
+Turn 789, B (PhD): Yeah , that 's no problem .
+Turn 790, C (Postdoc): Know what numbers .
+Turn 791, D (PhD): OK . So we just run that one {disfmarker}
+Turn 792, A (Grad): There are lots of ways to do it .
+Turn 793, B (PhD): We can do that .
+Turn 794, A (Grad): I have one program that 'll do it . You can find other programs .
+Turn 795, B (PhD): Yeah . I {disfmarker} I used it , so .
+Turn 796, D (PhD): We just run that
+Turn 797, A (Grad): Yep .
+Turn 798, B (PhD): Yeah .
+Turn 799, D (PhD): J - sound - stat ? OK .
+Turn 800, F (Professor): Yeah .
+Turn 801, A (Grad): Minus D , capital D .
+Turn 802, B (PhD): Yeah .
+Turn 803, F (Professor): But {disfmarker} but {disfmarker} but I {disfmarker} I {disfmarker} I have {pause} another suggestion on that , which is , {vocalsound} since , really what this is , is {disfmarker} is {disfmarker} is trying to in the large , send the right thing to them and there is gonna be this {disfmarker} this post - processing step , um , why don't we check through a bunch of things by sampling it ?
+Turn 804, D (PhD): Mm - hmm .
+Turn 805, F (Professor): Right ? In other words , rather than , um , uh , saying we 're gonna listen to everything {disfmarker}
+Turn 806, A (Grad): I didn't mean listen to everything , I meant , just see if they 're any good .
+Turn 807, F (Professor): Yeah . So y you do a bunch of meetings , you listen to {disfmarker} to a little bit here and there ,
+Turn 808, D (PhD): Yeah .
+Turn 809, F (Professor): if it sounds like it 's almost always right and there 's not any big problem you send it to them .
+Turn 810, D (PhD): Send it to them .
+Turn 811, B (PhD): Yeah .
+Turn 812, D (PhD): OK .
+Turn 813, F (Professor): And , you know , then they 'll send us back what we {disfmarker} w what {disfmarker} what they send back to us ,
+Turn 814, C (Postdoc): Oh , that 'd be great .
+Turn 815, F (Professor): and we 'll {disfmarker} we 'll fix things up and {vocalsound} some meetings will cost more time to fix up than others .
+Turn 816, A (Grad): We should {disfmarker} Yeah .
+Turn 817, B (PhD): Yeah .
+Turn 818, A (Grad): And we should just double - check with Brian on a few simple conventions on how they should mark things .
+Turn 819, B (PhD): Sure .
+Turn 820, D (PhD): OK . When they {disfmarker} when there 's either no speech in there ,
+Turn 821, B (PhD): Yeah . Yeah .
+Turn 822, D (PhD): or {vocalsound} something they don't understand ,
+Turn 823, C (Postdoc): Yeah . Mm - hmm .
+Turn 824, D (PhD): things like that .
+Turn 825, A (Grad): Yeah , cuz @ @ uh what I had originally said to Brian was well they 'll have to mark , when they can't distinguish between the foreground and background ,
+Turn 826, F (Professor): Yeah .
+Turn 827, A (Grad): because I thought that was gonna be the most prevalent . But if we send them without editing , then we 're also gonna hafta have m uh , notations for words that are cut off ,
+Turn 828, D (PhD): Mm - hmm .
+Turn 829, B (PhD): Yeah .
+Turn 830, D (PhD): Mm - hmm .
+Turn 831, A (Grad): and other sorts of , uh , acoustic problems .
+Turn 832, B (PhD): Yeah .
+Turn 833, C (Postdoc): They do already .
+Turn 834, D (PhD): And they may just guess at what those cut - off words are ,
+Turn 835, C (Postdoc): Yeah .
+Turn 836, D (PhD): but w I mean we 're gonna adjust {disfmarker} everything when we come back {disfmarker}
+Turn 837, A (Grad): But what {disfmarker} what we would like them to do is be conservative so that they should only write down the transcript if they 're sure .
+Turn 838, B (PhD): Yeah .
+Turn 839, A (Grad): And otherwise they should mark it so that we can check .
+Turn 840, B (PhD): Mark it . Sure . Yeah . Yeah .
+Turn 841, D (PhD): Mm - hmm .
+Turn 842, C (Postdoc): Well , we have the unintelligibility {pause} convention .
+Turn 843, A (Grad): Mm - hmm .
+Turn 844, C (Postdoc): And actually they have one also ,
+Turn 845, A (Grad): Right .
+Turn 846, C (Postdoc): which {disfmarker}
+Turn 847, F (Professor): i Can I maybe have {disfmarker} have an order of {disfmarker} it 's probably in your paper that I haven't looked at lately , but {disfmarker}
+Turn 848, C (Postdoc): Certainty .
+Turn 849, F (Professor): Uh , an order of magnitude notion of {disfmarker} of how {disfmarker} on a good meeting , how often uh , do you get segments that come in the middle of words and so forth , and uh {disfmarker} in a bad meeting how {vocalsound} often ?
+Turn 850, B (PhD): Uh .
+Turn 851, C (Postdoc): Was is it in a {disfmarker} in a {disfmarker} what {disfmarker} what is the t
+Turn 852, F (Professor): Well he 's saying , you know , that the {disfmarker} the EDU meeting was a good {disfmarker} good meeting ,
+Turn 853, C (Postdoc): In a good meeting , what ?
+Turn 854, B (PhD): Yeah .
+Turn 855, C (Postdoc): Yeah .
+Turn 856, F (Professor): right ?
+Turn 857, C (Postdoc): Oh I see ,
+Turn 858, F (Professor): Uh , and so {disfmarker} so {disfmarker} so it was almost {disfmarker} it was almost always doing the right thing .
+Turn 859, C (Postdoc): the characteristics .
+Turn 860, F (Professor): So I wanted to get some sense of what {disfmarker} what almost always meant . And then , uh in a bad meeting , {vocalsound} or p some meetings where he said oh he 's had some problems , what does that mean ?
+Turn 861, C (Postdoc): Uh - huh . OK .
+Turn 862, F (Professor): So I mean does one of the does it mean one percent and ten percent ? Or does it mean {vocalsound} five percent and fifty percent ?
+Turn 863, C (Postdoc): OK .
+Turn 864, F (Professor): Uh {disfmarker}
+Turn 865, B (PhD): So {disfmarker}
+Turn 866, F (Professor): Or {disfmarker} Maybe percentage isn't the right word ,
+Turn 867, C (Postdoc): Just
+Turn 868, B (PhD): Yeah th
+Turn 869, F (Professor): but you know how many {disfmarker} how many per minute , or {disfmarker} You know .
+Turn 870, B (PhD): Yeah , the {disfmarker} the problem is that , nnn , the numbers Ian gave in the paper is just uh , some frame error rate . So that 's {disfmarker} that 's not really {disfmarker} {vocalsound} What will be effective for {disfmarker} for the transcribers , is {disfmarker} They have to {disfmarker} yeah , in in they have to insure that that 's a real s spurt or something . And {disfmarker} but , {vocalsound} the numbers {disfmarker} Oops . Um {disfmarker}
+Turn 871, C (Postdoc): Hmm !
+Turn 872, B (PhD): Let me think . So the {pause} speech {disfmarker} the amount of speech that is missed by the {pause} detector , for a good meeting , I th is around {pause} or under one percent , I would say . But there can be {disfmarker} Yeah . For {disfmarker} yeah , but there can be more {disfmarker} There 's {disfmarker} There 's more amount speech {disfmarker} uh , more amount of {disfmarker} Yeah well , the detector says there is speech , but there is none . So that {disfmarker} that can be a lot when {disfmarker} when it 's really a breathy channel .
+Turn 873, F (Professor): But I think that 's less of a problem .
+Turn 874, B (PhD): Yeah .
+Turn 875, F (Professor): They 'll just listen . It 's just wasted time .
+Turn 876, B (PhD): Yeah .
+Turn 877, F (Professor): And th and that 's for a good meeting . Now what about in a meeting that you said we 've {disfmarker} you 've had some more trouble with ?
+Turn 878, B (PhD): I can't {comment} really {disfmarker} hhh , {comment} {pause} Tsk . {comment} I {pause} don't have really representative numbers , I think . That 's really {disfmarker} I {disfmarker} I did {pause} this on {disfmarker} on four meetings and only five minutes of {disfmarker} of every meet of {disfmarker} of these meetings so , {vocalsound} it 's not {disfmarker} not that representative , but , it 's perhaps , Fff . Um {disfmarker} Yeah , it 's perhaps then {disfmarker} it 's perhaps five percent of something , which s uh the {disfmarker} the frames {disfmarker} speech frames which are {disfmarker} which are missed , but um , I can't {disfmarker} can't really tell .
+Turn 879, F (Professor): Right . So I {disfmarker} {vocalsound} So i Sometime , we might wanna go back and look at it more in terms of {vocalsound} how many times is there a spurt that 's {disfmarker} that 's uh , interrupted ?
+Turn 880, B (PhD): Yeah . Yeah . Yeah .
+Turn 881, F (Professor): Something like that ?
+Turn 882, C (Postdoc): The other problem is , that when it {disfmarker} when it uh d i on the breathy ones , where you get {vocalsound} {vocalsound} breathing , uh , inti indicated as speech .
+Turn 883, F (Professor): And {disfmarker}
+Turn 884, B (PhD): So {disfmarker}
+Turn 885, C (Postdoc): And I guess we could just indicate to the transcribers not to {pause} encode that if they {disfmarker} We could still do the beep file .
+Turn 886, F (Professor): Yeah again I {disfmarker} I think that that is probably less of a problem because if you 're {disfmarker} if there 's {disfmarker} {vocalsound} If {disfmarker} if a {disfmarker} if a word is {disfmarker} is split , then they might have to listen to it a few times to really understand that they can't quite get it .
+Turn 887, C (Postdoc): OK . OK .
+Turn 888, B (PhD): But {disfmarker}
+Turn 889, C (Postdoc): OK .
+Turn 890, F (Professor): Whereas if they listen {nonvocalsound} to it and there 's {disfmarker} don't hear any speech I think they 'd probably just listen to it once .
+Turn 891, B (PhD): Yeah .
+Turn 892, F (Professor): So there 'd {disfmarker} you 'd think there 'd be a {disfmarker} a factor of three or four in {disfmarker} in , uh , cost function ,
+Turn 893, C (Postdoc): OK .
+Turn 894, F (Professor): you know , between them or something .
+Turn 895, B (PhD): Yeah , so {disfmarker} but I think that 's {disfmarker} n that really doesn't happen very often that {disfmarker} that {disfmarker} that a word is cut in the middle or something . That 's {disfmarker} that 's really not {disfmarker} not normal .
+Turn 896, F (Professor): So {disfmarker} so what you 're saying is that nearly always what happens when there 's a problem is that {disfmarker} is that uh , there 's {vocalsound} some uh , uh nonspeech that uh {disfmarker} that is b interpreted as speech .
+Turn 897, B (PhD): That is marked as speech . Yeah . Yeah .
+Turn 898, F (Professor): Well then , we really should just send the stuff .
+Turn 899, C (Postdoc): That would be great .
+Turn 900, F (Professor): Right ? Because that doesn't do any harm .
+Turn 901, B (PhD): Yeah , it 's {disfmarker}
+Turn 902, F (Professor): You know , if they {disfmarker} they hear you know , a dog bark and they say what was the word , they {comment} you know , they {disfmarker}
+Turn 903, B (PhD): Yeah , I als I {disfmarker}
+Turn 904, F (Professor): Ruff ruff !
+Turn 905, B (PhD): Yeah I also thought of {disfmarker} there {disfmarker} there are really some channels where it is almost {comment} um , only bre breathing in it . And to {disfmarker} to re - run 's
+Turn 906, F (Professor): Yeah ?
+Turn 907, B (PhD): Eh , um . Yeah . I 've got a {disfmarker} a {pause} P - a {pause} method with loops into the cross - correlation with the PZM mike , and then to reject everything which {disfmarker} which seems to be breath .
+Turn 908, F (Professor): Uh - huh .
+Turn 909, B (PhD): So , I could run this on those breathy channels , and perhaps throw out {disfmarker}
+Turn 910, A (Grad): That 's a good idea .
+Turn 911, C (Postdoc): Wow , that 's a great idea .
+Turn 912, F (Professor): Yeah . But I think {disfmarker} I th Again , I think that sort of {disfmarker} that that would be good ,
+Turn 913, B (PhD): Yeah .
+Turn 914, F (Professor): and what that 'll do is just cut the time a little further .
+Turn 915, B (PhD): Yeah .
+Turn 916, D (PhD): Mm - hmm .
+Turn 917, F (Professor): But I think none of this is stuff that really needs somebody doing these {disfmarker} these uh , uh , explicit markings .
+Turn 918, D (PhD): Yeah .
+Turn 919, C (Postdoc): Excellent . Oh , I 'd be delighted with that , I {disfmarker} I was very impressed with the {disfmarker} with the result . Yeah .
+Turn 920, F (Professor): Yeah , cuz the other thing that was concerning me about it was that it seemed kind of specialized to the EDU meeting , and {disfmarker} and that then when you get a meeting like this or something ,
+Turn 921, B (PhD): Yeah .
+Turn 922, F (Professor): and {disfmarker} {vocalsound} and you have a b a bunch of different dominant speakers
+Turn 923, C (Postdoc): Oh yeah , interesting .
+Turn 924, F (Professor): you know , how are you gonna handle it .
+Turn 925, C (Postdoc): Oh yeah .
+Turn 926, F (Professor): Whereas this sounds like a more general solution
+Turn 927, C (Postdoc): Oh yeah , I pr I much prefer this ,
+Turn 928, F (Professor): is {disfmarker}
+Turn 929, C (Postdoc): I was just trying to find a way {disfmarker} Cuz I {disfmarker} I don't think the staggered mixed channel is awfully good as a way of handling overlaps .
+Turn 930, F (Professor): Yeah . Uh - huh .
+Turn 931, C (Postdoc): But {disfmarker} but uh {disfmarker}
+Turn 932, D (PhD): Well good . That {disfmarker} that really simplifies thing then .
+Turn 933, C (Postdoc): Yeah .
+Turn 934, D (PhD): And we can just , you know , get the meeting , process it , put the beeps file , send it off to IBM .
+Turn 935, C (Postdoc): Mm - hmm .
+Turn 936, D (PhD): You know ?
+Turn 937, B (PhD): Yeah .
+Turn 938, D (PhD): With very little {pause} work on our side .
+Turn 939, B (PhD): Process it , hear into it . I would {disfmarker}
+Turn 940, D (PhD): Do what ?
+Turn 941, B (PhD): Um , {pause} listen to it , and then {disfmarker}
+Turn 942, A (Grad): Or at least sample it .
+Turn 943, B (PhD): Yeah .
+Turn 944, D (PhD): Well , sample it .
+Turn 945, B (PhD): Yeah .
+Turn 946, D (PhD): Sample it .
+Turn 947, F (Professor): I {disfmarker} I would just use some samples ,
+Turn 948, B (PhD): Yeah . Yeah .
+Turn 949, F (Professor): make sure you don't send them three hours of " bzzz " {comment} or something .
+Turn 950, D (PhD): Yeah .
+Turn 951, B (PhD): No .
+Turn 952, D (PhD): Yeah . Right .
+Turn 953, B (PhD): That won't be good .
+Turn 954, C (Postdoc): Yeah .
+Turn 955, D (PhD): Yeah . Yeah that would be very good .
+Turn 956, B (PhD): Yeah .
+Turn 957, D (PhD): And then we can you know {disfmarker}
+Turn 958, F (Professor): Yeah .
+Turn 959, D (PhD): That 'll oughta be a good way to get the pipeline going .
+Turn 960, C (Postdoc): Oh , I 'd be delighted . Yeah .
+Turn 961, B (PhD): And there 's {disfmarker} there 's one point which I {comment} uh {disfmarker} {vocalsound} yeah , which {disfmarker} which I r {vocalsound} we covered when I {disfmarker} when I r listened to one of the EDU meetings ,
+Turn 962, F (Professor): Great .
+Turn 963, B (PhD): and that 's {vocalsound} that somebody is playing sound from his laptop .
+Turn 964, A (Grad): Uh - huh
+Turn 965, B (PhD): And i {vocalsound} the speech - nonspeech detector just assigns randomly the speech to {disfmarker} to one of the channels , so . Uh - I haven't - I didn't think of {disfmarker} of s of {vocalsound} this before ,
+Turn 966, A (Grad): What can you do ?
+Turn 967, B (PhD): but what {disfmarker} what shall we do about s things like this ?
+Turn 968, C (Postdoc): Well you were suggesting {disfmarker} You suggested maybe just not sending that part of the meeting .
+Turn 969, A (Grad): Yep . Mmm .
+Turn 970, C (Postdoc): But {disfmarker}
+Turn 971, B (PhD): But , sometimes the {disfmarker} {vocalsound} the {disfmarker} the laptop is in the background and some {disfmarker} somebody is {disfmarker} is talking , and , {vocalsound} that 's really a little bit confusing , but {disfmarker}
+Turn 972, A (Grad): It 's a little bit confusing .
+Turn 973, F (Professor): That 's life .
+Turn 974, B (PhD): Yeah .
+Turn 975, A (Grad): I mean , {comment} what 're we gonna do ?
+Turn 976, B (PhD): Yeah .
+Turn 977, A (Grad): Even a hand - transcription would {disfmarker}
+Turn 978, B (PhD): OK .
+Turn 979, C (Postdoc): Do you {disfmarker}
+Turn 980, F (Professor): Yeah .
+Turn 981, A (Grad): a hand - transcriber would have trouble with that .
+Turn 982, B (PhD): Yeah ,
+Turn 983, A (Grad): So .
+Turn 984, B (PhD): that 's {disfmarker} that 's a second question , " what {disfmarker} what will different transcribers do with {disfmarker} with the laptop sound ? "
+Turn 985, C (Postdoc): Would you {disfmarker} would {disfmarker}
+Turn 986, F (Professor): What was the l what was the laptop sound ?
+Turn 987, C (Postdoc): Yeah , go ahead .
+Turn 988, F (Professor): I mean was it speech ,
+Turn 989, B (PhD): Yeah .
+Turn 990, F (Professor): or was it {disfmarker}
+Turn 991, B (PhD): It 's speech .
+Turn 992, F (Professor): Great .
+Turn 993, C (Postdoc): Well , so {disfmarker} I mean {disfmarker} So my standard approach has been if it 's not someone close - miked , then , they don't end up on one of the close - miked channels . They end up on a different channel . And we have any number of channels available ,
+Turn 994, F (Professor): Uh - huh .
+Turn 995, B (PhD): Yeah .
+Turn 996, C (Postdoc): I mean it 's an infinite number of channels .
+Turn 997, B (PhD): But ,
+Turn 998, C (Postdoc): So just put them on some other channel .
+Turn 999, B (PhD): when thi when this is sent to {disfmarker} to the I M - eh , I B M transcribers , I don't know if {disfmarker} if they can tell that 's really {disfmarker}
+Turn 1000, C (Postdoc): Yeah , that 's right .
+Turn 1001, A (Grad): Yeah cuz there will be no channel on which it is foreground .
+Turn 1002, B (PhD): Yeah . Yeah .
+Turn 1003, A (Grad): Uh {disfmarker}
+Turn 1004, C (Postdoc): Well , they have a convention , in their own procedures , {vocalsound} which is for a background {pause} sound .
+Turn 1005, A (Grad): Right , but , uh , in general I don't think we want them transcribing the background , cuz that would be too much work . 
+Turn 1006, B (PhD): Yeah .
+Turn 1007, A (Grad): Right ? For it {disfmarker} because in the overlap sections , then they 'll
+Turn 1008, D (PhD): Well I don't think Jane 's saying they 're gonna transcribe it , but they 'll just mark it as being {disfmarker} there 's some background stuff there ,
+Turn 1009, A (Grad): But that 's gonna be all over the place .
+Turn 1010, C (Postdoc): Yeah .
+Turn 1011, D (PhD): right ?
+Turn 1012, A (Grad): How w how will they tell the difference between that sort of background and the dormal {disfmarker} normal background of two people talking at once ?
+Turn 1013, B (PhD): Yeah .
+Turn 1014, C (Postdoc): Oh , I think {disfmarker} I think it 'd be easy to to say " background laptop " .
+Turn 1015, A (Grad): How would they know that ?
+Turn 1016, D (PhD): But wait a minute , why would they treat them differently ?
+Turn 1017, B (PhD): Yeah .
+Turn 1018, C (Postdoc): Well because one of them {disfmarker}
+Turn 1019, A (Grad): Because otherwise it 's gonna be too much work for them to mark it . They 'll be marking it all over the place .
+Turn 1020, B (PhD): Yeah .
+Turn 1021, C (Postdoc): Oh , I s background laptop or , background LT {vocalsound} {vocalsound} wouldn't take any time .
+Turn 1022, A (Grad): Sure , but how are they gonna tell bet the difference between that and two people just talking at the same time ?
+Turn 1023, C (Postdoc): And {disfmarker}
+Turn 1024, B (PhD): Yeah .
+Turn 1025, C (Postdoc): Oh , you can tell . Acoustically , can't you tell ?
+Turn 1026, B (PhD): It 's really good sound , so {disfmarker}
+Turn 1027, C (Postdoc): Oh is it ? Oh !
+Turn 1028, F (Professor): Well , I mean , isn't there a category something like uh , " sounds for someone for whom there is no i close mike " ?
+Turn 1029, B (PhD): Yeah that would be very important ,
+Turn 1030, A (Grad): But how do we d how do we do that for the I B M folks ?
+Turn 1031, C (Postdoc): Yeah .
+Turn 1032, B (PhD): yeah .
+Turn 1033, A (Grad): How can they tell that ?
+Turn 1034, D (PhD): Well we may just have to do it when it gets back here .
+Turn 1035, A (Grad): Yes , that 's my opinion as well .
+Turn 1036, B (PhD): Yeah .
+Turn 1037, A (Grad): So we don't do anything for it {disfmarker} with it .
+Turn 1038, C (Postdoc): OK .
+Turn 1039, D (PhD): Yeah .
+Turn 1040, C (Postdoc): That sounds good .
+Turn 1041, A (Grad): And they 'll just mark it however they mark it ,
+Turn 1042, C (Postdoc): That sounds good .
+Turn 1043, D (PhD): Yeah .
+Turn 1044, A (Grad): and we 'll correct it when it comes back .
+Turn 1045, B (PhD): So th
+Turn 1046, F (Professor): Yeah .
+Turn 1047, B (PhD): there was a category for @ @ {comment} speech .
+Turn 1048, C (Postdoc): OK .
+Turn 1049, A (Grad): Yeah , the default .
+Turn 1050, C (Postdoc): Yeah , s a
+Turn 1051, A (Grad): No , not default .
+Turn 1052, B (PhD): OK .
+Turn 1053, C (Postdoc): Well , as it comes back , we have a uh {disfmarker} when we can use the channelized interface for encoding it , then it 'll be easy for us to handle .
+Turn 1054, B (PhD): Yeah .
+Turn 1055, C (Postdoc): But {disfmarker} {vocalsound} but if {disfmarker} if out of context , they can't tell if it 's a channeled speak uh , you know , a close - miked speaker or not , {vocalsound} then that would be confusing to them .
+Turn 1056, B (PhD): OK .
+Turn 1057, A (Grad): Right .
+Turn 1058, B (PhD): OK .
+Turn 1059, C (Postdoc): I don't know , I {disfmarker} it doesn't {disfmarker} I don't {disfmarker} Either way would be fine with me , I don't really care .
+Turn 1060, F (Professor): Yeah . So . Shall we uh , do digits and get out of here ?
+Turn 1061, A (Grad): Yep .
+Turn 1062, C (Postdoc): I have o I have one question . Do you think we should send the um {disfmarker} that whole meeting to them and not worry about pre - processing it ?
+Turn 1063, F (Professor): Yes ma '
+Turn 1064, C (Postdoc): Or {disfmarker} Uh , what I mean is {vocalsound} we {disfmarker} we should {vocalsound} leave the {vocalsound} part with the audio in the uh , beep file that we send to IBM for that one , or should we {vocalsound} start after the {disfmarker} that part of the meeting is over in what we send .
+Turn 1065, F (Professor): Which part ?
+Turn 1066, B (PhD): With {disfmarker}
+Turn 1067, C (Postdoc): So , the part where they 're using sounds from their {disfmarker} from their laptops .
+Turn 1068, B (PhD): with the laptop sound , or {disfmarker} ? just {disfmarker}
+Turn 1069, C (Postdoc): w If we have speech from the laptop should we just uh , excise that from what we send to IBM , or should we {vocalsound} i give it to them and let them do with it what they can ?
+Turn 1070, D (PhD): I think we should just {disfmarker} it {disfmarker} it 's gonna be too much work if we hafta {vocalsound} worry about that I think .
+Turn 1071, C (Postdoc): OK , that 'd be nice to have a {disfmarker} a uniform procedure .
+Turn 1072, D (PhD): Yeah , I think if we just {disfmarker} m send it all to them . you know .
+Turn 1073, A (Grad): Worry about it when we get back .
+Turn 1074, C (Postdoc): Good . And see how well they do .
+Turn 1075, D (PhD): Let {disfmarker} Yeah , worry about it when we get back in .
+Turn 1076, C (Postdoc): And give them freedom to {disfmarker} {vocalsound} to indicate if it 's just not workable .
+Turn 1077, F (Professor): Yeah .
+Turn 1078, C (Postdoc): Yeah ,
+Turn 1079, D (PhD): Yeah .
+Turn 1080, C (Postdoc): OK ,
+Turn 1081, F (Professor): Yeah .
+Turn 1082, C (Postdoc): excellent .
+Turn 1083, F (Professor): Cuz , I wouldn't {disfmarker} don't think we would mind {pause} having that {pause} transcribed , if they did it .
+Turn 1084, A (Grad): I think {disfmarker}
+Turn 1085, D (PhD): Yeah , e
+Turn 1086, A (Grad): As I say , we 'll just have to listen to it and see how horrible it is .
+Turn 1087, C (Postdoc): Yeah , yeah .
+Turn 1088, B (PhD): Yeah .
+Turn 1089, A (Grad): Sample it , rather .
+Turn 1090, C (Postdoc): OK . Alright .
+Turn 1091, B (PhD): I think that {disfmarker} that will be a little bit of a problem
+Turn 1092, D (PhD): Yeah .
+Turn 1093, C (Postdoc): That 's great .
+Turn 1094, B (PhD): as it really switches around between {vocalsound} two different channels , I think .
+Turn 1095, A (Grad): Mm - hmm , and {disfmarker} and they 're very {disfmarker} it 's very audible ? on the close - talking channels ?
+Turn 1096, B (PhD): What {disfmarker} what I would {disfmarker} Yeah .
+Turn 1097, A (Grad): Oh well . I mean , it 's the same problem as the lapel mike .
+Turn 1098, F (Professor): Yeah .
+Turn 1099, B (PhD): Yeah .
+Turn 1100, A (Grad): But {disfmarker}
+Turn 1101, C (Postdoc): Oh , interesting .
+Turn 1102, B (PhD): Comparable , yeah .
+Turn 1103, F (Professor): Yeah .
+Turn 1104, B (PhD): OK .
+Turn 1105, C (Postdoc): OK , alright . Digits .
+Turn 1106, F (Professor): Let 's do digits .
+Turn 1107, C (Postdoc): OK , so we read the transcript number first , right ?
+Turn 1108, A (Grad): Are we gonna do it altogether or separately ?
+Turn 1109, B (PhD): So {disfmarker} What time is it ?
+Turn 1110, F (Professor): Uh , {vocalsound} why don't we do it together ,
+Turn 1111, C (Postdoc): Uh , quarter to four .
+Turn 1112, B (PhD): Oh , OK .
+Turn 1113, F (Professor): that 's {disfmarker} that 's a nice fast way to do it .
+Turn 1114, C (Postdoc): Mm - hmm .
+Turn 1115, F (Professor): One , two , three , go !
+Turn 1116, C (Postdoc): It 's kind of interesting if there 're any more errors in these , {vocalsound} than we had the first set .
+Turn 1117, A (Grad): Nnn , yeah , I think there probably will be .
+Turn 1118, B (PhD): Yeah .
+Turn 1119, D (PhD): Do you guys plug your ears when you do it ?
+Turn 1120, A (Grad): I do .
+Turn 1121, B (PhD): No .
+Turn 1122, C (Postdoc): I usually do .
+Turn 1123, D (PhD): I do .
+Turn 1124, B (PhD): I don't .
+Turn 1125, C (Postdoc): I didn't this time .
+Turn 1126, D (PhD): You don't ?
+Turn 1127, B (PhD): No .
+Turn 1128, F (Professor): I haven't been ,
+Turn 1129, D (PhD): How can you do that ?
+Turn 1130, F (Professor): no .
+Turn 1131, D (PhD): I {disfmarker} I {disfmarker}
+Turn 1132, F (Professor): Uh , concentration .
+Turn 1133, B (PhD): Perhaps there are {vocalsound} lots of errors in it
+Turn 1134, D (PhD): Gah !
+Turn 1135, A (Grad): Total concentration . Are you guys ready ?
+Turn 1136, D (PhD): You hate to have your ears plugged ?
+Turn 1137, F (Professor): Yeah .
+Turn 1138, D (PhD): Really ?

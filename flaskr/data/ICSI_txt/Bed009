@@ -1,0 +1,592 @@
+Turn 0, C (Grad): Hmm . Testing channel two .
+Turn 1, E (Grad): Two , two . 
+Turn 2, C (Grad): Two .
+Turn 3, E (Grad): Two . Oh .
+Turn 4, D (Grad): Hello ?
+Turn 5, B (Grad): Hmm ? Yeah Thank You . OK Well , so Ralf and Tilman are here .
+Turn 6, F (Professor): OK . Great . Great .
+Turn 7, B (Grad): Made it safely .
+Turn 8, F (Professor): So the {disfmarker} what w we h have been doing i they would like us all to read these digits . But we don't all read them but a couple people read them .
+Turn 9, A (PhD): OK .
+Turn 10, F (Professor): Uh , wanna give them all with German accents today or {disfmarker} ?
+Turn 11, B (Grad): Sure .
+Turn 12, F (Professor): OK .
+Turn 13, B (Grad): OK and the way you do it is you just read the numbers not as uh each single , so just like I do it .
+Turn 14, A (PhD): Mm - hmm .
+Turn 15, B (Grad): OK . First you read the transcript number . Turn .
+Turn 16, D (Grad): OK , uh {disfmarker} What 's {disfmarker}
+Turn 17, F (Professor): OK . Let 's be done with this .
+Turn 18, A (PhD): OK .
+Turn 19, F (Professor): OK . this is Ami , who {disfmarker} And this is Tilman and Ralf .
+Turn 20, A (PhD): Hi . Uh - huh . Nice to meet you .
+Turn 21, D (Grad): Hi .
+Turn 22, F (Professor): Hi . OK . So we 're gonna try to finish by five so people who want to can go hear Nancy Chang 's talk , uh downstairs .
+Turn 23, A (PhD): Hmm .
+Turn 24, F (Professor): And you guys are g giving talks on tomorrow and Wednesday lunch times ,
+Turn 25, A (PhD): Yes .
+Turn 26, D (Grad): Mmm .
+Turn 27, F (Professor): right ? That 's great . OK so , do y do you know what we 're gonna do ?
+Turn 28, B (Grad): I thought two things uh we 'll introduce ourselves and what we do . And um we already talked with Andreas , Thilo and David and some lines of code were already written today and almost tested and just gonna say we have um again the recognizer to parser thing where we 're working on and that should be no problem and then that can be sort of developed uh as needed when we get {disfmarker} enter the tourism domain . em we have talked this morning with the {disfmarker} with Tilman about the generator .
+Turn 29, A (PhD): S
+Turn 30, B (Grad): and um There one of our diligent workers has to sort of volunteer to look over Tilman 's shoulder while he is changing the grammars to English
+Turn 31, A (PhD): Mm - hmm .
+Turn 32, B (Grad): because w we have {disfmarker} we face two ways . Either we do a syllable concatenating um grammar for the English generation which is sort of starting from scratch and doing it the easy way , or we simply adopt the ah um more in - depth um style that is implemented in the German system and um are then able not only to produce strings but also the syntactic parse uh not parse not the syntactic tree that is underneath in the syntactic structure which is the way we decided we were gonna go because A , it 's easier in the beginning
+Turn 33, A (PhD): Mm - hmm .
+Turn 34, B (Grad): and um it does require some {disfmarker} some knowledge of {disfmarker} of those grammars and {disfmarker} and {disfmarker} and some ling linguistic background . But um it shouldn't be a problem for anyone .
+Turn 35, F (Professor): OK So That sounds good . Johno , are you gonna have some time t to do that uh w with these guys ?
+Turn 36, E (Grad): Sure .
+Turn 37, F (Professor): cuz y you 're the grammar maven .
+Turn 38, E (Grad): OK .
+Turn 39, F (Professor): I mean it makes sense ,
+Turn 40, E (Grad): Yeah .
+Turn 41, F (Professor): doesn't it ? Yeah Good . OK . So , I think that 's probably the {disfmarker} the right way to do that . And an Yeah , so I {disfmarker} I actually wanna f to find out about it too , but I may not have time to get in .
+Turn 42, B (Grad): the {disfmarker} the ultimate goal is that before they leave we {disfmarker} we can run through the entire system input through output on at least one or two sample things . And um and by virtue of doing that then in this case Johno will have acquired the knowledge of how to extend it . Ad infinitum . When needed , if needed , when wanted and so forth .
+Turn 43, F (Professor): OK that sounds great .
+Turn 44, B (Grad): And um also um Ralf has hooked up with David and you 're gonna continue either all through tonight or tomorrow on whatever to get the er parser interface working .
+Turn 45, D (Grad): Mmm .
+Turn 46, B (Grad): They are thinning out and thickening out lattices and doing this kind of stuff to see what works best .
+Turn 47, D (Grad): Mmm , yep .
+Turn 48, F (Professor): Great . So , you guys enjoy your weekend ?
+Turn 49, A (PhD): Yes , very much so .
+Turn 50, D (Grad): Yeah , very much
+Turn 51, F (Professor): OK , before {disfmarker} before you got put to work ?
+Turn 52, D (Grad): Yeah
+Turn 53, F (Professor): Great . OK , so that 's {disfmarker} Sort of one branch is to get us caught up on what 's going on . Also of course it would be really nice to know what the plans are , in addition to what 's sort of already in code .
+Turn 54, A (PhD): Yes .
+Turn 55, F (Professor): and we can d I dunno w w was there uh a time when we were set up to do that ? It probably will work better if we do it later in the week , after {pause} we actually understand uh better what 's going on .
+Turn 56, A (PhD): Yes .
+Turn 57, D (Grad): Hmm .
+Turn 58, A (PhD): Yeah .
+Turn 59, F (Professor): So when do you guys leave ?
+Turn 60, A (PhD): Um we 're here through Sunday ,
+Turn 61, D (Grad): Oh
+Turn 62, A (PhD): so All through Friday would be fine .
+Turn 63, F (Professor): Oh , OK , so {disfmarker} OK , So {disfmarker} so anyt we 'll find a time later in the week to uh get together and talk about {pause} your understanding of what SmartKom plans are .
+Turn 64, A (PhD): Mm - hmm .
+Turn 65, F (Professor): and how we can change them .
+Turn 66, A (PhD): Yes . Sure .
+Turn 67, F (Professor): Uh ,
+Turn 68, B (Grad): Should we already set a date for that ? Might be beneficial while we 're all here .
+Turn 69, F (Professor): OK ? um What {disfmarker} what does not work for me is Thursday afternoon . I can do earlier in the day on Thursday , or {pause} um {pause} most of the time on Friday , not all .
+Turn 70, B (Grad): Thursday morning sounds fine ?
+Turn 71, F (Professor): Wha - but , Johno ,
+Turn 72, A (PhD): Mm - hmm .
+Turn 73, F (Professor): what are your constraints ?
+Turn 74, E (Grad): um Thursday afternoon doesn't work for me , but {disfmarker}
+Turn 75, B (Grad): Neither does Thursday morning , no ?
+Turn 76, E (Grad): Uh Thursday morning should be fine .
+Turn 77, A (PhD): OK .
+Turn 78, F (Professor): Eleven ? Eleven on Thursday ?
+Turn 79, E (Grad): I was just thinking I w I will {pause} have {pause} leavened by eleven .
+Turn 80, F (Professor): Right . Right . This is then out of deference to our non - morning people .
+Turn 81, A (PhD): Mm - hmm . OK . So at eleven ?
+Turn 82, D (Grad): Hmm .
+Turn 83, A (PhD): Thursday around eleven ? OK .
+Turn 84, F (Professor): Yeah . And actually we can invite um Andreas as well .
+Turn 85, B (Grad): Uh he will be in Washington , though .
+Turn 86, F (Professor): Oh that 's true . He 's off {disfmarker} off on his trip already .
+Turn 87, B (Grad): but um David is here and he 's actually knows everything about the SmartKom recognizer .
+Turn 88, F (Professor): Thilo . OK well yeah maybe we 'll see if David could make it . That would be good .
+Turn 89, B (Grad): OK so facing to {disfmarker} to what we 've sort of been doing here um well for one thing we 're also using this room to collect data .
+Turn 90, A (PhD): Yeah obviously .
+Turn 91, B (Grad): um um Not this type of data ,
+Turn 92, A (PhD): Oh , OK .
+Turn 93, B (Grad): no not meeting data but sort of {disfmarker} sort ah our version of a wizard experiment such not like the ones in Munich but pretty close to it .
+Turn 94, A (PhD): Mm - hmm .
+Turn 95, B (Grad): The major difference to the Munich ones is that we do it via the telephone
+Turn 96, A (PhD): OK .
+Turn 97, B (Grad): even though all the recording is done here and so it 's a {disfmarker} sort of a computer call system that gives you tourist information
+Turn 98, A (PhD): Mm - hmm .
+Turn 99, B (Grad): tells you how to get places . And it breaks halfway through the experiment and a human operator comes on . and part of that is sort of trying to find out whether people change their linguistic verbal behavior when first thinking they speak to a machine and then to a human .
+Turn 100, A (PhD): Yeah .
+Turn 101, B (Grad): and we 're setting it up so that we can {disfmarker} we hope to implant certain intentions in people . For example um we have first looked at a simple sentence that " How do I get to the Powder - Tower ? " OK so you have the {disfmarker} castle of Heidelberg
+Turn 102, A (PhD): OK .
+Turn 103, B (Grad): and there is a tower and it 's called Powder - Tower .
+Turn 104, A (PhD): Oh , OK . Yeah .
+Turn 105, B (Grad): and um so What will you parse out of that sentence ? Probably something that we specified in M - three - L , that is @ @ {comment} " action go to whatever domain , object whatever Powder - Tower " .
+Turn 106, D (Grad): Mmm .
+Turn 107, B (Grad): And maybe some model will tell us , some GPS module , in the mobile scenario where the person is at the moment . And um we 've sort of gone through that once before in the Deep Mail project and we noticed that first of all what are {disfmarker} I should 've brought some slides , but what our {disfmarker} So here 's the tower . Think of this as a two - dimensional representation of the tower . And our system led people here , to a point where they were facing a wall in front of the tower . There is no entrance there , but it just happens to be the closest point of the road network to the geometric center Because that 's how the algorithm works . So we took out that part of the road network as a hack and then it found actually the way to the entrance . which was now the closest point of the road network to
+Turn 108, A (PhD): Yeah .
+Turn 109, B (Grad): OK , geometric center . But what we actually observed in Heidelberg is that most people when they want to go there they actually don't want to enter , because it 's not really interesting . They wanna go to a completely different point where they can look at it and take a picture .
+Turn 110, A (PhD): Oh , OK .
+Turn 111, D (Grad): Hmm .
+Turn 112, A (PhD): Yeah .
+Turn 113, B (Grad): And so what uh uh a s you s let 's say a simple parse from a s from an utterance won't really give us is what the person actually wants . Does he wanna go there to see it ? Does he wanna go there now ? Later ? How does the person wanna go there ? Is that person more likely to want to walk there ? Walk a scenic route ? and so forth . There are all kinds of decisions that we have identified in terms of getting to places and in terms of finding information about things . And we are constructing {disfmarker} and then we 've identified more or less the extra - linguistic parameters that may f play a role . Information related to the user and information related to the situation . And we also want to look closely on the linguistic information that what we can get from the utterance . That 's part of why we implant these intentions in the data collection to see whether people actually phrase things differently whether they want to enter in order to buy something or whether they just wanna go there to look at it . And um so the idea is to construct uh um suitable interfaces and a belief - net for a module that actually tries to guess what the underlying intention {pause} was . And then enrich or augment the M - three - L structures with what it thought what more it sort of got out of that utterance . So if it can make a good suggestion , " Hey ! " you know , " that person doesn't wanna enter . That person just wants to take a picture , " cuz he just bought film , or " that person wants to enter because he discussed the admission fee before " . Or " that person wants to enter because he wants to buy something and that you usually do inside of buildings " and so forth . These ah these types of uh these bits of additional information are going to be embedded into the M - three - L structure in an {disfmarker} sort of subfield that we have reserved . And if the action planner does something with it , great . If not you know , then that 's also something um that we can't really {disfmarker} at least we {comment} want to offer the extra information . We don't really {disfmarker} um we 're not too worried .
+Turn 114, A (PhD): Mm - hmm .
+Turn 115, D (Grad): Hmm .
+Turn 116, B (Grad): I mean {disfmarker} t s Ultimately if you have {disfmarker} if you can offer that information , somebody 's gonna s do something with it sooner or later . That 's sort of part of our belief .
+Turn 117, E (Grad): What was he saying ?
+Turn 118, B (Grad): Um , for example , right now I know the GIS from email is not able to calculate these viewpoints . So that 's a functionality that doesn't exist yet to do that dynamically ,
+Turn 119, A (PhD): Mm - hmm .
+Turn 120, B (Grad): but if we can offer it that distinction , maybe somebody will go ahead and implement it . Surely nobody 's gonna go ahead and implement it if it 's never gonna be used , so . What have I forgotten about ? Oh yeah , how we do it ,
+Turn 121, F (Professor): Well th uh
+Turn 122, B (Grad): yeah that 's the
+Turn 123, F (Professor): No no . It 's a good time to pause . I s I see {pause} questions on peoples ' faces , so why don't {disfmarker}
+Turn 124, A (PhD): Oh
+Turn 125, F (Professor): let 's {disfmarker} let 's {disfmarker} Let 's hear {disfmarker}
+Turn 126, A (PhD): Well the obvious one would be if {disfmarker} if you envision this as a module within SmartKom , where exactly would that Sit ? That 's the d
+Turn 127, B (Grad): um {disfmarker} so far I 've thought of it as sort of adding it onto the modeler knowledge module .
+Turn 128, A (PhD): OK , yeah .
+Turn 129, B (Grad): So this is one that already adds additional information to the
+Turn 130, D (Grad): Hmm .
+Turn 131, A (PhD): Makes perfect sense . Yes .
+Turn 132, D (Grad): Hmm , ah .
+Turn 133, B (Grad): but it could sit anywhere in the attention - recognition I mean basically this is what attention - recognition literally sort of can {disfmarker}
+Turn 134, A (PhD): Well it 's supposed to do . Yeah
+Turn 135, D (Grad): Mmm .
+Turn 136, F (Professor): That 's what it should do .
+Turn 137, A (PhD): Yeah .
+Turn 138, F (Professor): Right ,
+Turn 139, A (PhD): Yeah .
+Turn 140, F (Professor): yeah .
+Turn 141, D (Grad): Huh .
+Turn 142, B (Grad): Yeah .
+Turn 143, A (PhD): Well f from my understanding of what the people at Phillips were originally trying to do doesn't seem to quite fit into SmartKom currently so what they 're really doing right now is only selecting among the alternatives , the hypotheses that they 're given enriched by the domain knowledge and the um discourse modeler and so on .
+Turn 144, B (Grad): Yeah .
+Turn 145, A (PhD): So if {disfmarker} if this is additional information that could be merged in by them .
+Turn 146, B (Grad): Yeah .
+Turn 147, A (PhD): And then it would be available to action planning and {disfmarker} and others .
+Turn 148, B (Grad): Yeah . the {disfmarker}
+Turn 149, F (Professor): let 's {disfmarker} let 's That w OK that was one question . Is there other {disfmarker} other things that cuz {pause} we wanna not Pa - pass over any {pause} you know , questions or concerns that you have .
+Turn 150, A (PhD): Well there 're {disfmarker} there 're two levels of {disfmarker} of giving an answer and I guess on both levels I don't have any um further questions .
+Turn 151, D (Grad): Mmm . Mmm .
+Turn 152, A (PhD): uh the {disfmarker} the two levels will be as far as I 'm concerned as {pause} uh standing here for the generation module
+Turn 153, D (Grad): Mmm .
+Turn 154, A (PhD): and the other is {disfmarker} is my understanding of what SmartKom uh is supposed to be
+Turn 155, F (Professor): Right .
+Turn 156, A (PhD): and I {disfmarker} I think that fits in perfectly
+Turn 157, F (Professor): So {disfmarker} well , let me {disfmarker} Let me s {pause} expand on that a little bit from the point of view of the generation .
+Turn 158, D (Grad): Hmm .
+Turn 159, A (PhD): Yeah .
+Turn 160, F (Professor): So the idea is that we 've actually got this all laid out an and we could show it to you ig um Robert didn't bring it today but there 's a {disfmarker} a belief - net which is {disfmarker} There 's a first cut at a belief - net that {disfmarker} that doesn't {disfmarker} it {disfmarker} isn't fully uh instantiated , and in particular some of the {disfmarker} the combination rules and ways of getting the {disfmarker} the conditional probabilities aren't there . But we believe that we have laid out the fundamental decisions in this little space
+Turn 161, A (PhD): Mm - hmm .
+Turn 162, F (Professor): and the things that influence them . So one of the decisions is what we call this AVE thing . Do you want to um access , view or enter a thing .
+Turn 163, D (Grad): Hmm .
+Turn 164, F (Professor): So that 's a a discrete decision .
+Turn 165, A (PhD): Mm - hmm .
+Turn 166, F (Professor): There are only three possibilities and the uh {disfmarker} what one would like is for this uh , knowledge modeling module to add which of those it is and give it to the planner .
+Turn 167, A (PhD): Mm - hmm .
+Turn 168, F (Professor): But , uh th the current design suggests that if it seems to be an important decision and if the belief - net is equivocal so that it doesn't say that one of these is much more probable than the other , then an option is to go back and ask for the information you want .
+Turn 169, A (PhD): Mm - hmm .
+Turn 170, F (Professor): Alright ? Now there are two ways one can go {disfmarker} a imagine doing that . For the debugging we 'll probably just have a {disfmarker} a drop - down menu and the {disfmarker} while you 're debugging you will just {disfmarker} OK . But for a full system , then one might very well formulate a query ,
+Turn 171, A (PhD): Mm - hmm .
+Turn 172, F (Professor): give it to the dialogue planner and say this , you know ar are you know you {disfmarker} are you planning to enter ? Or whatever it {disfmarker} whatever that might be . So that 's {disfmarker} under that model then , There would be a {disfmarker} uh {disfmarker} um a loop in which this thing would formulate a query ,
+Turn 173, A (PhD): Yes .
+Turn 174, F (Professor): presumably give it to you . That would get expressed and then hopefully you know , you 'd get an answer {pause} back .
+Turn 175, A (PhD): Yep .
+Turn 176, F (Professor): And that would of course {disfmarker} the answer would have to be parsed .
+Turn 177, D (Grad): Mmm . Yep .
+Turn 178, F (Professor): right and {disfmarker}
+Turn 179, A (PhD): Yes .
+Turn 180, F (Professor): OK so , {pause} th {pause} that uh , We probably won't do this early on , because the current focus is more on the decision making and stuff like that .
+Turn 181, A (PhD): Yep .
+Turn 182, F (Professor): But While we 're on the subject I just wanted to give you a sort of head 's up that it could be that some months from now we said " OK we 're now ready to try to close that loop " in terms of querying about some of these decisions .
+Turn 183, A (PhD): Mm - hmm . Mm - hmm .
+Turn 184, D (Grad): Hmm .
+Turn 185, A (PhD): Yep . So {disfmarker} my suggestion then is that you um look into the currently ongoing discussion about how the action plans are supposed to look like . And they 're currently um Agreeing or {disfmarker} or in the process of agreeing on an X M L - ification of um something like a state - transition network of how dialogues would proceed . and {disfmarker} The {disfmarker} these um transition networks uh will be what the action planner interprets in a sense .
+Turn 186, F (Professor): Hmm . D did you know this Robert ?
+Turn 187, B (Grad): uh Michael is doing that , right ?
+Turn 188, A (PhD): Well uh Marcus Lerkult is actually implementing that stuff and Marcus and Michael together are um leading the discussion there , yeah .
+Turn 189, B (Grad): OK .
+Turn 190, F (Professor): So we ha we have to get in on that .
+Turn 191, A (PhD): Yep .
+Turn 192, B (Grad): Mm - hmm .
+Turn 193, D (Grad): Mmm .
+Turn 194, F (Professor): because um partly those are like X - schemas .
+Turn 195, A (PhD): Definitely .
+Turn 196, F (Professor): the transition diagrams .
+Turn 197, B (Grad): Hmm .
+Turn 198, F (Professor): And it may be that {disfmarker} that um we should early on make sure that they have the flexibility that we need .
+Turn 199, B (Grad): Hmm . But they uh Have I understood this right ? They {disfmarker} they govern more or less the {disfmarker} the dialogue behavior or the action {disfmarker}
+Turn 200, A (PhD): Mm - hmm .
+Turn 201, B (Grad): It 's not really what you do with the content of the dialogue but it 's So , I mean there is this {disfmarker} this {disfmarker} this nice interf
+Turn 202, D (Grad): uh , No , it 's {disfmarker} it 's also a quantrant uh uh {disfmarker}
+Turn 203, B (Grad): i Is it {disfmarker}
+Turn 204, F (Professor): So there 's ac so there {disfmarker} th the word " action " , OK , is {disfmarker} is what 's ambiguous here .
+Turn 205, D (Grad): I think . Hmm .
+Turn 206, A (PhD): Yes .
+Turn 207, F (Professor): So , um one thing is there 's an actual planner that tells the person in the tourist domain now ,
+Turn 208, A (PhD): OK .
+Turn 209, F (Professor): per tells the person how to go , " First go here ,
+Turn 210, D (Grad): Mm - hmm .
+Turn 211, F (Professor): first go there uh , you know , take a bus " , whatever it is . So that 's that form of planning , and action , and a route planner and GIS , all sort of stuff . uh But I think that isn't what you mean .
+Turn 212, A (PhD): No . No , in SmartKom terminology that 's um called a function that 's modeled by a function modeler . And it 's th that 's completely um encapsulated from th the dialogue system . That 's simply a functionality that you give data as in a query and then you get back from that mmm , a functioning model um which might be a planner or a VCR or whatever . um some result and that 's then {disfmarker} then used .
+Turn 213, F (Professor): Well , OK , so that 's what I thought . So action he action here means dia uh speech ac uh you know dialogue act .
+Turn 214, A (PhD): Yeah , yeah . Yeah , in that {disfmarker} in that sense
+Turn 215, B (Grad): Mmm .
+Turn 216, A (PhD): yes , dialogue act ,
+Turn 217, F (Professor): Yeah .
+Turn 218, A (PhD): yeah .
+Turn 219, F (Professor): Um , I think tha I think it 's not going to {disfmarker} I think that 's not going to be good enough . I I don what uh {disfmarker} what I meant by that . So I think the idea of having a , you know , transition diagram for the grammar of conversations is a good idea .
+Turn 220, A (PhD): Mm - hmm .
+Turn 221, F (Professor): OK ? And I think that we do hav definitely have to get in on it and find out {disfmarker} OK . But I think that um when {disfmarker} so , when you get to the tourist domain it 's not just an information retrieval system .
+Turn 222, A (PhD): Mm - hmm . Clearly . Yes .
+Turn 223, F (Professor): Right ? So this i this is where I think this {disfmarker} people are gonna have to think this through a bit more carefully .
+Turn 224, A (PhD): Mm - hmm .
+Turn 225, F (Professor): So , if it 's only like in {disfmarker} in the {disfmarker} in the film and T V thing , OK , you can do this . And you just get information and give it to people . But what happens when you actually get them moving and so forth and so on
+Turn 226, A (PhD): Yep .
+Turn 227, F (Professor): Uh , y y your {disfmarker} I d I think the notion of this as a self contained uh module you know th the functional module that {disfmarker} that interacts with {disfmarker} with where the tourism g stuff is going {comment} probably is too restrictive .
+Turn 228, A (PhD): Yep .
+Turn 229, F (Professor): Now I dunno how much people have thought ahead to the tourist domain in this
+Turn 230, A (PhD): Probably not enough , I mean an {disfmarker} another uh more basic point there is that the current um tasks and therefore th the concepts in this ac what 's called the action plan and what 's really the dialogue manager .
+Turn 231, F (Professor): Yeah
+Turn 232, A (PhD): um is based on slots that have to be filled and the um kind of values in these slots would be fixed things like the a time or a movie title or something like this
+Turn 233, F (Professor): Mm - hmm . Right .
+Turn 234, A (PhD): whereas in the a um tourist domain it might be an entire route . Set - based , or even very complex structured information in these slots
+Turn 235, F (Professor): Indeed . Right .
+Turn 236, A (PhD): and I 'm not sure if {disfmarker} if complex slots of that type are really um being taken into consideration .
+Turn 237, F (Professor): OK .
+Turn 238, A (PhD): So that 's {disfmarker} that 's really something we
+Turn 239, F (Professor): Could you {disfmarker} could you put a message into the right place to see if we can at least ask that question ?
+Turn 240, A (PhD): Mm - hmm .
+Turn 241, B (Grad): Yep .
+Turn 242, A (PhD): I mean nothing 's being completely settled there
+Turn 243, B (Grad): rea yep
+Turn 244, A (PhD): so this is really an ongoing discussion
+Turn 245, B (Grad): Mm - hmm
+Turn 246, A (PhD): and that 's
+Turn 247, B (Grad): yeah and um it might actually OK ah also {disfmarker} because um again in in Deep Map we have faced and implemented those problems once already
+Turn 248, A (PhD): Mm - hmm .
+Turn 249, B (Grad): maybe we can even shuffle some know how from there to to Markus and Michael .
+Turn 250, A (PhD): Yes .
+Turn 251, D (Grad): Mmm .
+Turn 252, A (PhD): Yep .
+Turn 253, B (Grad): And um mmm You don't know {disfmarker} OK th I 'll {disfmarker} I 'll talk to Michael it 's what I do anyway . Who {disfmarker} How far is the uh the {disfmarker} the M - three - L specification for {disfmarker} for the la natural language input gone on the {disfmarker} the uh I haven't seen anything for the uh tourist path domain .
+Turn 254, D (Grad): Yeah , it 's {disfmarker} it 's not defined yet .
+Turn 255, B (Grad): And um you are probably also involved in that ,
+Turn 256, D (Grad): Um {disfmarker} Yeah .
+Turn 257, B (Grad): right ? uh together with the usual gang , um Petra and Jan
+Turn 258, D (Grad): Mmm . Yeah , there 's a meeting next next week I think
+Turn 259, B (Grad): OK because That 's {disfmarker} Those are the {disfmarker} I think the {disfmarker} the true key issues is how does the whatever comes out of the language input pipeline look like and then what the action planner does with it {disfmarker} and how that is uh specified . I didn't think of the internal working of the uh the action planner and the language {disfmarker} uh the function model as sort of relevant . Because what {disfmarker} what they take is sort of this {disfmarker} this fixed representation of a {disfmarker} of an intention .
+Turn 260, A (PhD): Mm - hmm .
+Turn 261, B (Grad): And that can be as detailed or as crude as you want it to be . But um the internal workings of of the {disfmarker} whether you know there 're dialogue {disfmarker} action planners that work with belief - nets that are action planners that work with you know state automata . So that shouldn't really matter too much . I mean it does matter because it does have to keep track of you {disfmarker} we are on part six of r a route that consists of eight steps and so forth
+Turn 262, A (PhD): Right .
+Turn 263, F (Professor): Yeah , th there {disfmarker} there {disfmarker} I think there are a lot of reasons why it matters . OK , so that uh , for example , the i it 's the action planner is going to take some spec and s make some suggestions about what the user should do . What the user says after that is going to be very much caught up with what the action planner told it .
+Turn 264, A (PhD): Yes .
+Turn 265, F (Professor): If the {disfmarker} If the parser and the language end doesn't know what the person 's been told OK th it 's you 're making your life much more difficult than it has to be .
+Turn 266, B (Grad): Yeah .
+Turn 267, F (Professor): Right ? So if someone says the best t to uh go there is by taxi , let 's say . Now the planner comes out and says you wanna get there fast , take a taxi . OK . And the language end doesn't know that . OK , there 's all sorts of dialogues that won't make any sense which would be just fine .
+Turn 268, A (PhD): hmm
+Turn 269, B (Grad): Yeah .
+Turn 270, F (Professor): uh
+Turn 271, A (PhD): That would b but that {disfmarker} I think that {disfmarker} that uh point has been realized and it 's {disfmarker} it 's not really um been defined yet but there 's gonna be some kind of feedback and input from uh the action planner into all the analysis modules , telling them what to expect and what the current state of the discourse is .
+Turn 272, D (Grad): Mmm .
+Turn 273, A (PhD): Beyond what 's currently being implemented which is just word lists .
+Turn 274, F (Professor): Yeah , but this is not the st this is not just the state of the discourse .
+Turn 275, B (Grad): Mm - hmm .
+Turn 276, A (PhD): Of {disfmarker} of special interest .
+Turn 277, F (Professor): This is actually the state of the plan . That 's why
+Turn 278, A (PhD): Yes , Yes , Mm - hmm yeah .
+Turn 279, B (Grad): Mm - hmm .
+Turn 280, F (Professor): OK so it {disfmarker} z and s uh , It 's great if people are already taking that into account . But One would have t have to see {disfmarker} see the details .
+Turn 281, A (PhD): The specifics aren't really there yet . Yes . So , there 's work to do there .
+Turn 282, F (Professor): Yeah . So anyway , Robert , that 's why I was thinking that
+Turn 283, B (Grad): Mm - hmm .
+Turn 284, F (Professor): um I think you 're gonna need {disfmarker} We talked about this several times that {disfmarker} that {disfmarker} the {disfmarker} the input end is gonna need a fair amount of feedback from the planning end .
+Turn 285, A (PhD): hmm
+Turn 286, F (Professor): In {disfmarker} in one of these things which are {disfmarker} are much more continuous than the {disfmarker} just the dialogue over movies and stuff .
+Turn 287, A (PhD): Yeah .
+Turn 288, D (Grad): Mmm .
+Turn 289, A (PhD): And even on {disfmarker} on a more basic level the {disfmarker} the action planner actually needs to be able to have um an expressive power that can deal with these structures . And not just um say um {disfmarker} um the dialogue um will consist of ten possible states and th these states really are fixed in {disfmarker} in a certain sense .
+Turn 290, F (Professor): Hmm ?
+Turn 291, A (PhD): You have to {disfmarker}
+Turn 292, F (Professor): Would there be any chance of getting the terminology changed so that the dialogue planner was called a " dialogue planner " ? Because there 's this other thing The o There 's this other thing in {disfmarker} in the tourist domain which is gonna be a route planner
+Turn 293, A (PhD): That 'd be nice .
+Turn 294, F (Professor): or {disfmarker} It 's really gonna be an action planner . And {comment} i it {disfmarker}
+Turn 295, A (PhD): It oughta be called a {disfmarker} a dialogue manager . cuz that 's what everybody else calls it .
+Turn 296, F (Professor): I would think ,
+Turn 297, D (Grad): Mmm .
+Turn 298, F (Professor): yeah .
+Turn 299, A (PhD): Yeah .
+Turn 300, F (Professor): Huh ? So , s So what would happen if we sent a note saying " Gee we 've talked about this and couldn't we change this uh th the whole word ? " I have no idea how complicated these things are .
+Turn 301, B (Grad): Probably close to impossible .
+Turn 302, A (PhD): Depends on who you talk to how . We 'll see . I 'll go check , cause I completely agree . Yeah ,
+Turn 303, D (Grad): Mmm .
+Turn 304, A (PhD): and I think this is just for historical reasons within uh , the preparation phase of the project and not because somebody actually believes it ought to be action planner . So if there is resistance against changing it , that 's just because " Oh , We don't want to change things . " That {disfmarker} that not deep reason
+Turn 305, F (Professor): OK , anyway . I if {disfmarker} if that c in persists then we 're gonna need another term . for the thing that actually does the planning of the uh routes and whatever we are doing for the tourist .
+Turn 306, B (Grad): That 's external services .
+Turn 307, F (Professor): Yeah , but that 's not g eh tha That ha has all the wrong connotations . it 's {disfmarker} it sounds like it 's you know stand alone . It doesn't interact , it doesn't That 's why I 'm saying . I think you can't {disfmarker} it 's fine for looking up when T you know when the show 's on TV . You go to th but I {disfmarker} I {disfmarker} I {disfmarker} I think it 's really {disfmarker} really wrong headed for something that you {disfmarker} that has a lot of state , it 's gonna interact co in a complicated way with the uh understanding parts .
+Turn 308, B (Grad): Yeah . Yeah I think just the {disfmarker} the spatial planner and the route planner I showed you once the interac action between them among them in the deep map system
+Turn 309, F (Professor): Right .
+Turn 310, B (Grad): so {disfmarker} a printout of the communication between those two fills up I don't know how many pages
+Turn 311, A (PhD): Hmm
+Turn 312, B (Grad): and that 's just part of how do I get to one place . It 's really insane . and uh but um so this is um definitely a good point to get uh Michael into the discussion . Or to enter his discussion , actually .
+Turn 313, A (PhD): Yeah , Marcus .
+Turn 314, B (Grad): That 's the way around . Markus
+Turn 315, A (PhD): Wh - where 's ?
+Turn 316, B (Grad): Is he new in the {disfmarker} in the ?
+Turn 317, A (PhD): Yeah , he 's {disfmarker} he started um I think January .
+Turn 318, D (Grad): Yeah .
+Turn 319, A (PhD): And he 's gonna be responsible for the implementation of this action planner . Dialogue manager .
+Turn 320, B (Grad): Is he gonna continue with the old {disfmarker} uh {disfmarker} thing ?
+Turn 321, A (PhD): No , no he 's completely gonna rewrite everything . In Java .
+Turn 322, B (Grad): OK .
+Turn 323, A (PhD): OK so that 's interesting .
+Turn 324, B (Grad): Yes I was just {disfmarker} that 's my next question
+Turn 325, A (PhD): hmm
+Turn 326, B (Grad): whether we 're {disfmarker} we 're gonna stick to Prolog or not .
+Turn 327, A (PhD): No . No , that 's gonna be phased out .
+Turn 328, F (Professor): Yeah .
+Turn 329, B (Grad): OK But I do think the {disfmarker} the function modeling concept has a certain {disfmarker} makes sense in a {disfmarker} in a certain light
+Turn 330, A (PhD): Yeah .
+Turn 331, B (Grad): because the action planner should not be {disfmarker} or the dialogue manager in that case should not um w have to worry about whether it 's interfacing with um something that does route planning in this way or that way
+Turn 332, A (PhD): Mm - hmm .
+Turn 333, F (Professor): I I totally agree .
+Turn 334, B (Grad): huh ,
+Turn 335, F (Professor): Sure .
+Turn 336, B (Grad): it j
+Turn 337, F (Professor): Yeah I {disfmarker} I agree . There is {disfmarker} there 's a logic to dialogue which {disfmarker} which is {disfmarker} is separable . I Yeah .
+Turn 338, B (Grad): and it {disfmarker} cant {disfmarker} sort of formulate its what it wants in a {disfmarker} in a rather a abstract uh way , you know f " Find me a good route for this . "
+Turn 339, F (Professor): Mm - hmm .
+Turn 340, B (Grad): It doesn't really have to worry ab how route planner A or how route planner B actually wants it . So this is {disfmarker} seemed like a good idea . In the beginning .
+Turn 341, F (Professor): It 's tricky . It 's tricky because one could well imagine {disfmarker} I think it will turn out to be the case that uh , this thing we 're talking about , th the extended n uh knowledge modeler will fill in some parameters about what the person wants . One could well imagine that the next thing that 's trying to fill out the detailed uh , route planning , let 's say , will also have questions that it would like to ask the user . You could well imagine you get to a point where it 's got a {disfmarker} a choice to make and it just doesn't know something .
+Turn 342, A (PhD): Mm - hmm .
+Turn 343, F (Professor): And so y you would like it t also be able to uh formulate a query . And to run that back through uh . the dialogue manager and to the output module and back around .
+Turn 344, B (Grad): hmm
+Turn 345, F (Professor): And a I a a good design would {disfmarker} would allow that to happen .
+Turn 346, B (Grad): a lot of , yeah
+Turn 347, D (Grad): Mmm .
+Turn 348, F (Professor): If {disfmarker} if you know if {disfmarker} if you can't make it happen then you {disfmarker} you do your best .
+Turn 349, A (PhD): Yeah but that doesn't necessarily contradict um an architecture where there really is a pers a def well - defined interface . and {disfmarker} and
+Turn 350, F (Professor): I totally agree . But {disfmarker} but what it nee but th what the point is the in that case the dialogue manager is sort of event driven . So the dialogue manager may think it 's in a dialogue state of one sort ,
+Turn 351, A (PhD): Mm - hmm .
+Turn 352, F (Professor): and this {disfmarker} one of these planning modules comes along and says " hey , right now we need to ask a question " . So that forces the dialogue manager to change state .
+Turn 353, A (PhD): Yes
+Turn 354, F (Professor): OK .
+Turn 355, A (PhD): Sure ,
+Turn 356, F (Professor): It could be y
+Turn 357, A (PhD): ye yeah I {disfmarker} I think that 's {disfmarker} that 's the um concept that people have ,
+Turn 358, F (Professor): Yeah , yeah it {disfmarker} it {disfmarker}
+Turn 359, A (PhD): yep .
+Turn 360, F (Professor): OK .
+Turn 361, A (PhD): And {disfmarker} and the {disfmarker} the underlying idea of course is that there is something like kernel modules with kernel functionality that you can plug uh certain applications like tourist information or um the home scenario with uh controlling a VCR and so on . And then extend it to an arbitrary number of applications eventually . So {disfmarker} wouldn't That 's an additional reason to have this well - defined interface and keep these things like uh tourist information external .
+Turn 362, F (Professor): Oh , yeah , yeah .
+Turn 363, A (PhD): And then call it external services .
+Turn 364, B (Grad): Hmm .
+Turn 365, A (PhD): But of course the {disfmarker} the more complex {disfmarker}
+Turn 366, B (Grad): Yeah , there is another philosophical issue that I think you know you can {disfmarker} evade
+Turn 367, A (PhD): yep .
+Turn 368, B (Grad): but , at at least it makes sense to me that sooner or later uh {disfmarker} a service is gonna come and describe itself to you . and that 's sort of what Srini is working on in {disfmarker} in {disfmarker} in the DAML uh project where um you {disfmarker} you find a GIS about {disfmarker} that gives you information on Berkeley ,
+Turn 369, A (PhD): Yeah .
+Turn 370, B (Grad): and it 's {disfmarker} it 's gonna be there and tell you what it can do and how it wants to do things . and so you can actually interface to such a system without ever having met it before and the function modeler and a self - description of the um external service haggle it out
+Turn 371, A (PhD): Hmm .
+Turn 372, B (Grad): and you can use the same language core , understanding core to interface with planner - A , planner - B , planner - C and so forth .
+Turn 373, A (PhD): Hmm .
+Turn 374, D (Grad): Mmm .
+Turn 375, B (Grad): Which is , you know , uh {disfmarker} uh {disfmarker} utopian {disfmarker} completely utopian at the moment , but slowly , you know , getting into the realm of the uh contingent .
+Turn 376, A (PhD): Hmm .
+Turn 377, B (Grad): But we are facing of course much more um realistic problems . And language input for example , is of course uh crucial you know also when you do the sort of deep understanding analysis that we envision . um Then of course , the uh um , you know what is it {disfmarker} poverty of the stimulus , yet the m uh the less we get of that the better . and um so we {disfmarker} we 're thinking , for example how much syntactic analysis actually happens already in the parser . and whether one could interface to that potentially
+Turn 378, D (Grad): Hmm . Yeah , are there currently is uh no syntactic analysis but in the next release there will be some .
+Turn 379, B (Grad): Hmm .
+Turn 380, D (Grad): unless
+Turn 381, F (Professor): How 's it {disfmarker}
+Turn 382, D (Grad): and it 's um uh you can access this
+Turn 383, F (Professor): S so uh y we {disfmarker} we looked at the e current pattern matching thing .
+Turn 384, D (Grad): Hmm .
+Turn 385, F (Professor): And as you say it 's just a surface pattern matcher . Uh , So what are {disfmarker} what are the plans roughly ?
+Turn 386, D (Grad): um it 's to {disfmarker} to integrate and syntactic analysis . and um add some more features like segmentation . So then an utter more than one utterance is {disfmarker} There um there 's often uh pause between it and a segmentation occurs . um
+Turn 387, F (Professor): So , the um {disfmarker} So the idea is to uh {disfmarker} have a pa y y a particular {disfmarker}
+Turn 388, D (Grad): yeah
+Turn 389, F (Professor): Do you have a particular parser in mind ? Is it uh {disfmarker} partic d I mean have you thought through {disfmarker} ? Is it an HPSG parser ? Is it a whatever ?
+Turn 390, D (Grad): No {disfmarker} no it 's {disfmarker} uh I think it 's it 's totally complicated for it 's just one {disfmarker} one person
+Turn 391, F (Professor): OK .
+Turn 392, D (Grad): and so I have to keep the {disfmarker}
+Turn 393, F (Professor): Oh , you have to do it . You have to do it ,
+Turn 394, D (Grad): Yeah ,
+Turn 395, F (Professor): yeah .
+Turn 396, D (Grad): ah and so {vocalsound} things must be simpler
+Turn 397, F (Professor): I see ,
+Turn 398, D (Grad): but uh , Miel syntactic analysis with um finite state transducers .
+Turn 399, F (Professor): so But the people at D F Yeah . People at DFKI have written a fair number of parsers . Other {disfmarker} you know , people over the years . uh have written various parsers at DFKI . None of them are suitable ? I {disfmarker} I {disfmarker} I d I 'm asking . I don't know .
+Turn 400, D (Grad): Yeah , uh the problem is th that it has to be very fast because um if you want to for more than one path anywhere
+Turn 401, F (Professor): OK .
+Turn 402, D (Grad): what 's in the latches from the speech recognizer
+Turn 403, F (Professor): Mm - hmm .
+Turn 404, D (Grad): so it 's speed is crucial . uh And they are not fast enough .
+Turn 405, F (Professor): Mm - hmm .
+Turn 406, D (Grad): And they also have to be very robust . cuz of um speech recognition errors and
+Turn 407, F (Professor): OK . So , um {disfmarker} So there was a chunk parser in Verbmobil , that was one of the uh branchers . You know they {disfmarker} d th I c There were these various uh , competing uh syntax modules . And I know one of them was a chunk parser and I don't remember {pause} who did that .
+Turn 408, B (Grad): A Alan ?
+Turn 409, D (Grad): I think it 's that might , at Tuebingen I thought .
+Turn 410, F (Professor): Yeah I d I don't remember .
+Turn 411, D (Grad): was {disfmarker} Do you know something about that ?
+Turn 412, A (PhD): Tubingen was at least involved in putting the chunks together
+Turn 413, D (Grad): In Tub - at {disfmarker}
+Turn 414, A (PhD): I {disfmarker} can't quite recall whether they actually produced the chunks in the first place .
+Turn 415, D (Grad): oh
+Turn 416, F (Professor): Uh . I see . Yeah , that 's right .
+Turn 417, A (PhD): Or wh
+Turn 418, D (Grad): Oh from {disfmarker} from Stuttgart ,
+Turn 419, F (Professor): There w That 's right . They w They had {disfmarker} There were {disfmarker} This was done with a two phase thing , where {comment} the chunk parser itself was pretty stupid
+Turn 420, D (Grad): yeah , also
+Turn 421, F (Professor): and then there was a kind of trying to fit them together that h used more context .
+Turn 422, A (PhD): Right . Yeah
+Turn 423, F (Professor): Right ?
+Turn 424, A (PhD): Well you s and {disfmarker} and especially you did some {disfmarker} some um , l um was a learning - based approach which learned from a big corpus of {disfmarker} of trees .
+Turn 425, D (Grad): Mm - hmm .
+Turn 426, F (Professor): Right .
+Turn 427, A (PhD): And yes the {disfmarker} it {disfmarker} the chunk parser was a finite - state machine that um Mark Light originally w worked on in {disfmarker} while he was in Tuebingen
+Turn 428, F (Professor): Right .
+Turn 429, A (PhD): and then somebody else in Tuebingen picked that up . So it was done in Tuebingen , yeah . Definitely .
+Turn 430, F (Professor): But is that the kind of thing y It sounds like the kind of thing that you were thinking of .
+Turn 431, A (PhD): Yeah I guess it 's similar .
+Turn 432, D (Grad): yeah . yeah that 's In this direction , yes
+Turn 433, F (Professor): What ?
+Turn 434, D (Grad): Yeah , it 's in {disfmarker} in this direction .
+Turn 435, B (Grad): The {disfmarker}
+Turn 436, F (Professor): Hmm .
+Turn 437, B (Grad): From Michael Strube , I 've heard very good stuff about the chunk parser that is done by FORWISS , uh , which is in embassy doing the parsing .
+Turn 438, A (PhD): Mm - hmm .
+Turn 439, B (Grad): So this is sort of {disfmarker} came as a surprise to me that you know , embassy s {comment} is featuring a nice parser but it 's {pause} what I hear . One could also look at that and see whether there is some synergy possible .
+Turn 440, D (Grad): Mm - hmm , yeah , it would be very interesting , Mm - hmm . Mmm , yeah .
+Turn 441, B (Grad): And they 're doing chunk parsing and it 's uh {disfmarker} I {disfmarker} I can give you the names of the people who do it there . But um . Then there is of course more ways of parsing things .
+Turn 442, F (Professor): Of course . But {disfmarker} But uh given th the constraints , that you want it to be small and fast and so forth , my guess is you 're probably into some kind of chunk parsing . And uh I 'm not a big believer in this um statistical you know , cleaning up uh It {disfmarker} That seems to me kind of a last resort if uh you can't do it any other way . uh but I dunno .
+Turn 443, D (Grad): Hmm .
+Turn 444, F (Professor): It may {disfmarker} i i may be that 's what you guys finally decide do . Uh . And have you looked {disfmarker} uh just {disfmarker} again for context {disfmarker}
+Turn 445, D (Grad): Mm - hmm .
+Turn 446, F (Professor): There is this {disfmarker} this one that they did at SRI some years ago {disfmarker} Fastus ?
+Turn 447, D (Grad): um
+Turn 448, F (Professor): a {disfmarker}
+Turn 449, D (Grad): yeah , I 've {disfmarker} I 've looked at it but {disfmarker} but it 's no {disfmarker} not much uh information available . I found ,
+Turn 450, F (Professor): ah !
+Turn 451, D (Grad): but it 's also finite - state transducers , I thought .
+Turn 452, F (Professor): It is . Yeah . I mean {disfmarker} it 's {disfmarker} it was pretty ambitious .
+Turn 453, D (Grad): and
+Turn 454, F (Professor): And of course it was English oriented ,
+Turn 455, D (Grad): Yeah , and {disfmarker} and Purely finite - state transducers are not so good for German since there 's um
+Turn 456, F (Professor): um w Right .
+Turn 457, D (Grad): The word order is {disfmarker} is uh not fixed
+Turn 458, F (Professor): Yeah , I guess that 's the point is {disfmarker} is all the morphology and stuff . And English is all th all word order . And it makes a lot more sense .
+Turn 459, D (Grad): Yeah .
+Turn 460, F (Professor): And {disfmarker} e Yeah , OK . Good point . So in {disfmarker} in {disfmarker} in German you 've got uh most of this done with
+Turn 461, D (Grad): Mm - hmm . Also it 's uh {disfmarker} it 's um {disfmarker} Yes , uh the um choice between uh this processing and that processing and my template matcher .
+Turn 462, F (Professor): Right . Right .
+Turn 463, D (Grad): 
+Turn 464, F (Professor): So what about Um Did y like Morfix ? a a e y you 've got stemmers ? Or is that something that {disfmarker}
+Turn 465, D (Grad): Um , yeah but it 's all in the {disfmarker} in the lexicon . So it 's {disfmarker}
+Turn 466, F (Professor): But did you have that ?
+Turn 467, D (Grad): Yeah th the information is available .
+Turn 468, F (Professor): OK . I see . So , but {disfmarker}
+Turn 469, D (Grad): So {disfmarker}
+Turn 470, F (Professor): So y you just connect to the lexicon
+Turn 471, D (Grad): Yeah
+Turn 472, F (Professor): and uh at least for German you have all {disfmarker} all of the {disfmarker} uh the stemming information .
+Turn 473, D (Grad): Yeah , we can , oh yeah . We have knowledge bases from {disfmarker} from Verbmobil system we can use
+Turn 474, F (Professor): Yep .
+Turn 475, D (Grad): and so .
+Turn 476, F (Professor): Right . But it {disfmarker} it {disfmarker} it doesn't look like i you 're using it . I didn't n see it being used in the current template uh parser . I {disfmarker} I didn't see any Uh {disfmarker} of course we l actually only looked at the English .
+Turn 477, D (Grad): It {disfmarker} um
+Turn 478, F (Professor): Did we look at the German ? I don't remember .
+Turn 479, D (Grad): Yeah , but {disfmarker} but it 's used for {disfmarker} for stem forms .
+Turn 480, F (Professor): So w wha
+Turn 481, A (PhD): n Well I think {disfmarker} I think there 's some misunderstanding here
+Turn 482, F (Professor): i
+Turn 483, A (PhD): it 's {disfmarker} Morphix is not used on - line .
+Turn 484, D (Grad): Oh , OK .
+Turn 485, A (PhD): s so the lexicon might be derived by Morphix
+Turn 486, D (Grad): What ?
+Turn 487, A (PhD): but What {disfmarker} what 's happening on - line is just um um a {disfmarker} a retrieval from the lexicon which would give all the stemming information
+Turn 488, F (Professor): Right .
+Turn 489, D (Grad): Hmm .
+Turn 490, F (Professor): Right .
+Turn 491, A (PhD): so it would be a full foreign lexicon .
+Turn 492, F (Professor): And that 's what you have .
+Turn 493, A (PhD): Yep .
+Turn 494, D (Grad): Yeah
+Turn 495, F (Professor): OK .
+Turn 496, B (Grad): We threw out all the forms .
+Turn 497, F (Professor): What {disfmarker} uh I didn't reme
+Turn 498, B (Grad): We threw out all the forms
+Turn 499, F (Professor): Huh ?
+Turn 500, B (Grad): because , you know , English , well {disfmarker}
+Turn 501, F (Professor): Oh OK , so it {disfmarker} yeah , s s I thought I 'd {disfmarker}
+Turn 502, D (Grad): Mm - hmm .
+Turn 503, F (Professor): So in German then you actually do case matching and things like in the {disfmarker} in the pattern matcher or not ?
+Turn 504, D (Grad): um Not yet but it 's planned to do that .
+Turn 505, F (Professor): OK . Cuz I r I didn't reme I didn't think I saw it .
+Turn 506, D (Grad): Yeah
+Turn 507, F (Professor): Have we looked at the German ? Oh , I haven yeah that 's {disfmarker} getting it from the lexicon is just fine .
+Turn 508, A (PhD): Sure , right .
+Turn 509, D (Grad): Oh yes .
+Turn 510, F (Professor): Yeah , yeah , yeah . No problem with that . um Yeah and here 's the case where the English and the German might really be significantly different . In terms of if you 're trying to build some fast parser and so forth and {disfmarker} You really might wanna do it in a significantly different way . I don't know . So you 've {disfmarker} you guys have looked at this ? also ? in terms of You know , w if you 're doing this for English as well as German Um Do you think now that it would be this {disfmarker} doing it similarly ?
+Turn 511, D (Grad): um Yeah , it 's um I think it 's um yes , it 's {disfmarker} it 's um possible to {disfmarker} to do list processing . and Maybe this is um more adequate for English and in German um set processing is used .
+Turn 512, F (Professor): Set .
+Turn 513, D (Grad): Maybe yeah . Some extensions uh have to be made . For {disfmarker} for a English version
+Turn 514, F (Professor): Mmm . OK . Interesting . Not easy .
+Turn 515, B (Grad): Well there 's m I 'm sure there 's gonna be more discussion on that after your talk .
+Turn 516, D (Grad): Mm - hmm ,
+Turn 517, B (Grad): We 're just gonna foreshadow what we saw that
+Turn 518, D (Grad): yeah .
+Turn 519, F (Professor): Right . Right .
+Turn 520, B (Grad): and um
+Turn 521, F (Professor): Now actually , um Are you guys free at five ? Or {disfmarker} Do you have to go somewhere at five o ' clock tonight ? W in ten minutes ?
+Turn 522, D (Grad): Ah {disfmarker}
+Turn 523, A (PhD): uh {disfmarker} uh {disfmarker} I think we 're expect {disfmarker}
+Turn 524, D (Grad): mmm . No . Oder there was an {disfmarker} talk ?
+Turn 525, A (PhD): Yeah , there {disfmarker} there 's the um practice talk .
+Turn 526, D (Grad): uh Mmm , yeah .
+Turn 527, F (Professor): Great . So you 're going to that .
+Turn 528, A (PhD): Yeah , that {disfmarker} that 's what we were planning to do .
+Turn 529, F (Professor): That 's good , because that will uh tell you a fair amount about The form of semantic construction grammar that we 're using .
+Turn 530, A (PhD): Yeah . Mm - hmm .
+Turn 531, F (Professor): so {disfmarker} So I th I think that probably as good an introduction as you 'll get .
+Turn 532, D (Grad): Ah .
+Turn 533, F (Professor): Uh to the form of {disfmarker} of uh {disfmarker} conceptual grammar that {disfmarker} that w we have in mind for this .
+Turn 534, D (Grad): Mmm , ah .
+Turn 535, F (Professor): It won't talk particularly about how that relates to what uh Robert was saying at the beginning . But let me give you a very short version of this . So we talked about the fact that There 're going to be a certain number of decisions That you want the knowledge modeler to make , that will be then fed to the function module , that does uh , route planning . It 's called the " route planner " or something .
+Turn 536, A (PhD): Mm - hmm .
+Turn 537, F (Professor): So there are these decisions . And then one half of this we talked about at little bit is how if you had the right information , if you knew something about what was said and about th the something about was the agent a tourist or a native or a business person or uh young or old , whatever . That information , and also about the Uh , what we 're calling " the entity " , Is it a castle , is it a bank ? Is it a s town square , is it a statue ? Whatever . So all that kind of information could be combined into decision networks and give you decisions . But the other half of the problem is How would you get that kind of information from the parsed input ? So , um So what you might try to do is just build more templates , saying uh we 're trying to build a templ you know build a template that w uh somehow would capture the fact that he wants to take a picture .
+Turn 538, D (Grad): Mmm .
+Turn 539, F (Professor): OK ? And {disfmarker} and we could {disfmarker} you could do this . And it 's a small enough domain that probably you , you know {disfmarker}
+Turn 540, D (Grad): Mmm .
+Turn 541, F (Professor): OK . You could do this . But uh from our point of view this is also a research project and there are a couple of people not here for various reasons who are doing doctoral dissertations on this ,
+Turn 542, A (PhD): Mm - hmm .
+Turn 543, F (Professor): and the idea that we 're really after is a very deep semantics based on cognitive linguistics and the notion that there are a relatively small number of primitive conceptual schemas that characterize a lot of activity . So a typical one in this formulation is a container . So this is a static thing . And the notion is that all sorts of physical situations are characterized in terms of containers . Going in and out the portals and con
+Turn 544, D (Grad): Mmm .
+Turn 545, F (Professor): OK . But also , importantly for Lakoff and these guys is all sorts of metaphorical things are also characterized this way . You get in trouble and you know et cetera
+Turn 546, D (Grad): Mmm .
+Turn 547, F (Professor): and so {disfmarker} s So , what we 're really trying to do is to map from the discourse to the conceptual semantics level . And from there to the appropriate decisions .
+Turn 548, A (PhD): Mm - hmm .
+Turn 549, F (Professor): So another one of these primitive , what are called " image schemas " , is uh goal seeking . So this a notion of a source , path , goal , trajector , possibly obstacles .
+Turn 550, A (PhD): Mm - hmm .
+Turn 551, F (Professor): And the idea is this is another conceptual primitive .
+Turn 552, A (PhD): Mm - hmm .
+Turn 553, F (Professor): And that all sorts of things , particularly in the tourist domain , can be represented in terms of uh source , path and goal . So the idea would be could we build an analyser that would take an utterance and say " Aha ! th this utterance is talking about an attempt to reach a goal . The goal is this , the pers the , uh traveller is that , uh the sor w where we are at now is is this , they 've mentioned possible obstacles , et cetera . " So th the {disfmarker} and this is an {disfmarker} again attempt to get very wide coverage . So if you can do this , then the notion would be that across a very large range of domains , you could use this deep conceptual basis as the interface .
+Turn 554, A (PhD): Mm - hmm . Mm - hmm .
+Turn 555, F (Professor): And then , uh The processing of that , both on the input end , recognizing that certain words in a language talk about containers or goals , et cetera , and on the output end , given this kind of information , you can then uh make decisions about what actions to take . Provides , they claim , a very powerful , general notion of deep semantics . So that 's what we 're really doing .
+Turn 556, A (PhD): Mm - hmm .
+Turn 557, F (Professor): And Nancy is going to {disfmarker} Her talk is going to be not about using this in applications , but about modeling how children might learn this kind of uh deep semantic grammar .
+Turn 558, A (PhD): Mm - hmm . Yep , yep . And how do you envision um the {disfmarker} the um this deep semantic to be worked with . Would it be highly ambiguous if and then there would be another module that takes that um highly underspecified deep semantic construction and map it onto the current context to find out what the person really was talking about in that context . or {disfmarker} or a {disfmarker}
+Turn 559, F (Professor): Well that 's {disfmarker} that 's {disfmarker} that 's where the belief - net comes in . So th the idea is , let 's take this business about going to the Powder - Tower .
+Turn 560, A (PhD): Mm - hmm .
+Turn 561, F (Professor): So part of what you 'll get out of this will be the fact tha w if it works right , OK , that this is an agent that wants to go to this place and that 's their goal
+Turn 562, A (PhD): Mm - hmm .
+Turn 563, F (Professor): and there will be additional situational information .
+Turn 564, A (PhD): Oh , OK .
+Turn 565, F (Professor): Uh , OK ,
+Turn 566, A (PhD): th
+Turn 567, F (Professor): part of it comes from the ontology . The tower is this kind of object .
+Turn 568, A (PhD): Mm - hmm . Yeah , OK .
+Turn 569, F (Professor): Part of it comes from the user model .
+Turn 570, A (PhD): Mm - hmm .
+Turn 571, F (Professor): And the idea of the belief - net is it combines the information from the dialogue which comes across in this general way ,
+Turn 572, A (PhD): Mm - hmm .
+Turn 573, F (Professor): you know this is a {disfmarker} this is a goal seeking behavior , along with specific information from the ontology about the kinds of objects involved
+Turn 574, A (PhD): Yeah OK , Yeah , yep yep yep yep
+Turn 575, F (Professor): and about the situation about " Is it raining ? " I don't know . Whatever it is . And so that 's the belief - net that we 've laid out .
+Turn 576, A (PhD): Mm - hmm .
+Turn 577, F (Professor): And so th the coupling to the situation comes in this model from , at th at th at the belief - net , combining evidence from the dialogue with the ontology with the situation .
+Turn 578, A (PhD): Yeah .
+Turn 579, D (Grad): Hmm .
+Turn 580, F (Professor): But Nancy isn't gonna talk about that ,
+Turn 581, A (PhD): Yeah , oh yeah , I see ,
+Turn 582, F (Professor): just about the um
+Turn 583, A (PhD): yeah yeah , really .
+Turn 584, B (Grad): First steps .
+Turn 585, F (Professor): Right . The {disfmarker} the construction grammar .
+Turn 586, B (Grad): And she 's gonna start in a minute .
+Turn 587, F (Professor): In a minute .
+Turn 588, D (Grad): Ah , OK .
+Turn 589, F (Professor): OK .
+Turn 590, G (PhD): Is it i in , then , your place , in five {disfmarker} five - A ?
+Turn 591, A (PhD): Alright .

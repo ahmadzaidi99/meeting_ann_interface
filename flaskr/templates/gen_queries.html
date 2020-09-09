@@ -1,32 +1,30 @@
 {% extends "base.html" %}
 {% block turns %}
-{% for i in range(k, m) %}
+{% for i in range(0, k) %}
 <a id="{{ i }}"></a>
 <p>{{ '(' + (i + 1)|string + ')' + ' ' + meeting['turns'][i].get('name') + ': ' + meeting['turns'][i].get('contribution') }}</p>
 {% endfor %}
 {% endblock %}
 {% block enter_topic %}
 <div class="sidenav">
-   <!-- <form method="post">
+    <form method="post">
         <input type="number" name="line" id="line" placeholder="Jump to line">
         <input type="submit" value="Jump" formmethod="post">
-    </form>-->
+    </form>
 
-
-    <form method="post">
-        <label for="topic">Add Topic</label><br>
-        <textarea id="topic" name="topic" rows="1" cols="30" placeholder="Topic name"></textarea><br>
-        <input type="text" id="range" name="range" size="30" placeholder="Topic range (e.g. 1-43, 231-350)"><br>
-        <input type="submit" value="Add" formmethod="post">
-    </form><br>
-
-     <ol>
+<!--    <ol>
         {% for topic in topics %}
         <li>
-            {{ topic["topic"]}}<br>{{ topic["the_range"] }}
+            {{ topic["topic"]}}<br>{{ topic["range"] }}
         </li>
         {% endfor %}
-    </ol><br>
+    </ol>-->
+    <form method="post">
+        <label for="query">Add query</label><br>
+        <textarea id="query" name="query" rows="1" cols="30" placeholder="Query"></textarea><br>
+        <input type="submit" value="Add" formmethod="post">
+    </form><br>
+<!--
 
     <form action="{{ gen_q }}">
         <input type="submit" value="General Queries">
@@ -35,6 +33,7 @@
     <form action="{{ spe_q }}">
         <input type="submit" value="Specific Queries">
     </form>
+-->
 
 </div>
 {% endblock %}

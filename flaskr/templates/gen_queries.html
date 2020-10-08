@@ -1,29 +1,48 @@
 {% extends "base.html" %}
 {% block turns %}
-{% for i in range(0, k) %}
-<a id="{{ i }}"></a>
-<p>{{ '(' + (i + 1)|string + ')' + ' ' + meeting['turns'][i].get('name') + ': ' + meeting['turns'][i].get('contribution') }}</p>
+{% for turn in turns %}
+<a id="{{ turn }}"></a>
+<p>{{ '(' + (turn + 1)|string + ')' + ' ' + meeting['turns'][turn].get('name') + ': ' + meeting['turns'][turn].get('contribution') }}</p>
 {% endfor %}
 {% endblock %}
 {% block enter_topic %}
 <div class="sidenav">
-    <form method="post">
-        <input type="number" name="line" id="line" placeholder="Jump to line">
-        <input type="submit" value="Jump" formmethod="post">
-    </form>
-
-<!--    <ol>
+        <ol>
         {% for topic in topics %}
         <li>
-            {{ topic["topic"]}}<br>{{ topic["range"] }}
+            {{ topic["topic"]}}<br>{{ topic["the_range"] }}
         </li>
         {% endfor %}
-    </ol>-->
+    </ol><br>
+
     <form method="post">
         <label for="query">Add query</label><br>
-        <textarea id="query" name="query" rows="1" cols="30" placeholder="Query"></textarea><br>
+        <textarea id="query" name="query" rows="1" cols="45" placeholder="Query" autofocus></textarea><br>
+        <div>
+            <input type="checkbox" id="0" name="topic" value="0">
+            <label for="0">General</label><br>
+            {% for k in range(0, topics_length) %}
+            <input type="checkbox" id="{{ (k + 1)|string }}" name="topic" value="{{ (k + 1)|string }}">
+            <label for="{{ (k + 1)|string }}">{{ "Topic " + (k + 1)|string }}</label>
+            <br>
+            {% endfor %}
+        </div>
         <input type="submit" value="Add" formmethod="post">
     </form><br>
+
+    <ol>
+        {% for query in queries %}
+        <li>
+            {{ query["the_query"] }}<br>
+            <a href='/annotate/{{ annotation_id|string }}/summaries/{{ query["id"]|string }}'>Answer</a>
+        </li>
+        {% endfor %}
+    </ol><br>
+    <a href="/meeting/list">Meeting list</a>
+
+
+
+
 <!--
 
     <form action="{{ gen_q }}">

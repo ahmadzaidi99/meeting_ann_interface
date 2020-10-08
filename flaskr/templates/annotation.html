@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block turns %}
+{% for turn in range(num_turns) %}
+<a id="{{ turn }}"></a>
+<p>{{ '(' + (turn + 1)|string + ')' + ' ' + meeting['turns'][turn].get('name') + ': ' + meeting['turns'][turn].get('contribution') }}</p>
+{% endfor %}
+{% endblock %}
+{% block enter_topic %}
+<div class="sidenav">
+    <label>Topics:</label><br>
+        <ol>
+        {% for topic in topics %}
+        <li>
+            {{ topic["topic"]}}<br>{{ topic["the_range"] }}
+        </li>
+        {% endfor %}
+    </ol><br>
+
+    <label>Queries:</label><br>
+    <ol>
+        {% for key, value in sums.items() %}
+        <li>{{ key|string }}</li>
+            <ul>
+                {% for item in value %}
+                <li>{{ item["summary"] }}<br>{{ item["range"] }}</li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </ol><br>
+    <a href="/meeting/list">Meeting list</a>
+
+
+
+
+<!--
+
+    <form action="{{ gen_q }}">
+        <input type="submit" value="General Queries">
+    </form>
+
+    <form action="{{ spe_q }}">
+        <input type="submit" value="Specific Queries">
+    </form>
+-->
+
+</div>
+{% endblock %}

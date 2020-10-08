@@ -5,6 +5,8 @@
     {% for annotation in existing_annotations %}
     <li>
         {{ annotation["annotation_name"] }}<br>
+        <a href="/annotate/{{ annotation['id']|string }}/topics/">Go to annotation</a><br>
+        <a href="/annotation/{{ annotation['id']|string }}/">View annotation</a>
     </li>
 
     {% endfor %}
@@ -13,7 +15,7 @@
 
 <form method="post">
    <label for="topic">Add annotation</label><br>
-   <input type="text"  name="name" size="30" placeholder="Give annotation a name"><br>
-   <input type="submit" value="Add"><br><br>
+   <input type="text"  name="name" size="30" placeholder="Give annotation a name" autofocus><br>
+   <input type="submit" value="Begin"><br><br>
 </form>
 {% endblock %}

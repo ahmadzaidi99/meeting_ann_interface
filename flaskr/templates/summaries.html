@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block turns %}
+{% for turn in turns %}
+<a id="{{ turn }}"></a>
+<p>{{ '(' + (turn + 1)|string + ')' + ' ' + meeting['turns'][turn].get('name') + ': ' + meeting['turns'][turn].get('contribution') }}</p>
+{% endfor %}
+{% endblock %}
+{% block enter_topic %}
+<div class="sidenav">
+    <label>{{ main_query["the_query"] }}</label>
+    <form method="post">
+        <textarea id="summary" name="summary" rows="4" cols="40" placeholder="Summary" autofocus></textarea><br>
+        <input type="text" id="range" name="range" size="30" placeholder="Summary range (e.g. 1-43, 231-350)"><br>
+        <input type="submit" value="Add" formmethod="post">
+        </form><br>
+    <a href="/annotate/{{ annotation_id|string }}/genq/">Back to queries</a><br><br>
+    <label>Previous answers:</label>
+    <ol>
+        {% for sum in summaries %}
+        <li>{{ sum["summary"] }}<br>{{ sum["range"] }}</li>
+        {% endfor %}
+    </ol><br>
+
+
+
+
+<!--
+
+    <form action="{{ gen_q }}">
+        <input type="submit" value="General Queries">
+    </form>
+
+    <form action="{{ spe_q }}">
+        <input type="submit" value="Specific Queries">
+    </form>
+-->
+
+</div>
+{% endblock %}

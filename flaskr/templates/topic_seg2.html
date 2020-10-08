@@ -15,7 +15,7 @@
 
     <form method="post">
         <label for="topic">Add Topic</label><br>
-        <textarea id="topic" name="topic" rows="1" cols="30" placeholder="Topic name"></textarea><br>
+        <textarea id="topic" name="topic" rows="1" cols="30" placeholder="Topic name" autofocus></textarea><br>
         <input type="text" id="range" name="range" size="30" placeholder="Topic range (e.g. 1-43, 231-350)"><br>
         <input type="submit" value="Add" formmethod="post">
     </form><br>
@@ -28,13 +28,9 @@
         {% endfor %}
     </ol><br>
 
-    <form action="{{ gen_q }}">
-        <input type="submit" value="General Queries">
-    </form>
+    <a href="{{ gen_q }}">Queries</a><br>
+    <a href="/meeting/list">Meeting List</a>
 
-    <form action="{{ spe_q }}">
-        <input type="submit" value="Specific Queries">
-    </form>
 
 </div>
 {% endblock %}

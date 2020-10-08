@@ -6,7 +6,12 @@
 </head>
 <body>
 {% for key, value in codes.items() %}
-<a href="/meeting/{{ key }}/annotate">{{ value + " (" + key + ")"}}</a><br>
+<a href="/meeting/{{ key }}/annotate">{{ value + " (" + key + ")"}}</a>
+<a href="/meeting/{{ key }}/view">View</a><br>
+{% endfor %}
+{% for key, value in com_codes.items() %}
+<a href="/meeting/{{ key }}/annotate">{{ value + " (" + key + ")"}}</a>
+<a href="/meeting/{{ key }}/view">View</a><br>
 {% endfor %}
 </body>
 </html>

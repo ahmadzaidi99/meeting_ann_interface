@@ -6,6 +6,9 @@ DROP TABLE IF EXISTS topics;
 DROP TABLE IF EXISTS queries;
 DROP TABLE IF EXISTS annotations;
 DROP TABLE IF EXISTS summaries;
+DROP TABLE IF EXISTS comments;
+
+
 
 CREATE TABLE user (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -30,18 +33,17 @@ CREATE TABLE topics (
   topic TEXT NOT NULL,
   the_range TEXT NOT NULL,
   first_mention INTEGER NOT NULL,
-  comments TEXT,
   prev INT,
   FOREIGN KEY (annotation_id) REFERENCES annotations (id)
 );
 
 CREATE TABLE queries (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    topic_id INTEGER NOT NULL,
+    annotation_id INTEGER NOT NULL,
+    topic_id INTEGER,
     created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     specific INT NOT NULL,
     the_query TEXT NOT NULL,
-    comments TEXT,
     prev INT,
     FOREIGN KEY (topic_id) REFERENCES topics (id)
 );
@@ -51,8 +53,13 @@ CREATE TABLE summaries (
     query_id INTEGER NOT NULL,
     summary TEXT NOT NULL,
     range TEXT NOT NULL,
-    comments TEXT,
     prev INT,
     FOREIGN KEY (query_id) REFERENCES queries (id)
+);
+
+CREATE TABLE comments (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    attached_to TEXT NOT NULL,
+    comment TEXT NOT NULL
 );
 

@@ -1,14 +1,12 @@
-import json
+from flaskr.db import get_db
 
-def get_codes():
-    with open('flaskr/data/codes.json', 'r') as json_file:
-        codes = json.load(json_file)
-        json_file.close()
-    return codes["ICSI"]
+def get_topics(annotation_id):
+    db = get_db()
+    topics = db.execute("SELECT id, topic, the_range, annotation_id FROM topics "
+                        "WHERE annotation_id = ? ORDER BY first_mention DESC", (annotation_id,)).fetchall()
+    return topics
 
 
-codes = get_codes()
+topics = get_topics(103)
 
-for key, value in codes.items():
-    print(key)
-    print(value)
+print(topics.index(1))

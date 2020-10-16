@@ -2,7 +2,11 @@
 {% block turns %}
 {% for turn in turns %}
 <a id="{{ turn }}"></a>
+{% if icsi  %}
+<p>{{ '(' + (turn + 1)|string + ') ' + meeting['turns'][turn].get('id') + ' ' + meeting['turns'][turn].get('name') +  ': ' + meeting['turns'][turn].get('contribution') }}</p>
+{% else %}
 <p>{{ '(' + (turn + 1)|string + ')' + ' ' + meeting['turns'][turn].get('name') + ': ' + meeting['turns'][turn].get('contribution') }}</p>
+{% endif %}
 {% endfor %}
 {% endblock %}
 {% block enter_topic %}

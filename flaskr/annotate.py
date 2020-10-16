@@ -138,6 +138,9 @@ def topic_annotation(annotation_id):
 
     meeting = get_meeting(meeting_id)
 
+    if meeting_id < 159:
+        icsi = True
+
     genq = "/annotate/" + str(session["annotation_id"]) + "/genq/"
 
     if request.method == "POST":
@@ -157,7 +160,8 @@ def topic_annotation(annotation_id):
     #     line = request.form["line"]
     #     return redirect(request.path + "#" + str(int(line) - 1))
 
-    return render_template('topic_seg2.html', topics=get_topics(annotation_id), meeting=meeting, k=0, m=len(meeting['turns']), gen_q=genq)
+    return render_template('topic_seg2.html', topics=get_topics(annotation_id), meeting=meeting,
+                           k=0, m=len(meeting['turns']), gen_q=genq, icsi=icsi)
 
 
 @bp.route("/test/")
@@ -169,6 +173,7 @@ def test():
 @bp.route("/annotate/<int:annotation_id>/genq/", methods=("GET", "POST"))
 @login_required
 def get_queries(annotation_id):
+
     db = get_db()
     meeting_id = db.execute("SELECT meeting_id, id "
                             "FROM annotations WHERE id = ?", (annotation_id,)).fetchone()["meeting_id"]
@@ -177,6 +182,9 @@ def get_queries(annotation_id):
     topics_length = len(topics)
 
     meeting = get_meeting(meeting_id)
+
+    if meeting_id < 159:
+        icsi = True
 
     num_turns = len(meeting["turns"])
 
@@ -206,17 +214,21 @@ def get_queries(annotation_id):
     return render_template("gen_queries.html", meeting=meeting,
                            turns=turns, topics=topics,
                            topics_length=topics_length, queries=annotation_queries(annotation_id),
-                           annotation_id=annotation_id)
+                           annotation_id=annotation_id, icsi=icsi)
 
 
 @bp.route("/annotate/<int:annotation_id>/summaries/<int:query_id>/", methods=("GET", "POST"))
 @login_required
 def summaries(annotation_id, query_id):
+
     db = get_db()
     meeting_id = db.execute("SELECT meeting_id, id "
                             "FROM annotations WHERE id = ?", (annotation_id,)).fetchone()["meeting_id"]
 
     meeting = get_meeting(meeting_id)
+
+    if meeting_id < 159:
+        icsi = True
 
     the_query = db.execute("SELECT topic_id, specific, the_query FROM queries WHERE id = ?", (query_id,)).fetchone()
 
@@ -249,7 +261,7 @@ def summaries(annotation_id, query_id):
 
     return render_template("summaries.html", meeting=meeting, turns=turns,
                            queries=annotation_queries(annotation_id), main_query=the_query,
-                           annotation_id=annotation_id, summaries=summaries)
+                           annotation_id=annotation_id, summaries=summaries, icsi=icsi)
 
 
 @bp.route("/annotation/<int:annotation_id>/", methods=("GET", "POST"))
@@ -259,6 +271,9 @@ def view_annotation(annotation_id):
 
     meeting_id = db.execute("SELECT meeting_id, id FROM annotations WHERE"
                             " id = ?", (annotation_id,)).fetchone()["meeting_id"]
+
+    if meeting_id < 159:
+        icsi = True
 
     meeting = get_meeting(meeting_id)
 
@@ -275,7 +290,7 @@ def view_annotation(annotation_id):
         q_a[query["the_query"]] = sums
 
     return render_template("annotation.html", meeting=meeting, topics=topics,
-                           num_turns=num_turns, sums=q_a)
+                           num_turns=num_turns, sums=q_a, icsi=icsi)
 
 
 @bp.route("/meeting/<int:meeting_id>/view", methods=("GET", "POST"))

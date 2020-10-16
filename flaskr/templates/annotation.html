@@ -1,8 +1,12 @@
 {% extends "base.html" %}
 {% block turns %}
-{% for turn in range(num_turns) %}
-<a id="{{ turn }}"></a>
-<p>{{ '(' + (turn + 1)|string + ')' + ' ' + meeting['turns'][turn].get('name') + ': ' + meeting['turns'][turn].get('contribution') }}</p>
+{% for i in range(num_turns) %}
+<a id="{{ i }}"></a>
+{% if icsi  %}
+<p>{{ '(' + (i + 1)|string + ') ' + meeting['turns'][i].get('id') + ' ' + meeting['turns'][i].get('name') +  ': ' + meeting['turns'][i].get('contribution') }}</p>
+{% else %}
+<p>{{ '(' + (i + 1)|string + ')' + ' ' + meeting['turns'][i].get('name') + ': ' + meeting['turns'][i].get('contribution') }}</p>
+{% endif %}
 {% endfor %}
 {% endblock %}
 {% block enter_topic %}
